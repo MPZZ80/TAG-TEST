@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-06 00:34
+date: 2026-10-06 00:40
 channel: conversation
 method: generated
 status: draft
@@ -31,9 +31,21 @@ Running record of the desk research, so that a new session can continue without 
 
 From 2026-10-06 the scope is Western countries and the more advanced countries of the rest of the world that resemble the West (details in section 3 of `desk_research_instructions.md`). Marco asked for it because he is not sure that what was found in Europe is valuable, mainly for technology solutions and pain points. Every candidate list covers the wider scope; the Global reports list was extended first.
 
+## Languages
+
+From 2026-10-06, sources in languages other than English are in scope and are searched for in their own language (German, French, Spanish, Japanese, Korean and so on), together with the wider geographic scope. Rules in section 3 of `desk_research_instructions.md`. Existing source files do not have the "Language" row yet: add it when each file is next touched.
+
+## To install (before searching in other languages)
+
+Not installed yet. Marco asked to note them; install only when needed.
+
+- **OCR language data for `tesseract`**, for scanned PDFs in other languages. Only English, Italian and the orientation data are installed now. Either install all languages with `brew install tesseract-lang` (large), or download only the ones needed, as was done for Italian, by saving `<code>.traineddata` from the `tessdata_fast` repository of tesseract-ocr into `/opt/homebrew/share/tessdata`. Codes: `deu` German, `fra` French, `spa` Spanish, `nld` Dutch, `por` Portuguese, `swe` Swedish, `nor` Norwegian, `fin` Finnish, `jpn` and `jpn_vert` Japanese, `kor` Korean, `chi_sim` and `chi_tra` Chinese. Codes are from memory; check them with `tesseract --list-langs` after installing. Then add the language to the `language` argument of the OCR call in the conversion recipe below.
+- **Text conversion of PDFs in other languages** needs nothing more: `pymupdf4llm` reads Unicode text, and only scanned pages need OCR.
+- **Translation** needs no plugin: Claude translates the passages. For Marco's own reading of web pages, the browser's built-in page translation is enough.
+
 ## Next step
 
-Marco decides what follows. Options to propose: (a) write the A1 output `01_global_reports.md` from the 26 Global report source files, which needs an in-depth read of the documents in `docs/` and the extraction of the figures marked "None extracted yet"; (b) draft the next candidate list (Academic papers, then Products, Articles, Online forums, Online reviews). Do not start either before he chooses.
+Wait for Marco to vet the 14-candidate extension at the end of `Sources/Global_Reports/GR_candidates.md` (column "Keep?"). Then create the source files and download documents only for the sources he keeps (next IDs: GR-027 onwards), convert the PDFs to Markdown, and decide with him whether to write A1 or draft the next candidate list. The other candidate lists (Academic papers, Products, Articles, Online forums, Online reviews) must also cover the wider scope.
 
 Marco is trying to obtain the items in `Sources/Global_Reports/GR_to_obtain.md`; when he provides files, save them in `docs/` with the naming rule, and create or update the source file.
 
@@ -80,6 +92,8 @@ Second batch, found by search:
 
 ## Log
 
+- 2026-10-06 00:40: Marco asked to include sources in languages other than English and to note what to install to read them. Added the Languages and To install sections here, the language rules to the desk research instructions and a "Language" row to the source file template. No searches were done, as asked; Marco commits and the work restarts the next day.
+- 2026-10-06 00:37: Opened the new links (blocked: StatCan reference guide, BITRE, Arthur D. Little, Econsult). Wrote the extension list with 14 candidates (UK, US, Canada, Australia, Switzerland, MaaS trial, MobilityData, TCRP) at the end of `GR_candidates.md`, added items 14 to 18 to `GR_to_obtain.md`. Waiting for Marco's vetting; no source files or downloads for these yet.
 - 2026-10-06 00:34: Scope extended (see Scope). Two search batches outside the EU done: US Census ACS, UK DfT National Travel Survey, Transport Focus and ORR on disruption information, Statistics Canada, BITRE and ABS in Australia, Swiss Mikrozensus, Sydney MaaS trial, MobilityData, TCRP, Arthur D. Little MaaS report, Helsinki Whim case study. Next: open the links, write the extension list inside `GR_candidates.md` for Marco to vet. Leads for the Academic papers list: MaaS trials what have we learnt (ResearchGate), MaaS trials in Japan, Sydney MaaS users insights (Springer), Singapore MaaS testbed (Springer), real-time information literature review (ResearchGate). Lead for Products: Whim, Tripi/SkedGo, Moovit, Transit.
 - 2026-10-06 00:28: Installed `pymupdf4llm` and `tesseract` (with Italian data) at Marco's request, and converted the 17 PDFs in `docs/` to Markdown in `docs_md/` (0 failures; OCR on a few pages, 19 pages for the Ipsos report). Added a "Markdown copy" row to the source files, `docs_md/` to `.gitignore` and the rule to the desk research instructions and AGENTS.md (entry 16). Found in ISFORT: 102.7 million weekday trips in the first half of 2025 (+6.4%). Not found in the converted text: the ART delay rates and the Pendolaria figures for Sicily and Lombardy.
 - 2026-10-05 23:52: Marco said to proceed with everything. Done: kept all 19 candidates and added the Left out items and the newer ISTAT material (26 Global report sources); wrote `GR_to_obtain.md` with the links that could not be opened; downloaded 19 documents to `docs/`; extracted PDF text with pypdf and checked dates and key figures; wrote 26 source files and 4 article source files; rebuilt `GR_candidates.md` from them. Corrections found on the way: UITP MaaS brief is 2019, UITP hubs brief is 2023, Eurofound hybrid work report is 2023, ISFORT synthesis is readable, ISTAT report on travel before Covid is dated 8 May 2020, the Pendolaria figures in a summary belong to the 2024 edition. Not done: no in-depth reading of the documents, no A1 output, no other candidate list.

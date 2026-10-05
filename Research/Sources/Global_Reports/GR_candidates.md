@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 00:28
+date: 2026-10-06 00:37
 channel: web
 method: review
 status: reviewed
@@ -55,4 +55,50 @@ Sources that could not be opened are in [GR_to_obtain.md](GR_to_obtain.md).
 
 ## Search coverage
 
-Two batches of web searches in English and Italian, then ISTAT and the passenger rights proposals. Not searched yet: sources outside the EU, the European Environment Agency, the JRC, the European Union Agency for Railways, Transport Focus and the Italian Ministry of Transport.
+Two batches of web searches in English and Italian, then ISTAT and the passenger rights proposals. Outside the EU: two batches on the UK, US, Canada, Australia, Switzerland, Japan and Singapore (see the extension below). Not searched yet: the European Environment Agency, the JRC, the European Union Agency for Railways and the Italian Ministry of Transport.
+
+
+## Extension to Western and advanced countries: to vet
+
+Added on 2026-10-06 after the scope was extended (see section 3 of the desk research instructions). **Waiting for Marco's vetting:** nothing here has a source file or a downloaded document yet. I opened each link once, without reading in depth; the "Keep?" column is for Marco.
+
+14 candidates. They add the countries I could reach: the UK, the US, Canada, Australia and Switzerland, plus the technology side (a MaaS trial and an open data standard). The grades are provisional, without the citations criterion.
+
+| # | Source | Produced by | Published | Kind | Country | What it could answer | Access | Expected grade | Keep? |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| N1 | [ORR, Annual rail consumer report 2025 to 2026](https://www.orr.gov.uk/annual-rail-consumer-report-2025-2026) | Office of Rail and Road (UK rail regulator) | 9 July 2026 | Regulator's annual report | UK | Q17–Q23, Q28: passenger information and disruption, what works and what fails | Free | B (6) | |
+| N2 | [ORR, Annual rail consumer report 2024 to 2025](https://www.orr.gov.uk/annual-rail-consumer-report-2024-2025) | Office of Rail and Road | 11 July 2025 | Regulator's annual report | UK | Same questions, previous year, to see what changed | Free | B (5) | |
+| N3 | [Transport User Voice, January 2025: disruption management week](https://www.transportfocus.org.uk/news/transport-user-voice-january-2025-disruption-management-week/) | Transport Focus (UK passenger watchdog) | January 2025 | Passenger research summary | UK | Q17–Q23: what passengers want to know during disruption | Free | B (5) | |
+| N4 | [National Travel Survey 2024: introduction and main findings](https://www.gov.uk/government/statistics/national-travel-survey-2024/nts-2024-introduction-and-main-findings) | Department for Transport | 27 August 2025 | Official statistics, survey | UK | Q1–Q8, Q13: commuting trips, modes, times, change since 2019 | Free | B (6) | |
+| N5 | [Commuting in the United States: 2022, American Community Survey Brief ACSBR-018](https://www2.census.gov/library/publications/2024/demo/acsbr-018.pdf) | US Census Bureau | February 2024 | Official statistics, brief of 8 pages | US | Q1–Q8, Q13: commuting modes and times | Free | B (6) | |
+| N6 | [United States commuting at a glance: American Community Survey 1-year estimates](https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html) | US Census Bureau | Page date to check (estimates for 2024) | Official statistics, data page | US | Q1–Q8: latest US commuting indicators | Free | B (4–6) | |
+| N7 | [Commuting time, 2011 to 2022](https://www150.statcan.gc.ca/n1/pub/14-28-0001/2023001/article/00003-eng.htm) | Statistics Canada | 13 June 2023 | Official statistics, article | Canada | Q1–Q8: commute duration by mode | Free | B (6) | |
+| N8 | [Australia's journey to work](https://abs.gov.au/articles/australias-journey-work) | Australian Bureau of Statistics | Date to check (2021 Census) | Official statistics, article | Australia | Q1–Q8, Q13: modes and distances to work | Free | B (4–6) | |
+| N9 | [Mobilitätsverhalten der Bevölkerung: Ergebnisse des Mikrozensus Mobilität und Verkehr 2021 (main report)](https://www.are.admin.ch/dam/de/sd-web/tyvYsyXwxXbT/mzmv-hauptbericht2021.pdf) | Federal Statistical Office and Federal Office for Spatial Development | 2023 | Official report, 88 pages, in German | Switzerland | Q1–Q16: very multimodal, high public transport use | Free | B (6) | |
+| N10 | [Pendlermobilität im Jahr 2021](https://www.bfs.admin.ch/bfs/de/home.gnpdetail.2023-0412.html) | Federal Statistical Office | 2023 | Official statistics, news item, in German | Switzerland | Q1–Q8: commuters and their modes | Free | B (5) | |
+| N11 | [The Sydney Mobility as a Service (MaaS) Trial: final report](https://imoveaustralia.com/wp-content/uploads/2021/04/iMOVE-Sydney-MaaS-Trial-Final-Report-March-2021.pdf) | iMOVE Australia | March 2021 | Trial evaluation, 236 pages | Australia | Q24–Q33, Q36–Q38: what trial users valued and what failed | Free | B (4) | |
+| N12 | [Mobility Database: about](https://mobilitydatabase.org/about) | MobilityData (non-profit) | Live page, opened 2026 | Open data catalogue and standards | International | Q18, Q29–Q30: the open data standards (GTFS, GTFS Realtime) behind journey planners | Free | B (5) | |
+| N13 | [Mobility as a Service legislation in Finland](https://www.nordicpolicycentre.org.au/mobility_as_a_service_legislation_in_finland) | Nordic Policy Centre (think tank) | Date to check | Policy article | Finland | Q27–Q33: how a law shaped the Whim MaaS service | Free | C–B (2–4) | |
+| N14 | [TCRP Report 92: Strategies for Improved Traveler Information](https://onlinepubs.trb.org/onlinepubs/tcrp/tcrp_rpt_92.pdf) | Transit Cooperative Research Program, Transportation Research Board | 2003 | Research report | US | Q17–Q19, Q28: long-standing traveller information needs. Old, lower priority | Free | B (4) | |
+
+### Why these, for technology solutions and pain points
+
+- **Pain points:** the UK regulator and the passenger watchdog (N1 to N3) publish what passengers say about information and disruption, which is closer to the commuter's experience than any European source found so far.
+- **Technology solutions:** the Sydney MaaS trial (N11) is a real evaluation of a multimodal app. A web summary says that participants valued support and feedback more than the planner and wallet, and that without a financial incentive they saw little value; this is not verified until the report is read. MobilityData (N12) describes the open standards that journey planners rest on.
+- **Baselines in comparable countries:** N4 to N10 give commuting levels and modes to compare with Italy and the EU.
+
+### Left out
+
+- **Japan, South Korea, Singapore and New Zealand:** searches in English found only market-research pages and a news article. I did not find a primary official report, for example from Japan's ministry of transport. They may need searches in Japanese or Korean, or help from Marco.
+- **Market-research reports on MaaS** (paid summaries by Credence Research, GM Insights and similar): vendor marketing with no method, not listed.
+- **Academic papers on MaaS trials** (Sydney, Japan, Singapore, Helsinki): kept for the Academic papers list.
+- **Transport Focus, Transport User Voice of October 2025 on communicating through disruption:** found in a search summary, not yet located.
+
+### Could not do
+
+These are also in [GR_to_obtain.md](GR_to_obtain.md).
+
+- **BITRE Report 144, "Lengthy commutes in Australia":** the site did not respond.
+- **Statistics Canada commuting reference guide, 2021 census:** blocked (403).
+- **Arthur D. Little, "How to realize the promise of MaaS" (2021):** blocked (403).
+- **Helsinki Whim case study by Econsult (2019):** blocked (403).

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-06 00:28
+date: 2026-10-06 00:37
 channel: conversation
 method: generated
 status: draft
@@ -29,6 +29,16 @@ Sources that I could not open or download, with the link where I found them and 
 | 8 | Commission press release on the Eurobarometer | [Press corner](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_928) | The text of the release | The content is rendered by scripts | Q14–Q15 |
 | 9 | European Parliament page on passenger rights in multimodal journeys | [Legislative train](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-multimodal-framework-for-passenger-rights) | Status of the 2023 proposal | Empty response | Q27–Q33 |
 | 10 | ISFORT 22nd report, full edition | [ISFORT](https://www.isfort.it/) | The full report, not the synthesis | I only found the synthesis; the full edition may need registration or purchase | Q1–Q16 |
+
+## Needs Marco: extension to other countries
+
+| # | What it is | Link | What to get | Why I could not | Would feed |
+| --- | --- | --- | --- | --- | --- |
+| 14 | BITRE Report 144, Lengthy commutes in Australia | [PDF](https://www.bitre.gov.au/sites/default/files/rr_144.pdf) | The report PDF | The site did not respond | Q1–Q8, long commutes in a comparable country |
+| 15 | Statistics Canada, Commuting reference guide, 2021 census | [page](https://www12.statcan.gc.ca/census-recensement/2021/ref/98-500/011/98-500-x2021011-eng.cfm) | The guide, for definitions of commuting and multiple modes | Blocked (403) | Q1–Q8 |
+| 16 | Arthur D. Little, How to realize the promise of Mobility-as-a-Service (2021) | [PDF](https://www.adlittle.com/sites/default/files/reports/ADL_Beyond_MaaS_Report_0.pdf) | The report PDF | Blocked (403) | Q27–Q33, technology solutions |
+| 17 | Helsinki Whim case study, Econsult | [PDF](https://econsultsolutions.com/wp-content/uploads/2019/11/Helsinki-Whim_CaseStudy_MaaS.pdf) | The case study PDF | Blocked (403) | Q33, a MaaS service that scaled |
+| 18 | Official reports from Japan, South Korea, Singapore | none found | Any ministry or agency report on commuting or MaaS in these countries, in English | Not found in English | Q27–Q33 |
 
 ## Optional
 

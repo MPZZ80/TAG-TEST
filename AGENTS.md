@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-10-06 00:34
+date: 2026-10-06 00:40
 channel: Claude Code conversation
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
@@ -70,6 +70,7 @@ This section is the running list of the standing instructions Marco gives during
 | 15 | 2026-10-06 | While doing the desk research, keep everything tracked in `Research/progress.md`, updated as the work goes, so that the work can resume without starting over if tokens run out. Details in section 13 of `Research/desk_research_instructions.md`. | Marco may run out of tokens and wants to restart without redoing everything |
 | 16 | 2026-10-06 | Convert every downloaded PDF to Markdown with `pymupdf4llm` (OCR with `tesseract` where needed) into `Research/docs_md/`, with the same name as the PDF. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the PDFs as Markdown files and asked to install and use these tools |
 | 17 | 2026-10-06 | Extend the research scope from Europe to the Western countries and the more advanced countries of the rest of the world that resemble the West, mainly to find technology solutions and pain points. Details in section 3 of `Research/desk_research_instructions.md`. | Marco is not sure that what was found in Europe is valuable, especially for technology solutions and pain points |
+| 18 | 2026-10-06 | Include sources in languages other than English, searched in their own language, and note which tools to install to read them (in `Research/progress.md`). Details in section 3 of `Research/desk_research_instructions.md`. | Marco wants the research to cover the wider scope in the languages of those countries |
 
 ### Language
 

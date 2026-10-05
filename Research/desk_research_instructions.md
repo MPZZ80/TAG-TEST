@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and plan.md
-date: 2026-10-06 00:34
+date: 2026-10-06 00:40
 channel: Claude Code conversation
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
@@ -38,6 +38,7 @@ The plan says what each activity must cover and where to look. This file says ho
 These are working assumptions that Marco has not confirmed. Proceed on them without asking, and repeat them at the top of the synthesis so he can see what they affected. If the evidence shows one of them does not fit, adjust it, and record what you changed and why.
 
 - **Geography:** Western countries and the more advanced countries of the rest of the world that resemble the West. Italy is the home market. Look for Italian sources first, then European, then the other countries in scope, such as the United States, Canada, the United Kingdom, Switzerland, Norway, Australia, New Zealand, Japan, South Korea and Singapore. The list of countries is my reading of Marco's wording and he has not confirmed it; add a country when its commuting context is similar to Western Europe's, and say why. Countries with very different contexts, for example cities dominated by informal transit, are out of scope unless a source describes a technology solution that is also relevant to the West. Say in every source file which country it covers.
+- **Languages:** sources in languages other than English are in scope and are searched for in their own language, because official reports and user forums are often not published in English. Write every project file in English. Keep a verbatim quote in its original language and add an English translation. A translation is my working translation and is not a certified one: say so, and check key figures and quotes in the original text before relying on them. Marco reads English and Italian; for sources in other languages he depends on my translation, so quote the original passage with the page number so that he can have it checked.
 - **Why the scope is wide:** Marco is not sure that what was found in Europe is valuable, especially for technology solutions and for commuters' pain points, so the research looks for evidence in all comparable countries. When writing a finding, say whether it comes from Europe or from another country, so that Marco can judge whether it transfers.
 - **Door to door:** this is Marco's stated focus, not an assumption. The unit of analysis is the whole journey from the door the commuter leaves to the door they arrive at: first mile, main intercity leg, transfers and last mile, including walking, waiting and parking. Do not reduce the commute to the train or motorway part. For every finding, record which leg it concerns. Evidence about a single leg is useful, but say that it covers only that leg.
 - **Intercity commute:** a recurring trip between two cities for work or study, roughly 30–120 minutes door to door. Purely urban commuting and occasional long-distance travel are out of scope, but keep findings from them when they clearly transfer and label them as such.
@@ -76,7 +77,7 @@ These are working assumptions that Marco has not confirmed. Proceed on them with
 
 1. Read the activity in the plan and the questions it covers in `../Questions/initial_questions.md`.
 2. Read the outputs of earlier activities, so you build on them and do not repeat them.
-3. Write down 5–10 search angles before starting, in English and Italian, covering different modes, both journey stages and every leg of the door-to-door journey.
+3. Write down 5–10 search angles before starting, in English, Italian and the language of each country in scope (for example German, French, Spanish, Japanese or Korean), covering different modes, both journey stages and every leg of the door-to-door journey.
 4. Search broadly first, then go deep on the best sources. Prefer primary sources and literature reviews.
 5. For each source Marco selected on the candidate list, create its source file and download its document as described in section 11, before citing it.
 6. Stop when new sources repeat what you already have, or when the "done when" check in the plan is met. Do not pad.
@@ -291,6 +292,7 @@ tags: [source, <topic>, <topic>]
 | **Published on** | <date, or "undated"> |
 | **Opened on** | <date the agent opened the link> |
 | **Geography** | <countries or cities it covers> |
+| **Language** | <language of the source> |
 | **How it was produced** | <method, sample size, period of data collection, or "not stated"> |
 | **Who paid for it or has an interest** | <funder, sponsor, commercial interest, or "none found"> |
 | **Cited by** | <other source files in this research that cite it; for papers, the citation count, where it comes from and the date> |

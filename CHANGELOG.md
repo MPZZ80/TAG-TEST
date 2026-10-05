@@ -4,6 +4,18 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-06 00:40
+
+- **Files:** `Research/desk_research_instructions.md`, `Research/progress.md`, `AGENTS.md`
+- **Change:** Sources in languages other than English are now in scope: search angles in the language of each country, rules on quotes and working translations, and a "Language" row in the source file template. Progress file: Languages section and a "To install" section with the tesseract language data to add later. `AGENTS.md`: entry 18. No searches were done.
+- **Why:** Marco asked to include non-English languages in the progress file and the desk research instructions, and to note the plugins to install to read other languages; he wanted only these quick changes before committing.
+
+## 2026-10-06 00:37
+
+- **Files:** `Research/Sources/Global_Reports/GR_candidates.md`, `Research/Sources/Global_Reports/GR_to_obtain.md`, `Research/progress.md`
+- **Change:** Added an extension list of 14 candidate sources from the UK, US, Canada, Australia and Switzerland, plus a MaaS trial and an open data standard, to the Global reports candidates, for Marco to vet. Added items 14 to 18 to the list of sources to obtain. Progress file updated.
+- **Why:** Marco asked to try extending the scope to the whole world, because he is not sure that what was found in Europe is valuable, especially for technology solutions and pain points.
+
 ## 2026-10-06 00:34
 
 - **Files:** `Research/desk_research_instructions.md`, `Research/plan.md`, `Research/progress.md`, `AGENTS.md`
