@@ -16,6 +16,7 @@ tags: [source, who, mode-choice]
 | **ID** | GR-023 |
 | **Link** | [Gli spostamenti sul territorio prima del Covid-19, anno 2019](https://www.istat.it/it/archivio/242574) |
 | **Local copy** | [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.pdf](../../docs/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.pdf), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid_tavole.xlsx](../../docs/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid_tavole.xlsx) |
+| **Markdown copy** | [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](../../docs_md/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md) |
 | **Produced by** | ISTAT |
 | **Published by** | ISTAT |
 | **Kind of source** | Press release with full text, methodological note and tables, 6 pages |

@@ -16,6 +16,7 @@ tags: [source, who, mode-choice]
 | **ID** | GR-024 |
 | **Link** | [Spostamenti quotidiani e nuove forme di mobilità, anno 2017](https://www.istat.it/it/files/2018/11/Report-mobilit%C3%A0-sostenibile.pdf) |
 | **Local copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf](../../docs/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf) |
+| **Markdown copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](../../docs_md/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md) |
 | **Produced by** | ISTAT |
 | **Published by** | ISTAT |
 | **Kind of source** | Statistical report, 20 pages |

@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and plan.md
-date: 2026-10-05 23:36
+date: 2026-10-06 00:34
 channel: Claude Code conversation
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
@@ -37,7 +37,8 @@ The plan says what each activity must cover and where to look. This file says ho
 
 These are working assumptions that Marco has not confirmed. Proceed on them without asking, and repeat them at the top of the synthesis so he can see what they affected. If the evidence shows one of them does not fit, adjust it, and record what you changed and why.
 
-- **Geography:** Europe, with Italy as the home market. Look for Italian sources first, then European, then global. Use sources from other regions when they explain a behaviour or a product that is relevant in Europe, and say where they come from.
+- **Geography:** Western countries and the more advanced countries of the rest of the world that resemble the West. Italy is the home market. Look for Italian sources first, then European, then the other countries in scope, such as the United States, Canada, the United Kingdom, Switzerland, Norway, Australia, New Zealand, Japan, South Korea and Singapore. The list of countries is my reading of Marco's wording and he has not confirmed it; add a country when its commuting context is similar to Western Europe's, and say why. Countries with very different contexts, for example cities dominated by informal transit, are out of scope unless a source describes a technology solution that is also relevant to the West. Say in every source file which country it covers.
+- **Why the scope is wide:** Marco is not sure that what was found in Europe is valuable, especially for technology solutions and for commuters' pain points, so the research looks for evidence in all comparable countries. When writing a finding, say whether it comes from Europe or from another country, so that Marco can judge whether it transfers.
 - **Door to door:** this is Marco's stated focus, not an assumption. The unit of analysis is the whole journey from the door the commuter leaves to the door they arrive at: first mile, main intercity leg, transfers and last mile, including walking, waiting and parking. Do not reduce the commute to the train or motorway part. For every finding, record which leg it concerns. Evidence about a single leg is useful, but say that it covers only that leg.
 - **Intercity commute:** a recurring trip between two cities for work or study, roughly 30–120 minutes door to door. Purely urban commuting and occasional long-distance travel are out of scope, but keep findings from them when they clearly transfer and label them as such.
 - **Modes:** all of them. Train, bus and coach, private car, carpooling, car sharing, bike and scooter, park and ride, taxi and ride-hailing, walking, and combinations. Do not let the research collapse into public transport only.
@@ -322,7 +323,9 @@ Links to the findings that rest on this source.
 - When a source is a document, such as a PDF report, a paper, a dataset or a slide deck, download it into `docs/`.
 - Give the downloaded file the same base name as its source file, keeping the original extension, so that the two can be matched at a glance: `GR-003_eurostat_2024_commuting-flows.pdf`.
 - When a source has more than one document, add a short detail at the end, after an underscore, to tell them apart: `GR-003_eurostat_2024_commuting-flows_UE_Synthesis.pdf`. List every document in the "Local copy" row.
-- `docs/` is excluded from Git by `.gitignore`, because the documents belong to their publishers. They stay on Marco's computer and are not pushed to GitHub.
+- Every downloaded PDF is also converted to Markdown, so that it can be read and searched as text. Save the conversion in `docs_md/` with the same base name as the PDF and the extension `.md`, and add its link in the "Markdown copy" row of the source file. Convert with `pymupdf4llm` (installed for Marco's user; free for local use under the AGPL licence), keeping page markers so that figures can be cited with a page number, and use OCR with `tesseract` (installed with Italian data) on pages with almost no text. The conversion starts with a metadata block and a note that it is automatic.
+- A conversion is a working copy and can be imperfect: tables and layout may be off. Check every figure against the original PDF before citing it, and cite the PDF page.
+- `docs/` and `docs_md/` are excluded from Git by `.gitignore`, because the documents belong to their publishers. They stay on Marco's computer and are not pushed to GitHub.
 - Put the link to the downloaded file in the "Local copy" row of the source file.
 - Web pages are not downloaded. The source file records the link and the date it was opened.
 - Do not get around a paywall or a login. If a document cannot be downloaded, write "not available" and the reason in the "Local copy" row.

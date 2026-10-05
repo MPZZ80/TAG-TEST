@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-05 23:52
+date: 2026-10-06 00:28
 channel: web
 method: review
 status: reviewed
@@ -51,7 +51,7 @@ Sources that could not be opened are in [GR_to_obtain.md](GR_to_obtain.md).
 - The ISTAT commuting matrices of 2011 (GR-019) are kept, but the newer ISTAT material is now in GR-023 to GR-026. ISTAT has no narrative report on commuting more recent than GR-023 (May 2020, data 2019); the 2024 and 2025 publications are an interactive product and datasets.
 - Three years in the first list were wrong and are corrected in the source files: the UITP MaaS brief is from May 2019 (not 2025), the UITP mobility hubs brief from April 2023 (not 2025), and the Eurofound report on hybrid work from 2023 (not 2022).
 - The ISFORT synthesis was reported as unreadable; the text can in fact be extracted.
-- Figures from web search summaries that could not be found in the documents (ART delay rates, ISFORT trips, Pendolaria figures for Sicily and Lombardy) are marked as unverified in the source files and are not to be used.
+- Figures from web search summaries that could not be found in the documents (ART delay rates, Pendolaria figures for Sicily and Lombardy) are marked as unverified in the source files and are not to be used.
 
 ## Search coverage
 

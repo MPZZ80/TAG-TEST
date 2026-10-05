@@ -16,6 +16,7 @@ tags: [source, who, why-now]
 | **ID** | GR-014 |
 | **Link** | [Hybrid work in Europe: Concept and practice](https://assets.eurofound.europa.eu/f/279033/bf3ab6054a/ef22011en.pdf) |
 | **Local copy** | [GR-014_eurofound_2023_hybrid-work-in-europe.pdf](../../docs/GR-014_eurofound_2023_hybrid-work-in-europe.pdf) |
+| **Markdown copy** | [GR-014_eurofound_2023_hybrid-work-in-europe.md](../../docs_md/GR-014_eurofound_2023_hybrid-work-in-europe.md) |
 | **Produced by** | Eurofound (Jorge Cabrita and Franz Eiffe), based on work by Matti Vartiainen and Outi Vanharanta (Aalto University) and the Network of Eurofound Correspondents |
 | **Published by** | Publications Office of the European Union, Luxembourg |
 | **Kind of source** | Research report, 48 pages |

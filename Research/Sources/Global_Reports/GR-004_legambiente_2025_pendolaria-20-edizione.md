@@ -16,6 +16,7 @@ tags: [source, disruption, who]
 | **ID** | GR-004 |
 | **Link** | [Pendolaria 2025: la situazione del trasporto pubblico in Italia e gli scenari di mobilità (20th edition)](https://www.legambiente.it/wp-content/uploads/2025/12/Rapporto-Pendolaria-20esima-edizione-1.pdf) |
 | **Local copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.pdf](../../docs/GR-004_legambiente_2025_pendolaria-20-edizione.pdf) |
+| **Markdown copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.md](../../docs_md/GR-004_legambiente_2025_pendolaria-20-edizione.md) |
 | **Produced by** | Legambiente, scientific office and national mobility office (Gabriele Nanni, Simone Nuglio) |
 | **Published by** | Legambiente |
 | **Kind of source** | NGO report on commuter rail and public transport, 62 pages |

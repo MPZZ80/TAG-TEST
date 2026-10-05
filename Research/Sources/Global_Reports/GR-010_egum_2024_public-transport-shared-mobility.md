@@ -16,6 +16,7 @@ tags: [source, mode-choice]
 | **ID** | GR-010 |
 | **Link** | [The optimal ways of complementing public transport with shared mobility solutions in urban and rural/peri-urban areas](https://transport.ec.europa.eu/document/download/2476beda-4ffd-4608-89f3-973013c47f60_en?filename=EGUM_Recommendations_public_transport-shared+mobility.pdf) |
 | **Local copy** | [GR-010_egum_2024_public-transport-shared-mobility.pdf](../../docs/GR-010_egum_2024_public-transport-shared-mobility.pdf) |
+| **Markdown copy** | [GR-010_egum_2024_public-transport-shared-mobility.md](../../docs_md/GR-010_egum_2024_public-transport-shared-mobility.md) |
 | **Produced by** | Expert Group on Urban Mobility (EGUM), Public Transport subgroup, topic 3 |
 | **Published by** | European Commission |
 | **Kind of source** | Expert recommendations, 35 pages |

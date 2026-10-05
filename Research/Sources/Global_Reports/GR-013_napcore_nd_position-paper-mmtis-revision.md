@@ -16,6 +16,7 @@ tags: [source, information, why-now]
 | **ID** | GR-013 |
 | **Link** | [NAPCORE position paper on the revision of the delegated regulation on multimodal travel information services (EU) 2017/1926](https://napcore.eu/wp-content/uploads/2024/02/NAPCORE-Position-paper-on-the-revision-of-the-delegated-regulation-on-multimodal-travel-information-services-EU-20171926-DR-MMTIS.pdf) |
 | **Local copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.pdf](../../docs/GR-013_napcore_nd_position-paper-mmtis-revision.pdf) |
+| **Markdown copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.md](../../docs_md/GR-013_napcore_nd_position-paper-mmtis-revision.md) |
 | **Produced by** | NAPCORE, coordination mechanism of the National Access Points for mobility data (partnership of NAP operators and national bodies) |
 | **Published by** | NAPCORE |
 | **Kind of source** | Position paper, 5 pages |

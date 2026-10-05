@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-05 23:52
+date: 2026-10-06 00:34
 channel: conversation
 method: generated
 status: draft
@@ -27,6 +27,10 @@ Running record of the desk research, so that a new session can continue without 
 | Candidate list | Online reviews | Not started |
 | Activities A1–A8 | All | Not started. A1 (global reports output) is next once Marco decides |
 
+## Scope
+
+From 2026-10-06 the scope is Western countries and the more advanced countries of the rest of the world that resemble the West (details in section 3 of `desk_research_instructions.md`). Marco asked for it because he is not sure that what was found in Europe is valuable, mainly for technology solutions and pain points. Every candidate list covers the wider scope; the Global reports list was extended first.
+
 ## Next step
 
 Marco decides what follows. Options to propose: (a) write the A1 output `01_global_reports.md` from the 26 Global report source files, which needs an in-depth read of the documents in `docs/` and the extraction of the figures marked "None extracted yet"; (b) draft the next candidate list (Academic papers, then Products, Articles, Online forums, Online reviews). Do not start either before he chooses.
@@ -37,6 +41,7 @@ Marco is trying to obtain the items in `Sources/Global_Reports/GR_to_obtain.md`;
 
 - `pdftotext` is not installed. PDF text was extracted with `pypdf`, installed only in the scratchpad: `python3 -m pip install --quiet --target <scratchpad>/lib pypdf`, then run Python with `PYTHONPATH=<scratchpad>/lib`. A helper `page.py` in the scratchpad fetched web pages as text. Both may need to be recreated in a new session.
 - `WebFetch` and web search summaries are not reliable for figures: a summary said the ISFORT PDF was image-only (it is not), gave Eurofound and UITP years that were wrong, and quoted figures that are not in the documents. Verify every figure in the document itself and cite the page.
+- PDFs are converted with `pymupdf4llm` (installed with `pip install --user`, version 0.0.27 on Python 3.9) and `tesseract` 5.5.3 (Homebrew, with `ita.traineddata` added to `/opt/homebrew/share/tessdata`). The conversion script was a temporary file; to redo it, call `pymupdf4llm.to_markdown(doc, page_chunks=True)` per file, write `<!-- page N -->` markers, OCR with `page.get_textpage_ocr(language='ita+eng', dpi=200, full=True, tessdata=...)` on pages with fewer than 40 text characters, and add the metadata block and note. Results are in `docs_md/`.
 - Reddit, McKinsey, INRIX, ITF/OECD web pages and Eurofound web pages block automated requests; see `GR_to_obtain.md`.
 
 ## Candidate links found so far
@@ -75,6 +80,8 @@ Second batch, found by search:
 
 ## Log
 
+- 2026-10-06 00:34: Scope extended (see Scope). Two search batches outside the EU done: US Census ACS, UK DfT National Travel Survey, Transport Focus and ORR on disruption information, Statistics Canada, BITRE and ABS in Australia, Swiss Mikrozensus, Sydney MaaS trial, MobilityData, TCRP, Arthur D. Little MaaS report, Helsinki Whim case study. Next: open the links, write the extension list inside `GR_candidates.md` for Marco to vet. Leads for the Academic papers list: MaaS trials what have we learnt (ResearchGate), MaaS trials in Japan, Sydney MaaS users insights (Springer), Singapore MaaS testbed (Springer), real-time information literature review (ResearchGate). Lead for Products: Whim, Tripi/SkedGo, Moovit, Transit.
+- 2026-10-06 00:28: Installed `pymupdf4llm` and `tesseract` (with Italian data) at Marco's request, and converted the 17 PDFs in `docs/` to Markdown in `docs_md/` (0 failures; OCR on a few pages, 19 pages for the Ipsos report). Added a "Markdown copy" row to the source files, `docs_md/` to `.gitignore` and the rule to the desk research instructions and AGENTS.md (entry 16). Found in ISFORT: 102.7 million weekday trips in the first half of 2025 (+6.4%). Not found in the converted text: the ART delay rates and the Pendolaria figures for Sicily and Lombardy.
 - 2026-10-05 23:52: Marco said to proceed with everything. Done: kept all 19 candidates and added the Left out items and the newer ISTAT material (26 Global report sources); wrote `GR_to_obtain.md` with the links that could not be opened; downloaded 19 documents to `docs/`; extracted PDF text with pypdf and checked dates and key figures; wrote 26 source files and 4 article source files; rebuilt `GR_candidates.md` from them. Corrections found on the way: UITP MaaS brief is 2019, UITP hubs brief is 2023, Eurofound hybrid work report is 2023, ISFORT synthesis is readable, ISTAT report on travel before Covid is dated 8 May 2020, the Pendolaria figures in a summary belong to the 2024 edition. Not done: no in-depth reading of the documents, no A1 output, no other candidate list.
 - 2026-10-05 23:44: Marco said to proceed with everything: keep all 19 candidates and add the Left out items; list the Could not do links in a separate file; asked for a newer ISTAT report. Newer ISTAT material found and opened: La mobilita territoriale (page 2024-02-06, interactive product, commuting from the permanent census), Matrici di contiguita, distanza e pendolarismo (2025-10-08, 2021 matrix, work only), Focus SLL 2021 (PDF, 2025-10), Gli spostamenti sul territorio prima del Covid-19 (press release 2020-05-08, data 2019: 22 million to work, 11 million to school; a search result said May 2021, the page says 2020). Next: write GR_to_obtain.md, update GR_candidates.md, create source files and download documents.
 - 2026-10-05 23:36: Wrote `Sources/Global_Reports/GR_candidates.md` with 19 candidates, a Left out section and a Could not do section. Stage 1 for Global reports is complete; stopped for Marco's vetting as the plan requires.

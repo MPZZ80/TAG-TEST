@@ -16,6 +16,7 @@ tags: [source, why-now, mode-choice]
 | **ID** | GR-020 |
 | **Link** | [Proposal for a Regulation on rail ticketing, COM(2026) 232](https://transport.ec.europa.eu/document/download/a3284ec0-f1ad-4ee4-a558-5d4c17948046_en?filename=Proposal_on_rail_ticketing.pdf) |
 | **Local copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.pdf](../../docs/GR-020_european-commission_2026_com-232-rail-ticketing.pdf) |
+| **Markdown copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.md](../../docs_md/GR-020_european-commission_2026_com-232-rail-ticketing.md) |
 | **Produced by** | European Commission |
 | **Published by** | European Commission |
 | **Kind of source** | Legislative proposal, 40 pages |

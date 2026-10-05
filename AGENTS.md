@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-10-05 23:36
+date: 2026-10-06 00:34
 channel: Claude Code conversation
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
@@ -24,6 +24,7 @@ Repository layout:
 | `Research/` | The research plan, the desk research instructions, the interview script and the research outputs |
 | `Research/Sources/` | One file per source, in a folder per source category |
 | `Research/docs/` | Documents downloaded from the sources. Excluded from Git |
+| `Research/docs_md/` | Markdown conversions of the downloaded PDFs. Excluded from Git |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
 
@@ -67,6 +68,8 @@ This section is the running list of the standing instructions Marco gives during
 | 13 | 2026-10-05 | Grade every source, record confidence as an honest value, verify every citation by opening it, and trace every claim to its source. Details in `Metadata/metadata_schema.md` and `Research/desk_research_instructions.md`. | Not stated; taken from a slide Marco shared ("Sources, confidence") |
 | 14 | 2026-10-05 | Do not set arbitrary steps or numbers for the research. For each source category, draft a concise candidate list for Marco to vet; what follows is decided with him once it is known which sources there are and how many. Details in `Research/plan.md` and `Research/desk_research_instructions.md`. | Marco did not like the arbitrary pilot step and wants to vet the sources before deciding |
 | 15 | 2026-10-06 | While doing the desk research, keep everything tracked in `Research/progress.md`, updated as the work goes, so that the work can resume without starting over if tokens run out. Details in section 13 of `Research/desk_research_instructions.md`. | Marco may run out of tokens and wants to restart without redoing everything |
+| 16 | 2026-10-06 | Convert every downloaded PDF to Markdown with `pymupdf4llm` (OCR with `tesseract` where needed) into `Research/docs_md/`, with the same name as the PDF. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the PDFs as Markdown files and asked to install and use these tools |
+| 17 | 2026-10-06 | Extend the research scope from Europe to the Western countries and the more advanced countries of the rest of the world that resemble the West, mainly to find technology solutions and pain points. Details in section 3 of `Research/desk_research_instructions.md`. | Marco is not sure that what was found in Europe is valuable, especially for technology solutions and pain points |
 
 ### Language
 

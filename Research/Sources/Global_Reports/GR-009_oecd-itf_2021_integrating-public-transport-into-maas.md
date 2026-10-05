@@ -16,6 +16,7 @@ tags: [source, why-now, tools]
 | **ID** | GR-009 |
 | **Link** | [Integrating Public Transport into Mobility as a Service: Summary and Conclusions (Roundtable 184)](https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/10/integrating-public-transport-into-mobility-as-a-service_1ef153c8/94052f32-en.pdf) |
 | **Local copy** | [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.pdf](../../docs/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.pdf) |
+| **Markdown copy** | [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../../docs_md/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md) |
 | **Produced by** | International Transport Forum (OECD), Corporate Partnership Board |
 | **Published by** | OECD / International Transport Forum |
 | **Kind of source** | Roundtable report, 45 pages |

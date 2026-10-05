@@ -16,6 +16,7 @@ tags: [source, who]
 | **ID** | GR-025 |
 | **Link** | [La mobilità territoriale: trasferimenti di residenza e spostamenti quotidiani](https://www.istat.it/notizia/la-mobilita-territoriale-trasferimenti-di-residenza-e-spostamenti-quotidiani/) |
 | **Local copy** | [GR-025_istat_2024_la-mobilita-territoriale_guida-utente.pdf](../../docs/GR-025_istat_2024_la-mobilita-territoriale_guida-utente.pdf), [GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.pdf](../../docs/GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.pdf) |
+| **Markdown copy** | [GR-025_istat_2024_la-mobilita-territoriale_guida-utente.md](../../docs_md/GR-025_istat_2024_la-mobilita-territoriale_guida-utente.md), [GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.md](../../docs_md/GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.md) |
 | **Produced by** | ISTAT |
 | **Published by** | ISTAT |
 | **Kind of source** | Interactive geo-statistical product with a user guide (14 pages) and a methodological note (2 pages) |

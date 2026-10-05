@@ -16,6 +16,7 @@ tags: [source, why-now, mode-choice]
 | **ID** | GR-006 |
 | **Link** | [Impact assessment report SWD(2026) 300 accompanying the proposals on multimodal booking and on rail ticketing](https://transport.ec.europa.eu/document/download/5fd64be7-44b8-4dd3-b084-05c35c5f2a8b_en?filename=SWD_2026_300_Impact_assessment.pdf) |
 | **Local copy** | [GR-006_european-commission_2026_swd-300-impact-assessment.pdf](../../docs/GR-006_european-commission_2026_swd-300-impact-assessment.pdf) |
+| **Markdown copy** | [GR-006_european-commission_2026_swd-300-impact-assessment.md](../../docs_md/GR-006_european-commission_2026_swd-300-impact-assessment.md) |
 | **Produced by** | European Commission (staff working document) |
 | **Published by** | European Commission |
 | **Kind of source** | Impact assessment, 254 pages |

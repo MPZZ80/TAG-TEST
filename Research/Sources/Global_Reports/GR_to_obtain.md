@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-05 23:52
+date: 2026-10-06 00:28
 channel: conversation
 method: generated
 status: draft
@@ -40,5 +40,5 @@ Sources that I could not open or download, with the link where I found them and 
 
 ## I will look for these myself
 
-- The figures on regional train delays and cancellations in the ART report, and the figures a web summary gave for ISFORT (102 million weekday trips, modal shares): they are probably in the documents already downloaded.
+- The figures on regional train delays and cancellations in the ART report, and the ISFORT modal shares a web summary gave: they are probably in the documents already downloaded. The 102.7 million weekday trips are already confirmed in the ISFORT synthesis.
 - The route analysis of 100 representative routes cited in the Commission proposal COM(2026) 231: probably in the impact assessment or its annexes.

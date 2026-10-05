@@ -4,6 +4,19 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-06 00:34
+
+- **Files:** `Research/desk_research_instructions.md`, `Research/plan.md`, `Research/progress.md`, `AGENTS.md`
+- **Change:** Geographic scope extended from Europe to the Western countries and the more advanced countries of the rest of the world that resemble the West (the list of countries is a proposal). Desk research instructions: new geography bullet and the reason for the wider scope; plan: working assumption changed; progress file: scope section; `AGENTS.md`: entry 17.
+- **Why:** Marco is not sure that what was found in Europe is valuable, especially for technology solutions and pain points, and asked to extend the scope to Western and advanced countries similar to the West, and to note it in the desk research instructions and the progress file.
+- **Do not:** limit the research to Europe.
+
+## 2026-10-06 00:28
+
+- **Files:** `Research/docs_md/` (17 files), `Research/Sources/` (source files), `Research/desk_research_instructions.md`, `AGENTS.md`, `Research/plan.md`, `Research/progress.md`, `.gitignore`
+- **Change:** `pymupdf4llm` and `tesseract` installed. The 17 downloaded PDFs were converted to Markdown into the new `Research/docs_md/` folder, with the same name as the PDF. The source files got a "Markdown copy" row, and the ISFORT source file the 102.7 million weekday trips figure now confirmed. Desk research instructions: every downloaded PDF is converted to Markdown, and the conversion is checked against the PDF before any figure is cited. `AGENTS.md`: layout table and entry 16. `.gitignore`: `docs_md/` added.
+- **Why:** Marco asked to install the tools for converting PDFs to Markdown and to use them to extract the PDFs into the folder I had suggested.
+
 ## 2026-10-05 23:52
 
 - **Files:** `Research/Sources/Global_Reports/` (26 source files, `GR_candidates.md`, `GR_to_obtain.md`), `Research/Sources/Articles/` (4 source files), `Research/docs/`, `Research/progress.md`, `Research/plan.md`

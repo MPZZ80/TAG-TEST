@@ -16,6 +16,7 @@ tags: [source, disruption, who]
 | **ID** | GR-003 |
 | **Link** | [Relazione annuale al Parlamento 2025](https://www.autorita-trasporti.it/wp-content/uploads/2025/09/2025-Relazione-Art.pdf) |
 | **Local copy** | [GR-003_art_2025_relazione-annuale.pdf](../../docs/GR-003_art_2025_relazione-annuale.pdf) |
+| **Markdown copy** | [GR-003_art_2025_relazione-annuale.md](../../docs_md/GR-003_art_2025_relazione-annuale.md) |
 | **Produced by** | Autorità di Regolazione dei Trasporti (Italian transport regulator) |
 | **Published by** | Autorità di Regolazione dei Trasporti |
 | **Kind of source** | Regulator's annual report to Parliament, 244 pages |

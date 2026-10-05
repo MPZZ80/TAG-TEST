@@ -16,6 +16,7 @@ tags: [source, mode-choice, disruption]
 | **ID** | GR-017 |
 | **Link** | [Europ Assistance's 2025 Mobility Barometer](https://www.ipsos.com/en/europ-assistances-2025-mobility-barometer) |
 | **Local copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf](../../docs/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf) |
+| **Markdown copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md](../../docs_md/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md) |
 | **Produced by** | Europ Assistance, with the support of Ipsos |
 | **Published by** | Ipsos Insights Hub |
 | **Kind of source** | Commissioned survey; report and press page |

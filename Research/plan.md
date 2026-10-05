@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's notes, brief.md and initial_questions.md
-date: 2026-10-05 23:52
+date: 2026-10-06 00:34
 channel: Claude Code conversation
 method: AI-drafted plan, revised on Marco's instructions
 confidence: medium
@@ -29,7 +29,7 @@ Claude proceeds on these without waiting for confirmation and repeats them at th
 
 | Assumption | Why it matters |
 | --- | --- |
-| Geographic focus is Europe, with Italy as the home market | Reports, operators, apps and forums differ a lot by country |
+| Geographic focus is Western countries and the more advanced countries of the rest of the world that resemble the West, with Italy as the home market (extended from Europe only on 2026-10-06; the list of countries is not confirmed) | Reports, operators, apps and forums differ a lot by country; the wider scope is meant to find technology solutions and pain points that Europe alone does not show |
 | An intercity commute is a recurring trip between two cities that takes roughly 30–120 minutes door to door | Decides which studies and apps are relevant. The door-to-door focus is Marco's; the duration range is still an assumption |
 
 ## 2. How the desk research runs
@@ -206,6 +206,7 @@ Started by Marco after the review in section 6.
 | `Sources/Global_Reports/GR_to_obtain.md` | Global report sources that could not be opened, for Marco to try to obtain | Active |
 | `Sources/` | One file per selected source, in a folder per category | Global reports and 4 articles done |
 | `docs/` | Documents downloaded from the sources | 19 files, Global reports only |
+| `docs_md/` | Markdown conversions of the downloaded PDFs | 17 files, Global reports only |
 | `01_global_reports.md` to `07_data_landscape.md` | Activity outputs | To do |
 | `08_synthesis.md` | Findings and proposed priorities | To do |
 | `question_coverage.md` | Status of Q1–Q40 | To do |
