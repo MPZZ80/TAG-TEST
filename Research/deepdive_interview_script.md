@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-07 15:16
+date: 2026-10-07 19:22
 channel: conversation
 method: generated
 status: draft
@@ -9,28 +9,27 @@ confidence: n/a
 tags: [script]
 ---
 
-# Deep-Dive Interview Script (Version 3)
+# Deep-Dive Interview Script (Version 4)
 
-Topics for the interviews with fellow intercity commuters. The sequence is the same as in versions 1 and 2: it follows the commute as it happens, from the person to the journey, to planning, to the trip itself, to what goes wrong, to the tools, and to what "good" means. Version 3 adds what the complete reading of the desk research found and only commuters can confirm or deny.
+Topics for the interviews with fellow intercity commuters. The sequence is the same as in versions 1 and 2: it follows the commute as it happens, from the person to the journey, to planning, to the trip itself, to what goes wrong, to the tools, and to what "good" means. Version 3 added what the complete reading of the desk research found and only commuters can confirm or deny. Version 4 adds the points raised by the 18 papers read afterwards.
 
 - Question numbers (Q1–Q40) refer to `../Questions/initial_questions.md`.
-- Finding numbers (F1–F52) refer to `desk_research_partial_analysis.md`.
+- Finding numbers (F1–F61) refer to `desk_research_partial_analysis.md`.
 - **[open]** marks a point on which the desk research found nothing. These come first when time is short.
 - **[check]** marks a finding to test against the participant's experience. Ask about the experience; never read the finding out.
 
-## What changed from version 2
+## What changed from version 3
 
-The complete reading of the sources moved four points from "open" to "check" and added seven new things to test.
+Eighteen papers that could not be downloaded before were read in full. They add six things to test. Each was put inside a point that was already in the script, so the topics and the timings are the same as in version 3.
 
-- **Hybrid work and distance (F38 to F41).** Surveys in Germany, Japan, Spain and Switzerland show that people who work from home more live farther from work. Topic 1 now asks which came first, and what they buy for a week that is not five days.
-- **The decision is made before any app is opened (F44).** Topic 3 asks for the moment of the decision before asking what they check.
-- **A known trip needs deviations, not directions (F45).** Topics 3 and 4 ask what they look at for the usual trip and what they want to see at a glance.
-- **The buffer at a change (F48).** Topic 2 asks how much time they leave between two legs and how they learned it.
-- **Liking the means they use (F51).** Topic 2 asks it for each leg.
-- **Disruption (F42, F43).** Topic 5 now separates how they found out, whether the information was right, and whether anything took them to an alternative.
-- **Service or tool (F46, F47).** Topic 7 is unchanged in wording and now has stronger evidence behind it.
-- **Participants:** two profiles were added.
-- Topics 2 and 5 are one minute longer each; topics 4, 6 and 8 one minute shorter. Version 2 added up to 46 minutes; this one adds up to 45.
+- **Which leg is the long one (F53).** Where the journey was measured door to door, getting from the arrival station to the workplace took longer than the train. Topic 2 asks for the time of each leg and which one weighs most.
+- **One leg under their own control (F9).** People who combine services say they keep one leg they control and avoid two services in a row, and they describe a dilemma between a safe change and a long wait. Topic 2 asks it at each change.
+- **Whether there is a choice (F56).** Habit and the lack of alternatives explain much of how people commute. Topic 3 asks what else they could really use, before asking how they choose.
+- **Commuting in place of moving home (F55).** Topic 1 asks what they weighed this commute against.
+- **Another way through, and who answers for a missed connection (F57, F50).** Topic 5 asks whether another route existed at all and who they turned to.
+- **Good enough, not fastest (F5).** The point was already in topic 3; it now has evidence behind it.
+
+What changed from version 2 to version 3 is in `../CHANGELOG.md` (entry of 2026-10-07 15:16): hybrid work and distance, the decision made before any app is opened, the buffer at a change, liking the means used, the three sides of a disruption, and two more participant profiles.
 
 ## Format
 
@@ -59,6 +58,7 @@ The complete reading of the sources moved four points from "open" to "check" and
 
 - Where they travel from and to, door to door, and why. The kind of place at each end is enough (city centre, suburb, small town); no addresses.
 - How long they have been doing this commute, and what they did before.
+- **[check F55]** What they weighed this commute against when it started: moving home, another job, staying where they were. Whether they would still choose it.
 - **[check F40]** Which days they travel in a normal week, who or what decides those days, and whether the commute differs on different days.
 - **[open, Q7]** Who else has a say in how and when they travel: employer, family, people they travel with.
 - Fixed constraints: arrival times, family duties, people to take or collect, cost, accessibility, things to carry.
@@ -70,12 +70,12 @@ The complete reading of the sources moved four points from "open" to "check" and
 Draw the journey together while they tell it.
 
 - **[open, Q1]** The most recent normal commute, from closing the door at home to arriving, step by step. Then the return trip, if it differs.
-- Each leg and the mode used: first mile, main leg, transfers, last mile. How long each takes, how long the whole takes, and how much that varies.
-- **[open, Q5]** For each leg, what else they could use, and what is not available to them and why.
+- **[check F53]** Each leg and the mode used: first mile, main leg, transfers, last mile. How long each takes, how long the whole takes, and how much that varies. Which leg is the longest and which weighs most, with attention to the leg from the arrival station to the workplace.
+- **[open, Q5; check F56]** For each leg, what else they could really use, and what is not available to them and why. Whether they feel they chose this way of commuting or it is the only one that works.
 - **[open, Q12]** Which legs they think about in advance and which they leave to chance.
 - **[check F6, F33]** If they combine modes: how that combination came about, and what holds it together. If they use one mode: whether they ever combined, and what made them stop or never start.
 - **[check F51]** For each leg, whether they like travelling that way or put up with it, and what they would use if they could choose freely.
-- **[check F48]** At each change: how much time they leave between arriving and leaving again, whether that is what a planner proposes or more, and how they learned how much is enough.
+- **[check F48, F9]** At each change: how much time they leave between arriving and leaving again, whether that is what a planner proposes or more, and how they learned how much is enough. What they do with a wait that is too long. Whether they avoid two services in a row and keep one leg in their own hands.
 - **[check F16]** What a change costs them beyond the minutes: attention, interruption of what they were doing, where to stand, where to walk.
 - What they do with the time on the main leg, and whether that affects the route or the means they choose.
 - The leg that causes the most stress or uncertainty, and the one that works best.
@@ -85,7 +85,7 @@ Draw the journey together while they tell it.
 - **[check F44]** When the way of travelling for a given day gets decided: the evening before, in the morning, on the way. Whether there is anything to decide on a normal day, or it is settled. Whether it is decided for the whole journey at once or leg by leg.
 - **[open, Q10]** The last trip that was not routine (a different time, a strike, bad weather, another destination): what they did differently to prepare.
 - **[check F11, F45]** What they check before leaving on a normal day, where, and in which order; or whether they just leave. Ask them to show it on the phone if they are comfortable. What they want to see first, and what is in the way.
-- **[check F5]** Whether they look for the fastest option or one that is good enough, and what "good enough" means to them.
+- **[check F5]** Whether they look for the fastest option or one that is good enough, what "good enough" means to them, and what decides between two options that take about the same time.
 - **[check F52]** The last time they changed their usual way of commuting, and what was happening in their life then. What would have to change for them to switch for good.
 - How the first and last mile weigh on the choice of the main mode (Q16).
 - **[check F23, F50]** Buying tickets and paying: what they buy, where, how often, and the last time it went wrong. If more than one operator is involved, how they handle it, and whether a ticket for one service has ever been useless on another.
@@ -103,11 +103,11 @@ Draw the journey together while they tell it.
 - **[open, Q20]** The last time a commute did not go as planned: what happened, and on which leg. Ask also about problems that are not train delays: traffic, parking, a missed bus, a lift or a bike that was not there, a replacement bus.
 - **[open, Q21]** The exact moment they found out, and how: a notification, a display, an announcement, another person, nothing. Whether it was early enough to do something different.
 - **[check F20]** The first minutes after: what they wanted to know, what they were told, and what they did. Whether they were given a reason, and whether they believed it.
-- **[check F42]** Whether anyone or anything took them to an alternative: which one, whether it could really be travelled, whether their ticket was valid on it, and whether they could still see what was happening to their original trip.
+- **[check F42, F57]** Whether another way through existed at all. Whether anyone or anything took them to it: which one, whether it could really be travelled, whether their ticket was valid on it, and whether they could still see what was happening to their original trip.
 - **[check F21]** Whether they have a fallback ready for this commute, and what it is. The last time they paid twice to arrive: a second ticket, a taxi, the car.
 - How the problem spread to the rest of the journey: a missed connection, the last service of the day, no way to cover the last mile.
 - Consequences for them and for others, and how it felt (Q23). Whom they had to tell.
-- Whether they claimed a refund or compensation, what that was like, and whether it works with the ticket or pass they hold.
+- **[check F50]** Whether they claimed a refund or compensation, what that was like, and whether it works with the ticket or pass they hold. If a connection between two operators was missed, who they turned to and who answered.
 - How often this happens, and the worst commute they remember.
 - **[check F10]** Whether the trouble is occasional or part of the service they use, and whether it has changed the way they commute.
 
@@ -124,7 +124,7 @@ Draw the journey together while they tell it.
 ### 7. Why things stay as they are (Q27–Q30), about 2 min
 
 - What they expect from current tools and do not get.
-- **[check F31, F46, F47]** If something could change tomorrow, whether it would be the information they get or the service itself. Let them choose; do not suggest either.
+- **[check F31, F46, F47, F61]** If something could change tomorrow, whether it would be the information they get or the service itself. Let them choose; do not suggest either.
 
 ### 8. A commute that goes well (Q34–Q39), about 2 min
 
@@ -140,7 +140,7 @@ Draw the journey together while they tell it.
 
 ## If time runs short
 
-Keep topics 2 and 5 whole: the journey leg by leg and the last disruption are what the desk research cannot give for intercity commuters. In topic 1 keep the hybrid week (F38, F41). In the other topics ask only the **[open]** points.
+Keep topics 2 and 5 whole: the journey leg by leg and the last disruption are what the desk research cannot give for intercity commuters. In topic 1 keep the hybrid week (F38, F41). In topic 2 do not drop the time of each leg (F53). In the other topics ask only the **[open]** points.
 
 ## After each interview
 
@@ -153,5 +153,5 @@ Keep topics 2 and 5 whole: the journey leg by leg and the last disruption are wh
 ## To finalise before the first interview
 
 - Rewrite each topic as one opening question in the participant's language. The interviews will be in Italian; this script is a checklist in English.
-- Run one pilot interview and adjust the timing: 45 minutes is tight for nine topics, and topics 2 and 5 are now longer.
+- Run one pilot interview and adjust the timing: 45 minutes is tight for nine topics, and version 4 added probes to topics 1, 2, 3 and 5 without adding minutes.
 - Decide how participants are recruited so that not all of them resemble Marco.

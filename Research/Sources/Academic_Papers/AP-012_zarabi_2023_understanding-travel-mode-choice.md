@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 15:09
+date: 2026-10-07 19:13
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, mode-choice, why-now]
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
 | **Published on** | 2023-11-24 |
 | **Opened on** | 2026-10-07 |
-| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
+| **Read** | In full, 38 pages: text, table 1, the reference list and the search appendix. Table 2 (PDF p.8-21, one row for each of the 36 studies) came out with its columns interleaved in the conversion; it was read row by row for the study, place, period and main finding, and the figures quoted below are those repeated in the running text. Figures 1 to 3 were not read as images; the abstract is not in the conversion (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in Canada, United Kingdom |
 | **Language** | English |
 | **How it was produced** | The abstract states the method (see below); the paper was not read |
@@ -32,15 +32,31 @@ tags: [source, mode-choice, why-now]
 
 ## What it says
 
-Abstract from the OpenAlex record: The COVID-19 pandemic disrupted travel behaviours for very large numbers of people including those who shifted to teleworking and those without the option to work from home.While there is much valuable transport research that has examined the former category, it is still unknown how certain people such as health sector employees and delivery drivers changed their physical commuting in transport contexts that were radically different from those existing normally in urban areas.Based on a systematic review of 36 scientific publications on commuting during pandemic, this study pursues a dual objective.First, by examining the interrelated institutional, physical, and socio-psychological processes that supported or hindered low-carbon transport the study revealed that (A) public transport (PT) reduced service levels and concerns related to COVID were positively associated with substantial shifts away from PT towards car and active travel; (B) this positive association was found to be even stronger in the existence of pre-pandemic habit of car use for commute and strong negative emotions like fear triggered by environmental changes and health risks.Second, by synthesising the key findings from the literature, this study provides significant implications for how mode choice is modelled through the Theory of Planned Behavior and Norm Activation Model.By questioning whether the pandemic commuters had a "normal" set of travel mode alternatives to choose from, the study draws attention to the nuances of mode "choice" versus mode "use" and moves beyond the assumption that commuting always results from individuals making choices.It also argues that the role of (negative) emotions along with the importance of proximity to, or separation from, other bodies on how people commute should be considered in future research.Finally, the crucial role of COVID-19 in changing travel-related norms and the resulting long-term implications for policy interventions require further investigation by future research.
+A systematic review of 36 studies, published 2020 to 2022, on how people who still had to travel to work during the pandemic got there. Public transport use fell sharply and cars and active travel grew; the people who kept using public transport were mostly those with no alternative. The lasting points for this project are three: many commuters do not choose their means of travel in any real sense, so the authors separate 'mode use' from 'mode choice'; fear and other negative emotions drive behaviour directly; and people who do not use a mode hold a worse opinion of it than those who do.
 
 ## Data and quotes used
 
-- None extracted yet. The abstract is the only text read.
+- Method: scoping review with the PRISMA 2020 method; five databases searched in September 2022; 1,885 records, 36 studies kept; English peer-reviewed journals only. Europe 13 studies (Poland 3, United Kingdom 3, the Netherlands 2, Germany, Belgium, Ireland, Italy, Portugal 1 each), United States 8, Canada 2, Australia 2, Asia 8, Middle East and Africa 1 each (PDF p.4-7).
+- Limits of the evidence that the authors name: 25 of 36 studies recruited online through survey firms or social media, with younger and more educated samples and few low-income people; most cover the first wave; they study the mode and hardly ever frequency, route, distance or time of day; three are panels (PDF p.7, p.22).
+- Size of the shift: studies report a 9% to 90% fall in public transport use, a 5% to 42% rise in car use and a 3% to 33% rise in active travel (PDF p.23).
+- Two reasons for leaving public transport: fear of infection (crowding, cleanliness) and 'reduced service levels due to changes in PT capacity and schedules'; the two feed each other, since less service means longer queues and fuller vehicles (PDF p.23).
+- Habit and ownership decide who leaves: in Bristol (725 commuters, May-June 2020) 50% of those who drove before kept driving while 3% of those who used public transport before stayed on it; 82% of the drivers intended to keep driving once restrictions were lifted (PDF p.23).
+- Non-users judge a mode more harshly: nine studies find that people who already drove were 'much more critical' of public transport than its regular users. In Australia and New Zealand (787 people) non-regular users rated it 2.7 and regular users 1.9 on a scale where 1 is extremely positive. The authors: people 'who do not use a mode (often PT)' may 'develop an inaccurate negative perception of it' (PDF p.23-24).
+- Uncertainty about the service pushes people to buy a car: in Boston 20% of households without a car formed the intention to buy one; ten that did named 'uncertainty regarding the transit service frequency', lack of trust in the agency's safety measures and fear of other passengers (PDF p.24).
+- A disruption as the final push: in Dublin (2,653 university staff and students) the share preferring to walk or cycle rose from 26% to 55%, and many said they 'had previously considered active transport for their commute, but the inadequate PT during the pandemic gave them the final push' (PDF p.24).
+- Fear: 26 of 36 studies name fear of infection as the barrier to public transport. Using it reduces the fear: in a Dutch panel, train users more afraid in one wave used the train less in the next, and those who used it more became less afraid (PDF p.22, p.25).
+- People kept using public transport while afraid: in Sicily about 90% of 700 bus commuters reported stress and about 80% fear, and went on using the bus because they had 'no other alternatives (captive riders)', because of money incentives, or because driving was made difficult (PDF p.25).
+- Not a choice: pandemic commuters 'primarily belonged to groups whose options were limited'; 'These findings raise questions about whether all commuters have a true choice ... when it comes to the transport modes they use'. The authors say models of choice should be used only for 'people who (have the luxury of) choice' and write 'mode use' in place of 'mode choice' where there is none (PDF p.27).
+- Service quality counts more than the shock in one study: among university employees in Wroclaw, the link between public transport standards (density, speed, number of changes, intervals) and the shares of the modes was 'stronger than the pandemic itself' (table 2, PDF p.19).
+- Longer distance for fewer days, one study: in Sicily telework brought fewer trips a week and more distance, 'because employees were more willing to commute farther considering they did not commute as often' (table 2, PDF p.11).
+- Information as a response, one study: in Boston the transport authority provided real-time crowding information on busy bus routes for essential workers who depended on transit (table 2, PDF p.10).
+- Expected lasting effect in a United States panel (2,973 people): transit as the commute mode 11% before, 3.5% and 4.6% in the two waves, 8% expected afterwards; the first reason given for using it less was 'I no longer feel safe/comfortable sharing space with strangers' (73% in wave 1, 63% in wave 2), the second working from home (table 2, PDF p.15-16; p.23).
+- The authors on emotions: the 'sense of protection offered by using a car or bicycle' can outrank time, comfort and cost, and people avoid danger more than they seek safety; positive feelings about the car, such as 'perceived reliability' and 'a sense of control and freedom', are well documented (PDF p.29).
+- Disruption as a window: travel disruptions 'change stable mobility habits and increase attentiveness to alternative solutions', so a window opens (PDF p.3).
 
 ## Limits
 
-Only the abstract was read, and the full text is not downloaded. Questions it could answer: Q13, Q32. Citation counts from OpenAlex may differ from other databases.
+The pandemic is an extreme case: the fear of infection that drives most findings is not what drives an ordinary commute, and the authors use it to expose mechanisms, not to describe normal times. The studies reviewed are urban and mostly from the first wave, with online samples; none is about intercity commuting. Many concern countries outside the scope. The review covers which means people used, not planning, information, tools or tickets. Its second half is theory. Table 2 could not be read reliably column by column: check any figure from it in the PDF.
 
 ## Used in
 

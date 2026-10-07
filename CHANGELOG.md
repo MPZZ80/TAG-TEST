@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-07 19:22
+
+- **Files:** 20 source files in `Research/Sources/Academic_Papers/` (AP-002 to AP-012, AP-015, AP-016, AP-019, AP-020, AP-022, AP-023, AP-025, AP-026, AP-027), `Research/Sources/Academic_Papers/README.md`, `Research/Sources/Academic_Papers/AP_to_obtain.md`, `Research/desk_research_partial_analysis.md`, `Research/deepdive_interview_script.md`, `Research/README.md`, `Research/progress.md`
+- **Change:** The 18 papers Marco supplied as PDF were renamed to the name of their source file, converted to Markdown in `docs_md/Academic_Papers/` and read; each source file now has the links to the local copies, a "Read" row, "What it says" rewritten, the evidence with PDF pages under "Data and quotes used", and "Limits". AP-002 and AP-020 are marked as not obtained (payment needed); the file `AP_002.pdf` is a second copy of AP-015 and was left untouched. Analysis: findings F5, F9, F21, F30 and F31 rewritten from the full texts, F53 to F61 added, summary, evidence against the brief, open points, decisions and limits updated, counts corrected to 125 sources read and 7 not read; the summary's "seven questions have no material" corrected to three open and nine with indirect evidence. Interview script rewritten in place as version 4: six probes added inside existing points of topics 1, 2, 3 and 5, timings unchanged at 45 minutes. Index of the papers: 18 rows updated (copy, read, one-line description) and the note on the copies. `AP_to_obtain.md` reduced to the two papers still missing, with the list of those obtained. `Research/README.md`: counts and versions.
+- **Why:** Marco obtained the missing papers, put them in the folder with the others and asked to turn them into Markdown, analyse them, put the results where they were put before and update the same files as before. He tagged the two he could not obtain as "not obtained | payment needed".
+
 ## 2026-10-07 15:16
 
 - **Files:** all the source files in `Research/Sources/` (six categories), the six category `README.md` indexes, `Research/desk_research_partial_analysis.md`, `Research/deepdive_interview_script.md`, `Research/README.md`, `Research/progress.md`

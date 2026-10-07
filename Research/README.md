@@ -16,8 +16,8 @@ Everything about the research: the plan, the working rules, the state of the wor
 | `progress.md` | Running record of the desk research, for resuming work |
 | `plan.md` | The research plan |
 | `desk_research_instructions.md` | Working rules for the desk research |
-| `desk_research_partial_analysis.md` | Answers to Q1–Q40 from the complete reading of the sources, with 52 numbered findings, the evidence against the brief, what stays open and what could not be read |
-| `deepdive_interview_script.md` | Version 3 of the interview topics, which follows the commute in sequence and tests the findings of the complete reading |
+| `desk_research_partial_analysis.md` | Answers to Q1–Q40 from the complete reading of the sources, with 61 numbered findings, the evidence against the brief, what stays open and what could not be read |
+| `deepdive_interview_script.md` | Version 4 of the interview topics, which follows the commute in sequence and tests the findings of the complete reading and of the 18 papers read afterwards |
 | `Sources/` | One file per source, in six category folders, each with an index in its `README.md` |
 | `docs/` | Documents downloaded from the sources, by category. Not in Git |
 | `docs_md/` | Text copies in Markdown of the documents and web pages, by category. Not in Git |
@@ -25,7 +25,7 @@ Everything about the research: the plan, the working rules, the state of the wor
 ## State on 2026-10-07
 
 - **Collection:** finished for the six categories, 132 sources, with the scope extended to Western and comparable advanced countries and to sources in other languages.
-- **Reading:** complete. Of the 132 sources, 90 were read in full, 17 by chapter or in part and 25 could not be read; the ledger is in `progress.md` and each category index has a "Read" column.
+- **Reading:** complete. Of the 132 sources, 107 were read in full, 18 by chapter or in part and 7 could not be read (two papers not obtained because payment is needed, five web pages that cannot be captured); the ledger is in `progress.md` and each category index has a "Read" column.
 - **Interpretation:** `desk_research_partial_analysis.md` gives the answers the evidence supports. The activity outputs (`01_…` to `08_…`) and the synthesis have not been written.
 - **Interviews:** not started; they follow Marco's review of the results.
 

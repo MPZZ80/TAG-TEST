@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 15:09
+date: 2026-10-07 19:10
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, why-now]
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
 | **Published on** | 2020-07-29 |
 | **Opened on** | 2026-10-07 |
-| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
+| **Read** | In full, 18 pages of text including the interview guide (figures 1 to 3 were not read as images; the reference list was skimmed) (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in United Kingdom |
 | **Language** | English |
 | **How it was produced** | The abstract states the method (see below); the paper was not read |
@@ -32,15 +32,28 @@ tags: [source, why-now]
 
 ## What it says
 
-Abstract from the OpenAlex record: Mobility as a Service (MaaS) is a novel brand of transport that promises to replace private cars with multimodal personalised mobility packages enabled by a digital platform capable of integrating travel planning, booking and ticketing, and real-time information services. It is an intervention that through its digitisation, connectivity, information and sharing merits intends to inspire and support the transition to a more sustainable mobility paradigm. Recent research suggests, however, that the potential uptake of MaaS might not be overwhelming; current car drivers could face considerable difficulties in bypassing their personal car for it and, more worryingly, future MaaS users may substitute not only personal car trips but also public transport journeys with car-sharing and ride-sharing services. This means that MaaS might not be able to create travel behaviour change, and even if it does, the changes may not be always towards the right direction. Through conducting 40 semi-structured interviews in three different UK cities, namely London, Birmingham and Huddersfield, and employing a robust Thematic Analysis approach, this study explores the factors underpinning the uptake and potential success of MaaS as a sustainable travel mechanism. The challenges and opportunities reflecting and affecting potential for responsible MaaS usage refer to five core themes Car Dependence; Trust; Human Element Externalities; Value; and Cost, each of them with distinctive and diverse dimensions. Policy-makers and mobility providers should realise that MaaS success relies on changing people’s attitudes to private cars (something very challenging) and thus they should incentivise responsible MaaS use, promote public transport as its backbone, use public engagement exercises and trials to expose people to the concept and somewhat demonise private car ownership and car use.
+Forty interviews in London, Birmingham and Huddersfield with people who travel daily, most of them car owners, about a combined mobility service shown to them on a one-page graphic. Nobody had heard of the idea, and most liked it. Five themes decide whether they would use it: dependence on the car, trust that it would work, the behaviour of staff and other passengers, the value it adds, and cost. People would not pay for easier access to services that do not meet their needs, several say they can plan better themselves with free tools, and information during disruptions is not trusted. The authors conclude that the service behind the app has to change first.
 
 ## Data and quotes used
 
-- None extracted yet. The abstract is the only text read.
+- Method: 40 semi-structured interviews (London 14, Birmingham 12, Huddersfield 14); 21 people answered a call on social media and mailing lists and 19 were suggested by them; no incentive; ages 19 to 64; 33 of 40 live in a household with a car; three authors coded independently with 90% agreement. The idea was explained with a one-page graphic before the questions about it (PDF p.4-8).
+- Earlier studies the paper reviews: 53% of 252 people in Sydney and 55% of 290 in Tyneside chose no subscription even hypothetically; in 's-Hertogenbosch 20% of 568 residents were willing to use such a service and 60% had no interest; in Amsterdam and Eindhoven interest appeared in 17% of the choices of 1,078 residents; in London, of 1,570 people, 33% of car owners said it would help them depend less on the car and 22% of all would replace public transport trips with taxi (PDF p.2-3).
+- Use in practice, from the same review: Whim had been used by about 45,000 Helsinki residents by July 2018, 7% of the population, and its West Midlands launch got about 500 downloads; in a Ghent pilot with 73 car owners a third of the budget went on their own cars and a third on car sharing, with about four public transport trips per person per month (PDF p.2-3).
+- The car as the benchmark: 'It was practically unanimous that MaaS could not replicate the convenience of a private car'; what is valued is control over the journey, independence from the timetable, privacy, carrying things, family and emergencies (PDF p.9). Quote: 'I don't have to wait around for other transport means ... I can plan my own trip when I want it' (PDF p.9).
+- Trust that it works: 'If it had any sort of issues, then you'd be left to your old ways of doing things' (PDF p.10). People want to try it first on routes they know: 'test the accuracy in the city I live, with travel routes that I'm confident of' before using it for a trip between cities (PDF p.10).
+- Experienced travellers think they plan better: 'I can probably work out all my alternative routes quicker in my head than this app can'; and an app 'will tend to give you the quickest time' when the traveller prefers a cheaper or more flexible way (PDF p.10).
+- Information at disruption: 'with the on-route issues often the information that comes through is poor, and that's exactly the reason why, if something happens, no one quite knows what's gone wrong and why. And then you almost end up making that decision yourself' (PDF p.10).
+- Dependence on the phone and on acceptance: 'If your phone is not charged, you can't get access to it, and then you're lost'; 'You expect everything to be seamless, but then you turn up on a bus and they say they don't accept MaaS'; worries about wrong charges and security (PDF p.10). The authors conclude that such a service 'should also work offline and offer back-up access options' (PDF p.15).
+- Other people as a barrier, which the authors call 'human element externalities': staff who 'can cancel on you quite easily', noise and crowding, fear at stations late at night ('the train station staff are not there'). Quote: 'With MaaS you're still reliant on people, you're still reliant on someone for a taxi, a bus, a train, and anything can happen' (PDF p.11).
+- What has value: one place for information, payment and tickets; not having to find each local operator ('Trying to find out the local bus operator, you might need to find their app, or use Google, so that takes time'); knowing which train will have a seat; most useful for unfamiliar places and long trips, less for the routine (PDF p.11-12).
+- The service decides: 'On a Sunday there is a bus only every 30 min, so of course I usually use my car ... If on a Sunday it is still difficult to do that, then MaaS makes no sense'; 'a bus that departs 5 min after a train arrives. You can't do this anymore in this country' (PDF p.13).
+- Cost: raised by participants before they were asked; it has to be cheaper than what they do now or than the car, although the fixed costs of the car are usually left out of the comparison. A few would pay a little more for the full service; many would not: 'if ... this works out, say, 10 pounds more expensive than just using Google maps and doing it yourself ... me and other people will just go for a cheaper option' (PDF p.13).
+- The authors' conclusion: all such a service can offer today is 'the comfort and ease of appified access which may reduce the cognitive load'; 'The ease of access, though, is not something transport users are willing to pay for as it only allows them to easily access services that do not work up to the required standards' (PDF p.16-17). They add that the network 'offers no resilience when dealing with disruption' (PDF p.16).
+- Their recommendation: make public transport the backbone, with 'well-timed, reliable and honest information provision' (PDF p.17).
 
 ## Limits
 
-Only the abstract was read, and the full text is not downloaded. Questions it could answer: Q27–Q29. Citation counts from OpenAlex may differ from other databases.
+Opinions about a service described on paper: nobody had used one. Forty self-selected and snowballed people in three English places, mostly car owners, many with degrees; not commuters as such and not intercity. The quotes are chosen by the authors to illustrate themes, and no counts per theme are given. The paper has a stated aim, sustainable travel, and its recommendations ('somewhat demonise private car ownership') go beyond its data. Interviews before 2020.
 
 ## Used in
 

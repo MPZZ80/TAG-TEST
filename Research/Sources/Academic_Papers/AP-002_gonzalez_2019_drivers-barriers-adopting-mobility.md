@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 15:09
+date: 2026-10-07 19:22
 channel: web
 method: review
 status: draft
@@ -15,14 +15,14 @@ tags: [source, why-now]
 | --- | --- |
 | **ID** | AP-002 |
 | **Link** | [Drivers and barriers in adopting Mobility as a Service (MaaS) – A latent class cluster analysis of attitudes](https://doi.org/10.1016/j.tra.2019.11.022) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S0965856419302575>) |
-| **Local copy** | not available: the publisher's site blocks automated downloads; the open-access PDF link is in the Link section below |
-| **Markdown copy** | not available: the PDF could not be downloaded (see AP_to_obtain.md); the abstract is in this file |
+| **Local copy** | not available: not obtained, payment needed (Marco's note of 2026-10-07; the automated download had been refused before). The file `AP_002.pdf` in `docs/Academic_Papers/` is a second copy of AP-015, not this paper. |
+| **Markdown copy** | not available: there is no PDF to convert (see AP_to_obtain.md); the abstract, if any, is in this file |
 | **Produced by** | M.J. Alonso González et al. (5 authors; institutions in Netherlands) |
 | **Published by** | Transportation Research Part A Policy and Practice |
 | **Kind of source** | Peer-reviewed journal article (bronze open access) |
 | **Published on** | 2019-12-06 |
 | **Opened on** | 2026-10-07 |
-| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
+| **Read** | Not read. Not obtained: payment is needed (Marco, 2026-10-07). Only the abstract already in this file, where the catalogue record had one, was read. Not used as evidence in the analysis |
 | **Geography** | Study area not extracted; authors' institutions in Netherlands |
 | **Language** | English |
 | **How it was produced** | Not stated in the abstract or no abstract; the paper was not read |
