@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-06 00:40
+date: 2026-10-07 01:45
 channel: conversation
 method: generated
 status: draft
@@ -17,15 +17,18 @@ Running record of the desk research, so that a new session can continue without 
 
 ## Current state
 
-| Stage | Category | Status |
+The collection stage of the desk research is complete for all six categories, with the extended scope. Marco postponed the interpretation, so the activities A1 to A8 (outputs, comparison grid, coding, synthesis) have not started. Totals on 2026-10-07: 132 source files, 61 downloaded documents, 110 Markdown copies.
+
+| Category | Source files | Status |
 | --- | --- | --- |
-| Candidate list | Global reports | Done and vetted: Marco kept all. 26 source files (GR-001 to GR-026) and 4 article source files (AR-001 to AR-004) written, 19 documents in `docs/` |
-| Candidate list | Academic papers | Not started |
-| Candidate list | Products | Not started |
-| Candidate list | Articles | Not started |
-| Candidate list | Online forums | Not started |
-| Candidate list | Online reviews | Not started |
-| Activities A1–A8 | All | Not started. A1 (global reports output) is next once Marco decides |
+| Global reports | 56 (GR-001 to GR-056) | Done. Italy and the EU, the UK, US, Canada, Australia, Switzerland, Germany, France, Netherlands, Spain, Japan, Korea, technology and data landscape. Items not obtained: `Sources/Global_Reports/GR_to_obtain.md` |
+| Academic papers | 28 (AP-001 to AP-028) | Done with OpenAlex. 8 PDFs and Markdown copies; 20 PDFs blocked by publishers (`AP_to_obtain.md`); the source files hold the abstracts |
+| Products | 17 (PR-001 to PR-017) | Done: product pages and App Store listings of multimodal planners, rail and coach operators and commuter apps in Italy, UK, Germany, France, Switzerland, Netherlands, US and Korea. Gaps and blocked sites in `PR_to_obtain.md` |
+| Online reviews | 17 (OR-001 to OR-017) | Done: samples of the most recent App Store reviews (up to 100 each) for the 17 products. Google Play not readable (`OR_to_obtain.md`) |
+| Online forums | 4 (OF-001 to OF-004) | Thin: most forums and Reddit block automated reading (`OF_to_obtain.md`) |
+| Articles | 10 (AR-001 to AR-010) | Done for MaaS failures and plans (Whim, Citymapper, MaaS for Italy), hybrid-work tickets. Blocked items in `AR_to_obtain.md` |
+
+Products, reviews, forums and articles were built directly, keeping everything found, without a separate vetted candidate list, because Marco asked not to be asked and to finish the collection. Grades are provisional until the citations are counted at the start of the activities.
 
 ## Scope
 
@@ -33,19 +36,20 @@ From 2026-10-06 the scope is Western countries and the more advanced countries o
 
 ## Languages
 
-From 2026-10-06, sources in languages other than English are in scope and are searched for in their own language (German, French, Spanish, Japanese, Korean and so on), together with the wider geographic scope. Rules in section 3 of `desk_research_instructions.md`. Existing source files do not have the "Language" row yet: add it when each file is next touched.
+From 2026-10-06, sources in languages other than English are in scope and are searched for in their own language (German, French, Spanish, Japanese, Korean and so on), together with the wider geographic scope. Rules in section 3 of `desk_research_instructions.md`. All source files now have the "Language" row.
 
-## To install (before searching in other languages)
+## Tools for other languages
 
-Not installed yet. Marco asked to note them; install only when needed.
+Installed on 2026-10-06 for `tesseract` (OCR), in `/opt/homebrew/share/tessdata`: Italian, German (`deu`), Japanese (`jpn`), Dutch (`nld`), Spanish (`spa`), French (`fra`) and Korean (`kor`), besides English. The conversion picks the OCR language per source ID.
 
-- **OCR language data for `tesseract`**, for scanned PDFs in other languages. Only English, Italian and the orientation data are installed now. Either install all languages with `brew install tesseract-lang` (large), or download only the ones needed, as was done for Italian, by saving `<code>.traineddata` from the `tessdata_fast` repository of tesseract-ocr into `/opt/homebrew/share/tessdata`. Codes: `deu` German, `fra` French, `spa` Spanish, `nld` Dutch, `por` Portuguese, `swe` Swedish, `nor` Norwegian, `fin` Finnish, `jpn` and `jpn_vert` Japanese, `kor` Korean, `chi_sim` and `chi_tra` Chinese. Codes are from memory; check them with `tesseract --list-langs` after installing. Then add the language to the `language` argument of the OCR call in the conversion recipe below.
-- **Text conversion of PDFs in other languages** needs nothing more: `pymupdf4llm` reads Unicode text, and only scanned pages need OCR.
-- **Translation** needs no plugin: Claude translates the passages. For Marco's own reading of web pages, the browser's built-in page translation is enough.
+- **Not installed:** Chinese (`chi_sim`, `chi_tra`), Portuguese (`por`), Swedish (`swe`), Norwegian (`nor`), Finnish (`fin`), vertical Japanese (`jpn_vert`). Download `<code>.traineddata` from the `tessdata_fast` repository of tesseract-ocr when a source needs it. Codes are standard names; check them with `tesseract --list-langs`.
+- **Text conversion** of PDFs in other languages needs nothing more: `pymupdf4llm` reads Unicode. The OCR language is only for pages without text.
+- **Translation** needs no plugin: Claude translates passages, always as working translations to be checked. For his own reading of web pages Marco can use the browser's page translation.
+- **Scans:** the conversion counts a page as scanned if it has fewer than 40 text characters. Pages with charts as images may still lose their contents; check figures in the original PDF.
 
 ## Next step
 
-Wait for Marco to vet the 14-candidate extension at the end of `Sources/Global_Reports/GR_candidates.md` (column "Keep?"). Then create the source files and download documents only for the sources he keeps (next IDs: GR-027 onwards), convert the PDFs to Markdown, and decide with him whether to write A1 or draft the next candidate list. The other candidate lists (Academic papers, Products, Articles, Online forums, Online reviews) must also cover the wider scope.
+The collection is finished; interpretation is postponed by Marco. When he asks to start it, the order proposed in the plan is: A1 to A7 from the source files (read the Markdown copies for the figures marked "None extracted yet"), then A8 the synthesis and the coverage of Q1 to Q40. Before that, offer these options: (a) fill the `*_to_obtain.md` items that Marco manages to get, (b) add the missing countries (Singapore, New Zealand, Nordic), (c) read the 20 papers with a downloaded PDF. All translations of German, French, Dutch, Spanish, Japanese and Korean passages are working translations to check.
 
 Marco is trying to obtain the items in `Sources/Global_Reports/GR_to_obtain.md`; when he provides files, save them in `docs/` with the naming rule, and create or update the source file.
 
@@ -92,6 +96,13 @@ Second batch, found by search:
 
 ## Log
 
+- 2026-10-07 01:45: Finished the collection for all categories with the extended scope, as Marco asked (papers without further questions). Papers: 28 source files, 8 PDFs downloaded and converted, 20 blocked. `docs/` and `docs_md/` split by category. Products: 17 source files with page captures and App Store facts. Online reviews: 17 samples of Apple App Store reviews through the public feed, without reviewer names. Forums: 4 sources (Hacker News through the public API; Reddit, railforums and others blocked). Articles: 6 plus 4 official items (GR-050 to GR-053) and 3 data-landscape pages (GR-054 to GR-056). Checked all 132 source files: no broken links, all have the Language row. Wrote the `*_to_obtain.md` files for each category.
+- 2026-10-07 01:31: Marco said not to ask anything more about papers, to split the sources by category and to continue through the remaining categories with the extended scope until the desk research is finished, updating this file. Done: `docs/` and `docs_md/` split into one folder per category like `Sources/` (links rewritten, 0 broken); 28 paper source files AP-001 to AP-028; 8 PDFs downloaded (the rest are blocked by ScienceDirect, Springer, MDPI and similar, listed in AP_to_obtain.md) and converted. Next: Products, Online reviews, Online forums, Articles. Interpretation stays postponed.
+- 2026-10-06 23:00: Next category as Marco asked. Queried the OpenAlex API (no key needed; works with curl) on nine topics plus habit, apps and trials, picked 28 papers by relevance and citations, fetched their DOI and open-access links, opened each link once (25 answered 200, 3 answered 403) and wrote `Sources/Academic_Papers/AP_candidates.md`. OpenAlex search helper scripts were temporary files in the scratchpad: the call is `https://api.openalex.org/works?search=<terms>&filter=publication_year:>2016,type:article|review&per-page=8&select=id,doi,title,publication_year,cited_by_count,primary_location,open_access` and papers by id with `filter=openalex:W1|W2`.
+- 2026-10-06 22:58: Marco asked for the Markdown files of the sources first and the interpretation later. Captured the text of 20 web pages with pandoc into `docs_md/` (5 pages are rendered by scripts and could not be captured: AR-002, GR-002, GR-005, GR-022, GR-036); added the Language row to the 30 older source files. `docs_md/` now has 51 files. Rule added to the instructions and AGENTS.md (entry 19). Global reports collection is complete; interpretation (A1) is postponed by Marco. Next: Academic papers candidate list.
+- 2026-10-06 21:53: Marco asked to generate the Markdown files from the new sources with the Python tools and tesseract. All 31 PDFs already had a Markdown copy. Checked 91 pages with empty or weak text: ran OCR on each at 200 dpi in the right language and added the text where it found at least 40 characters (30 pages across 12 files). The rest are blank pages, covers and section dividers. Web pages are not converted (rule in the desk research instructions: only documents are downloaded).
+- 2026-10-06 18:42: Marco said "scarica le fonti": N15 to N23 kept. Installed OCR data for German, Japanese, Dutch, Spanish, French and Korean (tessdata_fast), downloaded 11 documents (MiD 2023 in two versions, SDES publication, infographic and data tables, two KiM reports, CRTM Madrid, Japanese Digital Agency report, MLIT MaaS 2.0 report, MLIT telework survey), wrote 9 source files GR-041 to GR-049 and converted the PDFs to Markdown with OCR language chosen per file. Verified: 43% of Japanese MaaS-related projects ended after the demonstration (GR-047 p.17); CRTM average of 1.10 stages per trip (GR-045 p.40); KiM and SDES figures (source files). The Daegu trial figures and the MiD commuting shares remain unverified. The Korean item is only an announcement from 2023.
+- 2026-10-06 16:38: Marco said to proceed with the extended desk research. Treated N1 to N14 as kept (reversible): wrote 14 source files GR-027 to GR-040, downloaded 4 PDFs (US Census brief, Swiss microcensus report, Sydney MaaS trial report, TCRP 92) and converted them to Markdown; added the "Language" row to these 14 files. Then searched in German, French, Dutch, Spanish, Japanese and Korean, opened the links and added 9 candidates (N15 to N23) to `GR_candidates.md` for vetting; blocked or missing items (OTLE, MOLIT press release, MLIT MaaS 2.0 report) went to `GR_to_obtain.md` (items 19 to 21). Verified facts from these sources are recorded in the source files; claims from search summaries are marked as unverified there.
 - 2026-10-06 00:40: Marco asked to include sources in languages other than English and to note what to install to read them. Added the Languages and To install sections here, the language rules to the desk research instructions and a "Language" row to the source file template. No searches were done, as asked; Marco commits and the work restarts the next day.
 - 2026-10-06 00:37: Opened the new links (blocked: StatCan reference guide, BITRE, Arthur D. Little, Econsult). Wrote the extension list with 14 candidates (UK, US, Canada, Australia, Switzerland, MaaS trial, MobilityData, TCRP) at the end of `GR_candidates.md`, added items 14 to 18 to `GR_to_obtain.md`. Waiting for Marco's vetting; no source files or downloads for these yet.
 - 2026-10-06 00:34: Scope extended (see Scope). Two search batches outside the EU done: US Census ACS, UK DfT National Travel Survey, Transport Focus and ORR on disruption information, Statistics Canada, BITRE and ABS in Australia, Swiss Mikrozensus, Sydney MaaS trial, MobilityData, TCRP, Arthur D. Little MaaS report, Helsinki Whim case study. Next: open the links, write the extension list inside `GR_candidates.md` for Marco to vet. Leads for the Academic papers list: MaaS trials what have we learnt (ResearchGate), MaaS trials in Japan, Sydney MaaS users insights (Springer), Singapore MaaS testbed (Springer), real-time information literature review (ResearchGate). Lead for Products: Whim, Tripi/SkedGo, Moovit, Transit.

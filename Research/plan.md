@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's notes, brief.md and initial_questions.md
-date: 2026-10-06 00:34
+date: 2026-10-07 01:45
 channel: Claude Code conversation
 method: AI-drafted plan, revised on Marco's instructions
 confidence: medium
@@ -204,9 +204,9 @@ Started by Marco after the review in section 6.
 | `deepdive_interview_script.md` | Topics for the interviews | Draft |
 | `Sources/<Category>/<CODE>_candidates.md` | Candidate list of each source category, for Marco to vet | Global reports done; the others to do |
 | `Sources/Global_Reports/GR_to_obtain.md` | Global report sources that could not be opened, for Marco to try to obtain | Active |
-| `Sources/` | One file per selected source, in a folder per category | Global reports and 4 articles done |
-| `docs/` | Documents downloaded from the sources | 19 files, Global reports only |
-| `docs_md/` | Markdown conversions of the downloaded PDFs | 17 files, Global reports only |
+| `Sources/<Category>/` | One file per source, in a folder per category | 132 source files in six categories |
+| `docs/<Category>/` | Documents downloaded from the sources | 61 files in six category folders |
+| `docs_md/<Category>/` | Markdown copies of documents and text captures of web pages | 110 files in six category folders |
 | `01_global_reports.md` to `07_data_landscape.md` | Activity outputs | To do |
 | `08_synthesis.md` | Findings and proposed priorities | To do |
 | `question_coverage.md` | Status of Q1–Q40 | To do |

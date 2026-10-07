@@ -15,13 +15,15 @@ tags: [source, mode-choice, who]
 | --- | --- |
 | **ID** | GR-016 |
 | **Link** | [Passenger mobility statistics (Statistics Explained)](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Passenger_mobility_statistics) |
-| **Local copy** | [GR-016_eurostat_2021_passenger-mobility-statistics_data.xlsx](../../docs/GR-016_eurostat_2021_passenger-mobility-statistics_data.xlsx) |
+| **Local copy** | [GR-016_eurostat_2021_passenger-mobility-statistics_data.xlsx](../../docs/Global_Reports/GR-016_eurostat_2021_passenger-mobility-statistics_data.xlsx) |
+| **Markdown copy** | [GR-016_eurostat_2021_passenger-mobility-statistics.md](../../docs_md/Global_Reports/GR-016_eurostat_2021_passenger-mobility-statistics.md) |
 | **Produced by** | Eurostat |
 | **Published by** | Eurostat, Statistics Explained |
 | **Kind of source** | Official statistics |
 | **Published on** | Data extracted November 2021; no update planned |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Twelve EU Member States |
+| **Language** | English |
 | **How it was produced** | Data from eight pilot surveys and four national surveys on passenger mobility |
 | **Who paid for it or has an interest** | none found (public statistics office) |
 | **Cited by** | None counted yet; recount at the end of the activity |

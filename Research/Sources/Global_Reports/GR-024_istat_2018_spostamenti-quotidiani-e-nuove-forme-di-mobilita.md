@@ -15,14 +15,15 @@ tags: [source, who, mode-choice]
 | --- | --- |
 | **ID** | GR-024 |
 | **Link** | [Spostamenti quotidiani e nuove forme di mobilità, anno 2017](https://www.istat.it/it/files/2018/11/Report-mobilit%C3%A0-sostenibile.pdf) |
-| **Local copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf](../../docs/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf) |
-| **Markdown copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](../../docs_md/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md) |
+| **Local copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf](../../docs/Global_Reports/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf) |
+| **Markdown copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](../../docs_md/Global_Reports/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md) |
 | **Produced by** | ISTAT |
 | **Published by** | ISTAT |
 | **Kind of source** | Statistical report, 20 pages |
 | **Published on** | November 2018 (PDF created 30 November 2018; data year 2017) |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Italy |
+| **Language** | Italian |
 | **How it was produced** | ISTAT statistics on daily travel; method not read |
 | **Who paid for it or has an interest** | none found (public statistics office) |
 | **Cited by** | None counted yet; recount at the end of the activity |

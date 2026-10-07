@@ -16,12 +16,14 @@ tags: [source, who, planning]
 | **ID** | GR-001 |
 | **Link** | [Main place of work and commuting time – statistics (Statistics Explained)](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_place_of_work_and_commuting_time_-_statistics) |
 | **Local copy** | not available: web page, not downloaded |
+| **Markdown copy** | [GR-001_eurostat_2020_commuting-time.md](../../docs_md/Global_Reports/GR-001_eurostat_2020_commuting-time.md) |
 | **Produced by** | Eurostat |
 | **Published by** | Eurostat, Statistics Explained |
 | **Kind of source** | Official statistics |
 | **Published on** | Data extracted September 2020; no update foreseen |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU-27, plus the UK and three EFTA countries |
+| **Language** | English |
 | **How it was produced** | EU Labour Force Survey ad hoc module on work organisation and working time arrangements, conducted in 2019 |
 | **Who paid for it or has an interest** | none found (public statistics office) |
 | **Cited by** | None counted yet; recount at the end of the activity |

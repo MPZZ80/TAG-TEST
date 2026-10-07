@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-10-06 00:40
+date: 2026-10-07 01:45
 channel: Claude Code conversation
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
@@ -23,8 +23,8 @@ Repository layout:
 | `Metadata/` | The metadata schema: the block every file starts with and its allowed values |
 | `Research/` | The research plan, the desk research instructions, the interview script and the research outputs |
 | `Research/Sources/` | One file per source, in a folder per source category |
-| `Research/docs/` | Documents downloaded from the sources. Excluded from Git |
-| `Research/docs_md/` | Markdown conversions of the downloaded PDFs. Excluded from Git |
+| `Research/docs/` | Documents downloaded from the sources, in one folder per category. Excluded from Git |
+| `Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
 
@@ -71,6 +71,9 @@ This section is the running list of the standing instructions Marco gives during
 | 16 | 2026-10-06 | Convert every downloaded PDF to Markdown with `pymupdf4llm` (OCR with `tesseract` where needed) into `Research/docs_md/`, with the same name as the PDF. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the PDFs as Markdown files and asked to install and use these tools |
 | 17 | 2026-10-06 | Extend the research scope from Europe to the Western countries and the more advanced countries of the rest of the world that resemble the West, mainly to find technology solutions and pain points. Details in section 3 of `Research/desk_research_instructions.md`. | Marco is not sure that what was found in Europe is valuable, especially for technology solutions and pain points |
 | 18 | 2026-10-06 | Include sources in languages other than English, searched in their own language, and note which tools to install to read them (in `Research/progress.md`). Details in section 3 of `Research/desk_research_instructions.md`. | Marco wants the research to cover the wider scope in the languages of those countries |
+| 19 | 2026-10-06 | Every source gets Markdown files: PDFs are converted, and web pages are captured as text, into `Research/docs_md/`. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the Markdown files of the sources first, and the interpretation later |
+| 20 | 2026-10-07 | Keep `Research/docs/` and `Research/docs_md/` split by category, with the same folder names as `Research/Sources/`. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the sources divided by category |
+| 21 | 2026-10-07 | For the papers, do not ask anything more: keep all, download and convert. Then continue through the remaining categories with the extended scope until the desk research is finished, updating the progress file, and leave the interpretation for later. | Marco wants the collection finished before the interpretation |
 
 ### Language
 

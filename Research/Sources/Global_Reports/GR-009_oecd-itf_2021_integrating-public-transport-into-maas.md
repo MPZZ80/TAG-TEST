@@ -15,14 +15,15 @@ tags: [source, why-now, tools]
 | --- | --- |
 | **ID** | GR-009 |
 | **Link** | [Integrating Public Transport into Mobility as a Service: Summary and Conclusions (Roundtable 184)](https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/10/integrating-public-transport-into-mobility-as-a-service_1ef153c8/94052f32-en.pdf) |
-| **Local copy** | [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.pdf](../../docs/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.pdf) |
-| **Markdown copy** | [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../../docs_md/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md) |
+| **Local copy** | [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.pdf](../../docs/Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.pdf) |
+| **Markdown copy** | [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../../docs_md/Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md) |
 | **Produced by** | International Transport Forum (OECD), Corporate Partnership Board |
 | **Published by** | OECD / International Transport Forum |
 | **Kind of source** | Roundtable report, 45 pages |
 | **Published on** | October 2021 (PDF created 15 October 2021) |
 | **Opened on** | 2026-10-05 |
 | **Geography** | International, urban focus |
+| **Language** | English |
 | **How it was produced** | Based on discussions at an ITF Roundtable in October 2020 and four input papers (PDF p.6) |
 | **Who paid for it or has an interest** | ITF is a think tank of governments; the Corporate Partnership Board includes companies, and the report covers the integration of commercial services |
 | **Cited by** | None counted yet; recount at the end of the activity |

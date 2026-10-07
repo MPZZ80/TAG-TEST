@@ -15,14 +15,15 @@ tags: [source, information, why-now]
 | --- | --- |
 | **ID** | GR-013 |
 | **Link** | [NAPCORE position paper on the revision of the delegated regulation on multimodal travel information services (EU) 2017/1926](https://napcore.eu/wp-content/uploads/2024/02/NAPCORE-Position-paper-on-the-revision-of-the-delegated-regulation-on-multimodal-travel-information-services-EU-20171926-DR-MMTIS.pdf) |
-| **Local copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.pdf](../../docs/GR-013_napcore_nd_position-paper-mmtis-revision.pdf) |
-| **Markdown copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.md](../../docs_md/GR-013_napcore_nd_position-paper-mmtis-revision.md) |
+| **Local copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.pdf](../../docs/Global_Reports/GR-013_napcore_nd_position-paper-mmtis-revision.pdf) |
+| **Markdown copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.md](../../docs_md/Global_Reports/GR-013_napcore_nd_position-paper-mmtis-revision.md) |
 | **Produced by** | NAPCORE, coordination mechanism of the National Access Points for mobility data (partnership of NAP operators and national bodies) |
 | **Published by** | NAPCORE |
 | **Kind of source** | Position paper, 5 pages |
 | **Published on** | Undated. The PDF was created in June 2023 and is stored in a February 2024 upload folder |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU |
+| **Language** | English |
 | **How it was produced** | Position paper; no method stated |
 | **Who paid for it or has an interest** | Funded by the European Commission (DG MOVE grant MOVE/B4/SUB/2020-123/SI2.85223, PDF p.2); members run the access points the regulation concerns |
 | **Cited by** | None counted yet; recount at the end of the activity |

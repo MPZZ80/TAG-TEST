@@ -16,12 +16,14 @@ tags: [source, mode-choice]
 | **ID** | GR-015 |
 | **Link** | [Shared mobility hubs: lessons learnt from the ShareDiMobiHub project](https://urban-mobility-observatory.transport.ec.europa.eu/resources/case-studies/shared-mobility-hubs-lessons-learnt-sharedimobihub-project_en) |
 | **Local copy** | not available: web page, not downloaded |
+| **Markdown copy** | [GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md](../../docs_md/Global_Reports/GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md) |
 | **Produced by** | EU Urban Mobility Observatory (European Commission), reporting on the ShareDiMobiHub project |
 | **Published by** | EU Urban Mobility Observatory |
 | **Kind of source** | Case study |
 | **Published on** | 30 April 2025 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Europe-wide |
+| **Language** | English |
 | **How it was produced** | Case study of a project; no method stated |
 | **Who paid for it or has an interest** | An EU initiative that promotes shared mobility hubs |
 | **Cited by** | None counted yet; recount at the end of the activity |

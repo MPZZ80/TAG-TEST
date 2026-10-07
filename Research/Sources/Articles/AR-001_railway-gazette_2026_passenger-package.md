@@ -16,12 +16,14 @@ tags: [source, why-now]
 | **ID** | AR-001 |
 | **Link** | [European Commission unveils passenger package to tackle fragmented rail booking systems](https://www.railwaygazette.com/europe/2026/05/13/european-commission-unveils-passenger-package-to-tackle-fragmented-rail-booking-systems/) |
 | **Local copy** | not available: web page, not downloaded |
+| **Markdown copy** | [AR-001_railway-gazette_2026_passenger-package.md](../../docs_md/Articles/AR-001_railway-gazette_2026_passenger-package.md) |
 | **Produced by** | Esther Geerts |
 | **Published by** | Railway Gazette International |
 | **Kind of source** | Trade press article |
 | **Published on** | 13 May 2026 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Europe |
+| **Language** | English |
 | **How it was produced** | News report on the Commission's proposals |
 | **Who paid for it or has an interest** | none found |
 | **Cited by** | None counted yet; recount at the end of the activity |

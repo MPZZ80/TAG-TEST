@@ -15,14 +15,15 @@ tags: [source, disruption, who]
 | --- | --- |
 | **ID** | GR-003 |
 | **Link** | [Relazione annuale al Parlamento 2025](https://www.autorita-trasporti.it/wp-content/uploads/2025/09/2025-Relazione-Art.pdf) |
-| **Local copy** | [GR-003_art_2025_relazione-annuale.pdf](../../docs/GR-003_art_2025_relazione-annuale.pdf) |
-| **Markdown copy** | [GR-003_art_2025_relazione-annuale.md](../../docs_md/GR-003_art_2025_relazione-annuale.md) |
+| **Local copy** | [GR-003_art_2025_relazione-annuale.pdf](../../docs/Global_Reports/GR-003_art_2025_relazione-annuale.pdf) |
+| **Markdown copy** | [GR-003_art_2025_relazione-annuale.md](../../docs_md/Global_Reports/GR-003_art_2025_relazione-annuale.md) |
 | **Produced by** | Autorità di Regolazione dei Trasporti (Italian transport regulator) |
 | **Published by** | Autorità di Regolazione dei Trasporti |
 | **Kind of source** | Regulator's annual report to Parliament, 244 pages |
 | **Published on** | Presented 17 September 2025 at the Camera dei Deputati (PDF p.1) |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Italy, with European comparisons |
+| **Language** | Italian |
 | **How it was produced** | Annual report on the regulator's activity and on the transport sector; tables cite their sources, for example CNIT 2022-2023 (PDF p.197) |
 | **Who paid for it or has an interest** | none found (public regulator; it also reports on its own activity) |
 | **Cited by** | None counted yet; recount at the end of the activity |

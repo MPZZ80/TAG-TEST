@@ -16,12 +16,14 @@ tags: [source, who]
 | **ID** | GR-002 |
 | **Link** | [Over 12.5 million intra-country commuters in 2022](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20231017-1) |
 | **Local copy** | not available: web page, not downloaded |
+| **Markdown copy** | not available: the page content is rendered by scripts and could not be captured |
 | **Produced by** | Eurostat |
 | **Published by** | Eurostat, news article |
 | **Kind of source** | Official statistics, news item |
 | **Published on** | 17 October 2023 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU, employed people aged 15-64 |
+| **Language** | English |
 | **How it was produced** | EU Labour Force Survey 2022, NUTS 2021 regional classification |
 | **Who paid for it or has an interest** | none found (public statistics office) |
 | **Cited by** | None counted yet; recount at the end of the activity |

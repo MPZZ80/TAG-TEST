@@ -16,12 +16,14 @@ tags: [source, mode-choice, tools]
 | **ID** | AR-003 |
 | **Link** | [European travellers report positive experience with rail & multimodal bookings](https://www.cer.be/cer-press-releases/european-travellers-report-positive-experience-with-rail-multimodal-bookings) |
 | **Local copy** | not available: web page, not downloaded; a PDF version exists on the site |
+| **Markdown copy** | [AR-003_cer_2025_eurobarometer-press-release.md](../../docs_md/Articles/AR-003_cer_2025_eurobarometer-press-release.md) |
 | **Produced by** | CER, Community of European Railway and Infrastructure Companies |
 | **Published by** | CER |
 | **Kind of source** | Industry body press release |
 | **Published on** | 7 April 2025 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU |
+| **Language** | English |
 | **How it was produced** | Comment on the 2024 Eurobarometer results |
 | **Who paid for it or has an interest** | Rail industry association that promotes its own ticketing roadmap and argues against drastic regulation of commercial relationships |
 | **Cited by** | None counted yet; recount at the end of the activity |

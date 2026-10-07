@@ -15,14 +15,15 @@ tags: [source, why-now, mode-choice]
 | --- | --- |
 | **ID** | GR-020 |
 | **Link** | [Proposal for a Regulation on rail ticketing, COM(2026) 232](https://transport.ec.europa.eu/document/download/a3284ec0-f1ad-4ee4-a558-5d4c17948046_en?filename=Proposal_on_rail_ticketing.pdf) |
-| **Local copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.pdf](../../docs/GR-020_european-commission_2026_com-232-rail-ticketing.pdf) |
-| **Markdown copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.md](../../docs_md/GR-020_european-commission_2026_com-232-rail-ticketing.md) |
+| **Local copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.pdf](../../docs/Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.pdf) |
+| **Markdown copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.md](../../docs_md/Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.md) |
 | **Produced by** | European Commission |
 | **Published by** | European Commission |
 | **Kind of source** | Legislative proposal, 40 pages |
 | **Published on** | 13 May 2026 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU |
+| **Language** | English |
 | **How it was produced** | Proposal with an explanatory memorandum; no method of its own |
 | **Who paid for it or has an interest** | A proposal that advocates the Commission's own policy |
 | **Cited by** | None counted yet; recount at the end of the activity |

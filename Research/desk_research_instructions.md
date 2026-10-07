@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and plan.md
-date: 2026-10-06 00:40
+date: 2026-10-07 01:45
 channel: Claude Code conversation
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
@@ -285,7 +285,7 @@ tags: [source, <topic>, <topic>]
 | --- | --- |
 | **ID** | <source ID> |
 | **Link** | [<title>](<full URL of the exact page or document>) |
-| **Local copy** | [<file name>](../../docs/<file name>), or "not available" with the reason |
+| **Local copy** | [<file name>](../../docs/<Category>/<file name>), or "not available" with the reason |
 | **Produced by** | <authors and organisation> |
 | **Published by** | <publisher, journal or platform> |
 | **Kind of source** | <official statistics, institutional report, consultancy report, academic paper, forum thread, ...> |
@@ -322,6 +322,7 @@ Links to the findings that rest on this source.
 
 ### Downloaded documents
 
+- `docs/` and `docs_md/` have one subfolder per category, like `Sources/` (`Global_Reports`, `Academic_Papers`, `Products`, `Online_Reviews`, `Online_Forums`, `Articles`). Put each file in the folder of its category, for example `docs/Global_Reports/GR-003_….pdf` and `docs_md/Global_Reports/GR-003_….md`.
 - When a source is a document, such as a PDF report, a paper, a dataset or a slide deck, download it into `docs/`.
 - Give the downloaded file the same base name as its source file, keeping the original extension, so that the two can be matched at a glance: `GR-003_eurostat_2024_commuting-flows.pdf`.
 - When a source has more than one document, add a short detail at the end, after an underscore, to tell them apart: `GR-003_eurostat_2024_commuting-flows_UE_Synthesis.pdf`. List every document in the "Local copy" row.
@@ -329,7 +330,7 @@ Links to the findings that rest on this source.
 - A conversion is a working copy and can be imperfect: tables and layout may be off. Check every figure against the original PDF before citing it, and cite the PDF page.
 - `docs/` and `docs_md/` are excluded from Git by `.gitignore`, because the documents belong to their publishers. They stay on Marco's computer and are not pushed to GitHub.
 - Put the link to the downloaded file in the "Local copy" row of the source file.
-- Web pages are not downloaded. The source file records the link and the date it was opened.
+- Web pages are saved as text: capture the main text of the page as Markdown in `docs_md/`, with the same base name as its source file (there is no document in `docs/`), using `pandoc` after removing navigation and scripts. Add its link in the "Markdown copy" row. If the page content is rendered by scripts and cannot be captured, write "not available" and the reason in that row. The capture is a snapshot: the live page may change, so figures are checked on the live page before they are cited.
 - Do not get around a paywall or a login. If a document cannot be downloaded, write "not available" and the reason in the "Local copy" row.
 
 ### Known limits

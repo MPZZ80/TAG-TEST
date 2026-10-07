@@ -16,12 +16,14 @@ tags: [source, information, tools]
 | **ID** | GR-018 |
 | **Link** | [Moovit Unveils 2024 Global Public Transport Report](https://moovit.com/press-releases/moovit-2024-global-report-usa/) |
 | **Local copy** | not available: web page, not downloaded |
+| **Markdown copy** | [GR-018_moovit_2024_global-public-transport-report.md](../../docs_md/Global_Reports/GR-018_moovit_2024_global-public-transport-report.md) |
 | **Produced by** | Moovit |
 | **Published by** | Moovit |
 | **Kind of source** | Vendor data from app users, press release |
 | **Published on** | December 2024 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | 50 cities in 17 countries, urban public transport |
+| **Language** | English |
 | **How it was produced** | Analysis of tens of millions of trip requests by Moovit app users, with user research in 50 cities (page text) |
 | **Who paid for it or has an interest** | Commercial: Moovit is a commuter app vendor |
 | **Cited by** | None counted yet; recount at the end of the activity |

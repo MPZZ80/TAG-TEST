@@ -16,12 +16,14 @@ tags: [source, mode-choice, tools]
 | **ID** | GR-005 |
 | **Link** | [Eurobarometer on booking and ticketing, 2024 survey: Commission press release](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_928) |
 | **Local copy** | not available: web page whose text could not be extracted |
+| **Markdown copy** | not available: the page content is rendered by scripts and could not be captured |
 | **Produced by** | European Commission, Directorate-General for Mobility and Transport (commissioned the survey) |
 | **Published by** | European Commission, press corner |
 | **Kind of source** | Survey results, press release |
 | **Published on** | 1 April 2025 (from search results; the page text could not be extracted) |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU, citizens aged 15 and over |
+| **Language** | English |
 | **How it was produced** | Eurobarometer survey of about 26,000 EU citizens, summer 2024 (COM(2026) 231, PDF p.2) |
 | **Who paid for it or has an interest** | The Commission uses these results to support its own proposals on multimodal booking |
 | **Cited by** | None counted yet; recount at the end of the activity |

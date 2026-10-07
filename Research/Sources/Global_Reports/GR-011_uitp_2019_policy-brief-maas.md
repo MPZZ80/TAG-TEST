@@ -15,14 +15,15 @@ tags: [source, why-now, tools]
 | --- | --- |
 | **ID** | GR-011 |
 | **Link** | [Policy brief: Ready for MaaS? Easier mobility for citizens and better data for cities](https://www.uitp.org/wp-content/uploads/sites/7/2025/04/Policy-Brief_MaaS_V3_final_web_0.pdf) |
-| **Local copy** | [GR-011_uitp_2019_policy-brief-maas.pdf](../../docs/GR-011_uitp_2019_policy-brief-maas.pdf) |
-| **Markdown copy** | [GR-011_uitp_2019_policy-brief-maas.md](../../docs_md/GR-011_uitp_2019_policy-brief-maas.md) |
+| **Local copy** | [GR-011_uitp_2019_policy-brief-maas.pdf](../../docs/Global_Reports/GR-011_uitp_2019_policy-brief-maas.pdf) |
+| **Markdown copy** | [GR-011_uitp_2019_policy-brief-maas.md](../../docs_md/Global_Reports/GR-011_uitp_2019_policy-brief-maas.md) |
 | **Produced by** | UITP Combined Mobility Committee |
 | **Published by** | UITP (International Association of Public Transport) |
 | **Kind of source** | Industry policy brief, 12 pages |
 | **Published on** | May 2019 (PDF p.1 and p.12). The web address contains 2025/04, which is only the upload folder |
 | **Opened on** | 2026-10-05 |
 | **Geography** | International, urban focus |
+| **Language** | English |
 | **How it was produced** | Position paper; no method stated |
 | **Who paid for it or has an interest** | Industry association of public transport operators and authorities; the brief argues for the role of public transport in MaaS |
 | **Cited by** | None counted yet; recount at the end of the activity |

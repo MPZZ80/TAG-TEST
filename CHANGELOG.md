@@ -4,6 +4,42 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-07 01:45
+
+- **Files:** `Research/Sources/` (all six categories), `Research/docs/`, `Research/docs_md/`, `Research/desk_research_instructions.md`, `Research/plan.md`, `Research/progress.md`, `AGENTS.md`
+- **Change:** `docs/` and `docs_md/` split into one folder per category and the links rewritten. Created: 28 academic paper source files with 8 downloaded PDFs and conversions; 17 product source files; 17 online review source files with samples from the Apple App Store; 4 forum source files; 10 article source files and 7 more global report source files (GR-050 to GR-056); `*_to_obtain.md` files for papers, products, forums, reviews and articles. Instructions: category folders for documents; `AGENTS.md`: entries 20 and 21. Progress and plan updated: the collection stage is complete (132 source files).
+- **Why:** Marco asked, for the papers, not to be asked anything more, to download the sources and convert them to Markdown as for the reports; to split the sources by category; and to continue through the remaining categories with the extended scope until the desk research is finished, updating the progress file.
+
+## 2026-10-06 23:00
+
+- **Files:** `Research/Sources/Academic_Papers/AP_candidates.md`, `Research/progress.md`
+- **Change:** File created: candidate list of 28 academic papers, found with OpenAlex, for Marco to vet. Progress file updated.
+- **Why:** Marco asked to move on to the next category once the Markdown files of the Global reports sources were done.
+
+## 2026-10-06 22:58
+
+- **Files:** `Research/docs_md/` (20 web page captures), `Research/Sources/` (all source files), `Research/desk_research_instructions.md`, `AGENTS.md`, `Research/progress.md`
+- **Change:** Text of 20 web pages captured as Markdown in `docs_md/` and linked from their source files; 5 pages marked as not capturable. "Language" row added to the 30 older source files. Desk research instructions: web pages are now saved as text. `AGENTS.md`: entry 19.
+- **Why:** Marco asked to have the Markdown files of the sources, to finish that task before moving on, and to leave the interpretation for later.
+
+## 2026-10-06 21:53
+
+- **Files:** `Research/docs_md/` (12 files), `Research/Sources/Global_Reports/GR-041…`, `GR-046…`, `Research/progress.md`
+- **Change:** OCR text added to 30 pages that the first conversion left empty, across 12 Markdown files. Notes on scanned pages corrected in two source files.
+- **Why:** Marco asked to generate the Markdown files from the new sources with the Python tools and tesseract.
+
+## 2026-10-06 18:42
+
+- **Files:** `Research/Sources/Global_Reports/` (9 source files GR-041 to GR-049, `GR_candidates.md`, `GR_to_obtain.md`), `Research/docs/`, `Research/docs_md/`, `Research/progress.md`, `Research/plan.md`
+- **Change:** Files created: 9 source files for the sources in German, French, Dutch, Spanish, Japanese and Korean, 11 downloaded documents and their Markdown conversions. OCR data for six more languages installed. `GR_candidates.md`: second extension marked as kept. `GR_to_obtain.md`: the MLIT MaaS 2.0 report marked as found. Progress and plan updated.
+- **Why:** Marco asked to download the sources of the second extension.
+
+## 2026-10-06 16:38
+
+- **Files:** `Research/Sources/Global_Reports/` (14 source files GR-027 to GR-040, `GR_candidates.md`, `GR_to_obtain.md`), `Research/docs/`, `Research/docs_md/`, `Research/progress.md`, `Research/plan.md`
+- **Change:** Files created: 14 source files for the first extension (UK, US, Canada, Australia, Switzerland, MaaS trial, MobilityData, TCRP), 4 downloaded PDFs and their Markdown conversions. `GR_candidates.md`: first extension marked as kept, and a second extension with 9 candidates in German, French, Dutch, Spanish, Japanese and Korean added for vetting. `GR_to_obtain.md`: items 19 to 21 added and item 18 narrowed to Singapore. Progress and plan updated.
+- **Why:** Marco asked to proceed with the desk research extended to the wider scope and languages, following the latest instructions.
+
 ## 2026-10-06 00:40
 
 - **Files:** `Research/desk_research_instructions.md`, `Research/progress.md`, `AGENTS.md`

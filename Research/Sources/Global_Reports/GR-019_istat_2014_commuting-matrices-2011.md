@@ -16,12 +16,14 @@ tags: [source, who]
 | **ID** | GR-019 |
 | **Link** | [Matrici del pendolarismo (commuting matrices, 2011 census)](https://www.istat.it/non-categorizzato/matrici-del-pendolarismo/) |
 | **Local copy** | not available: a 34.3 MB dataset, not downloaded; the link is on the page |
+| **Markdown copy** | [GR-019_istat_2014_commuting-matrices-2011.md](../../docs_md/Global_Reports/GR-019_istat_2014_commuting-matrices-2011.md) |
 | **Produced by** | ISTAT |
 | **Published by** | ISTAT |
 | **Kind of source** | Official statistics, origin-destination matrices |
 | **Published on** | Page dated 12 December 2014; data from the census of 9 October 2011 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Italy, about 28.9 million residents |
+| **Language** | Italian |
 | **How it was produced** | Census data, classified by sex, transport mode, departure time and journey duration |
 | **Who paid for it or has an interest** | none found (public statistics office) |
 | **Cited by** | None counted yet; recount at the end of the activity |

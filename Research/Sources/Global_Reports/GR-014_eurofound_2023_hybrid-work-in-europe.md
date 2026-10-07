@@ -15,14 +15,15 @@ tags: [source, who, why-now]
 | --- | --- |
 | **ID** | GR-014 |
 | **Link** | [Hybrid work in Europe: Concept and practice](https://assets.eurofound.europa.eu/f/279033/bf3ab6054a/ef22011en.pdf) |
-| **Local copy** | [GR-014_eurofound_2023_hybrid-work-in-europe.pdf](../../docs/GR-014_eurofound_2023_hybrid-work-in-europe.pdf) |
-| **Markdown copy** | [GR-014_eurofound_2023_hybrid-work-in-europe.md](../../docs_md/GR-014_eurofound_2023_hybrid-work-in-europe.md) |
+| **Local copy** | [GR-014_eurofound_2023_hybrid-work-in-europe.pdf](../../docs/Global_Reports/GR-014_eurofound_2023_hybrid-work-in-europe.pdf) |
+| **Markdown copy** | [GR-014_eurofound_2023_hybrid-work-in-europe.md](../../docs_md/Global_Reports/GR-014_eurofound_2023_hybrid-work-in-europe.md) |
 | **Produced by** | Eurofound (Jorge Cabrita and Franz Eiffe), based on work by Matti Vartiainen and Outi Vanharanta (Aalto University) and the Network of Eurofound Correspondents |
 | **Published by** | Publications Office of the European Union, Luxembourg |
 | **Kind of source** | Research report, 48 pages |
 | **Published on** | 2023 (PDF p.4). The code ef22011 in the web address is the project code, not the year |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU Member States |
+| **Language** | English |
 | **How it was produced** | Topical update on hybrid work based on the work of Aalto University and national correspondents |
 | **Who paid for it or has an interest** | none found (EU agency) |
 | **Cited by** | None counted yet; recount at the end of the activity |

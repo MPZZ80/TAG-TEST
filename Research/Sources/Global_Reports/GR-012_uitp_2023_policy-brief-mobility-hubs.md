@@ -15,14 +15,15 @@ tags: [source, mode-choice]
 | --- | --- |
 | **ID** | GR-012 |
 | **Link** | [Policy brief: Mobility hubs, steering the shift towards integrated sustainable mobility](https://www.uitp.org/wp-content/uploads/sites/7/2025/04/Policy-Brief-Mobility-hubs-web.pdf) |
-| **Local copy** | [GR-012_uitp_2023_policy-brief-mobility-hubs.pdf](../../docs/GR-012_uitp_2023_policy-brief-mobility-hubs.pdf) |
-| **Markdown copy** | [GR-012_uitp_2023_policy-brief-mobility-hubs.md](../../docs_md/GR-012_uitp_2023_policy-brief-mobility-hubs.md) |
+| **Local copy** | [GR-012_uitp_2023_policy-brief-mobility-hubs.pdf](../../docs/Global_Reports/GR-012_uitp_2023_policy-brief-mobility-hubs.pdf) |
+| **Markdown copy** | [GR-012_uitp_2023_policy-brief-mobility-hubs.md](../../docs_md/Global_Reports/GR-012_uitp_2023_policy-brief-mobility-hubs.md) |
 | **Produced by** | UITP |
 | **Published by** | UITP |
 | **Kind of source** | Industry policy brief, 16 pages |
 | **Published on** | April 2023 (PDF p.1). The web address contains 2025/04, which is only the upload folder |
 | **Opened on** | 2026-10-05 |
 | **Geography** | International, mostly European cities |
+| **Language** | English |
 | **How it was produced** | Position paper with city examples; no method stated |
 | **Who paid for it or has an interest** | Industry association of public transport operators and authorities |
 | **Cited by** | None counted yet; recount at the end of the activity |

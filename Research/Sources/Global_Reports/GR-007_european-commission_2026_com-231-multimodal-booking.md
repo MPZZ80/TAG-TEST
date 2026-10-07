@@ -15,14 +15,15 @@ tags: [source, why-now, mode-choice, information]
 | --- | --- |
 | **ID** | GR-007 |
 | **Link** | [Proposal for a Regulation on multimodal booking, COM(2026) 231](https://transport.ec.europa.eu/document/download/17596ca2-fad5-467e-b71a-c490baf0bcd1_en?filename=Proposal_on_multimodal_booking.pdf) |
-| **Local copy** | [GR-007_european-commission_2026_com-231-multimodal-booking.pdf](../../docs/GR-007_european-commission_2026_com-231-multimodal-booking.pdf) |
-| **Markdown copy** | [GR-007_european-commission_2026_com-231-multimodal-booking.md](../../docs_md/GR-007_european-commission_2026_com-231-multimodal-booking.md) |
+| **Local copy** | [GR-007_european-commission_2026_com-231-multimodal-booking.pdf](../../docs/Global_Reports/GR-007_european-commission_2026_com-231-multimodal-booking.pdf) |
+| **Markdown copy** | [GR-007_european-commission_2026_com-231-multimodal-booking.md](../../docs_md/Global_Reports/GR-007_european-commission_2026_com-231-multimodal-booking.md) |
 | **Produced by** | European Commission |
 | **Published by** | European Commission |
 | **Kind of source** | Legislative proposal, 75 pages (2026/0113 (COD)) |
 | **Published on** | 13 May 2026 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU |
+| **Language** | English |
 | **How it was produced** | Proposal with an explanatory memorandum that cites a route analysis, the 2024 Eurobarometer and the impact assessment |
 | **Who paid for it or has an interest** | A proposal that advocates the Commission's own policy |
 | **Cited by** | None counted yet; recount at the end of the activity |

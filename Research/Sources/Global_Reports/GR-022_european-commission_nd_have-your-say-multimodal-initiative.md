@@ -16,12 +16,14 @@ tags: [source, why-now]
 | **ID** | GR-022 |
 | **Link** | [Have your say: EU rules on multimodal digital mobility services and single digital booking and ticketing](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14626-EU-rules-on-multimodal-digital-mobility-services-and-single-digital-booking-ticketing) |
 | **Local copy** | not available: web page, not downloaded |
+| **Markdown copy** | not available: the page content is rendered by scripts and could not be captured |
 | **Produced by** | European Commission |
 | **Published by** | European Commission, Have your say portal |
 | **Kind of source** | Consultation page |
 | **Published on** | Undated (the page text could not be extracted) |
 | **Opened on** | 2026-10-05 |
 | **Geography** | EU |
+| **Language** | English |
 | **How it was produced** | Consultation portal; not checked |
 | **Who paid for it or has an interest** | The Commission collects feedback on its own initiative |
 | **Cited by** | None counted yet; recount at the end of the activity |

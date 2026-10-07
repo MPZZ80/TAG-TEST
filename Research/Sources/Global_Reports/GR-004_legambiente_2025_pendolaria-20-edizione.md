@@ -15,14 +15,15 @@ tags: [source, disruption, who]
 | --- | --- |
 | **ID** | GR-004 |
 | **Link** | [Pendolaria 2025: la situazione del trasporto pubblico in Italia e gli scenari di mobilità (20th edition)](https://www.legambiente.it/wp-content/uploads/2025/12/Rapporto-Pendolaria-20esima-edizione-1.pdf) |
-| **Local copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.pdf](../../docs/GR-004_legambiente_2025_pendolaria-20-edizione.pdf) |
-| **Markdown copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.md](../../docs_md/GR-004_legambiente_2025_pendolaria-20-edizione.md) |
+| **Local copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.pdf](../../docs/Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.pdf) |
+| **Markdown copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.md](../../docs_md/Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.md) |
 | **Produced by** | Legambiente, scientific office and national mobility office (Gabriele Nanni, Simone Nuglio) |
 | **Published by** | Legambiente |
 | **Kind of source** | NGO report on commuter rail and public transport, 62 pages |
 | **Published on** | December 2025 (PDF created 12 December 2025) |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Italy |
+| **Language** | Italian |
 | **How it was produced** | Not checked: the methods section was not read |
 | **Who paid for it or has an interest** | Environmental advocacy organisation that campaigns for public transport; the report ends with its own proposals (PDF p.2) |
 | **Cited by** | None counted yet; recount at the end of the activity |

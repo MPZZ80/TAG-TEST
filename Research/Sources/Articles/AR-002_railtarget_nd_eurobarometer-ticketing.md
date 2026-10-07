@@ -16,12 +16,14 @@ tags: [source, mode-choice]
 | **ID** | AR-002 |
 | **Link** | [EU Survey Confirms Progress in Rail and Multimodal Ticketing Across Europe](https://www.railtarget.eu/passenger/eu-rail-multimodal-ticketing-survey-2025-10419.html) |
 | **Local copy** | not available: web page, not downloaded |
+| **Markdown copy** | not available: the page content is rendered by scripts and could not be captured |
 | **Produced by** | RailTarget |
 | **Published by** | RailTarget |
 | **Kind of source** | Trade press article |
 | **Published on** | Not extracted from the page (about 2025) |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Europe |
+| **Language** | English |
 | **How it was produced** | News report that closely follows the rail industry's press release |
 | **Who paid for it or has an interest** | none found |
 | **Cited by** | None counted yet; recount at the end of the activity |

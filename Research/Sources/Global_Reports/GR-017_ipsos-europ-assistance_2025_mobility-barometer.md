@@ -15,14 +15,15 @@ tags: [source, mode-choice, disruption]
 | --- | --- |
 | **ID** | GR-017 |
 | **Link** | [Europ Assistance's 2025 Mobility Barometer](https://www.ipsos.com/en/europ-assistances-2025-mobility-barometer) |
-| **Local copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf](../../docs/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf) |
-| **Markdown copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md](../../docs_md/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md) |
+| **Local copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf](../../docs/Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf) |
+| **Markdown copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md](../../docs_md/Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md) |
 | **Produced by** | Europ Assistance, with the support of Ipsos |
 | **Published by** | Ipsos Insights Hub |
 | **Kind of source** | Commissioned survey; report and press page |
 | **Published on** | 14 April 2025 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Europe |
+| **Language** | English |
 | **How it was produced** | Not checked: sample and method are in the report PDF, not yet read |
 | **Who paid for it or has an interest** | Europ Assistance is a company that sells travel assistance; the barometer is its own publication (company type not verified on the page) |
 | **Cited by** | None counted yet; recount at the end of the activity |

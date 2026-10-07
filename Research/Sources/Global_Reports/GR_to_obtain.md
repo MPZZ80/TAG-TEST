@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-06 00:37
+date: 2026-10-06 18:37
 channel: conversation
 method: generated
 status: draft
@@ -38,7 +38,10 @@ Sources that I could not open or download, with the link where I found them and 
 | 15 | Statistics Canada, Commuting reference guide, 2021 census | [page](https://www12.statcan.gc.ca/census-recensement/2021/ref/98-500/011/98-500-x2021011-eng.cfm) | The guide, for definitions of commuting and multiple modes | Blocked (403) | Q1–Q8 |
 | 16 | Arthur D. Little, How to realize the promise of Mobility-as-a-Service (2021) | [PDF](https://www.adlittle.com/sites/default/files/reports/ADL_Beyond_MaaS_Report_0.pdf) | The report PDF | Blocked (403) | Q27–Q33, technology solutions |
 | 17 | Helsinki Whim case study, Econsult | [PDF](https://econsultsolutions.com/wp-content/uploads/2019/11/Helsinki-Whim_CaseStudy_MaaS.pdf) | The case study PDF | Blocked (403) | Q33, a MaaS service that scaled |
-| 18 | Official reports from Japan, South Korea, Singapore | none found | Any ministry or agency report on commuting or MaaS in these countries, in English | Not found in English | Q27–Q33 |
+| 18 | Official reports from Singapore (Japan and South Korea now have candidates N20 to N23 in the Japanese and Korean originals) | none found | Any agency report on commuting or MaaS in Singapore | Not found in English | Q27–Q33 |
+| 19 | OTLE (Spanish Observatory of Transport and Logistics), annual report 2024 | [page](https://otle.transportes.gob.es/informes-anuales-monograficos/informes-anuales/informe-anual-otle-2024/1) | The annual report PDF, in Spanish | Blocked ("página web bloqueada") | Q1–Q16 for Spain |
+| 20 | Ministry of Land, Infrastructure and Transport of Korea, press release on K-MaaS | [page](https://www.molit.go.kr/mtc/USR/N0201/m_36770/USR/deptInfo/m_36813/dtl.jsp?lcmspage=1&id=95090311) | The press release text, in Korean | Redirects without content | Q24–Q33 |
+| 21 | Japan MLIT "MaaS 2.0" promotion report, April 2025 | found | Nothing: found as GR-047 and the 43% figure on projects that ended after demonstration is verified on PDF p.17 | Resolved | Q33 |
 
 ## Optional
 

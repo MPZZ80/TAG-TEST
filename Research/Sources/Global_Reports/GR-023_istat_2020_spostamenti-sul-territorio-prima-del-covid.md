@@ -15,14 +15,15 @@ tags: [source, who, mode-choice]
 | --- | --- |
 | **ID** | GR-023 |
 | **Link** | [Gli spostamenti sul territorio prima del Covid-19, anno 2019](https://www.istat.it/it/archivio/242574) |
-| **Local copy** | [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.pdf](../../docs/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.pdf), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid_tavole.xlsx](../../docs/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid_tavole.xlsx) |
-| **Markdown copy** | [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](../../docs_md/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md) |
+| **Local copy** | [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.pdf](../../docs/Global_Reports/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.pdf), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid_tavole.xlsx](../../docs/Global_Reports/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid_tavole.xlsx) |
+| **Markdown copy** | [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](../../docs_md/Global_Reports/GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md) |
 | **Produced by** | ISTAT |
 | **Published by** | ISTAT |
 | **Kind of source** | Press release with full text, methodological note and tables, 6 pages |
 | **Published on** | 8 May 2020 (data year 2019). A search result gave May 2021; the page says 2020 |
 | **Opened on** | 2026-10-05 |
 | **Geography** | Italy |
+| **Language** | Italian |
 | **How it was produced** | ISTAT statistics on daily travel and use of transport; the methodological note is attached to the full text |
 | **Who paid for it or has an interest** | none found (public statistics office) |
 | **Cited by** | None counted yet; recount at the end of the activity |
