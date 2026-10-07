@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-09-11 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the official product page in English, a few lines). The app was not tested (2026-10-07) |
 | **Geography** | Italy |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -38,10 +39,14 @@ The app of the main Italian railway operator, with saved searches for repeated t
 
 - "Do you take the same trip every day? Save your search to your Home screen and buy your ticket in a flash."
 - "Track your train and enable notifications to stay updated on ..." (sentence cut in the capture).
+- Own claims (captured 2026-10-07): 'Do you take the same trip every day? Save your search to your Home screen and buy your ticket in a flash' (product page): the only reference to commuters.
+- 'Buy tickets, season tickets, and carnets in just a few steps. Find the nearest station using geolocation' (product page).
+- 'Track your train and enable notifications to stay updated on traffic status and real-time journey progress' (product page).
+- 'Changed your plans? ... With the new Move journey +/-2h feature, you can change your departure time in just a few seconds' (product page).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Six lines of marketing by the operator. The page says nothing about other operators, urban transport, getting to or from the station, alternatives when a train is cancelled, or regional services run by other companies. Italy, home market. Not tested; the door-to-door check was not done.
 
 ## Used in
 

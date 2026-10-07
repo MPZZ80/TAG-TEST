@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-05 23:51
+date: 2026-10-07 13:43
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, who]
 | **Kind of source** | Official statistics, origin-destination matrices |
 | **Published on** | Page dated 12 December 2014; data from the census of 9 October 2011 |
 | **Opened on** | 2026-10-05 |
+| **Read** | In full (text capture of the web page, about 1 page). The data file itself (zip, 34.3 MB) was not opened (2026-10-07) |
 | **Geography** | Italy, about 28.9 million residents |
 | **Language** | Italian |
 | **How it was produced** | Census data, classified by sex, transport mode, departure time and journey duration |
@@ -35,11 +36,13 @@ Origin-destination flows of movements for work or study between and within munic
 
 ## Data and quotes used
 
-- None extracted yet.
+- The page describes the origin-destination matrix of trips for work or study from the 2011 census (reference date 9 October 2011). Base: 28,871,447 people who said they go every day to their usual place of work or study and come back; 28,852,721 live in households (web page, captured 2026-10-06).
+- Variables in the file: reason (work or study), sex, means of transport, departure time band, duration of the trip; flows between municipalities or inside the same one. Means, time band and duration were collected on a sample, and a method note explains how to use them (web page).
+- Matrices for 2001 and 1991 are also offered; the 2011 matrix was used to define the local labour systems (web page).
 
 ## Limits
 
-Old data from 2011, superseded for current use by GR-026. Useful for the structure of flows and journey duration, not for today's levels.
+This is a description of a dataset, not a finding. The matrix was not downloaded or analysed, so no flow between cities is known from this source yet. Data are from 2011: before high-speed rail growth and before hybrid work. One main means per person: combined trips are not visible.
 
 ## Used in
 

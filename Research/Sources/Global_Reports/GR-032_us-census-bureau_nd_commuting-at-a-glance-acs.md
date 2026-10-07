@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 16:34
+date: 2026-10-07 13:36
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, who, mode-choice]
 | **Kind of source** | Official statistics, data page |
 | **Published on** | Undated on the page (a search summary gives 2024 estimates) |
 | **Opened on** | 2026-10-06 |
+| **Read** | In full, the whole web page (the text under the charts; the charts themselves were not captured) (2026-10-07) |
 | **Geography** | United States |
 | **Language** | English |
 | **How it was produced** | American Community Survey 1-year estimates |
@@ -35,11 +36,13 @@ Not read: the page opens, but the indicators could not be extracted from it.
 
 ## Data and quotes used
 
-- None extracted. A web summary gave 27.2 minutes mean travel time in 2024, 69.2% driving alone and 13.3% working from home; none of this is verified.
+- In the United States in 2024, 9.3% of workers had a one-way travel time to work of 60 minutes or more, up from 8.9% in 2023 (web page, revised 22 September 2025).
+- Mean one-way travel time was 27.2 minutes in 2024, up from 26.8 in 2023 (web page).
+- 69.2% drove alone in 2024, the same as 2023; 3.7% used public transport (3.5% in 2023); 13.3% worked from home, down from 13.8% (web page).
 
 ## Limits
 
-Latest US figures, to be read in a browser or from the data tables. GR-031 gives verified 2019 to 2022 figures.
+A summary page with four sentences of data and no breakdown. One main means per worker; no information on legs or on travel between cities. United States only.
 
 ## Used in
 

@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 16:34
+date: 2026-10-07 13:36
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, information, disruption]
 | **Kind of source** | Regulator's annual report |
 | **Published on** | 11 July 2025 (period 1 April 2024 to 31 March 2025) |
 | **Opened on** | 2026-10-06 |
+| **Read** | In full: the executive summary captured from the web page (the linked chapters and the infographic figures were not captured) (2026-10-07) |
 | **Geography** | Great Britain |
 | **Language** | English |
 | **How it was produced** | Annual report on the regulator's interventions; method not read |
@@ -36,10 +37,15 @@ Previous year of GR-027. It reassessed passenger information where rail replacem
 ## Data and quotes used
 
 - Passengers across Great Britain made 1.7 billion journeys by rail in the year, an increase of 7% on the year before (executive summary).
+- Passengers in Great Britain made 1.7 billion rail journeys in the year to March 2025, 7% more than the year before (web page, executive summary).
+- On replacement buses during planned works the regulator found some progress but more to do, 'particularly in relation to the information provided during the journey itself' (web page).
+- Help points at stations: 'passengers cannot consistently rely on help points to get the information and help they may need' (web page).
+- The regulator obtained more transparency on booking fees from all eight online ticket retailers it engaged with (web page).
+- It found that revenue protection practices, penalty fares and prosecutions included, 'are not working as well as they need to', and looked at whether ticket terms are clear to passengers (web page).
 
 ## Limits
 
-Rail only; read together with GR-027 to see what changed. Only the executive summary was read.
+Only the executive summary was captured; no data tables. A regulator's account of its own work. Britain only, rail only.
 
 ## Used in
 

@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-09-22 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the home page as served from the United States, about 3 pages). The app was not tested (2026-10-07) |
 | **Geography** | United States page (the site has other national pages) |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -37,10 +38,14 @@ A coach operator's app with digital tickets and live tracking.
 ## Data and quotes used
 
 - "Get the app and travel with ease of mind. Digital ticket & Live tracking. Book trips. Your tickets. Track your trip."
+- Own claims (captured 2026-10-07): over 8,000 destinations in more than 40 countries, 400,000 routes, 'Trusted by 500+ million passengers'; integrated with Greyhound in North America (product page).
+- App: 'Digital ticket & Live tracking', 'track your journey in real-time using our bus tracking system', 'Always in the know' (product page).
+- On board: free Wi-Fi, power outlets, extra leg room, toilets; one carry-on and one stowed bag (product page).
+- Positioning is price and reach: 'Get Cheap Bus Tickets'; the text mentions travel 'for work or play' once; nothing on commuting, passes, or how to reach the bus stop (product page).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+The page captured is the United States version, not the Italian or European one, so examples and claims are for North America. Marketing text. One mode, main leg only. Not tested; the door-to-door check was not done.
 
 ## Used in
 

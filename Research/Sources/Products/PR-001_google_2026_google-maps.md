@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-10-02 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the product's 'about' page, about 1 page). Much of the page is rendered by scripts and did not capture; the app itself was not tested (2026-10-07) |
 | **Geography** | Global |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -38,10 +39,14 @@ A general map and navigation product. The page presents Ask Maps (answers to com
 
 - "Google Maps is your ultimate guide to explore and navigate the world with confidence."
 - "Find helpful answers to your most complex questions and turn ideas into adventures with Gemini capabilities in Google Maps."
+- Own claims on the page (captured 2026-10-07): 'Your guide to anywhere'; three sections: Ask Maps (questions answered with the Gemini assistant, marked 'Feature only available in the US and India'), Navigation, Lists (product page).
+- Navigation claims are about driving, walking and cycling: automatic zoom on complex turns, hands-free conversation with the assistant 'while driving, walking, or cycling', 'Decide how you want to get there with real-time options, like skipping the tolls ... or taking the fastest route' (product page).
+- 'Know before you go': tips on 'when to go ... and where to park' (product page).
+- The page does not mention public transport, trains, delays, tickets, commuting or combining modes at all (product page): the public face of the product in 2026 is places and car navigation.
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+A marketing page: it shows what the company chooses to promote, not what the app can do; public transport routing exists in the app but is absent here. Nothing was tested. The door-to-door check asked by the plan (address in one city to address in another, which legs, what happens in a disruption) was not done for this product.
 
 ## Used in
 

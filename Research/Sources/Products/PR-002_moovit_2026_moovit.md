@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-10-05 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the home page, about half a page). Most of the page is aimed at business customers; the app itself was not tested (2026-10-07) |
 | **Geography** | Cities worldwide, per the page |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -38,10 +39,13 @@ An urban transit app that also sells MaaS solutions to cities. The home page say
 
 - "One Mobility App: All Your Local Transit Options. A seamless journey to get anywhere in your city."
 - "Make getting from A to B a seamless and simple experience for your citizens with Moovit's Mobility as a Service MaaS solutions: Branded apps, mobile fare payments, on demand transit, Big Data analytics, and more."
+- Own claims on the home page (captured 2026-10-07): 'One Mobility App: All Your Local Transit Options. A seamless journey to get anywhere in your city' (product page). The scope stated is local and urban.
+- Most of the page sells to organisations: advertising to users with geofencing ('reach users with the right offer, at the right time, and place'), MaaS solutions for cities ('Branded apps, mobile fare payments, on-demand transit, Big Data analytics'), a 'Low Carbon Commute Program' (product page).
+- Awards listed by the company include 'Real Time Passenger Information' and 'Best Multimodal App Integration' (product page).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Home page of the company: marketing, mostly for business customers and cities; says little about what a traveller gets. Urban scope by its own words. Not tested; the door-to-door check between two cities was not done.
 
 ## Used in
 

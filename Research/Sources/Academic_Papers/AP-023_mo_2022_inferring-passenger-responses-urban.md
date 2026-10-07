@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:29
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -15,13 +15,14 @@ tags: [source, disruption]
 | --- | --- |
 | **ID** | AP-023 |
 | **Link** | [Inferring passenger responses to urban rail disruptions using smart card data: A probabilistic framework](https://doi.org/10.1016/j.tre.2022.102628) (open-access PDF: <https://dspace.mit.edu/bitstream/1721.1/156454/2/Inferring_passenger_behaviors_after_rail_disruptions_using_smart_card_data_Journal.pdf>) |
-| **Local copy** | not available: the publisher's site blocks automated downloads; the open-access PDF link is in the Link section below |
-| **Markdown copy** | not available: the PDF could not be downloaded (see AP_to_obtain.md); the abstract is in this file |
+| **Local copy** | [AP-023_mo_2022_inferring-passenger-responses-urban.pdf](../../docs/Academic_Papers/AP-023_mo_2022_inferring-passenger-responses-urban.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-023_mo_2022_inferring-passenger-responses-urban.md](../../docs_md/Academic_Papers/AP-023_mo_2022_inferring-passenger-responses-urban.md) |
 | **Produced by** | Baichuan Mo et al. (3 authors; institutions in United States) |
 | **Published by** | Transportation Research Part E Logistics and Transportation Review |
 | **Kind of source** | Peer-reviewed journal article (green open access) |
 | **Published on** | 2022-02-23 |
 | **Opened on** | 2026-10-07 |
+| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in United States |
 | **Language** | English |
 | **How it was produced** | Not stated in the abstract or no abstract; the paper was not read |

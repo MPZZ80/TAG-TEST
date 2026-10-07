@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-05 23:18
+date: 2026-10-07 10:15
 channel: conversation
 method: generated
 status: draft
@@ -44,7 +44,7 @@ All eight fields are required, in this order. If a value is unknown, write `unkn
 4. **Details do not go in the metadata.** Which reports were read, which prompt was used or which participant was interviewed belongs in the body of the file.
 5. **No personal data.** No names or details of interviewees or forum users.
 6. Write the block when you create a file. When you modify a file, update `date`, and the other fields if they changed.
-7. Three files have no metadata block: `CHANGELOG.md`, `CLAUDE.md` and `README.md`.
+7. These files have no metadata block: `CHANGELOG.md`, `CLAUDE.md` and every `README.md` (the repository's front page and the folder guides).
 
 ## 3. `source`: who the content comes from
 

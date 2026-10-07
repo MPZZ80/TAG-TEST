@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:29
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -15,13 +15,14 @@ tags: [source, mode-choice]
 | --- | --- |
 | **ID** | AP-008 |
 | **Link** | [The first-and-last-mile of public transportation: A study of access and egress travel characteristics of Dhaka’s suburban commuters](https://doi.org/10.1016/j.jpubtr.2022.100025) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S1077291X2200025X/pdf>) |
-| **Local copy** | not available: the publisher's site blocks automated downloads; the open-access PDF link is in the Link section below |
-| **Markdown copy** | not available: the PDF could not be downloaded (see AP_to_obtain.md); the abstract is in this file |
+| **Local copy** | [AP-008_rahman_2022_first-last-mile-public.pdf](../../docs/Academic_Papers/AP-008_rahman_2022_first-last-mile-public.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-008_rahman_2022_first-last-mile-public.md](../../docs_md/Academic_Papers/AP-008_rahman_2022_first-last-mile-public.md) |
 | **Produced by** | Mashrur Rahman et al. (3 authors; institutions in Bangladesh, United States) |
 | **Published by** | Journal of Public Transportation |
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
 | **Published on** | 2022-01-01 |
 | **Opened on** | 2026-10-07 |
+| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in Bangladesh, United States |
 | **Language** | English |
 | **How it was produced** | The abstract states the method (see below); the paper was not read |

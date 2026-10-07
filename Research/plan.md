@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's notes, brief.md and initial_questions.md
-date: 2026-10-07 01:45
+date: 2026-10-07 12:38
 channel: Claude Code conversation
 method: AI-drafted plan, revised on Marco's instructions
 confidence: medium
@@ -201,7 +201,8 @@ Started by Marco after the review in section 6.
 | `plan.md` | This plan | Draft |
 | `desk_research_instructions.md` | Working rules for the desk research | Draft |
 | `progress.md` | Running record of the desk research, for resuming work in a new session | Active |
-| `deepdive_interview_script.md` | Topics for the interviews | Draft |
+| `desk_research_partial_analysis.md` | Partial answers to Q1–Q40 from the sources read so far | Draft |
+| `deepdive_interview_script.md` | Topics for the interviews, version 2 | Draft |
 | `Sources/<Category>/<CODE>_candidates.md` | Candidate list of each source category, for Marco to vet | Global reports done; the others to do |
 | `Sources/Global_Reports/GR_to_obtain.md` | Global report sources that could not be opened, for Marco to try to obtain | Active |
 | `Sources/<Category>/` | One file per source, in a folder per category | 132 source files in six categories |

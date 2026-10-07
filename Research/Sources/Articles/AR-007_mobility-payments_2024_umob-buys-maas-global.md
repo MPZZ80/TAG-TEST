@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:42
+date: 2026-10-07 13:47
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, tools, why-now]
 | **Kind of source** | Trade press article |
 | **Published on** | 24 April 2024 (from the web address) |
 | **Opened on** | 2026-10-07 |
+| **Read** | Opening only: the article is behind a paywall (about 905 words, of which only the highlights and first lines are open). Not read beyond that; the paywall was not bypassed (2026-10-07) |
 | **Geography** | Netherlands, Finland |
 | **Language** | English |
 | **How it was produced** | Not stated; a report or analysis by the outlet; method not read |
@@ -36,10 +37,12 @@ Reports that the Dutch start-up umob bought the assets of the bankrupt MaaS Glob
 ## Data and quotes used
 
 - The start-up does not release the number of users of its app; according to Google Play the app had been downloaded only around 5,000 times and had 28 reviews at the time (article text).
+- April 2024: Dutch start-up umob (Rotterdam) bought the assets of bankrupt MaaS Global from the administrator and says it has learned from the 'pitfalls encountered' by Whim, without giving details (open part of the web page, captured 2026-10-07).
+- umob does not publish user numbers; the article notes that on Google Play its app had about 5,000 downloads and 28 reviews (open part of the web page).
 
 ## Limits
 
-Trade press piece based on a short interview and on public store data.
+Paywalled: only the highlights were read, so the reasoning of the article is not known. Trade press. No user evidence. Useful only as a dated fact on what happened to Whim's assets.
 
 ## Used in
 

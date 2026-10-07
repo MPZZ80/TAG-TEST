@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-09-24 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the home page, about 1 page: claims and news headlines). The news articles behind the headlines were not opened; the app was not tested (2026-10-07) |
 | **Geography** | Major transit cities of the world, per the page |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -38,10 +39,13 @@ A journey planner for cities that also works with cities and agencies.
 
 - "All the major transit cities of the world, managed by our unique data factory, maintaining the highest quality information."
 - "Did you know we work with cities and agencies to offer award winning journey planning" (sentence cut in the capture).
+- Own claims (captured 2026-10-07): 'Making Cities Usable'; 'All the major transit cities of the world, managed by our unique data factory'; advertising offer 'in 400+ major cities' to reach 'commuters ... at the right moment & place'; work with cities and agencies on journey planning and 'rider insights' (product page).
+- News headlines on the page show what the product works on: 'Citymapper now uses AI powers to help you choose the BEST route' (beta for paying Club members); 'Best Section now includes train direction'; 'Making bus rides better: bus locations, traffic & diversions'; 'Pick the best time to leave and spend less time waiting' (Club, Android); 'Sync your calendar with Citymapper: the ultimate feature to finally be on time'; lock-screen navigation; 'Citymapper CLUB features are now available to all' (product page).
+- The headlines 'Citymapper joins Via' and the partnership with a university campus confirm the move toward institutions (product page).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Home page and headlines only; cities, not trips between cities. The headlines suggest paid features were first restricted and then opened, but the articles were not read, so dates and details are unknown. Not tested; the door-to-door check between two cities was not done.
 
 ## Used in
 

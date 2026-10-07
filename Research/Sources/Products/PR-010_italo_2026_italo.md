@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-10-02 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the English home page, about 2 pages, partly broken by page code). The app was not tested (2026-10-07) |
 | **Geography** | Italy |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -38,10 +39,14 @@ A private Italian high-speed operator that states connections with regional trai
 
 - "Italo's high speed trains connect 51 major cities across Italy, offering access to 58 stations nationwide."
 - "... thanks to Italo's connections with regional trains, Itabus coaches, and SNAV ferries services, you can extend your journey to even m[ore destinations]" (sentence cut in the capture).
+- Own claims (captured 2026-10-07): high-speed trains connect 51 cities and 58 stations in Italy (product page).
+- Journey times advertised between cities, station to station: Naples-Rome 1 h; Florence-Rome 1 h 30; Milan-Turin 1 h; Milan-Verona 1 h 10; Naples-Salerno 35 min; Milan-Florence 1 h 55; Milan-Rome 3 h (product page). Several pairs are within a daily commute.
+- Connections sold as extensions of the trip: 'thanks to Italo's connections with regional trains, Itabus coaches, and SNAV ferries' (product page).
+- The page speaks to tourists: destinations, lounges, food on board, free Wi-Fi, city itineraries; nothing on commuters, season tickets, delays or how to reach the station (product page).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+English home page aimed at visitors; the Italian pages may show passes for frequent travellers, which were not captured. Times are station to station and best case. Private operator's marketing. Not tested; the door-to-door check was not done.
 
 ## Used in
 

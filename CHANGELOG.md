@@ -4,6 +4,24 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-07 15:16
+
+- **Files:** all the source files in `Research/Sources/` (six categories), the six category `README.md` indexes, `Research/desk_research_partial_analysis.md`, `Research/deepdive_interview_script.md`, `Research/README.md`, `Research/progress.md`
+- **Change:** Every source file updated after reading its text copy: a "Read" row saying how much was read (in full, by chapter with the pages, or not read with the reason), "What it says" rewritten where the reading changed it, evidence added to "Data and quotes used" with page numbers, and "Limits" rewritten. Category indexes: new "Read" column and one-line summaries taken from the source files. Partial analysis rewritten in place from the evidence: findings F1 to F32 revised with the same numbers, F33 to F52 added, list of the 25 sources that could not be read. Interview script moved to version 3 in place: same sequence, new probes on hybrid weeks and distance, the moment of the decision, the buffer at a change, liking the means used and the handling of a disruption; two participant profiles added; timings now add up to 45 minutes.
+- **Why:** Marco asked to complete the reading, because he does not want to hear that the reading was partial, to update the source files with the evidence and, if needed, to update the deep-dive script.
+
+## 2026-10-07 12:38
+
+- **Files:** `Research/desk_research_partial_analysis.md`, `Research/deepdive_interview_script.md`, `Research/README.md`, `Research/plan.md`, `Research/progress.md`
+- **Change:** File created: the partial analysis of the desk research, with partial answers to Q1–Q40, 32 numbered findings with sources and confidence, the evidence against the brief and the open points. Interview script rewritten in place as version 2: same sequence of topics, each now starting from the points left open by the desk research, with probes that test the findings, a journey drawing, a more specific choice of participants and timings for 45 minutes. Its metadata block now follows the schema. Folder guide, plan and progress updated.
+- **Why:** Marco asked to read the collected material and write the partial analysis from the source files, and then to draft a version 2 of the deep-dive interview script that integrates the points left open, keeping the sequence of the experience that he likes.
+
+## 2026-10-07 10:15
+
+- **Files:** `README.md` in `Brief/`, `Questions/`, `Metadata/`, `Research/`, `Research/Sources/` and its six category folders, `Research/docs/`, `Research/docs_md/`; `AGENTS.md`, `Metadata/metadata_schema.md`, `Research/desk_research_instructions.md`, `Research/progress.md`
+- **Change:** Files created: a folder guide in each folder. The six category guides are indexes of the sources, with ID, year, geography, language, grade, topics, copies available and a one-line description. `AGENTS.md`: "Folder guides" rule and entry 22. Schema: README files have no metadata block. Instructions: keep the category index current.
+- **Why:** Marco asked for README files in the folders to guide the agents without making them read all the Markdown files every time.
+
 ## 2026-10-07 01:45
 
 - **Files:** `Research/Sources/` (all six categories), `Research/docs/`, `Research/docs_md/`, `Research/desk_research_instructions.md`, `Research/plan.md`, `Research/progress.md`, `AGENTS.md`

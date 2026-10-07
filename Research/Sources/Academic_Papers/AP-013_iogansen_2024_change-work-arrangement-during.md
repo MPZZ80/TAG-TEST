@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:29
+date: 2026-10-07 13:44
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, who, why-now]
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
 | **Published on** | 2024-04-25 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full, 9 pages (figures 1-4 did not convert; their values are taken from the text) (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in Belgium, United States |
 | **Language** | English |
 | **How it was produced** | The abstract states the method (see below); the paper was not read |
@@ -31,15 +32,22 @@ tags: [source, who, why-now]
 
 ## What it says
 
-Abstract from the OpenAlex record: With two repeated cross-sectional datasets collected in Southern California, we investigate changes in work arrangement and commute trip generation across four timepoints before and during the COVID-19 pandemic: fall 2019 (recalled in fall 2020 retrospectively); fall 2020 and summer 2021 (reported at the moment); and summer 2022 (an expectation as of summer 2021 for a near future prospectively). Our results highlight a large shift from physical commutes to exclusively/predominantly remote work for many workers in fall 2020, followed by a transition towards hybrid work (combining in-person work and remote work) in summer 2021. The adoption of remote/hybrid work varied considerably across different types of workers and sociodemographic groups, prominently driven by high-income earners, highly educated individuals, urban residents, full-time workers, and those with white-collar, STEM (science, technology, engineering, and mathematics), and government jobs. As the pandemic subsides, many workers have returned to physical commutes for some of their workdays, but the prevalence of remote/hybrid work is expected to endure into the future. These findings confirm oft-discussed trends and anecdotal evidence in the study region. However, the study provides rigorous quantitative evidence into reasons behind these observations and heterogeneity across groups. We also suggest forward-looking policies to promote transportation equity, reimagine transportation options, and support public transit to adapt to the evolving travel patterns in the post-pandemic society.
+Two surveys in Southern California (fall 2020, n=4,606; summer 2021, n=3,258) follow work arrangements at four points in time. Workers moved first to full remote work, then to hybrid work, which was expected to last. Commuters still travel to the workplace, but fewer days a month than before. Hybrid work is concentrated among high-income, highly educated, urban, full-time workers; low-income workers tend to be either fully on site or fully remote.
 
 ## Data and quotes used
 
-- None extracted yet. The abstract is the only text read.
+- Method: two repeated cross-sectional surveys in the SCAG region (Los Angeles area), weighted to the 2020 American Community Survey; 605 people answered both; four time points: fall 2019 (recalled), fall 2020, summer 2021, summer 2022 (expected) (PDF p.2).
+- Share of students/workers by arrangement: commuters 70.8% before the pandemic; remote workers 39.3% in fall 2020 and 30.5% in summer 2021; hybrid workers 23.0% (2019), 35.7% (fall 2020), 46.9% (summer 2021), 60.2% expected for summer 2022 (PDF p.4, table 6 p.6).
+- Workers commuting at least once a month: 87.0% (fall 2019), 64.0% (fall 2020), 77.5% (summer 2021). Commuting days a month among commuters: 17.9, then 14.7, then 16.5 (8% below before); among all workers 15.6, 9.4, 12.8 (PDF p.5).
+- Workers working remotely at least once a month: 23.0% before, 61.7% in fall 2020, 76.6% in summer 2021; days a month among those who do: 12.6, 16.5, 13.9 (PDF p.5).
+- By income: high-income commuters (household 100,000 dollars or more) commuted the fewest days already before (17.1 a month) and fell most (13.8 in fall 2020; 15.9 in summer 2021 against 17.0 and 16.9 for middle and low income). Low-income workers 'tend to either fully commute physically ... or fully work remotely' (PDF p.5, 7).
+- Hybrid workers by neighbourhood, summer 2021: urban 41.4%, suburban 20.2%, rural 28.0%; by education: bachelor or higher 34.7%, lower 23.5% (share of all respondents, table 6, PDF p.6).
+- The authors expect travel to move from peak hours to non-peak or 'redefined' peak hours and suggest transit should balance 'peak and non-peak times' and combine fixed routes with on-demand services (PDF p.7).
+- Stated gap: 'few studies have investigated how these changes in work arrangements impact travel patterns and trip making, including trip frequency, trip distance and mode use' (PDF p.2); this paper measures frequency only, not distance or mode.
 
 ## Limits
 
-Only the abstract was read. Questions it could answer: Q2, Q32. Citation counts from OpenAlex may differ from other databases.
+Southern California: car-dependent region (94-98% of households with a vehicle), so nothing here is about public transport or combined trips. Data stop in summer 2021; the 2022 values are expectations. The 2019 values are recalled. Self-selection is admitted by the authors. No information on commute distance or on which days people travel.
 
 ## Used in
 

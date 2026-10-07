@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 16:34
+date: 2026-10-07 13:39
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, information]
 | **Kind of source** | Research report, 122 pages |
 | **Published on** | 2003 (PDF created 24 April 2003) |
 | **Opened on** | 2026-10-06 |
+| **Read** | By chapter: 35 of 122 pages. Read: contents, introduction and literature review (PDF p.9-16), the whole of section 3 on the demand for traveller information (p.17-33) and the whole of section 8 on future directions (p.110-119). Not read: sections 4 to 7, which describe the technologies and the systems in use in 2002 and examples from other industries (p.34-109) (2026-10-07) |
 | **Geography** | United States |
 | **Language** | English |
 | **How it was produced** | Research project sponsored by the Federal Transit Administration; method not read |
@@ -31,15 +32,32 @@ tags: [source, information]
 
 ## What it says
 
-Strategies for improving traveller information for transit riders.
+A 2003 report of the US Transportation Research Board on how public transport agencies can inform travellers better. It is old, and its technology chapters are out of date, but its chapter on what travellers want is a careful review of surveys and focus groups in the United States and Europe, and its findings are about people, not devices: what is asked at each stage of a trip, how frequent and occasional travellers differ, and what information is worth to them even when they cannot change their trip.
 
 ## Data and quotes used
 
 - Transit travellers, particularly choice riders, expect comprehensive information about multiple modes, including traffic information, available quickly, in one place or from one source, and on a variety of media (PDF p.10).
+- The report's summary of demand: "Transit customers seek to lower the trip time uncertainty they commonly experience with transit. They want information that increases their control over time and travel decisions" (PDF p.22).
+- Frequent travellers need different information from occasional ones: "Those who travel frequently may have little need for navigation information, but a greater interest in learning about variations from the expected performance of the transit service" (PDF p.28). For an unfamiliar trip travellers need itinerary planning; for a commute they need less of it (PDF p.24).
+- The first theme in focus groups: "Customers would like timely and honest explanations of delays when systems fail to operate as they should". Passengers tolerate weather or equipment problems but 'find it much harder to understand and forgive information deficiencies in these circumstances' (PDF p.18).
+- Information has value even when the trip cannot change: travellers 'feel that they still benefit just from knowing about the situation and having been given the option to change, to inform others of a delayed arrival'; information may simply reduce 'the potential anxiety of the trip' (PDF p.18, p.27-28).
+- Information during the trip is valued more than before it: in a survey of intercity and local public transport users in the US Northeast Corridor, 83% of rail passengers rated en-route information on train delays as important against 65% for pre-trip delay information; bus passengers 85% and 65% (Hobeika et al. 1996, cited at PDF p.18).
+- What a commuter can still decide before leaving home is mode, route and departure time, and the information wanted is 'updates on service disruptions, delays'; at an intermediate transfer point the information wanted is vehicle arrival times, routing and transfer instructions (table 1, PDF p.27).
+- Questions travellers ask on board or when transferring, frequent and occasional alike: 'What is causing this delay, and how long will it last? When will my connecting train or bus arrive?'; at the stop: 'If my bus or train doesn't arrive here on time, should I continue to wait, switch to a different mode, or give up altogether?' (tables 4 and 5, PDF p.29-30).
+- Questions before the trip include the legs to and from the station: 'How do I get to the station or stop? Is parking available nearby? Are bike racks available? Will I be allowed to take my bicycle on the bus or train?' and 'What will the total trip time be, compared with other modes?' (table 3, PDF p.29). Station access information 'is very important for travelers who anticipate driving or cycling to the station' (PDF p.24).
+- Real-time arrival displays change perception more than reality: on a London bus route the mean perceived wait fell from 11.9 to 8.6 minutes with no significant change in the actual wait; 89% found waiting more acceptable (PDF p.20, p.28).
+- Stated effects of pre-trip information on commuters in the Seattle region: 24-28% of bus and ferry commuters said they were likely to change departure time, 10-16% to switch mode, 11-14% to change route (PDF p.26). The report warns that such stated answers may be biased.
+- People put up with travel problems: in focus groups commuting 'horror stories' came with the belief that 'nothing much can be done about them'; 'There's death, taxes, and traffic'. This helps explain why people 'do not appear to be highly motivated to seek sources of traffic and travel information that are currently available to them' (PDF p.17).
+- According to UK research for Transport Direct, people have a primary means of travel and fall back on a predetermined default when it is unavailable; 32% of the public often do not know the best means to reach a destination, and 93% of them said they would use a single enquiry service covering all methods (PDF p.23 and note 33 at p.32).
+- Willingness to pay for information is low and uncertain: UK estimates range from 0.9 to 26 pence per trip; a paid personalised alert service in the Washington area closed because users would not pay and the data were not detailed and reliable enough (PDF p.26).
+- Active and passive information are different demands: alerts pushed to the traveller about their usual route, against information the traveller must go and look for and keep refreshing (PDF p.23).
+- Bad underlying data destroys trust: if the data an agency uses are not accurate, 'the public's use of the information may be reduced' (PDF p.110).
+- In 2003 the report's 'ultimate' goal was still unmet: combining real-time vehicle status with a trip plan, so that customers get door-to-door real-time trip information (PDF p.118). A German service then in trial sent pass holders disruption messages together with suggested alternatives, using the regular trips they had registered (PDF p.113-114).
+- Only 3 of 34 US agencies surveyed about their trip planners offered multimodal information (note 32, PDF p.32).
 
 ## Limits
 
-From 2003, before smartphones and real-time apps. Useful only to show that the expectation of information in one place is old. Lower priority.
+Published in 2003, before smartphones: every statement about devices, websites and what is available is obsolete, and the surveys it reviews are from 1994-2002. What it reports about travellers' needs must be re-checked against present behaviour before use; it can frame questions, not prove today's facts. Urban bus and rail mostly, United States and United Kingdom. Second-hand: the studies it cites were not opened. Sections 4 to 7 were not read.
 
 ## Used in
 

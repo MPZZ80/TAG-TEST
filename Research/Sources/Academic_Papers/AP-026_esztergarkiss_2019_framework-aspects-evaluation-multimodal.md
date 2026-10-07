@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:29
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -15,13 +15,14 @@ tags: [source, tools]
 | --- | --- |
 | **ID** | AP-026 |
 | **Link** | [Framework of Aspects for the Evaluation of Multimodal Journey Planners](https://doi.org/10.3390/su11184960) (open-access PDF: <https://www.mdpi.com/2071-1050/11/18/4960/pdf?version=1568200285>) |
-| **Local copy** | not available: the publisher's site blocks automated downloads; the open-access PDF link is in the Link section below |
-| **Markdown copy** | not available: the PDF could not be downloaded (see AP_to_obtain.md); the abstract is in this file |
+| **Local copy** | [AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.pdf](../../docs/Academic_Papers/AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.md](../../docs_md/Academic_Papers/AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.md) |
 | **Produced by** | Domokos Esztergár‐Kiss (1 author; institutions in Hungary) |
 | **Published by** | Sustainability |
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
 | **Published on** | 2019-09-11 |
 | **Opened on** | 2026-10-07 |
+| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in Hungary |
 | **Language** | English |
 | **How it was produced** | The abstract states the method (see below); the paper was not read |

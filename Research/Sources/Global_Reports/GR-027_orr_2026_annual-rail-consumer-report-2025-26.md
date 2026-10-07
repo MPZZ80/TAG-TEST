@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 16:34
+date: 2026-10-07 13:36
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, information, disruption]
 | **Kind of source** | Regulator's annual report |
 | **Published on** | 9 July 2026 |
 | **Opened on** | 2026-10-06 |
+| **Read** | In full: the executive summary captured from the web page (the chapters linked from it and the infographic figures were not captured) (2026-10-07) |
 | **Geography** | Great Britain |
 | **Language** | English |
 | **How it was produced** | Annual report on the regulator's interventions to protect passengers during 2025 to 2026; method not read |
@@ -36,10 +37,15 @@ The regulator's account of its work on ticket retailing, passenger information, 
 ## Data and quotes used
 
 - The ORR continued to observe a mix of good and poorer practice in passenger information when rail replacement services are used; it wrote to operators again in July 2025 (page "Passenger information").
+- When rail replacement buses run, 'planning and making a journey should be as easy for passengers as when travelling by train'; the regulator has pushed for better information on replacement services since 2023 and in July 2025 still observed 'mixed practice' among operators (web page, executive summary).
+- 'Delays will always be unwelcome for passengers but a clear and timely explanation of the reasons for delay can help to mitigate frustration'; the share of delayed services for which operators give an explanation improved materially in the year (web page).
+- The regulator runs a line of work on passengers stranded on trains, with industry events in April and October 2025 (web page).
+- A review completed in June 2025 looked at how operators and retailers communicate ticket conditions; the government accepted its recommendations in March 2026, including steps to simplify buying tickets (web page).
+- Bookings of assistance for disabled passengers rose 18% in the year; three operators had the lowest reliability of assistance (web page).
 
 ## Limits
 
-Rail only and focused on regulation, not on commuters' own accounts. Only the executive summary and the passenger information page were read.
+Only the executive summary was captured; the chapters with data and the key-figures infographic were not, so no figures on complaints or compensation were read. A regulator's account of its own work. Britain only, rail only.
 
 ## Used in
 

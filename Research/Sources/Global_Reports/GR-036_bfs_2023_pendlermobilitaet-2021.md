@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 16:34
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, who]
 | **Kind of source** | Official statistics, news release |
 | **Published on** | 2023 (from the web address 2023-0412) |
 | **Opened on** | 2026-10-06 |
+| **Read** | Not read line by line. The page is rendered by scripts and could not be captured as text; a new attempt on 2026-10-07 returned no content. What is in this file comes from the first opening of the page (2026-10-07) |
 | **Geography** | Switzerland |
 | **Language** | German |
 | **How it was produced** | Not read; the page text could not be extracted |

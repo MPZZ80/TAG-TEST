@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 16:34
+date: 2026-10-07 13:36
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, disruption, information]
 | **Kind of source** | Newsletter article on observation research |
 | **Published on** | 23 December 2024 (for the January 2025 newsletter) |
 | **Opened on** | 2026-10-06 |
+| **Read** | In full, the whole web page (a newsletter item of three paragraphs) (2026-10-07) |
 | **Geography** | Great Britain |
 | **Language** | English |
 | **How it was produced** | Staff observed disruption at Bristol Temple Meads and London Paddington stations, monitored information given online and on social media, and observed Western Route Control in Swindon |
@@ -31,15 +32,16 @@ tags: [source, disruption, information]
 
 ## What it says
 
-Describes a joint initiative with Great Western Railway and Network Rail to improve the passenger experience when the service is disrupted, with feedback to both in January 2025.
+A short newsletter item of 23 December 2024: the British passenger watchdog spent a week with a train operator and the infrastructure manager observing how disruption is handled at two stations, online, on social media and in the control room, with feedback promised for January 2025. It announces the exercise and contains no findings.
 
 ## Data and quotes used
 
 - Transport Focus observed how disruption is managed within Western Route Control in Swindon, including the production of passenger information (article text).
+- The exercise observed disruption at Bristol Temple Meads and London Paddington, the information given to passengers online and on social media, and how passenger information is produced in the control room at Swindon (web page). No results are reported.
 
 ## Limits
 
-A short newsletter item that announces the work; the findings are in later publications. A web summary mentioned a Transport User Voice report of October 2025 on communicating through disruption, which I have not located.
+An announcement with no findings: it cannot support any claim on what passengers experience. The results, if published, are elsewhere and were not found.
 
 ## Used in
 

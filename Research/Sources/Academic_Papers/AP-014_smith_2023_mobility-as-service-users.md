@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:29
+date: 2026-10-07 13:36
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, tools, why-now]
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
 | **Published on** | 2023-10-27 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full, 11 pages (reference list included) (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in Australia, Chile, Sweden |
 | **Language** | English |
 | **How it was produced** | The abstract states the method (see below); the paper was not read |
@@ -31,15 +32,26 @@ tags: [source, tools, why-now]
 
 ## What it says
 
-Abstract from the OpenAlex record: Abstract The positive effects that Mobility-as-a-Service (MaaS) is envisioned to have on transport can only be reaped if people are using MaaS. Yet, the understanding of the user perspective on MaaS is incomplete and primarily based on experiments with non-users. To address this shortcoming, this paper reports user experiences from a trial of a high-level MaaS service in Sydney, Australia. Based on questionnaires and interviews, it analyses who participated in the trial and why, and whether the trial experience satisfied their motives. The contribution to the literature on MaaS is three-fold. Firstly, most of the people that participated in the trial were frequent users of both public transport and private cars. This supports the notion that multi-modal travellers are likely early adopters of MaaS and contradicts the fear that MaaS does not appeal to private car users. Secondly, a desire to contribute to innovation and curiosity about MaaS were the main motives for signing up for the trial, which highlights the important role an inviting setting for experimentation, such as a trial, can play in stimulating MaaS adoption. Thirdly, many participants struggled with making the trialled service work for them and on average they seemed to value the support and feedback functions higher than other service features. This underscores the novelty of MaaS, compared to existing service models, and reiterates the notion that more than an app and a few subscription plans is needed to make MaaS useful for users.
+A peer-reviewed paper on who took part in the Sydney MaaS trial (the same trial as GR-037), why, and whether the experience met their motives, from questionnaires before, during and after the trial and from 27 interviews. It adds to the trial report the participants' own words on why they wanted an integrated app, and the finding that they valued the human support and the monthly feedback more than the app's planner and wallet.
 
 ## Data and quotes used
 
-- None extracted yet. The abstract is the only text read.
+- Before the trial, several participants wrote that they were tired of juggling apps: "App swapping is annoying, comparing prices between Uber and Ola is annoying, checking Google Maps then making sure I have my Opal card then making sure I check Google Maps again then ordering an Uber because I became late through so many apps is annoying" (PDF p.5).
+- "Cost savings are nice, but the convenience is much more valuable" (participant, PDF p.5).
+- Yet in use the planner counted for little: its contribution to behaviour change had a median score of 4 on a scale where 5 is 'not at all'; many participants hardly used it and preferred the products they already had, 'partly due to habit'; 58% used the mobility wallet once a month or less (PDF p.8).
+- A participant on why the app went unused: "I don't use the Tripi app very much due to my routine travel patterns during the week, and reliance on my car (with baby seats) at the weekend" (PDF p.7).
+- "I don't really see how it adds anything beyond what I already get through TripGo" (participant, PDF p.8).
+- What participants liked most: everything in one place, the monthly bill with an overview of transport costs ('even though I got sticker shock when I started, I now appreciate the total view of my transport'), and the discounts (PDF p.7).
+- Participants were 'almost one-sidedly positive' about support and feedback: the one-to-one onboarding and the information attached to the monthly bill. The authors note these were labour-intensive (PDF p.8-9).
+- Who they were: 91 participants, all able-bodied and of working age, none over 64; 82% used both a private car and public transport every week; 95% held a driving licence; single-car households were over-represented (PDF p.5-6).
+- Main motive for joining: contributing to an initiative of their employer (43%), curiosity (24%), easier access to transport (15%), cost savings (15%) (PDF p.5).
+- 82% would have bought the offering after the trial, but only 22% thought the trial had reduced their emissions, and interviewees could usually recall no notable change in their travel; 17% said it had changed their view of car ownership (PDF p.7).
+- Reasons for not taking a subscription: low use of the discounted modes (21%), not being able to estimate travel needs (20%), price (11%); in interviews also working from home regularly and the effort of reviewing the plans (PDF p.8).
+- The authors' conclusion: there is 'a mismatch between the utopian visions of MaaS and the usability of available MaaS services', and 'more than an app and a set of mobility plans is needed' (PDF p.9-10).
 
 ## Limits
 
-Only the abstract was read. Questions it could answer: Q33. Citation counts from OpenAlex may differ from other databases.
+Same trial as GR-037, so it is not an independent confirmation: the two must count as one source. 91 volunteers from one employer in Sydney, selected for their high interest in MaaS, iPhone users only, no one with a disability, no one over 64. Self-reported data. Urban context before the pandemic; nothing on intercity commuting.
 
 ## Used in
 

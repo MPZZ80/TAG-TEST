@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-09-02 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text of the official App Store listing in Dutch, about 1 page). Read with a working translation; the app was not tested (2026-10-07) |
 | **Geography** | Netherlands |
 | **Language** | Dutch |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -37,10 +38,14 @@ A Dutch public transport planner that guides the trip live and rewards points (l
 ## Data and quotes used
 
 - "Sprinter is de slimme OV reisplanner voor Nederland waarmee je niet alleen je reis plant, maar onderweg ook punten spaart voor gratis producten, kortingen en deals." In English: Sprinter is the smart public transport planner for the Netherlands with which you not only plan your trip but also earn points on the way (App Store text; working translation).
+- Own claims in the store listing (captured 2026-10-07): a public transport planner for the Netherlands that also gives points for travelling, to exchange for products and discounts; 'Zoek deur-tot-deur routes met trein, bus, tram en metro' (EN: search door-to-door routes by train, bus, tram and metro) (store listing).
+- During the trip: step-by-step guidance; 'Blijf op de hoogte van vertragingen, wijzigingen en gemiste overstappen' (EN: stay informed of delays, changes and missed connections); notifications for departure, changes and arrival; live activities on the phone's lock screen; 'Houd overzicht tijdens je reis, ook bij meerdere overstappen' (EN: keep the overview during the trip, also with several changes) (store listing).
+- Commuters are named as users ('forenzen', 'woon-werkverkeer'); favourites for home, work, school or station; widgets for routes (store listing).
+- It states it is not an official app of any operator (store listing): an independent developer can build this on the open Dutch data.
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Store listing by a small independent developer; launched in 2025; no evidence on users or on how well it works. Public transport only. Netherlands, where timetables and real-time data are open. Dutch text read through my working translation. Not tested; the door-to-door check was not done.
 
 ## Used in
 

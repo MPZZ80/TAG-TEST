@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-10-07 01:45
+date: 2026-10-07 10:15
 channel: Claude Code conversation
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
@@ -27,6 +27,17 @@ Repository layout:
 | `Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
+
+### Folder guides
+
+Every folder has a `README.md` that says what is in it, which file to read for what, and what not to read in full. They exist to save reading.
+
+- **Read the README of a folder before opening its files**, and open only the files it points you to.
+- For the sources, go `Research/README.md` → `Research/Sources/README.md` → the `README.md` of one category, which is the index of its sources → the single source files you need. Do not open the source files one by one, and do not read the text copies in `Research/docs_md/` from start to finish: search them.
+- **Keep the READMEs current.** When you add, remove, rename or regrade a file, update the README of its folder in the same change, including the counts and the state it reports.
+- A README describes and points; it does not hold findings or rules. Rules stay in this file, in `Metadata/metadata_schema.md` and in `Research/desk_research_instructions.md`.
+- The `README.md` in the repository root is Marco's own front page; do not change it unless he asks.
+- README files have no metadata block.
 
 Contents:
 
@@ -74,6 +85,7 @@ This section is the running list of the standing instructions Marco gives during
 | 19 | 2026-10-06 | Every source gets Markdown files: PDFs are converted, and web pages are captured as text, into `Research/docs_md/`. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the Markdown files of the sources first, and the interpretation later |
 | 20 | 2026-10-07 | Keep `Research/docs/` and `Research/docs_md/` split by category, with the same folder names as `Research/Sources/`. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the sources divided by category |
 | 21 | 2026-10-07 | For the papers, do not ask anything more: keep all, download and convert. Then continue through the remaining categories with the extended scope until the desk research is finished, updating the progress file, and leave the interpretation for later. | Marco wants the collection finished before the interpretation |
+| 22 | 2026-10-07 | Keep a `README.md` in every folder that guides agents to the right file, so that they do not read every Markdown file each time; read the README of a folder first and keep it current. Details under "Folder guides" below. | To guide agents without making them read all the Markdown files every time |
 
 ### Language
 

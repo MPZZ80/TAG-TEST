@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-05 23:51
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, why-now]
 | **Kind of source** | Consultation page |
 | **Published on** | Undated (the page text could not be extracted) |
 | **Opened on** | 2026-10-05 |
+| **Read** | Not read line by line. The page is rendered by scripts and could not be captured as text; a new attempt on 2026-10-07 returned no content. What is in this file comes from the first opening of the page (2026-10-07) |
 | **Geography** | EU |
 | **Language** | English |
 | **How it was produced** | Consultation portal; not checked |

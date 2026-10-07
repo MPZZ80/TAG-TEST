@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:44
+date: 2026-10-07 13:37
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, why-now, information]
 | **Kind of source** | Project news interview |
 | **Published on** | Undated on the page; the ministry name suggests 2021 or 2022 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full, the whole web page (a short interview) (2026-10-07) |
 | **Geography** | Italy |
 | **Language** | English |
 | **How it was produced** | Not stated; official publication; method not read |
@@ -36,10 +37,13 @@ An interview with the communication officer of the Italian ministry on its role 
 ## Data and quotes used
 
 - "For EU Member States, data sharing and data standards are essential to provide well running multimodal travel information services."
+- At the time of the interview the Italian ministry was still 'building up contacts with national stakeholders and planning the implementation' of the national access point for multimodal travel data (web page).
+- The pilot collected public transport data in the Italian NeTEx profile through the Piedmont regional access point, from almost 100 public transport operators (web page).
+- The ministry's officer names the open questions as organisational more than technical: 'how to involve all stakeholders? How will NAP make data available? Who will be the first beneficiaries? In order to enable which services?' (web page).
 
 ## Limits
 
-A promotional interview of an EU project, undated; the date is estimated from the ministry's former name.
+An undated interview on a project website, given by a communication officer; the ministry is named as it was called in 2021-2022, so the page describes an early stage and not the present. No data on coverage or quality.
 
 ## Used in
 

@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-05 23:51
+date: 2026-10-07 13:47
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, disruption]
 | **Kind of source** | Regional statistics office summary of a report |
 | **Published on** | Not extracted from the page |
 | **Opened on** | 2026-10-05 |
+| **Read** | In full (text capture of the web page, half a page) (2026-10-07) |
 | **Geography** | Italy |
 | **Language** | Italian |
 | **How it was produced** | Short summary of a report by Legambiente |
@@ -35,11 +36,14 @@ Summarises the Pendolaria report as finding that rail transport remains a second
 
 ## Data and quotes used
 
-- None used. The page links to a PDF named Pendolaria-2025.pdf, uploaded in December 2024, which is the previous edition and no longer opens at that address.
+- Summary of Legambiente's Pendolaria 2025 on the Regione Puglia statistics office site, published 19 December 2024 (web page, captured 2026-10-06).
+- National funding for rail and road public transport went from about 6.2 billion euros in 2009 to 5.2 billion in 2024, minus 36% counting inflation over 15 years (web page).
+- Puglia 2023: 871 train runs a day (Trenitalia 235, Ferrovie del Sud Est 220, Ferrovie Appulo Lucane 175, Ferrotramviaria 147, Ferrovie del Gargano 94): five different rail operators in one region. 168 regional trains in service, average age 13.7 years, 27.4% over 15 years (web page).
+- Puglia lost more than 40% of daily rail passengers in 2023 against 2019 and about 20% against 2009 (web page).
 
 ## Limits
 
-Describes the December 2024 edition, not the 20th edition (GR-004). A search summary mixed the two. Do not use its figures.
+Second-hand summary of GR-004, which was read in full: use GR-004 for citations. Adds only the Puglia figures. No user evidence.
 
 ## Used in
 

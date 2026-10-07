@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-10-06 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the home page, about 3 pages with repeated blocks). The app was not tested (2026-10-07) |
 | **Geography** | North America and other regions, not checked |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -38,10 +39,16 @@ A transit app that shows nearby options on opening, with real-time data, trip pl
 
 - "See all nearby transportation options as soon as you open the app — no taps or searches required. We'll show local buses, subways, bikeshare, and more."
 - "New Tap GO. Get a link. Share your trip!"
+- Own claims (captured 2026-10-07): opens on nearby departures with 'no taps or searches required'; 'you can watch your bus approaching your stop in real-time. No more relying on outdated schedules or inaccurate ETAs' (product page).
+- Changes: 'We'll find the best transit combinations with real-time information, and make it easy to identify trips that have squeaky-tight transfers or long walks' (product page).
+- Guidance during the trip ('GO'): 'We'll tell you when to leave for the stop, when your destination is approaching, and when to hop off' (product page).
+- Crowdsourcing to fill gaps in official data: 'Does your city have unpredictable real-time information? ... riders fill in those gaps by sharing real-time bus and train locations with others nearby', 'used by millions' (product page).
+- Business model stated: 'Funded by riders and transit agencies'; 'Bus tracking, not ad tracking'; 'we don't sell your data'; free with a paid tier ('Royale'); '220+ agency partners' in one place and '180+' in another on the same page; 1200+ cities; in 2026 it became the official app in Vancouver and partnered with Toronto's transit agency (product page).
+- For agencies it offers a channel to riders: 'Thousands of riders in your city rely on Transit to discover detours, network changes, and service problems', plus rider feedback on lines and stops (product page).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Marketing page with selected store reviews. North American and urban; local transit, not trips between cities. The two different counts of agency partners on the same page show it is not carefully maintained. Not tested; the door-to-door check between two cities was not done.
 
 ## Used in
 

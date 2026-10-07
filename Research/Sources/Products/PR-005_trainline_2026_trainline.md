@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools, mode-choice]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-09-27 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the 'About us' page, about 3 pages). The app was not tested (2026-10-07) |
 | **Geography** | Europe, 40 countries |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -38,10 +39,16 @@ A train and coach ticket aggregator with live, personalised travel information i
 
 - "We are Europe's leading train and coach app. To put it simply, we are a one stop shop for train and coach travel. Every day, we gather routes, prices, and travel times from over 270 rail and coach operators in 40 countries."
 - "... live, personalised travel information on the go via our awesome app."
+- Own claims (captured 2026-10-07): 'Europe's leading train and coach app', 'a one-stop-shop for train and coach travel'; routes, prices and times from over 270 rail and coach operators in 40 countries; 'more than 172,000 smarter journeys every day' (product page).
+- Stated aim: 'to bring together all rail, coach and other travel services into one simple experience so people can get the best prices and smart, real-time travel info on the go' (product page). Scope is train and coach: no urban transport, car, parking or first and last mile is mentioned.
+- It presents the fragmentation of rail as its market: 'European rail markets are becoming more fragmented, following the EU's Fourth Railway Package ... As new entrant rail carriers launch services ... we give customers an easy way to compare all carriers, fares and journey options' (product page).
+- UK app: 'all carriers, fares and their digital railcard in one place, real time travel information on-the-go, and self-serve after sales' (product page). Features named in its history: price prediction for when to book, cheapest ticket of the day, voice assistant (product page).
+- Revenue beyond tickets: insurance and other add-ons, advertising in the app, and selling its platform to carriers and business travel sellers; it builds the 'white label' sales sites of many UK rail companies (product page).
+- Listed on the London Stock Exchange since June 2019; over 1,000 staff, about half in product and engineering (product page).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Corporate 'about' page: the company's own account. A ticket retailer for the main leg only. Nothing on commuters or season tickets on this page. Figures are the company's and undated. Not tested; the door-to-door check was not done.
 
 ## Used in
 

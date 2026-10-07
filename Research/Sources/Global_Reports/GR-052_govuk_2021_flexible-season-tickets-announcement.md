@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:42
+date: 2026-10-07 13:36
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, planning, why-now]
 | **Kind of source** | Government news story |
 | **Published on** | 20 May 2021 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full, the whole web page (a government news story of 20 May 2021, marked as withdrawn on 21 June 2021 when the ticket was released) (2026-10-07) |
 | **Geography** | Great Britain |
 | **Language** | English |
 | **How it was produced** | Not stated; official publication; method not read |
@@ -36,10 +37,14 @@ Announces the new national rail flexible season tickets as part of the Williams-
 ## Data and quotes used
 
 - "New national rail flexible season tickets announced as part of the Williams-Shapps Plan for Rail, the biggest shake-up of rail in a generation."
+- The British government announced a national flexible season ticket for people who commute two or three days a week: travel on any 8 days in a 28-day period, paperless, with no need to choose the days in advance (web page).
+- The government's stated reason: "For many, the idea of travelling 5 days a week to the office is fast becoming a relic of the past"; the offer 'reflects the long-term decline in the use of traditional season tickets', accelerated by the pandemic (web page).
+- Savings claimed against daily tickets for a two-day-a-week commuter over a year, on routes between cities: over 200 pounds York-Leeds, over 220 Liverpool-Manchester, over 160 Stafford-Birmingham, over 250 Woking-London (web page).
+- The same plan promised a single national ticket website and app, simple digital ticketing, contactless pay-as-you-go and straightforward compensation (web page).
 
 ## Limits
 
-From 2021, and a government announcement. It shows how rail operators responded to hybrid working but not whether the tickets worked.
+A government announcement, written to promote the measure: the savings are the government's own examples before the fares were published, compared with daily tickets and not with annual season tickets. The page was withdrawn a month later. It says nothing on how many commuters bought the ticket or whether it suited them. England only, rail only.
 
 ## Used in
 

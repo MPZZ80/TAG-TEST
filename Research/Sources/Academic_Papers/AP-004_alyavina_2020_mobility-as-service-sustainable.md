@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:29
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -15,13 +15,14 @@ tags: [source, why-now]
 | --- | --- |
 | **ID** | AP-004 |
 | **Link** | [Mobility as a service and sustainable travel behaviour: A thematic analysis study](https://doi.org/10.1016/j.trf.2020.07.004) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S1369847820304654/pdf>) |
-| **Local copy** | not available: the publisher's site blocks automated downloads; the open-access PDF link is in the Link section below |
-| **Markdown copy** | not available: the PDF could not be downloaded (see AP_to_obtain.md); the abstract is in this file |
+| **Local copy** | [AP-004_alyavina_2020_mobility-as-service-sustainable.pdf](../../docs/Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../../docs_md/Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md) |
 | **Produced by** | Elena Alyavina et al. (3 authors; institutions in United Kingdom) |
 | **Published by** | Transportation Research Part F Traffic Psychology and Behaviour |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
 | **Published on** | 2020-07-29 |
 | **Opened on** | 2026-10-07 |
+| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in United Kingdom |
 | **Language** | English |
 | **How it was produced** | The abstract states the method (see below); the paper was not read |

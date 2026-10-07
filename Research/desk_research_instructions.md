@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and plan.md
-date: 2026-10-07 01:45
+date: 2026-10-07 10:15
 channel: Claude Code conversation
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
@@ -241,6 +241,7 @@ Apart from the candidate lists, where you always stop for Marco, do not stop to 
 
 - Every source used in the research has its own Markdown file, called a source file, in the folder of its category under `Sources/`.
 - An output may cite only sources that have a source file. Create the source file first, then cite it.
+- Each category folder has a `README.md` that is the index of its sources. Add or update the row of a source there whenever you create, regrade or remove its source file, and use the index to find sources without opening every file.
 - The source file holds everything about the source. Outputs link to it and do not repeat its details.
 
 | Folder | Code | What goes in it | One file per |

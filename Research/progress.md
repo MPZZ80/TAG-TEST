@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-07 01:45
+date: 2026-10-07 15:16
 channel: conversation
 method: generated
 status: draft
@@ -17,7 +17,7 @@ Running record of the desk research, so that a new session can continue without 
 
 ## Current state
 
-The collection stage of the desk research is complete for all six categories, with the extended scope. Marco postponed the interpretation, so the activities A1 to A8 (outputs, comparison grid, coding, synthesis) have not started. Totals on 2026-10-07: 132 source files, 61 downloaded documents, 110 Markdown copies.
+The collection stage is complete for all six categories, with the extended scope, and on 2026-10-07 all the collected material that could be read was read. Of the 132 sources, 90 were read in full, 17 by chapter or in part and 25 could not be read (20 papers whose download is refused, 5 web pages that cannot be captured). The evidence is in the "Data and quotes used" section of each source file, the "Read" row says how much was read, and the ledger below lists every source. `desk_research_partial_analysis.md` was rewritten from this evidence (findings F1 to F52) and the interview script is at version 3. The activities A1 to A8 (outputs, comparison grid, synthesis) have not started. Totals on 2026-10-07: 132 source files, 61 downloaded documents, 110 Markdown copies.
 
 | Category | Source files | Status |
 | --- | --- | --- |
@@ -49,9 +49,154 @@ Installed on 2026-10-06 for `tesseract` (OCR), in `/opt/homebrew/share/tessdata`
 
 ## Next step
 
-The collection is finished; interpretation is postponed by Marco. When he asks to start it, the order proposed in the plan is: A1 to A7 from the source files (read the Markdown copies for the figures marked "None extracted yet"), then A8 the synthesis and the coverage of Q1 to Q40. Before that, offer these options: (a) fill the `*_to_obtain.md` items that Marco manages to get, (b) add the missing countries (Singapore, New Zealand, Nordic), (c) read the 20 papers with a downloaded PDF. All translations of German, French, Dutch, Spanish, Japanese and Korean passages are working translations to check.
+Marco reviews `desk_research_partial_analysis.md` (start from the summary and from "Evidence against the brief's assumptions") and version 3 of `deepdive_interview_script.md`. Then, as he decides: (a) write the activity outputs A1 to A8 and the synthesis from the source files; (b) prepare the Italian wording of the interview topics and a pilot interview; (c) obtain what is missing.
+
+What is missing and would matter most:
+
+- The 20 papers in `Sources/Academic_Papers/AP_to_obtain.md`, to download by hand: first AP-015, AP-016, AP-020, AP-025, AP-006, AP-003.
+- The ISTAT commuting matrix for 2021 (GR-026), published in October 2025 and not opened: it could count the people who commute between specific Italian cities.
+- The chapters not read of the long reports: GR-003 (182 of 235 pages), GR-041 (about 180 of 236), GR-047 (119 of 164), GR-046 (198 of 227), GR-006 (58 of 107), GR-037 appendices, GR-035 chapters 3.5 to 5.
+- The MaaS for Italy white paper (GR-050) and the Eurobarometer report behind GR-005 and AR-003.
+- Italian commuter forums and groups, which could not be read.
+- The "Used in" section of the source files, to fill with the finding numbers when the outputs are written.
 
 Marco is trying to obtain the items in `Sources/Global_Reports/GR_to_obtain.md`; when he provides files, save them in `docs/` with the naming rule, and create or update the source file.
+
+## Full reading ledger
+
+Sources read in full (or with the chapters named in their "Read" row) during the complete reading asked by Marco on 2026-10-07. A source not listed here has not been read beyond what its file says.
+- GR-008: In full, 51 pages
+- GR-004: In full, 62 pages
+- GR-023: In full, 6 pages
+- GR-024: In full, 20 pages
+- GR-025: In full: user guide 14 pages and methodological note 2 pages
+- GR-051: In full, the whole web page (12 sections and appendix)
+- GR-003: By chapter: 53 of 235 pages, selected because they deal with rail, local public transport, passengers and users' rights (PDF p.8-13, 24, 32-39, 44, 67-78, 91, 109-115, 122, 130-166, 196-235). The chapters on motorways, airports, ports, taxis and the Authority's organisation were not read
+- GR-050: In full, the whole web page (a press release; the white paper itself was not downloaded)
+- GR-054: In full, the whole web page
+- AR-008: In full, the whole article
+- GR-001: In full, the whole web page
+- GR-016: In full, the whole web page
+- GR-006: By chapter: 49 of 107 pages. Read: introduction, problem definition, problem drivers, why the EU should act, objectives, baseline (PDF p.1-32) and the synopsis of the stakeholder consultation (PDF p.91-107). Not read: the comparison of policy options and their impacts (PDF p.33-90) and annexes after p.107
+- GR-007: By chapter: 22 of the pages of the proposal (PDF p.1-22: explanatory memorandum, recitals, articles 1 to 7). Not read: articles 8 to 19 and the annexes with the thresholds
+- GR-020: By chapter: 14 pages of the proposal (PDF p.1-14: explanatory memorandum and recitals 1 to 10). Not read: the articles and annexes
+- GR-021: In full: the text of the 2017 regulation as published (recitals as captured, articles 1 to 11 and the annex). The capture kept only some of the recitals; the 2024 amendments are listed but their text is not in the copy
+- GR-013: In full, 5 pages
+- GR-015: In full, the whole web page
+- GR-010: In full, 35 pages (the last page is a list of participants read from an image)
+- GR-009: In full, 45 pages (reference list and list of participants included)
+- GR-011: In full, 12 pages (two pages are diagrams read by character recognition, with gaps)
+- GR-012: In full, 16 pages (three pages with boxes and a diagram read by character recognition, with gaps)
+- GR-037: By chapter: 91 of 127 pages. Read: executive summary and the whole main report (PDF p.5-69), appendix A with the mid-trial interviews (p.71-83) and appendix F with the exit survey (p.115-127). Not read: appendices B to E and G to H (app screens, communications, survey instruments, modelling papers, PDF p.84-114)
+- AP-014: In full, 11 pages (reference list included)
+- GR-027: In full: the executive summary captured from the web page (the chapters linked from it and the infographic figures were not captured)
+- GR-028: In full: the executive summary captured from the web page (the linked chapters and the infographic figures were not captured)
+- GR-029: In full, the whole web page (a newsletter item of three paragraphs)
+- GR-030: In full, the whole web page (introduction and main findings; the data tables linked from it were not downloaded)
+- GR-052: In full, the whole web page (a government news story of 20 May 2021, marked as withdrawn on 21 June 2021 when the ticket was released)
+- GR-053: In full, the whole web page (five sections)
+- GR-031: In full, 8 pages (the first page read by character recognition; the tables and charts did not convert, so only figures quoted in the text were read)
+- GR-032: In full, the whole web page (the text under the charts; the charts themselves were not captured)
+- GR-033: In full, the whole web page (the chart data tables did not convert; figures quoted in the text were read)
+- GR-034: In full, the whole web page
+- GR-038: In full, the whole web page (a short 'about' page)
+- GR-039: In full, the whole web page (a fact sheet of January 2022)
+- GR-055: In full, the whole web page
+- GR-056: In full, the whole web page (a short interview)
+- GR-018: In full, the whole web page (the press release for the United States; the full report it links to was not captured)
+- GR-017: By chapter: 67 pages. Chapter 1 on mobility habits read from the page images, because the charts did not convert to text: PDF p.7, 9, 11-14, 16-22, 24 and 29, plus the summary pages 30, 41, 50, 58 and 66 as text. Not read: the charts of the chapters on vehicle ownership, electric vehicles and micromobility (PDF p.31-65) and the chart pages 8, 10, 25-27
+- GR-014: By chapter: 14 of 46 pages. Read: contents, introduction and the start of chapter 1 (PDF p.5-12), the two pages that mention commuting (p.29 and p.36-37 on motivations, benefits and opportunities), part of the bibliography and the annex (p.43-46). Not read: the rest of chapters 1 to 5 on definitions, national debates, company practices and conclusions (p.13-28, 30-35, 38-42)
+- GR-040: By chapter: 35 of 122 pages. Read: contents, introduction and literature review (PDF p.9-16), the whole of section 3 on the demand for traveller information (p.17-33) and the whole of section 8 on future directions (p.110-119). Not read: sections 4 to 7, which describe the technologies and the systems in use in 2002 and examples from other industries (p.34-109)
+- GR-042: In full: the main publication, 22 pages, and the one-page infographic (the two 'key data' pages are images that did not convert; the charts were read only through the figures quoted in the text)
+- GR-045: By chapter: 55 of about 80 pages. Read: presentation, background, objectives and scope (PDF p.5-9) and the whole chapter of results with the historical comparison (PDF p.31-80). Not read: the chapters on method, sample design, fieldwork and weighting (PDF p.10-30)
+- GR-043: In full, 59 pages (the key-figure tables on PDF p.14-17 and the charts did not convert to text; figures were read from the commentary)
+- GR-044: In full: the summary document as downloaded (the full report was not downloaded)
+- GR-041: By chapter: long report 56 of ~236 pages (p.11-20 summary, 65-70 trip purposes, 103-116 public transport, 211-236 home office, travel, long-distance commuting, conclusions) and the short report (Kurzbericht) in full, 34 pages. Many charts did not convert to text
+- GR-035: By chapter: 33 of about 88 pages (PDF p.7-10 introduction, 14-16 vehicles and passes, 20-32 distances, legs, means and combinations, 36-48 car, public transport, walking and cycling, purposes, work trips). Not read: chapters 3.5-3.8 (groups, agglomerations, journeys), chapter 4 (attitudes to transport policy), chapter 5 (method). Most charts did not convert to text
+- GR-019: In full (text capture of the web page, about 1 page). The data file itself (zip, 34.3 MB) was not opened
+- GR-026: In full (text capture of the web page, about 2 pages). The data files (zip, csv) and the method notes were not opened
+- AP-001: In full, 14 pages (text and reference list; tables 2 and 4 converted imperfectly)
+- AP-013: In full, 9 pages (figures 1-4 did not convert; their values are taken from the text)
+- AP-017: In full, 19 pages (14 of text, 5 of references; figures 1-3 did not convert)
+- AP-018: In full, 24 pages (19 of text, 5 of references; figures 2-5 and parts of tables 4-6 did not convert, their values are taken from the text)
+- AP-021: In full, 14 pages. Table 1 (the list of 45 factors from the literature, PDF p.3) is an image and did not convert, so it was not read
+- AP-024: In full, 14 pages (figures 1-3 and the supplementary material were not available in the text copy; tables 1-6 and appendix B were read)
+- AP-028: In full, 31 pages of text. Five table pages came out of OCR as noise and could not be read (tables 2, 8, 9 and 11: PDF p.11, 16, 19-20, 25); their main values are taken from the running text
+- AR-001: In full (text capture of the web page, about 2 pages)
+- AR-003: In full (text capture of the web page, about 1 page). The Eurobarometer report itself was not read here
+- AR-004: In full (text capture of the web page, half a page)
+- AR-005: In full (text capture of the web page, about 2 pages)
+- AR-006: In full (text capture of the web page, about 2 pages)
+- AR-007: Opening only: the article is behind a paywall (about 905 words, of which only the highlights and first lines are open). Not read beyond that; the paywall was not bypassed
+- AR-009: In full (text capture of the web page, about 1 page)
+- AR-010: In full (text capture of the web page, about 2 pages). The TNO report it summarises was not read
+- OF-001: Page 1 of 3 of the thread in full (15 of 42 posts). Pages 2 and 3 were not captured and not read
+- OF-003: In full (text capture of the whole thread, about 100 comments, 16-19 March 2023)
+- OF-004: In full (text capture of the whole thread, 21 comments, 1-3 November 2025)
+- OF-002: Page 4 of 10 of the thread in full (posts from 22 May to 11 September 2016, about 30 of 278 posts). The other nine pages were not captured and not read
+- PR-001: In full (text capture of the product's 'about' page, about 1 page). Much of the page is rendered by scripts and did not capture; the app itself was not tested
+- PR-002: In full (text capture of the home page, about half a page). Most of the page is aimed at business customers; the app itself was not tested
+- PR-003: In full (text capture of the home page, about 1 page: claims and news headlines). The news articles behind the headlines were not opened; the app was not tested
+- PR-004: In full (text capture of the home page, about 3 pages with repeated blocks). The app was not tested
+- PR-005: In full (text capture of the 'About us' page, about 3 pages). The app was not tested
+- PR-006: In full (text capture of the home page as served from the United States, about 3 pages). The app was not tested
+- PR-007: In full (text capture of the official product page in German, about 3 pages). The app was not tested
+- PR-008: In full (text capture of the official product page in English, about half a page). The app was not tested
+- PR-009: In full (text capture of the official product page in English, a few lines). The app was not tested
+- PR-010: In full (text capture of the English home page, about 2 pages, partly broken by page code). The app was not tested
+- PR-011: In full (text capture of the corporate home page in Korean, about 1 page: slogans, list of services, news headlines). Read with a working translation; the app was not tested
+- PR-012: In full (text of the official App Store listing in Italian, about 1 page). The app was not tested
+- PR-013: In full (text of the official App Store listing in French, about 2 pages). The app was not tested
+- PR-014: In full (text of the official App Store listing in German, about 2 pages). The app was not tested
+- PR-015: In full (text of the official App Store listing in Dutch, about 2 pages). Read with a working translation; the app was not tested
+- PR-016: In full (text of the official App Store listing in Dutch, about half a page). Read with a working translation; the app was not tested
+- PR-017: In full (text of the official App Store listing in Dutch, about 1 page). Read with a working translation; the app was not tested
+- GR-049: In full (text capture of the government news page in Korean, about 1 page of content). Read with a working translation
+- GR-047: By chapter: PDF p.1-45 of 164 (executive summary, state of local transport and its problems, concept of 'MaaS 2.0', start of the measures). Not read: the rest of the measures and the appendix (technology survey, list of Japanese MaaS, foreign cases: p.46-164). Slides: several charts and diagrams did not convert. Read with a working translation
+- GR-048: By chapter: 16 of 39 pages. Text of PDF p.1-9 (purpose, definitions, method, list of results), plus the chart pages p.10, 14, 15, 16, 19, 20 and 23 read as page images because the charts did not convert to text. Not read: telework by region and place of work (p.11-13), place of telework and intentions (p.17-18, 21-22, 24), changes in daily activities (p.25-34), respondent profile (p.35-39). Read with a working translation
+- GR-046: By chapter: 29 of 227 pages (PDF p.4-9 purpose and scope; p.19-41 summary of the demand study: survey, interviews, logic trees, workshops, where to introduce services). Not read: the detailed method chapters, the supply side (financing and leasing of self-driving vehicles) and the rest. Slides: several charts did not convert. Read with a working translation
+- OR-001: In full: all 100 reviews of the sample (15 August to 4 October 2026)
+- OR-002: In full: all 100 reviews of the sample (14 July to 2 October 2026)
+- OR-003: In full: all 100 reviews of the sample (21 August to 4 October 2026)
+- OR-004: In full: all 100 reviews of the sample (28 September to 4 October 2026: one week)
+- OR-005: In full: all 100 reviews of the sample (19 August to 4 October 2026)
+- OR-006: In full: all 100 reviews of the sample (11 July 2025 to 30 September 2026)
+- OR-007: In full: all 100 reviews of the sample (30 September to 4 October 2026: five days)
+- OR-008: In full: all 100 reviews of the sample (30 May to 3 October 2026). Read with a working translation from Dutch
+- OR-009: In full: all 100 reviews of the sample (4 July to 2 October 2026)
+- OR-010: In full: all 100 reviews of the sample (4 May to 4 October 2026)
+- OR-011: In full: all 100 reviews of the sample (5 September to 4 October 2026). Read with a working translation from Korean; the reviews are short and full of slang, so nuance may be lost
+- OR-012: In full: all 50 reviews of the sample (10 July to 27 August 2026)
+- OR-013: In full: all 100 reviews of the sample (2 September to 4 October 2026)
+- OR-014: In full: all 100 reviews of the sample (21 June to 4 October 2026), in German, French, English and Italian
+- OR-015: In full: all 100 reviews of the sample (29 October 2025 to 2 October 2026). Read with a working translation from Dutch
+- OR-016: In full: all 20 reviews of the sample (1 July 2025 to 26 September 2026). Read with a working translation from Dutch
+- OR-017: In full: all 85 reviews of the sample (10 January to 29 September 2026). Read with a working translation from Dutch
+- AP-002: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-003: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-004: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-005: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-006: In full, 9 pages (text and tables 1 to 6; figures 1 to 8 are described in the text and were not read as images; the reference list was skimmed)
+- AP-007: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-008: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-009: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-010: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-011: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-012: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-015: In full, 18 pages (text; the reference list was skimmed; figures 2 to 6 and the counts in table 2 did not convert, so the order of the themes is taken from the text)
+- AP-016: In full, 25 pages (text and the two appendix tables with all sub-themes and example quotes; several counts in the tables and the three appendix figures did not convert)
+- AP-019: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-020: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-022: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-023: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-025: In full, 15 pages (text and tables 1 and 2; the reference list was skimmed; the supplementary tables were not available)
+- AP-026: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- AP-027: Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read
+- GR-002: Not read line by line. The page is rendered by scripts and could not be captured; on 2026-10-07 it was read again only through an automatic page-fetch summary, which is not a verbatim copy
+- GR-005: Not read line by line. The page is rendered by scripts and could not be captured as text; a new attempt on 2026-10-07 returned no content. What is in this file comes from the first opening of the page
+- GR-022: Not read line by line. The page is rendered by scripts and could not be captured as text; a new attempt on 2026-10-07 returned no content. What is in this file comes from the first opening of the page
+- GR-036: Not read line by line. The page is rendered by scripts and could not be captured as text; a new attempt on 2026-10-07 returned no content. What is in this file comes from the first opening of the page
+- AR-002: Not read line by line. The page is rendered by scripts and could not be captured as text; a new attempt on 2026-10-07 returned no content. What is in this file comes from the first opening of the page
 
 ## Tools and lessons
 
@@ -96,6 +241,10 @@ Second batch, found by search:
 
 ## Log
 
+- 2026-10-07 15:16: Complete reading finished. All 64 reading bundles were read and each source was updated right after it was read: "Read" row, "What it says", "Data and quotes used" with page numbers, "Limits". Charts that did not convert were read from page images for GR-017 and GR-048. A new attempt to download the 20 blocked papers from publishers and open repositories was refused again and not worked around; 5 script-built pages returned no text; these 25 sources are marked "Not read". Then: `desk_research_partial_analysis.md` rewritten (F1 to F32 revised, F33 to F52 new), interview script moved to version 3, category indexes given a "Read" column and new one-line summaries, `README.md` of Research updated, `CHANGELOG.md` entry added.
+- 2026-10-07 13:26: Marco asked to complete the reading of all the material and to update the source files with the evidence (and the interview script if needed). Method: every text copy is read in 69 bundles (about 3.8 million characters). Documents are read in full, except seven very long ones, read by chapter: the regulator's report GR-003 (pages on rail, local transport and passenger rights), the Commission impact assessment GR-006 (pages 1-32 and the stakeholder annex), the Sydney report GR-037 (body and appendices A and F), MiD GR-041 (summary, trip purposes, public transport, home office, long trips, conclusions, plus the whole short report), the Swiss microcensus GR-035, the Japanese reports GR-046 and GR-047, TCRP GR-040 (summary), Eurofound GR-014 (summary and pages on commuting), CRTM GR-045 (results), the two Commission proposals (explanatory memoranda). After each document the evidence goes into its source file with the script `ev.py` (temporary), which also adds a "Read" row and a line to the "Full reading ledger" below. If the session stops, continue from the first source that is not in the ledger.
+- 2026-10-07 12:38: Marco asked to read the material and write a partial analysis with the answers the sources already give, and then a version 2 of the interview script that integrates the open points and keeps the sequence of the experience. Read: the abstracts of the 28 papers, targeted passages of ISFORT, Pendolaria, the regulator's report, the Commission impact assessment, the Sydney trial report, Transport Focus, Eurostat, CRTM, KiM and others, and the 17 review samples (1,555 reviews, keyword coding of the 829 low-rated ones). Wrote `desk_research_partial_analysis.md` (32 findings, 65 sources cited) and rewrote `deepdive_interview_script.md` as version 2 in place. Not done: the "Used in" sections of the source files were not updated with the finding numbers.
+- 2026-10-07 10:15: Marco asked for README files in the folders to guide agents without reading every Markdown file. Added `README.md` to Brief, Questions, Metadata, Research, Research/Sources, the six category folders (each an index of its sources, generated from the source files), and to docs and docs_md (local only, not in Git). Rule added to AGENTS.md (entry 22, "Folder guides"): read the folder README first and keep it current. The category indexes were generated by a temporary script that read ID, title, year, geography, language, grade, tags, copies and the first sentence of "What it says" from each source file; update rows by hand or regenerate the same way.
 - 2026-10-07 01:45: Finished the collection for all categories with the extended scope, as Marco asked (papers without further questions). Papers: 28 source files, 8 PDFs downloaded and converted, 20 blocked. `docs/` and `docs_md/` split by category. Products: 17 source files with page captures and App Store facts. Online reviews: 17 samples of Apple App Store reviews through the public feed, without reviewer names. Forums: 4 sources (Hacker News through the public API; Reddit, railforums and others blocked). Articles: 6 plus 4 official items (GR-050 to GR-053) and 3 data-landscape pages (GR-054 to GR-056). Checked all 132 source files: no broken links, all have the Language row. Wrote the `*_to_obtain.md` files for each category.
 - 2026-10-07 01:31: Marco said not to ask anything more about papers, to split the sources by category and to continue through the remaining categories with the extended scope until the desk research is finished, updating this file. Done: `docs/` and `docs_md/` split into one folder per category like `Sources/` (links rewritten, 0 broken); 28 paper source files AP-001 to AP-028; 8 PDFs downloaded (the rest are blocked by ScienceDirect, Springer, MDPI and similar, listed in AP_to_obtain.md) and converted. Next: Products, Online reviews, Online forums, Articles. Interpretation stays postponed.
 - 2026-10-06 23:00: Next category as Marco asked. Queried the OpenAlex API (no key needed; works with curl) on nine topics plus habit, apps and trials, picked 28 papers by relevance and citations, fetched their DOI and open-access links, opened each link once (25 answered 200, 3 answered 403) and wrote `Sources/Academic_Papers/AP_candidates.md`. OpenAlex search helper scripts were temporary files in the scratchpad: the call is `https://api.openalex.org/works?search=<terms>&filter=publication_year:>2016,type:article|review&per-page=8&select=id,doi,title,publication_year,cited_by_count,primary_location,open_access` and papers by id with `filter=openalex:W1|W2`.

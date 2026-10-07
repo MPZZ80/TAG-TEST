@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-05 23:51
+date: 2026-10-07 13:31
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, who]
 | **Kind of source** | Interactive geo-statistical product with a user guide (14 pages) and a methodological note (2 pages) |
 | **Published on** | 6 February 2024 |
 | **Opened on** | 2026-10-05 |
+| **Read** | In full: user guide 14 pages and methodological note 2 pages (2026-10-07) |
 | **Geography** | Italy |
 | **Language** | Italian |
 | **How it was produced** | Permanent census of population and housing (commuting) and the survey on registrations and cancellations for change of residence |
@@ -31,15 +32,16 @@ tags: [source, who]
 
 ## What it says
 
-Maps of residential mobility and of daily commuting for study or work, with detail down to small territorial units. It is an interactive product, not a narrative report.
+The two documents downloaded are the user guide to ISTAT's dashboards and the methodological note. They explain how to read the dashboards and how the indicators are built; they contain no figures. The commuting data come from the permanent census and stop at 2019; they sit in the online dashboards and in the downloadable tables, which were not captured.
 
 ## Data and quotes used
 
-- None extracted yet. The data is in the interactive maps, which a script-based tool cannot read.
+- The most recent year for the commuting data is 2019; daily trips per 100 inhabitants are the trips recorded by the census surveys between October and December divided by the resident population (methodological note, PDF p.1-2).
+- The dashboards give indicators of daily trips for study or work at regional, provincial and municipal level, with downloadable tables for sub-populations (user guide, PDF p.5; methodological note, PDF p.2).
 
 ## Limits
 
-The numbers are in an interactive viewer; the PDFs are a user guide and a method note. Most recent ISTAT material on commuting found, apart from GR-026.
+No figures in the documents read. The data themselves are in an interactive dashboard that could not be captured as text; to use them the tables must be downloaded from ISTAT. Data stop at 2019.
 
 ## Used in
 

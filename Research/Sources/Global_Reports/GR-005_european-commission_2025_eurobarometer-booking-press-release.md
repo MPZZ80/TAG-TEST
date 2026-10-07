@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-05 23:51
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, mode-choice, tools]
 | **Kind of source** | Survey results, press release |
 | **Published on** | 1 April 2025 (from search results; the page text could not be extracted) |
 | **Opened on** | 2026-10-05 |
+| **Read** | Not read line by line. The page is rendered by scripts and could not be captured as text; a new attempt on 2026-10-07 returned no content. What is in this file comes from the first opening of the page (2026-10-07) |
 | **Geography** | EU, citizens aged 15 and over |
 | **Language** | English |
 | **How it was produced** | Eurobarometer survey of about 26,000 EU citizens, summer 2024 (COM(2026) 231, PDF p.2) |

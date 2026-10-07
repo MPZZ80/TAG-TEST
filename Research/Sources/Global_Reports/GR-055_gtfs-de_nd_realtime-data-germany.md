@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:44
+date: 2026-10-07 13:37
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, information, tools]
 | **Kind of source** | Open data service page |
 | **Published on** | Undated live page, opened 2026-10-07 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full, the whole web page (2026-10-07) |
 | **Geography** | Germany |
 | **Language** | English |
 | **How it was produced** | Not stated; official publication; method not read |
@@ -37,10 +38,13 @@ Describes a beta real-time stream aggregated from data that transport companies 
 
 - "The feeds are published without any guarantee regarding the completeness, availability and/or correctness of the data."
 - The real-time stream is aggregated from real-time data published by transportation companies under an open license, or under a special agreement (page text).
+- An open real-time feed for German public transport exists, in beta, updated every 10 seconds, with trip updates and service alerts, assembled from the feeds of about 28 regional transport associations and data hubs (web page, read on 2026-10-07).
+- It is published 'without any guarantee regarding the completeness, availability and/or correctness of the data'; for two large regions the page notes 'Busses incomplete', and Hamburg is still 'in preparation / open license questions' (web page).
+- The real-time data come from many regional sources with different licences, some under special agreements (web page).
 
 ## Limits
 
-A small service described by its own page. It shows that real-time data exists for Germany but with no guarantee; the quality was not tested.
+A page by a private aggregator describing its own product; no date, no measure of coverage or accuracy. Germany only. It shows that real-time open data are a patchwork, not how good they are.
 
 ## Used in
 

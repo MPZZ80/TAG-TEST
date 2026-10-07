@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:29
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -15,13 +15,14 @@ tags: [source, information, disruption]
 | --- | --- |
 | **ID** | AP-009 |
 | **Link** | [The role of information availability to passengers in public transport disruptions: An agent-based simulation approach](https://doi.org/10.1016/j.tra.2020.01.007) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S0965856419305075?via%3Dihub>) |
-| **Local copy** | not available: the publisher's site blocks automated downloads; the open-access PDF link is in the Link section below |
-| **Markdown copy** | not available: the PDF could not be downloaded (see AP_to_obtain.md); the abstract is in this file |
+| **Local copy** | [AP-009_leng_2020_role-information-availability-passengers.pdf](../../docs/Academic_Papers/AP-009_leng_2020_role-information-availability-passengers.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-009_leng_2020_role-information-availability-passengers.md](../../docs_md/Academic_Papers/AP-009_leng_2020_role-information-availability-passengers.md) |
 | **Produced by** | Nuannuan Leng et al. (2 authors; institutions in Switzerland) |
 | **Published by** | Transportation Research Part A Policy and Practice |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
 | **Published on** | 2020-02-05 |
 | **Opened on** | 2026-10-07 |
+| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in Switzerland |
 | **Language** | English |
 | **How it was produced** | The abstract states the method (see below); the paper was not read |

@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:29
+date: 2026-10-07 15:09
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, who]
 | **Kind of source** | Peer-reviewed journal article (bronze open access) |
 | **Published on** | 2018-02-10 |
 | **Opened on** | 2026-10-07 |
+| **Read** | Not read. No local copy: the publisher's site and the open-access repository both refused the download again on 2026-10-07 (not worked around), and the article page could not be opened as text. Only the abstract already in this file, where the catalogue record had one, was read (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in Netherlands |
 | **Language** | English |
 | **How it was produced** | Not stated in the abstract or no abstract; the paper was not read |

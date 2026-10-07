@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-10-06 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text of the official App Store listing in German, about 2 pages). The app was not tested (2026-10-07) |
 | **Geography** | Switzerland |
 | **Language** | German |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -37,10 +38,16 @@ The Swiss railway's app: whether the train is on time, tickets, orientation in s
 ## Data and quotes used
 
 - "SBB Mobile: Ihr persönlicher Reisebegleiter für den ÖV. Sie möchten frühzeitig wissen, ob Ihr Zug pünktlich ist?" In English: your personal travel companion for public transport; do you want to know early whether your train is on time? (App Store text; working translation).
+- Own claims in the store listing (captured 2026-10-07), DE: 'Ihr persoenlicher Reisebegleiter fuer den OeV' (EN: your personal travel companion for public transport) (store listing).
+- A section for commuters: 'Richten Sie im Bereich Pendeln Ihre persoenliche Pendelstrecke ein und lassen Sie sich mit Push-Mitteilungen ueber Stoerungen im Bahnverkehr informieren' (EN: set up your personal commute route in the Commuting section and get push messages about rail disruptions) (store listing).
+- Door to door is claimed in these words: 'Unterwegs werden Sie von Tuer zu Tuer begleitet und erhalten Informationen zu Verspaetungen, Stoerungen und Umsteigezeiten via Push Meldung' (EN: on the way you are accompanied from door to door and get information on delays, disruptions and changing times by push message) (store listing).
+- One ticket for the whole country: 'Kaufen Sie Ihr Billett fuer die ganze Schweiz mit nur zwei Klicks. Ihre Abos auf dem SwissPass werden angerechnet' (EN: buy your ticket for all of Switzerland in two clicks; your passes are taken into account) (store listing).
+- Check-in travel ('EasyRide'): 'Einchecken, einsteigen und losfahren ... berechnet auf Basis der gefahrenen Strecken das richtige Billett ... und belastet den entsprechenden Betrag im Nachgang' (EN: check in, board and go; it works out the right ticket from the routes travelled and charges afterwards) (store listing).
+- During a saved trip: departure and arrival times, platform, disruptions, train formation and walking routes (store listing).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Store listing by the national operator. Switzerland: one national fare system and pass for all public transport, which is what makes one ticket and pay-afterwards possible; this is a property of the system more than of the app. Public transport and walking only: no car, parking or sharing in the text. Not tested; the door-to-door check was not done. Translations are working translations.
 
 ## Used in
 

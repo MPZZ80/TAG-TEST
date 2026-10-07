@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools, information]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-10-05 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the official product page in English, about half a page). The app was not tested (2026-10-07) |
 | **Geography** | Netherlands |
 | **Language** | English |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -39,10 +40,14 @@ The app of the Dutch railway. It plans journeys by train, metro, tram and bus, s
 - "Receive notifications about delays, cancellations or changes to your connection, even when travelling by bus, tram or metro."
 - "With the NS app you can plan not only journeys by train but also journeys by metro, tram and bus."
 - "OV fiets at your station. Handy when you reach your destination. You can see straight away how many bikes are available."
+- Own claims (captured 2026-10-07): the app plans journeys 'not only ... by train but also journeys by metro, tram and bus' (product page).
+- Notifications 'about delays, cancellations or changes to your connection, even when travelling by bus, tram or metro' (product page).
+- Last mile: 'OV-fiets at your station ... You can see straight away how many bikes are available'; shared transport on the map; a shared scooter brand is named (product page).
+- Also: buy train tickets; 'Choose a less busy train using the busyness indicator' (product page).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Short page by the operator; no detail on what happens in a disruption or on tickets for other operators. Netherlands: dense network, national smart card, station bike hire run by the railway itself. No car or parking. Not tested; the door-to-door check was not done.
 
 ## Used in
 

@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 16:34
+date: 2026-10-07 13:37
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, why-now]
 | **Kind of source** | Think-tank policy article |
 | **Published on** | 13 January 2022 |
 | **Opened on** | 2026-10-06 |
+| **Read** | In full, the whole web page (a fact sheet of January 2022) (2026-10-07) |
 | **Geography** | Finland |
 | **Language** | English |
 | **How it was produced** | Short policy article; no method |
@@ -35,11 +36,13 @@ The Finnish Act on Transport Services frames transport as a whole system, so tha
 
 ## Data and quotes used
 
-- None extracted beyond the summary above.
+- Finland was the first country to pass a law meant to enable MaaS: the Act on Transport Services, in force from 2018, requires transport service providers to make ticketing functions available to third parties and gives access to data such as timetables and prices (web page).
+- The law treats transport as one system instead of separate services, so that public, active and shared transport can compete with the private car 'in terms of flexibility and convenience' (web page).
+- The page states that since the Whim app launched in Helsinki in 2017 the number of MaaS users grew and some gave up their car, citing an OECD page; it gives no figures (web page).
 
 ## Limits
 
-A short summary of a law for an Australian audience, not a primary source. The Act itself would be the primary source.
+A two-page advocacy fact sheet by an Australian think tank, second-hand on Finland, with no data and an optimistic reading of Whim. It predates the insolvency of the company behind Whim (my knowledge, to be checked: not in the source). Useful only as a pointer to the Finnish law.
 
 ## Used in
 

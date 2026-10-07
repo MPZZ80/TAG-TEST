@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-06 18:37
+date: 2026-10-07 13:43
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, who, mode-choice]
 | **Kind of source** | National mobility survey: results report of 240 pages and short report of 36 pages |
 | **Published on** | 2025 (the ministry press release is in the 2025 folder; the results report file was created on 15 January 2026, the short report on 5 May 2025) |
 | **Opened on** | 2026-10-06 |
+| **Read** | By chapter: long report 56 of ~236 pages (p.11-20 summary, 65-70 trip purposes, 103-116 public transport, 211-236 home office, travel, long-distance commuting, conclusions) and the short report (Kurzbericht) in full, 34 pages. Many charts did not convert to text (2026-10-07) |
 | **Geography** | Germany |
 | **Language** | German |
 | **How it was produced** | Fourth edition of the study; a web summary says about one million trips of more than 400,000 people in over 200,000 households were recorded between April 2023 and July 2024. Not verified in the report |
@@ -31,15 +32,31 @@ tags: [source, who, mode-choice]
 
 ## What it says
 
-Everyday mobility in Germany: trips, modes, purposes, and the mobility behaviour of different groups of people. The short report introduces the study and its main results.
+Germany's national travel survey for 2023. Everyday travel is shaped by routines that change slowly; the car still makes 53% of trips. The big change since 2017 is home office: the share of workers who can work from home rose from 13% to 42%, commute trips fell 13%, and people who work from home more days live farther from the workplace. Public transport is held back by missing or poor connections, long travel time and unreliability more than by fares or information. Long-distance commuters over 100 km are 1-2% of adults and are hard to see in a one-day diary.
 
 ## Data and quotes used
 
-- None extracted yet. A web summary said that 66% of commuter trips are made by car, 26% by public transport, 6% by bike and 2% on foot; this was not found in the text read and is not verified.
+- Method: 218,101 households, 420,979 people, 1,087,393 trips on a reference day; legs (Etappen) recorded for a subsample, 94,337 legs; field work April/May 2023 to July 2024 (long report p.13; short report p.5). When a trip uses several means, the main one is assigned by hierarchy public transport > car > bike > foot (short report p.34), so combined trips are hidden inside 'public transport'.
+- Home office: workers with the option rose from 13% (2017) to 42% (2023); 56% in metropolises, about a third in small towns and villages; 29% for very low to medium status, about 60% for very high status; two in three graduates (long report p.211-212).
+- Distance to the workplace: 15 km for workers without home office, 22 km with it; it grows with days at home: under 1 day a week 18 km, 1-2 days 20 km, 2-3 days 24 km, 3 or more days 26 km (table 55, long report p.213-214). Quote: 'Demnach wird Homeoffice in erster Linie genutzt, um besonders lange Arbeitswege ... zu vermeiden' (EN: home office is used first of all to avoid especially long commutes) (p.214). The report adds that longer distances are probably accepted more easily when home office cuts the number of commutes, and that this may change the choice of home and job location (p.214).
+- On the reference day 15% of working people were in home office. Workers with the option travel 54 km on a day at the workplace and 18 km on a home day; workers without the option 44 km (p.216-217). Conservative saving: about 10% of work trips and 15% of work km, up to 8 million trips and 170 million person-km a day (p.217). Home-office effects explain two thirds or more of the slight overall fall in mobility (p.16).
+- Commute trips fell 13% in number and 16% in km against 2017 although employment grew; almost 10 million fewer commute trips on an average Friday; the smallest fall is on Wednesday (6 million, about a tenth) (table 13, p.68-69). The public transport morning peak at 7-8 is lower, most of all on Friday; weekend use is higher (p.113-114). Daily traffic has moved toward the afternoon and evening (p.216).
+- Limits stated by the survey itself: a one-day cross-section cannot show weekly patterns or rebound effects of home office (p.218-219); online activity does not reduce travel (short report p.24).
+- Obstacles to using public transport: no or poor connections for more than half of the population; travel time too long 40%; unreliability 40%; unclear fares (outside the Deutschlandticket) about 15%; too little information 16% (p.104-106). 'Brand funnel': 18% do not know the public transport offer; half of those who know it say their usual destinations cannot be reached; about a fifth answer positively on every step (p.105).
+- Nearly half of the population has relatively poor public transport at home and 12% very good; the share of people using it ranges from about 35% to about 85% accordingly (p.103-104).
+- Satisfaction with public transport fell: top-two grades 62% in metropolises, 14% in rural villages; average school grade 3.3, and 3.6 among people who use the car every day (p.106). Satisfaction with the car is stable (short report p.26).
+- Deutschlandticket (flat monthly ticket): the usual ticket for 16% of people aged 14 or more and for 58% of daily public transport users; half of all public transport trips are made with it; about 30 trips a month per ticket; new customers 5-10%; shift from the car up to a fifth of ticket trips (federal evaluation cited); almost a tenth of people hold it even in rural areas (p.106-109).
+- Regional rail trips average 26 km and over an hour; three quarters are 5-50 km and 13% over 50 km. Of long-distance train trips 23% are commute trips and 11% business trips (p.103, 107, 111-112). For employees 62% of public transport trips are work-related (p.111). People with a licence and a car make more than half of regional rail trips: rail competes with the car more than the bus does (p.110).
+- Long-distance commuters (Fernpendeln): 7% of adults have a second home, 31% of them for work; with a 100 km threshold 1-2% of adults are (occasional) long-distance commuters; distances: 45% 100-250 km, about 35% 250-500 km, 20% more; mostly by car, long-distance rail also plays a role. Quote: 'keine wirkliche Privatreise, keine echte Geschaeftsreise' (EN: not really a private trip, not a true business trip). Hard to identify in a one-day diary (p.19, p.229).
+- Modal split 2023 (trips): on foot 26%, bike 11%, public transport 11%, car driver 40%, car passenger 13%; car 53% of trips (lowest in the series) and about three quarters of km (short report p.14-15). Usual-use segments: 41% are car-oriented every day (44% in 2017); people who use car, bike and public transport every week are stable at 7-8% (short report p.18-19).
+- Average trip 12 km and 28 minutes; work trips 15 km and 29 minutes; time per trip rose about 3 minutes since 2017 (p.66-68).
+- Sharing and on-demand are marginal: car-sharing membership 9% of households (over 20% in metropolises), 22% of members use it weekly; rental bikes, scooters and car sharing 0.1-0.2% of trips; on-demand services about 300 of over a million recorded trips (short report p.20). Quote: 'Verkehr ist gepraegt durch Routinen. Diese veraendern sich langsam' (EN: transport is shaped by routines; these change slowly) (p.19).
+- 14% of the population has a mobility impairment; one in three over 70 (p.18).
+- Conclusions of the report: only comfortable and reliable mass transport can change behaviour, and the walk to the stop or the 'last mile' is part of it; settlement structure, housing and the labour market shape mobility more than transport offers do (p.232). Mobile-phone data cover trips of 30 km or more, about 10% of everyday trips (p.234).
 
 ## Limits
 
-Written in German. 29 of the 240 pages have little text; a test with OCR on them found nothing, so they are blank or section divider pages. Charts that are part of the text pages may still lose their labels, so check figures in the original. Only the front matter and the first pages of the short report were read.
+Germany only. One-day cross-section: weekly rhythm of hybrid workers and long-distance commuters is under-recorded, as the report says itself. Combined trips are hidden by the main-means hierarchy. Chapters on modal detail, cycling, cars, children, seniors and mobility poverty (long report p.21-64, 71-102, 117-210) were not read. Many charts did not convert to text; figures above come from the running text and tables.
 
 ## Used in
 

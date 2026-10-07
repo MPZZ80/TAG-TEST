@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-05 23:51
+date: 2026-10-07 13:33
 channel: web
 method: review
 status: draft
@@ -22,6 +22,7 @@ tags: [source, mode-choice]
 | **Kind of source** | Case study |
 | **Published on** | 30 April 2025 |
 | **Opened on** | 2026-10-05 |
+| **Read** | In full, the whole web page (2026-10-07) |
 | **Geography** | Europe-wide |
 | **Language** | English |
 | **How it was produced** | Case study of a project; no method stated |
@@ -35,11 +36,15 @@ The project addresses the integration of public transport and shared mobility, a
 
 ## Data and quotes used
 
-- None extracted yet.
+- In the pilots, over 60% of respondents knew about the shared mobility hubs but actual use stayed limited, and most use was of non-shared services such as bike parking and parcel lockers (web page, key challenges).
+- In Tønsberg, Norway, 65% of all trips are by private car, even under three kilometres; most residents do not look for alternatives and only 15% say they intend to switch to shared mobility (web page, results).
+- In Leuven and Rotterdam shared mobility is used mainly for short practical trips such as shopping and errands, 'rather than for commuting or longer journeys' (web page, learnings).
+- In several cities hubs were introduced without improving the frequency and reliability of public transport, which limited their effect on car dependency (web page, learnings).
+- The project supported the TOMP API, a standard for exchanging data between shared mobility operators, public transport and MaaS platforms for planning, booking, paying and unlocking vehicles (web page).
 
 ## Limits
 
-Urban focus and a project success story. Only the introduction was read.
+A case study written for a European Commission observatory about a publicly funded project: pilot results from six places in northern Europe, with no sample sizes and tools still in development. It concerns neighbourhood hubs and short trips, not the first and last mile of intercity commutes, and it reports that commuting is exactly what these services are not used for.
 
 ## Used in
 

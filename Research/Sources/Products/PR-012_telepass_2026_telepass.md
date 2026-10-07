@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 01:38
+date: 2026-10-07 15:01
 channel: web
 method: review
 status: draft
@@ -23,6 +23,7 @@ tags: [source, tools]
 | **Kind of source** | Product website and App Store listing |
 | **Published on** | Live pages, opened 2026-10-07; App Store listing of the current version, released 2026-09-30 |
 | **Opened on** | 2026-10-07 |
+| **Read** | In full (text of the official App Store listing in Italian, about 1 page). The app was not tested (2026-10-07) |
 | **Geography** | Italy |
 | **Language** | Italian |
 | **How it was produced** | The company's own description of its product; no independent method |
@@ -37,10 +38,15 @@ An Italian app that started with motorway tolls and now includes parking and oth
 ## Data and quotes used
 
 - "Non solo pedaggio senza coda, ma anche cercare e trovare parcheggio. Un nuovo modo di vivere gli spostamenti più fluido, sostenibile e integrato." In English: not only toll without queue, but also searching and finding parking; a new, smoother, more sustainable and integrated way to travel (App Store text; working translation).
+- Own claims in the store listing (captured 2026-10-07), IT: 'Non solo pedaggio senza coda, ma anche cercare e trovare parcheggio. Un nuovo modo di vivere gli spostamenti piu fluido, sostenibile e integrato' (EN: not only tolls without queues, but also finding parking; a more fluid, sustainable and integrated way of moving) (store listing).
+- Car services: motorway tolls, fuel and electric charging paid from the phone, blue-line street parking and 'oltre 1000 parcheggi convenzionati di citta, aeroporti, stazioni e fiere' (EN: over 1,000 partner car parks in cities, airports, stations and fairs), access to Milan's Area C and limited traffic zones, road tax, vehicle inspection, insurance (store listing).
+- Other modes sold in the same app: 'Usa i mezzi pubblici della tua citta: acquista i biglietti di autobus, tram e metro'; 'Compra i biglietti dei treni Italo o Trenitalia fino a pochi minuti dalla partenza'; shared bikes, scooters and kick scooters; ferries (store listing).
+- Expenses: 'Tieni traccia dei tuoi movimenti e delle fatture, con la possibilita di creare note spese' (EN: track your transactions and invoices and create expense reports) (store listing).
+- It is a payment account: one bill for many services. The listing describes buying each service, not planning a trip that combines them, and gives no travel information or delays (store listing).
 
 ## Limits
 
-What the vendor says it does, taken from its own page; it has not been tested and independent sources have not been compared. The comparison grid (modes, intercity coverage, real-time delays, alerts, re-routing, ticketing, door-to-door coverage, business model) is filled in during the competitive analysis, not here. Reviews of this app are in the Online Reviews category.
+Store listing written by the company. It is the one Italian product found that joins car, parking at stations, trains and urban tickets, but only as payments, as far as the listing says. Which cities and car parks are covered is not stated. Subscription costs are not in the text read. Not tested; the door-to-door check was not done. Translations are working translations.
 
 ## Used in
 
