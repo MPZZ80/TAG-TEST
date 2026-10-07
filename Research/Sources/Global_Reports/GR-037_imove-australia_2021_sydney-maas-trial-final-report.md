@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 13:35
+date: 2026-10-07 23:15
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, tools, why-now, success]
 | **Kind of source** | Trial evaluation, 236 pages |
 | **Published on** | March 2021 (PDF created 19 March 2021) |
 | **Opened on** | 2026-10-06 |
-| **Read** | By chapter: 91 of 127 pages. Read: executive summary and the whole main report (PDF p.5-69), appendix A with the mid-trial interviews (p.71-83) and appendix F with the exit survey (p.115-127). Not read: appendices B to E and G to H (app screens, communications, survey instruments, modelling papers, PDF p.84-114) (2026-10-07) |
+| **Read** | In full, 236 pages: executive summary, main report, appendix A (mid-trial interviews) and appendix F (exit survey) in the first reading (PDF p.5-69, 71-83, 115-127); the rest in the second (PDF p.1-4, 70, 84-114, 128-236: appendices B to E and G to L, which are the papers on bundle design, government's role, the app developer's account, car use, choice of plans, the users' experience, and two opinion papers on the future of the idea). The first reading counted 127 pages; the file has 236 (2026-10-07) |
 | **Geography** | Australia (Sydney) |
 | **Language** | English |
 | **How it was produced** | Planning from early 2019; in-field trial from November 2019 to mid-March 2020 (stopped suddenly because of COVID-19); post-trial analysis until March 2021 |
@@ -59,10 +59,21 @@ The final report of the first Australian trial of Mobility as a Service: 92 empl
 - A group challenge to cut emissions produced a 1% increase, so no reward; the main obstacle to cutting emissions was 'the convenience of the private car' (43%), then public transport being slower (24%) or not available (19%) (PDF p.40, p.51).
 - 'Without a (monetary) incentive, travellers appear to see very little value in MaaS in the presence of existing apps that are improving all the time' (PDF p.7).
 - The authors could not find a business model without subsidy; they describe MaaS as slipping into the 'trough of disillusionment' (PDF p.7, p.61).
+- Second pass. Who joined and what they did before (91 participants, employees of one insurer in Sydney): 90% used public transport at least 3 to 5 times a week and 45% a private car as often; 82% used both every week; 80% had a car available every day (appendix I, PDF p.184, p.191).
+- Why they joined (67 answers after the trial): wish to contribute to an initiative of their employer 43%, curiosity 24%, more streamlined access to transport 15%, possible savings 15% (PDF p.185, p.193).
+- A participant before the trial: 'App swapping is annoying, comparing prices between Uber and Ola is annoying, checking Google Maps then making sure I have my Opal card then making sure I check Google Maps again then ordering an Uber because I became late through so many apps is annoying. I would really like a place to combine all of my travel services, costs and directions.' Another: 'cost savings are nice, but the convenience is much more valuable' (PDF p.185-186).
+- What they used: the journey planner of the trial app was hardly used, 'competing products were preferred, partly due to habit'; asked to rank journey planners, participants put Google Maps first (2.12 on a scale where 1 is best), then TripView (2.44) and the trial app (2.67). Only 27% used the wallet weekly or more. The planner's contribution to any change in behaviour had a median of 4 on a scale where 5 is 'not at all' (PDF p.137-138, p.186-187, p.193).
+- What they valued: 'They seemed to value the support and feedback functions higher than the functions included in the trialled app'. The monthly statement of cost by means was named as a positive feature, 'revealing cost outlays that many had never realized they made'; one participant spoke of 'sticker shock' at seeing the total (PDF p.174, p.187-188).
+- Behaviour: participants 'usually could not recall any significant changes in their travelling'; after the trial 33% said they would travel as before, 34% that they would keep the new habits, 33% were not sure. The main obstacle to cutting emissions was the 'convenience of private car' (45%), then 'public transport is slower' (24%) and 'difficulty accessing alternative modes' (21%). When choosing a means, convenience was most important for 43%, cost for 28%, safety for 22%, sustainability for 7% (PDF p.187, p.193-194).
+- Why some never took a monthly plan: could not estimate their own travel (20%), do not use the discounted means (21%), price (11%), other (44%); in interviews, working from home regularly, travel that changes from month to month and not wanting to commit for a month. Those who stayed on pay-as-you-go were active 13.7 days a month against 17.8 to 21.4 for subscribers. The authors expect that with more working from home the monthly period 'will require careful thought' (PDF p.165, p.188, p.228).
+- First and last leg: 75% of participants lived within 5 km of a train station; a plan with a 5 dollar flat fare for an Uber ride to or from public transport was added in March 2020 to answer 'the first and last mile issue', after participants asked for bike-share to reach public transport, which the trial could not include (PDF p.136, p.209-210, p.228-229).
+- Car use, 33 participants with a tracking device, 171 person-months: in February the average was 658 km for those on pay-as-you-go and 284 km for subscribers; the model links a higher probability of subscribing with fewer car kilometres. The authors say they cannot conclude that subscribing reduced kilometres compared with what would have happened otherwise (PDF p.139-141, p.146).
+- The app developer's account: integration with the public transport card was done with 'hacks or work arounds' because there was no direct access to the provider's data, and when the provider changed its site the integration stopped working; cooperation from providers 'will often come down to legislation'. Building in the bike-share operator failed because it had just launched and had 'little interest' in a six-month trial (PDF p.112-113, p.210).
+- The authors' later opinion (February 2021): 'a single truly intermodal journey planner is, we believe, yet to exist'; journey planners with contactless payment 'will keep most travellers happy'; 'have we, in promoting MaaS, overestimated what passengers really want?'. They also write that people are generally not complaining about having one app per means (PDF p.198, p.203).
 
 ## Limits
 
-92 volunteers, all employees of one insurance company, iPhone owners, working at offices next to major transport hubs in one city; 82% had daily access to a car. Not representative, and the authors say so. The trial ran about four and a half months, including the Christmas period, and was cut short by the pandemic. It is an urban trial in Sydney: no intercity commuting. People chose their own plan, so differences between groups are not effects. Pre-pandemic behaviour. The app was a white-label trip planner with known bugs, so low use partly reflects that product. Appendices B-E and G-H were not read.
+Australia, one city. 93 participants, all employees of the insurer that co-ran the trial and that subsidised the plans, selected for their interest and limited to iPhone users; five months, ended early by the pandemic. Trips are within the metropolitan area; commuting between cities is not studied. Behaviour change is self-reported, except car kilometres for 33 people. The opinion papers in appendices J and K are the authors' views, not findings.
 
 ## Used in
 

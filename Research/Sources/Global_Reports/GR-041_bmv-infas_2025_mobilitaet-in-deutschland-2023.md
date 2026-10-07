@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 13:43
+date: 2026-10-07 23:17
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, who, mode-choice]
 | **Kind of source** | National mobility survey: results report of 240 pages and short report of 36 pages |
 | **Published on** | 2025 (the ministry press release is in the 2025 folder; the results report file was created on 15 January 2026, the short report on 5 May 2025) |
 | **Opened on** | 2026-10-06 |
-| **Read** | By chapter: long report 56 of ~236 pages (p.11-20 summary, 65-70 trip purposes, 103-116 public transport, 211-236 home office, travel, long-distance commuting, conclusions) and the short report (Kurzbericht) in full, 34 pages. Many charts did not convert to text (2026-10-07) |
+| **Read** | In full: the long report, 240 pages (summary, trip purposes, public transport, home office, travel, long-distance commuting and conclusions in the first reading, PDF p.11-20, 65-70, 103-116, 211-236; all the other chapters in the second, PDF p.1-10, 21-64, 71-102, 117-210, 237-240), and the short report (Kurzbericht), 34 pages. Many charts did not convert to text and were not read as images. Read with a working translation (2026-10-07) |
 | **Geography** | Germany |
 | **Language** | German |
 | **How it was produced** | Fourth edition of the study; a web summary says about one million trips of more than 400,000 people in over 200,000 households were recorded between April 2023 and July 2024. Not verified in the report |
@@ -53,6 +53,20 @@ Germany's national travel survey for 2023. Everyday travel is shaped by routines
 - Sharing and on-demand are marginal: car-sharing membership 9% of households (over 20% in metropolises), 22% of members use it weekly; rental bikes, scooters and car sharing 0.1-0.2% of trips; on-demand services about 300 of over a million recorded trips (short report p.20). Quote: 'Verkehr ist gepraegt durch Routinen. Diese veraendern sich langsam' (EN: transport is shaped by routines; these change slowly) (p.19).
 - 14% of the population has a mobility impairment; one in three over 70 (p.18).
 - Conclusions of the report: only comfortable and reliable mass transport can change behaviour, and the walk to the stop or the 'last mile' is part of it; settlement structure, housing and the labour market shape mobility more than transport offers do (p.232). Mobile-phone data cover trips of 30 km or more, about 10% of everyday trips (p.234).
+- Second pass, long report. What the survey can and cannot see about a door-to-door trip: a trip stays one trip when the person changes means; all means used are recorded, but not the time or distance of each, except in a small module on legs (94,337 legs). The main means is set by a fixed order: public transport, then car, then bicycle, then walking (PDF p.26-27, glossary p.238). Working translation from German.
+- 'For about four fifths of trips only one means is used.' Even with 20 means distinguished, more than one is named for only 13% of trips, and almost all of these include a walking leg: 'intermodal trips can in essence be equated with trips that have at least one walking leg'. Combinations such as bicycle and public transport 'play only a small role' (PDF p.52, p.147). Working translation.
+- Walking legs: a walking leg is reported for 52% of public transport trips, 11% of car trips and 7% of bicycle trips. The report says walking legs are clearly under-reported for public transport, because respondents 'often do not notice them or do not think them worth reporting', and that the Swiss microcensus, which records every leg, gives much higher values. Where legs were recorded: 1.3 walking legs per trip, one kilometre and 10 minutes on average, against an average trip of 28 minutes (PDF p.147-148).
+- People who in a usual week use the car and public transport and the bicycle: 7 to 8% of people aged 14 and over, stable since 2002. 'Daily car-oriented' people: 41% (44% in 2017); 54 to 57% in small towns and villages against 22% in metropolises (PDF p.55 and its table).
+- Share of trips by car as driver or passenger: 53% (57% in 2017), the lowest of the series, 73% of kilometres; public transport 11% of trips; walking 26%; bicycle 11%. By region: car 33% of trips in metropolises, 65% in rural small towns and villages (PDF p.43-47).
+- Less travel overall: 82% of people leave home on an average day (85% in 2017, 90% in 2008); 35 km a day per person against 39 km in 2017; the report names home working and digital activities among the causes and warns that 2023 was not a settled year and that changes under two points should not be read as changes (PDF p.31, p.37, p.51).
+- Satisfaction with local conditions fell between 2017 and 2023 for public transport, cycling and walking, and held for the car. Grades from 1 (best) to 6: walking 2.3, car the same, bicycle 2.9, public transport 3.3. In small towns and villages only about 20% rate public transport good or very good and half give the two worst grades; about four in five people in rural regions are satisfied with driving. The report notes that the national pass made public transport cheap and simple, 'but service deficits that remain elsewhere evidently weigh more'. Those who rarely or never use a means judge it most harshly (PDF p.56-58, p.146).
+- Peak hours: on Tuesday and Wednesday afternoons the number of household cars on the road was almost a quarter lower than in 2017; the report gives less commuting because of home working as a plausible reason. Parking time at the workplace fell; almost half of all cars are not moved on an average day (PDF p.89-92).
+- Shared and on-demand services: car sharing, rental bicycles, rental e-scooters and on-demand services together are 'less than one per cent of all trips' and about 1.5% of kilometres. 9% of households have a car-sharing member (5% in 2017; almost a quarter in metropolises), but only 5% of station-based members use it weekly. 95% never use rental bicycles and 93% never rental e-scooters. On-demand services: about 300 of more than a million recorded trips, over half of them in big cities. The report: these services have 'complementary force' but 'do not shape' mobility and stay 'a niche' (PDF p.117-127).
+- Electric bicycles: about a quarter of commuting trips made by bicycle are on an electric one; but the share of people who cycle regularly did not grow, because buyers were already cyclists. Three quarters of bicycle kilometres are ridden by people who also drive (PDF p.131, p.136-137).
+- Short car trips: about 40% of car trips are under 5 km, and about a third of these are part of a chain of trips, so cannot simply be replaced by walking or cycling on that section (PDF p.48).
+- Who gives up activities: 25% of people aged 14 and over say they sometimes have to give up activities for one of four reasons; the most named is that destinations cannot be reached with the means available (13%), then cost (8%), dependence on others (8%), nothing on offer nearby (7%). Full-time workers report it least (PDF p.190-194).
+- Planning bias noted by the report: timetables are set mainly for work and school trips, while chains that combine work, care and shopping 'have so far hardly been considered in transport planning' (PDF p.161).
+- Sample: about 421,000 people in 218,000 households, more than a million trips, April 2023 to July 2024, by telephone, paper and online (PDF p.25).
 
 ## Limits
 

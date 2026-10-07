@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 13:43
+date: 2026-10-07 23:11
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, who, mode-choice]
 | **Kind of source** | Official report, 88 pages |
 | **Published on** | 2023 (PDF created April 2023) |
 | **Opened on** | 2026-10-06 |
-| **Read** | By chapter: 33 of about 88 pages (PDF p.7-10 introduction, 14-16 vehicles and passes, 20-32 distances, legs, means and combinations, 36-48 car, public transport, walking and cycling, purposes, work trips). Not read: chapters 3.5-3.8 (groups, agglomerations, journeys), chapter 4 (attitudes to transport policy), chapter 5 (method). Most charts did not convert to text (2026-10-07) |
+| **Read** | In full, 88 pages: introduction, vehicles and passes, distances, legs, means, purposes and work trips (PDF p.7-10, 14-16, 20-32, 36-48) in the first reading; the rest in the second (PDF p.1-6, 11-13, 17-19, 33-35, 49-88: parking and passes, reasons for the choice of means, work trips, groups, agglomerations, journeys, attitudes to transport policy, method, glossary). Most charts did not convert to text and were not read as images (2026-10-07) |
 | **Geography** | Switzerland |
 | **Language** | German |
 | **How it was produced** | Microcensus on mobility and transport 2021, a national survey; sample and method not read (a web summary says a telephone survey of 55,000 people) |
@@ -57,6 +57,17 @@ Switzerland's national travel survey for 2021 (55,018 people, by phone). It reco
 - Sharing: car-sharing membership 4.5% of licence holders (21% in households without a car, 6% in cities, 1% in rural areas); bike-sharing 1.5% of adults; 18% have ever used a ride-hailing service (PDF p.16). Scooters and similar devices: 0.1% of distance (PDF p.43).
 - Car ownership: 71% of households in cities, 89% intermediate, 91% rural; 69% of licence holders always have a car available (PDF p.14-15).
 - Fast e-bikes are a commuting vehicle: 65% of their distance is for work (75% among workers); average work leg 9.1 km (PDF p.42).
+- Second pass. Why people used the means they used, asked as an open question for single legs (9,361 legs by car or motorbike, 1,783 by public transport): for the car 'the simplest or most comfortable solution' 37.9%, travel time 16.7%, 'no other possibility / lack of alternatives' 16.2%, carrying things 12.3%, habit 2.1%, cost 1.2%. For public transport: simplest or most comfortable 36.6%, no alternative 19.9%, travel time 8.5%, habit 5.0%, holding a pass 5.0%, comfort or pleasure 4.6%, no parking at the destination 4.0%, environment 3.6%, cost 2.8% (table T3.3.1.3, PDF p.34). Working translation from German.
+- A work trip in 2021: 13.9 km, 26.1 minutes including waiting and changing, 1.5 legs on average; 12.4 km in 2015. By distance 68% by car, 21% by rail, 4% by bus and tram; walking is 2% of the distance, 17% of the time and 33% of the legs (PDF p.49).
+- Home working and distance: 15.5 km for workers who can do part of their work at home against 13.1 km for the others; trips over 50 km are 7% against 4%. The office gives three possible reasons: the kind of jobs; that people who work at home some days 'are willing to accept an all the longer way to work on the other days'; or that employers allow home working more readily to those who live far (PDF p.49). Working translation.
+- Parking at work: 51% of the employed have free parking at the workplace and 23% paid parking; 69% of those who work in urban municipalities have a space (PDF p.18).
+- Passes: 53% of residents aged 16 and over hold a public transport pass (57% in 2015): half-fare card 34.6%, national pass 8.6%, regional pass 11.0%. 61.6% of those who can work at home hold one against 45.7% of the others. In households with three or more cars 41% still hold one. Italian-speaking Switzerland 26.1%, Lugano 26% (table T2.2.1, PDF p.17; p.62).
+- The fall in passes since 2015 is linked by the office to the pandemic: some people avoided public transport or 'because of more work from home no longer bought a pass' (PDF p.17).
+- Peaks: public transport use is concentrated between 7 and 8 and between 17 and 18; the peaks were less marked in 2021 than in 2015, partly because the occupations with the greatest potential for home working are those that commute most by public transport (PDF p.33).
+- What residents want improved in public transport, ranked by a sub-sample of 1,318 adults: first local and regional services, more frequent or faster; second more seats on existing services; third comfort and efficiency when changing (signs, short walks); long-distance trains come fourth; modern vehicles and internet on board last (38% put it last) (PDF p.72).
+- For the roads, 'information on the current traffic situation to avoid jams (for example through apps)' is fourth of five measures; smoother traffic in cities comes first (PDF p.74).
+- Best answer to today's traffic problems according to 3,280 adults: support for flexible forms of work comes first; a general rise in the price of mobility last (60% put it last); self-driving vehicles fourth of five (PDF p.75).
+- Method: 55,018 telephone interviews of about 25 minutes, one person per household, response rate 46%, from January 2021 to February 2022, under pandemic measures for part of the year; routes for car, public transport and bicycle are computed on maps, walking distances are the respondent's estimate; a leg is at least 25 metres and a new leg starts at every change of means (PDF p.76-79). The main means of a trip is assigned by a fixed order with the plane and the train first, whatever the distance covered with each (glossary, PDF p.80).
 
 ## Limits
 

@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 15:02
+date: 2026-10-07 23:26
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, who]
 | **Kind of source** | Government survey, 39 pages. English title: fiscal 2024 survey on the telework population: results |
 | **Published on** | March 2025 (cover: Reiwa 7, March) |
 | **Opened on** | 2026-10-06 |
-| **Read** | By chapter: 16 of 39 pages. Text of PDF p.1-9 (purpose, definitions, method, list of results), plus the chart pages p.10, 14, 15, 16, 19, 20 and 23 read as page images because the charts did not convert to text. Not read: telework by region and place of work (p.11-13), place of telework and intentions (p.17-18, 21-22, 24), changes in daily activities (p.25-34), respondent profile (p.35-39). Read with a working translation (2026-10-07) |
+| **Read** | In full, 39 pages, in two readings: first the text of PDF p.1-9 and the chart pages p.10, 14, 15, 16, 19, 20, 23; then all the other pages (p.11-13, 17-18, 21-22, 24-39), and the first chart pages again. The chart pages were read from the page images because the charts do not convert to text. PDF page numbers are one higher than the numbers printed on the slides. Read with a working translation from Japanese (2026-10-07) (2026-10-07) |
 | **Geography** | Japan |
 | **Language** | Japanese |
 | **How it was produced** | Survey in which respondents say whether they have ever teleworked in their main job; the report defines the categories of teleworkers (PDF p.5) |
@@ -46,10 +46,16 @@ Japan's yearly government survey of telework (fiscal 2024, 40,000 workers). Abou
 - Over all employees, fiscal 2024: 84.4% did not telework at all in the year; about 8% telework at least two days a week (2.6% 5-7 days, 1.4% 4 days, 1.7% 3 days, 2.3% 2 days) (chart, PDF p.20).
 - Wished against actual, teleworkers who want to continue (n=5,672): actual: 5 days or more 14.4%, 4 days 8.7%, 3 days 10.7%, 2 days 14.3%, 1 day 13.5%, less than weekly 38.4%; wished: 23.4%, 10.4%, 17.4%, 24.8%, 23.9%, and nobody less than weekly. Over half wish 3 days or more; over 70% wish a hybrid with at least one day at the office (chart, PDF p.23).
 - By sex and age, employees: men 31.2%, women 16.9%; men aged 30-59 about 32% (chart, PDF p.10).
+- Second reading, from the page images; working translation. Where telework happens: among employees, the share who have teleworked is 36.8% for residents of the capital area (Tokyo, Saitama, Chiba, Kanagawa) in fiscal 2024, against 42.1% at the peak in fiscal 2021; Kinki 24.5%, Chukyo 19.8%, other regions 17.4%, national 24.6% (PDF p.11). By place of work the capital area is at 37.5% (PDF p.12)
+- Telework actually done in the last year, employees: national 21.4% in fiscal 2021, 18.8%, 16.1% and 15.6% in fiscal 2024; capital area 36.2% down to 27.2%; other regions 12.0% down to 8.8%. The ministry's reading: a return from the pandemic level, but above the level before it, 'settling' (定着傾向) (PDF p.13)
+- The wish to go on is falling: among employee teleworkers the share who intend to continue was 89.4% in fiscal 2021, 86.9%, 71.7% and 63.7% in fiscal 2024; among employees who do not telework 15.8% would like to (PDF p.22). Of those who teleworked in the last year 79.7% intend to continue (PDF p.21). Among those who intend to continue, 55.6% want more days than now and 6.5% fewer (PDF p.24)
+- Place of telework, people who teleworked in the last year (n=6,490, several answers): at home about 97.0%, satellite or shared office 24.9%, 'mobile' 21.5%, where mobile includes cafes, hotels and 'inside trains while travelling' (移動中の電車内等); 67.1% telework at home only (PDF p.18). Employee teleworkers under a company scheme: 20.9% of all employees, against a government target of 25.0% for 2025 (PDF p.17)
+- What changes on the days at home, employees teleworking at least one day a week (n=3,827): everyday errands move from the workplace area to the home area. Food and daily shopping near home increased for 37.8% and near the workplace for 14.1%; eating and drinking out near the workplace decreased for 24.8%; walking and exercise near home increased for 30.0%; housework and childcare near home increased for 26.2% (PDF p.27-34). 58.8% say they give more weight to home life (housework, childcare, care) than before (PDF p.26)
+- Respondent profile: 40,000 workers, 36,219 employees and 3,781 self-employed; 50.1% live in the three large metropolitan areas (PDF p.35-39)
 
 ## Limits
 
-Japan: very long rail commutes into three large metropolitan areas, so levels do not transfer to Italy, though the direction (longer commute, more telework) matches Germany and Madrid. A web survey, which may over-count people at ease with digital tools. 'Teleworker' includes anyone who teleworked at all, also a few days a year. Cross-section: it cannot say whether telework lets people accept a longer commute or long commuters ask for telework. Figures were read from chart images, not from text: check them on the PDF page before citing. Less than half of the report was read. Working translation from Japanese.
+Japan: very long rail commutes into three large metropolitan areas, so levels do not transfer to Italy, though the direction (longer commute, more telework) matches Germany and Madrid. A web survey, which may over-count people at ease with digital tools. 'Teleworker' includes anyone who teleworked at all, also a few days a year. Cross-section: it cannot say whether telework lets people accept a longer commute or long commuters ask for telework. Figures were read from chart images, not from text: check them on the PDF page before citing. The questions on changes in daily activities are retrospective self-reports ('since you started teleworking'). Working translation from Japanese.
 
 ## Used in
 

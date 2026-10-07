@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 15:02
+date: 2026-10-07 23:13
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, who, tools]
 | **Kind of source** | Government research report, 227 pages. English title: research on understanding mobility demand for the social implementation of mobility services using new digital technologies such as autonomous driving, final report, detailed version |
 | **Published on** | March 2025 (cover; PDF created April 2025) |
 | **Opened on** | 2026-10-06 |
-| **Read** | By chapter: 29 of 227 pages (PDF p.4-9 purpose and scope; p.19-41 summary of the demand study: survey, interviews, logic trees, workshops, where to introduce services). Not read: the detailed method chapters, the supply side (financing and leasing of self-driving vehicles) and the rest. Slides: several charts did not convert. Read with a working translation (2026-10-07) |
+| **Read** | In full, 227 pages: purpose, scope and summary of the demand study (PDF p.4-9, 19-41) in the first reading; the rest in the second (PDF p.1-3, 10-18, 42-227: detailed method, survey results by area, interviews, logic trees, workshops, city types, feedback from municipalities, and the whole supply side on financing and leasing of self-driving buses). Slides: several charts did not convert to text and were not read as images. Read with a working translation (2026-10-07) |
 | **Geography** | Japan |
 | **Language** | Japanese |
 | **How it was produced** | Research on commuting and shopping behaviour across types of regions with different population density; method not read |
@@ -45,10 +45,18 @@ A 2025 study for Japan's Digital Agency on how to measure demand for travel befo
 - Suburban city C (hilltop housing estates around a big city): steep slopes, few buses away from the station, no pavements, last train at 23:50 and a taxi queue after it with fares over 3,000 yen; commuters on public transport change at a monorail interchange; families who can work remotely find it good to live in, but 'when the children start university they find transport inconvenient and often leave'; much remote work means no places to meet (interviews with local groups, PDF p.27-28).
 - Carers: the generation with children spends its days on work and on driving children and parents; the prospect of also driving parents after they give up the licence worries them (PDF p.25-26).
 - Recommendation of the study: introduce a mobility service together with a reason to go out (a leisure or social destination), in the districts and time bands where the unmet demand is, mostly mornings (PDF p.38-40).
+- Second pass. The study sorts Japanese municipalities into four types by population density and by the share of public transport in commuting and school trips: mountain areas, regional cities, suburban cities and large cities. The suburban type (density 1,100 to 8,000 per km2, public transport share above 55%) is described as having 'many commuters to the neighbouring large city' and varied means (rail, bus, car, light rail, bicycle); large cities were left out of the study (PDF p.16, p.140). Working translation from Japanese.
+- Suburban city C, interviews with local associations and not with residents: 'Commuters who use public transport often take a roundabout route on the conventional rail lines'; the last train at 23:50 'limits what people can do'; after the last train the taxi rank has a queue and the ride home costs about 3,000 yen or more; a little away from the station buses are few and pavements are missing; families who can work remotely find the area good to live in, but leave when the children start university because they find transport inconvenient (PDF p.93-94). Working translation; statements of association representatives, no count.
+- Suburban city C, workshop with 16 seniors: 'what is one straight road by car becomes a detour by public transport'; the bus near home runs once an hour; one participant walks 30 minutes to the community hall; concern that older people cannot handle booking and card payment on new services (PDF p.129). Working translation.
+- Mountain area D, workshop with parents: 'the connection between public transport services is not smooth, so I use the car'; after an evening in the city, the express coach arrives when the last local service has gone and 'there is no way home from the coach stop'; parents ask for smoother connections and longer evening hours for the on-demand bus (PDF p.135). Working translation.
+- Regional city B, interviews and workshop with seniors: a bus stop within walking distance is still out of reach for someone with bad legs; after giving up the licence only a door-to-door service would be usable; taxis are needed but 'absolutely impossible' for cost (PDF p.92, p.124-125). Working translation.
+- Parents of school-age children in mountain area A: giving lifts is the third most frequent reason to go out (2.2 times a week, after work 4.8 and daily shopping 2.4) and 9% of weekday trips; in regional city B 2.3 times a week and 5% of trips (PDF p.68, p.75).
+- Method of the demand study: postal survey modelled on the national person-trip survey (one usual weekday and one usual day off: purpose, means, destination, time) plus a sheet on the wished frequency of trips by purpose; target sample about 400 per municipality for a 5% error; 1,433 residents surveyed in area A and 1,099 in city B; interviews, then workshops of about 30 residents (PDF p.46-53, p.81-82, p.109). Cost of the whole method for a town of 100,000: about 4 months and 3.5 to 4 million yen (PDF p.145).
+- Supply side, 17 interviews with 8 municipalities, 4 operators, 3 leasing companies and 1 bank: self-driving bus services do not pay for themselves and run inside one-year subsidies; one town runs them on about 20 million yen a year, another on 100 million yen a year for eight vehicles; a vehicle costs about 80 million yen plus 30 million a year to run; one municipality says they have 'no advantage that would replace today's public transport, and they cost more' (PDF p.159-163, p.174-179, p.186). Working translation.
 
 ## Limits
 
-Japan; small rural and suburban areas with ageing residents; aimed at self-driving and on-demand services, not at commuting between cities. Its value here is the method (wished against actual trips) and two points: commuting is not where people feel they travel too little, and door to door is a hard condition for people with reduced mobility. Small workshops; the tables give percentages without bases in the pages read. Only 29 of 227 pages read. Working translation from Japanese; quotes are residents' words as summarised on slides.
+Japan; a method study for municipalities, commissioned by the Digital Agency and written by a consultancy. The demand study is about residents of three or four small and medium municipalities, mostly older people and parents, and local trips: commuting to another city appears only in passing, in the description of the suburban type and in a few statements. The workshop figures come from groups of 13 to 35 people. The second half is about the financing of self-driving buses and is outside the project's scope. Several charts did not convert to text.
 
 ## Used in
 

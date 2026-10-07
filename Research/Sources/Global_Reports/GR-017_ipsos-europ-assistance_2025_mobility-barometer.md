@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 13:38
+date: 2026-10-07 23:25
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, mode-choice, disruption]
 | **Kind of source** | Commissioned survey; report and press page |
 | **Published on** | 14 April 2025 |
 | **Opened on** | 2026-10-05 |
-| **Read** | By chapter: 67 pages. Chapter 1 on mobility habits read from the page images, because the charts did not convert to text: PDF p.7, 9, 11-14, 16-22, 24 and 29, plus the summary pages 30, 41, 50, 58 and 66 as text. Not read: the charts of the chapters on vehicle ownership, electric vehicles and micromobility (PDF p.31-65) and the chart pages 8, 10, 25-27 (2026-10-07) |
+| **Read** | In full, 67 pages. The report is a slide deck whose charts do not convert to text, so the chart pages were read from the page images in two readings: first the chapter on mobility habits (PDF p.7, 9, 11-14, 16-22, 24, 29) and the summary pages; then the remaining chart pages (PDF p.8, 10, 25-27, 32-40, 43-49, 52-57, 60-65). The other pages are covers and section dividers (2026-10-07) (2026-10-07) |
 | **Geography** | Europe |
 | **Language** | English |
 | **How it was produced** | Not checked: sample and method are in the report PDF, not yet read |
@@ -51,10 +51,15 @@ A yearly opinion survey by Ipsos for an assistance insurer, run online in Januar
 - Attitude and action: 72% of Italians say they pay attention to the environmental impact when choosing a means of transport and 67% say they have already changed daily habits to be greener, while 93% use a personal car (PDF p.29, p.11).
 - For car sharing the levers named are lower cost (41% in Europe) and better availability (33%) (PDF p.21).
 - 87% of Europeans own at least one car; one in three car owners says they would be ready to stop owning one in the future, more so in Italy, Spain and Switzerland (summary pages, PDF p.41, p.50).
+- Second reading, from the page images. Car ownership (question 11, all respondents): at least one personal or company car in the household in 87% of the European sample and in 96% of the Italian one, the highest of the ten countries (France 89%, Germany 84%, Spain 88%, Switzerland 79%). In Italy 60% of households have one personal car and 37% several, 3% none; in the European sample 59%, 27% and 14% (PDF p.32)
+- Intentions for the next 12 months among users of each mode (question 5): public transport, 25% intend to use it more, 62% the same, 13% less in Europe (Italy 27%, 56%, 17%); personal car, 14% more, 70% the same, 16% less in Europe (Italy 14%, 67%, 19%) (PDF p.27). Balance of 'more' minus 'less' in Europe: walking +23, public transport +12, electric bicycle +9, personal car -2, car pooling -8, car sharing -12, shared bicycle or scooter -12, taxi and ride-hailing -14; in Italy walking +34, public transport +10, personal car -5 (PDF p.26). The report titles the year-on-year tables 'Main modes of transportation on weekdays are quite stable in Europe' (PDF p.8)
+- Car owners, question 31: 55% in Europe and 58% in Italy say they could consider 'reducing your car usage to replace (use alternative modes of transportation)' in the next six months, 14% 'certainly' in both; reducing speed to save fuel is more common (66% and 70%) (PDF p.48). Question 28: 32% of car owners in Europe could consider no longer having a personal car (9% 'definitely'), 37% in Italy and 45% in Spain; 68% in Europe could not (PDF p.49). These are stated intentions
+- Other vehicles in the household (question 13): at least one bicycle 63% in Europe and 66% in Italy; at least one stand-up scooter 18% and 15%; at least one moped or scooter 13% in Europe and 21% in Italy (PDF p.60). Question 41: 45% of car owners in Europe and 60% in Italy are interested in an insurance attached to the person and covering 'all your travels and mobility situations', which is the product the sponsor sells (PDF p.65)
+- Read and not relevant to the commute: new or used car, powertrain, mileage, financing, purchase channel, repairs, electric vehicle intentions, charging and barriers, bicycle insurance (PDF p.33-40, 43-47, 52-57, 61-64)
 
 ## Limits
 
-A survey paid for by an insurer that sells mobility assistance, with its own commercial reading in the foreword. Online panel, quota samples; the number of interviews per country could not be read from the page image. Stated behaviour and intentions, not measured travel. The distance question covers workers and students together and gives no means of transport by distance band, so the 4% over 50 km in Italy cannot be split by car, train or several legs. The chapters on vehicles, electric cars and micromobility were read only in their summary pages.
+A survey paid for by an insurer that sells mobility assistance, with its own commercial reading in the foreword. Online panel, quota samples; the number of interviews per country could not be read from the page image. Stated behaviour and intentions, not measured travel. The distance question covers workers and students together and gives no means of transport by distance band, so the 4% over 50 km in Italy cannot be split by car, train or several legs. The chapters on vehicles, electric cars and micromobility were read in full and concern buying, owning and insuring vehicles, not the commute. All figures were read from page images: check them on the PDF page before citing.
 
 ## Used in
 

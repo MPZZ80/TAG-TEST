@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 13:40
+date: 2026-10-07 23:08
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, who, mode-choice]
 | **Kind of source** | Regional transport authority survey, results report of 80 pages |
 | **Published on** | September 2025 (cover) |
 | **Opened on** | 2026-10-06 |
-| **Read** | By chapter: 55 of about 80 pages. Read: presentation, background, objectives and scope (PDF p.5-9) and the whole chapter of results with the historical comparison (PDF p.31-80). Not read: the chapters on method, sample design, fieldwork and weighting (PDF p.10-30) (2026-10-07) |
+| **Read** | In full, 80 pages: the chapter of results (PDF p.31-80) and presentation (p.5-9) in the first reading, and the cover, contents, list of zones, method, fieldwork, sampling error, weighting and definitions (PDF p.1-4, 10-30) in the second. Several charts did not convert to text (2026-10-07) |
 | **Geography** | Spain, Madrid region |
 | **Language** | Spanish |
 | **How it was produced** | Synthetic mobility survey of the Madrid region 2024; chapters on background, objectives and scope of the work, sample and results |
@@ -51,6 +51,13 @@ The results of the 2024 mobility survey of the Madrid region, a telephone survey
 - Households without a car make 50.4% of their trips by public transport; households with two cars 16.2% and with three or more 12.1% (table 21, PDF p.42).
 - Drivers park on the street at destination in 41% of trips and in private parking in 39%; paid public car parks are used in under 1% (PDF p.46).
 - Free or discounted passes in force in 2024 show in the data: people aged 26-45 raised their public transport share from 22.8% to 29.3%, while those aged 46-64 did not change (PDF p.78-79).
+- Method, read in the second pass: telephone interviews (CATI) with residents aged 14 to 80, completed with an online panel of 892 interviews because young people were hard to reach by phone; fieldwork 16 April to 15 June and 17 September to 20 December 2024; 13,196 interviews made, 7,143 valid after cleaning; overall sampling error about +/-1.16% at 95%, but about +/-11% on average for each of the 84 zones (PDF p.11-13, p.23-26).
+- What is asked: all the trips of the previous working day, in order, with the means used on each stage; for public transport the type of ticket, for rail the stations, for the car the number of occupants and where it was parked (PDF p.14).
+- Definition that limits the reading of the share of one-stage trips: 'Los transbordos ... se realizan a pie. Los transbordos no se consideran como etapa a pie. Sólo puede haber por tanto etapas a pie en viajes de una etapa' (changes are made on foot and are not counted as a walking stage; a walking stage exists only in trips of one stage). Working translation. So the walk to and from a station or stop is never a stage in this survey (PDF p.29; interviewer instructions p.17).
+- Main mode: a trip counts as public transport when at least one stage is by public transport, as private vehicle when at least one stage is by car and none by public transport or bicycle (PDF p.29). A park-and-ride trip is therefore counted as public transport.
+- Trips recorded: all trips for work and study and all other trips of more than 5 minutes (PDF p.29).
+- The authors' own caveat on cleaning: 'Cuanto más complejas son las respuestas del encuestado (por ejemplo, más viajes diarios) mayor probabilidad de que se produzcan errores y, por tanto, de rechazo de la encuesta' (the more complex the answers, for example more daily trips, the more likely an error and the rejection of the interview); corrected by weighting, also against mobile-phone data and public transport counts (PDF p.27). Working translation.
+- Population: 51% of the region's residents live outside the city of Madrid; the metropolitan ring holds about 44% (PDF p.30).
 
 ## Limits
 

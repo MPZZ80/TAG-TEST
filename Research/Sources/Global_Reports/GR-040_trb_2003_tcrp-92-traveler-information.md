@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 13:39
+date: 2026-10-07 23:14
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, information]
 | **Kind of source** | Research report, 122 pages |
 | **Published on** | 2003 (PDF created 24 April 2003) |
 | **Opened on** | 2026-10-06 |
-| **Read** | By chapter: 35 of 122 pages. Read: contents, introduction and literature review (PDF p.9-16), the whole of section 3 on the demand for traveller information (p.17-33) and the whole of section 8 on future directions (p.110-119). Not read: sections 4 to 7, which describe the technologies and the systems in use in 2002 and examples from other industries (p.34-109) (2026-10-07) |
+| **Read** | In full, 122 pages: contents, introduction, literature review, demand for traveller information and future directions (PDF p.9-33, 110-119) in the first reading; the rest in the second (PDF p.1-8, 34-109, 120-122: foreword, section 4 on technologies, section 5 on 23 systems in North America and Europe, section 6 on other industries, section 7 on regional information systems, glossary). Screenshots of the systems were not read as images (2026-10-07) |
 | **Geography** | United States |
 | **Language** | English |
 | **How it was produced** | Research project sponsored by the Federal Transit Administration; method not read |
@@ -54,6 +54,18 @@ A 2003 report of the US Transportation Research Board on how public transport ag
 - Bad underlying data destroys trust: if the data an agency uses are not accurate, 'the public's use of the information may be reduced' (PDF p.110).
 - In 2003 the report's 'ultimate' goal was still unmet: combining real-time vehicle status with a trip plan, so that customers get door-to-door real-time trip information (PDF p.118). A German service then in trial sent pass holders disruption messages together with suggested alternatives, using the regular trips they had registered (PDF p.113-114).
 - Only 3 of 34 US agencies surveyed about their trip planners offered multimodal information (note 32, PDF p.32).
+- Second pass. A review of 637 US transit agency websites in July and August 2001: 81.0% had schedules, 44.0% a system map, 7.6% an itinerary planner, 21.5% current service notices, 4.7% a sign-up for e-mail or other alerts, 1.9% real-time information, 15.0% information on park-and-ride lots and 1.1% traffic information. The reviewers noted that 'information that might facilitate a decision about whether to drive or take transit, such as traffic conditions, links to traffic sites, or information on park-and-ride lots, is rare' (table 7 and text, PDF p.41-42). United States, 2001.
+- Why operators installed vehicle location: 'The business case for investing in these technologies is most often made on grounds other than to provide TTI', because the returns of better traveller information 'may be far less tangible and quantifiable than the cost savings and benefits from an operational viewpoint' (PDF p.42).
+- Magdeburg, Germany, pilot PIEPSER (described from a 2002 conference paper): a service that notifies a public transport user 'when there is a delay or a disruption to their selected journey which therefore would prevent them from arriving on time', so that 'the inconvenience and the effort of the daily retrieval of information in finding out the situation beforehand can be minimized', and that proposes a multimodal alternative; open only to holders of monthly passes (PDF p.76-78). No results are reported.
+- Karlsruhe, Germany, project DOM (ended November 2002): one set of services for the whole trip, with a 'travel bag' that keeps what was planned and a 'Delay Manager' that 'independently checks previously planned journeys' and informs the traveller before setting off and during the trip, who can then 'set off earlier, plan alternatives or change the appointment'; the evaluation was still running (PDF p.78-79, table 11 p.82).
+- Virginia Railway Express, a commuter railway into Washington: 6,500 passengers were registered for e-mail alerts on train status in December 2002, against 12,000 to 14,000 one-way trips a day; the same message goes to everyone, whatever line or station they use (PDF p.43).
+- Utah Transit Authority: 'having to register to use the service discourages people from using the trip planner'; when the planner was moved to the open website, use rose by 1,000 hits in a week. The personalised page with disruptions on one's own routes was aimed at regular customers, the trip planner at non-riders (PDF p.67).
+- Displays with real waiting times at stops: Brussels, more than 90% of passengers look at the display when they arrive and 10% say they use the network more often; the authors' reading of the surveys is that waiting 10 minutes knowing it feels like waiting 3 minutes without knowing. Portland, 75% say they always check the display. London Countdown in the late 1990s: within one minute 50% of the time, within two minutes 75%, within five minutes 96% (PDF p.63, p.71, p.79).
+- INFOTEN survey of 1,000 travellers in Germany, Austria, Switzerland and Italy (1996-1999): more than 50% 'seriously considered changing their planned departure time or route regularly'; 26% would consider changing means during the trip and about 40% could be influenced to change means when planning (PDF p.86).
+- Helsinki trial PROMISE (1996-1999): about 70% of test users were satisfied or moderately satisfied; 'the main advantage seen by the test users was that all the information needed for traveling was available in one package'; they said they would pay about 6.5 euros a month (PDF p.74).
+- Netherlands, one national telephone number for door-to-door public transport information since 1992, where before each of some 38 companies had its own: calls rose from 5.8 million in 1992 to 11 million in 1997; 60% of the calls to the railway's centre concerned more than one public transport service (PDF p.87-89).
+- Airline notifications in 2002: 'By the time a delay message is sent, the user may have already left for the airport' (PDF p.92).
+- Sharing of real-time data in 2000 (Volpe Center, quoted): some real-time data on vehicles is collected but 'much less is being transferred to private information service providers or disseminated directly to the public', partly for 'lack of interest on the part of ISPs' (PDF p.100). West Yorkshire had 6 train operators, 42 bus operators and 6 traffic control centres to bring into one information system (PDF p.108).
 
 ## Limits
 

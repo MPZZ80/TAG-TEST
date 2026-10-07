@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 13:33
+date: 2026-10-07 23:10
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, why-now, mode-choice, information]
 | **Kind of source** | Legislative proposal, 75 pages (2026/0113 (COD)) |
 | **Published on** | 13 May 2026 |
 | **Opened on** | 2026-10-05 |
-| **Read** | By chapter: 22 of the pages of the proposal (PDF p.1-22: explanatory memorandum, recitals, articles 1 to 7). Not read: articles 8 to 19 and the annexes with the thresholds (2026-10-07) |
+| **Read** | In full, 75 pages: explanatory memorandum, recitals and articles 1 to 7 (PDF p.1-22) in the first reading; articles 8 to 20, the financial and digital statement and the two annexes (PDF p.23-75) in the second. One annex page with the last rows of the national thresholds is an image and was not read (2026-10-07) |
 | **Geography** | EU |
 | **Language** | English |
 | **How it was produced** | Proposal with an explanatory memorandum that cites a route analysis, the 2024 Eurobarometer and the impact assessment |
@@ -45,6 +45,15 @@ The Commission's proposal of 13 May 2026 for a regulation on multimodal booking.
 - Operators' own websites and apps that sell only their own products are not covered, and neither are online search engines; platforms that are small or medium enterprises are exempt (recital 9 and Article 2(2)-(3), PDF p.11, p.16).
 - The regulation does not oblige platforms and operators to sign agreements; it sets fairness rules for the agreements that exist (explanatory memorandum, PDF p.4).
 - Consumer satisfaction with the availability of travel information and ease of booking would be measured every two years with a Eurobarometer (PDF p.8).
+- Second pass. Who can complain under the multimodal booking proposal: platforms, business users, transport operators and public transport authorities, to a national enforcement body. Passengers are given no complaint of their own (Article 14, PDF p.26).
+- Data for public authorities: on request a consumer platform must give a public transport authority 'passenger volumes data in each transport mode', aggregated and anonymised, only to improve public transport and sustainable mobility policies; the authority pays the reasonable cost and the platform need not produce new data (Article 10, PDF p.23-24).
+- Emissions: platforms must show the greenhouse gas emissions of each option 'wherever such information is made available by transport operators', say which legs of a combination lack it, and rank options with missing data last when ranking by emissions (Article 9, PDF p.23).
+- Thresholds for a platform with 'significant market presence' in the Union: 203 million rail products or 3,832 million euro a year; 318 million bus and coach products or 18,071 million euro. For Italy: 57.1 million rail products or 1,142.8 million euro; 128.45 million bus and coach products or 7,297.73 million euro (Annex I, PDF p.70-72).
+- A ticket platform that belongs to a railway with significant market presence under the rail ticketing proposal is designated automatically (PDF p.61).
+- One of the four indicators the Commission will monitor is 'increased consumer satisfactions scores on travel information availability and bookability'; the others count operators on the platforms, agreements and sanctions (PDF p.29).
+- What the proposal says is still missing for booking across modes: the national access points give static, historic and dynamic travel data for information services, but 'Developing MDMS capable of reservations, bookings, or ticketing however requires additional data (e.g. real-time fares)' (PDF p.31).
+- Neutral display: a list of mandatory ranking criteria, the criterion used must be shown, no self-preferencing and no paid prominence (summary on PDF p.32, p.66).
+- Start: the financial statement plans 2 Commission posts from 2028 (PDF p.32, p.49).
 
 ## Limits
 

@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-07 23:16
+
+- **Files:** `AGENTS.md`
+- **Change:** Added general instruction 23 to the log in section 1: widen the scope of the brief from the Italian commuter to a general analysis of multimodal environments. Only the instruction is recorded; the brief, the scope section of the desk research instructions and the analysis are not changed yet.
+- **Why:** Marco: "direi anche di allargare lo scope del brief non pensiamo solo al pendolare italiano, ma facciamo una analisi generica in ambienti multimodali, visto che in italia l'86% usa l'auto e poi vediamo". He asked for it to be done after the reading in progress.
+
 ## 2026-10-07 19:22
 
 - **Files:** 20 source files in `Research/Sources/Academic_Papers/` (AP-002 to AP-012, AP-015, AP-016, AP-019, AP-020, AP-022, AP-023, AP-025, AP-026, AP-027), `Research/Sources/Academic_Papers/README.md`, `Research/Sources/Academic_Papers/AP_to_obtain.md`, `Research/desk_research_partial_analysis.md`, `Research/deepdive_interview_script.md`, `Research/README.md`, `Research/progress.md`

@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 19:15
+date: 2026-10-07 23:10
 channel: web
 method: review
 status: draft
@@ -22,7 +22,7 @@ tags: [source, disruption]
 | **Kind of source** | Peer-reviewed journal article (green open access) |
 | **Published on** | 2022-02-23 |
 | **Opened on** | 2026-10-07 |
-| **Read** | Main text in full, 30 pages (author's final manuscript from the MIT repository): introduction, framework, the case study, table 2 and the conclusions. The equations of section 3 were read for their logic, not checked. Appendix A, with the formulas for the remaining passenger groups, and figures 1 to 11 were not read; the reference list was skimmed (2026-10-07) |
+| **Read** | In full, 38 pages (author's final manuscript from the MIT repository): the main text in the first reading and appendix A with the formulas for the remaining passenger groups (PDF p.32-38) in the second. The equations were read for their logic and assumptions, not checked. Figures 1 to 11 were not read as images; the reference list was skimmed (2026-10-07) |
 | **Geography** | Study area not extracted; authors' institutions in United States |
 | **Language** | English |
 | **How it was produced** | Not stated in the abstract or no abstract; the paper was not read |
@@ -50,6 +50,8 @@ A method, tested on one real incident, for telling from fare-card taps what pass
 - What the data cannot see: a passenger who takes a ride-hailing car both ways looks the same as one who cancelled; the share who would change line when a transfer exists (0.95) and one other share (0.9) are not measured but set from an earlier survey of Chicago riders (PDF p.16, p.21).
 - Paying again: passengers put off a blocked train who continued by bus or rail tapped in again and 'were only charged a small transfer fee'; sometimes staff let them ride free (PDF p.21 and footnote 4).
 - Accuracy on simulated data: average error of 20.5% in the size of each group, against 60.3% for the simple rule used in earlier studies, which over-counts because it treats every unusual tap as a reaction (PDF p.25).
+- Appendix, read in the second pass. Assumptions behind the shares: passengers who decide after the incident has started 'are informed of the service interruption'; passengers who wait are assumed to wait outside the blocked stations and tap in again when service resumes; a 'delayed departure' is a first tap more than two standard deviations later than that passenger's usual time (appendix A.1.1, A.2.3, A.3.1, PDF p.32-36).
+- The people who simply did not appear that day are counted from their habits: those who usually tap in during those hours and did not are split between 'another mode the cards do not see' and 'cancelled' with an assumed share, not with data (appendix A.2.2, PDF p.34-35).
 
 ## Limits
 
