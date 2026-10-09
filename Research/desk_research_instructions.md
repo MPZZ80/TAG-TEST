@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and plan.md
-date: 2026-10-07 10:15
+date: 2026-10-08 09:13
 channel: Claude Code conversation
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
@@ -37,7 +37,8 @@ The plan says what each activity must cover and where to look. This file says ho
 
 These are working assumptions that Marco has not confirmed. Proceed on them without asking, and repeat them at the top of the synthesis so he can see what they affected. If the evidence shows one of them does not fit, adjust it, and record what you changed and why.
 
-- **Geography:** Western countries and the more advanced countries of the rest of the world that resemble the West. Italy is the home market. Look for Italian sources first, then European, then the other countries in scope, such as the United States, Canada, the United Kingdom, Switzerland, Norway, Australia, New Zealand, Japan, South Korea and Singapore. The list of countries is my reading of Marco's wording and he has not confirmed it; add a country when its commuting context is similar to Western Europe's, and say why. Countries with very different contexts, for example cities dominated by informal transit, are out of scope unless a source describes a technology solution that is also relevant to the West. Say in every source file which country it covers.
+- **Multimodal environments, not the Italian commuter:** from 2026-10-08, on Marco's instruction, the subject is intercity commuting in multimodal environments in general, meaning places where commuters can really use and combine several options. Italy is one case among the others and no longer the market the research starts from. His reason is that in Italy most commuters use the car (his figure: 86%, not checked against a source). Give most weight to evidence from places where combining is a real option, say for every finding how multimodal its context is, and keep Italian evidence as a case of a car-dominated environment. What "multimodal environment" covers is my reading of his words and he has not confirmed it.
+- **Geography:** Western countries and the more advanced countries of the rest of the world that resemble the West, with no country taking priority. They include Italy and the rest of Europe and, outside it, countries such as the United States, Canada, the United Kingdom, Switzerland, Norway, Australia, New Zealand, Japan, South Korea and Singapore. The list of countries is my reading of Marco's wording and he has not confirmed it; add a country when its commuting context is similar to Western Europe's, and say why. Countries with very different contexts, for example cities dominated by informal transit, are out of scope unless a source describes a technology solution that is also relevant to the West. Say in every source file which country it covers.
 - **Languages:** sources in languages other than English are in scope and are searched for in their own language, because official reports and user forums are often not published in English. Write every project file in English. Keep a verbatim quote in its original language and add an English translation. A translation is my working translation and is not a certified one: say so, and check key figures and quotes in the original text before relying on them. Marco reads English and Italian; for sources in other languages he depends on my translation, so quote the original passage with the page number so that he can have it checked.
 - **Why the scope is wide:** Marco is not sure that what was found in Europe is valuable, especially for technology solutions and for commuters' pain points, so the research looks for evidence in all comparable countries. When writing a finding, say whether it comes from Europe or from another country, so that Marco can judge whether it transfers.
 - **Door to door:** this is Marco's stated focus, not an assumption. The unit of analysis is the whole journey from the door the commuter leaves to the door they arrive at: first mile, main intercity leg, transfers and last mile, including walking, waiting and parking. Do not reduce the commute to the train or motorway part. For every finding, record which leg it concerns. Evidence about a single leg is useful, but say that it covers only that leg.
@@ -231,7 +232,7 @@ Apart from the candidate lists, where you always stop for Marco, do not stop to 
 ## 10. Housekeeping
 
 - Save outputs in this folder with the file names given in the plan.
-- Do not change `../Brief/brief.md` or `../Questions/initial_questions.md`.
+- Do not change `../Brief/brief.md` or `../Questions/initial_questions.md` unless Marco asks. The "Scope" section of the brief was added on his instruction; the rest is his own text.
 - If an output file from an earlier session needs revising, edit it in place and record the change in `../CHANGELOG.md` as described in section 2 of `../AGENTS.md`.
 - Do not commit or push anything unless Marco asks.
 

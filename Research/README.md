@@ -25,7 +25,7 @@ Everything about the research: the plan, the working rules, the state of the wor
 ## State on 2026-10-07
 
 - **Collection:** finished for the six categories, 132 sources, with the scope extended to Western and comparable advanced countries and to sources in other languages.
-- **Reading:** complete. Of the 132 sources, 107 were read in full, 18 by chapter or in part and 7 could not be read (two papers not obtained because payment is needed, five web pages that cannot be captured); the ledger is in `progress.md` and each category index has a "Read" column.
+- **Reading:** complete. Of the 132 sources, 124 were read in full, 1 in part (AR-007, behind a paywall) and 7 could not be read (two papers not obtained because payment is needed, five web pages that cannot be captured); the ledger is in `progress.md` and each category index has a "Read" column.
 - **Interpretation:** `desk_research_partial_analysis.md` gives the answers the evidence supports. The activity outputs (`01_…` to `08_…`) and the synthesis have not been written.
 - **Interviews:** not started; they follow Marco's review of the results.
 

@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-07 23:42
+date: 2026-10-08 09:13
 channel: web
 method: synthesis
 status: draft
@@ -19,6 +19,7 @@ It is still called partial for one reason: the activity outputs (`01_…` to `07
 - **What could not be read:** 7 sources. Two papers were not obtained because payment is needed (AP-002, AP-020). Five web pages are built by scripts and could not be captured. They are listed under "Limits".
 - **Update of 2026-10-07, evening:** Marco obtained 18 of the 20 papers whose download had been refused. They were converted to text, read in full and recorded in their source files. Five findings that rested on abstracts or on second-hand reports (F5, F9, F21, F30, F31) were rewritten from the full texts, and F53 to F61 are new.
 - **Update of 2026-10-07, night:** the 17 sources that had been read by chapter or in part were read to the end: the pages never read of fifteen reports and one paper, and the remaining pages of two forum threads (one of 278 posts). Findings F62 to F76 are new; F18 and F57 have a sentence more. The reading changed no earlier finding, and it qualifies F7: surveys that count one-stage trips leave out the walks at both ends (F62).
+- **Scope from 2026-10-08:** Marco widened the scope from the Italian commuter to intercity commuting in multimodal environments in general (section 3 of `desk_research_instructions.md`). The findings are unchanged: each already names its country. Read the Italian ones as the case of a car-dominated environment and not as the reference market. Where combining is a real option the evidence comes mostly from Switzerland, Germany, the Netherlands, Great Britain, Japan and the large cities (F7, F35, F48, F51, F59, F62, F72).
 - **Where the evidence is:** in the "Data and quotes used" section of each source file, with page numbers. This file only points to it.
 - **How to read a finding:** each has a number (F1, F2…), its sources, the leg of the journey it concerns and a confidence level derived from the grades of the sources. Numbers F1 to F32 are the same as in the first version of this file; F33 to F52 were added after the complete reading; F53 to F61 after the 18 papers; F62 to F76 after the sources read in part were completed. Numbers are never reused, so they are not in order on the page.
 - **Translations** from Italian, German, French, Dutch, Spanish, Japanese and Korean are working translations by the agent. Figures read from chart images are marked in the source files.
@@ -307,6 +308,7 @@ Status: **partial** means verified evidence exists; **weak** means indirect evid
 - **Reviews** are reported as perceptions. A finding that rests on many independent reviews saying the same thing is rated medium, as the rules allow; one that rests on single reviews is rated low.
 - **Sources outside the scope** in context (Japanese rural areas, Korean taxis, US city buses) are used only for mechanisms that transfer, and this is said where they are used.
 - **Papers that were not obtained** (AP-002, AP-020) are not used as evidence.
+- **Scope widened on 2026-10-08.** No finding was removed or rewritten for it. Marco's figure of 86% of Italians using the car was not found as such in the sources: the nearest figures are 60.8% of trips by car (F12), 84.6% of commuters always using one single means of any kind (F33) and a car in 96% of households in one survey (F64).
 - **The forum diaries (OF-002) are used as one person's account.** They are grade C and mostly by one writer, a railway enthusiast on long weekend trips, so F72 to F75 are rated low whatever their detail, and are written as what he reports.
 - **Three of the papers read in the evening are outside the scope in context** (Chinese high-speed rail, Dhaka, a US bus network). They are used together for one pattern, the longer leg at the work end (F53), and this is said in the finding.
 

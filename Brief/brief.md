@@ -1,6 +1,6 @@
 ---
 source: Marco (his own text, pasted into the conversation)
-date: 2026-10-05 21:41
+date: 2026-10-08 09:13
 channel: Claude Code conversation
 method: Verbatim paste; title and section headings added by Claude; focus note translated from Italian
 confidence: high
@@ -24,3 +24,9 @@ This problem interests me because I experience intercity commuting myself and I 
 ## Focus
 
 I am interested in intercity commuting door to door.
+
+## Scope
+
+Added on 2026-10-08 by Claude from Marco's instruction of 2026-10-07; the sections above are Marco's own text and are unchanged.
+
+The project is not only about the Italian commuter. It looks at intercity commuting in multimodal environments in general: places where a commuter can really use and combine several mobility options. Italy is one case among the others. Marco's reason: in Italy most commuters use the car (he gave the figure of 86%). What follows from this is to be decided later.

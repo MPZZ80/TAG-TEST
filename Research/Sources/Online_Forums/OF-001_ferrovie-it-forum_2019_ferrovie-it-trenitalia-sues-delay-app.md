@@ -9,7 +9,7 @@ confidence: n/a
 tags: [source, information, tools]
 ---
 
-# Trenitalia fa causa a un'app che mostra i ritardi (forum thread, page 1 of 3)
+# Trenitalia fa causa a un'app che mostra i ritardi (forum thread, 3 pages)
 
 | | |
 | --- | --- |

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-07 19:22
+date: 2026-10-08 09:11
 channel: conversation
 method: generated
 status: draft
@@ -14,7 +14,7 @@ tags: [script]
 Topics for the interviews with fellow intercity commuters. The sequence is the same as in versions 1 and 2: it follows the commute as it happens, from the person to the journey, to planning, to the trip itself, to what goes wrong, to the tools, and to what "good" means. Version 3 added what the complete reading of the desk research found and only commuters can confirm or deny. Version 4 adds the points raised by the 18 papers read afterwards.
 
 - Question numbers (Q1–Q40) refer to `../Questions/initial_questions.md`.
-- Finding numbers (F1–F61) refer to `desk_research_partial_analysis.md`.
+- Finding numbers (F1–F76) refer to `desk_research_partial_analysis.md`.
 - **[open]** marks a point on which the desk research found nothing. These come first when time is short.
 - **[check]** marks a finding to test against the participant's experience. Ask about the experience; never read the finding out.
 
@@ -28,6 +28,8 @@ Eighteen papers that could not be downloaded before were read in full. They add 
 - **Commuting in place of moving home (F55).** Topic 1 asks what they weighed this commute against.
 - **Another way through, and who answers for a missed connection (F57, F50).** Topic 5 asks whether another route existed at all and who they turned to.
 - **Good enough, not fastest (F5).** The point was already in topic 3; it now has evidence behind it.
+
+**Added on 2026-10-08, still version 4.** The sources that had been read in part were read to the end. Five checks were added inside points that were already there, so the topics and the timings do not change: the walks at both ends, which surveys do not record (F62, topic 2); who sets the office days and whether a pass can be planned (F66, F67, topic 1); personal rules and their own record of connections made (F72, topics 2 and 6); what they do when channels disagree (F73, topic 4); and who or what backs up the first and last leg (F74, topic 5).
 
 What changed from version 2 to version 3 is in `../CHANGELOG.md` (entry of 2026-10-07 15:16): hybrid work and distance, the decision made before any app is opened, the buffer at a change, liking the means used, the three sides of a disruption, and two more participant profiles.
 
@@ -62,8 +64,8 @@ What changed from version 2 to version 3 is in `../CHANGELOG.md` (entry of 2026-
 - **[check F40]** Which days they travel in a normal week, who or what decides those days, and whether the commute differs on different days.
 - **[open, Q7]** Who else has a say in how and when they travel: employer, family, people they travel with.
 - Fixed constraints: arrival times, family duties, people to take or collect, cost, accessibility, things to carry.
-- **[check F3, F38]** If they work from home some days: since when. Which came first, this distance or the days at home. Whether they would do this commute five days a week.
-- **[check F41]** What they buy for the week they really have: single tickets, a carnet, a pass, parking, fuel and tolls. The last time they changed what they buy, and why.
+- **[check F3, F38, F66]** If they work from home some days: since when, who sets the days and how far ahead they know them. Which came first, this distance or the days at home. Whether they would do this commute five days a week.
+- **[check F41, F67]** What they buy for the week they really have, and whether they can predict it: single tickets, a carnet, a pass, parking, fuel and tolls. The last time they changed what they buy, and why.
 
 ### 2. A normal commute, door to door (Q1, Q5, Q6, Q12–Q16), about 9 min
 
@@ -72,10 +74,10 @@ Draw the journey together while they tell it.
 - **[open, Q1]** The most recent normal commute, from closing the door at home to arriving, step by step. Then the return trip, if it differs.
 - **[check F53]** Each leg and the mode used: first mile, main leg, transfers, last mile. How long each takes, how long the whole takes, and how much that varies. Which leg is the longest and which weighs most, with attention to the leg from the arrival station to the workplace.
 - **[open, Q5; check F56]** For each leg, what else they could really use, and what is not available to them and why. Whether they feel they chose this way of commuting or it is the only one that works.
-- **[open, Q12]** Which legs they think about in advance and which they leave to chance.
+- **[open, Q12; check F62, F74]** Which legs they think about in advance and which they leave to chance. Do not skip the walks, the wait at the stop and the parking at each end: people tend not to mention them.
 - **[check F6, F33]** If they combine modes: how that combination came about, and what holds it together. If they use one mode: whether they ever combined, and what made them stop or never start.
 - **[check F51]** For each leg, whether they like travelling that way or put up with it, and what they would use if they could choose freely.
-- **[check F48, F9]** At each change: how much time they leave between arriving and leaving again, whether that is what a planner proposes or more, and how they learned how much is enough. What they do with a wait that is too long. Whether they avoid two services in a row and keep one leg in their own hands.
+- **[check F48, F9]** At each change: how much time they leave between arriving and leaving again, whether that is what a planner proposes or more, and how they learned how much is enough (F72). What they do with a wait that is too long. Whether they avoid two services in a row and keep one leg in their own hands.
 - **[check F16]** What a change costs them beyond the minutes: attention, interruption of what they were doing, where to stand, where to walk.
 - What they do with the time on the main leg, and whether that affects the route or the means they choose.
 - The leg that causes the most stress or uncertainty, and the one that works best.
@@ -94,7 +96,7 @@ Draw the journey together while they tell it.
 
 - **[open, Q17]** Going along the drawing: what they need to know on each leg and at which moment, including the first and last mile and the car.
 - Where they get it: apps, displays, announcements, staff, other passengers.
-- **[open, Q19]** Which source they believe when two disagree, and why. A source they stopped trusting, and what happened.
+- **[open, Q19; check F73]** Which source they believe when two disagree, and why. How many they check, and in which order. A source they stopped trusting, and what happened.
 - **[check F19, F43]** The last time the information about their own train, bus or road was wrong: too late, too optimistic, too pessimistic, or too much of it. What they did with it. Whether they have learned to ignore something.
 - **[check F18]** Times when they needed a second app or website because the first did not cover a leg or an operator.
 
@@ -104,7 +106,7 @@ Draw the journey together while they tell it.
 - **[open, Q21]** The exact moment they found out, and how: a notification, a display, an announcement, another person, nothing. Whether it was early enough to do something different.
 - **[check F20]** The first minutes after: what they wanted to know, what they were told, and what they did. Whether they were given a reason, and whether they believed it.
 - **[check F42, F57]** Whether another way through existed at all. Whether anyone or anything took them to it: which one, whether it could really be travelled, whether their ticket was valid on it, and whether they could still see what was happening to their original trip.
-- **[check F21]** Whether they have a fallback ready for this commute, and what it is. The last time they paid twice to arrive: a second ticket, a taxi, the car.
+- **[check F21, F74]** Whether they have a fallback ready for this commute, and what it is, for the first and last leg too: a lift from someone, another bus, walking. The last time they paid twice to arrive: a second ticket, a taxi, the car.
 - How the problem spread to the rest of the journey: a missed connection, the last service of the day, no way to cover the last mile.
 - Consequences for them and for others, and how it felt (Q23). Whom they had to tell.
 - **[check F50]** Whether they claimed a refund or compensation, what that was like, and whether it works with the ticket or pass they hold. If a connection between two operators was missed, who they turned to and who answered.
@@ -115,7 +117,7 @@ Draw the journey together while they tell it.
 
 - **[open, Q24]** Going along the drawing again: which app, site or service they use on each leg, and legs for which they have nothing.
 - **[open, Q25]** How they move from one tool to the next during a trip, what they have to repeat or re-enter, and what gets lost.
-- **[check F45, F48]** Personal rules and habits that protect them: leaving earlier, an earlier bus than needed, a backup route, a preferred carriage or car park, a group chat, a ticket on paper.
+- **[check F45, F48, F72]** Personal rules and habits that protect them, and whether they keep any count of their own of delays or missed connections: leaving earlier, an earlier bus than needed, a backup route, a preferred carriage or car park, a group chat, a ticket on paper.
 - Informal channels: colleagues, station staff, social media, commuter groups.
 - **[check F22]** Whether they use the operator's own app, a general map or both, and what each is for. What they have saved in them.
 - Tools they tried and abandoned, and why.

@@ -4,6 +4,19 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-08 09:13
+
+- **Files:** `Brief/brief.md`, `Research/desk_research_instructions.md`, `Research/desk_research_partial_analysis.md`, `Research/progress.md`, `AGENTS.md`
+- **Change:** Scope widened from the Italian commuter to intercity commuting in multimodal environments in general. Brief: new "Scope" section at the end, marked as added by Claude; Marco's text untouched. Instructions: new first bullet in section 3, Geography bullet no longer puts Italy first, section 10 allows changing the brief when Marco asks. Analysis: scope note in the introduction and one entry under "Decisions taken"; no finding rewritten. `AGENTS.md`: instruction 23 marked as applied.
+- **Why:** Marco: "allargare lo scope del brief non pensiamo solo al pendolare italiano, ma facciamo una analisi generica in ambienti multimodali, visto che in italia l'86% usa l'auto e poi vediamo".
+- **Do not:** treat Italy as the home market that sets the order of the search or the reference for the findings.
+
+## 2026-10-08 09:12
+
+- **Files:** 17 source files in `Research/Sources/` (GR-003, GR-006, GR-007, GR-014, GR-017, GR-020, GR-035, GR-037, GR-040, GR-041, GR-045, GR-046, GR-047, GR-048, AP-023, OF-001, OF-002), `Research/Sources/Global_Reports/README.md`, `Research/Sources/Academic_Papers/README.md`, `Research/Sources/Online_Forums/README.md`, `Research/desk_research_partial_analysis.md`, `Research/deepdive_interview_script.md`, `Research/README.md`, `Research/progress.md`
+- **Change:** The pages never read of the 17 sources marked "in part" were read and recorded in each source file: "Read" row now "in full", new bullets under "Data and quotes used" with pages or post dates, "Limits" rewritten; OF-001 and OF-002 retitled as whole threads. Indexes: "Read" column set to "in full" for the 17. Analysis: findings F62 to F76 added, F18 and F57 extended, counts (124 in full, 1 in part, 7 not read), summary, evidence against the brief, open points, decisions and limits updated. Interview script: five checks added inside existing points, timings unchanged. AR-007 stays "in part" because of its paywall.
+- **Why:** Marco: "completa la lettura delle 17 fonti non completate e aggiorna i file collegati come prima".
+
 ## 2026-10-07 23:16
 
 - **Files:** `AGENTS.md`

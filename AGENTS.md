@@ -86,7 +86,7 @@ This section is the running list of the standing instructions Marco gives during
 | 20 | 2026-10-07 | Keep `Research/docs/` and `Research/docs_md/` split by category, with the same folder names as `Research/Sources/`. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the sources divided by category |
 | 21 | 2026-10-07 | For the papers, do not ask anything more: keep all, download and convert. Then continue through the remaining categories with the extended scope until the desk research is finished, updating the progress file, and leave the interpretation for later. | Marco wants the collection finished before the interpretation |
 | 22 | 2026-10-07 | Keep a `README.md` in every folder that guides agents to the right file, so that they do not read every Markdown file each time; read the README of a folder first and keep it current. Details under "Folder guides" below. | To guide agents without making them read all the Markdown files every time |
-| 23 | 2026-10-07 | Widen the scope of the brief: do not think only of the Italian commuter, make a general analysis of commuting in multimodal environments, and decide the rest later ("e poi vediamo"). To be applied after the reading of the partly read sources is finished. | In Italy 86% use the car (Marco's figure, as he stated it) |
+| 23 | 2026-10-07 | Widen the scope of the brief: do not think only of the Italian commuter, make a general analysis of commuting in multimodal environments, and decide the rest later ("e poi vediamo"). Applied on 2026-10-08: "Scope" section in `Brief/brief.md` and section 3 of `Research/desk_research_instructions.md`. | In Italy 86% use the car (Marco's figure, as he stated it) |
 
 ### Language
 

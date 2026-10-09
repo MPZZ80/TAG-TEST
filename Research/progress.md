@@ -17,7 +17,7 @@ Running record of the desk research, so that a new session can continue without 
 
 ## Current state
 
-The collection stage is complete for all six categories, with the extended scope, and on 2026-10-07 all the collected material that could be read was read. Of the 132 sources, 107 were read in full, 18 by chapter or in part and 7 could not be read (2 papers not obtained because payment is needed, AP-002 and AP-020; 5 web pages that cannot be captured). In the evening of 2026-10-07 Marco supplied the PDFs of 18 of the 20 blocked papers; they were converted, read and recorded, and the analysis and the interview script (now version 4) were updated. The evidence is in the "Data and quotes used" section of each source file, the "Read" row says how much was read, and the ledger below lists every source. `desk_research_partial_analysis.md` was rewritten from this evidence (findings F1 to F52) and the interview script is at version 3. The activities A1 to A8 (outputs, comparison grid, synthesis) have not started. Totals on 2026-10-07: 132 source files, 61 downloaded documents, 110 Markdown copies.
+The collection stage is complete for all six categories, with the extended scope, and on 2026-10-07 all the collected material that could be read was read. Of the 132 sources, 124 were read in full, 1 in part (AR-007, behind a paywall) and 7 could not be read (2 papers not obtained because payment is needed, AP-002 and AP-020; 5 web pages that cannot be captured). In the evening of 2026-10-07 Marco supplied the PDFs of 18 of the 20 blocked papers; they were converted, read and recorded, and the analysis and the interview script (now version 4) were updated. In the night of 2026-10-07 the 17 sources read by chapter or in part were read to the end and recorded; the analysis has findings F1 to F76 and the script, still version 4, has five more checks. The evidence is in the "Data and quotes used" section of each source file, the "Read" row says how much was read, and the ledger below lists every source. `desk_research_partial_analysis.md` was rewritten from this evidence (findings F1 to F52) and the interview script is at version 3. The activities A1 to A8 (outputs, comparison grid, synthesis) have not started. Totals on 2026-10-07: 132 source files, 61 downloaded documents, 110 Markdown copies.
 
 | Category | Source files | Status |
 | --- | --- | --- |
@@ -33,6 +33,8 @@ Products, reviews, forums and articles were built directly, keeping everything f
 ## Scope
 
 From 2026-10-06 the scope is Western countries and the more advanced countries of the rest of the world that resemble the West (details in section 3 of `desk_research_instructions.md`). Marco asked for it because he is not sure that what was found in Europe is valuable, mainly for technology solutions and pain points. Every candidate list covers the wider scope; the Global reports list was extended first.
+
+From 2026-10-08 the subject is intercity commuting in multimodal environments in general, not the Italian commuter: Italy is one case and no longer the starting market (Marco's instruction 23; section 3 of `desk_research_instructions.md`; "Scope" section added to the brief). No new search was made for it yet.
 
 ## Languages
 
@@ -55,7 +57,8 @@ What is missing and would matter most:
 
 - The two papers still missing, AP-002 and AP-020 (`Sources/Academic_Papers/AP_to_obtain.md`): payment is needed. AP-020, on acceptable travel time, matters more. The file `docs/Academic_Papers/AP_002.pdf` is a copy of AP-015 and can be deleted.
 - The ISTAT commuting matrix for 2021 (GR-026), published in October 2025 and not opened: it could count the people who commute between specific Italian cities.
-- The chapters not read of the long reports: GR-003 (182 of 235 pages), GR-041 (about 180 of 236), GR-047 (119 of 164), GR-046 (198 of 227), GR-006 (58 of 107), GR-037 appendices, GR-035 chapters 3.5 to 5.
+- AR-007, the only source read in part: the article is behind a paywall.
+- A search aimed at multimodal environments (regions where commuters do combine modes: for example Switzerland, the Netherlands, the Rhine-Ruhr, Greater Tokyo) was not made after the scope was widened; Marco decides whether it is needed.
 - The MaaS for Italy white paper (GR-050) and the Eurobarometer report behind GR-005 and AR-003.
 - Italian commuter forums and groups, which could not be read.
 - The "Used in" section of the source files, to fill with the finding numbers when the outputs are written.
@@ -241,6 +244,8 @@ Second batch, found by search:
 
 ## Log
 
+- 2026-10-08 09:13: Instruction 23 applied: "Scope" section added to the brief, new first bullet and reworded Geography bullet in section 3 of the instructions, scope note and a decision added to the analysis. Findings not rewritten. Marco's 86% is not in the sources as such.
+- 2026-10-08 09:12: Second reading finished. Recorded after 23:17: GR-003 (244 pages), GR-006 (254 pages), GR-017 and GR-048 (remaining pages read from page images), OF-001 (pages 2 and 3) and OF-002 (the other nine pages, 278 posts in all, read from `scratchpad/forum/of002_all.txt`; capture appended to the text copy with nicknames removed). All 17 are now "in full"; AR-007 stays "in part" (paywall). Linked files updated: analysis (F62 to F76 new; F18 and F57 extended; counts, summary, open points, limits), interview script (five checks added, timings unchanged, 45 minutes), category indexes ("Read" column), `README.md` of this folder. Not done: instruction 23 (scope) is still to apply.
 - 2026-10-07 23:17: Second reading done and recorded for GR-040 (sections 4 to 7 and the glossary), GR-037 (appendices B to E and G to L; the file has 236 pages, not 127) and GR-041 (all remaining chapters of the long report): all three now read in full, charts and screenshots not as images. Done so far: GR-045, GR-020, GR-047, GR-007, GR-014, AP-023, GR-035, GR-046, GR-040, GR-037, GR-041. Next: GR-003 (10 parts), GR-006 (11), then GR-017 and GR-048 images and the forum pages. Parts are read from `scratchpad/q6/` (repeated table cells collapsed). During the reading Marco gave a new general instruction (AGENTS.md no. 23, logged in CHANGELOG at 23:16): widen the scope of the brief from the Italian commuter to multimodal environments in general; to be applied after the reading, not applied yet.
 - 2026-10-07 23:13: Second reading done and recorded for GR-035 (all remaining chapters: passes, parking, reasons for the choice of means, work trips, attitudes, method) and GR-046 (detailed method, results by area, workshops, the whole supply side): both now read in full, charts not as images. Done so far: GR-045, GR-020, GR-047, GR-007, GR-014, AP-023, GR-035, GR-046. Next: GR-040 (4 parts), GR-037 (8), GR-041 (10), GR-003 (10), GR-006 (11), then GR-017 and GR-048 images and the forum pages. The parts are now read from `scratchpad/q5/` (same text with repeated table cells removed).
 - 2026-10-07 23:10: Second reading done and recorded for GR-007 (articles 8 to 20, statement, annexes), GR-014 (rest of chapters 1 to 5) and AP-023 (appendix A): all three now read in full. Done so far: GR-045, GR-020, GR-047, GR-007, GR-014, AP-023. Next: GR-035 (3 parts), GR-046 (4), GR-040 (4), GR-037 (8), GR-041 (10), GR-003 (10), GR-006 (11), then GR-017 and GR-048 images and the forum pages.
