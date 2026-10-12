@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: A
 confidence: n/a
 tags: [research, desk, source, why-now, tools]
+related: [plan.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-011_uitp_2019_policy-brief-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-039_nordic-policy-centre_2022_finland-maas-legislation.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, GR-050_mit_2026_maas-for-italy-white-paper.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-007_reck_2020_maas-bundle-design.md, AP-014_smith_2023_mobility-as-service-users.md, AP-016_mcilroy_2024_reservation-i-have-that.md, AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, AR-010_global-fleet_2024_maas-1-is-dead.md]
 ---
 
 # A systematic literature review of Mobility as a Service: Examining the socio-technical factors in MaaS adoption and bundling packages
@@ -14,8 +15,8 @@ tags: [research, desk, source, why-now, tools]
 | --- | --- |
 | **ID** | AP-005 |
 | **Link** | [A systematic literature review of Mobility as a Service: Examining the socio-technical factors in MaaS adoption and bundling packages](https://doi.org/10.1016/j.tbs.2022.12.007) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S2214367X22001478/pdf>) |
-| **Local copy** | [AP-005_kriswardhana_2022_systematic-literature-review-mobility.pdf](../../docs/Academic_Papers/AP-005_kriswardhana_2022_systematic-literature-review-mobility.pdf), provided by Marco on 2026-10-07 |
-| **Markdown copy** | [AP-005_kriswardhana_2022_systematic-literature-review-mobility.md](../../docs_md/Academic_Papers/AP-005_kriswardhana_2022_systematic-literature-review-mobility.md) |
+| **Local copy** | [AP-005_kriswardhana_2022_systematic-literature-review-mobility.pdf](../../Desk_Research/docs/Academic_Papers/AP-005_kriswardhana_2022_systematic-literature-review-mobility.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-005_kriswardhana_2022_systematic-literature-review-mobility.md](../../Desk_Research/docs_md/Academic_Papers/AP-005_kriswardhana_2022_systematic-literature-review-mobility.md) |
 | **Produced by** | Willy Kriswardhana et al. (2 authors; institutions in Hungary, Indonesia) |
 | **Published by** | Travel Behaviour and Society |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
@@ -58,3 +59,10 @@ A review of what people say they would choose when shown a description, not of w
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-011_uitp_2019_policy-brief-maas.md](../Global_Reports/GR-011_uitp_2019_policy-brief-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-039_nordic-policy-centre_2022_finland-maas-legislation.md](../Global_Reports/GR-039_nordic-policy-centre_2022_finland-maas-legislation.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](../Global_Reports/GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md), [GR-050_mit_2026_maas-for-italy-white-paper.md](../Global_Reports/GR-050_mit_2026_maas-for-italy-white-paper.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](AP-003_lyons_2019_importance-user-perspective-evolution.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-007_reck_2020_maas-bundle-design.md](AP-007_reck_2020_maas-bundle-design.md), [AP-014_smith_2023_mobility-as-service-users.md](AP-014_smith_2023_mobility-as-service-users.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](AP-016_mcilroy_2024_reservation-i-have-that.md), [AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md](AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md), [AR-006_frost-sullivan_2024_maas-global-collapse.md](../Articles/AR-006_frost-sullivan_2024_maas-global-collapse.md) and [AR-010_global-fleet_2024_maas-1-is-dead.md](../Articles/AR-010_global-fleet_2024_maas-1-is-dead.md): combined mobility services (MaaS): trials, demand and results.

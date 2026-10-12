@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who, mode-choice]
+related: [plan.md, GR-030_dft_2025_national-travel-survey-2024.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md]
 ---
 
 # La mobilité locale et longue distance des Français: enquête nationale sur la mobilité des personnes en 2019
@@ -14,8 +15,8 @@ tags: [research, desk, source, who, mode-choice]
 | --- | --- |
 | **ID** | GR-042 |
 | **Link** | [La mobilité locale et longue distance des Français: enquête nationale sur la mobilité des personnes en 2019](https://www.statistiques.developpement-durable.gouv.fr/la-mobilite-locale-et-longue-distance-des-francais-enquete-nationale-sur-la-mobilite-des-0) |
-| **Local copy** | [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.pdf](../../docs/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.pdf), [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_infographie.pdf](../../docs/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_infographie.pdf), [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_donnees.xlsx](../../docs/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_donnees.xlsx) |
-| **Markdown copy** | [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md](../../docs_md/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md), [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_infographie.md](../../docs_md/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_infographie.md) |
+| **Local copy** | [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.pdf](../../Desk_Research/docs/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.pdf), [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_infographie.pdf](../../Desk_Research/docs/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_infographie.pdf), [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_donnees.xlsx](../../Desk_Research/docs/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_donnees.xlsx) |
+| **Markdown copy** | [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md](../../Desk_Research/docs_md/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md), [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_infographie.md](../../Desk_Research/docs_md/Global_Reports/GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais_infographie.md) |
 | **Produced by** | SDES (statistical service of the French ministry of ecological transition) with INSEE |
 | **Published by** | SDES |
 | **Kind of source** | Official statistics: publication of 22 pages, infographic and data tables |
@@ -53,3 +54,10 @@ Data collected in 2018-2019, before the pandemic, as the publication itself warn
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-030_dft_2025_national-travel-survey-2024.md](GR-030_dft_2025_national-travel-survey-2024.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md): national travel surveys that report trips by means.

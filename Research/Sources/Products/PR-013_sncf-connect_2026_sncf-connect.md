@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools]
+related: [plan.md, OR-013_apple-app-store_2026_sncf-connect-fr.md]
 ---
 
 # SNCF Connect
@@ -16,7 +17,7 @@ tags: [research, desk, source, tools]
 | **Link** | [SNCF Connect](https://apps.apple.com/fr/app/id343889987) |
 | **App Store listing** | [SNCF Connect: Trains & trajets](https://apps.apple.com/fr/app/sncf-connect-trains-trajets/id343889987?uo=4) (FR store, version 20261001.0.0 released 2026-10-06; 1,889,630 ratings, average 4.59, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-013_sncf-connect_2026_sncf-connect.md](../../docs_md/Products/PR-013_sncf-connect_2026_sncf-connect.md) |
+| **Markdown copy** | [PR-013_sncf-connect_2026_sncf-connect.md](../../Desk_Research/docs_md/Products/PR-013_sncf-connect_2026_sncf-connect.md) |
 | **Produced by** | SNCF Connect (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -50,3 +51,10 @@ Store listing written by the national rail group's sales company. It lists what 
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md) is the sample of user reviews of this product.

@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who]
+related: [plan.md, GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md, GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md, GR-034_abs_2022_australias-journey-to-work.md, AP-006_vos_2022_does-commute-duration-attenuate.md, AP-025_wang_2020_exploring-physical-mental-health.md, AP-027_keyes_2018_changing-influences-commuting-mode.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md]
 ---
 
 # Commuting time, 2011 to 2022
@@ -15,7 +16,7 @@ tags: [research, desk, source, who]
 | **ID** | GR-033 |
 | **Link** | [Commuting time, 2011 to 2022](https://www150.statcan.gc.ca/n1/pub/14-28-0001/2023001/article/00003-eng.htm) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-033_statistics-canada_2023_commuting-time-2011-2022.md](../../docs_md/Global_Reports/GR-033_statistics-canada_2023_commuting-time-2011-2022.md) |
+| **Markdown copy** | [GR-033_statistics-canada_2023_commuting-time-2011-2022.md](../../Desk_Research/docs_md/Global_Reports/GR-033_statistics-canada_2023_commuting-time-2011-2022.md) |
 | **Produced by** | Statistics Canada |
 | **Published by** | Statistics Canada, Quality of Employment in Canada |
 | **Kind of source** | Official statistics, article |
@@ -50,3 +51,11 @@ Canada; the 2021 census was taken during pandemic restrictions, so times and cou
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md](GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md), [GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md](GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md) and [GR-034_abs_2022_australias-journey-to-work.md](GR-034_abs_2022_australias-journey-to-work.md): census statistics on the journey to work outside Europe.
+- Shares a pain point with [AP-006_vos_2022_does-commute-duration-attenuate.md](../Academic_Papers/AP-006_vos_2022_does-commute-duration-attenuate.md), [AP-025_wang_2020_exploring-physical-mental-health.md](../Academic_Papers/AP-025_wang_2020_exploring-physical-mental-health.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](../Academic_Papers/AP-027_keyes_2018_changing-influences-commuting-mode.md) and [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md): long commutes and what they cost the commuter.

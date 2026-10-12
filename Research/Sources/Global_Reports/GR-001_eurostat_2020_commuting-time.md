@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who, planning]
+related: [plan.md, GR-002_eurostat_2023_interregional-commuters.md, GR-016_eurostat_2021_passenger-mobility-statistics.md]
 ---
 
 # Main place of work and commuting time – statistics (Statistics Explained)
@@ -15,7 +16,7 @@ tags: [research, desk, source, who, planning]
 | **ID** | GR-001 |
 | **Link** | [Main place of work and commuting time – statistics (Statistics Explained)](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_place_of_work_and_commuting_time_-_statistics) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-001_eurostat_2020_commuting-time.md](../../docs_md/Global_Reports/GR-001_eurostat_2020_commuting-time.md) |
+| **Markdown copy** | [GR-001_eurostat_2020_commuting-time.md](../../Desk_Research/docs_md/Global_Reports/GR-001_eurostat_2020_commuting-time.md) |
 | **Produced by** | Eurostat |
 | **Published by** | Eurostat, Statistics Explained |
 | **Kind of source** | Official statistics |
@@ -51,3 +52,10 @@ Data from 2019, from a one-off module that will not be repeated, so there is no 
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-002_eurostat_2023_interregional-commuters.md](GR-002_eurostat_2023_interregional-commuters.md) and [GR-016_eurostat_2021_passenger-mobility-statistics.md](GR-016_eurostat_2021_passenger-mobility-statistics.md): Eurostat statistics on commuting and passenger mobility.

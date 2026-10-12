@@ -1,11 +1,12 @@
 ---
 source: Claude
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [research, desk, output, why-now]
+related: [plan.md]
 ---
 
 # Articles: Sources to Obtain
@@ -18,3 +19,9 @@ tags: [research, desk, output, why-now]
 | Trainline introduces personalised train delay notifications (Trainline press release) | [link](https://www.trainlinegroup.com/media/en/press-releases/trainline-introduces-personalised-train-delay-notifications/) | The same feature, from the company | The page returned "not found" |
 | MaaS for Italy white paper (the document) | [MIT news item](https://www.mit.gov.it/comunicazione/news/maas-italy-pubblicato-il-white-paper-sul-primo-programma-nazionale-di-mobilita) | The primary report on the Italian MaaS programme | The news item (GR-050) is read; the PDF of the white paper is not downloaded: I did not find its address on the page |
 | TNO report on public mobility | not located | The study behind AR-010 | Not found |
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Is one of the lists the research plan asks for, [plan.md](../../plan.md).

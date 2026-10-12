@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, mode-choice, disruption]
+tags: [research, desk, source, mode-choice, disruption, hybrid-work, unreliable-service]
+related: [plan.md, GR-019_istat_2014_commuting-matrices-2011.md, GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md, GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md, GR-025_istat_2024_la-mobilita-territoriale.md, GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md, GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md, GR-014_eurofound_2023_hybrid-work-in-europe.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-043_kim_2024_kerncijfers-mobiliteit-2024.md, GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md, AP-013_iogansen_2024_change-work-arrangement-during.md, AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md, GR-052_govuk_2021_flexible-season-tickets-announcement.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md, AP-001_goransson_2023_factors-that-make-public.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-016_mcilroy_2024_reservation-i-have-that.md, GR-004_legambiente_2025_pendolaria-20-edizione.md, OR-004_apple-app-store_2026_transit-us.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-007_apple-app-store_2026_db-navigator-de.md, OR-010_apple-app-store_2026_italo-it.md]
 ---
 
 # Europ Assistance's 2025 Mobility Barometer
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice, disruption]
 | --- | --- |
 | **ID** | GR-017 |
 | **Link** | [Europ Assistance's 2025 Mobility Barometer](https://www.ipsos.com/en/europ-assistances-2025-mobility-barometer) |
-| **Local copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf](../../docs/Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf) |
-| **Markdown copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md](../../docs_md/Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md) |
+| **Local copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf](../../Desk_Research/docs/Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.pdf) |
+| **Markdown copy** | [GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md](../../Desk_Research/docs_md/Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer-report.md) |
 | **Produced by** | Europ Assistance, with the support of Ipsos |
 | **Published by** | Ipsos Insights Hub |
 | **Kind of source** | Commissioned survey; report and press page |
@@ -63,3 +64,12 @@ A survey paid for by an insurer that sells mobility assistance, with its own com
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-019_istat_2014_commuting-matrices-2011.md](GR-019_istat_2014_commuting-matrices-2011.md), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md), [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md), [GR-025_istat_2024_la-mobilita-territoriale.md](GR-025_istat_2024_la-mobilita-territoriale.md), [GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md](GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md) and [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md](GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md): Italian statistics on commuting and daily travel.
+- Shares the pain point `hybrid-work` with [GR-014_eurofound_2023_hybrid-work-in-europe.md](GR-014_eurofound_2023_hybrid-work-in-europe.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-043_kim_2024_kerncijfers-mobiliteit-2024.md](GR-043_kim_2024_kerncijfers-mobiliteit-2024.md), [GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md](GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md), [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md), [GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md](GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md), [AP-013_iogansen_2024_change-work-arrangement-during.md](../Academic_Papers/AP-013_iogansen_2024_change-work-arrangement-during.md), [AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md](../Articles/AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md), [GR-052_govuk_2021_flexible-season-tickets-announcement.md](GR-052_govuk_2021_flexible-season-tickets-announcement.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): hybrid work, fewer office days and tickets that no longer fit.
+- Shares the pain point `unreliable-service` with [AP-001_goransson_2023_factors-that-make-public.md](../Academic_Papers/AP-001_goransson_2023_factors-that-make-public.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [GR-004_legambiente_2025_pendolaria-20-edizione.md](GR-004_legambiente_2025_pendolaria-20-edizione.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [OR-004_apple-app-store_2026_transit-us.md](../Online_Reviews/OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](../Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): the service failing matters more than the app that shows it.

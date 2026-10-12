@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's notes, brief.md and initial_questions.md
-date: 2026-10-12 19:59
+date: 2026-10-12 22:49
 method: AI-drafted plan, revised on Marco's instructions
 confidence: medium
 tags: [research, internal, plan]
@@ -36,7 +36,7 @@ Claude proceeds on these without waiting for confirmation and repeats them at th
 - Claude first drafts the candidate lists described in section 5. After Marco's decisions, Claude carries out activities A1–A8 on the selected sources and writes one output file per activity.
 - The choice of sources and of products to analyse is Marco's, made on the candidate lists. Smaller choices are made by Claude against stated criteria and recorded with their reasons in the output.
 - Every activity looks at the journey door to door and records which leg each finding concerns: first mile, main leg, transfer, last mile, or the whole journey.
-- Every source used has its own source file in a category folder under `Sources/`, and downloaded documents go in `docs/`. The outputs link to the source files.
+- Every source used has its own source file in a category folder under `Sources/`, and downloaded documents go in `Desk_Research/docs/`. The outputs link to the source files.
 - Detailed working rules are in `desk_research_instructions.md`.
 
 ### Evidence rules for all activities
@@ -193,6 +193,17 @@ Started by Marco after the review in section 6.
 - **Script:** see `deepdive_interview_script.md`. It is a draft now and is updated by the synthesis.
 - **Outputs:** one notes file per interview, `09_interview_findings.md`, and an updated `question_coverage.md`.
 
+### Commuter survey
+
+Added on 2026-10-12: Marco is not sure he can do more interviews, so an online survey reaches commuters outside his circle.
+
+- **Goal:** count, among people who commute between towns or cities, the things the interviews could only hint at: fixed or flexible hours, how many really change vehicle, whether they check before leaving, what goes wrong and on which leg, and which pain points weigh most. The open issues it addresses are named in `Survey/survey_en.md`.
+- **Form:** 24 questions, 22 closed and 2 open and optional, about 5 minutes, anonymous, with no follow-up conversation.
+- **Languages:** English, Italian, German, French and Dutch, one form per language.
+- **Where:** the places in `Survey/posting_venues.md`; most need the permission of an association or of moderators.
+- **Limit:** respondents choose themselves, so the results describe who answered and not commuters in general.
+- **Outputs:** the answers exported from the forms and one output file with the counts per question, by country.
+
 ## 8. Files in this folder
 
 | File | Content | Status |
@@ -205,8 +216,8 @@ Started by Marco after the review in section 6.
 | `Sources/<Category>/<CODE>_candidates.md` | Candidate list of each source category, for Marco to vet | Global reports done; the others to do |
 | `Sources/Global_Reports/GR_to_obtain.md` | Global report sources that could not be opened, for Marco to try to obtain | Active |
 | `Sources/<Category>/` | One file per source, in a folder per category | 132 source files in six categories |
-| `docs/<Category>/` | Documents downloaded from the sources | 61 files in six category folders |
-| `docs_md/<Category>/` | Markdown copies of documents and text captures of web pages | 110 files in six category folders |
+| `Desk_Research/docs/<Category>/` | Documents downloaded from the sources | 61 files in six category folders |
+| `Desk_Research/docs_md/<Category>/` | Markdown copies of documents and text captures of web pages | 110 files in six category folders |
 | `01_global_reports.md` to `07_data_landscape.md` | Activity outputs | To do |
 | `08_synthesis.md` | Findings and proposed priorities | To do |
 | `question_coverage.md` | Status of Q1–Q40 | To do |

@@ -1,11 +1,12 @@
 ---
 source: participant
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: interview
 status: draft
 grade: n/a
 confidence: low
-tags: [research, interview, notes, planning, disruption, tools]
+tags: [research, interview, notes, planning, disruption, tools, late-info, first-last-mile, workarounds, contradiction]
+related: [plan.md, deepdive_interview_script.md, Marco_Palermo.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md, PR-010_italo_2026_italo.md, OR-010_apple-app-store_2026_italo-it.md, OR-002_apple-app-store_2026_moovit-it.md, OR-003_apple-app-store_2026_citymapper-gb.md, OR-004_apple-app-store_2026_transit-us.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-007_apple-app-store_2026_db-navigator-de.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OR-015_apple-app-store_2026_9292-nl.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-016_mcilroy_2024_reservation-i-have-that.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-025_wang_2020_exploring-physical-mental-health.md, GR-010_egum_2024_public-transport-shared-mobility.md, GR-012_uitp_2023_policy-brief-mobility-hubs.md, GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md, AP-015_mcilroy_2023_this-where-public-transport.md]
 ---
 
 # Interview Notes: Verona to Milan
@@ -90,18 +91,18 @@ He travels the evening before the day in the office, so as not to get up at six 
 - To know, he would have to go and look himself, on the operator's site or on the train-status service, and check whether the train left late from its origin, since that delay carries through the whole run. "Quella roba lì, se non te la vai a vedere tu, non te la dice … nessuno" (EN: if you do not go and look for it yourself, nobody tells you).
 - He adds that he may be "uno sprovveduto che non controlla [i] ritardi" (EN: a careless one who does not check delays).
 
-## What this adds to the desk research (agent's reading)
+## Findings (agent's reading)
 
-Finding numbers refer to `../desk_research_partial_analysis.md`. The participant knows these findings, so agreement with them proves little.
+The participant knows these findings, so agreement with them proves little.
 
-- **He protects himself with time, not with information (F72, F9).** He travels the evening before, leaves home with a wide margin and keeps the ticket movable. With these in place a delay of 10 or 20 minutes "non mi cambia" anything, and he does not check.
-- **The first leg depends on another person (F74).** The lift from his father fixes the departure time days ahead and is the reason the trip is planned early. On the return, the person waiting at the station is the reason he follows the train.
+- **He protects himself with time, not with information.** He travels the evening before, leaves home with a wide margin and keeps the ticket movable. With these in place a delay of 10 or 20 minutes "non mi cambia" anything, and he does not check.
+- **The first leg depends on another person.** The lift from his father fixes the departure time days ahead and is the reason the trip is planned early. On the return, the person waiting at the station is the reason he follows the train.
 - **Who is involved in the decisions (Q7):** his father for the lift, the friends waiting in the evening, colleagues to be told. The desk research had almost nothing on this.
-- **He decides without a tool and checks at the station (F44, F11).**
-- **A delay known in advance is not felt as a delay (F32).** The longer route shown at purchase, and his proposal of looser timetables, both say that what counts is the promise kept.
-- **Flexible tickets are what he values in the tools (F24, F41).** The carnet and the change at the last minute.
-- **The last leg is short and can be walked (F53).** Unlike the cases in the desk research, the long leg here is the train.
-- **Nothing in this account points to scattered information as a problem.** He uses two apps and finds them obvious. What he misses is being told in time (F43).
+- **He decides without a tool and checks at the station.**
+- **A delay known in advance is not felt as a delay.** The longer route shown at purchase, and his proposal of looser timetables, both say that what counts is the promise kept.
+- **Flexible tickets are what he values in the tools.** The carnet and the change at the last minute.
+- **The last leg is short and can be walked.** Unlike the cases in the desk research, the long leg here is the train.
+- **Nothing in this account points to scattered information as a problem.** He uses two apps and finds them obvious. What he misses is being told in time.
 
 ## Not covered
 
@@ -118,3 +119,16 @@ Finding numbers refer to `../desk_research_partial_analysis.md`. The participant
 - "San Donato", "Repubblica", "Bovisa", "Rogoredo": places of his earlier urban commute. The lines "90-92" are surface lines in Milan.
 - The times of the train before his ("delle 17:02") and of the arrival ("18:25", "18:27") are as transcribed; check them with the recording.
 - The opening and closing minutes are talk between the two colleagues about their two studies and were left out.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Derived from [Marco_Palermo.md](_Transcripts/Marco_Palermo.md); the interviews are the third phase of the research plan, [plan.md](../plan.md), and the topics come from [deepdive_interview_script.md](../deepdive_interview_script.md).
+- Shares pain points with [Matteo_Rizzetto_notes.md](Matteo_Rizzetto_notes.md): Both find out about delays at the station without checking before leaving, both plan as if the train were always some minutes late, and both ask to be told earlier about their own train.
+- Shares pain points with [Valentina_Di_Floriano_notes.md](Valentina_Di_Floriano_notes.md): Both leave home with a margin kept for calm, both use a carnet instead of a pass, and for both a relative is part of the journey (a lift to the station, a warning about the line).
+- Shares a source landscape with [PR-010_italo_2026_italo.md](../Sources/Products/PR-010_italo_2026_italo.md) and [OR-010_apple-app-store_2026_italo-it.md](../Sources/Online_Reviews/OR-010_apple-app-store_2026_italo-it.md): the Italian high-speed operator's app and carnets.
+- Shares the pain point `late-info` with [OR-002_apple-app-store_2026_moovit-it.md](../Sources/Online_Reviews/OR-002_apple-app-store_2026_moovit-it.md), [OR-003_apple-app-store_2026_citymapper-gb.md](../Sources/Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md), [OR-004_apple-app-store_2026_transit-us.md](../Sources/Online_Reviews/OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Sources/Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](../Sources/Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Sources/Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-010_apple-app-store_2026_italo-it.md](../Sources/Online_Reviews/OR-010_apple-app-store_2026_italo-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Sources/Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Sources/Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OR-015_apple-app-store_2026_9292-nl.md](../Sources/Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Sources/Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](../Sources/Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Sources/Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Sources/Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md) and [Matteo_Rizzetto_notes.md](Matteo_Rizzetto_notes.md): delay or arrival information that is late or wrong.
+- Shares the pain point `first-last-mile` with [AP-008_rahman_2022_first-last-mile-public.md](../Sources/Academic_Papers/AP-008_rahman_2022_first-last-mile-public.md), [AP-010_azimi_2020_mode-choice-behavior-access.md](../Sources/Academic_Papers/AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-025_wang_2020_exploring-physical-mental-health.md](../Sources/Academic_Papers/AP-025_wang_2020_exploring-physical-mental-health.md), [GR-010_egum_2024_public-transport-shared-mobility.md](../Sources/Global_Reports/GR-010_egum_2024_public-transport-shared-mobility.md), [GR-012_uitp_2023_policy-brief-mobility-hubs.md](../Sources/Global_Reports/GR-012_uitp_2023_policy-brief-mobility-hubs.md), [GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md](../Sources/Global_Reports/GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](../Sources/Global_Reports/GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Sources/Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](../Sources/Global_Reports/GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md), [GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md](../Sources/Global_Reports/GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Sources/Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](Valentina_Di_Floriano_notes.md): the first and last leg of the journey.
+- Shares the pain point `workarounds` with [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Sources/Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [AP-015_mcilroy_2023_this-where-public-transport.md](../Sources/Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md), [Matteo_Rizzetto_notes.md](Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](Valentina_Di_Floriano_notes.md): personal rules, buffers and fallbacks of experienced travellers.
+- **Contradiction** with [Matteo_Rizzetto_notes.md](Matteo_Rizzetto_notes.md) on whether a timely warning about delays and cancellations exists: in this note the participant says there is no timely way to be told and one has to go and look; in Matteo_Rizzetto_notes.md the participant describes a friend who receives notifications from the operator's app about his line, set for his office days and timed for his way to the station. Both statements are kept; they may concern different operators.

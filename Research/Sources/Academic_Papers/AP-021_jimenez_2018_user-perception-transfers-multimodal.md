@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, mode-choice]
+tags: [research, desk, source, mode-choice, tight-connection]
+related: [plan.md, AP-001_goransson_2023_factors-that-make-public.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-015_mcilroy_2023_this-where-public-transport.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md]
 ---
 
 # User perception of transfers in multimodal urban trips: A qualitative study
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice]
 | --- | --- |
 | **ID** | AP-021 |
 | **Link** | [User perception of transfers in multimodal urban trips: A qualitative study](https://doi.org/10.1080/15568318.2018.1476632) |
-| **Local copy** | [AP-021_jimenez_2018_user-perception-transfers-multimodal.pdf](../../docs/Academic_Papers/AP-021_jimenez_2018_user-perception-transfers-multimodal.pdf) |
-| **Markdown copy** | [AP-021_jimenez_2018_user-perception-transfers-multimodal.md](../../docs_md/Academic_Papers/AP-021_jimenez_2018_user-perception-transfers-multimodal.md) |
+| **Local copy** | [AP-021_jimenez_2018_user-perception-transfers-multimodal.pdf](../../Desk_Research/docs/Academic_Papers/AP-021_jimenez_2018_user-perception-transfers-multimodal.pdf) |
+| **Markdown copy** | [AP-021_jimenez_2018_user-perception-transfers-multimodal.md](../../Desk_Research/docs_md/Academic_Papers/AP-021_jimenez_2018_user-perception-transfers-multimodal.md) |
 | **Produced by** | Rocío Cascajo Jiménez et al. (4 authors; institutions in Spain) |
 | **Published by** | International Journal of Sustainable Transportation |
 | **Kind of source** | Peer-reviewed journal article (green open access) |
@@ -56,3 +57,10 @@ Urban changes only: the authors say the results 'may not be extrapolated' to cha
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `tight-connection` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-008_rahman_2022_first-last-mile-public.md](AP-008_rahman_2022_first-last-mile-public.md), [AP-010_azimi_2020_mode-choice-behavior-access.md](AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-015_mcilroy_2023_this-where-public-transport.md](AP-015_mcilroy_2023_this-where-public-transport.md), [AP-028_shires_2018_impact-planned-disruptions-rail.md](AP-028_shires_2018_impact-planned-disruptions-rail.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): changes between services: tight, broken or costly connections.

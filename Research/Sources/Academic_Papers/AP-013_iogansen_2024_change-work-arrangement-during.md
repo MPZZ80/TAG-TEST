@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [research, desk, source, who, why-now]
+tags: [research, desk, source, who, why-now, hybrid-work]
+related: [plan.md, GR-014_eurofound_2023_hybrid-work-in-europe.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-043_kim_2024_kerncijfers-mobiliteit-2024.md, GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md, AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md, GR-052_govuk_2021_flexible-season-tickets-announcement.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md]
 ---
 
 # Change in work arrangement during the COVID-19 pandemic: A large shift to remote and hybrid work
@@ -14,8 +15,8 @@ tags: [research, desk, source, who, why-now]
 | --- | --- |
 | **ID** | AP-013 |
 | **Link** | [Change in work arrangement during the COVID-19 pandemic: A large shift to remote and hybrid work](https://doi.org/10.1016/j.trip.2023.100969) |
-| **Local copy** | [AP-013_iogansen_2024_change-work-arrangement-during.pdf](../../docs/Academic_Papers/AP-013_iogansen_2024_change-work-arrangement-during.pdf) |
-| **Markdown copy** | [AP-013_iogansen_2024_change-work-arrangement-during.md](../../docs_md/Academic_Papers/AP-013_iogansen_2024_change-work-arrangement-during.md) |
+| **Local copy** | [AP-013_iogansen_2024_change-work-arrangement-during.pdf](../../Desk_Research/docs/Academic_Papers/AP-013_iogansen_2024_change-work-arrangement-during.pdf) |
+| **Markdown copy** | [AP-013_iogansen_2024_change-work-arrangement-during.md](../../Desk_Research/docs_md/Academic_Papers/AP-013_iogansen_2024_change-work-arrangement-during.md) |
 | **Produced by** | Xiatian Iogansen et al. (4 authors; institutions in Belgium, United States) |
 | **Published by** | Transportation Research Interdisciplinary Perspectives |
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
@@ -51,3 +52,10 @@ Southern California: car-dependent region (94-98% of households with a vehicle),
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `hybrid-work` with [GR-014_eurofound_2023_hybrid-work-in-europe.md](../Global_Reports/GR-014_eurofound_2023_hybrid-work-in-europe.md), [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](../Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](../Global_Reports/GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-043_kim_2024_kerncijfers-mobiliteit-2024.md](../Global_Reports/GR-043_kim_2024_kerncijfers-mobiliteit-2024.md), [GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md](../Global_Reports/GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md), [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](../Global_Reports/GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md), [GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md](../Global_Reports/GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md), [AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md](../Articles/AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md), [GR-052_govuk_2021_flexible-season-tickets-announcement.md](../Global_Reports/GR-052_govuk_2021_flexible-season-tickets-announcement.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): hybrid work, fewer office days and tickets that no longer fit.

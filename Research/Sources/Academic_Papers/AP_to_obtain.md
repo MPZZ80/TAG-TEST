@@ -1,11 +1,12 @@
 ---
 source: Claude
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [research, desk, output, who]
+related: [plan.md, AP_candidates.md]
 ---
 
 # Academic Papers: Sources to Obtain
@@ -21,14 +22,14 @@ The status is Marco's own note.
 | AP-002 | Drivers and barriers in adopting Mobility as a Service (MaaS) – A latent class cluster analysis of attitudes | [DOI](https://doi.org/10.1016/j.tra.2019.11.022) | [open-access PDF](https://www.sciencedirect.com/science/article/pii/S0965856419302575) | not obtained, payment needed |
 | AP-020 | “For me it is always like half an hour”: Exploring the acceptable travel time concept in the US and European contexts | [DOI](https://doi.org/10.1016/j.tranpol.2018.02.001) | [open-access PDF](https://www.sciencedirect.com/science/article/pii/S0967070X17308818) | not obtained, payment needed |
 
-- **AP-002:** the file `AP_002.pdf` that is in `Research/docs/Academic_Papers/` is not this paper. It is a second copy of AP-015 (the two files are identical byte for byte), so it was left where it is and not used. Marco can delete it.
+- **AP-002:** the file `AP_002.pdf` that is in `Research/Desk_Research/docs/Academic_Papers/` is not this paper. It is a second copy of AP-015 (the two files are identical byte for byte), so it was left where it is and not used. Marco can delete it.
 - **AP-020** is the one that would matter more: it is the only source on what travel time people find acceptable (Q4).
 - Their source files hold the abstract from OpenAlex, if there is one, and they are not used in the analysis.
-- If a copy is found, save it as `Research/docs/Academic_Papers/<ID>_<author>_<year>_<short-title>.pdf` (the name of the source file, with `.pdf`); it will then be converted to Markdown and read like the others.
+- If a copy is found, save it as `Research/Desk_Research/docs/Academic_Papers/<ID>_<author>_<year>_<short-title>.pdf` (the name of the source file, with `.pdf`); it will then be converted to Markdown and read like the others.
 
 ## Obtained on 2026-10-07
 
-Supplied by Marco, renamed to the name of their source file, converted to Markdown in `Research/docs_md/Academic_Papers/`, read and recorded in the source files.
+Supplied by Marco, renamed to the name of their source file, converted to Markdown in `Research/Desk_Research/docs_md/Academic_Papers/`, read and recorded in the source files.
 
 | ID | Paper | Link | Read |
 | --- | --- | --- | --- |
@@ -50,3 +51,10 @@ Supplied by Marco, renamed to the name of their source file, converted to Markdo
 | AP-025 | Exploring the physical and mental health of high-speed rail commuters: Suzhou-Shanghai inter-city commuting | [DOI](https://doi.org/10.1016/j.jth.2020.100902) | in full |
 | AP-026 | Framework of Aspects for the Evaluation of Multimodal Journey Planners | [DOI](https://doi.org/10.3390/su11184960) | in full |
 | AP-027 | The changing influences on commuting mode choice in urban England under Peak Car: A discrete choice modelling approach | [DOI](https://doi.org/10.1016/j.trf.2018.06.010) | in full |
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- [AP_candidates.md](AP_candidates.md) is the other list of the same source category.

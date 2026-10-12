@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [research, desk, source, information]
+tags: [research, desk, source, information, crowding]
+related: [plan.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md]
 ---
 
 # Should I stay or should I board? Willingness to wait with real-time crowding information in urban public transport
@@ -14,8 +15,8 @@ tags: [research, desk, source, information]
 | --- | --- |
 | **ID** | AP-011 |
 | **Link** | [Should I stay or should I board? Willingness to wait with real-time crowding information in urban public transport](https://doi.org/10.1016/j.rtbm.2023.100963) (open-access PDF: <http://ruj.uj.edu.pl/bitstreams/ab6f5e1b-4251-40f3-933f-665f998e5634/download>) |
-| **Local copy** | [AP-011_drabicki_2023_should-i-stay-or.pdf](../../docs/Academic_Papers/AP-011_drabicki_2023_should-i-stay-or.pdf), provided by Marco on 2026-10-07 |
-| **Markdown copy** | [AP-011_drabicki_2023_should-i-stay-or.md](../../docs_md/Academic_Papers/AP-011_drabicki_2023_should-i-stay-or.md) |
+| **Local copy** | [AP-011_drabicki_2023_should-i-stay-or.pdf](../../Desk_Research/docs/Academic_Papers/AP-011_drabicki_2023_should-i-stay-or.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-011_drabicki_2023_should-i-stay-or.md](../../Desk_Research/docs_md/Academic_Papers/AP-011_drabicki_2023_should-i-stay-or.md) |
 | **Produced by** | Arkadiusz Drabicki et al. (5 authors; institutions in United Kingdom, Netherlands, Poland) |
 | **Published by** | Research in Transportation Business & Management |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
@@ -56,3 +57,10 @@ Hypothetical choices, which the authors themselves say tend to overstate; nobody
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `crowding` with [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): crowded vehicles at peak hours.

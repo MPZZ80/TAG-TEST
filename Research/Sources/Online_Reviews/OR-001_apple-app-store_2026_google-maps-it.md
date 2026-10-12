@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, information]
+related: [plan.md, PR-001_google_2026_google-maps.md]
 ---
 
 # Google Maps: App Store reviews, Italy (sample)
@@ -14,8 +15,8 @@ tags: [research, desk, source, tools, information]
 | --- | --- |
 | **ID** | OR-001 |
 | **Link** | [Apple customer reviews feed](https://itunes.apple.com/it/rss/customerreviews/page=1/id=585027354/sortby=mostrecent/json) |
-| **Local copy** | [OR-001_apple-app-store_2026_google-maps-it.json](../../docs/Online_Reviews/OR-001_apple-app-store_2026_google-maps-it.json) |
-| **Markdown copy** | [OR-001_apple-app-store_2026_google-maps-it.md](../../docs_md/Online_Reviews/OR-001_apple-app-store_2026_google-maps-it.md) |
+| **Local copy** | [OR-001_apple-app-store_2026_google-maps-it.json](../../Desk_Research/docs/Online_Reviews/OR-001_apple-app-store_2026_google-maps-it.json) |
+| **Markdown copy** | [OR-001_apple-app-store_2026_google-maps-it.md](../../Desk_Research/docs_md/Online_Reviews/OR-001_apple-app-store_2026_google-maps-it.md) |
 | **Produced by** | Anonymous users of the app who wrote public reviews; names not recorded |
 | **Published by** | Apple App Store (Italy store) |
 | **Kind of source** | User reviews: a sample of the 100 most recent reviews |
@@ -54,3 +55,10 @@ App store reviews over-represent anger and are prompted by updates; one-star rev
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A4 of the research plan, [plan.md](../../plan.md).
+- [PR-001_google_2026_google-maps.md](../Products/PR-001_google_2026_google-maps.md) describes the product these reviews are about.

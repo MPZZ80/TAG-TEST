@@ -4,7 +4,7 @@ Read this file instead of opening every source file. It lists the 10 sources of 
 
 - **What is here:** Press articles, trade press and blog posts. One file per: article.
 - **Note:** Secondary sources. Prefer the original document when one exists in Global reports.
-- **Text copies** are in `../../docs_md/Articles/` and downloaded documents in `../../docs/Articles/`, with the same base name as the source file. Both folders are kept out of Git.
+- **Text copies** are in `../../Desk_Research/docs_md/Articles/` and downloaded documents in `../../Desk_Research/docs/Articles/`, with the same base name as the source file. Both folders are kept out of Git.
 
 ## How to use it
 

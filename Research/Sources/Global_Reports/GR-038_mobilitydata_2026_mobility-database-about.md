@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, information, tools]
+related: [plan.md, GR-055_gtfs-de_nd_realtime-data-germany.md, GR-021_european-union_2017_delegated-regulation-2017-1926.md, GR-054_cciss_nd_italian-national-access-point-mmtis.md]
 ---
 
 # Mobility Database: about
@@ -15,7 +16,7 @@ tags: [research, desk, source, information, tools]
 | **ID** | GR-038 |
 | **Link** | [Mobility Database: about](https://mobilitydatabase.org/about) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-038_mobilitydata_2026_mobility-database-about.md](../../docs_md/Global_Reports/GR-038_mobilitydata_2026_mobility-database-about.md) |
+| **Markdown copy** | [GR-038_mobilitydata_2026_mobility-database-about.md](../../Desk_Research/docs_md/Global_Reports/GR-038_mobilitydata_2026_mobility-database-about.md) |
 | **Produced by** | MobilityData, a global non-profit for open transportation data standards |
 | **Published by** | MobilityData |
 | **Kind of source** | Open data catalogue, description page |
@@ -46,3 +47,10 @@ A self-description by the non-profit that runs the catalogue: a count of feeds s
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-055_gtfs-de_nd_realtime-data-germany.md](GR-055_gtfs-de_nd_realtime-data-germany.md), [GR-021_european-union_2017_delegated-regulation-2017-1926.md](GR-021_european-union_2017_delegated-regulation-2017-1926.md) and [GR-054_cciss_nd_italian-national-access-point-mmtis.md](GR-054_cciss_nd_italian-national-access-point-mmtis.md): open and real-time public transport data feeds.

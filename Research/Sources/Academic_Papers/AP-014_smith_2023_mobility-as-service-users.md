@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: A
 confidence: n/a
 tags: [research, desk, source, tools, why-now]
+related: [plan.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-011_uitp_2019_policy-brief-maas.md, GR-039_nordic-policy-centre_2022_finland-maas-legislation.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, GR-050_mit_2026_maas-for-italy-white-paper.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-005_kriswardhana_2022_systematic-literature-review-mobility.md, AP-007_reck_2020_maas-bundle-design.md, AP-016_mcilroy_2024_reservation-i-have-that.md, AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, AR-010_global-fleet_2024_maas-1-is-dead.md]
 ---
 
 # Mobility-as-a-Service users: insights from a trial in Sydney
@@ -14,8 +15,8 @@ tags: [research, desk, source, tools, why-now]
 | --- | --- |
 | **ID** | AP-014 |
 | **Link** | [Mobility-as-a-Service users: insights from a trial in Sydney](https://doi.org/10.1186/s12544-023-00612-2) |
-| **Local copy** | [AP-014_smith_2023_mobility-as-service-users.pdf](../../docs/Academic_Papers/AP-014_smith_2023_mobility-as-service-users.pdf) |
-| **Markdown copy** | [AP-014_smith_2023_mobility-as-service-users.md](../../docs_md/Academic_Papers/AP-014_smith_2023_mobility-as-service-users.md) |
+| **Local copy** | [AP-014_smith_2023_mobility-as-service-users.pdf](../../Desk_Research/docs/Academic_Papers/AP-014_smith_2023_mobility-as-service-users.pdf) |
+| **Markdown copy** | [AP-014_smith_2023_mobility-as-service-users.md](../../Desk_Research/docs_md/Academic_Papers/AP-014_smith_2023_mobility-as-service-users.md) |
 | **Produced by** | Göran Smith et al. (4 authors; institutions in Australia, Chile, Sweden) |
 | **Published by** | European Transport Research Review |
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
@@ -55,3 +56,11 @@ Same trial as GR-037, so it is not an independent confirmation: the two must cou
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md): the same Sydney MaaS trial.
+- Shares a source landscape with [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-011_uitp_2019_policy-brief-maas.md](../Global_Reports/GR-011_uitp_2019_policy-brief-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-039_nordic-policy-centre_2022_finland-maas-legislation.md](../Global_Reports/GR-039_nordic-policy-centre_2022_finland-maas-legislation.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](../Global_Reports/GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md), [GR-050_mit_2026_maas-for-italy-white-paper.md](../Global_Reports/GR-050_mit_2026_maas-for-italy-white-paper.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](AP-003_lyons_2019_importance-user-perspective-evolution.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-005_kriswardhana_2022_systematic-literature-review-mobility.md](AP-005_kriswardhana_2022_systematic-literature-review-mobility.md), [AP-007_reck_2020_maas-bundle-design.md](AP-007_reck_2020_maas-bundle-design.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](AP-016_mcilroy_2024_reservation-i-have-that.md), [AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md](AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md), [AR-006_frost-sullivan_2024_maas-global-collapse.md](../Articles/AR-006_frost-sullivan_2024_maas-global-collapse.md) and [AR-010_global-fleet_2024_maas-1-is-dead.md](../Articles/AR-010_global-fleet_2024_maas-1-is-dead.md): combined mobility services (MaaS): trials, demand and results.

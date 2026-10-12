@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools]
+related: [plan.md, AR-005_techcrunch_2023_via-acquires-citymapper.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md, OR-003_apple-app-store_2026_citymapper-gb.md]
 ---
 
 # Citymapper
@@ -16,7 +17,7 @@ tags: [research, desk, source, tools]
 | **Link** | [Citymapper](https://citymapper.com/) |
 | **App Store listing** | [Citymapper: Your Transport App](https://apps.apple.com/gb/app/citymapper-your-transport-app/id469463298?uo=4) (GB store, version 11.51.1 released 2026-09-24; 274,847 ratings, average 4.80, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-003_citymapper_2026_citymapper.md](../../docs_md/Products/PR-003_citymapper_2026_citymapper.md) |
+| **Markdown copy** | [PR-003_citymapper_2026_citymapper.md](../../Desk_Research/docs_md/Products/PR-003_citymapper_2026_citymapper.md) |
 | **Produced by** | Citymapper Limited (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -49,3 +50,11 @@ Home page and headlines only; cities, not trips between cities. The headlines su
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [AR-005_techcrunch_2023_via-acquires-citymapper.md](../Articles/AR-005_techcrunch_2023_via-acquires-citymapper.md), [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](../Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md](../Online_Forums/OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md) and [OR-003_apple-app-store_2026_citymapper-gb.md](../Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md): Citymapper and its sale.
+- [OR-003_apple-app-store_2026_citymapper-gb.md](../Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md) is the sample of user reviews of this product.

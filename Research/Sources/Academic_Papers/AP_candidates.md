@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: review
 status: reviewed
 grade: n/a
 confidence: n/a
 tags: [research, desk, output, mode-choice, information, why-now]
+related: [plan.md, AP_to_obtain.md]
 ---
 
 # Candidate Sources: Academic Papers
@@ -68,3 +69,10 @@ OpenAlex only, with the filter: articles and reviews published since 2017, sorte
 - **Google Scholar and Scopus:** not used; citation counts and coverage may differ.
 - **PDF downloads:** 20 of 28 could not be downloaded (ScienceDirect, Springer, MDPI and some repositories refuse automated requests); the source files hold the abstract from OpenAlex instead.
 - **Three links answered with an error** to automated requests (the UCL repository copy of the preferred-mode paper, the Taylor & Francis review on COVID-19 mode choice and the MDPI paper on journey planners); they exist in the OpenAlex records.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- [AP_to_obtain.md](AP_to_obtain.md) is the other list of the same source category.

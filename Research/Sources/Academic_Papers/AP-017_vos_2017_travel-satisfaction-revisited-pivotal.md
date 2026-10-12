@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, success]
+tags: [research, desk, source, success, habit]
+related: [plan.md, AP-006_vos_2022_does-commute-duration-attenuate.md, AP-018_vos_2018_people-travel-their-preferred.md, AP-001_goransson_2023_factors-that-make-public.md, AP-012_zarabi_2023_understanding-travel-mode-choice.md, AP-024_an_2022_multimodal-travel-behaviour-attitudes.md, AP-027_keyes_2018_changing-influences-commuting-mode.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, Matteo_Rizzetto_notes.md]
 ---
 
 # Travel satisfaction revisited. On the pivotal role of travel satisfaction in conceptualising a travel behaviour process
@@ -14,8 +15,8 @@ tags: [research, desk, source, success]
 | --- | --- |
 | **ID** | AP-017 |
 | **Link** | [Travel satisfaction revisited. On the pivotal role of travel satisfaction in conceptualising a travel behaviour process](https://doi.org/10.1016/j.tra.2017.10.009) |
-| **Local copy** | [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.pdf](../../docs/Academic_Papers/AP-017_vos_2017_travel-satisfaction-revisited-pivotal.pdf) |
-| **Markdown copy** | [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](../../docs_md/Academic_Papers/AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md) |
+| **Local copy** | [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.pdf](../../Desk_Research/docs/Academic_Papers/AP-017_vos_2017_travel-satisfaction-revisited-pivotal.pdf) |
+| **Markdown copy** | [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](../../Desk_Research/docs_md/Academic_Papers/AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md) |
 | **Produced by** | Jonas De Vos et al. (2 authors; institutions in Belgium) |
 | **Published by** | Transportation Research Part A Policy and Practice |
 | **Kind of source** | Peer-reviewed journal article (bronze open access) |
@@ -54,3 +55,11 @@ No data of its own: the links are proposals, several are stated as 'possible' or
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [AP-006_vos_2022_does-commute-duration-attenuate.md](AP-006_vos_2022_does-commute-duration-attenuate.md) and [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md): the Ghent research on travel satisfaction.
+- Shares the pain point `habit` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-012_zarabi_2023_understanding-travel-mode-choice.md](AP-012_zarabi_2023_understanding-travel-mode-choice.md), [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md), [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](AP-024_an_2022_multimodal-travel-behaviour-attitudes.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](AP-027_keyes_2018_changing-influences-commuting-mode.md), [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): habit and the lack of a real choice of means.

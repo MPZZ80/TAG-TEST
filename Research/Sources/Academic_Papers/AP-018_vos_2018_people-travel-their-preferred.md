@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, mode-choice]
+tags: [research, desk, source, mode-choice, habit]
+related: [plan.md, AP-006_vos_2022_does-commute-duration-attenuate.md, AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md, AP-001_goransson_2023_factors-that-make-public.md, AP-012_zarabi_2023_understanding-travel-mode-choice.md, AP-024_an_2022_multimodal-travel-behaviour-attitudes.md, AP-027_keyes_2018_changing-influences-commuting-mode.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, Matteo_Rizzetto_notes.md]
 ---
 
 # Do people travel with their preferred travel mode? Analysing the extent of travel mode dissonance and its effect on travel satisfaction
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice]
 | --- | --- |
 | **ID** | AP-018 |
 | **Link** | [Do people travel with their preferred travel mode? Analysing the extent of travel mode dissonance and its effect on travel satisfaction](https://doi.org/10.1016/j.tra.2018.08.034) |
-| **Local copy** | [AP-018_vos_2018_people-travel-their-preferred.pdf](../../docs/Academic_Papers/AP-018_vos_2018_people-travel-their-preferred.pdf) |
-| **Markdown copy** | [AP-018_vos_2018_people-travel-their-preferred.md](../../docs_md/Academic_Papers/AP-018_vos_2018_people-travel-their-preferred.md) |
+| **Local copy** | [AP-018_vos_2018_people-travel-their-preferred.pdf](../../Desk_Research/docs/Academic_Papers/AP-018_vos_2018_people-travel-their-preferred.pdf) |
+| **Markdown copy** | [AP-018_vos_2018_people-travel-their-preferred.md](../../Desk_Research/docs_md/Academic_Papers/AP-018_vos_2018_people-travel-their-preferred.md) |
 | **Produced by** | Jonas De Vos (1 author; institutions in Belgium) |
 | **Published by** | Transportation Research Part A Policy and Practice |
 | **Kind of source** | Peer-reviewed journal article (green open access) |
@@ -53,3 +54,11 @@ Leisure trips inside one city, not commuting; the paper itself says leisure mode
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [AP-006_vos_2022_does-commute-duration-attenuate.md](AP-006_vos_2022_does-commute-duration-attenuate.md) and [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md): the Ghent research on travel satisfaction.
+- Shares the pain point `habit` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-012_zarabi_2023_understanding-travel-mode-choice.md](AP-012_zarabi_2023_understanding-travel-mode-choice.md), [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md), [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](AP-024_an_2022_multimodal-travel-behaviour-attitudes.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](AP-027_keyes_2018_changing-influences-commuting-mode.md), [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): habit and the lack of a real choice of means.

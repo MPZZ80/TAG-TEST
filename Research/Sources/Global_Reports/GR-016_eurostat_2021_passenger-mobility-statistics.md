@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, mode-choice, who]
+related: [plan.md, GR-001_eurostat_2020_commuting-time.md, GR-002_eurostat_2023_interregional-commuters.md]
 ---
 
 # Passenger mobility statistics (Statistics Explained)
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice, who]
 | --- | --- |
 | **ID** | GR-016 |
 | **Link** | [Passenger mobility statistics (Statistics Explained)](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Passenger_mobility_statistics) |
-| **Local copy** | [GR-016_eurostat_2021_passenger-mobility-statistics_data.xlsx](../../docs/Global_Reports/GR-016_eurostat_2021_passenger-mobility-statistics_data.xlsx) |
-| **Markdown copy** | [GR-016_eurostat_2021_passenger-mobility-statistics.md](../../docs_md/Global_Reports/GR-016_eurostat_2021_passenger-mobility-statistics.md) |
+| **Local copy** | [GR-016_eurostat_2021_passenger-mobility-statistics_data.xlsx](../../Desk_Research/docs/Global_Reports/GR-016_eurostat_2021_passenger-mobility-statistics_data.xlsx) |
+| **Markdown copy** | [GR-016_eurostat_2021_passenger-mobility-statistics.md](../../Desk_Research/docs_md/Global_Reports/GR-016_eurostat_2021_passenger-mobility-statistics.md) |
 | **Produced by** | Eurostat |
 | **Published by** | Eurostat, Statistics Explained |
 | **Kind of source** | Official statistics |
@@ -49,3 +50,10 @@ Pilot surveys run in different years between 2013 and 2019 with different sample
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-001_eurostat_2020_commuting-time.md](GR-001_eurostat_2020_commuting-time.md) and [GR-002_eurostat_2023_interregional-commuters.md](GR-002_eurostat_2023_interregional-commuters.md): Eurostat statistics on commuting and passenger mobility.

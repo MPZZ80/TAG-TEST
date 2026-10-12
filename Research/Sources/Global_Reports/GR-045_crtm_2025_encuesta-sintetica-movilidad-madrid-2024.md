@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, who, mode-choice]
+tags: [research, desk, source, who, mode-choice, first-last-mile, hybrid-work]
+related: [plan.md, GR-030_dft_2025_national-travel-survey-2024.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-025_wang_2020_exploring-physical-mental-health.md, GR-010_egum_2024_public-transport-shared-mobility.md, GR-012_uitp_2023_policy-brief-mobility-hubs.md, GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md, GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md, GR-014_eurofound_2023_hybrid-work-in-europe.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-043_kim_2024_kerncijfers-mobiliteit-2024.md, GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md, GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md, AP-013_iogansen_2024_change-work-arrangement-during.md, AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md, GR-052_govuk_2021_flexible-season-tickets-announcement.md]
 ---
 
 # Encuesta sintética de movilidad en la Comunidad de Madrid 2024 (ESM2024): memoria de los resultados
@@ -14,8 +15,8 @@ tags: [research, desk, source, who, mode-choice]
 | --- | --- |
 | **ID** | GR-045 |
 | **Link** | [Encuesta sintética de movilidad en la Comunidad de Madrid 2024 (ESM2024): memoria de los resultados](https://www.crtm.es/media/b3djxhie/memoria-de-los-resultados-esm24.pdf) |
-| **Local copy** | [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.pdf](../../docs/Global_Reports/GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.pdf) |
-| **Markdown copy** | [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](../../docs_md/Global_Reports/GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md) |
+| **Local copy** | [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.pdf](../../Desk_Research/docs/Global_Reports/GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.pdf) |
+| **Markdown copy** | [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](../../Desk_Research/docs_md/Global_Reports/GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md) |
 | **Produced by** | Consorcio Regional de Transportes de Madrid (CRTM) |
 | **Published by** | CRTM |
 | **Kind of source** | Regional transport authority survey, results report of 80 pages |
@@ -65,3 +66,12 @@ One region of Spain with a dense, integrated public transport system and a singl
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-030_dft_2025_national-travel-survey-2024.md](GR-030_dft_2025_national-travel-survey-2024.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md](GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md): national travel surveys that report trips by means.
+- Shares the pain point `first-last-mile` with [AP-008_rahman_2022_first-last-mile-public.md](../Academic_Papers/AP-008_rahman_2022_first-last-mile-public.md), [AP-010_azimi_2020_mode-choice-behavior-access.md](../Academic_Papers/AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-025_wang_2020_exploring-physical-mental-health.md](../Academic_Papers/AP-025_wang_2020_exploring-physical-mental-health.md), [GR-010_egum_2024_public-transport-shared-mobility.md](GR-010_egum_2024_public-transport-shared-mobility.md), [GR-012_uitp_2023_policy-brief-mobility-hubs.md](GR-012_uitp_2023_policy-brief-mobility-hubs.md), [GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md](GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md](GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md), [Marco_Palermo_notes.md](../../Interviews/Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): the first and last leg of the journey.
+- Shares the pain point `hybrid-work` with [GR-014_eurofound_2023_hybrid-work-in-europe.md](GR-014_eurofound_2023_hybrid-work-in-europe.md), [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-043_kim_2024_kerncijfers-mobiliteit-2024.md](GR-043_kim_2024_kerncijfers-mobiliteit-2024.md), [GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md](GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md), [GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md](GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md), [AP-013_iogansen_2024_change-work-arrangement-during.md](../Academic_Papers/AP-013_iogansen_2024_change-work-arrangement-during.md), [AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md](../Articles/AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md), [GR-052_govuk_2021_flexible-season-tickets-announcement.md](GR-052_govuk_2021_flexible-season-tickets-announcement.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): hybrid work, fewer office days and tickets that no longer fit.

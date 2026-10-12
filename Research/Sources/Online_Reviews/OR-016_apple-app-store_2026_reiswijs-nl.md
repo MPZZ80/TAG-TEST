@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, information]
+related: [plan.md, PR-016_toertje_2026_reiswijs.md]
 ---
 
 # ReisWijs: App Store reviews, Netherlands (sample)
@@ -14,8 +15,8 @@ tags: [research, desk, source, tools, information]
 | --- | --- |
 | **ID** | OR-016 |
 | **Link** | [Apple customer reviews feed](https://itunes.apple.com/nl/rss/customerreviews/page=1/id=6746206640/sortby=mostrecent/json) |
-| **Local copy** | [OR-016_apple-app-store_2026_reiswijs-nl.json](../../docs/Online_Reviews/OR-016_apple-app-store_2026_reiswijs-nl.json) |
-| **Markdown copy** | [OR-016_apple-app-store_2026_reiswijs-nl.md](../../docs_md/Online_Reviews/OR-016_apple-app-store_2026_reiswijs-nl.md) |
+| **Local copy** | [OR-016_apple-app-store_2026_reiswijs-nl.json](../../Desk_Research/docs/Online_Reviews/OR-016_apple-app-store_2026_reiswijs-nl.json) |
+| **Markdown copy** | [OR-016_apple-app-store_2026_reiswijs-nl.md](../../Desk_Research/docs_md/Online_Reviews/OR-016_apple-app-store_2026_reiswijs-nl.md) |
 | **Produced by** | Anonymous users of the app who wrote public reviews; names not recorded |
 | **Published by** | Apple App Store (Netherlands store) |
 | **Kind of source** | User reviews: a sample of the 20 most recent reviews |
@@ -51,3 +52,10 @@ Only 20 reviews in 15 months: an anecdotal sample of a small regional app. Urban
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A4 of the research plan, [plan.md](../../plan.md).
+- [PR-016_toertje_2026_reiswijs.md](../Products/PR-016_toertje_2026_reiswijs.md) describes the product these reviews are about.

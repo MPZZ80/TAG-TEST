@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, information, why-now]
+related: [plan.md, GR-021_european-union_2017_delegated-regulation-2017-1926.md, GR-013_napcore_nd_position-paper-mmtis-revision.md, GR-056_data4pt_nd_italian-ministry-partner-perspective.md, GR-055_gtfs-de_nd_realtime-data-germany.md, GR-038_mobilitydata_2026_mobility-database-about.md]
 ---
 
 # Italian National Access Point: multimodal travel information services (MMTIS)
@@ -15,7 +16,7 @@ tags: [research, desk, source, information, why-now]
 | **ID** | GR-054 |
 | **Link** | [Italian National Access Point: multimodal travel information services (MMTIS)](https://www.cciss.it/nap/mmtis/public/en/static/multimodal) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-054_cciss_nd_italian-national-access-point-mmtis.md](../../docs_md/Global_Reports/GR-054_cciss_nd_italian-national-access-point-mmtis.md) |
+| **Markdown copy** | [GR-054_cciss_nd_italian-national-access-point-mmtis.md](../../Desk_Research/docs_md/Global_Reports/GR-054_cciss_nd_italian-national-access-point-mmtis.md) |
 | **Produced by** | Italian National Access Point for multimodal mobility (CCISS) |
 | **Published by** | CCISS, Italian Ministry of Infrastructure and Transport |
 | **Kind of source** | Official portal page |
@@ -47,3 +48,11 @@ A descriptive page with no date and no figures on how complete, current or used 
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-021_european-union_2017_delegated-regulation-2017-1926.md](GR-021_european-union_2017_delegated-regulation-2017-1926.md), [GR-013_napcore_nd_position-paper-mmtis-revision.md](GR-013_napcore_nd_position-paper-mmtis-revision.md) and [GR-056_data4pt_nd_italian-ministry-partner-perspective.md](GR-056_data4pt_nd_italian-ministry-partner-perspective.md): the EU rules on travel data and the national access points.
+- Shares a source landscape with [GR-055_gtfs-de_nd_realtime-data-germany.md](GR-055_gtfs-de_nd_realtime-data-germany.md), [GR-038_mobilitydata_2026_mobility-database-about.md](GR-038_mobilitydata_2026_mobility-database-about.md) and [GR-021_european-union_2017_delegated-regulation-2017-1926.md](GR-021_european-union_2017_delegated-regulation-2017-1926.md): open and real-time public transport data feeds.

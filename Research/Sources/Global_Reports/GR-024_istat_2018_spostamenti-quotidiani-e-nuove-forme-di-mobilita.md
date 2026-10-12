@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who, mode-choice]
+related: [plan.md, GR-019_istat_2014_commuting-matrices-2011.md, GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md, GR-025_istat_2024_la-mobilita-territoriale.md, GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md, GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md]
 ---
 
 # Spostamenti quotidiani e nuove forme di mobilità, anno 2017
@@ -14,8 +15,8 @@ tags: [research, desk, source, who, mode-choice]
 | --- | --- |
 | **ID** | GR-024 |
 | **Link** | [Spostamenti quotidiani e nuove forme di mobilità, anno 2017](https://www.istat.it/it/files/2018/11/Report-mobilit%C3%A0-sostenibile.pdf) |
-| **Local copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf](../../docs/Global_Reports/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf) |
-| **Markdown copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](../../docs_md/Global_Reports/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md) |
+| **Local copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf](../../Desk_Research/docs/Global_Reports/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.pdf) |
+| **Markdown copy** | [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](../../Desk_Research/docs_md/Global_Reports/GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md) |
 | **Produced by** | ISTAT |
 | **Published by** | ISTAT |
 | **Kind of source** | Statistical report, 20 pages |
@@ -55,3 +56,10 @@ Data from 2017, before the pandemic and before remote work spread. "Outside the 
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-019_istat_2014_commuting-matrices-2011.md](GR-019_istat_2014_commuting-matrices-2011.md), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md), [GR-025_istat_2024_la-mobilita-territoriale.md](GR-025_istat_2024_la-mobilita-territoriale.md), [GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md](GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md), [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md](GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md) and [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md): Italian statistics on commuting and daily travel.

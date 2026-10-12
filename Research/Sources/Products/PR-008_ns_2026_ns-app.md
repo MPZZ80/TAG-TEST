@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, tools, information]
+tags: [research, desk, source, tools, information, usual-trip]
+related: [plan.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-008_apple-app-store_2026_ns-app-nl.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, GR-040_trb_2003_tcrp-92-traveler-information.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, PR-009_trenitalia_2026_trenitalia-app.md, Matteo_Rizzetto_notes.md]
 ---
 
 # NS app
@@ -16,7 +17,7 @@ tags: [research, desk, source, tools, information]
 | **Link** | [NS app](https://www.ns.nl/en/travel-information/ns-app) |
 | **App Store listing** | [NS](https://apps.apple.com/nl/app/ns/id370362301?uo=4) (NL store, version 8.55.0 released 2026-10-05; 161,385 ratings, average 4.56, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-008_ns_2026_ns-app.md](../../docs_md/Products/PR-008_ns_2026_ns-app.md) |
+| **Markdown copy** | [PR-008_ns_2026_ns-app.md](../../Desk_Research/docs_md/Products/PR-008_ns_2026_ns-app.md) |
 | **Produced by** | NS Reizigers B.V. (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -51,3 +52,11 @@ Short page by the operator; no detail on what happens in a disruption or on tick
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `usual-trip` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-008_apple-app-store_2026_ns-app-nl.md](../Online_Reviews/OR-008_apple-app-store_2026_ns-app-nl.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [GR-040_trb_2003_tcrp-92-traveler-information.md](../Global_Reports/GR-040_trb_2003_tcrp-92-traveler-information.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](../Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md), [PR-009_trenitalia_2026_trenitalia-app.md](PR-009_trenitalia_2026_trenitalia-app.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): regular travellers who want their usual trip at a glance: saved trips, standing alerts.
+- [OR-008_apple-app-store_2026_ns-app-nl.md](../Online_Reviews/OR-008_apple-app-store_2026_ns-app-nl.md) is the sample of user reviews of this product.

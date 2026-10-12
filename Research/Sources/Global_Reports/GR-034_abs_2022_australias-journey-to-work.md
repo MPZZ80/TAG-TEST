@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who, mode-choice]
+related: [plan.md, GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md, GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md, GR-033_statistics-canada_2023_commuting-time-2011-2022.md]
 ---
 
 # Australia's journey to work
@@ -15,7 +16,7 @@ tags: [research, desk, source, who, mode-choice]
 | **ID** | GR-034 |
 | **Link** | [Australia's journey to work](https://abs.gov.au/articles/australias-journey-work) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-034_abs_2022_australias-journey-to-work.md](../../docs_md/Global_Reports/GR-034_abs_2022_australias-journey-to-work.md) |
+| **Markdown copy** | [GR-034_abs_2022_australias-journey-to-work.md](../../Desk_Research/docs_md/Global_Reports/GR-034_abs_2022_australias-journey-to-work.md) |
 | **Produced by** | Australian Bureau of Statistics |
 | **Published by** | Australian Bureau of Statistics |
 | **Kind of source** | Official statistics, article |
@@ -49,3 +50,10 @@ A single day, 10 August 2021, with lockdowns in the two largest states: the leve
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md](GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md), [GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md](GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md) and [GR-033_statistics-canada_2023_commuting-time-2011-2022.md](GR-033_statistics-canada_2023_commuting-time-2011-2022.md): census statistics on the journey to work outside Europe.

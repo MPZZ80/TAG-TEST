@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [research, desk, source, why-now, mode-choice]
+tags: [research, desk, source, why-now, mode-choice, ticket-carryover]
+related: [plan.md, GR-007_european-commission_2026_com-231-multimodal-booking.md, GR-020_european-commission_2026_com-232-rail-ticketing.md, AR-001_railway-gazette_2026_passenger-package.md, GR-005_european-commission_2025_eurobarometer-booking-press-release.md, AR-002_railtarget_nd_eurobarometer-ticketing.md, AR-003_cer_2025_eurobarometer-press-release.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, AP-015_mcilroy_2023_this-where-public-transport.md, GR-003_art_2025_relazione-annuale.md, OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md, OR-015_apple-app-store_2026_9292-nl.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, GR-055_gtfs-de_nd_realtime-data-germany.md, Matteo_Rizzetto_notes.md]
 ---
 
 # Impact assessment report SWD(2026) 300 accompanying the proposals on multimodal booking and on rail ticketing
@@ -14,8 +15,8 @@ tags: [research, desk, source, why-now, mode-choice]
 | --- | --- |
 | **ID** | GR-006 |
 | **Link** | [Impact assessment report SWD(2026) 300 accompanying the proposals on multimodal booking and on rail ticketing](https://transport.ec.europa.eu/document/download/5fd64be7-44b8-4dd3-b084-05c35c5f2a8b_en?filename=SWD_2026_300_Impact_assessment.pdf) |
-| **Local copy** | [GR-006_european-commission_2026_swd-300-impact-assessment.pdf](../../docs/Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.pdf) |
-| **Markdown copy** | [GR-006_european-commission_2026_swd-300-impact-assessment.md](../../docs_md/Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md) |
+| **Local copy** | [GR-006_european-commission_2026_swd-300-impact-assessment.pdf](../../Desk_Research/docs/Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.pdf) |
+| **Markdown copy** | [GR-006_european-commission_2026_swd-300-impact-assessment.md](../../Desk_Research/docs_md/Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md) |
 | **Produced by** | European Commission (staff working document) |
 | **Published by** | European Commission |
 | **Kind of source** | Impact assessment, 254 pages |
@@ -74,3 +75,13 @@ A document written to justify a legislative proposal: it selects evidence that s
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-007_european-commission_2026_com-231-multimodal-booking.md](GR-007_european-commission_2026_com-231-multimodal-booking.md), [GR-020_european-commission_2026_com-232-rail-ticketing.md](GR-020_european-commission_2026_com-232-rail-ticketing.md) and [AR-001_railway-gazette_2026_passenger-package.md](../Articles/AR-001_railway-gazette_2026_passenger-package.md): the European Commission's passenger package of May 2026.
+- Shares a source landscape with [GR-005_european-commission_2025_eurobarometer-booking-press-release.md](GR-005_european-commission_2025_eurobarometer-booking-press-release.md), [AR-002_railtarget_nd_eurobarometer-ticketing.md](../Articles/AR-002_railtarget_nd_eurobarometer-ticketing.md) and [AR-003_cer_2025_eurobarometer-press-release.md](../Articles/AR-003_cer_2025_eurobarometer-press-release.md): the 2024 Eurobarometer on booking journeys.
+- Shares the pain point `ticket-carryover` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [AP-015_mcilroy_2023_this-where-public-transport.md](../Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md), [GR-003_art_2025_relazione-annuale.md](GR-003_art_2025_relazione-annuale.md), [GR-007_european-commission_2026_com-231-multimodal-booking.md](GR-007_european-commission_2026_com-231-multimodal-booking.md) and [GR-020_european-commission_2026_com-232-rail-ticketing.md](GR-020_european-commission_2026_com-232-rail-ticketing.md): tickets, passes and rights that do not carry over between services.
+- Shares a pain point with [OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md](../Online_Forums/OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md), [OR-015_apple-app-store_2026_9292-nl.md](../Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-055_gtfs-de_nd_realtime-data-germany.md](GR-055_gtfs-de_nd_realtime-data-germany.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): who holds and publishes the live data.

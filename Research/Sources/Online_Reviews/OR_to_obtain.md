@@ -1,11 +1,12 @@
 ---
 source: Claude
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [research, desk, output, tools]
+related: [plan.md]
 ---
 
 # Online Reviews: Sources to Obtain and Gaps
@@ -14,3 +15,9 @@ tags: [research, desk, output, tools]
 - **Reviews on other sites** (Trustpilot, review portals for rail operators and coach companies): not searched. They could be added for Trenitalia, Italo, FlixBus and Trainline.
 - **Other countries' stores:** each app was sampled in one store only (the one of its main market). For example Moovit and Google Maps were sampled in the Italian store.
 - **Older reviews:** only the 100 most recent reviews (50 to 20 for small apps) were taken; periods with problems in the past are not covered.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Is one of the lists the research plan asks for, [plan.md](../../plan.md).

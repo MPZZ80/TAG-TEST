@@ -1,11 +1,12 @@
 ---
 source: Claude
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [research, desk, output, tools]
+related: [plan.md]
 ---
 
 # Products: Sources to Obtain and Gaps
@@ -33,3 +34,9 @@ Products I could not read, or that are not covered. Nothing here has been used a
 - **Ride-hailing and carsharing apps** (Uber, Bolt, Free Now) and **car-focused apps** (Waze beyond the home page): not added, since the question is how commuters combine modes.
 - **Italian regional apps** (for example for Lombardy, Trenord): not searched.
 - **Google Play listings:** not read; ratings in the source files come from the Apple App Store only.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Is one of the lists the research plan asks for, [plan.md](../../plan.md).

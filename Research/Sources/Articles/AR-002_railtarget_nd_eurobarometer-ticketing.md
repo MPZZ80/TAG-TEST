@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, mode-choice]
+related: [plan.md, GR-005_european-commission_2025_eurobarometer-booking-press-release.md, AR-003_cer_2025_eurobarometer-press-release.md, GR-006_european-commission_2026_swd-300-impact-assessment.md]
 ---
 
 # EU Survey Confirms Progress in Rail and Multimodal Ticketing Across Europe
@@ -44,3 +45,10 @@ Secondary copy of AR-003. Use GR-005 and GR-007 for the survey itself.
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A6 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-005_european-commission_2025_eurobarometer-booking-press-release.md](../Global_Reports/GR-005_european-commission_2025_eurobarometer-booking-press-release.md), [AR-003_cer_2025_eurobarometer-press-release.md](AR-003_cer_2025_eurobarometer-press-release.md) and [GR-006_european-commission_2026_swd-300-impact-assessment.md](../Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md): the 2024 Eurobarometer on booking journeys.

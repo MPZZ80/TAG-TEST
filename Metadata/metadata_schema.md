@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: generated
 status: draft
 grade: n/a
@@ -29,10 +29,11 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [research, internal, plan]
+related: [brief.md]
 ---
 ```
 
-All seven fields are required, in this order. If a value is unknown, write `unknown`. Do not leave a field out and do not guess.
+The first seven fields are required, in this order. `related` comes last and is required for the notes of the research (section 9). If a value is unknown, write `unknown`. Do not leave a field out and do not guess.
 
 ## 2. Rules
 
@@ -113,7 +114,7 @@ Confidence applies to files of type `output`, `notes` and `synthesis`. Every oth
 
 ## 8. `tags`: phase, origin, type and topics
 
-Agreed with Marco on 2026-10-12. The aim is the smallest set of tags that still tells the files of the knowledge base apart. A file has at most six tags, always in this order: phase, origin, type, then the topics.
+Agreed with Marco on 2026-10-12. The aim is the smallest set of tags that still tells the files of the knowledge base apart. The tags are always in this order: phase, origin, type, the topics (up to three), the pain points, and last the marker `contradiction` when present.
 
 ```markdown
 tags: [research, desk, source, disruption, tools]
@@ -177,13 +178,57 @@ The topics are the eight groups of the initial research questions, so that a fil
 - Use topic tags only for the topics a file is mainly about.
 - A file that covers the whole project, such as the brief or the plan, has no topic tag.
 
+### Pain points (none or more, after the topics)
+
+Added on 2026-10-12 on Marco's instruction: a small set of terms for the single pain points, more granular than the topics. A note gets a pain-point tag only when it holds evidence of that pain point; notes that share a tag are linked in `related`.
+
+| Tag | The pain point |
+| --- | --- |
+| `late-info` | Delay, cancellation or arrival information that comes late or is wrong |
+| `no-alternative` | No help or workable alternative when a train is cancelled or a connection is missed |
+| `tight-connection` | Changes between services that are tight, broken or costly |
+| `first-last-mile` | Getting to the first stop and from the last one: walking, parking, a lift, a local bus |
+| `hybrid-work` | Fewer and variable office days, and passes or tickets that no longer fit them |
+| `habit` | Habit, or no real choice of means |
+| `unreliable-service` | The service itself fails: delays, cancellations, missing runs; the app is blamed for it |
+| `usual-trip` | Regular travellers cannot see or follow their usual trip at a glance: saved trips, standing alerts |
+| `ticket-carryover` | Tickets, passes and rights that do not carry over between services or operators |
+| `refunds` | Complaints, refunds and compensation after a delay |
+| `crowding` | Crowded vehicles at peak hours |
+| `workarounds` | Personal rules, buffers and fallbacks that travellers build for themselves |
+
+Use `crowding`, not "crowded" or "overcrowding", and so on: one term per pain point.
+
+### Marker (none or one, written last)
+
+| Tag | Use it when |
+| --- | --- |
+| `contradiction` | The file disagrees with another file on a fact, not on an interpretation. Both files carry the tag, both versions are kept, and each describes the conflict in its "Connections" section |
+
+Added on 2026-10-12 on Marco's instruction.
+
 ### What is not a tag
 
 - The project itself (`intercity-commuting`, `discovery`): it would be on every file and would tell nothing apart.
-- The leg of the journey, the country, the language: they are in the body of the file.
+- The country and the language: they are in the body of the file. The leg of the journey has one pain-point tag, `first-last-mile`, and no others.
 - Grade, confidence and status: they have their own fields.
 
-## 9. Open points for Marco
+## 9. `related`: the links between notes
+
+Added on 2026-10-12 on Marco's instruction, to turn the files into a network.
+
+```markdown
+related: [plan.md, desk_research_partial_analysis.md, GR-006_european-commission_2026_swd-300-impact-assessment.md]
+```
+
+- It lists, by file name exactly as in `Index.md`, the other files that share material evidence with this one: the same pain point, the same moment of the commute, the same source landscape.
+- **Evidence only.** Two notes on the same interview subject link; two notes that merely mention the same word do not. Do not add a link with no evidence behind it to shorten a path.
+- Every note of the research has it: source files, lists of sources, interview notes and the interview script. A note links to the plan when the plan names the activity it was collected for.
+- Every link has a sentence a person can read: the file ends with a "Connections" section that names each related file and says what is shared.
+- Transcripts are never edited. A notes file links to the transcript it derives from; the transcript links to nothing.
+- Links are derived from what the notes themselves say, not from an analysis written on top of them. When a note is added or its evidence changes, update `related` and "Connections" on both sides, in the same change.
+
+## 10. Open points for Marco
 
 - Whether the four `source` values are enough, or the detail should be kept, for example the name of the model.
 - Whether an origin tag is needed for first-hand observation, which the old `channel` field had and the tags do not.

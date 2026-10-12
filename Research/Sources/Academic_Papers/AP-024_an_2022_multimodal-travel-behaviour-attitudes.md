@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, mode-choice]
+tags: [research, desk, source, mode-choice, habit]
+related: [plan.md, AP-001_goransson_2023_factors-that-make-public.md, AP-012_zarabi_2023_understanding-travel-mode-choice.md, AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md, AP-018_vos_2018_people-travel-their-preferred.md, AP-027_keyes_2018_changing-influences-commuting-mode.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, Matteo_Rizzetto_notes.md]
 ---
 
 # Multimodal travel behaviour, attitudes, and cognitive dissonance
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice]
 | --- | --- |
 | **ID** | AP-024 |
 | **Link** | [Multimodal travel behaviour, attitudes, and cognitive dissonance](https://doi.org/10.1016/j.trf.2022.10.007) |
-| **Local copy** | [AP-024_an_2022_multimodal-travel-behaviour-attitudes.pdf](../../docs/Academic_Papers/AP-024_an_2022_multimodal-travel-behaviour-attitudes.pdf) |
-| **Markdown copy** | [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](../../docs_md/Academic_Papers/AP-024_an_2022_multimodal-travel-behaviour-attitudes.md) |
+| **Local copy** | [AP-024_an_2022_multimodal-travel-behaviour-attitudes.pdf](../../Desk_Research/docs/Academic_Papers/AP-024_an_2022_multimodal-travel-behaviour-attitudes.pdf) |
+| **Markdown copy** | [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](../../Desk_Research/docs_md/Academic_Papers/AP-024_an_2022_multimodal-travel-behaviour-attitudes.md) |
 | **Produced by** | Zihao An et al. (3 authors; institutions in Germany, United Kingdom) |
 | **Published by** | Transportation Research Part F Traffic Psychology and Behaviour |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
@@ -53,3 +54,10 @@ Netherlands: cycling country with dense rail; the authors say results may not tr
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `habit` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-012_zarabi_2023_understanding-travel-mode-choice.md](AP-012_zarabi_2023_understanding-travel-mode-choice.md), [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md), [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](AP-027_keyes_2018_changing-influences-commuting-mode.md), [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): habit and the lack of a real choice of means.

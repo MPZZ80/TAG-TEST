@@ -1,16 +1,17 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: reviewed
 grade: n/a
 confidence: n/a
 tags: [research, desk, output, who, why-now]
+related: [plan.md, GR_to_obtain.md]
 ---
 
 # Candidate Sources: Global Reports
 
-26 sources, all kept by Marco on 2026-10-05 ("proceed with everything"). Nineteen came from the first list; seven were added: the items that were first left out (GR-020, GR-021, GR-022) and the more recent ISTAT material Marco asked for (GR-023 to GR-026). Each has its own source file and, where it is a document, a copy in `Research/docs/`.
+26 sources, all kept by Marco on 2026-10-05 ("proceed with everything"). Nineteen came from the first list; seven were added: the items that were first left out (GR-020, GR-021, GR-022) and the more recent ISTAT material Marco asked for (GR-023 to GR-026). Each has its own source file and, where it is a document, a copy in `Research/Desk_Research/docs/`.
 
 The grades are computed with the scoring rules and are provisional until the citations are counted at the end of the activity. Press articles that were first left out went to the Articles category: AR-001 to AR-004 in `Research/Sources/Articles/`.
 
@@ -59,7 +60,7 @@ Two batches of web searches in English and Italian, then ISTAT and the passenger
 
 ## Extension to Western and advanced countries: to vet
 
-Added on 2026-10-06 after the scope was extended (see section 3 of the desk research instructions). **N1 to N14 were kept on 2026-10-06** (Marco asked to proceed with the extended research; I read that as keeping all of them, and it can be reversed). They now have source files GR-027 to GR-040 and, for PDFs, documents in `Research/docs/`. I opened each link once and read only the first pages; the "Keep?" column shows the ID.
+Added on 2026-10-06 after the scope was extended (see section 3 of the desk research instructions). **N1 to N14 were kept on 2026-10-06** (Marco asked to proceed with the extended research; I read that as keeping all of them, and it can be reversed). They now have source files GR-027 to GR-040 and, for PDFs, documents in `Research/Desk_Research/docs/`. I opened each link once and read only the first pages; the "Keep?" column shows the ID.
 
 14 candidates. They add the countries I could reach: the UK, the US, Canada, Australia and Switzerland, plus the technology side (a MaaS trial and an open data standard). The grades are provisional, without the citations criterion.
 
@@ -104,7 +105,7 @@ These are also in [GR_to_obtain.md](GR_to_obtain.md).
 
 ### Second extension: sources in other languages (to vet)
 
-Added on 2026-10-06. **N15 to N23 were kept** (Marco: "scarica le fonti") and now have source files GR-041 to GR-049 and documents in `Research/docs/`. English titles are my working translations. Figures quoted in search summaries are verified only where the source file says so.
+Added on 2026-10-06. **N15 to N23 were kept** (Marco: "scarica le fonti") and now have source files GR-041 to GR-049 and documents in `Research/Desk_Research/docs/`. English titles are my working translations. Figures quoted in search summaries are verified only where the source file says so.
 
 | # | Source | Produced by | Published | Kind | Country (language) | What it could answer | Access | Expected grade | Keep? |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -123,3 +124,10 @@ Leads, resolved or still open:
 - **Japan:** the figure that about 43% of MaaS-related projects ended after the demonstration without reaching operation was found in the MLIT "MaaS 2.0" report of April 2025, which is N21 (GR-047, PDF p.17). It is verified there.
 - **South Korea:** a summary said that the Daegu K-MaaS trial reduced commuting time by 35% and that 93% of participants were satisfied. It is not in GR-049, which only announces the pilot, and it is not verified.
 - **Spain:** the OTLE annual report is blocked (see below).
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- [GR_to_obtain.md](GR_to_obtain.md) is the other list of the same source category.

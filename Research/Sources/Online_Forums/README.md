@@ -4,7 +4,7 @@ Read this file instead of opening every source file. It lists the 4 sources of t
 
 - **What is here:** Forum and community threads. One file per: thread.
 - **Note:** The weakest category: Reddit and most forums block automated reading. Captures may contain forum nicknames; never copy them into other files.
-- **Text copies** are in `../../docs_md/Online_Forums/` and downloaded documents in `../../docs/Online_Forums/`, with the same base name as the source file. Both folders are kept out of Git.
+- **Text copies** are in `../../Desk_Research/docs_md/Online_Forums/` and downloaded documents in `../../Desk_Research/docs/Online_Forums/`, with the same base name as the source file. Both folders are kept out of Git.
 
 ## How to use it
 

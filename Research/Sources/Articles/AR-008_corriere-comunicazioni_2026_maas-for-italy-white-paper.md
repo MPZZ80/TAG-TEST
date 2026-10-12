@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools, why-now]
+related: [plan.md, GR-050_mit_2026_maas-for-italy-white-paper.md, GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md]
 ---
 
 # MaaS for Italy: superati gli obiettivi Pnrr, parte la nuova fase della mobilità connessa
@@ -15,7 +16,7 @@ tags: [research, desk, source, tools, why-now]
 | **ID** | AR-008 |
 | **Link** | [MaaS for Italy: superati gli obiettivi Pnrr, parte la nuova fase della mobilità connessa](https://www.corrierecomunicazioni.it/digital-economy/maas-for-italy-superati-gli-obiettivi-pnrr-parte-la-nuova-fase-della-mobilita-connessa/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md](../../docs_md/Articles/AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md) |
+| **Markdown copy** | [AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md](../../Desk_Research/docs_md/Articles/AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md) |
 | **Produced by** | Patrizia Licata |
 | **Published by** | Corriere Comunicazioni |
 | **Kind of source** | Trade press article |
@@ -46,3 +47,10 @@ A trade-press article that rewrites the government press release (GR-050) and ad
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A6 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-050_mit_2026_maas-for-italy-white-paper.md](../Global_Reports/GR-050_mit_2026_maas-for-italy-white-paper.md) and [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md](../Global_Reports/GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md): the MaaS for Italy programme.

@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools, why-now]
+related: [plan.md, PR-011_kakao-mobility_2026_kakao-t.md, OR-011_apple-app-store_2026_kakao-t-kr.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-011_uitp_2019_policy-brief-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-039_nordic-policy-centre_2022_finland-maas-legislation.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, GR-050_mit_2026_maas-for-italy-white-paper.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-005_kriswardhana_2022_systematic-literature-review-mobility.md, AP-007_reck_2020_maas-bundle-design.md, AP-014_smith_2023_mobility-as-service-users.md, AP-016_mcilroy_2024_reservation-i-have-that.md, AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, AR-010_global-fleet_2024_maas-1-is-dead.md]
 ---
 
 # 택시부터 항공까지 모든 모빌리티 예약·결제 앱 하나로: 국토부, '전국 MaaS 시범사업' 추진
@@ -15,7 +16,7 @@ tags: [research, desk, source, tools, why-now]
 | **ID** | GR-049 |
 | **Link** | [택시부터 항공까지 모든 모빌리티 예약·결제 앱 하나로: 국토부, '전국 MaaS 시범사업' 추진](https://www.korea.kr/news/policyNewsView.do?newsId=148910723) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../../docs_md/Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md) |
+| **Markdown copy** | [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../../Desk_Research/docs_md/Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md) |
 | **Produced by** | Ministry of Land, Infrastructure and Transport of Korea (Metropolitan Transport Commission) |
 | **Published by** | Korea Policy Briefing (korea.kr) |
 | **Kind of source** | Government news item. English title: one app to book and pay for all mobility from taxi to air: the ministry promotes a national MaaS pilot |
@@ -49,3 +50,11 @@ An announcement of intent from January 2023: it does not say whether the app was
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md) and [OR-011_apple-app-store_2026_kakao-t-kr.md](../Online_Reviews/OR-011_apple-app-store_2026_kakao-t-kr.md): mobility platforms in South Korea.
+- Shares a source landscape with [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-011_uitp_2019_policy-brief-maas.md](GR-011_uitp_2019_policy-brief-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-039_nordic-policy-centre_2022_finland-maas-legislation.md](GR-039_nordic-policy-centre_2022_finland-maas-legislation.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-050_mit_2026_maas-for-italy-white-paper.md](GR-050_mit_2026_maas-for-italy-white-paper.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](../Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-005_kriswardhana_2022_systematic-literature-review-mobility.md](../Academic_Papers/AP-005_kriswardhana_2022_systematic-literature-review-mobility.md), [AP-007_reck_2020_maas-bundle-design.md](../Academic_Papers/AP-007_reck_2020_maas-bundle-design.md), [AP-014_smith_2023_mobility-as-service-users.md](../Academic_Papers/AP-014_smith_2023_mobility-as-service-users.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md](../Academic_Papers/AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md), [AR-006_frost-sullivan_2024_maas-global-collapse.md](../Articles/AR-006_frost-sullivan_2024_maas-global-collapse.md) and [AR-010_global-fleet_2024_maas-1-is-dead.md](../Articles/AR-010_global-fleet_2024_maas-1-is-dead.md): combined mobility services (MaaS): trials, demand and results.

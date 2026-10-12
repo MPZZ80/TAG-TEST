@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and plan.md
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
 tags: [research, internal, rules]
@@ -27,7 +27,7 @@ Marco will start interviewing fellow commuters only after he has seen the result
 | `../Brief/brief.md` | The user, the problem and Marco's motivation |
 | `../Questions/initial_questions.md` | The 40 research questions, referred to as Q1–Q40 |
 | `plan.md` | The activities (A1–A8), their goals, sources, outputs, order of work and "done when" checks |
-| `Sources/` and `docs/` | The source files and downloaded documents already collected (see section 11) |
+| `Sources/` and `Desk_Research/docs/` | The source files and downloaded documents already collected (see section 11) |
 | Existing `01_…` to `08_…` files in this folder | What earlier sessions already found |
 
 The plan says what each activity must cover and where to look. This file says how to do the work and how to write it up. If the two conflict, follow the plan and note the conflict in the synthesis.
@@ -284,7 +284,7 @@ tags: [research, desk, source, <topic>, <topic>]
 | --- | --- |
 | **ID** | <source ID> |
 | **Link** | [<title>](<full URL of the exact page or document>) |
-| **Local copy** | [<file name>](../../docs/<Category>/<file name>), or "not available" with the reason |
+| **Local copy** | [<file name>](../../Desk_Research/docs/<Category>/<file name>), or "not available" with the reason |
 | **Produced by** | <authors and organisation> |
 | **Published by** | <publisher, journal or platform> |
 | **Kind of source** | <official statistics, institutional report, consultancy report, academic paper, forum thread, ...> |
@@ -321,15 +321,15 @@ Links to the findings that rest on this source.
 
 ### Downloaded documents
 
-- `docs/` and `docs_md/` have one subfolder per category, like `Sources/` (`Global_Reports`, `Academic_Papers`, `Products`, `Online_Reviews`, `Online_Forums`, `Articles`). Put each file in the folder of its category, for example `docs/Global_Reports/GR-003_….pdf` and `docs_md/Global_Reports/GR-003_….md`.
-- When a source is a document, such as a PDF report, a paper, a dataset or a slide deck, download it into `docs/`.
+- `Desk_Research/docs/` and `Desk_Research/docs_md/` have one subfolder per category, like `Sources/` (`Global_Reports`, `Academic_Papers`, `Products`, `Online_Reviews`, `Online_Forums`, `Articles`). Put each file in the folder of its category, for example `Desk_Research/docs/Global_Reports/GR-003_….pdf` and `Desk_Research/docs_md/Global_Reports/GR-003_….md`.
+- When a source is a document, such as a PDF report, a paper, a dataset or a slide deck, download it into `Desk_Research/docs/`.
 - Give the downloaded file the same base name as its source file, keeping the original extension, so that the two can be matched at a glance: `GR-003_eurostat_2024_commuting-flows.pdf`.
 - When a source has more than one document, add a short detail at the end, after an underscore, to tell them apart: `GR-003_eurostat_2024_commuting-flows_UE_Synthesis.pdf`. List every document in the "Local copy" row.
-- Every downloaded PDF is also converted to Markdown, so that it can be read and searched as text. Save the conversion in `docs_md/` with the same base name as the PDF and the extension `.md`, and add its link in the "Markdown copy" row of the source file. Convert with `pymupdf4llm` (installed for Marco's user; free for local use under the AGPL licence), keeping page markers so that figures can be cited with a page number, and use OCR with `tesseract` (installed with Italian data) on pages with almost no text. The conversion starts with a metadata block and a note that it is automatic.
+- Every downloaded PDF is also converted to Markdown, so that it can be read and searched as text. Save the conversion in `Desk_Research/docs_md/` with the same base name as the PDF and the extension `.md`, and add its link in the "Markdown copy" row of the source file. Convert with `pymupdf4llm` (installed for Marco's user; free for local use under the AGPL licence), keeping page markers so that figures can be cited with a page number, and use OCR with `tesseract` (installed with Italian data) on pages with almost no text. The conversion starts with a metadata block and a note that it is automatic.
 - A conversion is a working copy and can be imperfect: tables and layout may be off. Check every figure against the original PDF before citing it, and cite the PDF page.
-- `docs/` and `docs_md/` are excluded from Git by `.gitignore`, because the documents belong to their publishers. They stay on Marco's computer and are not pushed to GitHub.
+- `Desk_Research/docs/` and `Desk_Research/docs_md/` are excluded from Git by `.gitignore`, because the documents belong to their publishers. They stay on Marco's computer and are not pushed to GitHub.
 - Put the link to the downloaded file in the "Local copy" row of the source file.
-- Web pages are saved as text: capture the main text of the page as Markdown in `docs_md/`, with the same base name as its source file (there is no document in `docs/`), using `pandoc` after removing navigation and scripts. Add its link in the "Markdown copy" row. If the page content is rendered by scripts and cannot be captured, write "not available" and the reason in that row. The capture is a snapshot: the live page may change, so figures are checked on the live page before they are cited.
+- Web pages are saved as text: capture the main text of the page as Markdown in `Desk_Research/docs_md/`, with the same base name as its source file (there is no document in `Desk_Research/docs/`), using `pandoc` after removing navigation and scripts. Add its link in the "Markdown copy" row. If the page content is rendered by scripts and cannot be captured, write "not available" and the reason in that row. The capture is a snapshot: the live page may change, so figures are checked on the live page before they are cited.
 - Do not get around a paywall or a login. If a document cannot be downloaded, write "not available" and the reason in the "Local copy" row.
 
 ### Known limits

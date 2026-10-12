@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools, mode-choice]
+related: [plan.md, OR-005_apple-app-store_2026_trainline-gb.md]
 ---
 
 # Trainline
@@ -16,7 +17,7 @@ tags: [research, desk, source, tools, mode-choice]
 | **Link** | [Trainline](https://www.thetrainline.com/about-us) |
 | **App Store listing** | [Trainline: Train & Bus Tickets](https://apps.apple.com/gb/app/trainline-train-bus-tickets/id334235181?uo=4) (GB store, version 436.0.0 released 2026-09-27; 378,654 ratings, average 4.92, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-005_trainline_2026_trainline.md](../../docs_md/Products/PR-005_trainline_2026_trainline.md) |
+| **Markdown copy** | [PR-005_trainline_2026_trainline.md](../../Desk_Research/docs_md/Products/PR-005_trainline_2026_trainline.md) |
 | **Produced by** | thetrainline (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -52,3 +53,10 @@ Corporate 'about' page: the company's own account. A ticket retailer for the mai
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md) is the sample of user reviews of this product.

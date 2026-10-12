@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, information, tools]
+related: [plan.md, PR-009_trenitalia_2026_trenitalia-app.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, Matteo_Rizzetto_notes.md, OR-015_apple-app-store_2026_9292-nl.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, GR-055_gtfs-de_nd_realtime-data-germany.md, GR-006_european-commission_2026_swd-300-impact-assessment.md]
 ---
 
 # Trenitalia fa causa a un'app che mostra i ritardi (forum thread, 3 pages)
@@ -15,7 +16,7 @@ tags: [research, desk, source, information, tools]
 | **ID** | OF-001 |
 | **Link** | [Trenitalia fa causa a un'app che mostra i ritardi (forum thread, 3 pages)](https://forum.ferrovie.it/viewtopic.php?t=44419) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md](../../docs_md/Online_Forums/OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md) |
+| **Markdown copy** | [OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md](../../Desk_Research/docs_md/Online_Forums/OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md) |
 | **Produced by** | Anonymous forum users (nicknames not recorded) |
 | **Published by** | Ferrovie.it forum |
 | **Kind of source** | Online forum thread |
@@ -55,3 +56,11 @@ Enthusiast forum: the users are rail fans, many with technical knowledge, not ty
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A5 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [PR-009_trenitalia_2026_trenitalia-app.md](../Products/PR-009_trenitalia_2026_trenitalia-app.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): train status data of the main Italian operator and the apps that show it.
+- Shares a pain point with [OR-015_apple-app-store_2026_9292-nl.md](../Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](../Global_Reports/GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-055_gtfs-de_nd_realtime-data-germany.md](../Global_Reports/GR-055_gtfs-de_nd_realtime-data-germany.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](../Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): who holds and publishes the live data.

@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, disruption, who]
+tags: [research, desk, source, disruption, who, ticket-carryover, refunds]
+related: [plan.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, AP-015_mcilroy_2023_this-where-public-transport.md, GR-006_european-commission_2026_swd-300-impact-assessment.md, GR-007_european-commission_2026_com-231-multimodal-booking.md, GR-020_european-commission_2026_com-232-rail-ticketing.md, GR-027_orr_2026_annual-rail-consumer-report-2025-26.md, GR-028_orr_2025_annual-rail-consumer-report-2024-25.md, GR-053_orr_2025_complaints-delay-compensation-2024-25.md, GR-051_transport-focus_2026_rail-customer-experience-survey.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-009_apple-app-store_2026_trenitalia-app-it.md]
 ---
 
 # Relazione annuale al Parlamento 2025
@@ -14,8 +15,8 @@ tags: [research, desk, source, disruption, who]
 | --- | --- |
 | **ID** | GR-003 |
 | **Link** | [Relazione annuale al Parlamento 2025](https://www.autorita-trasporti.it/wp-content/uploads/2025/09/2025-Relazione-Art.pdf) |
-| **Local copy** | [GR-003_art_2025_relazione-annuale.pdf](../../docs/Global_Reports/GR-003_art_2025_relazione-annuale.pdf) |
-| **Markdown copy** | [GR-003_art_2025_relazione-annuale.md](../../docs_md/Global_Reports/GR-003_art_2025_relazione-annuale.md) |
+| **Local copy** | [GR-003_art_2025_relazione-annuale.pdf](../../Desk_Research/docs/Global_Reports/GR-003_art_2025_relazione-annuale.pdf) |
+| **Markdown copy** | [GR-003_art_2025_relazione-annuale.md](../../Desk_Research/docs_md/Global_Reports/GR-003_art_2025_relazione-annuale.md) |
 | **Produced by** | Autorità di Regolazione dei Trasporti (Italian transport regulator) |
 | **Published by** | Autorità di Regolazione dei Trasporti |
 | **Kind of source** | Regulator's annual report to Parliament, 244 pages |
@@ -67,3 +68,11 @@ An institutional report on regulation, not a study of travellers. Complaints rea
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `ticket-carryover` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [AP-015_mcilroy_2023_this-where-public-transport.md](../Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](GR-006_european-commission_2026_swd-300-impact-assessment.md), [GR-007_european-commission_2026_com-231-multimodal-booking.md](GR-007_european-commission_2026_com-231-multimodal-booking.md) and [GR-020_european-commission_2026_com-232-rail-ticketing.md](GR-020_european-commission_2026_com-232-rail-ticketing.md): tickets, passes and rights that do not carry over between services.
+- Shares the pain point `refunds` with [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [GR-053_orr_2025_complaints-delay-compensation-2024-25.md](GR-053_orr_2025_complaints-delay-compensation-2024-25.md), [GR-051_transport-focus_2026_rail-customer-experience-survey.md](GR-051_transport-focus_2026_rail-customer-experience-survey.md), [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md) and [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md): complaints, refunds and compensation after a delay.

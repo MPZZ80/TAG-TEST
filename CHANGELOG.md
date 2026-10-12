@@ -4,6 +4,77 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-12 22:49
+
+- **Files:** `Research/Survey/survey_en.md`, `survey_it.md`, `survey_de.md`, `survey_fr.md`, `survey_nl.md`, `posting_venues.md`, `build_google_forms.gs`, `README.md` (all in `Research/Survey/`), `Research/survey_draft.md`, `Research/plan.md`, `Research/README.md`, `AGENTS.md`, `Index.md`
+- **Change:** Files created in the new folder `Research/Survey/`: the survey in five languages (the earlier `Research/survey_draft.md` became `survey_en.md` and was deleted), the list of places where to post it with links and contacts, a script that builds the Google Forms, and the folder guide. The request for a follow-up conversation was removed from the survey. `plan.md`: new subsection "Commuter survey" in section 7. `AGENTS.md`: general instruction 29, the language rule and the layout table.
+- **Why:** Marco asked to add the survey to the plan, to remove the follow-up conversation because there will be no time for it, to list with links where to post it and who to ask for permission, to make a version for each language of those places, and to explain how to fill the forms without copying and pasting.
+
+## 2026-10-12 21:43
+
+- **Files:** `Research/survey_draft.md`, `Research/README.md`, `Index.md`
+- **Change:** File created: the draft of an online commuter survey, 24 questions of which 22 closed and 2 open and optional, in blocks that name the open issues they address. Row added to `Research/README.md` and line to `Index.md`.
+- **Why:** Marco is not sure he can do new interviews and asked for help with a survey, with mostly closed questions and open answers kept to a minimum.
+
+## 2026-10-12 21:39
+
+- **Files:** 136 files in `Research/Sources/` (source files, lists and indexes), `AGENTS.md`, `Research/README.md`, `Research/desk_research_instructions.md`, `Research/plan.md`, `Research/progress.md` and the other guides that named the folders
+- **Change:** Every path to the downloaded documents and their text copies now points to `Research/Desk_Research/docs/` and `Research/Desk_Research/docs_md/`: the "Local copy" and "Markdown copy" rows of the source files, the repository layout in `AGENTS.md`, the instructions and the guides. The local text copies had their links back to the source files corrected too.
+- **Why:** Marco moved `docs/` and `docs_md/` under `Research/Desk_Research/`, which broke the links; asked whether to update all the paths, he answered "vai".
+
+## 2026-10-12 21:36
+
+- **Files:** `Index.md`, `.gitignore`
+- **Change:** `Index.md`: removed the 128 lines of the text copies in `Research/Desk_Research/docs_md/`, which the last regeneration had picked up after the folders were moved. `.gitignore`: added `Research/Desk_Research/docs/` and `Research/Desk_Research/docs_md/`.
+- **Why:** Change made by the agent on its own initiative. Marco moved `docs/` and `docs_md/` under `Research/Desk_Research/`; the old ignore rules no longer covered them, so the publishers' documents could have been committed, and the text copies are working copies, not notes for the index.
+
+## 2026-10-12 21:36
+
+- **Files:** `Index.md`, `AGENTS.md`
+- **Change:** `Index.md`: the lines of the `README.md` files removed (11 lines). `AGENTS.md`: the "Index" rule says READMEs are not listed; general instruction 28.
+- **Why:** Marco: "da ora in poi non inserire i file readme tra gli elementi dell'index"; reason not stated.
+- **Do not:** list `README.md` files in `Index.md`.
+
+## 2026-10-12 21:30
+
+- **Files:** `Research/open_issues.md`, `Research/README.md`, `Index.md`
+- **Change:** File created: `Research/open_issues.md`, with 14 open questions, 12 weak sources and 7 contradictions, divided by typology and rated by priority (high, medium, low) and criticality (critical, major, minor). Row added to `Research/README.md`; `Index.md` regenerated.
+- **Why:** Marco: "Create an .md file with open questions, weak sources and contradictions - Put in the /Research folder. Divide them by typology, priority and criticality"; reason not stated.
+
+## 2026-10-12 21:22
+
+- **Files:** the 3 notes files in `Research/Interviews/`, 61 source files in `Research/Sources/`, `Metadata/metadata_schema.md`, `AGENTS.md`, `Index.md`
+- **Change:** Interview notes: the section "What this adds to the desk research" renamed "Findings (agent's reading)", with the finding numbers (F1–F76) and the mention of the deleted analysis removed; the findings themselves are kept. Twelve pain-point tags added to the schema (section 8) and applied to the 64 notes that hold evidence of them; the "Connections" sentences name the tag. `AGENTS.md`: general instruction 27. `Index.md` regenerated.
+- **Why:** Marco: the analysis will come back in another form with another naming system for the findings, so the findings stay in the interviews without the older categorisation; and he asked for tags for the single pain points, few but granular.
+- **Do not:** cite the old finding numbers F1–F76 in the notes.
+
+## 2026-10-12 21:08
+
+- **Files:** the 132 source files and the 8 list files in `Research/Sources/`, the 3 notes files in `Research/Interviews/`, `Research/deepdive_interview_script.md`, `Metadata/metadata_schema.md`, `Index.md`
+- **Change:** The `related` fields and the "Connections" sections were rebuilt without the partial analysis: links now come from 41 groups read in the notes themselves (same study, document or product; same pain point or moment of the commute), from product and review pairs, lists of the same category, shared pain points among the interview notes, and the activity of the plan. 144 notes, 1,730 links; no note links to the analysis any more. Tag `contradiction` kept on the same four notes. Schema section 9 reworded; `Index.md` regenerated without the analysis, which Marco deleted.
+- **Why:** Marco repeated the task of turning the files into a network with one more rule: "Ignore any partial analysis made during the research".
+- **Do not:** derive links from the partial analysis or link notes to it.
+
+## 2026-10-12 20:48
+
+- **Files:** the 132 source files and the 8 list files in `Research/Sources/`, the 3 notes files in `Research/Interviews/`, `Research/desk_research_partial_analysis.md`, `Research/deepdive_interview_script.md`, `Metadata/metadata_schema.md`, `Metadata/README.md`, `AGENTS.md`, `Research/desk_research_instructions.md`, `Index.md`
+- **Change:** Each of the 145 research notes now has a `related` field in its metadata block and a "Connections" section at the end, with one sentence per link (1,020 links). Links come from sources cited together in a finding of the analysis, product and review pairs, lists of the same category, interview notes sharing pain points, and the activity of the plan each note was collected for. Tag `contradiction` added to four notes (AR-006 and GR-047; the interview notes of two participants). Schema: `related` field (new section 9), marker tag `contradiction`. `AGENTS.md`: general instruction 26. Templates and `Index.md` updated. Transcripts not touched.
+- **Why:** Marco asked to turn the files into a network: related links by file name between notes that share material evidence, a readable sentence for each shared pain point, tags only from the vocabulary, contradictions on facts marked on both sides with both versions kept.
+- **Do not:** add a link with no evidence behind it, edit a transcript, or add a tag outside the vocabulary.
+
+## 2026-10-12 20:30
+
+- **Files:** `Index.md`, `AGENTS.md`
+- **Change:** `Index.md` now lists only the 161 Markdown files in `Research/` and its subfolders; the groups for the repository root, `Brief/`, `Questions/` and `Metadata/` were removed. `AGENTS.md`: the "Index" rule and the layout table say the same.
+- **Why:** Marco: "Put in the Index only the files in the Research Folder"; reason not stated.
+
+## 2026-10-12 20:29
+
+- **Files:** `Index.md`, `AGENTS.md`
+- **Change:** `Index.md` rewritten in the line format `- filename — [tags · status · grade · confidence]`: 172 Markdown files, grouped by folder, ordered by date, oldest first; files without a metadata block are now listed with `unknown`. `AGENTS.md`: the "Index" rules rewritten with the format and the rules Marco gave.
+- **Why:** Marco asked for fixes: this exact format, one line per file with no summaries or commentary, order by date, status always shown, `unknown` for files without frontmatter and for missing fields, nothing invented, and a report of unreadable files and of files whose declared activity does not match the file name.
+- **Do not:** go back to tables with links, summaries or extra columns in `Index.md`.
+
 ## 2026-10-12 20:06
 
 - **Files:** `Index.md`, `AGENTS.md`

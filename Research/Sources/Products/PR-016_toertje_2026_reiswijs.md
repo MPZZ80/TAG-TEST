@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, mode-choice, tools]
+related: [plan.md, OR-016_apple-app-store_2026_reiswijs-nl.md]
 ---
 
 # ReisWijs
@@ -16,7 +17,7 @@ tags: [research, desk, source, mode-choice, tools]
 | **Link** | [ReisWijs](https://apps.apple.com/nl/app/id6746206640) |
 | **App Store listing** | [ReisWijs](https://apps.apple.com/nl/app/reiswijs/id6746206640?uo=4) (NL store, version 1.10.2 released 2026-09-29; 325 ratings, average 4.62, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-016_toertje_2026_reiswijs.md](../../docs_md/Products/PR-016_toertje_2026_reiswijs.md) |
+| **Markdown copy** | [PR-016_toertje_2026_reiswijs.md](../../Desk_Research/docs_md/Products/PR-016_toertje_2026_reiswijs.md) |
 | **Produced by** | Toertje B.V. (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -49,3 +50,10 @@ Short store listing. A reward scheme tied to regional road-works programmes, lau
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- [OR-016_apple-app-store_2026_reiswijs-nl.md](../Online_Reviews/OR-016_apple-app-store_2026_reiswijs-nl.md) is the sample of user reviews of this product.

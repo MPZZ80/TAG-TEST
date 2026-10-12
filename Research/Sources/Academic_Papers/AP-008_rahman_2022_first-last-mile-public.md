@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [research, desk, source, mode-choice]
+tags: [research, desk, source, mode-choice, tight-connection, first-last-mile]
+related: [plan.md, AP-001_goransson_2023_factors-that-make-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-015_mcilroy_2023_this-where-public-transport.md, AP-021_jimenez_2018_user-perception-transfers-multimodal.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, AP-025_wang_2020_exploring-physical-mental-health.md, GR-010_egum_2024_public-transport-shared-mobility.md, GR-012_uitp_2023_policy-brief-mobility-hubs.md, GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md]
 ---
 
 # The first-and-last-mile of public transportation: A study of access and egress travel characteristics of Dhaka’s suburban commuters
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice]
 | --- | --- |
 | **ID** | AP-008 |
 | **Link** | [The first-and-last-mile of public transportation: A study of access and egress travel characteristics of Dhaka’s suburban commuters](https://doi.org/10.1016/j.jpubtr.2022.100025) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S1077291X2200025X/pdf>) |
-| **Local copy** | [AP-008_rahman_2022_first-last-mile-public.pdf](../../docs/Academic_Papers/AP-008_rahman_2022_first-last-mile-public.pdf), provided by Marco on 2026-10-07 |
-| **Markdown copy** | [AP-008_rahman_2022_first-last-mile-public.md](../../docs_md/Academic_Papers/AP-008_rahman_2022_first-last-mile-public.md) |
+| **Local copy** | [AP-008_rahman_2022_first-last-mile-public.pdf](../../Desk_Research/docs/Academic_Papers/AP-008_rahman_2022_first-last-mile-public.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-008_rahman_2022_first-last-mile-public.md](../../Desk_Research/docs_md/Academic_Papers/AP-008_rahman_2022_first-last-mile-public.md) |
 | **Produced by** | Mashrur Rahman et al. (3 authors; institutions in Bangladesh, United States) |
 | **Published by** | Journal of Public Transportation |
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
@@ -53,3 +54,11 @@ Bangladesh: a city where 5% of trips are by private car and rickshaws carry abou
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `tight-connection` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-010_azimi_2020_mode-choice-behavior-access.md](AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-015_mcilroy_2023_this-where-public-transport.md](AP-015_mcilroy_2023_this-where-public-transport.md), [AP-021_jimenez_2018_user-perception-transfers-multimodal.md](AP-021_jimenez_2018_user-perception-transfers-multimodal.md), [AP-028_shires_2018_impact-planned-disruptions-rail.md](AP-028_shires_2018_impact-planned-disruptions-rail.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): changes between services: tight, broken or costly connections.
+- Shares the pain point `first-last-mile` with [AP-010_azimi_2020_mode-choice-behavior-access.md](AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-025_wang_2020_exploring-physical-mental-health.md](AP-025_wang_2020_exploring-physical-mental-health.md), [GR-010_egum_2024_public-transport-shared-mobility.md](../Global_Reports/GR-010_egum_2024_public-transport-shared-mobility.md), [GR-012_uitp_2023_policy-brief-mobility-hubs.md](../Global_Reports/GR-012_uitp_2023_policy-brief-mobility-hubs.md), [GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md](../Global_Reports/GR-015_eumo_2025_shared-mobility-hubs-sharedimobihub.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](../Global_Reports/GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](../Global_Reports/GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md), [GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md](../Global_Reports/GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md), [Marco_Palermo_notes.md](../../Interviews/Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): the first and last leg of the journey.

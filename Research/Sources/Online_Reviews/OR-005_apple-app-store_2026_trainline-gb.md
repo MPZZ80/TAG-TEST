@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [research, desk, source, tools, information]
+tags: [research, desk, source, tools, information, no-alternative, usual-trip, ticket-carryover, refunds]
+related: [plan.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-007_apple-app-store_2026_db-navigator-de.md, OR-015_apple-app-store_2026_9292-nl.md, GR-051_transport-focus_2026_rail-customer-experience-survey.md, GR-027_orr_2026_annual-rail-consumer-report-2025-26.md, GR-028_orr_2025_annual-rail-consumer-report-2024-25.md, AP-009_leng_2020_role-information-availability-passengers.md, AP-023_mo_2022_inferring-passenger-responses-urban.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md, OR-008_apple-app-store_2026_ns-app-nl.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, GR-040_trb_2003_tcrp-92-traveler-information.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, PR-008_ns_2026_ns-app.md, PR-009_trenitalia_2026_trenitalia-app.md, AP-015_mcilroy_2023_this-where-public-transport.md, GR-003_art_2025_relazione-annuale.md, GR-006_european-commission_2026_swd-300-impact-assessment.md, GR-007_european-commission_2026_com-231-multimodal-booking.md, GR-020_european-commission_2026_com-232-rail-ticketing.md, GR-053_orr_2025_complaints-delay-compensation-2024-25.md, PR-005_trainline_2026_trainline.md]
 ---
 
 # Trainline: Train & Bus Tickets: App Store reviews, United Kingdom (sample)
@@ -14,8 +15,8 @@ tags: [research, desk, source, tools, information]
 | --- | --- |
 | **ID** | OR-005 |
 | **Link** | [Apple customer reviews feed](https://itunes.apple.com/gb/rss/customerreviews/page=1/id=334235181/sortby=mostrecent/json) |
-| **Local copy** | [OR-005_apple-app-store_2026_trainline-gb.json](../../docs/Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.json) |
-| **Markdown copy** | [OR-005_apple-app-store_2026_trainline-gb.md](../../docs_md/Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md) |
+| **Local copy** | [OR-005_apple-app-store_2026_trainline-gb.json](../../Desk_Research/docs/Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.json) |
+| **Markdown copy** | [OR-005_apple-app-store_2026_trainline-gb.md](../../Desk_Research/docs_md/Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md) |
 | **Produced by** | Anonymous users of the app who wrote public reviews; names not recorded |
 | **Published by** | Apple App Store (United Kingdom store) |
 | **Kind of source** | User reviews: a sample of the 100 most recent reviews |
@@ -57,3 +58,14 @@ App store reviews over-represent anger; half the sample is one-star. Great Brita
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A4 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `no-alternative` with [OR-006_apple-app-store_2026_flixbus-it.md](OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](OR-007_apple-app-store_2026_db-navigator-de.md), [OR-015_apple-app-store_2026_9292-nl.md](OR-015_apple-app-store_2026_9292-nl.md), [GR-051_transport-focus_2026_rail-customer-experience-survey.md](../Global_Reports/GR-051_transport-focus_2026_rail-customer-experience-survey.md), [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](../Global_Reports/GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](../Global_Reports/GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [AP-009_leng_2020_role-information-availability-passengers.md](../Academic_Papers/AP-009_leng_2020_role-information-availability-passengers.md), [AP-023_mo_2022_inferring-passenger-responses-urban.md](../Academic_Papers/AP-023_mo_2022_inferring-passenger-responses-urban.md), [AP-028_shires_2018_impact-planned-disruptions-rail.md](../Academic_Papers/AP-028_shires_2018_impact-planned-disruptions-rail.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): no help or workable alternative when a train is cancelled or a connection is missed.
+- Shares the pain point `usual-trip` with [OR-008_apple-app-store_2026_ns-app-nl.md](OR-008_apple-app-store_2026_ns-app-nl.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [GR-040_trb_2003_tcrp-92-traveler-information.md](../Global_Reports/GR-040_trb_2003_tcrp-92-traveler-information.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](../Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md), [PR-008_ns_2026_ns-app.md](../Products/PR-008_ns_2026_ns-app.md), [PR-009_trenitalia_2026_trenitalia-app.md](../Products/PR-009_trenitalia_2026_trenitalia-app.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): regular travellers who want their usual trip at a glance: saved trips, standing alerts.
+- Shares the pain point `ticket-carryover` with [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [AP-015_mcilroy_2023_this-where-public-transport.md](../Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md), [GR-003_art_2025_relazione-annuale.md](../Global_Reports/GR-003_art_2025_relazione-annuale.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](../Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md), [GR-007_european-commission_2026_com-231-multimodal-booking.md](../Global_Reports/GR-007_european-commission_2026_com-231-multimodal-booking.md) and [GR-020_european-commission_2026_com-232-rail-ticketing.md](../Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.md): tickets, passes and rights that do not carry over between services.
+- Shares the pain point `refunds` with [GR-003_art_2025_relazione-annuale.md](../Global_Reports/GR-003_art_2025_relazione-annuale.md), [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](../Global_Reports/GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](../Global_Reports/GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [GR-053_orr_2025_complaints-delay-compensation-2024-25.md](../Global_Reports/GR-053_orr_2025_complaints-delay-compensation-2024-25.md), [GR-051_transport-focus_2026_rail-customer-experience-survey.md](../Global_Reports/GR-051_transport-focus_2026_rail-customer-experience-survey.md), [OR-006_apple-app-store_2026_flixbus-it.md](OR-006_apple-app-store_2026_flixbus-it.md) and [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md): complaints, refunds and compensation after a delay.
+- [PR-005_trainline_2026_trainline.md](../Products/PR-005_trainline_2026_trainline.md) describes the product these reviews are about.

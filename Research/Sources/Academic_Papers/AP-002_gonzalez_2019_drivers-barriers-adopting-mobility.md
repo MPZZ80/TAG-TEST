@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, why-now]
+related: [plan.md]
 ---
 
 # Drivers and barriers in adopting Mobility as a Service (MaaS) – A latent class cluster analysis of attitudes
@@ -14,7 +15,7 @@ tags: [research, desk, source, why-now]
 | --- | --- |
 | **ID** | AP-002 |
 | **Link** | [Drivers and barriers in adopting Mobility as a Service (MaaS) – A latent class cluster analysis of attitudes](https://doi.org/10.1016/j.tra.2019.11.022) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S0965856419302575>) |
-| **Local copy** | not available: not obtained, payment needed (Marco's note of 2026-10-07; the automated download had been refused before). The file `AP_002.pdf` in `docs/Academic_Papers/` is a second copy of AP-015, not this paper. |
+| **Local copy** | not available: not obtained, payment needed (Marco's note of 2026-10-07; the automated download had been refused before). The file `AP_002.pdf` in `Desk_Research/docs/Academic_Papers/` is a second copy of AP-015, not this paper. |
 | **Markdown copy** | not available: there is no PDF to convert (see AP_to_obtain.md); the abstract, if any, is in this file |
 | **Produced by** | M.J. Alonso González et al. (5 authors; institutions in Netherlands) |
 | **Published by** | Transportation Research Part A Policy and Practice |
@@ -44,3 +45,9 @@ Only the abstract was read, and the full text is not downloaded. Questions it co
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).

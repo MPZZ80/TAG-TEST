@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, who]
+tags: [research, desk, source, who, hybrid-work]
+related: [plan.md, GR-014_eurofound_2023_hybrid-work-in-europe.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-043_kim_2024_kerncijfers-mobiliteit-2024.md, GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, AP-013_iogansen_2024_change-work-arrangement-during.md, AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md, GR-052_govuk_2021_flexible-season-tickets-announcement.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md]
 ---
 
 # 令和6年度 テレワーク人口実態調査: 調査結果
@@ -14,8 +15,8 @@ tags: [research, desk, source, who]
 | --- | --- |
 | **ID** | GR-048 |
 | **Link** | [令和6年度 テレワーク人口実態調査: 調査結果](https://www.mlit.go.jp/toshi/kankyo/content/001879091.pdf) |
-| **Local copy** | [GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.pdf](../../docs/Global_Reports/GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.pdf) |
-| **Markdown copy** | [GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md](../../docs_md/Global_Reports/GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md) |
+| **Local copy** | [GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.pdf](../../Desk_Research/docs/Global_Reports/GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.pdf) |
+| **Markdown copy** | [GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md](../../Desk_Research/docs_md/Global_Reports/GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md) |
 | **Produced by** | Ministry of Land, Infrastructure, Transport and Tourism (MLIT) |
 | **Published by** | MLIT |
 | **Kind of source** | Government survey, 39 pages. English title: fiscal 2024 survey on the telework population: results |
@@ -59,3 +60,10 @@ Japan: very long rail commutes into three large metropolitan areas, so levels do
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `hybrid-work` with [GR-014_eurofound_2023_hybrid-work-in-europe.md](GR-014_eurofound_2023_hybrid-work-in-europe.md), [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-043_kim_2024_kerncijfers-mobiliteit-2024.md](GR-043_kim_2024_kerncijfers-mobiliteit-2024.md), [GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md](GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md), [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md), [AP-013_iogansen_2024_change-work-arrangement-during.md](../Academic_Papers/AP-013_iogansen_2024_change-work-arrangement-during.md), [AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md](../Articles/AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md), [GR-052_govuk_2021_flexible-season-tickets-announcement.md](GR-052_govuk_2021_flexible-season-tickets-announcement.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): hybrid work, fewer office days and tickets that no longer fit.

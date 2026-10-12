@@ -1,11 +1,12 @@
 ---
 source: Claude
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [research, internal, script]
+related: [plan.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md]
 ---
 
 # Deep-Dive Interview Script (Version 4)
@@ -156,3 +157,9 @@ Keep topics 2 and 5 whole: the journey leg by leg and the last disruption are wh
 - Rewrite each topic as one opening question in the participant's language. The interviews will be in Italian; this script is a checklist in English.
 - Run one pilot interview and adjust the timing: 45 minutes is tight for nine topics, and version 4 added probes to topics 1, 2, 3 and 5 without adding minutes.
 - Decide how participants are recruited so that not all of them resemble Marco.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Written for the interviews of the research plan, [plan.md](plan.md); used loosely in [Matteo_Rizzetto_notes.md](Interviews/Matteo_Rizzetto_notes.md), [Marco_Palermo_notes.md](Interviews/Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](Interviews/Valentina_Di_Floriano_notes.md).

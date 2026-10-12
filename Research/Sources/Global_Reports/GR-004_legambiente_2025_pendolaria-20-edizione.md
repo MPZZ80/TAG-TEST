@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, disruption, who]
+tags: [research, desk, source, disruption, who, unreliable-service]
+related: [plan.md, AR-004_regione-puglia_nd_pendolaria-summary.md, AP-001_goransson_2023_factors-that-make-public.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-016_mcilroy_2024_reservation-i-have-that.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, OR-004_apple-app-store_2026_transit-us.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-007_apple-app-store_2026_db-navigator-de.md, OR-010_apple-app-store_2026_italo-it.md, Valentina_Di_Floriano_notes.md]
 ---
 
 # Pendolaria 2025: la situazione del trasporto pubblico in Italia e gli scenari di mobilità (20th edition)
@@ -14,8 +15,8 @@ tags: [research, desk, source, disruption, who]
 | --- | --- |
 | **ID** | GR-004 |
 | **Link** | [Pendolaria 2025: la situazione del trasporto pubblico in Italia e gli scenari di mobilità (20th edition)](https://www.legambiente.it/wp-content/uploads/2025/12/Rapporto-Pendolaria-20esima-edizione-1.pdf) |
-| **Local copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.pdf](../../docs/Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.pdf) |
-| **Markdown copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.md](../../docs_md/Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.md) |
+| **Local copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.pdf](../../Desk_Research/docs/Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.pdf) |
+| **Markdown copy** | [GR-004_legambiente_2025_pendolaria-20-edizione.md](../../Desk_Research/docs_md/Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.md) |
 | **Produced by** | Legambiente, scientific office and national mobility office (Gabriele Nanni, Simone Nuglio) |
 | **Published by** | Legambiente |
 | **Kind of source** | NGO report on commuter rail and public transport, 62 pages |
@@ -58,3 +59,11 @@ An advocacy report: the selection of lines and stories serves its argument, the 
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [AR-004_regione-puglia_nd_pendolaria-summary.md](../Articles/AR-004_regione-puglia_nd_pendolaria-summary.md): Legambiente's Pendolaria report.
+- Shares the pain point `unreliable-service` with [AP-001_goransson_2023_factors-that-make-public.md](../Academic_Papers/AP-001_goransson_2023_factors-that-make-public.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [OR-004_apple-app-store_2026_transit-us.md](../Online_Reviews/OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](../Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): the service failing matters more than the app that shows it.

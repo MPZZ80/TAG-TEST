@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, success]
+related: [plan.md, AR-005_techcrunch_2023_via-acquires-citymapper.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, PR-003_citymapper_2026_citymapper.md, OR-003_apple-app-store_2026_citymapper-gb.md]
 ---
 
 # I built my own CityMapper (Hacker News thread)
@@ -14,8 +15,8 @@ tags: [research, desk, source, tools, success]
 | --- | --- |
 | **ID** | OF-004 |
 | **Link** | [I built my own CityMapper (Hacker News thread)](https://news.ycombinator.com/item?id=45719662) |
-| **Local copy** | [OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.json](../../docs/Online_Forums/OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.json) (comments without usernames) |
-| **Markdown copy** | [OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md](../../docs_md/Online_Forums/OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md) |
+| **Local copy** | [OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.json](../../Desk_Research/docs/Online_Forums/OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.json) (comments without usernames) |
+| **Markdown copy** | [OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md](../../Desk_Research/docs_md/Online_Forums/OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md) |
 | **Produced by** | Anonymous forum users (nicknames not recorded) |
 | **Published by** | Hacker News |
 | **Kind of source** | Online forum thread |
@@ -49,3 +50,10 @@ Developers talking about tools; almost nothing on travel behaviour. Urban, mostl
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A5 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [AR-005_techcrunch_2023_via-acquires-citymapper.md](../Articles/AR-005_techcrunch_2023_via-acquires-citymapper.md), [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [PR-003_citymapper_2026_citymapper.md](../Products/PR-003_citymapper_2026_citymapper.md) and [OR-003_apple-app-store_2026_citymapper-gb.md](../Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md): Citymapper and its sale.

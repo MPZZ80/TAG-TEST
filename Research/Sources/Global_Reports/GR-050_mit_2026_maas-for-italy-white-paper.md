@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools, why-now]
+related: [plan.md, AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md, GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-011_uitp_2019_policy-brief-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-039_nordic-policy-centre_2022_finland-maas-legislation.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-005_kriswardhana_2022_systematic-literature-review-mobility.md, AP-007_reck_2020_maas-bundle-design.md, AP-014_smith_2023_mobility-as-service-users.md, AP-016_mcilroy_2024_reservation-i-have-that.md, AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, AR-010_global-fleet_2024_maas-1-is-dead.md]
 ---
 
 # MaaS for Italy: pubblicato il white paper sul primo programma nazionale di mobilità come servizio
@@ -15,7 +16,7 @@ tags: [research, desk, source, tools, why-now]
 | **ID** | GR-050 |
 | **Link** | [MaaS for Italy: pubblicato il white paper sul primo programma nazionale di mobilità come servizio](https://www.mit.gov.it/comunicazione/news/maas-italy-pubblicato-il-white-paper-sul-primo-programma-nazionale-di-mobilita) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-050_mit_2026_maas-for-italy-white-paper.md](../../docs_md/Global_Reports/GR-050_mit_2026_maas-for-italy-white-paper.md) |
+| **Markdown copy** | [GR-050_mit_2026_maas-for-italy-white-paper.md](../../Desk_Research/docs_md/Global_Reports/GR-050_mit_2026_maas-for-italy-white-paper.md) |
 | **Produced by** | Italian Ministry of Infrastructure and Transport (MIT) |
 | **Published by** | MIT |
 | **Kind of source** | Government news item on a white paper |
@@ -47,3 +48,11 @@ A ministry press release about its own programme: it reports only successes and 
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md](../Articles/AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md) and [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md](GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md): the MaaS for Italy programme.
+- Shares a source landscape with [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-011_uitp_2019_policy-brief-maas.md](GR-011_uitp_2019_policy-brief-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-039_nordic-policy-centre_2022_finland-maas-legislation.md](GR-039_nordic-policy-centre_2022_finland-maas-legislation.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](GR-049_molit-korea_2023_k-maas-pilot-announcement.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](../Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-005_kriswardhana_2022_systematic-literature-review-mobility.md](../Academic_Papers/AP-005_kriswardhana_2022_systematic-literature-review-mobility.md), [AP-007_reck_2020_maas-bundle-design.md](../Academic_Papers/AP-007_reck_2020_maas-bundle-design.md), [AP-014_smith_2023_mobility-as-service-users.md](../Academic_Papers/AP-014_smith_2023_mobility-as-service-users.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md](../Academic_Papers/AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md), [AR-006_frost-sullivan_2024_maas-global-collapse.md](../Articles/AR-006_frost-sullivan_2024_maas-global-collapse.md) and [AR-010_global-fleet_2024_maas-1-is-dead.md](../Articles/AR-010_global-fleet_2024_maas-1-is-dead.md): combined mobility services (MaaS): trials, demand and results.

@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [research, desk, source, tools, information]
+tags: [research, desk, source, tools, information, late-info]
+related: [plan.md, OR-003_apple-app-store_2026_citymapper-gb.md, OR-004_apple-app-store_2026_transit-us.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-007_apple-app-store_2026_db-navigator-de.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OR-015_apple-app-store_2026_9292-nl.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-016_mcilroy_2024_reservation-i-have-that.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, PR-002_moovit_2026_moovit.md]
 ---
 
 # Moovit: Orari Bus e Treni: App Store reviews, Italy (sample)
@@ -14,8 +15,8 @@ tags: [research, desk, source, tools, information]
 | --- | --- |
 | **ID** | OR-002 |
 | **Link** | [Apple customer reviews feed](https://itunes.apple.com/it/rss/customerreviews/page=1/id=498477945/sortby=mostrecent/json) |
-| **Local copy** | [OR-002_apple-app-store_2026_moovit-it.json](../../docs/Online_Reviews/OR-002_apple-app-store_2026_moovit-it.json) |
-| **Markdown copy** | [OR-002_apple-app-store_2026_moovit-it.md](../../docs_md/Online_Reviews/OR-002_apple-app-store_2026_moovit-it.md) |
+| **Local copy** | [OR-002_apple-app-store_2026_moovit-it.json](../../Desk_Research/docs/Online_Reviews/OR-002_apple-app-store_2026_moovit-it.json) |
+| **Markdown copy** | [OR-002_apple-app-store_2026_moovit-it.md](../../Desk_Research/docs_md/Online_Reviews/OR-002_apple-app-store_2026_moovit-it.md) |
 | **Produced by** | Anonymous users of the app who wrote public reviews; names not recorded |
 | **Published by** | Apple App Store (Italy store) |
 | **Kind of source** | User reviews: a sample of the 100 most recent reviews |
@@ -54,3 +55,11 @@ App store reviews over-represent strong feelings; many five-star reviews are two
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A4 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `late-info` with [OR-003_apple-app-store_2026_citymapper-gb.md](OR-003_apple-app-store_2026_citymapper-gb.md), [OR-004_apple-app-store_2026_transit-us.md](OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](OR-007_apple-app-store_2026_db-navigator-de.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-010_apple-app-store_2026_italo-it.md](OR-010_apple-app-store_2026_italo-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OR-015_apple-app-store_2026_9292-nl.md](OR-015_apple-app-store_2026_9292-nl.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](../Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Marco_Palermo_notes.md](../../Interviews/Marco_Palermo_notes.md): delay or arrival information that is late or wrong.
+- [PR-002_moovit_2026_moovit.md](../Products/PR-002_moovit_2026_moovit.md) describes the product these reviews are about.

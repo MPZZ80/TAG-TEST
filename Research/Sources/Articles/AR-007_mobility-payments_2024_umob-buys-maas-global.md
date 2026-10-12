@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools, why-now]
+related: [plan.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, AR-010_global-fleet_2024_maas-1-is-dead.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md]
 ---
 
 # Small Dutch start-up that bought MaaS Global assets says it can avoid the pitfalls that defeated Whim
@@ -15,7 +16,7 @@ tags: [research, desk, source, tools, why-now]
 | **ID** | AR-007 |
 | **Link** | [Small Dutch start-up that bought MaaS Global assets says it can avoid the pitfalls that defeated Whim](https://www.mobility-payments.com/2024/04/24/small-dutch-start-up-that-bought-maas-global-assets-says-it-can-avoid-pitfalls-that-defeated-whim-app/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [AR-007_mobility-payments_2024_umob-buys-maas-global.md](../../docs_md/Articles/AR-007_mobility-payments_2024_umob-buys-maas-global.md) |
+| **Markdown copy** | [AR-007_mobility-payments_2024_umob-buys-maas-global.md](../../Desk_Research/docs_md/Articles/AR-007_mobility-payments_2024_umob-buys-maas-global.md) |
 | **Produced by** | Mobility Payments |
 | **Published by** | Mobility Payments |
 | **Kind of source** | Trade press article |
@@ -46,3 +47,10 @@ Paywalled: only the highlights were read, so the reasoning of the article is not
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A6 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [AR-006_frost-sullivan_2024_maas-global-collapse.md](AR-006_frost-sullivan_2024_maas-global-collapse.md), [AR-010_global-fleet_2024_maas-1-is-dead.md](AR-010_global-fleet_2024_maas-1-is-dead.md) and [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](../Global_Reports/GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md): the bankruptcy of MaaS Global, the company behind Whim.

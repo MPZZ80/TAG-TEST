@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, disruption, information]
+tags: [research, desk, source, disruption, information, no-alternative, refunds]
+related: [plan.md, GR-029_transport-focus_2024_user-voice-disruption-management-week.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-007_apple-app-store_2026_db-navigator-de.md, OR-015_apple-app-store_2026_9292-nl.md, GR-027_orr_2026_annual-rail-consumer-report-2025-26.md, GR-028_orr_2025_annual-rail-consumer-report-2024-25.md, AP-009_leng_2020_role-information-availability-passengers.md, AP-023_mo_2022_inferring-passenger-responses-urban.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md, GR-003_art_2025_relazione-annuale.md, GR-053_orr_2025_complaints-delay-compensation-2024-25.md, OR-009_apple-app-store_2026_trenitalia-app-it.md]
 ---
 
 # Rail Customer Experience Survey
@@ -15,7 +16,7 @@ tags: [research, desk, source, disruption, information]
 | **ID** | GR-051 |
 | **Link** | [Rail Customer Experience Survey](https://www.transportfocus.org.uk/rail-customer-experience-survey/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-051_transport-focus_2026_rail-customer-experience-survey.md](../../docs_md/Global_Reports/GR-051_transport-focus_2026_rail-customer-experience-survey.md) |
+| **Markdown copy** | [GR-051_transport-focus_2026_rail-customer-experience-survey.md](../../Desk_Research/docs_md/Global_Reports/GR-051_transport-focus_2026_rail-customer-experience-survey.md) |
 | **Produced by** | Transport Focus |
 | **Published by** | Transport Focus |
 | **Kind of source** | Passenger survey results (web page) |
@@ -60,3 +61,12 @@ Statistics 'in development', first release. The sample is of journeys, recruited
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-029_transport-focus_2024_user-voice-disruption-management-week.md](GR-029_transport-focus_2024_user-voice-disruption-management-week.md): the British passenger watchdog's work on rail passengers and disruption.
+- Shares the pain point `no-alternative` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](../Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md), [OR-015_apple-app-store_2026_9292-nl.md](../Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [AP-009_leng_2020_role-information-availability-passengers.md](../Academic_Papers/AP-009_leng_2020_role-information-availability-passengers.md), [AP-023_mo_2022_inferring-passenger-responses-urban.md](../Academic_Papers/AP-023_mo_2022_inferring-passenger-responses-urban.md), [AP-028_shires_2018_impact-planned-disruptions-rail.md](../Academic_Papers/AP-028_shires_2018_impact-planned-disruptions-rail.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): no help or workable alternative when a train is cancelled or a connection is missed.
+- Shares the pain point `refunds` with [GR-003_art_2025_relazione-annuale.md](GR-003_art_2025_relazione-annuale.md), [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [GR-053_orr_2025_complaints-delay-compensation-2024-25.md](GR-053_orr_2025_complaints-delay-compensation-2024-25.md), [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md) and [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md): complaints, refunds and compensation after a delay.

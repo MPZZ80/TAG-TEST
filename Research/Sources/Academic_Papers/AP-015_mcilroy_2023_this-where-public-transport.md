@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [research, desk, source, mode-choice, tools]
+tags: [research, desk, source, mode-choice, tools, tight-connection, ticket-carryover, workarounds]
+related: [plan.md, AP-016_mcilroy_2024_reservation-i-have-that.md, AP-001_goransson_2023_factors-that-make-public.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-021_jimenez_2018_user-perception-transfers-multimodal.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, GR-003_art_2025_relazione-annuale.md, GR-006_european-commission_2026_swd-300-impact-assessment.md, GR-007_european-commission_2026_com-231-multimodal-booking.md, GR-020_european-commission_2026_com-232-rail-ticketing.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md]
 ---
 
 # “This is where public transport falls down”: Place based perspectives of multimodal travel
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice, tools]
 | --- | --- |
 | **ID** | AP-015 |
 | **Link** | [“This is where public transport falls down”: Place based perspectives of multimodal travel](https://doi.org/10.1016/j.trf.2023.08.006) (open-access PDF: <https://eprints.soton.ac.uk/481899/2/1_s2.0_S1369847823001730_main.pdf>) |
-| **Local copy** | [AP-015_mcilroy_2023_this-where-public-transport.pdf](../../docs/Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.pdf), provided by Marco on 2026-10-07 |
-| **Markdown copy** | [AP-015_mcilroy_2023_this-where-public-transport.md](../../docs_md/Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md) |
+| **Local copy** | [AP-015_mcilroy_2023_this-where-public-transport.pdf](../../Desk_Research/docs/Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-015_mcilroy_2023_this-where-public-transport.md](../../Desk_Research/docs_md/Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md) |
 | **Produced by** | Rich C. McIlroy (1 author; institutions in United Kingdom) |
 | **Published by** | Transportation Research Part F Traffic Psychology and Behaviour |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
@@ -58,3 +59,13 @@ One region of England that is dispersed and car-dependent, with ferries; people 
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [AP-016_mcilroy_2024_reservation-i-have-that.md](AP-016_mcilroy_2024_reservation-i-have-that.md): the same focus groups in the Solent region of England.
+- Shares the pain point `tight-connection` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-008_rahman_2022_first-last-mile-public.md](AP-008_rahman_2022_first-last-mile-public.md), [AP-010_azimi_2020_mode-choice-behavior-access.md](AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-021_jimenez_2018_user-perception-transfers-multimodal.md](AP-021_jimenez_2018_user-perception-transfers-multimodal.md), [AP-028_shires_2018_impact-planned-disruptions-rail.md](AP-028_shires_2018_impact-planned-disruptions-rail.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): changes between services: tight, broken or costly connections.
+- Shares the pain point `ticket-carryover` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [GR-003_art_2025_relazione-annuale.md](../Global_Reports/GR-003_art_2025_relazione-annuale.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](../Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md), [GR-007_european-commission_2026_com-231-multimodal-booking.md](../Global_Reports/GR-007_european-commission_2026_com-231-multimodal-booking.md) and [GR-020_european-commission_2026_com-232-rail-ticketing.md](../Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.md): tickets, passes and rights that do not carry over between services.
+- Shares the pain point `workarounds` with [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md), [Marco_Palermo_notes.md](../../Interviews/Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): personal rules, buffers and fallbacks of experienced travellers.

@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who, mode-choice]
+related: [plan.md, GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md, GR-033_statistics-canada_2023_commuting-time-2011-2022.md, GR-034_abs_2022_australias-journey-to-work.md]
 ---
 
 # Commuting in the United States: 2022, American Community Survey Brief ACSBR-018
@@ -14,8 +15,8 @@ tags: [research, desk, source, who, mode-choice]
 | --- | --- |
 | **ID** | GR-031 |
 | **Link** | [Commuting in the United States: 2022, American Community Survey Brief ACSBR-018](https://www2.census.gov/library/publications/2024/demo/acsbr-018.pdf) |
-| **Local copy** | [GR-031_us-census-bureau_2024_commuting-in-the-us-2022.pdf](../../docs/Global_Reports/GR-031_us-census-bureau_2024_commuting-in-the-us-2022.pdf) |
-| **Markdown copy** | [GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md](../../docs_md/Global_Reports/GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md) |
+| **Local copy** | [GR-031_us-census-bureau_2024_commuting-in-the-us-2022.pdf](../../Desk_Research/docs/Global_Reports/GR-031_us-census-bureau_2024_commuting-in-the-us-2022.pdf) |
+| **Markdown copy** | [GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md](../../Desk_Research/docs_md/Global_Reports/GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md) |
 | **Produced by** | US Census Bureau (Michael Burrows and Charlynn Burd) |
 | **Published by** | US Census Bureau |
 | **Kind of source** | Official statistics, brief of 8 pages |
@@ -50,3 +51,10 @@ United States, 2022. The question records one main means per worker, so trips wi
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md](GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md), [GR-033_statistics-canada_2023_commuting-time-2011-2022.md](GR-033_statistics-canada_2023_commuting-time-2011-2022.md) and [GR-034_abs_2022_australias-journey-to-work.md](GR-034_abs_2022_australias-journey-to-work.md): census statistics on the journey to work outside Europe.

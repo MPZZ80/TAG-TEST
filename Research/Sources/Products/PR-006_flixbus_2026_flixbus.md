@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools]
+related: [plan.md, OR-006_apple-app-store_2026_flixbus-it.md]
 ---
 
 # FlixBus
@@ -16,7 +17,7 @@ tags: [research, desk, source, tools]
 | **Link** | [FlixBus](https://www.flixbus.com/) |
 | **App Store listing** | [FlixBus: Biglietti Autobus](https://apps.apple.com/it/app/flixbus-biglietti-autobus/id778437357?uo=4) (IT store, version 10.8.0 released 2026-09-22; 74,594 ratings, average 4.71, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-006_flixbus_2026_flixbus.md](../../docs_md/Products/PR-006_flixbus_2026_flixbus.md) |
+| **Markdown copy** | [PR-006_flixbus_2026_flixbus.md](../../Desk_Research/docs_md/Products/PR-006_flixbus_2026_flixbus.md) |
 | **Produced by** | Flix SE (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -49,3 +50,10 @@ The page captured is the United States version, not the Italian or European one,
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md) is the sample of user reviews of this product.

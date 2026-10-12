@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [research, desk, source, mode-choice]
+tags: [research, desk, source, mode-choice, habit]
+related: [plan.md, AP-001_goransson_2023_factors-that-make-public.md, AP-012_zarabi_2023_understanding-travel-mode-choice.md, AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md, AP-018_vos_2018_people-travel-their-preferred.md, AP-024_an_2022_multimodal-travel-behaviour-attitudes.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, Matteo_Rizzetto_notes.md, AP-006_vos_2022_does-commute-duration-attenuate.md, AP-025_wang_2020_exploring-physical-mental-health.md, GR-033_statistics-canada_2023_commuting-time-2011-2022.md]
 ---
 
 # The changing influences on commuting mode choice in urban England under Peak Car: A discrete choice modelling approach
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice]
 | --- | --- |
 | **ID** | AP-027 |
 | **Link** | [The changing influences on commuting mode choice in urban England under Peak Car: A discrete choice modelling approach](https://doi.org/10.1016/j.trf.2018.06.010) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S1369847818300482/pdf>) |
-| **Local copy** | [AP-027_keyes_2018_changing-influences-commuting-mode.pdf](../../docs/Academic_Papers/AP-027_keyes_2018_changing-influences-commuting-mode.pdf), provided by Marco on 2026-10-07 |
-| **Markdown copy** | [AP-027_keyes_2018_changing-influences-commuting-mode.md](../../docs_md/Academic_Papers/AP-027_keyes_2018_changing-influences-commuting-mode.md) |
+| **Local copy** | [AP-027_keyes_2018_changing-influences-commuting-mode.pdf](../../Desk_Research/docs/Academic_Papers/AP-027_keyes_2018_changing-influences-commuting-mode.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-027_keyes_2018_changing-influences-commuting-mode.md](../../Desk_Research/docs_md/Academic_Papers/AP-027_keyes_2018_changing-influences-commuting-mode.md) |
 | **Produced by** | Anna K.M. Keyes et al. (2 authors; institutions in United Kingdom) |
 | **Published by** | Transportation Research Part F Traffic Psychology and Behaviour |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
@@ -57,3 +58,11 @@ Data from 2009 and 2010, well before the period this research prefers and before
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `habit` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-012_zarabi_2023_understanding-travel-mode-choice.md](AP-012_zarabi_2023_understanding-travel-mode-choice.md), [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md), [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md), [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](AP-024_an_2022_multimodal-travel-behaviour-attitudes.md), [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): habit and the lack of a real choice of means.
+- Shares a pain point with [AP-006_vos_2022_does-commute-duration-attenuate.md](AP-006_vos_2022_does-commute-duration-attenuate.md), [AP-025_wang_2020_exploring-physical-mental-health.md](AP-025_wang_2020_exploring-physical-mental-health.md), [GR-033_statistics-canada_2023_commuting-time-2011-2022.md](../Global_Reports/GR-033_statistics-canada_2023_commuting-time-2011-2022.md) and [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md): long commutes and what they cost the commuter.

@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools]
+related: [plan.md, OR-010_apple-app-store_2026_italo-it.md, Marco_Palermo_notes.md]
 ---
 
 # Italo
@@ -16,7 +17,7 @@ tags: [research, desk, source, tools]
 | **Link** | [Italo](https://www.italotreno.it/en) |
 | **App Store listing** | [Italo Treno: treni e biglietti](https://apps.apple.com/it/app/italo-treno-treni-e-biglietti/id804056898?uo=4) (IT store, version 6.0.6 released 2026-10-02; 86,652 ratings, average 4.71, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-010_italo_2026_italo.md](../../docs_md/Products/PR-010_italo_2026_italo.md) |
+| **Markdown copy** | [PR-010_italo_2026_italo.md](../../Desk_Research/docs_md/Products/PR-010_italo_2026_italo.md) |
 | **Produced by** | Italo S.p.A. (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -50,3 +51,11 @@ English home page aimed at visitors; the Italian pages may show passes for frequ
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md) and [Marco_Palermo_notes.md](../../Interviews/Marco_Palermo_notes.md): the Italian high-speed operator's app and carnets.
+- [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md) is the sample of user reviews of this product.

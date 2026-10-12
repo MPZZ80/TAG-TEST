@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, why-now]
+related: [plan.md]
 ---
 
 # Have your say: EU rules on multimodal digital mobility services and single digital booking and ticketing
@@ -44,3 +45,9 @@ Added at Marco's request. Probably contains feedback from stakeholders on the in
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).

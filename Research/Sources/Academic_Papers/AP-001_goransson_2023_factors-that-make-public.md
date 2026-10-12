@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [research, desk, source, mode-choice]
+tags: [research, desk, source, mode-choice, tight-connection, habit, unreliable-service]
+related: [plan.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-015_mcilroy_2023_this-where-public-transport.md, AP-021_jimenez_2018_user-perception-transfers-multimodal.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, AP-012_zarabi_2023_understanding-travel-mode-choice.md, AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md, AP-018_vos_2018_people-travel-their-preferred.md, AP-024_an_2022_multimodal-travel-behaviour-attitudes.md, AP-027_keyes_2018_changing-influences-commuting-mode.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-016_mcilroy_2024_reservation-i-have-that.md, GR-004_legambiente_2025_pendolaria-20-edizione.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, OR-004_apple-app-store_2026_transit-us.md, OR-007_apple-app-store_2026_db-navigator-de.md, Valentina_Di_Floriano_notes.md]
 ---
 
 # Factors that make public transport systems attractive: a review of travel preferences and travel mode choices
@@ -14,8 +15,8 @@ tags: [research, desk, source, mode-choice]
 | --- | --- |
 | **ID** | AP-001 |
 | **Link** | [Factors that make public transport systems attractive: a review of travel preferences and travel mode choices](https://doi.org/10.1186/s12544-023-00609-x) |
-| **Local copy** | [AP-001_goransson_2023_factors-that-make-public.pdf](../../docs/Academic_Papers/AP-001_goransson_2023_factors-that-make-public.pdf) |
-| **Markdown copy** | [AP-001_goransson_2023_factors-that-make-public.md](../../docs_md/Academic_Papers/AP-001_goransson_2023_factors-that-make-public.md) |
+| **Local copy** | [AP-001_goransson_2023_factors-that-make-public.pdf](../../Desk_Research/docs/Academic_Papers/AP-001_goransson_2023_factors-that-make-public.pdf) |
+| **Markdown copy** | [AP-001_goransson_2023_factors-that-make-public.md](../../Desk_Research/docs_md/Academic_Papers/AP-001_goransson_2023_factors-that-make-public.md) |
 | **Produced by** | Jessica Göransson et al. (2 authors; institutions in France, Sweden) |
 | **Published by** | European Transport Research Review |
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
@@ -58,3 +59,12 @@ A review of reviews: figures come from single studies cited in it and were not c
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Shares the pain point `tight-connection` with [AP-008_rahman_2022_first-last-mile-public.md](AP-008_rahman_2022_first-last-mile-public.md), [AP-010_azimi_2020_mode-choice-behavior-access.md](AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-015_mcilroy_2023_this-where-public-transport.md](AP-015_mcilroy_2023_this-where-public-transport.md), [AP-021_jimenez_2018_user-perception-transfers-multimodal.md](AP-021_jimenez_2018_user-perception-transfers-multimodal.md), [AP-028_shires_2018_impact-planned-disruptions-rail.md](AP-028_shires_2018_impact-planned-disruptions-rail.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): changes between services: tight, broken or costly connections.
+- Shares the pain point `habit` with [AP-012_zarabi_2023_understanding-travel-mode-choice.md](AP-012_zarabi_2023_understanding-travel-mode-choice.md), [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md), [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md), [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](AP-024_an_2022_multimodal-travel-behaviour-attitudes.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](AP-027_keyes_2018_changing-influences-commuting-mode.md), [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): habit and the lack of a real choice of means.
+- Shares the pain point `unreliable-service` with [AP-004_alyavina_2020_mobility-as-service-sustainable.md](AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](AP-016_mcilroy_2024_reservation-i-have-that.md), [GR-004_legambiente_2025_pendolaria-20-edizione.md](../Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.md), [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](../Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [OR-004_apple-app-store_2026_transit-us.md](../Online_Reviews/OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](../Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): the service failing matters more than the app that shows it.

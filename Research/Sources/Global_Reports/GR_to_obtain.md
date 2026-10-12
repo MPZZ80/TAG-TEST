@@ -1,11 +1,12 @@
 ---
 source: Claude
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [research, desk, output, why-now, mode-choice]
+related: [plan.md, GR_candidates.md]
 ---
 
 # Global Reports: Sources to Obtain
@@ -54,3 +55,10 @@ Sources that I could not open or download, with the link where I found them and 
 
 - The figures on regional train delays and cancellations in the ART report, and the ISFORT modal shares a web summary gave: they are probably in the documents already downloaded. The 102.7 million weekday trips are already confirmed in the ISFORT synthesis.
 - The route analysis of 100 representative routes cited in the Commission proposal COM(2026) 231: probably in the impact assessment or its annexes.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- [GR_candidates.md](GR_candidates.md) is the other list of the same source category.

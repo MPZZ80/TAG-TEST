@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:22
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who]
+related: [plan.md, GR-001_eurostat_2020_commuting-time.md, GR-016_eurostat_2021_passenger-mobility-statistics.md]
 ---
 
 # Over 12.5 million intra-country commuters in 2022
@@ -46,3 +47,10 @@ Regions are an administrative unit, not a proxy for trips between cities. The ar
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [GR-001_eurostat_2020_commuting-time.md](GR-001_eurostat_2020_commuting-time.md) and [GR-016_eurostat_2021_passenger-mobility-statistics.md](GR-016_eurostat_2021_passenger-mobility-statistics.md): Eurostat statistics on commuting and passenger mobility.

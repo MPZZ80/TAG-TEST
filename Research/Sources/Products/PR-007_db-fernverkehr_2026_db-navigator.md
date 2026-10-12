@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, tools]
+related: [plan.md, OR-007_apple-app-store_2026_db-navigator-de.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md]
 ---
 
 # DB Navigator
@@ -16,7 +17,7 @@ tags: [research, desk, source, tools]
 | **Link** | [DB Navigator](https://www.bahn.de/service/mobile/db-navigator) |
 | **App Store listing** | [DB Navigator](https://apps.apple.com/de/app/db-navigator/id343555245?uo=4) (DE store, version 26.18.0 released 2026-09-29; 568,853 ratings, average 4.38, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-007_db-fernverkehr_2026_db-navigator.md](../../docs_md/Products/PR-007_db-fernverkehr_2026_db-navigator.md) |
+| **Markdown copy** | [PR-007_db-fernverkehr_2026_db-navigator.md](../../Desk_Research/docs_md/Products/PR-007_db-fernverkehr_2026_db-navigator.md) |
 | **Produced by** | DB Fernverkehr AG (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -52,3 +53,11 @@ The operator's own description; it does not say how well the functions work, and
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [OR-007_apple-app-store_2026_db-navigator-de.md](../Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md) and [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md): the German railway's app and its delay information.
+- [OR-007_apple-app-store_2026_db-navigator-de.md](../Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md) is the sample of user reviews of this product.

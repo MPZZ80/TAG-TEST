@@ -1,11 +1,12 @@
 ---
 source: external
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [research, desk, source, tools, information]
+tags: [research, desk, source, tools, information, late-info, no-alternative, unreliable-service]
+related: [plan.md, PR-007_db-fernverkehr_2026_db-navigator.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, OR-002_apple-app-store_2026_moovit-it.md, OR-003_apple-app-store_2026_citymapper-gb.md, OR-004_apple-app-store_2026_transit-us.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OR-015_apple-app-store_2026_9292-nl.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-016_mcilroy_2024_reservation-i-have-that.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, OR-005_apple-app-store_2026_trainline-gb.md, GR-051_transport-focus_2026_rail-customer-experience-survey.md, GR-027_orr_2026_annual-rail-consumer-report-2025-26.md, GR-028_orr_2025_annual-rail-consumer-report-2024-25.md, AP-009_leng_2020_role-information-availability-passengers.md, AP-023_mo_2022_inferring-passenger-responses-urban.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, Valentina_Di_Floriano_notes.md, AP-001_goransson_2023_factors-that-make-public.md, GR-004_legambiente_2025_pendolaria-20-edizione.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md]
 ---
 
 # DB Navigator: App Store reviews, Germany (sample)
@@ -14,8 +15,8 @@ tags: [research, desk, source, tools, information]
 | --- | --- |
 | **ID** | OR-007 |
 | **Link** | [Apple customer reviews feed](https://itunes.apple.com/de/rss/customerreviews/page=1/id=343555245/sortby=mostrecent/json) |
-| **Local copy** | [OR-007_apple-app-store_2026_db-navigator-de.json](../../docs/Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.json) |
-| **Markdown copy** | [OR-007_apple-app-store_2026_db-navigator-de.md](../../docs_md/Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md) |
+| **Local copy** | [OR-007_apple-app-store_2026_db-navigator-de.json](../../Desk_Research/docs/Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.json) |
+| **Markdown copy** | [OR-007_apple-app-store_2026_db-navigator-de.md](../../Desk_Research/docs_md/Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md) |
 | **Produced by** | Anonymous users of the app who wrote public reviews; names not recorded |
 | **Published by** | Apple App Store (Germany store) |
 | **Kind of source** | User reviews: a sample of the 100 most recent reviews |
@@ -58,3 +59,14 @@ Five days of reviews in a week when a new identity check blocked a purchase: a v
 ## Used in
 
 No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A4 of the research plan, [plan.md](../../plan.md).
+- Shares a source landscape with [PR-007_db-fernverkehr_2026_db-navigator.md](../Products/PR-007_db-fernverkehr_2026_db-navigator.md) and [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md): the German railway's app and its delay information.
+- Shares the pain point `late-info` with [OR-002_apple-app-store_2026_moovit-it.md](OR-002_apple-app-store_2026_moovit-it.md), [OR-003_apple-app-store_2026_citymapper-gb.md](OR-003_apple-app-store_2026_citymapper-gb.md), [OR-004_apple-app-store_2026_transit-us.md](OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](OR-006_apple-app-store_2026_flixbus-it.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-010_apple-app-store_2026_italo-it.md](OR-010_apple-app-store_2026_italo-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OR-015_apple-app-store_2026_9292-nl.md](OR-015_apple-app-store_2026_9292-nl.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](../Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Marco_Palermo_notes.md](../../Interviews/Marco_Palermo_notes.md): delay or arrival information that is late or wrong.
+- Shares the pain point `no-alternative` with [OR-005_apple-app-store_2026_trainline-gb.md](OR-005_apple-app-store_2026_trainline-gb.md), [OR-006_apple-app-store_2026_flixbus-it.md](OR-006_apple-app-store_2026_flixbus-it.md), [OR-015_apple-app-store_2026_9292-nl.md](OR-015_apple-app-store_2026_9292-nl.md), [GR-051_transport-focus_2026_rail-customer-experience-survey.md](../Global_Reports/GR-051_transport-focus_2026_rail-customer-experience-survey.md), [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](../Global_Reports/GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](../Global_Reports/GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [AP-009_leng_2020_role-information-availability-passengers.md](../Academic_Papers/AP-009_leng_2020_role-information-availability-passengers.md), [AP-023_mo_2022_inferring-passenger-responses-urban.md](../Academic_Papers/AP-023_mo_2022_inferring-passenger-responses-urban.md), [AP-028_shires_2018_impact-planned-disruptions-rail.md](../Academic_Papers/AP-028_shires_2018_impact-planned-disruptions-rail.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): no help or workable alternative when a train is cancelled or a connection is missed.
+- Shares the pain point `unreliable-service` with [AP-001_goransson_2023_factors-that-make-public.md](../Academic_Papers/AP-001_goransson_2023_factors-that-make-public.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [GR-004_legambiente_2025_pendolaria-20-edizione.md](../Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.md), [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](../Global_Reports/GR-017_ipsos-europ-assistance_2025_mobility-barometer.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [OR-004_apple-app-store_2026_transit-us.md](OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](OR-006_apple-app-store_2026_flixbus-it.md), [OR-010_apple-app-store_2026_italo-it.md](OR-010_apple-app-store_2026_italo-it.md) and [Valentina_Di_Floriano_notes.md](../../Interviews/Valentina_Di_Floriano_notes.md): the service failing matters more than the app that shows it.
+- [PR-007_db-fernverkehr_2026_db-navigator.md](../Products/PR-007_db-fernverkehr_2026_db-navigator.md) describes the product these reviews are about.

@@ -18,10 +18,12 @@ Everything about the research: the plan, the working rules, the state of the wor
 | `desk_research_instructions.md` | Working rules for the desk research |
 | `desk_research_partial_analysis.md` | Answers to Q1–Q40 from the complete reading of the sources, with 61 numbered findings, the evidence against the brief, what stays open and what could not be read |
 | `deepdive_interview_script.md` | Version 4 of the interview topics, which follows the commute in sequence and tests the findings of the complete reading and of the 18 papers read afterwards |
+| `Survey/` | The commuter survey in five languages, where to post it and the script that builds the forms; start from its `README.md` |
+| `open_issues.md` | Open questions, weak sources and contradictions, each with a priority and a criticality |
 | `Interviews/` | Recordings, automatic transcripts and one notes file per interview; start from its `README.md` |
 | `Sources/` | One file per source, in six category folders, each with an index in its `README.md` |
-| `docs/` | Documents downloaded from the sources, by category. Not in Git |
-| `docs_md/` | Text copies in Markdown of the documents and web pages, by category. Not in Git |
+| `Desk_Research/docs/` | Documents downloaded from the sources, by category. Not in Git |
+| `Desk_Research/docs_md/` | Text copies in Markdown of the documents and web pages, by category. Not in Git |
 
 ## State on 2026-10-07
 
@@ -33,5 +35,5 @@ Everything about the research: the plan, the working rules, the state of the wor
 ## To save reading
 
 - Do not open the source files one by one: use the category indexes.
-- Do not read a text copy in `docs_md/` from start to finish; search it by keyword. Some are close to a million characters.
-- `docs/` and `docs_md/` exist only on Marco's computer. In a fresh clone they are missing and must be downloaded again from the links in the source files.
+- Do not read a text copy in `Desk_Research/docs_md/` from start to finish; search it by keyword. Some are close to a million characters.
+- `Desk_Research/docs/` and `Desk_Research/docs_md/` exist only on Marco's computer. In a fresh clone they are missing and must be downloaded again from the links in the source files.

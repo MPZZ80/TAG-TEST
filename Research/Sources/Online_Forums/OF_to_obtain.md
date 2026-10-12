@@ -1,16 +1,17 @@
 ---
 source: Claude
-date: 2026-10-12 19:59
+date: 2026-10-12 21:39
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [research, desk, output, who]
+related: [plan.md]
 ---
 
 # Online Forums: Sources to Obtain and Gaps
 
-Forums are the weakest category: most of them block automated reading. Marco may open the links in a browser and save the threads as text or PDF into `Research/docs/Online_Forums/` with the naming rule of the instructions.
+Forums are the weakest category: most of them block automated reading. Marco may open the links in a browser and save the threads as text or PDF into `Research/Desk_Research/docs/Online_Forums/` with the naming rule of the instructions.
 
 ## Found but blocked
 
@@ -32,3 +33,9 @@ Forums are the weakest category: most of them block automated reading. Marco may
 ## What was read
 
 OF-001 and OF-002 are forum threads that opened; OF-003 and OF-004 are Hacker News threads about Citymapper, read through the public API. They are few and not from typical commuters. The forum category is therefore thin and should be completed with the interviews.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Is one of the lists the research plan asks for, [plan.md](../../plan.md).

@@ -14,8 +14,8 @@ The evidence base of the desk research: 132 sources on 2026-10-07, one Markdown 
 ## How the pieces fit
 
 - **Source file** (`Sources/<Category>/<ID>_<producer>_<year>_<short-title>.md`): who produced the source, when, how, with what interest, its grade with the points, what it says, the data extracted so far with page numbers, and its limits.
-- **Document** (`../docs/<Category>/`, same base name): the downloaded PDF or data file, when there is one.
-- **Text copy** (`../docs_md/<Category>/`, same base name): the document converted to Markdown, or the text of the web page. Use it for searching.
+- **Document** (`../Desk_Research/docs/<Category>/`, same base name): the downloaded PDF or data file, when there is one.
+- **Text copy** (`../Desk_Research/docs_md/<Category>/`, same base name): the document converted to Markdown, or the text of the web page. Use it for searching.
 - **Source ID** (for example `GR-047`): what outputs use to cite a source. A number is never reused.
 
 ## Finding something
