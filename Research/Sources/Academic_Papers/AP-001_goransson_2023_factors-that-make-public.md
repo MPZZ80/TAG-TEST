@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:44
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, mode-choice]
+tags: [research, desk, source, mode-choice]
 ---
 
 # Factors that make public transport systems attractive: a review of travel preferences and travel mode choices

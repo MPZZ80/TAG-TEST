@@ -1,12 +1,11 @@
 ---
 source: Claude
-date: 2026-10-07 01:44
-channel: conversation
+date: 2026-10-12 19:59
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
-tags: [output, tools]
+tags: [research, desk, output, tools]
 ---
 
 # Products: Sources to Obtain and Gaps

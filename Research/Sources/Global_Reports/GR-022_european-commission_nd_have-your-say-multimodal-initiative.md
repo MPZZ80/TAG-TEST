@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:09
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, why-now]
+tags: [research, desk, source, why-now]
 ---
 
 # Have your say: EU rules on multimodal digital mobility services and single digital booking and ticketing

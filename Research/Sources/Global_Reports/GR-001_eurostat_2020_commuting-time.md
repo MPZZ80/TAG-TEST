@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:32
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who, planning]
+tags: [research, desk, source, who, planning]
 ---
 
 # Main place of work and commuting time – statistics (Statistics Explained)

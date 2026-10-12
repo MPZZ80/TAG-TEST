@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:12
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, mode-choice]
+tags: [research, desk, source, mode-choice]
 ---
 
 # Mode choice behavior for access and egress connection to transit services

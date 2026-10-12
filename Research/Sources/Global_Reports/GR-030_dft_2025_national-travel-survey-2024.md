@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:36
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who, mode-choice]
+tags: [research, desk, source, who, mode-choice]
 ---
 
 # National Travel Survey 2024: introduction and main findings

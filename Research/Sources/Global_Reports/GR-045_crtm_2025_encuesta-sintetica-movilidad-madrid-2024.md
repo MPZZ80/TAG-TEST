@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:08
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who, mode-choice]
+tags: [research, desk, source, who, mode-choice]
 ---
 
 # Encuesta sintética de movilidad en la Comunidad de Madrid 2024 (ESM2024): memoria de los resultados

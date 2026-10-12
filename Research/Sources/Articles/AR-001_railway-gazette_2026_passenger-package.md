@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:46
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, why-now]
+tags: [research, desk, source, why-now]
 ---
 
 # European Commission unveils passenger package to tackle fragmented rail booking systems

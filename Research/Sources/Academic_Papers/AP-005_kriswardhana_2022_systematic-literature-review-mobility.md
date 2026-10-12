@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:10
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, why-now, tools]
+tags: [research, desk, source, why-now, tools]
 ---
 
 # A systematic literature review of Mobility as a Service: Examining the socio-technical factors in MaaS adoption and bundling packages

@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:07
-channel: community
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, tools, information]
+tags: [research, desk, source, tools, information]
 ---
 
 # Telepass: pedaggi e parcheggi: App Store reviews, Italy (sample)

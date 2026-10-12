@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:47
-channel: community
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, tools, why-now]
+tags: [research, desk, source, tools, why-now]
 ---
 
 # Citymapper Joins Via (Hacker News thread)

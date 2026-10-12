@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:10
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, tools, success]
+tags: [research, desk, source, tools, success]
 ---
 
 # The importance of user perspective in the evolution of MaaS

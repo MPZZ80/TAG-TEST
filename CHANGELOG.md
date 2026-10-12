@@ -4,6 +4,38 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-12 20:06
+
+- **Files:** `Index.md`, `AGENTS.md`
+- **Change:** `Index.md` rewritten: one row for each of the 153 files with a metadata block, grouped by folder, with only the linked file name and its tags; the earlier columns (year, geography, grade, summary) were removed and remain in the folder READMEs. `AGENTS.md`: new "Index" rules before "Folder guides", general instruction 25, layout table reworded.
+- **Why:** Marco: the index must show the file name and its tags, one row per note, to help the agent connect and find things faster without searching the whole repository; he asked to put it in `AGENTS.md` as an instruction.
+
+## 2026-10-12 20:00
+
+- **Files:** `Metadata/metadata_schema.md`, `Metadata/README.md`, `AGENTS.md`, `Research/desk_research_instructions.md`, `Index.md`, `Brief/brief.md`, `Questions/initial_questions.md`, `Questions/prompt.md`, `Research/plan.md`, `Research/progress.md`, `Research/deepdive_interview_script.md`, `Research/desk_research_partial_analysis.md`, the 3 notes files in `Research/Interviews/`, the 132 source files and the 8 list files in `Research/Sources/`
+- **Change:** Schema: section 8 rewritten with the new tags (phase, origin, type, topics, in this order, at most six); the `channel` field and its section removed, sections renumbered; type tags reduced from 11 to 9 (`rules` replaces `instructions`, `schema` and `prompt`). Every file: `tags` rewritten in the new order, `channel` line removed, `date` updated. Templates in the desk research instructions updated. `AGENTS.md`: general instruction 24 and the list of fields in section 4. The local text copies in `Research/docs_md/` were retagged too.
+- **Why:** Marco wants the tags of the metadata layer assigned correctly, with the smallest number of tags for the knowledge base: one for the phase (research now, design or development later), one for the kind of source (interview, desk) and the topics. He chose the origin tag over the `channel` field, the eight topics as they were, and nine types.
+- **Do not:** bring back the `channel` field, or free tags such as `intercity-commuting` and `discovery`.
+
+## 2026-10-12 19:14
+
+- **Files:** `Index.md`, `AGENTS.md`
+- **Change:** File created: `Index.md` in the repository root, with one row for each of the 132 source files of the desk research and each of the 3 interview notes files, linked. `AGENTS.md`: the repository layout table now lists `Index.md` in the root and the `Research/Interviews/` folder.
+- **Why:** Marco: "Crea un file Index.md nella root con una riga per ogni nota generata dalla desk research e dalle interviste"; reason not stated.
+
+## 2026-10-12 19:10
+
+- **Files:** `Research/Interviews/Valentina_Di_Floriano_notes.md`, `Research/Interviews/Valentina_Di_Floriano_1_notes.md`, `Research/Interviews/Valentina_Di_Floriano_2_notes.md`, `Research/Interviews/README.md`, `Research/README.md`
+- **Change:** The two notes files of the interview recorded in two parts were merged into one, `Valentina_Di_Floriano_notes.md`, which links both transcripts; the two separate files were deleted. The folder guides now say one notes file per interview.
+- **Why:** Marco: "Fai un solo file di Valentina Di Floriano"; reason not stated.
+- **Do not:** split the notes of one interview by recording.
+
+## 2026-10-12 19:08
+
+- **Files:** `Research/Interviews/Matteo_Rizzetto_notes.md`, `Research/Interviews/Marco_Palermo_notes.md`, `Research/Interviews/Valentina_Di_Floriano_1_notes.md`, `Research/Interviews/Valentina_Di_Floriano_2_notes.md`, `Research/Interviews/README.md`, `Research/README.md`
+- **Change:** Files created: one notes file for each of the four interview transcripts, placed directly in `Research/Interviews/`, and the folder guide. `Research/README.md`: row for `Interviews/` and the state of the interviews updated.
+- **Why:** Marco: "Crea un file di note per ogni transcript delle interviste, mettili direttamente in Interviews"; reason not stated. The folder guide was added by the agent because every folder must have one.
+
 ## 2026-10-08 09:13
 
 - **Files:** `Brief/brief.md`, `Research/desk_research_instructions.md`, `Research/desk_research_partial_analysis.md`, `Research/progress.md`, `AGENTS.md`

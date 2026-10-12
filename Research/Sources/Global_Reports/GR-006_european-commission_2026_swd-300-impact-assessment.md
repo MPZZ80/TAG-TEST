@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:24
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, why-now, mode-choice]
+tags: [research, desk, source, why-now, mode-choice]
 ---
 
 # Impact assessment report SWD(2026) 300 accompanying the proposals on multimodal booking and on rail ticketing

@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:22
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, why-now]
+tags: [research, desk, source, why-now]
 ---
 
 # Drivers and barriers in adopting Mobility as a Service (MaaS) – A latent class cluster analysis of attitudes

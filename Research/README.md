@@ -18,6 +18,7 @@ Everything about the research: the plan, the working rules, the state of the wor
 | `desk_research_instructions.md` | Working rules for the desk research |
 | `desk_research_partial_analysis.md` | Answers to Q1–Q40 from the complete reading of the sources, with 61 numbered findings, the evidence against the brief, what stays open and what could not be read |
 | `deepdive_interview_script.md` | Version 4 of the interview topics, which follows the commute in sequence and tests the findings of the complete reading and of the 18 papers read afterwards |
+| `Interviews/` | Recordings, automatic transcripts and one notes file per interview; start from its `README.md` |
 | `Sources/` | One file per source, in six category folders, each with an index in its `README.md` |
 | `docs/` | Documents downloaded from the sources, by category. Not in Git |
 | `docs_md/` | Text copies in Markdown of the documents and web pages, by category. Not in Git |
@@ -27,7 +28,7 @@ Everything about the research: the plan, the working rules, the state of the wor
 - **Collection:** finished for the six categories, 132 sources, with the scope extended to Western and comparable advanced countries and to sources in other languages.
 - **Reading:** complete. Of the 132 sources, 124 were read in full, 1 in part (AR-007, behind a paywall) and 7 could not be read (two papers not obtained because payment is needed, five web pages that cannot be captured); the ledger is in `progress.md` and each category index has a "Read" column.
 - **Interpretation:** `desk_research_partial_analysis.md` gives the answers the evidence supports. The activity outputs (`01_…` to `08_…`) and the synthesis have not been written.
-- **Interviews:** not started; they follow Marco's review of the results.
+- **Interviews:** started. On 2026-10-12 `Interviews/` holds four transcripts from three participants and a notes file for each participant; the interview findings file has not been written.
 
 ## To save reading
 

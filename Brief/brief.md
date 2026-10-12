@@ -1,10 +1,9 @@
 ---
 source: Marco (his own text, pasted into the conversation)
-date: 2026-10-08 09:13
-channel: Claude Code conversation
+date: 2026-10-12 19:59
 method: Verbatim paste; title and section headings added by Claude; focus note translated from Italian
 confidence: high
-tags: [brief, intercity-commuting, multimodal-mobility, discovery]
+tags: [internal, brief]
 ---
 
 # Brief

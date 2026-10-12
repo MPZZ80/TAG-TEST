@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:04
-channel: community
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, tools, information]
+tags: [research, desk, source, tools, information]
 ---
 
 # Trainline: Train & Bus Tickets: App Store reviews, United Kingdom (sample)

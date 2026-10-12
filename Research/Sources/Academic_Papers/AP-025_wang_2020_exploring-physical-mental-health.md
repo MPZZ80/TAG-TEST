@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:08
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who]
+tags: [research, desk, source, who]
 ---
 
 # Exploring the physical and mental health of high-speed rail commuters: Suzhou-Shanghai inter-city commuting

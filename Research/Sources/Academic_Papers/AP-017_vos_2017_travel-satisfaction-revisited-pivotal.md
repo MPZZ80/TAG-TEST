@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:44
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, success]
+tags: [research, desk, source, success]
 ---
 
 # Travel satisfaction revisited. On the pivotal role of travel satisfaction in conceptualising a travel behaviour process

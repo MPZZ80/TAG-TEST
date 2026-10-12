@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:36
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, planning, why-now]
+tags: [research, desk, source, planning, why-now]
 ---
 
 # #TheFutureIsFlexible: new era of rail travel arrives with new flexible season tickets

@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:12
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, information]
+tags: [research, desk, source, information]
 ---
 
 # Should I stay or should I board? Willingness to wait with real-time crowding information in urban public transport

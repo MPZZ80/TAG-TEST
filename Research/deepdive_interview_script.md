@@ -1,12 +1,11 @@
 ---
 source: Claude
-date: 2026-10-08 09:11
-channel: conversation
+date: 2026-10-12 19:59
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
-tags: [script]
+tags: [research, internal, script]
 ---
 
 # Deep-Dive Interview Script (Version 4)

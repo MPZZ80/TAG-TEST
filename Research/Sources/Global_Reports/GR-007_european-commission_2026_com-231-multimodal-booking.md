@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:10
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, why-now, mode-choice, information]
+tags: [research, desk, source, why-now, mode-choice, information]
 ---
 
 # Proposal for a Regulation on multimodal booking, COM(2026) 231

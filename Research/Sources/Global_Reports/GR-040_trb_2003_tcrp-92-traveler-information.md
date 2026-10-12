@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:14
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, information]
+tags: [research, desk, source, information]
 ---
 
 # TCRP Report 92: Strategies for Improved Traveler Information

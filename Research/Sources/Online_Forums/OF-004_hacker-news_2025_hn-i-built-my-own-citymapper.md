@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:47
-channel: community
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, tools, success]
+tags: [research, desk, source, tools, success]
 ---
 
 # I built my own CityMapper (Hacker News thread)

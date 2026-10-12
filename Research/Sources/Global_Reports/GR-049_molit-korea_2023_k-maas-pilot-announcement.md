@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:02
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, tools, why-now]
+tags: [research, desk, source, tools, why-now]
 ---
 
 # 택시부터 항공까지 모든 모빌리티 예약·결제 앱 하나로: 국토부, '전국 MaaS 시범사업' 추진

@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:06
-channel: community
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, tools, information]
+tags: [research, desk, source, tools, information]
 ---
 
 # 카카오 T - 택시, 세차, 주차, 바이크, 항공, 퀵: App Store reviews, South Korea (sample)

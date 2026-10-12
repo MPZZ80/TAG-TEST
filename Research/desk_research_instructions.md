@@ -1,10 +1,9 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and plan.md
-date: 2026-10-08 09:13
-channel: Claude Code conversation
+date: 2026-10-12 19:59
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
-tags: [desk-research, instructions, evidence-rules, intercity-commuting]
+tags: [research, internal, rules]
 ---
 
 # Desk Research Instructions
@@ -96,12 +95,11 @@ Every activity output (`01_…` to `07_…`) uses this structure, in English:
 ---
 source: external
 date: <YYYY-MM-DD HH:MM>
-channel: <web | community>
 method: <review | comparison | coding>
 status: draft
 grade: <A | B | C>
 confidence: <high | medium | low>
-tags: [output, <topic>, <topic>]
+tags: [research, desk, output, <topic>, <topic>]
 ---
 
 # <Activity name>
@@ -273,12 +271,11 @@ Do not add a category folder without Marco's approval.
 ---
 source: external
 date: <YYYY-MM-DD HH:MM>
-channel: <web | community>
 method: review
 status: draft
 grade: <A | B | C>
 confidence: n/a
-tags: [source, <topic>, <topic>]
+tags: [research, desk, source, <topic>, <topic>]
 ---
 
 # <Title of the source>
@@ -426,12 +423,11 @@ The research on a source category starts with a candidate list that Marco vets. 
 ---
 source: external
 date: <YYYY-MM-DD HH:MM>
-channel: <web | community>
 method: review
 status: draft
 grade: n/a
 confidence: n/a
-tags: [output, <topic>]
+tags: [research, desk, output, <topic>]
 ---
 
 # Candidate Sources: <Category>

@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:38
-channel: community
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, planning, disruption]
+tags: [research, desk, source, planning, disruption]
 ---
 
 # Reiseerlebnisse mit der Bahn (forum thread, 10 pages)

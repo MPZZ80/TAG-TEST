@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:29
-channel: community
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, information, tools]
+tags: [research, desk, source, information, tools]
 ---
 
 # Trenitalia fa causa a un'app che mostra i ritardi (forum thread, 3 pages)

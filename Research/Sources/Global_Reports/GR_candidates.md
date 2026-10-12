@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-06 18:37
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: reviewed
 grade: n/a
 confidence: n/a
-tags: [output, who, why-now]
+tags: [research, desk, output, who, why-now]
 ---
 
 # Candidate Sources: Global Reports

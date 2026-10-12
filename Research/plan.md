@@ -1,10 +1,9 @@
 ---
 source: Claude (Opus 5.5), from Marco's notes, brief.md and initial_questions.md
-date: 2026-10-07 12:38
-channel: Claude Code conversation
+date: 2026-10-12 19:59
 method: AI-drafted plan, revised on Marco's instructions
 confidence: medium
-tags: [research-plan, desk-research, interviews, intercity-commuting]
+tags: [research, internal, plan]
 ---
 
 # Research Plan

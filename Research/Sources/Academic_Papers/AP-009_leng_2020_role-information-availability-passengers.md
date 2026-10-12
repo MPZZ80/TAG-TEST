@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:11
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, information, disruption]
+tags: [research, desk, source, information, disruption]
 ---
 
 # The role of information availability to passengers in public transport disruptions: An agent-based simulation approach

@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-08 09:13
-channel: web
+date: 2026-10-12 19:59
 method: synthesis
 status: draft
 grade: B
 confidence: medium
-tags: [synthesis, who, disruption, tools]
+tags: [research, desk, synthesis, who, disruption, tools]
 ---
 
 # Desk Research: Partial Analysis

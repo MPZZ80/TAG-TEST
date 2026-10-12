@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:11
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, mode-choice]
+tags: [research, desk, source, mode-choice]
 ---
 
 # The first-and-last-mile of public transportation: A study of access and egress travel characteristics of Dhaka’s suburban commuters

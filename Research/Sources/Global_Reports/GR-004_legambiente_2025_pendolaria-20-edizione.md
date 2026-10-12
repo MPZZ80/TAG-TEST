@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:28
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, disruption, who]
+tags: [research, desk, source, disruption, who]
 ---
 
 # Pendolaria 2025: la situazione del trasporto pubblico in Italia e gli scenari di mobilità (20th edition)

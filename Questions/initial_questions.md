@@ -1,10 +1,9 @@
 ---
 source: Claude (Opus 5.5), generated from brief.md with the prompt in prompt.md
-date: 2026-10-05 21:41
-channel: Claude Code conversation
+date: 2026-10-12 19:59
 method: AI generation from Marco's prompt and framework (Who, What, Why now, What success)
 confidence: medium
-tags: [research-questions, discovery, intercity-commuting, multimodal-mobility]
+tags: [research, internal, questions]
 ---
 
 # Initial Project Questions

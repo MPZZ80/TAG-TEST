@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:13
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who, tools]
+tags: [research, desk, source, who, tools]
 ---
 
 # 自動運転等新たなデジタル技術を活用したモビリティサービスの社会実装に向けた移動需要の把握に関する調査研究: 最終報告書（詳細版）

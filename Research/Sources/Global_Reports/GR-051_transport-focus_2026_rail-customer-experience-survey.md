@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:31
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, disruption, information]
+tags: [research, desk, source, disruption, information]
 ---
 
 # Rail Customer Experience Survey

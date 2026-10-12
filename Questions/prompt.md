@@ -1,10 +1,9 @@
 ---
 source: Marco (prompt written by him)
-date: 2026-10-05 20:42
-channel: Claude Code conversation
+date: 2026-10-12 19:59
 method: Verbatim copy of the prompt used to generate initial_questions.md
 confidence: high
-tags: [prompt, research-questions, discovery]
+tags: [research, internal, rules]
 ---
 
 Using the project brief contained in `brief.md`, generate a set of open-ended initial project questions for the discovery phase of a digital product design project.

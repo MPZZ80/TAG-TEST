@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:32
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, mode-choice, who]
+tags: [research, desk, source, mode-choice, who]
 ---
 
 # Passenger mobility statistics (Statistics Explained)

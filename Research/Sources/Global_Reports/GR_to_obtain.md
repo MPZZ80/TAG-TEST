@@ -1,12 +1,11 @@
 ---
 source: Claude
-date: 2026-10-06 18:37
-channel: conversation
+date: 2026-10-12 19:59
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
-tags: [output, why-now, mode-choice]
+tags: [research, desk, output, why-now, mode-choice]
 ---
 
 # Global Reports: Sources to Obtain

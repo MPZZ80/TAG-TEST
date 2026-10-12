@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:09
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, tools, why-now]
+tags: [research, desk, source, tools, why-now]
 ---
 
 # 地域交通におけるデジタル技術活用に関する調査研究レポート: 地域交通DX（MaaS 2.0の推進に向けて）

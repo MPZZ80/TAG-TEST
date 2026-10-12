@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:33
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, information, why-now]
+tags: [research, desk, source, information, why-now]
 ---
 
 # Commission Delegated Regulation (EU) 2017/1926 on EU-wide multimodal travel information services

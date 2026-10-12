@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:34
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, why-now, tools]
+tags: [research, desk, source, why-now, tools]
 ---
 
 # Policy brief: Ready for MaaS? Easier mobility for citizens and better data for cities

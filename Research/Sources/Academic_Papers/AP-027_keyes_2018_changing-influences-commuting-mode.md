@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:16
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, mode-choice]
+tags: [research, desk, source, mode-choice]
 ---
 
 # The changing influences on commuting mode choice in urban England under Peak Car: A discrete choice modelling approach

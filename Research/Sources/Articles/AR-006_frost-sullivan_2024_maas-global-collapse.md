@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:47
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, tools, why-now]
+tags: [research, desk, source, tools, why-now]
 ---
 
 # Does the collapse of MaaS Global and the Whim travel app signify the end of the road for the MaaS model?

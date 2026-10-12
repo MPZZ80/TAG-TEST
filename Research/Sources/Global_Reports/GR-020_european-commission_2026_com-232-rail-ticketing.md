@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:08
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, why-now, mode-choice]
+tags: [research, desk, source, why-now, mode-choice]
 ---
 
 # Proposal for a Regulation on rail ticketing, COM(2026) 232

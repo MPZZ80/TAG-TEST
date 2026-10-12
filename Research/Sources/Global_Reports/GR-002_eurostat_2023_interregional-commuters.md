@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:09
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who]
+tags: [research, desk, source, who]
 ---
 
 # Over 12.5 million intra-country commuters in 2022

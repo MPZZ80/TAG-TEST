@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:09
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, mode-choice]
+tags: [research, desk, source, mode-choice]
 ---
 
 # EU Survey Confirms Progress in Rail and Multimodal Ticketing Across Europe

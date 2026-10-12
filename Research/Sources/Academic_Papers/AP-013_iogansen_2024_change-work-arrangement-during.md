@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:44
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, who, why-now]
+tags: [research, desk, source, who, why-now]
 ---
 
 # Change in work arrangement during the COVID-19 pandemic: A large shift to remote and hybrid work

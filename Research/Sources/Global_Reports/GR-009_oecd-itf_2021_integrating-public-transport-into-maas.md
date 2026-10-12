@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:34
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, why-now, tools]
+tags: [research, desk, source, why-now, tools]
 ---
 
 # Integrating Public Transport into Mobility as a Service: Summary and Conclusions (Roundtable 184)

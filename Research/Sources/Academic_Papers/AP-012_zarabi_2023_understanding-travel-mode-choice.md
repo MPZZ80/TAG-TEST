@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:13
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, mode-choice, why-now]
+tags: [research, desk, source, mode-choice, why-now]
 ---
 
 # Understanding travel mode choice through the lens of COVID-19: a systematic review of pandemic commuters

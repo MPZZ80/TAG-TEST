@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:37
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, why-now]
+tags: [research, desk, source, why-now]
 ---
 
 # Mobility as a Service legislation in Finland

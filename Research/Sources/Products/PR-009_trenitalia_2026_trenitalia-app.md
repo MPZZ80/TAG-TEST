@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:01
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, tools]
+tags: [research, desk, source, tools]
 ---
 
 # Trenitalia app

@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:09
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, mode-choice, tools]
+tags: [research, desk, source, mode-choice, tools]
 ---
 
 # Eurobarometer on booking and ticketing, 2024 survey: Commission press release

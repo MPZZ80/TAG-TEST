@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:09
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, success]
+tags: [research, desk, source, success]
 ---
 
 # Does commute duration attenuate the effect of travel mode choice on commute satisfaction?

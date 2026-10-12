@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:22
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who]
+tags: [research, desk, source, who]
 ---
 
 # “For me it is always like half an hour”: Exploring the acceptable travel time concept in the US and European contexts

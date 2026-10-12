@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:46
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, disruption]
+tags: [research, desk, source, disruption]
 ---
 
 # The impact of planned disruptions on rail passenger demand

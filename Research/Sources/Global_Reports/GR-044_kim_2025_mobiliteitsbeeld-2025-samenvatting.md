@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:40
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who, why-now]
+tags: [research, desk, source, who, why-now]
 ---
 
 # Mobiliteitsbeeld 2025: samenvatting

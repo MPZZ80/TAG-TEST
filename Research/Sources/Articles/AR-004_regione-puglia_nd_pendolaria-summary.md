@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:47
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, disruption]
+tags: [research, desk, source, disruption]
 ---
 
 # Legambiente. Rapporto Pendolaria 2025 (summary on the Regione Puglia statistics office site)

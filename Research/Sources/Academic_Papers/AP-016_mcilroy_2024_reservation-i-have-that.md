@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:08
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, tools]
+tags: [research, desk, source, tools]
 ---
 
 # “A reservation I have is that presumably no travel app will improve the actual services”: Place based perspectives of mobility as a service

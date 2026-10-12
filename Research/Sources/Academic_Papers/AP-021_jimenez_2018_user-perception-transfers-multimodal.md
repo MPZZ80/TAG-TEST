@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:45
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, mode-choice]
+tags: [research, desk, source, mode-choice]
 ---
 
 # User perception of transfers in multimodal urban trips: A qualitative study

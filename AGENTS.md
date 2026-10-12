@@ -1,10 +1,9 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-10-07 10:15
-channel: Claude Code conversation
+date: 2026-10-12 20:06
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
-tags: [agent-instructions, change-log, metadata, desk-research]
+tags: [internal, rules]
 ---
 
 # Instructions for Agents
@@ -17,16 +16,24 @@ Repository layout:
 
 | Location | What it holds |
 | --- | --- |
-| Repository root | Only the files that tools or conventions expect there: `AGENTS.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md` |
+| Repository root | Only the files that tools or conventions expect there: `AGENTS.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md`, and `Index.md`, the list of every file with its tags (see "Index" below) |
 | `Brief/` | The project brief |
 | `Questions/` | The initial research questions and the prompt that generated them |
 | `Metadata/` | The metadata schema: the block every file starts with and its allowed values |
 | `Research/` | The research plan, the desk research instructions, the interview script and the research outputs |
+| `Research/Interviews/` | Recordings, automatic transcripts and one notes file per interview |
 | `Research/Sources/` | One file per source, in a folder per source category |
 | `Research/docs/` | Documents downloaded from the sources, in one folder per category. Excluded from Git |
 | `Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
+
+### Index
+
+`Index.md` in the repository root has one row for every file that has a metadata block: the file name, linked, and its tags. It exists so that an agent can connect and find things quickly without searching the whole repository.
+
+- **Start from `Index.md` when looking for something.** Search it for a tag (phase, origin, type or topic; section 8 of `Metadata/metadata_schema.md`), then open only the files it points to. Go to the folder READMEs for what each file says.
+- **Keep it current.** When you create, rename, move or delete a file with a metadata block, or change its tags, update its row in `Index.md` in the same change.
 
 ### Folder guides
 
@@ -87,6 +94,8 @@ This section is the running list of the standing instructions Marco gives during
 | 21 | 2026-10-07 | For the papers, do not ask anything more: keep all, download and convert. Then continue through the remaining categories with the extended scope until the desk research is finished, updating the progress file, and leave the interpretation for later. | Marco wants the collection finished before the interpretation |
 | 22 | 2026-10-07 | Keep a `README.md` in every folder that guides agents to the right file, so that they do not read every Markdown file each time; read the README of a folder first and keep it current. Details under "Folder guides" below. | To guide agents without making them read all the Markdown files every time |
 | 23 | 2026-10-07 | Widen the scope of the brief: do not think only of the Italian commuter, make a general analysis of commuting in multimodal environments, and decide the rest later ("e poi vediamo"). Applied on 2026-10-08: "Scope" section in `Brief/brief.md` and section 3 of `Research/desk_research_instructions.md`. | In Italy 86% use the car (Marco's figure, as he stated it) |
+| 24 | 2026-10-12 | Keep the tags to the smallest possible set, in the order phase, origin, type, topics: a phase tag (`research` now, `design` and `development` later), an origin tag in place of the `channel` field (`desk`, `interview`, `internal`), nine type tags and the eight topic tags. Details in section 8 of `Metadata/metadata_schema.md`. | To assign the tags of the metadata layer correctly, with the fewest tags possible for the knowledge base |
+| 25 | 2026-10-12 | Keep `Index.md` in the repository root with one row per file showing the file name and its tags; use it first to find and connect files, and update it whenever a file or its tags change. Details under "Index" above. | To help the agent connect and find things faster, without searching the whole repository |
 
 ### Language
 
@@ -152,7 +161,7 @@ The desk research instructions are in their own file: `Research/desk_research_in
 
 ## 4. File metadata
 
-Every file in the project starts with a metadata block: `source`, `date`, `channel`, `method`, `status`, `grade`, `confidence`, `tags`. It is the first thing in the file, before the title, and it is not optional.
+Every file in the project starts with a metadata block: `source`, `date`, `method`, `status`, `grade`, `confidence`, `tags`. It is the first thing in the file, before the title, and it is not optional.
 
 The block, the rules and the allowed values are defined in one place: `Metadata/metadata_schema.md`. That file is the only copy; do not repeat its content here.
 

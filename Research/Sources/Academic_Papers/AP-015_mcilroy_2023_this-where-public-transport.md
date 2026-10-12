@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:07
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: A
 confidence: n/a
-tags: [source, mode-choice, tools]
+tags: [research, desk, source, mode-choice, tools]
 ---
 
 # “This is where public transport falls down”: Place based perspectives of multimodal travel

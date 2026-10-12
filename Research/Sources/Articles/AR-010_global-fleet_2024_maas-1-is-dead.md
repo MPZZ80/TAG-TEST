@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:47
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, tools, why-now]
+tags: [research, desk, source, tools, why-now]
 ---
 
 # MaaS 1.0 is dead. Say hello to 'Public Mobility'

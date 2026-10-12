@@ -1,19 +1,18 @@
 ---
 source: Claude
-date: 2026-10-07 10:15
-channel: conversation
+date: 2026-10-12 19:59
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
-tags: [schema]
+tags: [internal, rules]
 ---
 
 # Metadata Schema
 
 The metadata block that opens every file in the project, and the fixed lists of values it may contain.
 
-**Status: draft, under review with Marco.** The lists in sections 3 to 9 are a first proposal. The files already in the project still carry free-text metadata and will be aligned once Marco has approved the lists.
+**Status: draft, under review with Marco.** The tags in section 8 were agreed with Marco on 2026-10-12 and applied to every file. The lists of the other fields are still a first proposal, and six files written before the schema (brief, questions, prompt, plan, `AGENTS.md`, desk research instructions) still carry free-text values in `source`, `method` and `confidence`.
 
 The aim of the schema is to keep the metadata small and predictable. Every field except `date` takes its value from a short closed list, so that categories and tags do not multiply as the project grows.
 
@@ -25,16 +24,15 @@ Every file starts with this block. It is the first thing in the file, before the
 ---
 source: Claude
 date: 2026-10-05 21:15
-channel: conversation
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
-tags: [plan]
+tags: [research, internal, plan]
 ---
 ```
 
-All eight fields are required, in this order. If a value is unknown, write `unknown`. Do not leave a field out and do not guess.
+All seven fields are required, in this order. If a value is unknown, write `unknown`. Do not leave a field out and do not guess.
 
 ## 2. Rules
 
@@ -57,17 +55,7 @@ All eight fields are required, in this order. If a value is unknown, write `unkn
 
 For a file with mixed origins, choose the origin of the substance. A research output written by Claude from external sources is `external`.
 
-## 4. `channel`: how the content reached the project
-
-| Value | Use it when |
-| --- | --- |
-| `conversation` | It was written or pasted in a session between Marco and the agent |
-| `web` | It was gathered from websites, reports, papers or product pages |
-| `community` | It was gathered from user reviews, Reddit, forums or social media |
-| `interview` | It was gathered in an interview |
-| `observation` | It was observed first-hand, for example on a commute or while using an app |
-
-## 5. `method`: how the content was produced
+## 4. `method`: how the content was produced
 
 | Value | Use it when |
 | --- | --- |
@@ -79,7 +67,7 @@ For a file with mixed origins, choose the origin of the substance. A research ou
 | `interview` | A conversation with a participant, recorded as notes or transcript |
 | `synthesis` | Combining the results of several other files |
 
-## 6. `status`: how far the file has been checked by Marco
+## 5. `status`: how far the file has been checked by Marco
 
 Every file has a status. It says how settled the file is, not how true its content is.
 
@@ -94,7 +82,7 @@ Every file has a status. It says how settled the file is, not how true its conte
 - When an agent changes the substance of an `approved` file, the status goes back to `reviewed` until Marco confirms it again.
 - A file that contains evidence becomes `approved` only after Marco has opened the sources behind its key findings.
 
-## 7. `grade`: how reliable the sources are
+## 6. `grade`: how reliable the sources are
 
 | Value | Meaning |
 | --- | --- |
@@ -107,7 +95,7 @@ Every file has a status. It says how settled the file is, not how true its conte
 - The grade applies to files of type `source`, `output` and `synthesis`. A source file carries the grade of its source. An output or synthesis carries the grade most common among the sources behind its findings.
 - How to grade interview `notes` will be decided before the interviews. Until then they have `grade: n/a`.
 
-## 8. `confidence`: how solid the evidence is
+## 7. `confidence`: how solid the evidence is
 
 Confidence applies to files of type `output`, `notes` and `synthesis`. Every other file, including a source file, has `confidence: n/a`.
 
@@ -123,27 +111,55 @@ Confidence applies to files of type `output`, `notes` and `synthesis`. Every oth
 - **Confidence is a value, not an apology.** Set it to what the rules give and state the content plainly. Do not raise it to make a file look stronger, and do not replace it with hedging in the text.
 - **A low-confidence file is an honest file.** `low` is a normal and useful value: it tells Marco what still needs checking.
 
-## 9. `tags`: what kind of file it is and what it is about
+## 8. `tags`: phase, origin, type and topics
 
-A file has at most four tags: exactly one type tag, written first, and up to three topic tags.
+Agreed with Marco on 2026-10-12. The aim is the smallest set of tags that still tells the files of the knowledge base apart. A file has at most six tags, always in this order: phase, origin, type, then the topics.
 
-### Type tags (exactly one)
+```markdown
+tags: [research, desk, source, disruption, tools]
+tags: [research, interview, notes, planning, disruption]
+tags: [research, internal, plan]
+```
+
+### Phase (one, written first)
+
+| Tag | Use it when |
+| --- | --- |
+| `research` | The file belongs to the research: questions, plan, sources, notes, analysis |
+| `design` | The file belongs to the design work. Not used yet |
+| `development` | The file belongs to the development work. Not used yet |
+
+A file that serves the whole project and not one phase has no phase tag: the brief, `AGENTS.md` and this schema.
+
+### Origin (exactly one)
+
+It replaces the old `channel` field.
+
+| Tag | Use it when |
+| --- | --- |
+| `desk` | The content comes from published sources: the source files, the lists of sources and the analysis built on them |
+| `interview` | The content comes from an interview: notes and interview findings |
+| `internal` | The file was written by Marco or by an agent and holds no evidence: brief, questions, plans, rules, scripts, indexes |
+
+A file that combines desk and interview evidence takes the origin of most of its evidence. Whether a desk source is a report, a product page, a review sample or a forum thread is told by its folder and by the "Kind of source" row of the source file, not by a tag.
+
+### Type (exactly one)
 
 | Tag | Kind of file |
 | --- | --- |
 | `brief` | The project brief |
 | `questions` | Research questions |
-| `prompt` | A saved prompt |
-| `plan` | A plan of activities |
-| `instructions` | Rules for how agents work |
-| `schema` | A definition of structure, such as this file |
+| `plan` | A plan of activities, or the record of its progress |
+| `rules` | How the work is done: instructions for agents, schemas, saved prompts |
 | `script` | An interview or test script |
 | `source` | The description of one source used in the research |
-| `output` | The result of a research activity |
-| `notes` | Raw notes from an interview or an observation |
-| `synthesis` | Findings combined across activities |
+| `notes` | Notes on one interview or one observation |
+| `output` | The result of one research activity, including the lists of candidate sources and of sources to obtain |
+| `synthesis` | Findings combined across sources or activities, and indexes of them |
 
-### Topic tags (none to three)
+`rules` replaces the earlier `instructions`, `schema` and `prompt`.
+
+### Topics (none to three, written last)
 
 The topics are the eight groups of the initial research questions, so that a file can be traced back to the questions it helps answer.
 
@@ -160,12 +176,15 @@ The topics are the eight groups of the initial research questions, so that a fil
 
 - Use topic tags only for the topics a file is mainly about.
 - A file that covers the whole project, such as the brief or the plan, has no topic tag.
-- Do not add tags for the project itself (`intercity-commuting`, `discovery`): they would be on every file and would tell nothing apart.
 
-## 10. Open points for Marco
+### What is not a tag
+
+- The project itself (`intercity-commuting`, `discovery`): it would be on every file and would tell nothing apart.
+- The leg of the journey, the country, the language: they are in the body of the file.
+- Grade, confidence and status: they have their own fields.
+
+## 9. Open points for Marco
 
 - Whether the four `source` values are enough, or the detail should be kept, for example the name of the model.
-- Whether `community` should stay separate from `web`.
-- Whether topic tags should follow the question groups, as proposed, or the research activities (reports, academic, competitors, reviews, forums, trends).
-- Whether the limit of four tags is right.
+- Whether an origin tag is needed for first-hand observation, which the old `channel` field had and the tags do not.
 - Whether three `status` values are enough.

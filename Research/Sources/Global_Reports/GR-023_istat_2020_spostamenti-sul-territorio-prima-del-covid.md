@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:28
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, who, mode-choice]
+tags: [research, desk, source, who, mode-choice]
 ---
 
 # Gli spostamenti sul territorio prima del Covid-19, anno 2019

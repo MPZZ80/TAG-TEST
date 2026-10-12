@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 15:03
-channel: community
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, tools, information]
+tags: [research, desk, source, tools, information]
 ---
 
 # Moovit: Orari Bus e Treni: App Store reviews, Italy (sample)

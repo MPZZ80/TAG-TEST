@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:15
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, tools, why-now, success]
+tags: [research, desk, source, tools, why-now, success]
 ---
 
 # The Sydney Mobility as a Service (MaaS) Trial: final report

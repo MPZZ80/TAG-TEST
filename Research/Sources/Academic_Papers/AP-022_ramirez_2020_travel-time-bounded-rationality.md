@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:14
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, planning]
+tags: [research, desk, source, planning]
 ---
 
 # Travel time and bounded rationality in travellers’ route choice behaviour: A computer route choice experiment

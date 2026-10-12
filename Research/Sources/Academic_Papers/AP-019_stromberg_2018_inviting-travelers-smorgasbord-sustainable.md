@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 19:13
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, tools]
+tags: [research, desk, source, tools]
 ---
 
 # Inviting travelers to the smorgasbord of sustainable urban transport: evidence from a MaaS field trial

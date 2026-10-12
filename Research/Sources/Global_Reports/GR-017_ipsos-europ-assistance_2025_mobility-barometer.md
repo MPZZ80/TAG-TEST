@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 23:25
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: B
 confidence: n/a
-tags: [source, mode-choice, disruption]
+tags: [research, desk, source, mode-choice, disruption]
 ---
 
 # Europ Assistance's 2025 Mobility Barometer

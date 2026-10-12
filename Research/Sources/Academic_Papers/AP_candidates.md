@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 01:29
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: reviewed
 grade: n/a
 confidence: n/a
-tags: [output, mode-choice, information, why-now]
+tags: [research, desk, output, mode-choice, information, why-now]
 ---
 
 # Candidate Sources: Academic Papers

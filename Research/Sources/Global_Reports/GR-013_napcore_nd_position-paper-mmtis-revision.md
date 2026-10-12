@@ -1,12 +1,11 @@
 ---
 source: external
-date: 2026-10-07 13:33
-channel: web
+date: 2026-10-12 19:59
 method: review
 status: draft
 grade: C
 confidence: n/a
-tags: [source, information, why-now]
+tags: [research, desk, source, information, why-now]
 ---
 
 # NAPCORE position paper on the revision of the delegated regulation on multimodal travel information services (EU) 2017/1926
