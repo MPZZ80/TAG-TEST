@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-12 23:13
+
+- **Files:** `Index.md`, `AGENTS.md`
+- **Change:** `Index.md` merged with the version Marco had edited and not saved in his editor (dated 2026-10-12 21:08): from his version, the removal of the four transcripts and of the eight list files (`*_candidates.md`, `*_to_obtain.md`); from the version on disk, the pain-point tags and the lines of `open_issues.md` and of the survey files. `AGENTS.md`: the "Index" rule and general instruction 30 record the two exclusions.
+- **Why:** Marco: "Fai merge del file Index delle due versioni"; the two versions were his unsaved edit and the file on disk.
+- **Do not:** list transcripts or lists of sources in `Index.md`.
+
 ## 2026-10-12 22:49
 
 - **Files:** `Research/Survey/survey_en.md`, `survey_it.md`, `survey_de.md`, `survey_fr.md`, `survey_nl.md`, `posting_venues.md`, `build_google_forms.gs`, `README.md` (all in `Research/Survey/`), `Research/survey_draft.md`, `Research/plan.md`, `Research/README.md`, `AGENTS.md`, `Index.md`

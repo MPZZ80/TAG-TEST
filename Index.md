@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-12 21:36
+date: 2026-10-12 23:13
 method: generated
 status: draft
 grade: n/a
@@ -25,13 +25,6 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - Marco_Palermo_notes.md — [research, interview, notes, planning, disruption, tools, late-info, first-last-mile, workarounds, contradiction · draft · n/a · low]
 - Matteo_Rizzetto_notes.md — [research, interview, notes, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, usual-trip, crowding, workarounds, contradiction · draft · n/a · low]
 - Valentina_Di_Floriano_notes.md — [research, interview, notes, planning, disruption, information, no-alternative, first-last-mile, hybrid-work, unreliable-service, crowding, workarounds · draft · n/a · low]
-
-## Research/Interviews/_Transcripts
-
-- Marco_Palermo.md — [unknown · unknown · unknown · unknown]
-- Matteo_Rizzetto.md — [unknown · unknown · unknown · unknown]
-- Valentina_Di_Floriano_1.md — [unknown · unknown · unknown · unknown]
-- Valentina_Di_Floriano_2.md — [unknown · unknown · unknown · unknown]
 
 ## Research/Sources/Academic_Papers
 
@@ -63,8 +56,6 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.md — [research, desk, source, tools · draft · B · n/a]
 - AP-027_keyes_2018_changing-influences-commuting-mode.md — [research, desk, source, mode-choice, habit · draft · B · n/a]
 - AP-028_shires_2018_impact-planned-disruptions-rail.md — [research, desk, source, disruption, no-alternative, tight-connection · draft · B · n/a]
-- AP_candidates.md — [research, desk, output, mode-choice, information, why-now · reviewed · n/a · n/a]
-- AP_to_obtain.md — [research, desk, output, who · draft · n/a · n/a]
 
 ## Research/Sources/Articles
 
@@ -78,7 +69,6 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md — [research, desk, source, tools, why-now · draft · B · n/a]
 - AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md — [research, desk, source, planning, why-now, hybrid-work · draft · C · n/a]
 - AR-010_global-fleet_2024_maas-1-is-dead.md — [research, desk, source, tools, why-now · draft · B · n/a]
-- AR_to_obtain.md — [research, desk, output, why-now · draft · n/a · n/a]
 
 ## Research/Sources/Global_Reports
 
@@ -138,8 +128,6 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - GR-054_cciss_nd_italian-national-access-point-mmtis.md — [research, desk, source, information, why-now · draft · B · n/a]
 - GR-055_gtfs-de_nd_realtime-data-germany.md — [research, desk, source, information, tools · draft · B · n/a]
 - GR-056_data4pt_nd_italian-ministry-partner-perspective.md — [research, desk, source, why-now, information · draft · C · n/a]
-- GR_candidates.md — [research, desk, output, who, why-now · reviewed · n/a · n/a]
-- GR_to_obtain.md — [research, desk, output, why-now, mode-choice · draft · n/a · n/a]
 
 ## Research/Sources/Online_Forums
 
@@ -147,7 +135,6 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md — [research, desk, source, planning, disruption, late-info, no-alternative, tight-connection, first-last-mile, crowding, workarounds · draft · C · n/a]
 - OF-003_hacker-news_2023_hn-citymapper-joins-via.md — [research, desk, source, tools, why-now, late-info · draft · C · n/a]
 - OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md — [research, desk, source, tools, success · draft · C · n/a]
-- OF_to_obtain.md — [research, desk, output, who · draft · n/a · n/a]
 
 ## Research/Sources/Online_Reviews
 
@@ -168,7 +155,6 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - OR-015_apple-app-store_2026_9292-nl.md — [research, desk, source, tools, information, late-info, no-alternative · draft · C · n/a]
 - OR-016_apple-app-store_2026_reiswijs-nl.md — [research, desk, source, tools, information · draft · C · n/a]
 - OR-017_apple-app-store_2026_sprinter-nl.md — [research, desk, source, tools, information · draft · C · n/a]
-- OR_to_obtain.md — [research, desk, output, tools · draft · n/a · n/a]
 
 ## Research/Sources/Products
 
@@ -189,7 +175,6 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - PR-015_reisinformatiegroep_2026_9292.md — [research, desk, source, tools, information · draft · B · n/a]
 - PR-016_toertje_2026_reiswijs.md — [research, desk, source, mode-choice, tools · draft · B · n/a]
 - PR-017_bodlaender_2026_sprinter.md — [research, desk, source, tools · draft · B · n/a]
-- PR_to_obtain.md — [research, desk, output, tools · draft · n/a · n/a]
 
 ## Research/Survey
 

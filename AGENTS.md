@@ -31,7 +31,7 @@ Put a new document in the folder it belongs to, not in the root. Create a new fo
 
 ### Index
 
-`Index.md` in the repository root has one line for every Markdown file in the `Research/` folder and its subfolders. Files outside `Research/` are not listed, and neither are the `README.md` files. It exists so that an agent can connect and find things quickly without searching the whole repository.
+`Index.md` in the repository root has one line for every Markdown file in the `Research/` folder and its subfolders. Files outside `Research/` are not listed, and neither are the `README.md` files, the interview transcripts and the lists of sources (`*_candidates.md`, `*_to_obtain.md`). It exists so that an agent can connect and find things quickly without searching the whole repository.
 
 - **Format of a line, exactly:** `- filename — [tags · status · grade · confidence]`. The tags include the activity (`desk`, `interview` or `internal`).
 - **One line per file.** No summaries, no commentary, no interpretation.
@@ -106,6 +106,7 @@ This section is the running list of the standing instructions Marco gives during
 | 27 | 2026-10-12 | Tag the single pain points with a small, granular set of terms (twelve pain-point tags, section 8 of `Metadata/metadata_schema.md`), and keep the findings of each interview inside its notes file without the finding numbers of the earlier analysis, which will come back under another naming system. | The analysis will come back in another form with another categorisation of the findings |
 | 28 | 2026-10-12 | Do not list `README.md` files in `Index.md`. | Not stated |
 | 29 | 2026-10-12 | Texts written for respondents, such as the survey, are made in the languages of the places where they are posted, one file per language; the reference version stays in English. | The survey has to reach Italians and people in other countries |
+| 30 | 2026-10-12 | Do not list the interview transcripts or the lists of sources (`*_candidates.md`, `*_to_obtain.md`) in `Index.md`. | Not stated; taken from Marco's own edit of the index |
 
 ### Language
 
