@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-13 20:54
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** "Mail" line added again under "Contact" on the 30 venues that lacked it after Marco rewrote the file; 8 filled with the addresses already found, the others left empty. The two lines Marco wrote himself were not touched.
+- **Why:** Marco: "Inserisci il campo mail - **Mail:** per tutti i posting venues che l'ho riscritto".
+
 ## 2026-10-13 20:39
 
 - **Files:** `Research/Survey/permission_requests.md`, `Research/Survey/README.md`, `Index.md`
