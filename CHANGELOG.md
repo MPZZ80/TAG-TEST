@@ -4,6 +4,18 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-14 00:21
+
+- **Files:** `Research/Survey/posting_venues.md`, `Research/Survey/permission_requests.md`
+- **Change:** Links of the Spanish form added: respondents' link and edit link in the two tables of the venues file, respondents' link in the Spanish permission message.
+- **Why:** Marco built the Spanish form and supplied the links from the execution log.
+
+## 2026-10-14 00:19
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** The Spanish additions applied again on the version Marco had saved: the Catalan association moved from "Left out" to a "Spanish" section in the block format, and a Spanish row in the two tables of form links.
+- **Why:** Marco updated the venues file in the meantime and overwrote the earlier change; he asked to redo the Spanish integration.
+
 ## 2026-10-14 00:13
 
 - **Files:** `Research/Survey/survey_es.md`, `Research/Survey/build_google_forms.gs`, `Research/Survey/permission_requests.md`, `Research/Survey/posting_venues.md`, `Research/Survey/README.md`, `Research/plan.md`, `Index.md`

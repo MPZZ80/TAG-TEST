@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-14 00:09
+date: 2026-10-14 00:21
 method: review
 status: draft
 grade: n/a
@@ -28,6 +28,7 @@ One Google Form per language, built on 2026-10-13 with `build_google_forms.gs`. 
 | English | [form](https://docs.google.com/forms/d/e/1FAIpQLSfPaWvYQPNG3DX94pf37Pm6q8SML-ZlOCfo304VMo8c5Ep78Q/viewform) |
 | German | [form](https://docs.google.com/forms/d/e/1FAIpQLSfFISz_bluE1WJJcDRTrL1F4zupyhCD_E5bTTNKhNrsx2BhmQ/viewform) |
 | French | [form](https://docs.google.com/forms/d/e/1FAIpQLSc16zN5h6nv7KKnJtutr8vxSMvwIvzD-3Gkw41F6RfpmXr3kw/viewform) |
+| Spanish | [form](https://docs.google.com/forms/d/e/1FAIpQLSdJD1n9Nz31RdZg3-930RCFiZ-5ByCqf8T1xkbFhMQeJuye8A/viewform) |
 
 ## Forms: links to edit
 
@@ -40,6 +41,7 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 | English | [edit](https://docs.google.com/forms/d/1i19IzFZwnmrxyzCCZTQHBKemhOZddWEkKqwsN0cj4ps/edit) |
 | German | [edit](https://docs.google.com/forms/d/1B3xlgCBWB4yddY3eXOXqYZml1gTodeo3uS1AEkYKDQI/edit) |
 | French | [edit](https://docs.google.com/forms/d/1T21h3dGZkLog5wF7dZioJo4WvtuJpoZo0COsj2mAi6s/edit) |
+| Spanish | [edit](https://docs.google.com/forms/d/1dP5BF0l8oEI3PYaTafOwj4oEDixLUxu5PkM_fppOycU/edit) |
 
 ## Italian (`survey_it.md`)
 
@@ -253,9 +255,17 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Contact:** "Message the mods" link
 - **Mail:**
 
+## Spanish (`survey_es.md`)
+
+### Associació per a la Promoció del Transport Públic (PTP), Catalan association for public transport
+
+- **Link:** [transportpublic.org/contacte](https://transportpublic.org/contacte/)
+- **Permission:** Ask first
+- **Contact:** The site is in Catalan; the association is a member of the European Passengers' Federation. Phone and WhatsApp 682659483
+- **Mail:** info@transportpublic.org
+
 ## Left out
 
-- **Spanish:** the Catalan association for public transport, [transportpublic.org](http://www.transportpublic.org/), is a member of the European federation. No Spanish version of the survey was made; say if it is wanted.
 - **Closed Facebook and Telegram groups of single lines:** they exist for most Italian lines and cannot be read by the agent. The committees above can point to them.
 
 ## Could not do

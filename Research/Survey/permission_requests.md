@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-14 00:13
+date: 2026-10-14 00:21
 method: generated
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [plan.md, posting_venues.md, survey_en.md]
 
 # Permission Requests
 
-The message to send to the people who run a group, forum or association before posting the survey, one per language. Each has the link to the form in its language, except the Spanish one, whose form is not built yet. Replace the text in square brackets. The translations are working translations: have them checked by a native speaker.
+The message to send to the people who run a group, forum or association before posting the survey, one per language. Each has the link to the form in its language. Replace the text in square brackets. The translations are working translations: have them checked by a native speaker.
 
 ## Italian
 
@@ -114,7 +114,7 @@ Me llamo Marco Palermo y estoy haciendo un curso de User Experience. Para el pro
 Me gustaría pedirles permiso para compartir un breve cuestionario con [los miembros del grupo / sus socios]. Es anónimo, no pide nombre ni correo electrónico y se responde en unos 5 minutos. No tiene ningún fin comercial.
 
 Pueden leerlo aquí antes de decidir:
-[link of the Spanish form, to add after running `buildEs`]
+https://docs.google.com/forms/d/e/1FAIpQLSdJD1n9Nz31RdZg3-930RCFiZ-5ByCqf8T1xkbFhMQeJuye8A/viewform
 
 Si están de acuerdo, puedo publicarlo yo o pueden difundirlo ustedes, como prefieran. Si la respuesta es no, no hay ningún problema.
 
