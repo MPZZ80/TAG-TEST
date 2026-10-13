@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-13 20:39
+date: 2026-10-14 00:13
 method: generated
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [plan.md, posting_venues.md, survey_en.md]
 
 # Permission Requests
 
-The message to send to the people who run a group, forum or association before posting the survey, one per language. Each has the link to the form in its language. Replace the text in square brackets. The translations are working translations: have them checked by a native speaker.
+The message to send to the people who run a group, forum or association before posting the survey, one per language. Each has the link to the form in its language, except the Spanish one, whose form is not built yet. Replace the text in square brackets. The translations are working translations: have them checked by a native speaker.
 
 ## Italian
 
@@ -101,6 +101,24 @@ https://docs.google.com/forms/d/e/1FAIpQLSc9O8Py-d4QZGToUcbcS64RBos8BwtKSbpHIYIo
 Als u akkoord gaat, kan ik de enquête zelf plaatsen of kunt u haar doorsturen, wat u het liefst hebt. Als het antwoord nee is, is dat geen enkel probleem.
 
 Bedankt voor uw tijd,
+Marco Palermo
+
+## Spanish
+
+**Asunto:** Solicitud para compartir un breve cuestionario anónimo sobre desplazamientos entre ciudades
+
+Buenos días:
+
+Me llamo Marco Palermo y estoy haciendo un curso de User Experience. Para el proyecto del curso estoy recogiendo información con el fin de diseñar un servicio para las personas que se desplazan entre ciudades por trabajo o estudios.
+
+Me gustaría pedirles permiso para compartir un breve cuestionario con [los miembros del grupo / sus socios]. Es anónimo, no pide nombre ni correo electrónico y se responde en unos 5 minutos. No tiene ningún fin comercial.
+
+Pueden leerlo aquí antes de decidir:
+[link of the Spanish form, to add after running `buildEs`]
+
+Si están de acuerdo, puedo publicarlo yo o pueden difundirlo ustedes, como prefieran. Si la respuesta es no, no hay ningún problema.
+
+Gracias por su atención,
 Marco Palermo
 
 ## Connections

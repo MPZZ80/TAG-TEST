@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's notes, brief.md and initial_questions.md
-date: 2026-10-12 22:49
+date: 2026-10-14 00:13
 method: AI-drafted plan, revised on Marco's instructions
 confidence: medium
 tags: [research, internal, plan]
@@ -199,7 +199,7 @@ Added on 2026-10-12: Marco is not sure he can do more interviews, so an online s
 
 - **Goal:** count, among people who commute between towns or cities, the things the interviews could only hint at: fixed or flexible hours, how many really change vehicle, whether they check before leaving, what goes wrong and on which leg, and which pain points weigh most. The open issues it addresses are named in `Survey/survey_en.md`.
 - **Form:** 24 questions, 22 closed and 2 open and optional, about 5 minutes, anonymous, with no follow-up conversation.
-- **Languages:** English, Italian, German, French and Dutch, one form per language.
+- **Languages:** English, Italian, German, French, Dutch and Spanish, one form per language.
 - **Where:** the places in `Survey/posting_venues.md`; most need the permission of an association or of moderators.
 - **Limit:** respondents choose themselves, so the results describe who answered and not commuters in general.
 - **Outputs:** the answers exported from the forms and one output file with the counts per question, by country.

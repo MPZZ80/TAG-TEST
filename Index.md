@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-12 23:13
+date: 2026-10-14 00:13
 method: generated
 status: draft
 grade: n/a
@@ -181,6 +181,7 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - permission_requests.md — [research, internal, script · draft · n/a · n/a]
 - posting_venues.md — [research, desk, output · draft · n/a · n/a]
 - survey_de.md — [research, internal, script · draft · n/a · n/a]
+- survey_es.md — [research, internal, script · draft · n/a · n/a]
 - survey_en.md — [research, internal, script · draft · n/a · n/a]
 - survey_fr.md — [research, internal, script · draft · n/a · n/a]
 - survey_it.md — [research, internal, script · draft · n/a · n/a]

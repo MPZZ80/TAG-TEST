@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-13 20:54
+date: 2026-10-14 00:09
 method: review
 status: draft
 grade: n/a
@@ -92,14 +92,16 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Link:** [pendolaria.it/contatti-lazio](https://www.pendolaria.it/contatti-lazio/)
 - **Permission:** Ask first, one at a time
 - **Contact:** On each committee's site or Facebook page
-- **Mail:**
+- **Mail:** comitatopendolari.copefo@gmail.com
 
 ### Public transport users' association, Milan section (member of the European federation)
 
 - **Link:** [utpmilano.it/contatti](https://utpmilano.it/contatti/)
 - **Permission:** Ask first
 - **Contact:** Contact page; the address was not visible on the home page
-- **Mail:**
+- **Mail:** utp.utpmilano@gmail.com
+
+
 
 ### Ferrovie.it forum, already a source of this research (OF-001)
 
@@ -150,7 +152,7 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Link:** [railfuture.org.uk/Contact-Us](https://www.railfuture.org.uk/Contact-Us)
 - **Permission:** Ask first
 - **Contact:** info at railfuture.org.uk, written this way on the page
-- **Mail:** info at railfuture.org.uk (written this way on the page)
+- **Mail:** info@railfuture.org.uk (written this way on the page)
 
 ### RailUK Forums
 
@@ -166,12 +168,7 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Contact:** secretariat@epf.eu
 - **Mail:** secretariat@epf.eu
 
-### Prolific, a paid panel
-
-- **Link:** [prolific.com](https://www.prolific.com/)
-- **Permission:** None; it costs money per answer
-- **Contact:** Not opened
-- **Mail:**
+#
 
 ## German (`survey_de.md`)
 
@@ -198,10 +195,10 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 
 ### Austrian passengers' associations, members of the European federation
 
-- **Link:** [fahrgast.at](http://www.fahrgast.at/), [probahn.at](http://www.probahn.at/)
+- **Link:** [fahrgast.at](http://www.fahrgast.at/), 
 - **Permission:** Ask first
 - **Contact:** On the sites; not opened
-- **Mail:**
+- **Mail:** Fahrgast@gmx.at
 
 ### Reddit communities of Germany, Austria and Switzerland
 
@@ -231,14 +228,7 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Link:** [actp.be](http://www.actp.be/)
 - **Permission:** Ask first
 - **Contact:** On the site; not opened
-- **Mail:**
-
-### French-speaking Switzerland
-
-- **Link:** [pro-bahn.ch](https://www.pro-bahn.ch/)
-- **Permission:** Ask first
-- **Contact:** info@pro-bahn.ch
-- **Mail:** info@pro-bahn.ch
+- **Mail:** contact@navetteurs.be
 
 ## Dutch (`survey_nl.md`)
 
@@ -254,7 +244,7 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Link:** [treintrambus.be](http://www.treintrambus.be/), [reizigersbond.be](http://www.reizigersbond.be/)
 - **Permission:** Ask first
 - **Contact:** On the sites; not opened
-- **Mail:**
+- **Mail:** info@treintrambus.be | reizigersbond@telenet.be
 
 ### Reddit community of the Netherlands
 

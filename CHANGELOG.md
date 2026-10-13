@@ -4,6 +4,18 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-14 00:13
+
+- **Files:** `Research/Survey/survey_es.md`, `Research/Survey/build_google_forms.gs`, `Research/Survey/permission_requests.md`, `Research/Survey/posting_venues.md`, `Research/Survey/README.md`, `Research/plan.md`, `Index.md`
+- **Change:** File created: the Spanish version of the survey. Script: Spanish texts and the function `buildEs`. Permission requests: Spanish message, with the form link still to add. Venues: the Catalan association for public transport moved from "Left out" to a new "Spanish" section in the same block format as the others, with its address; a Spanish row in the two tables of form links. Guides, plan and index updated.
+- **Why:** Marco: "Create a spanish version of the message and the survey for the catalan association for public transport, also modify the structure of the venue as the other entries".
+
+## 2026-10-14 00:09
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** The entry "French-speaking Switzerland" (pro-bahn.ch) removed from the French section; Pro Bahn Schweiz stays only in the German section.
+- **Why:** Marco: "probahn.ch should be in german".
+
 ## 2026-10-13 20:54
 
 - **Files:** `Research/Survey/posting_venues.md`
