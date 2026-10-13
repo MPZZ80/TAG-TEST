@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-12 22:49
+date: 2026-10-13 20:32
 method: review
 status: draft
 grade: n/a
@@ -17,62 +17,263 @@ Places where the commuter survey could be posted, by language, with who to ask f
 - **What was checked:** that the page exists and what contact it shows. The rules of each group on surveys were not checked, and Reddit and Facebook cannot be read by the agent: read the rules of each group before posting.
 - **E-mail addresses** are written as the page shows them. Where the page hides the address or has only a form, this is said.
 
+## Forms: links for respondents
+
+One Google Form per language, built on 2026-10-13 with `build_google_forms.gs`. These are the links to post. Add a different tracking note for each venue if you want to know where the answers come from.
+
+| Language | Link for respondents |
+| --- | --- |
+| Italian | [form](https://docs.google.com/forms/d/e/1FAIpQLSdL9PktQAHg8MsAuDR7BIcxh_fi0gVD6w8sX1zNI7pw0QrdJg/viewform) |
+| Dutch | [form](https://docs.google.com/forms/d/e/1FAIpQLSc9O8Py-d4QZGToUcbcS64RBos8BwtKSbpHIYIokZjFVxHDQA/viewform) |
+| English | [form](https://docs.google.com/forms/d/e/1FAIpQLSfPaWvYQPNG3DX94pf37Pm6q8SML-ZlOCfo304VMo8c5Ep78Q/viewform) |
+| German | [form](https://docs.google.com/forms/d/e/1FAIpQLSfFISz_bluE1WJJcDRTrL1F4zupyhCD_E5bTTNKhNrsx2BhmQ/viewform) |
+| French | [form](https://docs.google.com/forms/d/e/1FAIpQLSc16zN5h6nv7KKnJtutr8vxSMvwIvzD-3Gkw41F6RfpmXr3kw/viewform) |
+
+## Forms: links to edit
+
+For Marco only: they open the forms in edit mode and work only from his Google account. Do not post them.
+
+| Language | Link to edit |
+| --- | --- |
+| Italian | [edit](https://docs.google.com/forms/d/1QudCsteV0tOIZoy20jYXH8y8bpXbvQqBUjfn0PeNrKY/edit) |
+| Dutch | [edit](https://docs.google.com/forms/d/1gRovH4qKUAWQGnXGFAR53wN-VFH2ma8apMoJ-1xTpQM/edit) |
+| English | [edit](https://docs.google.com/forms/d/1i19IzFZwnmrxyzCCZTQHBKemhOZddWEkKqwsN0cj4ps/edit) |
+| German | [edit](https://docs.google.com/forms/d/1B3xlgCBWB4yddY3eXOXqYZml1gTodeo3uS1AEkYKDQI/edit) |
+| French | [edit](https://docs.google.com/forms/d/1T21h3dGZkLog5wF7dZioJo4WvtuJpoZo0COsj2mAi6s/edit) |
+
 ## Italian (`survey_it.md`)
 
-| Where | Link | Permission | Contact |
-| --- | --- | --- | --- |
-| Commuter committees of Lombardy, list kept by Legambiente's Pendolaria | [pendolaria.it/contatti-lombardia](https://www.pendolaria.it/contatti-lombardia/) | Ask first, one committee at a time | On each committee's own site or Facebook group; the list gives one address, pendolarisanzenone@gmail.com, for the committee of south Milan and Lodi |
-| Como–Lecco commuters' committee | [pendolari-co-lc.it](http://www.pendolari-co-lc.it/) | Ask first | On the site; not opened |
-| Bergamo commuters' committee | [quellideltreno.com](https://quellideltreno.com/) | Ask first | On the site; not opened |
-| Mantova–Cremona–Milano line committee | [inorario.com](http://www.inorario.com/) | Ask first | On the site; not opened |
-| Gallarate–Milano committee, Facebook group | [facebook.com/groups/802902436426907](https://www.facebook.com/groups/802902436426907/) | Ask the group administrators | Message to the administrators inside the group |
-| S6 line committee (Novara–Milano–Treviglio), Facebook group | [facebook.com/groups/301983259856279](https://www.facebook.com/groups/301983259856279/) | Ask the group administrators | Message to the administrators inside the group |
-| Coordination of the commuter committees of Piedmont (22 associations) | [pendolaripiemonte.it](http://www.pendolaripiemonte.it/) | Ask first | On the site; listed at [pendolaria.it/contatti-piemonte](https://www.pendolaria.it/contatti-piemonte/), which gives no address |
-| Roma Nord railway commuters' committee | [pendolariromanord.com/about](https://pendolariromanord.com/about/) | Ask first | pendolari.romanord@gmail.com; Telegram [telegram.me/pendolariromanord](https://telegram.me/pendolariromanord) |
-| Other committees of Lazio (Orte, Roma–Ostia, Roma–Cassino, Tivoli–Roma and others) | [pendolaria.it/contatti-lazio](https://www.pendolaria.it/contatti-lazio/) | Ask first, one at a time | On each committee's site or Facebook page |
-| Public transport users' association, Milan section (member of the European federation) | [utpmilano.it/contatti](https://utpmilano.it/contatti/) | Ask first | Contact page; the address was not visible on the home page |
-| Ferrovie.it forum, already a source of this research (OF-001) | [forum.ferrovie.it](https://forum.ferrovie.it/) | Ask the moderators | Private message to the moderators after registering; no address found |
-| Reddit: r/italy and the city communities | [reddit.com/r/italy](https://www.reddit.com/r/italy/) | Read the rules; many communities ask to write to the moderators before a survey | "Message the mods" link of each community |
-| Your own LinkedIn and company or university channels | — | None | — |
+### Commuter committees of Lombardy, list kept by Legambiente's Pendolaria
+
+- **Link:** [pendolaria.it/contatti-lombardia](https://www.pendolaria.it/contatti-lombardia/)
+- **Permission:** Ask first, one committee at a time
+- **Contact:** On each committee's own site or Facebook group
+- **Mail:** pendolarisanzenone@gmail.com (committee of south Milan and Lodi only; none given for the others)
+
+### Como–Lecco commuters' committee
+
+- **Link:** [pendolari-co-lc.it](http://www.pendolari-co-lc.it/)
+- **Permission:** Ask first
+- **Contact:** On the site; not opened
+- **Mail:**
+
+### Bergamo commuters' committee
+
+- **Link:** [quellideltreno.com](https://quellideltreno.com/)
+- **Permission:** Ask first
+- **Contact:** On the site; not opened
+- **Mail:**
+
+### Mantova–Cremona–Milano line committee
+
+- **Link:** [inorario.com](http://www.inorario.com/)
+- **Permission:** Ask first
+- **Contact:** On the site; not opened
+- **Mail:**
+
+### Gallarate–Milano committee, Facebook group
+
+- **Link:** [facebook.com/groups/802902436426907](https://www.facebook.com/groups/802902436426907/)
+- **Permission:** Ask the group administrators
+- **Contact:** Message to the administrators inside the group
+- **Mail:**
+
+### S6 line committee (Novara–Milano–Treviglio), Facebook group
+
+- **Link:** [facebook.com/groups/301983259856279](https://www.facebook.com/groups/301983259856279/)
+- **Permission:** Ask the group administrators
+- **Contact:** Message to the administrators inside the group
+- **Mail:**
+
+### Coordination of the commuter committees of Piedmont (22 associations)
+
+- **Link:** [pendolaripiemonte.it](http://www.pendolaripiemonte.it/)
+- **Permission:** Ask first
+- **Contact:** On the site; listed at [pendolaria.it/contatti-piemonte](https://www.pendolaria.it/contatti-piemonte/), which gives no address
+- **Mail:**
+
+### Roma Nord railway commuters' committee
+
+- **Link:** [pendolariromanord.com/about](https://pendolariromanord.com/about/)
+- **Permission:** Ask first
+- **Contact:** Telegram [telegram.me/pendolariromanord](https://telegram.me/pendolariromanord)
+- **Mail:** pendolari.romanord@gmail.com
+
+### Other committees of Lazio (Orte, Roma–Ostia, Roma–Cassino, Tivoli–Roma and others)
+
+- **Link:** [pendolaria.it/contatti-lazio](https://www.pendolaria.it/contatti-lazio/)
+- **Permission:** Ask first, one at a time
+- **Contact:** On each committee's site or Facebook page
+- **Mail:**
+
+### Public transport users' association, Milan section (member of the European federation)
+
+- **Link:** [utpmilano.it/contatti](https://utpmilano.it/contatti/)
+- **Permission:** Ask first
+- **Contact:** Contact page; the address was not visible on the home page
+- **Mail:**
+
+### Ferrovie.it forum, already a source of this research (OF-001)
+
+- **Link:** [forum.ferrovie.it](https://forum.ferrovie.it/)
+- **Permission:** Ask the moderators
+- **Contact:** Private message to the moderators after registering; no address found
+- **Mail:**
+
+### Reddit: r/italy and the city communities
+
+- **Link:** [reddit.com/r/italy](https://www.reddit.com/r/italy/)
+- **Permission:** Read the rules; many communities ask to write to the moderators before a survey
+- **Contact:** "Message the mods" link of each community
+- **Mail:**
+
+### Your own LinkedIn and company or university channels
+
+- **Link:** —
+- **Permission:** None
+- **Contact:** —
+- **Mail:**
 
 ## English (`survey_en.md`)
 
-| Where | Link | Permission | Contact |
-| --- | --- | --- | --- |
-| r/SampleSize, a Reddit community made for surveys | [reddit.com/r/SampleSize](https://www.reddit.com/r/SampleSize/) | None, but the title must follow the format: a tag such as [Academic] or [Casual], the topic, and who can answer | Rules as reported by a third-party summary; read them on the page |
-| SurveyCircle, exchange of answers among people running surveys | [surveycircle.com](https://www.surveycircle.com/en/) | None; you earn answers by answering other surveys | — |
-| SurveySwap, same principle | [surveyswap.io](https://surveyswap.io/) | None | Not opened; found by search |
-| Railfuture, British rail users' association | [railfuture.org.uk/Contact-Us](https://www.railfuture.org.uk/Contact-Us) | Ask first | info at railfuture.org.uk, written this way on the page |
-| RailUK Forums | [railforums.co.uk](https://www.railforums.co.uk/) | Ask the moderators; surveys have been posted there before | Through the forum after registering; no address found |
-| European Passengers' Federation, 35 associations in 20 countries | [epf.eu/wp/members](https://www.epf.eu/wp/members/) | Ask first; they can pass it to members | secretariat@epf.eu |
-| Prolific, a paid panel | [prolific.com](https://www.prolific.com/) | None; it costs money per answer | Not opened |
+### r/SampleSize, a Reddit community made for surveys
+
+- **Link:** [reddit.com/r/SampleSize](https://www.reddit.com/r/SampleSize/)
+- **Permission:** None, but the title must follow the format: a tag such as [Academic] or [Casual], the topic, and who can answer
+- **Contact:** Rules as reported by a third-party summary; read them on the page
+- **Mail:**
+
+### SurveyCircle, exchange of answers among people running surveys
+
+- **Link:** [surveycircle.com](https://www.surveycircle.com/en/)
+- **Permission:** None; you earn answers by answering other surveys
+- **Contact:** —
+- **Mail:**
+
+### SurveySwap, same principle
+
+- **Link:** [surveyswap.io](https://surveyswap.io/)
+- **Permission:** None
+- **Contact:** Not opened; found by search
+- **Mail:**
+
+### Railfuture, British rail users' association
+
+- **Link:** [railfuture.org.uk/Contact-Us](https://www.railfuture.org.uk/Contact-Us)
+- **Permission:** Ask first
+- **Contact:** Through the address below
+- **Mail:** info at railfuture.org.uk (written this way on the page)
+
+### RailUK Forums
+
+- **Link:** [railforums.co.uk](https://www.railforums.co.uk/)
+- **Permission:** Ask the moderators; surveys have been posted there before
+- **Contact:** Through the forum after registering; no address found
+- **Mail:**
+
+### European Passengers' Federation, 35 associations in 20 countries
+
+- **Link:** [epf.eu/wp/members](https://www.epf.eu/wp/members/)
+- **Permission:** Ask first; they can pass it to members
+- **Contact:** Through the address below
+- **Mail:** secretariat@epf.eu
+
+### Prolific, a paid panel
+
+- **Link:** [prolific.com](https://www.prolific.com/)
+- **Permission:** None; it costs money per answer
+- **Contact:** Not opened
+- **Mail:**
 
 ## German (`survey_de.md`)
 
-| Where | Link | Permission | Contact |
-| --- | --- | --- | --- |
-| PRO BAHN, German passengers' association | [pro-bahn.de](https://www.pro-bahn.de/) | Ask first | The site has a "Mail an PRO BAHN" page; a search result gives info@pro-bahn.de, not confirmed on the site |
-| Pro Bahn Schweiz, Swiss passengers' association | [pro-bahn.ch, Kontakt](https://www.pro-bahn.ch/schweiz/kontakt/pro-bahn-schweiz) | Ask first | info@pro-bahn.ch |
-| Eisenbahnforum, already a source of this research (OF-002) | [eisenbahnforum.de](https://www.eisenbahnforum.de/) | Ask the moderators | Through the forum after registering; no address found |
-| Austrian passengers' associations, members of the European federation | [fahrgast.at](http://www.fahrgast.at/), [probahn.at](http://www.probahn.at/) | Ask first | On the sites; not opened |
-| Reddit communities of Germany, Austria and Switzerland | [reddit.com/r/de](https://www.reddit.com/r/de/) | Read the rules; write to the moderators first | "Message the mods" link |
+### PRO BAHN, German passengers' association
+
+- **Link:** [pro-bahn.de](https://www.pro-bahn.de/)
+- **Permission:** Ask first
+- **Contact:** The site has a "Mail an PRO BAHN" page
+- **Mail:** info@pro-bahn.de (from a search result, not confirmed on the site)
+
+### Pro Bahn Schweiz, Swiss passengers' association
+
+- **Link:** [pro-bahn.ch, Kontakt](https://www.pro-bahn.ch/schweiz/kontakt/pro-bahn-schweiz)
+- **Permission:** Ask first
+- **Contact:** Through the address below
+- **Mail:** info@pro-bahn.ch
+
+### Eisenbahnforum, already a source of this research (OF-002)
+
+- **Link:** [eisenbahnforum.de](https://www.eisenbahnforum.de/)
+- **Permission:** Ask the moderators
+- **Contact:** Through the forum after registering; no address found
+- **Mail:**
+
+### Austrian passengers' associations, members of the European federation
+
+- **Link:** [fahrgast.at](http://www.fahrgast.at/), [probahn.at](http://www.probahn.at/)
+- **Permission:** Ask first
+- **Contact:** On the sites; not opened
+- **Mail:**
+
+### Reddit communities of Germany, Austria and Switzerland
+
+- **Link:** [reddit.com/r/de](https://www.reddit.com/r/de/)
+- **Permission:** Read the rules; write to the moderators first
+- **Contact:** "Message the mods" link
+- **Mail:**
 
 ## French (`survey_fr.md`)
 
-| Where | Link | Permission | Contact |
-| --- | --- | --- | --- |
-| FNAUT, French federation of transport users' associations (150 associations) | [fnaut.fr/nous-contacter](https://www.fnaut.fr/nous-contacter/) | Ask first | Contact form on the page; no address shown. A search result gives contact@fnaut.fr, not confirmed on the site |
-| Navetteurs.be, Belgian rail commuters' association | [navetteurs.be/contact](https://navetteurs.be/contact/) | Ask first | Contact page; the address was not visible on the home page |
-| Belgian public transport users' association | [actp.be](http://www.actp.be/) | Ask first | On the site; not opened |
-| French-speaking Switzerland | [pro-bahn.ch](https://www.pro-bahn.ch/) | Ask first | info@pro-bahn.ch |
+### FNAUT, French federation of transport users' associations (150 associations)
+
+- **Link:** [fnaut.fr/nous-contacter](https://www.fnaut.fr/nous-contacter/)
+- **Permission:** Ask first
+- **Contact:** Contact form on the page
+- **Mail:** contact@fnaut.fr (from a search result, not confirmed on the site)
+
+### Navetteurs.be, Belgian rail commuters' association
+
+- **Link:** [navetteurs.be/contact](https://navetteurs.be/contact/)
+- **Permission:** Ask first
+- **Contact:** Contact page; the address was not visible on the home page
+- **Mail:**
+
+### Belgian public transport users' association
+
+- **Link:** [actp.be](http://www.actp.be/)
+- **Permission:** Ask first
+- **Contact:** On the site; not opened
+- **Mail:**
+
+### French-speaking Switzerland
+
+- **Link:** [pro-bahn.ch](https://www.pro-bahn.ch/)
+- **Permission:** Ask first
+- **Contact:** Through the address below
+- **Mail:** info@pro-bahn.ch
 
 ## Dutch (`survey_nl.md`)
 
-| Where | Link | Permission | Contact |
-| --- | --- | --- | --- |
-| Rover, Dutch public transport passengers' association | [rover.nl/vereniging/contact](https://www.rover.nl/vereniging/contact) | Ask first | The page hides the address from automatic readers; secretariaat@rover.nl appears in its code |
-| TreinTramBus and Vlaamse Reizigersbond, Flemish passengers' associations | [treintrambus.be](http://www.treintrambus.be/), [reizigersbond.be](http://www.reizigersbond.be/) | Ask first | On the sites; not opened |
-| Reddit community of the Netherlands | [reddit.com/r/thenetherlands](https://www.reddit.com/r/thenetherlands/) | Read the rules; write to the moderators first | "Message the mods" link |
+### Rover, Dutch public transport passengers' association
+
+- **Link:** [rover.nl/vereniging/contact](https://www.rover.nl/vereniging/contact)
+- **Permission:** Ask first
+- **Contact:** Through the address below
+- **Mail:** secretariaat@rover.nl (read in the page's code; the page hides it from automatic readers)
+
+### TreinTramBus and Vlaamse Reizigersbond, Flemish passengers' associations
+
+- **Link:** [treintrambus.be](http://www.treintrambus.be/), [reizigersbond.be](http://www.reizigersbond.be/)
+- **Permission:** Ask first
+- **Contact:** On the sites; not opened
+- **Mail:**
+
+### Reddit community of the Netherlands
+
+- **Link:** [reddit.com/r/thenetherlands](https://www.reddit.com/r/thenetherlands/)
+- **Permission:** Read the rules; write to the moderators first
+- **Contact:** "Message the mods" link
+- **Mail:**
 
 ## Left out
 

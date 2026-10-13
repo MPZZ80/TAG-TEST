@@ -4,6 +4,60 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-13 20:39
+
+- **Files:** `Research/Survey/permission_requests.md`, `Research/Survey/README.md`, `Index.md`
+- **Change:** File created: the message asking permission to share the survey, in Italian, English, German, French and Dutch, each with the link to the form in its language. Row added to the folder guide and line to `Index.md`.
+- **Why:** Marco asked for a mail or message to ask permission, one per language, saying that he is taking a User Experience course, is collecting information to design a service for commuters, that the questionnaire is anonymous and that they can read it.
+
+## 2026-10-13 20:32
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** The "Mail" line left empty on the 23 venues with no address, for Marco to fill; the 9 addresses already found stay.
+- **Why:** Marco: "Aggiungi - **Mail:** a tutti, poi lo compilo io".
+
+## 2026-10-13 20:30
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** A "Mail" line added under "Contact" for each of the 32 venues, with the address where one was found, how it was found when it is not confirmed, or the reason why there is none.
+- **Why:** Marco added a "Mail" field to one venue and asked to fill it for all of them with the information already collected.
+
+## 2026-10-13 20:28
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** The 32 posting venues changed from table rows to one block each: a heading with the name and, one under the other, link, permission and contact.
+- **Why:** Marco asked for the contact information in better order, one item under the other and not side by side.
+
+## 2026-10-13 20:00
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** The table "The forms" split into two sections: "Forms: links for respondents" and "Forms: links to edit".
+- **Why:** Marco: "Distinguili in due sezioni diverse"; reason not stated.
+
+## 2026-10-13 20:00
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** Column with the edit links of the five Google Forms added to the table "The forms".
+- **Why:** Marco: "metti anche i link di edit"; reason not stated.
+
+## 2026-10-13 19:58
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** Section "The forms" completed with the respondents' links of the English, German and French forms.
+- **Why:** Marco supplied the remaining links from the execution logs.
+
+## 2026-10-13 19:55
+
+- **Files:** `Research/Survey/posting_venues.md`
+- **Change:** New section "The forms" with the respondents' links of the Google Forms built by Marco; Italian and Dutch recorded, the other three to add.
+- **Why:** Marco built the five forms and gave the links from the execution logs, to keep them with the list of places where to post.
+
+## 2026-10-13 14:48
+
+- **Files:** `Research/Survey/build_google_forms.gs`, `Research/Survey/survey_en.md`
+- **Change:** The script now builds one form per run (`buildEn`, `buildIt`, `buildDe`, `buildFr`, `buildNl`) and writes in the log which step failed without stopping. The note in `survey_en.md` says one language per run.
+- **Why:** Marco ran the script and Google returned "Si è verificato un errore sconosciuto", with no indication of where it failed.
+
 ## 2026-10-12 23:13
 
 - **Files:** `Index.md`, `AGENTS.md`

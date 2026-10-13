@@ -241,7 +241,7 @@ The reference text of the survey: 24 questions, 22 closed and 2 open and optiona
 - The options of question 22 are the pain-point tags of `../../Metadata/metadata_schema.md`, plus traffic, parking and cost. Shuffle their order in the form settings.
 - No contact is asked and there is no follow-up conversation: Marco will not have the time for it.
 - Use one form per language and one link per posting venue, to know where the answers come from.
-- `build_google_forms.gs` in this folder creates the five forms in Google Forms from these texts.
+- `build_google_forms.gs` in this folder creates the forms in Google Forms from these texts, one language per run.
 - Test with three people before posting, and time them.
 
 ## What each block is for
