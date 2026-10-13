@@ -55,21 +55,15 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Link:** [pendolari-co-lc.it](http://www.pendolari-co-lc.it/)
 - **Permission:** Ask first
 - **Contact:** On the site; not opened
-- **Mail:**
+- **Mail:** pendolari_comolecco@ymail.com
 
-### Bergamo commuters' committee
-
-- **Link:** [quellideltreno.com](https://quellideltreno.com/)
-- **Permission:** Ask first
-- **Contact:** On the site; not opened
-- **Mail:**
 
 ### Mantova–Cremona–Milano line committee
 
 - **Link:** [inorario.com](http://www.inorario.com/)
 - **Permission:** Ask first
 - **Contact:** On the site; not opened
-- **Mail:**
+- **Mail:** inorario@inorario.com
 
 ### Gallarate–Milano committee, Facebook group
 
@@ -85,12 +79,6 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Contact:** Message to the administrators inside the group
 - **Mail:** comitato@pendomino.com
 
-### Coordination of the commuter committees of Piedmont (22 associations)
-
-- **Link:** [pendolaripiemonte.it](http://www.pendolaripiemonte.it/)
-- **Permission:** Ask first
-- **Contact:** On the site; listed at [pendolaria.it/contatti-piemonte](https://www.pendolaria.it/contatti-piemonte/), which gives no address
-- **Mail:**
 
 ### Roma Nord railway commuters' committee
 
