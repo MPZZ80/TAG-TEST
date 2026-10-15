@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-14 18:38
+date: 2026-10-15 23:16
 method: generated
 status: draft
 grade: n/a
@@ -39,6 +39,15 @@ Paste in the Bcc field, so that the recipients do not see each other's addresses
 pendolarisanzenone@gmail.com, pendolari_comolecco@ymail.com, inorario@inorario.com, comitato@pendomino.com, pendolari.romanord@gmail.com, comitatopendolari.copefo@gmail.com, utp.utpmilano@gmail.com
 ```
 
+### Social, forums and forms
+
+Where the same message goes by post or private message instead of e-mail. Taken from `posting_venues.md`.
+
+- Gruppo Facebook del comitato Gallarate–Milano: https://www.facebook.com/groups/802902436426907/ (message the group administrators first)
+- Ferrovie.it forum: https://forum.ferrovie.it/ (message the moderators first, after registering)
+- Reddit r/italy: https://www.reddit.com/r/italy/ (read the rules; message the moderators first)
+- Your LinkedIn, company and university channels (post directly)
+
 ## English
 
 **Subject:** Request to share a short anonymous survey for commuters
@@ -64,6 +73,15 @@ Paste in the Bcc field, so that the recipients do not see each other's addresses
 ```
 info@railfuture.org.uk, secretariat@epf.eu
 ```
+
+### Social, forums and forms
+
+Where the same message goes by post or private message instead of e-mail. Taken from `posting_venues.md`.
+
+- Reddit r/SampleSize: https://www.reddit.com/r/SampleSize/ (post directly; title like "[Academic] Commuting between cities (commuters, 18+)")
+- SurveyCircle: https://www.surveycircle.com/en/ (register and post; you earn answers by answering other surveys)
+- SurveySwap: https://surveyswap.io/ (register and post; same principle)
+- RailUK Forums: https://www.railforums.co.uk/ (message the moderators first, after registering)
 
 ## German
 
@@ -91,6 +109,13 @@ Paste in the Bcc field, so that the recipients do not see each other's addresses
 info@pro-bahn.de, info@pro-bahn.ch, Fahrgast@gmx.at
 ```
 
+### Social, forums and forms
+
+Where the same message goes by post or private message instead of e-mail. Taken from `posting_venues.md`.
+
+- Eisenbahnforum: https://www.eisenbahnforum.de/ (message the moderators first, after registering)
+- Reddit r/samplesize_DACH: https://www.reddit.com/r/samplesize_DACH/ (post directly, following its title rules; r/de does not allow surveys)
+
 ## French
 
 **Objet :** Demande de partage d'un court questionnaire anonyme pour les navetteurs
@@ -116,6 +141,14 @@ Paste in the Bcc field, so that the recipients do not see each other's addresses
 ```
 contact@fnaut.fr, contact@navetteurs.be
 ```
+
+### Social, forums and forms
+
+Where the same message goes by post or private message instead of e-mail. Taken from `posting_venues.md`.
+
+- Navetteurs.be, contact form: https://navetteurs.be/contact/ (send the message through the form)
+- Reddit r/sondages: https://www.reddit.com/r/sondages/ (post directly; external surveys are allowed, text in `direct_posts.md`)
+- Reddit r/SurveyCircle_fr: https://www.reddit.com/r/SurveyCircle_fr/ (post directly with the SurveyCircle template, text in `direct_posts.md`)
 
 ## Dutch
 
@@ -143,6 +176,12 @@ Paste in the Bcc field, so that the recipients do not see each other's addresses
 secretariaat@rover.nl, info@treintrambus.be, reizigersbond@telenet.be
 ```
 
+### Social, forums and forms
+
+Where the same message goes by post or private message instead of e-mail. Taken from `posting_venues.md`.
+
+- Reddit r/thenetherlands: https://www.reddit.com/r/thenetherlands/ (read the rules; message the moderators first)
+
 ## Spanish
 
 **Asunto:** Solicitud para compartir un breve cuestionario anónimo sobre desplazamientos entre ciudades
@@ -168,6 +207,11 @@ Paste in the Bcc field, so that the recipients do not see each other's addresses
 ```
 info@transportpublic.org
 ```
+
+### Social, forums and forms
+
+Where the same message goes by post or private message instead of e-mail. Taken from `posting_venues.md`.
+- Reddit r/SurveyCircle_es: https://www.reddit.com/r/SurveyCircle_es/ (post directly with the SurveyCircle template, text in `direct_posts.md`)
 
 ## Connections
 

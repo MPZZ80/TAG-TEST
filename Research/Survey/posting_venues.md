@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-10-14 00:21
+date: 2026-10-15 23:16
 method: review
 status: draft
 grade: n/a
@@ -105,6 +105,13 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 
 
 
+### Reddit r/SurveyCircle_it, Italian community of SurveyCircle
+
+- **Link:** [reddit.com/r/SurveyCircle_it](https://www.reddit.com/r/SurveyCircle_it/)
+- **Permission:** None, but posts must follow the community's template, with the SurveyCircle link: publish the survey on SurveyCircle first. Text ready in `direct_posts.md`
+- **Contact:** Found by Marco; the agent could not open it, because Reddit blocks automated access
+- **Mail:**
+
 ### Ferrovie.it forum, already a source of this research (OF-001)
 
 - **Link:** [forum.ferrovie.it](https://forum.ferrovie.it/)
@@ -202,11 +209,11 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Contact:** On the sites; not opened
 - **Mail:** Fahrgast@gmx.at
 
-### Reddit communities of Germany, Austria and Switzerland
+### Reddit r/samplesize_DACH, survey community for Germany, Austria and Switzerland
 
-- **Link:** [reddit.com/r/de](https://www.reddit.com/r/de/)
-- **Permission:** Read the rules; write to the moderators first
-- **Contact:** "Message the mods" link
+- **Link:** [reddit.com/r/samplesize_DACH](https://www.reddit.com/r/samplesize_DACH/)
+- **Permission:** None expected: it exists for surveys. Read its rules for the title format before posting
+- **Contact:** Suggested by the moderators of r/de, who do not allow surveys on r/de. The agent could not open the community, because Reddit blocks automated access
 - **Mail:**
 
 ## French (`survey_fr.md`)
@@ -231,6 +238,20 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Permission:** Ask first
 - **Contact:** On the site; not opened
 - **Mail:** contact@navetteurs.be
+
+### Reddit r/sondages, French survey community
+
+- **Link:** [reddit.com/r/sondages](https://www.reddit.com/r/sondages/)
+- **Permission:** None: its rules accept external surveys from individuals. The tag [Shorts] is only for polls made with Reddit's own tool, so the survey needs no tag
+- **Contact:** Found by Marco, with its rules; the agent could not open it, because Reddit blocks automated access
+- **Mail:**
+
+### Reddit r/SurveyCircle_fr, French community of SurveyCircle
+
+- **Link:** [reddit.com/r/SurveyCircle_fr](https://www.reddit.com/r/SurveyCircle_fr/)
+- **Permission:** None, but its rules require the pinned template, with both the original link and the SurveyCircle link: publish the survey on SurveyCircle first. Text ready in `direct_posts.md`
+- **Contact:** Found by Marco, who supplied its rules; the agent could not open it, because Reddit blocks automated access
+- **Mail:**
 
 ## Dutch (`survey_nl.md`)
 
@@ -263,6 +284,13 @@ For Marco only: they open the forms in edit mode and work only from his Google a
 - **Permission:** Ask first
 - **Contact:** The site is in Catalan; the association is a member of the European Passengers' Federation. Phone and WhatsApp 682659483
 - **Mail:** info@transportpublic.org
+
+### Reddit r/SurveyCircle_es, Spanish community of SurveyCircle
+
+- **Link:** [reddit.com/r/SurveyCircle_es](https://www.reddit.com/r/SurveyCircle_es/)
+- **Permission:** None, but its rules require the pinned template, with both the original link and the SurveyCircle link: publish the survey on SurveyCircle first. Text ready in `direct_posts.md`
+- **Contact:** Found by Marco, who supplied its rules; the agent could not open it, because Reddit blocks automated access
+- **Mail:**
 
 ## Left out
 

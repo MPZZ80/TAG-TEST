@@ -178,6 +178,7 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 
 ## Research/Survey
 
+- direct_posts.md — [research, internal, script · draft · n/a · n/a]
 - permission_requests.md — [research, internal, script · draft · n/a · n/a]
 - posting_venues.md — [research, desk, output · draft · n/a · n/a]
 - survey_de.md — [research, internal, script · draft · n/a · n/a]

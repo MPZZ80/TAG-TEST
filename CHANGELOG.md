@@ -4,6 +4,54 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-15 23:16
+
+- **Files:** `Research/Survey/direct_posts.md`, `Research/Survey/posting_venues.md`, `Research/Survey/permission_requests.md`
+- **Change:** Spanish post in the SurveyCircle template added for r/SurveyCircle_es; the community added to the Spanish venues and to the Spanish list of social channels.
+- **Why:** Marco supplied the rules of r/SurveyCircle_es, which require the community's template with the original and the SurveyCircle link.
+
+## 2026-10-15 23:13
+
+- **Files:** `Research/Survey/direct_posts.md`, `Research/Survey/posting_venues.md`, `Research/Survey/permission_requests.md`
+- **Change:** French SurveyCircle post aligned with the community's template: "SUJET DE L'ÉTUDE" and "GROUPE CIBLE" in place of the labels assumed before; the notes saying the rules were not checked removed.
+- **Why:** Marco supplied the rules and the pinned template of r/SurveyCircle_fr.
+
+## 2026-10-15 23:12
+
+- **Files:** `Research/Survey/direct_posts.md`, `Research/Survey/posting_venues.md`, `Research/Survey/permission_requests.md`
+- **Change:** French post in the SurveyCircle template added for r/SurveyCircle_fr; the community added to the French venues and to the French list of social channels.
+- **Why:** Marco pointed to r/SurveyCircle_fr and asked to check it; its rules could not be read, so the template of the Italian SurveyCircle community was assumed and the assumption is stated in the files.
+
+## 2026-10-15 23:08
+
+- **Files:** `Research/Survey/posting_venues.md`, `Research/Survey/permission_requests.md`
+- **Change:** Reddit r/sondages added to the French venues and to the French list "Social, forums and forms".
+- **Why:** Marco found r/sondages and its rules, which accept external surveys.
+
+## 2026-10-15 23:04
+
+- **Files:** `Research/Survey/direct_posts.md`, `Research/Survey/posting_venues.md`
+- **Change:** Italian post rewritten in the template of r/SurveyCircle_it (topic, target, duration, SurveyCircle link, original link), as a new subsection under "Italian"; the community added to the Italian venues.
+- **Why:** Marco found r/SurveyCircle_it, whose rules require a fixed template, and asked to adapt the message to them.
+
+## 2026-10-15 22:59
+
+- **Files:** `Research/Survey/direct_posts.md`, `Research/Survey/README.md`, `Index.md`
+- **Change:** File created: the post to publish directly, without asking permission, in Italian, English, German, French, Dutch and Spanish, each with a title and the link to the form in its language. Row added to the folder guide and line to `Index.md`.
+- **Why:** Marco asked for a version of the messages for direct posts, without asking permission.
+
+## 2026-10-15 22:56
+
+- **Files:** `Research/Survey/posting_venues.md`, `Research/Survey/permission_requests.md`
+- **Change:** In the German section, Reddit r/de replaced with r/samplesize_DACH.
+- **Why:** The moderators of r/de answered Marco that surveys are not allowed there and pointed to r/samplesize_DACH; Marco then asked to look for similar communities for the other languages, and none could be found.
+
+## 2026-10-15 22:32
+
+- **Files:** `Research/Survey/permission_requests.md`
+- **Change:** Under each language, after the e-mail addresses, a list "Social, forums and forms" with the links of the venues from `posting_venues.md` that have no e-mail address, and what to do on each (post directly or ask the moderators first).
+- **Why:** Marco asked for the links of the places where to post the message on social media or similar, ordered by language, as was done for the e-mails.
+
 ## 2026-10-14 18:38
 
 - **Files:** `Research/Survey/permission_requests.md`
