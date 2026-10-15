@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-14 00:21
+date: 2026-10-14 18:38
 method: generated
 status: draft
 grade: n/a
@@ -31,6 +31,14 @@ Se siete d'accordo, posso pubblicarlo io oppure potete farlo girare voi, come pr
 Grazie per l'attenzione,
 Marco Palermo
 
+### Destinatari
+
+Paste in the Bcc field, so that the recipients do not see each other's addresses.
+
+```
+pendolarisanzenone@gmail.com, pendolari_comolecco@ymail.com, inorario@inorario.com, comitato@pendomino.com, pendolari.romanord@gmail.com, comitatopendolari.copefo@gmail.com, utp.utpmilano@gmail.com
+```
+
 ## English
 
 **Subject:** Request to share a short anonymous survey for commuters
@@ -48,6 +56,14 @@ If you agree, I can post it myself or you can pass it on, whichever you prefer. 
 
 Thank you for your time,
 Marco Palermo
+
+### Recipients
+
+Paste in the Bcc field, so that the recipients do not see each other's addresses.
+
+```
+info@railfuture.org.uk, secretariat@epf.eu
+```
 
 ## German
 
@@ -67,6 +83,14 @@ Wenn Sie einverstanden sind, kann ich sie selbst veröffentlichen, oder Sie leit
 Vielen Dank für Ihre Zeit,
 Marco Palermo
 
+### Empfänger
+
+Paste in the Bcc field, so that the recipients do not see each other's addresses.
+
+```
+info@pro-bahn.de, info@pro-bahn.ch, Fahrgast@gmx.at
+```
+
 ## French
 
 **Objet :** Demande de partage d'un court questionnaire anonyme pour les navetteurs
@@ -84,6 +108,14 @@ Si vous êtes d'accord, je peux le publier moi-même ou vous pouvez le diffuser,
 
 Merci pour votre attention,
 Marco Palermo
+
+### Destinataires
+
+Paste in the Bcc field, so that the recipients do not see each other's addresses.
+
+```
+contact@fnaut.fr, contact@navetteurs.be
+```
 
 ## Dutch
 
@@ -103,6 +135,14 @@ Als u akkoord gaat, kan ik de enquête zelf plaatsen of kunt u haar doorsturen, 
 Bedankt voor uw tijd,
 Marco Palermo
 
+### Ontvangers
+
+Paste in the Bcc field, so that the recipients do not see each other's addresses.
+
+```
+secretariaat@rover.nl, info@treintrambus.be, reizigersbond@telenet.be
+```
+
 ## Spanish
 
 **Asunto:** Solicitud para compartir un breve cuestionario anónimo sobre desplazamientos entre ciudades
@@ -120,6 +160,14 @@ Si están de acuerdo, puedo publicarlo yo o pueden difundirlo ustedes, como pref
 
 Gracias por su atención,
 Marco Palermo
+
+### Destinatarios
+
+Paste in the Bcc field, so that the recipients do not see each other's addresses.
+
+```
+info@transportpublic.org
+```
 
 ## Connections
 

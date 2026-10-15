@@ -4,6 +4,19 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-14 18:38
+
+- **Files:** `Research/Survey/permission_requests.md`
+- **Change:** The recipient list under each language reduced to one line of addresses separated by commas, ready to paste in Gmail; names, per-association subjects and notes removed.
+- **Why:** Marco needs only the list of addresses separated by commas, to copy and paste in Gmail.
+- **Do not:** go back to one block per recipient in this file.
+
+## 2026-10-14 10:19
+
+- **Files:** `Research/Survey/permission_requests.md`
+- **Change:** Under each language, a list of recipients taken from the "Mail" lines of `posting_venues.md` (18 addresses): for each, the name of the association, the address and a subject made of the message's subject and the association's name.
+- **Why:** Marco asked for the list of the addresses found in the venues file under each language, each with a subject naming the association or body to send it to.
+
 ## 2026-10-14 00:21
 
 - **Files:** `Research/Survey/posting_venues.md`, `Research/Survey/permission_requests.md`
