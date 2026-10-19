@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-16 16:05
+date: 2026-10-19 12:33
 method: generated
 status: draft
 grade: n/a
@@ -181,6 +181,7 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - direct_posts.md — [research, internal, script · draft · n/a · n/a]
 - permission_requests.md — [research, internal, script · draft · n/a · n/a]
 - posting_venues.md — [research, desk, output · draft · n/a · n/a]
+- survey_results.md — [research, survey, output, planning, disruption, late-info, no-alternative, tight-connection, first-last-mile, unreliable-service, crowding, workarounds · draft · n/a · low]
 - survey_de.md — [research, internal, script · draft · n/a · n/a]
 - survey_es.md — [research, internal, script · draft · n/a · n/a]
 - survey_en.md — [research, internal, script · draft · n/a · n/a]

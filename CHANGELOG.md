@@ -4,6 +4,18 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-19 12:33
+
+- **Files:** `Metadata/metadata_schema.md`, `Research/Survey/survey_results.md`, `Index.md`, `AGENTS.md`
+- **Change:** New origin tag `survey` in section 8 of the schema; `survey_results.md` retagged from `interview` to `survey`, in the file and in `Index.md`. `AGENTS.md`: the "Index" rule lists `survey` among the activities, and general instruction 32.
+- **Why:** Marco: "Aggiungi il tag survey", after the agent reported that no origin tag fitted the survey results.
+
+## 2026-10-19 12:21
+
+- **Files:** `Research/Survey/survey_results.md`, `Research/Survey/README.md`, `Index.md`, `.gitignore`
+- **Change:** File created: summary of the first survey export (21 answers, 18 kept, 17 from Belgium), with counts per question, open answers, a comparison with the interviews and what it adds to the open issues. The CSV files were extracted from the zip exports into `survey_<lang>.csv`; the zip files are kept out of Git too.
+- **Why:** Marco put the exported results in `Responses/` and asked for a note summarising them and tracing differences between countries.
+
 ## 2026-10-19 12:06
 
 - **Files:** `Research/Survey/Responses/README.md`, `Research/Survey/README.md`, `.gitignore`

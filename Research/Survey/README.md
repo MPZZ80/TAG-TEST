@@ -9,6 +9,7 @@ The online survey for commuters: the questions in six languages, where to post t
 | `posting_venues.md` | Where to post each language version, with links, whether permission is needed and who to ask |
 | `direct_posts.md` | The post for places where no permission is needed, in the six languages, each with the link to its form |
 | `permission_requests.md` | The message asking permission to post the survey, in the six languages, each with the link to its form |
+| `survey_results.md` | What the answers say so far, with the counts, the open answers and the reading against the interviews and the open issues |
 | `Responses/` | The exported answers, one CSV per language form (kept out of Git); see its `README.md` |
 | `build_google_forms.gs` | A Google Apps Script that creates one Google Form per language from the same texts |
 

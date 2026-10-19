@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-12 21:22
+date: 2026-10-19 12:33
 method: generated
 status: draft
 grade: n/a
@@ -140,6 +140,7 @@ It replaces the old `channel` field.
 | --- | --- |
 | `desk` | The content comes from published sources: the source files, the lists of sources and the analysis built on them |
 | `interview` | The content comes from an interview: notes and interview findings |
+| `survey` | The content comes from the answers to a questionnaire: results and counts. Added on 2026-10-19 on Marco's instruction |
 | `internal` | The file was written by Marco or by an agent and holds no evidence: brief, questions, plans, rules, scripts, indexes |
 
 A file that combines desk and interview evidence takes the origin of most of its evidence. Whether a desk source is a report, a product page, a review sample or a forum thread is told by its folder and by the "Kind of source" row of the source file, not by a tag.

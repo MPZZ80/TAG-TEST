@@ -33,7 +33,7 @@ Put a new document in the folder it belongs to, not in the root. Create a new fo
 
 `Index.md` in the repository root has one line for every Markdown file in the `Research/` folder and its subfolders. Files outside `Research/` are not listed, and neither are the `README.md` files, the interview transcripts and the lists of sources (`*_candidates.md`, `*_to_obtain.md`). It exists so that an agent can connect and find things quickly without searching the whole repository.
 
-- **Format of a line, exactly:** `- filename — [tags · status · grade · confidence]`. The tags include the activity (`desk`, `interview` or `internal`).
+- **Format of a line, exactly:** `- filename — [tags · status · grade · confidence]`. The tags include the activity (`desk`, `interview`, `survey` or `internal`).
 - **One line per file.** No summaries, no commentary, no interpretation.
 - **Groups and order:** files are grouped by folder; inside a group the lines follow the `date` of the metadata block, oldest first.
 - **Status is shown as it is.** A file still marked `draft` keeps that status in its line; do not hide it.
@@ -108,6 +108,7 @@ This section is the running list of the standing instructions Marco gives during
 | 29 | 2026-10-12 | Texts written for respondents, such as the survey, are made in the languages of the places where they are posted, one file per language; the reference version stays in English. | The survey has to reach Italians and people in other countries |
 | 30 | 2026-10-12 | Do not list the interview transcripts or the lists of sources (`*_candidates.md`, `*_to_obtain.md`) in `Index.md`. | Not stated; taken from Marco's own edit of the index |
 | 31 | 2026-10-16 | Keep the notes on the sources in `Research/Desk_Research/Doc_Notes/`, next to the documents they are written from (`docs/`, `docs_md/`), with a name that says they are synthesis notes and not the original sources. | The folder held synthesis notes, and its old name `Sources` suggested the original sources |
+| 32 | 2026-10-19 | Use the origin tag `survey` for files whose content comes from the answers to a questionnaire. Details in section 8 of `Metadata/metadata_schema.md`. | The survey results did not come from an interview, and no origin tag fitted them |
 
 ### Language
 
