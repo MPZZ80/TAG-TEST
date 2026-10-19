@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-19 12:40
+
+- **Files:** `AGENTS.md`
+- **Change:** General instruction 33: every commit Marco asks for is pushed right after.
+- **Why:** Marco: "pusha sempre quando ti dico di committare"; reason not stated.
+
 ## 2026-10-19 12:33
 
 - **Files:** `Metadata/metadata_schema.md`, `Research/Survey/survey_results.md`, `Index.md`, `AGENTS.md`
