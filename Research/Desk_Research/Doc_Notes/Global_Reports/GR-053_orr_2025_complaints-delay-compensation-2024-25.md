@@ -16,7 +16,7 @@ related: [plan.md, GR-027_orr_2026_annual-rail-consumer-report-2025-26.md, GR-02
 | **ID** | GR-053 |
 | **Link** | [Complaints handling and delay compensation: operator performance and continuous improvement actions 2024-2025](https://www.orr.gov.uk/complaints-handling-and-delay-compensation-operator-performance-and-continuous-improvement-actions) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-053_orr_2025_complaints-delay-compensation-2024-25.md](../../Desk_Research/docs_md/Global_Reports/GR-053_orr_2025_complaints-delay-compensation-2024-25.md) |
+| **Markdown copy** | [GR-053_orr_2025_complaints-delay-compensation-2024-25.md](../../docs_md/Global_Reports/GR-053_orr_2025_complaints-delay-compensation-2024-25.md) |
 | **Produced by** | Office of Rail and Road (ORR) |
 | **Published by** | ORR |
 | **Kind of source** | Regulator's monitoring report (web page) |
@@ -58,6 +58,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](GR-027_orr_2026_annual-rail-consumer-report-2025-26.md) and [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](GR-028_orr_2025_annual-rail-consumer-report-2024-25.md): the British rail regulator's monitoring of information, complaints and compensation.
 - Shares the pain point `refunds` with [GR-003_art_2025_relazione-annuale.md](GR-003_art_2025_relazione-annuale.md), [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [GR-051_transport-focus_2026_rail-customer-experience-survey.md](GR-051_transport-focus_2026_rail-customer-experience-survey.md), [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md) and [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md): complaints, refunds and compensation after a delay.

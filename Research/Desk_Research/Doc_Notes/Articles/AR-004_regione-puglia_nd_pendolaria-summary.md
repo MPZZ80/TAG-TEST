@@ -16,7 +16,7 @@ related: [plan.md, GR-004_legambiente_2025_pendolaria-20-edizione.md]
 | **ID** | AR-004 |
 | **Link** | [Legambiente. Rapporto Pendolaria 2025 (summary on the Regione Puglia statistics office site)](https://www.regione.puglia.it/web/ufficio-statistico/-/legambiente.-rapporto-pendolaria-2025) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [AR-004_regione-puglia_nd_pendolaria-summary.md](../../Desk_Research/docs_md/Articles/AR-004_regione-puglia_nd_pendolaria-summary.md) |
+| **Markdown copy** | [AR-004_regione-puglia_nd_pendolaria-summary.md](../../docs_md/Articles/AR-004_regione-puglia_nd_pendolaria-summary.md) |
 | **Produced by** | Ufficio Statistico, Regione Puglia |
 | **Published by** | Regione Puglia |
 | **Kind of source** | Regional statistics office summary of a report |
@@ -53,5 +53,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A6 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A6 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-004_legambiente_2025_pendolaria-20-edizione.md](../Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.md): Legambiente's Pendolaria report.

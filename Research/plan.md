@@ -36,7 +36,7 @@ Claude proceeds on these without waiting for confirmation and repeats them at th
 - Claude first drafts the candidate lists described in section 5. After Marco's decisions, Claude carries out activities A1–A8 on the selected sources and writes one output file per activity.
 - The choice of sources and of products to analyse is Marco's, made on the candidate lists. Smaller choices are made by Claude against stated criteria and recorded with their reasons in the output.
 - Every activity looks at the journey door to door and records which leg each finding concerns: first mile, main leg, transfer, last mile, or the whole journey.
-- Every source used has its own source file in a category folder under `Sources/`, and downloaded documents go in `Desk_Research/docs/`. The outputs link to the source files.
+- Every source used has its own source file in a category folder under `Desk_Research/Doc_Notes/`, and downloaded documents go in `Desk_Research/docs/`. The outputs link to the source files.
 - Detailed working rules are in `desk_research_instructions.md`.
 
 ### Evidence rules for all activities
@@ -154,12 +154,12 @@ Before any activity starts, Claude drafts a short list of candidate sources for 
 
 | Order | Candidate list | File | Feeds |
 | --- | --- | --- | --- |
-| 1 | Global reports | `Sources/Global_Reports/GR_candidates.md` | A1, A6, A7 |
-| 2 | Academic papers | `Sources/Academic_Papers/AP_candidates.md` | A2 |
-| 3 | Products | `Sources/Products/PR_candidates.md` | A3 |
-| 4 | Articles | `Sources/Articles/AR_candidates.md` | A6 |
-| 5 | Online forums | `Sources/Online_Forums/OF_candidates.md` | A5 |
-| 6 | Online reviews | `Sources/Online_Reviews/OR_candidates.md` | A4, after the products are chosen |
+| 1 | Global reports | `Desk_Research/Doc_Notes/Global_Reports/GR_candidates.md` | A1, A6, A7 |
+| 2 | Academic papers | `Desk_Research/Doc_Notes/Academic_Papers/AP_candidates.md` | A2 |
+| 3 | Products | `Desk_Research/Doc_Notes/Products/PR_candidates.md` | A3 |
+| 4 | Articles | `Desk_Research/Doc_Notes/Articles/AR_candidates.md` | A6 |
+| 5 | Online forums | `Desk_Research/Doc_Notes/Online_Forums/OF_candidates.md` | A5 |
+| 6 | Online reviews | `Desk_Research/Doc_Notes/Online_Reviews/OR_candidates.md` | A4, after the products are chosen |
 
 The Global reports list comes first. Once Marco has seen which candidates there are and how many, he and Claude decide what to do next: which sources to keep, how deep to go, and when to draft the other lists. The same happens after each list.
 
@@ -213,9 +213,9 @@ Added on 2026-10-12: Marco is not sure he can do more interviews, so an online s
 | `progress.md` | Running record of the desk research, for resuming work in a new session | Active |
 | `desk_research_partial_analysis.md` | Partial answers to Q1–Q40 from the sources read so far | Draft |
 | `deepdive_interview_script.md` | Topics for the interviews, version 2 | Draft |
-| `Sources/<Category>/<CODE>_candidates.md` | Candidate list of each source category, for Marco to vet | Global reports done; the others to do |
-| `Sources/Global_Reports/GR_to_obtain.md` | Global report sources that could not be opened, for Marco to try to obtain | Active |
-| `Sources/<Category>/` | One file per source, in a folder per category | 132 source files in six categories |
+| `Desk_Research/Doc_Notes/<Category>/<CODE>_candidates.md` | Candidate list of each source category, for Marco to vet | Global reports done; the others to do |
+| `Desk_Research/Doc_Notes/Global_Reports/GR_to_obtain.md` | Global report sources that could not be opened, for Marco to try to obtain | Active |
+| `Desk_Research/Doc_Notes/<Category>/` | One file per source, in a folder per category | 132 source files in six categories |
 | `Desk_Research/docs/<Category>/` | Documents downloaded from the sources | 61 files in six category folders |
 | `Desk_Research/docs_md/<Category>/` | Markdown copies of documents and text captures of web pages | 110 files in six category folders |
 | `01_global_reports.md` to `07_data_landscape.md` | Activity outputs | To do |

@@ -16,7 +16,7 @@ related: [plan.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, OF-004_ha
 | **ID** | AR-005 |
 | **Link** | [Via acquires Citymapper to boost its transit tech](https://techcrunch.com/2023/03/16/via-acquires-trip-planning-app-citymapper-to-boost-transit-tech/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [AR-005_techcrunch_2023_via-acquires-citymapper.md](../../Desk_Research/docs_md/Articles/AR-005_techcrunch_2023_via-acquires-citymapper.md) |
+| **Markdown copy** | [AR-005_techcrunch_2023_via-acquires-citymapper.md](../../docs_md/Articles/AR-005_techcrunch_2023_via-acquires-citymapper.md) |
 | **Produced by** | TechCrunch |
 | **Published by** | TechCrunch |
 | **Kind of source** | Technology press article |
@@ -54,5 +54,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A6 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A6 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](../Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md](../Online_Forums/OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md), [PR-003_citymapper_2026_citymapper.md](../Products/PR-003_citymapper_2026_citymapper.md) and [OR-003_apple-app-store_2026_citymapper-gb.md](../Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md): Citymapper and its sale.

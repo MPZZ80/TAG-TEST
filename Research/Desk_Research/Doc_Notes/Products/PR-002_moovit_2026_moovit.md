@@ -17,7 +17,7 @@ related: [plan.md, OR-002_apple-app-store_2026_moovit-it.md]
 | **Link** | [Moovit](https://moovit.com/) |
 | **App Store listing** | [Moovit: Orari Bus e Treni](https://apps.apple.com/it/app/moovit-orari-bus-e-treni/id498477945?uo=4) (IT store, version 5.202.0 released 2026-10-05; 49,128 ratings, average 4.54, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-002_moovit_2026_moovit.md](../../Desk_Research/docs_md/Products/PR-002_moovit_2026_moovit.md) |
+| **Markdown copy** | [PR-002_moovit_2026_moovit.md](../../docs_md/Products/PR-002_moovit_2026_moovit.md) |
 | **Produced by** | Moovit App Global LTD (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -55,5 +55,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A3 of the research plan, [plan.md](../../../plan.md).
 - [OR-002_apple-app-store_2026_moovit-it.md](../Online_Reviews/OR-002_apple-app-store_2026_moovit-it.md) is the sample of user reviews of this product.

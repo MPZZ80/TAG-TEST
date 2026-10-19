@@ -15,8 +15,8 @@ related: [plan.md, AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper
 | --- | --- |
 | **ID** | GR-008 |
 | **Link** | [22° Rapporto sulla mobilità degli italiani: Eppur si muove (synthesis)](https://www.isfort.it/wp-content/uploads/2025/11/22-RapportoMobilita_Sintesi.pdf) |
-| **Local copy** | [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.pdf](../../Desk_Research/docs/Global_Reports/GR-008_isfort_2025_rapporto-mobilita-22-sintesi.pdf) |
-| **Markdown copy** | [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md](../../Desk_Research/docs_md/Global_Reports/GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md) |
+| **Local copy** | [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.pdf](../../docs/Global_Reports/GR-008_isfort_2025_rapporto-mobilita-22-sintesi.pdf) |
+| **Markdown copy** | [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md](../../docs_md/Global_Reports/GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md) |
 | **Produced by** | ISFORT (Audimob observatory on the mobility of Italians) |
 | **Published by** | ISFORT |
 | **Kind of source** | Research institute report, synthesis of 51 pages |
@@ -67,6 +67,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md](../Articles/AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md) and [GR-050_mit_2026_maas-for-italy-white-paper.md](GR-050_mit_2026_maas-for-italy-white-paper.md): the MaaS for Italy programme.
 - Shares a source landscape with [GR-019_istat_2014_commuting-matrices-2011.md](GR-019_istat_2014_commuting-matrices-2011.md), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md), [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md), [GR-025_istat_2024_la-mobilita-territoriale.md](GR-025_istat_2024_la-mobilita-territoriale.md), [GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md](GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md) and [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md): Italian statistics on commuting and daily travel.

@@ -17,7 +17,7 @@ related: [plan.md, OR-017_apple-app-store_2026_sprinter-nl.md]
 | **Link** | [Sprinter](https://apps.apple.com/nl/app/id6746379980) |
 | **App Store listing** | [Sprinter](https://apps.apple.com/nl/app/sprinter/id6746379980?uo=4) (NL store, version 2.0.4 released 2026-09-02; 239 ratings, average 4.69, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-017_bodlaender_2026_sprinter.md](../../Desk_Research/docs_md/Products/PR-017_bodlaender_2026_sprinter.md) |
+| **Markdown copy** | [PR-017_bodlaender_2026_sprinter.md](../../docs_md/Products/PR-017_bodlaender_2026_sprinter.md) |
 | **Produced by** | Robin Bodlaender (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -55,5 +55,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A3 of the research plan, [plan.md](../../../plan.md).
 - [OR-017_apple-app-store_2026_sprinter-nl.md](../Online_Reviews/OR-017_apple-app-store_2026_sprinter-nl.md) is the sample of user reviews of this product.

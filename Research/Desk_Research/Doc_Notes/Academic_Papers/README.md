@@ -4,7 +4,7 @@ Read this file instead of opening every source file. It lists the 28 sources of 
 
 - **What is here:** Peer-reviewed papers and reviews, found with OpenAlex. One file per: paper.
 - **Note:** 26 papers have a PDF and a text copy: 8 were downloaded and 18 were supplied by Marco on 2026-10-07, because the publishers block automated downloads. Two were not obtained because payment is needed (AP-002, AP-020): their source files hold the catalogue abstract, if any, and they are not used as evidence. Citation counts come from OpenAlex.
-- **Text copies** are in `../../Desk_Research/docs_md/Academic_Papers/` and downloaded documents in `../../Desk_Research/docs/Academic_Papers/`, with the same base name as the source file. Both folders are kept out of Git.
+- **Text copies** are in `../../docs_md/Academic_Papers/` and downloaded documents in `../../docs/Academic_Papers/`, with the same base name as the source file. Both folders are kept out of Git.
 
 ## How to use it
 
@@ -20,7 +20,7 @@ Read this file instead of opening every source file. It lists the 28 sources of 
 
 ## Sources
 
-Topics are the question groups of `../../../Questions/initial_questions.md`: `who` Q1–Q8, `planning` Q9–Q12, `mode-choice` Q13–Q16, `information` Q17–Q19, `disruption` Q20–Q23, `tools` Q24–Q26, `why-now` Q27–Q33, `success` Q34–Q40.
+Topics are the question groups of `../../../../Questions/initial_questions.md`: `who` Q1–Q8, `planning` Q9–Q12, `mode-choice` Q13–Q16, `information` Q17–Q19, `disruption` Q20–Q23, `tools` Q24–Q26, `why-now` Q27–Q33, `success` Q34–Q40.
 
 | ID | Source | Year | Geography | Language | Grade | Topics | Copy | Read | In one line |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

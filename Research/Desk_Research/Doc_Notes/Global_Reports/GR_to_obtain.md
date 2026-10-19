@@ -60,5 +60,5 @@ Sources that I could not open or download, with the link where I found them and 
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- Is one of the lists the research plan asks for, [plan.md](../../../plan.md).
 - [GR_candidates.md](GR_candidates.md) is the other list of the same source category.

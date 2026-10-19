@@ -17,7 +17,7 @@ related: [plan.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, OR-011_
 | **Link** | [Kakao T (Kakao Mobility)](https://www.kakaomobility.com/) |
 | **App Store listing** | [카카오 T - 택시, 세차, 주차, 바이크, 항공, 퀵](https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4-t-%ED%83%9D%EC%8B%9C-%EC%84%B8%EC%B0%A8-%EC%A3%BC%EC%B0%A8-%EB%B0%94%EC%9D%B4%ED%81%AC-%ED%95%AD%EA%B3%B5-%ED%80%B5/id981110422?uo=4) (KR store, version 7.14.0 released 2026-09-16; 464,055 ratings, average 4.71, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-011_kakao-mobility_2026_kakao-t.md](../../Desk_Research/docs_md/Products/PR-011_kakao-mobility_2026_kakao-t.md) |
+| **Markdown copy** | [PR-011_kakao-mobility_2026_kakao-t.md](../../docs_md/Products/PR-011_kakao-mobility_2026_kakao-t.md) |
 | **Produced by** | Kakao Mobility Corp. (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -55,6 +55,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A3 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md) and [OR-011_apple-app-store_2026_kakao-t-kr.md](../Online_Reviews/OR-011_apple-app-store_2026_kakao-t-kr.md): mobility platforms in South Korea.
 - [OR-011_apple-app-store_2026_kakao-t-kr.md](../Online_Reviews/OR-011_apple-app-store_2026_kakao-t-kr.md) is the sample of user reviews of this product.

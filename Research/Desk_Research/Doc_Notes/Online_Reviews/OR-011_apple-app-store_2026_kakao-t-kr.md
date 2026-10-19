@@ -15,8 +15,8 @@ related: [plan.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, PR-011_
 | --- | --- |
 | **ID** | OR-011 |
 | **Link** | [Apple customer reviews feed](https://itunes.apple.com/kr/rss/customerreviews/page=1/id=981110422/sortby=mostrecent/json) |
-| **Local copy** | [OR-011_apple-app-store_2026_kakao-t-kr.json](../../Desk_Research/docs/Online_Reviews/OR-011_apple-app-store_2026_kakao-t-kr.json) |
-| **Markdown copy** | [OR-011_apple-app-store_2026_kakao-t-kr.md](../../Desk_Research/docs_md/Online_Reviews/OR-011_apple-app-store_2026_kakao-t-kr.md) |
+| **Local copy** | [OR-011_apple-app-store_2026_kakao-t-kr.json](../../docs/Online_Reviews/OR-011_apple-app-store_2026_kakao-t-kr.json) |
+| **Markdown copy** | [OR-011_apple-app-store_2026_kakao-t-kr.md](../../docs_md/Online_Reviews/OR-011_apple-app-store_2026_kakao-t-kr.md) |
 | **Produced by** | Anonymous users of the app who wrote public reviews; names not recorded |
 | **Published by** | Apple App Store (South Korea store) |
 | **Kind of source** | User reviews: a sample of the 100 most recent reviews |
@@ -62,6 +62,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A4 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A4 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md) and [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md): mobility platforms in South Korea.
 - [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md) describes the product these reviews are about.

@@ -4,7 +4,7 @@ Read this file instead of opening every source file. It lists the 17 sources of 
 
 - **What is here:** Samples of user reviews from the Apple App Store. One file per: product and store (a sample of reviews, not one review).
 - **Note:** Each file is a sample of the most recent Apple App Store reviews for one app in one country. Not coded yet. Reviewer names are never recorded.
-- **Text copies** are in `../../Desk_Research/docs_md/Online_Reviews/` and downloaded documents in `../../Desk_Research/docs/Online_Reviews/`, with the same base name as the source file. Both folders are kept out of Git.
+- **Text copies** are in `../../docs_md/Online_Reviews/` and downloaded documents in `../../docs/Online_Reviews/`, with the same base name as the source file. Both folders are kept out of Git.
 
 ## How to use it
 
@@ -19,7 +19,7 @@ Read this file instead of opening every source file. It lists the 17 sources of 
 
 ## Sources
 
-Topics are the question groups of `../../../Questions/initial_questions.md`: `who` Q1–Q8, `planning` Q9–Q12, `mode-choice` Q13–Q16, `information` Q17–Q19, `disruption` Q20–Q23, `tools` Q24–Q26, `why-now` Q27–Q33, `success` Q34–Q40.
+Topics are the question groups of `../../../../Questions/initial_questions.md`: `who` Q1–Q8, `planning` Q9–Q12, `mode-choice` Q13–Q16, `information` Q17–Q19, `disruption` Q20–Q23, `tools` Q24–Q26, `why-now` Q27–Q33, `success` Q34–Q40.
 
 | ID | Source | Year | Geography | Language | Grade | Topics | Copy | Read | In one line |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

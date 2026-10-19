@@ -16,7 +16,7 @@ related: [plan.md, GR-051_transport-focus_2026_rail-customer-experience-survey.m
 | **ID** | GR-029 |
 | **Link** | [Transport User Voice, January 2025: disruption management week](https://www.transportfocus.org.uk/news/transport-user-voice-january-2025-disruption-management-week/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-029_transport-focus_2024_user-voice-disruption-management-week.md](../../Desk_Research/docs_md/Global_Reports/GR-029_transport-focus_2024_user-voice-disruption-management-week.md) |
+| **Markdown copy** | [GR-029_transport-focus_2024_user-voice-disruption-management-week.md](../../docs_md/Global_Reports/GR-029_transport-focus_2024_user-voice-disruption-management-week.md) |
 | **Produced by** | Transport Focus, the independent watchdog for transport users in Great Britain |
 | **Published by** | Transport Focus |
 | **Kind of source** | Newsletter article on observation research |
@@ -51,5 +51,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-051_transport-focus_2026_rail-customer-experience-survey.md](GR-051_transport-focus_2026_rail-customer-experience-survey.md): the British passenger watchdog's work on rail passengers and disruption.

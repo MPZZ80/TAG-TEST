@@ -17,7 +17,7 @@ related: [plan.md, OR-001_apple-app-store_2026_google-maps-it.md]
 | **Link** | [Google Maps](https://www.google.com/maps/about/) |
 | **App Store listing** | [Google Maps](https://apps.apple.com/it/app/google-maps/id585027354?uo=4) (IT store, version 26.40.3 released 2026-10-02; 517,759 ratings, average 4.64, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-001_google_2026_google-maps.md](../../Desk_Research/docs_md/Products/PR-001_google_2026_google-maps.md) |
+| **Markdown copy** | [PR-001_google_2026_google-maps.md](../../docs_md/Products/PR-001_google_2026_google-maps.md) |
 | **Produced by** | Google LLC (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -56,5 +56,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A3 of the research plan, [plan.md](../../../plan.md).
 - [OR-001_apple-app-store_2026_google-maps-it.md](../Online_Reviews/OR-001_apple-app-store_2026_google-maps-it.md) is the sample of user reviews of this product.

@@ -15,8 +15,8 @@ related: [plan.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-009_apple-app
 | --- | --- |
 | **ID** | OR-008 |
 | **Link** | [Apple customer reviews feed](https://itunes.apple.com/nl/rss/customerreviews/page=1/id=370362301/sortby=mostrecent/json) |
-| **Local copy** | [OR-008_apple-app-store_2026_ns-app-nl.json](../../Desk_Research/docs/Online_Reviews/OR-008_apple-app-store_2026_ns-app-nl.json) |
-| **Markdown copy** | [OR-008_apple-app-store_2026_ns-app-nl.md](../../Desk_Research/docs_md/Online_Reviews/OR-008_apple-app-store_2026_ns-app-nl.md) |
+| **Local copy** | [OR-008_apple-app-store_2026_ns-app-nl.json](../../docs/Online_Reviews/OR-008_apple-app-store_2026_ns-app-nl.json) |
+| **Markdown copy** | [OR-008_apple-app-store_2026_ns-app-nl.md](../../docs_md/Online_Reviews/OR-008_apple-app-store_2026_ns-app-nl.md) |
 | **Produced by** | Anonymous users of the app who wrote public reviews; names not recorded |
 | **Published by** | Apple App Store (Netherlands store) |
 | **Kind of source** | User reviews: a sample of the 100 most recent reviews |
@@ -63,6 +63,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A4 of the research plan, [plan.md](../../plan.md).
-- Shares the pain point `usual-trip` with [OR-005_apple-app-store_2026_trainline-gb.md](OR-005_apple-app-store_2026_trainline-gb.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [GR-040_trb_2003_tcrp-92-traveler-information.md](../Global_Reports/GR-040_trb_2003_tcrp-92-traveler-information.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](../Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md), [PR-008_ns_2026_ns-app.md](../Products/PR-008_ns_2026_ns-app.md), [PR-009_trenitalia_2026_trenitalia-app.md](../Products/PR-009_trenitalia_2026_trenitalia-app.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): regular travellers who want their usual trip at a glance: saved trips, standing alerts.
+- Collected for activity A4 of the research plan, [plan.md](../../../plan.md).
+- Shares the pain point `usual-trip` with [OR-005_apple-app-store_2026_trainline-gb.md](OR-005_apple-app-store_2026_trainline-gb.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [GR-040_trb_2003_tcrp-92-traveler-information.md](../Global_Reports/GR-040_trb_2003_tcrp-92-traveler-information.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](../Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md), [PR-008_ns_2026_ns-app.md](../Products/PR-008_ns_2026_ns-app.md), [PR-009_trenitalia_2026_trenitalia-app.md](../Products/PR-009_trenitalia_2026_trenitalia-app.md) and [Matteo_Rizzetto_notes.md](../../../Interviews/Matteo_Rizzetto_notes.md): regular travellers who want their usual trip at a glance: saved trips, standing alerts.
 - [PR-008_ns_2026_ns-app.md](../Products/PR-008_ns_2026_ns-app.md) describes the product these reviews are about.

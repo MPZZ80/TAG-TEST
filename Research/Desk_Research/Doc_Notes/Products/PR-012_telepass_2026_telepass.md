@@ -17,7 +17,7 @@ related: [plan.md, OR-012_apple-app-store_2026_telepass-it.md]
 | **Link** | [Telepass](https://apps.apple.com/it/app/id454224356) |
 | **App Store listing** | [Telepass: pedaggi e parcheggi](https://apps.apple.com/it/app/telepass-pedaggi-e-parcheggi/id454224356?uo=4) (IT store, version 5.57.1 released 2026-09-30; 77,116 ratings, average 4.62, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-012_telepass_2026_telepass.md](../../Desk_Research/docs_md/Products/PR-012_telepass_2026_telepass.md) |
+| **Markdown copy** | [PR-012_telepass_2026_telepass.md](../../docs_md/Products/PR-012_telepass_2026_telepass.md) |
 | **Produced by** | Telepass SpA (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -56,5 +56,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A3 of the research plan, [plan.md](../../../plan.md).
 - [OR-012_apple-app-store_2026_telepass-it.md](../Online_Reviews/OR-012_apple-app-store_2026_telepass-it.md) is the sample of user reviews of this product.

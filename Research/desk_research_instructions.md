@@ -27,7 +27,7 @@ Marco will start interviewing fellow commuters only after he has seen the result
 | `../Brief/brief.md` | The user, the problem and Marco's motivation |
 | `../Questions/initial_questions.md` | The 40 research questions, referred to as Q1–Q40 |
 | `plan.md` | The activities (A1–A8), their goals, sources, outputs, order of work and "done when" checks |
-| `Sources/` and `Desk_Research/docs/` | The source files and downloaded documents already collected (see section 11) |
+| `Desk_Research/Doc_Notes/` and `Desk_Research/docs/` | The source files and downloaded documents already collected (see section 11) |
 | Existing `01_…` to `08_…` files in this folder | What earlier sessions already found |
 
 The plan says what each activity must cover and where to look. This file says how to do the work and how to write it up. If the two conflict, follow the plan and note the conflict in the synthesis.
@@ -112,7 +112,7 @@ At most ten lines: the main findings and what they mean for the project.
 ## Findings by question
 ### Q<n>. <question text>
 - **A<n>-F<n>. Finding:** <what the evidence says>
-  - Sources: [<source ID>](Sources/<Category>/<source file>.md), [<source ID>](Sources/<Category>/<source file>.md)
+  - Sources: [<source ID>](Desk_Research/Doc_Notes/<Category>/<source file>.md), [<source ID>](Desk_Research/Doc_Notes/<Category>/<source file>.md)
   - Leg: first mile / main leg / transfer / last mile / whole journey
   - Confidence: high / medium / low
   - Interpretation: <what this may mean for the project>
@@ -138,7 +138,7 @@ What only commuters themselves can answer.
 ## Sources
 | ID | Source file | Original | Grade |
 | --- | --- | --- | --- |
-| <source ID> | [<title>](Sources/<Category>/<source file>.md) | [link](<URL>) | <grade> |
+| <source ID> | [<title>](Desk_Research/Doc_Notes/<Category>/<source file>.md) | [link](<URL>) | <grade> |
 
 ## Could not do
 Sources that did not open, documents that could not be downloaded, information not found, checks not made.
@@ -238,19 +238,19 @@ Apart from the candidate lists, where you always stop for Marco, do not stop to 
 
 ### One file per source
 
-- Every source used in the research has its own Markdown file, called a source file, in the folder of its category under `Sources/`.
+- Every source used in the research has its own Markdown file, called a source file, in the folder of its category under `Desk_Research/Doc_Notes/`.
 - An output may cite only sources that have a source file. Create the source file first, then cite it.
 - Each category folder has a `README.md` that is the index of its sources. Add or update the row of a source there whenever you create, regrade or remove its source file, and use the index to find sources without opening every file.
 - The source file holds everything about the source. Outputs link to it and do not repeat its details.
 
 | Folder | Code | What goes in it | One file per |
 | --- | --- | --- | --- |
-| `Sources/Global_Reports/` | `GR` | Official statistics and reports from institutions, industry bodies, operators and consultancies | Report or dataset |
-| `Sources/Academic_Papers/` | `AP` | Peer-reviewed papers, literature reviews, theses and working papers | Paper |
-| `Sources/Products/` | `PR` | Apps, platforms and mobility services, described from their own sites and store listings | Product |
-| `Sources/Online_Reviews/` | `OR` | User reviews from app stores and review sites | Product and store: the file describes the sample of reviews read, not a single review |
-| `Sources/Online_Forums/` | `OF` | Reddit threads, forum threads and commuter group discussions | Thread, not a single post |
-| `Sources/Articles/` | `AR` | Press articles and blog posts | Article |
+| `Desk_Research/Doc_Notes/Global_Reports/` | `GR` | Official statistics and reports from institutions, industry bodies, operators and consultancies | Report or dataset |
+| `Desk_Research/Doc_Notes/Academic_Papers/` | `AP` | Peer-reviewed papers, literature reviews, theses and working papers | Paper |
+| `Desk_Research/Doc_Notes/Products/` | `PR` | Apps, platforms and mobility services, described from their own sites and store listings | Product |
+| `Desk_Research/Doc_Notes/Online_Reviews/` | `OR` | User reviews from app stores and review sites | Product and store: the file describes the sample of reviews read, not a single review |
+| `Desk_Research/Doc_Notes/Online_Forums/` | `OF` | Reddit threads, forum threads and commuter group discussions | Thread, not a single post |
+| `Desk_Research/Doc_Notes/Articles/` | `AR` | Press articles and blog posts | Article |
 
 Do not add a category folder without Marco's approval.
 
@@ -317,11 +317,11 @@ Links to the findings that rest on this source.
 
 - Every source is cited with a clickable Markdown link, so that Marco can open and read it: `[title](URL)`. Do not write a bare title, and do not write a URL as plain text.
 - Link to the exact page or document, not to the home page of the site.
-- Links between project files are relative, for example `[GR source](Sources/Global_Reports/<file>.md)`.
+- Links between project files are relative, for example `[GR source](Desk_Research/Doc_Notes/Global_Reports/<file>.md)`.
 
 ### Downloaded documents
 
-- `Desk_Research/docs/` and `Desk_Research/docs_md/` have one subfolder per category, like `Sources/` (`Global_Reports`, `Academic_Papers`, `Products`, `Online_Reviews`, `Online_Forums`, `Articles`). Put each file in the folder of its category, for example `Desk_Research/docs/Global_Reports/GR-003_….pdf` and `Desk_Research/docs_md/Global_Reports/GR-003_….md`.
+- `Desk_Research/docs/` and `Desk_Research/docs_md/` have one subfolder per category, like `Desk_Research/Doc_Notes/` (`Global_Reports`, `Academic_Papers`, `Products`, `Online_Reviews`, `Online_Forums`, `Articles`). Put each file in the folder of its category, for example `Desk_Research/docs/Global_Reports/GR-003_….pdf` and `Desk_Research/docs_md/Global_Reports/GR-003_….md`.
 - When a source is a document, such as a PDF report, a paper, a dataset or a slide deck, download it into `Desk_Research/docs/`.
 - Give the downloaded file the same base name as its source file, keeping the original extension, so that the two can be matched at a glance: `GR-003_eurostat_2024_commuting-flows.pdf`.
 - When a source has more than one document, add a short detail at the end, after an underscore, to tell them apart: `GR-003_eurostat_2024_commuting-flows_UE_Synthesis.pdf`. List every document in the "Local copy" row.
@@ -406,7 +406,7 @@ The research on a source category starts with a candidate list that Marco vets. 
 
 ### What to do
 
-- Write one list per category, in the file named in the plan, for example `Sources/Global_Reports/GR_candidates.md`. Start with Global reports.
+- Write one list per category, in the file named in the plan, for example `Desk_Research/Doc_Notes/Global_Reports/GR_candidates.md`. Start with Global reports.
 - Search for the sources that could answer the research questions, and list the relevant ones. Stop when new searches only return weaker versions of what is already listed.
 - Open every link once, to confirm that the source exists and is what the list says it is. Do not list a source from memory or from a search snippet.
 - Keep it short: one row per candidate, ordered from the most to the least promising.

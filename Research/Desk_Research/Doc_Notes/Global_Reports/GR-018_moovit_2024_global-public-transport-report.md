@@ -16,7 +16,7 @@ related: [plan.md]
 | **ID** | GR-018 |
 | **Link** | [Moovit Unveils 2024 Global Public Transport Report](https://moovit.com/press-releases/moovit-2024-global-report-usa/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-018_moovit_2024_global-public-transport-report.md](../../Desk_Research/docs_md/Global_Reports/GR-018_moovit_2024_global-public-transport-report.md) |
+| **Markdown copy** | [GR-018_moovit_2024_global-public-transport-report.md](../../docs_md/Global_Reports/GR-018_moovit_2024_global-public-transport-report.md) |
 | **Produced by** | Moovit |
 | **Published by** | Moovit |
 | **Kind of source** | Vendor data from app users, press release |
@@ -54,4 +54,4 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).

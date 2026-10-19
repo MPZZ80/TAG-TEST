@@ -15,8 +15,8 @@ related: [plan.md, GR-021_european-union_2017_delegated-regulation-2017-1926.md,
 | --- | --- |
 | **ID** | GR-013 |
 | **Link** | [NAPCORE position paper on the revision of the delegated regulation on multimodal travel information services (EU) 2017/1926](https://napcore.eu/wp-content/uploads/2024/02/NAPCORE-Position-paper-on-the-revision-of-the-delegated-regulation-on-multimodal-travel-information-services-EU-20171926-DR-MMTIS.pdf) |
-| **Local copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.pdf](../../Desk_Research/docs/Global_Reports/GR-013_napcore_nd_position-paper-mmtis-revision.pdf) |
-| **Markdown copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.md](../../Desk_Research/docs_md/Global_Reports/GR-013_napcore_nd_position-paper-mmtis-revision.md) |
+| **Local copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.pdf](../../docs/Global_Reports/GR-013_napcore_nd_position-paper-mmtis-revision.pdf) |
+| **Markdown copy** | [GR-013_napcore_nd_position-paper-mmtis-revision.md](../../docs_md/Global_Reports/GR-013_napcore_nd_position-paper-mmtis-revision.md) |
 | **Produced by** | NAPCORE, coordination mechanism of the National Access Points for mobility data (partnership of NAP operators and national bodies) |
 | **Published by** | NAPCORE |
 | **Kind of source** | Position paper, 5 pages |
@@ -56,5 +56,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-021_european-union_2017_delegated-regulation-2017-1926.md](GR-021_european-union_2017_delegated-regulation-2017-1926.md), [GR-054_cciss_nd_italian-national-access-point-mmtis.md](GR-054_cciss_nd_italian-national-access-point-mmtis.md) and [GR-056_data4pt_nd_italian-ministry-partner-perspective.md](GR-056_data4pt_nd_italian-ministry-partner-perspective.md): the EU rules on travel data and the national access points.

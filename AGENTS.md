@@ -23,7 +23,7 @@ Repository layout:
 | `Research/` | The research plan, the desk research instructions, the interview script and the research outputs |
 | `Research/Interviews/` | Recordings, automatic transcripts and one notes file per interview |
 | `Research/Survey/` | The commuter survey in five languages, where to post it and the script that builds the forms |
-| `Research/Sources/` | One file per source, in a folder per source category |
+| `Research/Desk_Research/Doc_Notes/` | One synthesis note per source, in a folder per source category: notes written from the sources, not the sources themselves |
 | `Research/Desk_Research/docs/` | Documents downloaded from the sources, in one folder per category. Excluded from Git |
 | `Research/Desk_Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
 
@@ -47,7 +47,7 @@ Put a new document in the folder it belongs to, not in the root. Create a new fo
 Every folder has a `README.md` that says what is in it, which file to read for what, and what not to read in full. They exist to save reading.
 
 - **Read the README of a folder before opening its files**, and open only the files it points you to.
-- For the sources, go `Research/README.md` → `Research/Sources/README.md` → the `README.md` of one category, which is the index of its sources → the single source files you need. Do not open the source files one by one, and do not read the text copies in `Research/Desk_Research/docs_md/` from start to finish: search them.
+- For the sources, go `Research/README.md` → `Research/Desk_Research/Doc_Notes/README.md` → the `README.md` of one category, which is the index of its sources → the single source files you need. Do not open the source files one by one, and do not read the text copies in `Research/Desk_Research/docs_md/` from start to finish: search them.
 - **Keep the READMEs current.** When you add, remove, rename or regrade a file, update the README of its folder in the same change, including the counts and the state it reports.
 - A README describes and points; it does not hold findings or rules. Rules stay in this file, in `Metadata/metadata_schema.md` and in `Research/desk_research_instructions.md`.
 - The `README.md` in the repository root is Marco's own front page; do not change it unless he asks.
@@ -97,7 +97,7 @@ This section is the running list of the standing instructions Marco gives during
 | 17 | 2026-10-06 | Extend the research scope from Europe to the Western countries and the more advanced countries of the rest of the world that resemble the West, mainly to find technology solutions and pain points. Details in section 3 of `Research/desk_research_instructions.md`. | Marco is not sure that what was found in Europe is valuable, especially for technology solutions and pain points |
 | 18 | 2026-10-06 | Include sources in languages other than English, searched in their own language, and note which tools to install to read them (in `Research/progress.md`). Details in section 3 of `Research/desk_research_instructions.md`. | Marco wants the research to cover the wider scope in the languages of those countries |
 | 19 | 2026-10-06 | Every source gets Markdown files: PDFs are converted, and web pages are captured as text, into `Research/Desk_Research/docs_md/`. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the Markdown files of the sources first, and the interpretation later |
-| 20 | 2026-10-07 | Keep `Research/Desk_Research/docs/` and `Research/Desk_Research/docs_md/` split by category, with the same folder names as `Research/Sources/`. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the sources divided by category |
+| 20 | 2026-10-07 | Keep `Research/Desk_Research/docs/` and `Research/Desk_Research/docs_md/` split by category, with the same folder names as `Research/Desk_Research/Doc_Notes/`. Details in section 11 of `Research/desk_research_instructions.md`. | Marco wants the sources divided by category |
 | 21 | 2026-10-07 | For the papers, do not ask anything more: keep all, download and convert. Then continue through the remaining categories with the extended scope until the desk research is finished, updating the progress file, and leave the interpretation for later. | Marco wants the collection finished before the interpretation |
 | 22 | 2026-10-07 | Keep a `README.md` in every folder that guides agents to the right file, so that they do not read every Markdown file each time; read the README of a folder first and keep it current. Details under "Folder guides" below. | To guide agents without making them read all the Markdown files every time |
 | 23 | 2026-10-07 | Widen the scope of the brief: do not think only of the Italian commuter, make a general analysis of commuting in multimodal environments, and decide the rest later ("e poi vediamo"). Applied on 2026-10-08: "Scope" section in `Brief/brief.md` and section 3 of `Research/desk_research_instructions.md`. | In Italy 86% use the car (Marco's figure, as he stated it) |
@@ -107,6 +107,7 @@ This section is the running list of the standing instructions Marco gives during
 | 28 | 2026-10-12 | Do not list `README.md` files in `Index.md`. | Not stated |
 | 29 | 2026-10-12 | Texts written for respondents, such as the survey, are made in the languages of the places where they are posted, one file per language; the reference version stays in English. | The survey has to reach Italians and people in other countries |
 | 30 | 2026-10-12 | Do not list the interview transcripts or the lists of sources (`*_candidates.md`, `*_to_obtain.md`) in `Index.md`. | Not stated; taken from Marco's own edit of the index |
+| 31 | 2026-10-16 | Keep the notes on the sources in `Research/Desk_Research/Doc_Notes/`, next to the documents they are written from (`docs/`, `docs_md/`), with a name that says they are synthesis notes and not the original sources. | The folder held synthesis notes, and its old name `Sources` suggested the original sources |
 
 ### Language
 

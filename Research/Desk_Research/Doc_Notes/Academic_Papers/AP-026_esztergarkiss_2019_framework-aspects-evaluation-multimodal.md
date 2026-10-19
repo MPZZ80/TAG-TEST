@@ -15,8 +15,8 @@ related: [plan.md]
 | --- | --- |
 | **ID** | AP-026 |
 | **Link** | [Framework of Aspects for the Evaluation of Multimodal Journey Planners](https://doi.org/10.3390/su11184960) (open-access PDF: <https://www.mdpi.com/2071-1050/11/18/4960/pdf?version=1568200285>) |
-| **Local copy** | [AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.pdf](../../Desk_Research/docs/Academic_Papers/AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.pdf), provided by Marco on 2026-10-07 |
-| **Markdown copy** | [AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.md](../../Desk_Research/docs_md/Academic_Papers/AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.md) |
+| **Local copy** | [AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.pdf](../../docs/Academic_Papers/AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.md](../../docs_md/Academic_Papers/AP-026_esztergarkiss_2019_framework-aspects-evaluation-multimodal.md) |
 | **Produced by** | Domokos Esztergár‐Kiss (1 author; institutions in Hungary) |
 | **Published by** | Sustainability |
 | **Kind of source** | Peer-reviewed journal article (gold open access) |
@@ -61,4 +61,4 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A2 of the research plan, [plan.md](../../../plan.md).

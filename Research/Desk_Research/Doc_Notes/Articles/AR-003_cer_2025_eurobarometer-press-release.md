@@ -16,7 +16,7 @@ related: [plan.md, GR-005_european-commission_2025_eurobarometer-booking-press-r
 | **ID** | AR-003 |
 | **Link** | [European travellers report positive experience with rail & multimodal bookings](https://www.cer.be/cer-press-releases/european-travellers-report-positive-experience-with-rail-multimodal-bookings) |
 | **Local copy** | not available: web page, not downloaded; a PDF version exists on the site |
-| **Markdown copy** | [AR-003_cer_2025_eurobarometer-press-release.md](../../Desk_Research/docs_md/Articles/AR-003_cer_2025_eurobarometer-press-release.md) |
+| **Markdown copy** | [AR-003_cer_2025_eurobarometer-press-release.md](../../docs_md/Articles/AR-003_cer_2025_eurobarometer-press-release.md) |
 | **Produced by** | CER, Community of European Railway and Infrastructure Companies |
 | **Published by** | CER |
 | **Kind of source** | Industry body press release |
@@ -55,5 +55,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A6 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A6 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-005_european-commission_2025_eurobarometer-booking-press-release.md](../Global_Reports/GR-005_european-commission_2025_eurobarometer-booking-press-release.md), [AR-002_railtarget_nd_eurobarometer-ticketing.md](AR-002_railtarget_nd_eurobarometer-ticketing.md) and [GR-006_european-commission_2026_swd-300-impact-assessment.md](../Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md): the 2024 Eurobarometer on booking journeys.

@@ -38,4 +38,4 @@ OF-001 and OF-002 are forum threads that opened; OF-003 and OF-004 are Hacker Ne
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- Is one of the lists the research plan asks for, [plan.md](../../../plan.md).

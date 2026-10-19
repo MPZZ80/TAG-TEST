@@ -15,8 +15,8 @@ related: [plan.md]
 | --- | --- |
 | **ID** | AP-022 |
 | **Link** | [Travel time and bounded rationality in travellers’ route choice behaviour: A computer route choice experiment](https://doi.org/10.1016/j.tbs.2020.06.011) (open-access PDF: <https://www.sciencedirect.com/science/article/am/pii/S2214367X20301915?via%3Dihub>) |
-| **Local copy** | [AP-022_ramirez_2020_travel-time-bounded-rationality.pdf](../../Desk_Research/docs/Academic_Papers/AP-022_ramirez_2020_travel-time-bounded-rationality.pdf), provided by Marco on 2026-10-07 |
-| **Markdown copy** | [AP-022_ramirez_2020_travel-time-bounded-rationality.md](../../Desk_Research/docs_md/Academic_Papers/AP-022_ramirez_2020_travel-time-bounded-rationality.md) |
+| **Local copy** | [AP-022_ramirez_2020_travel-time-bounded-rationality.pdf](../../docs/Academic_Papers/AP-022_ramirez_2020_travel-time-bounded-rationality.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-022_ramirez_2020_travel-time-bounded-rationality.md](../../docs_md/Academic_Papers/AP-022_ramirez_2020_travel-time-bounded-rationality.md) |
 | **Produced by** | Humberto González Ramírez et al. (5 authors; institutions in France) |
 | **Published by** | Travel Behaviour and Society |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
@@ -63,4 +63,4 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A2 of the research plan, [plan.md](../../../plan.md).

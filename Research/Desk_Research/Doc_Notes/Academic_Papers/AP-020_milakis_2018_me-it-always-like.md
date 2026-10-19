@@ -50,4 +50,4 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A2 of the research plan, [plan.md](../../../plan.md).

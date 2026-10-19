@@ -16,7 +16,7 @@ related: [plan.md, GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md, GR-
 | **ID** | GR-032 |
 | **Link** | [United States commuting at a glance: American Community Survey 1-year estimates](https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md](../../Desk_Research/docs_md/Global_Reports/GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md) |
+| **Markdown copy** | [GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md](../../docs_md/Global_Reports/GR-032_us-census-bureau_nd_commuting-at-a-glance-acs.md) |
 | **Produced by** | US Census Bureau |
 | **Published by** | US Census Bureau |
 | **Kind of source** | Official statistics, data page |
@@ -52,5 +52,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md](GR-031_us-census-bureau_2024_commuting-in-the-us-2022.md), [GR-033_statistics-canada_2023_commuting-time-2011-2022.md](GR-033_statistics-canada_2023_commuting-time-2011-2022.md) and [GR-034_abs_2022_australias-journey-to-work.md](GR-034_abs_2022_australias-journey-to-work.md): census statistics on the journey to work outside Europe.

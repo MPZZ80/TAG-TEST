@@ -4,6 +4,25 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-19 12:06
+
+- **Files:** `Research/Survey/Responses/README.md`, `Research/Survey/README.md`, `.gitignore`
+- **Change:** Folder `Research/Survey/Responses/` created with its guide, for the CSV exports of the survey answers, one per language; the CSV files kept out of Git; row added to the survey folder guide.
+- **Why:** Marco has the first survey results and asked for folders to copy the files into, and which format to use. Keeping the CSV files out of Git is the agent's choice: the open answers may contain identifying details.
+
+## 2026-10-16 16:06
+
+- **Files:** the folder `Research/Desk_Research/Source_Notes/` renamed `Research/Desk_Research/Doc_Notes/`, and the 142 files whose links or text named it, among them `AGENTS.md`, `Index.md` and the guides
+- **Change:** Folder renamed; relative links recomputed and the name replaced in the text (the guide is now titled "Doc Notes"; general instruction 31 in `AGENTS.md` names the new folder).
+- **Why:** Marco: "Chiamala Doc_Notes".
+
+## 2026-10-16 16:05
+
+- **Files:** the folder `Research/Sources/` moved and renamed `Research/Desk_Research/Source_Notes/` (132 notes, 8 lists, 7 guides); every file whose links or paths pointed to it, among them `AGENTS.md`, `Index.md`, `Research/README.md`, `Research/plan.md`, `Research/progress.md`, `Research/desk_research_instructions.md`, `Research/open_issues.md`, the interview notes, the files in `Research/Survey/`, `Metadata/metadata_schema.md`; new guide `Research/Desk_Research/README.md`
+- **Change:** Folder moved next to `docs/` and `docs_md/` and renamed to say that it holds synthesis notes, not the original sources. All relative links recomputed (2,832 checked; none broken by the move) and the paths written in the text updated; the guide of the folder retitled "Source Notes" with a sentence on what the notes are. `AGENTS.md`: layout table and general instruction 31. The local text copies in `docs_md/` had their links back to the notes corrected too.
+- **Why:** Marco asked to move `Sources` inside `Desk_Research` and to rename it so that the name reflects that the files are synthesis notes and not the original sources.
+- **Do not:** call this folder `Sources`, or put the notes back in `Research/` apart from the documents.
+
 ## 2026-10-15 23:16
 
 - **Files:** `Research/Survey/direct_posts.md`, `Research/Survey/posting_venues.md`, `Research/Survey/permission_requests.md`

@@ -16,7 +16,7 @@ related: [plan.md, GR-013_napcore_nd_position-paper-mmtis-revision.md, GR-054_cc
 | **ID** | GR-021 |
 | **Link** | [Commission Delegated Regulation (EU) 2017/1926 on EU-wide multimodal travel information services](https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32017R1926) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-021_european-union_2017_delegated-regulation-2017-1926.md](../../Desk_Research/docs_md/Global_Reports/GR-021_european-union_2017_delegated-regulation-2017-1926.md) |
+| **Markdown copy** | [GR-021_european-union_2017_delegated-regulation-2017-1926.md](../../docs_md/Global_Reports/GR-021_european-union_2017_delegated-regulation-2017-1926.md) |
 | **Produced by** | European Commission |
 | **Published by** | EUR-Lex, Official Journal of the European Union |
 | **Kind of source** | Legal text |
@@ -57,6 +57,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-013_napcore_nd_position-paper-mmtis-revision.md](GR-013_napcore_nd_position-paper-mmtis-revision.md), [GR-054_cciss_nd_italian-national-access-point-mmtis.md](GR-054_cciss_nd_italian-national-access-point-mmtis.md) and [GR-056_data4pt_nd_italian-ministry-partner-perspective.md](GR-056_data4pt_nd_italian-ministry-partner-perspective.md): the EU rules on travel data and the national access points.
 - Shares a source landscape with [GR-055_gtfs-de_nd_realtime-data-germany.md](GR-055_gtfs-de_nd_realtime-data-germany.md), [GR-038_mobilitydata_2026_mobility-database-about.md](GR-038_mobilitydata_2026_mobility-database-about.md) and [GR-054_cciss_nd_italian-national-access-point-mmtis.md](GR-054_cciss_nd_italian-national-access-point-mmtis.md): open and real-time public transport data feeds.

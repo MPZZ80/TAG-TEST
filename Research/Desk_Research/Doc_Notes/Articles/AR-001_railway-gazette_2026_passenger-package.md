@@ -16,7 +16,7 @@ related: [plan.md, GR-006_european-commission_2026_swd-300-impact-assessment.md,
 | **ID** | AR-001 |
 | **Link** | [European Commission unveils passenger package to tackle fragmented rail booking systems](https://www.railwaygazette.com/europe/2026/05/13/european-commission-unveils-passenger-package-to-tackle-fragmented-rail-booking-systems/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [AR-001_railway-gazette_2026_passenger-package.md](../../Desk_Research/docs_md/Articles/AR-001_railway-gazette_2026_passenger-package.md) |
+| **Markdown copy** | [AR-001_railway-gazette_2026_passenger-package.md](../../docs_md/Articles/AR-001_railway-gazette_2026_passenger-package.md) |
 | **Produced by** | Esther Geerts |
 | **Published by** | Railway Gazette International |
 | **Kind of source** | Trade press article |
@@ -56,5 +56,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A6 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A6 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-006_european-commission_2026_swd-300-impact-assessment.md](../Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md), [GR-007_european-commission_2026_com-231-multimodal-booking.md](../Global_Reports/GR-007_european-commission_2026_com-231-multimodal-booking.md) and [GR-020_european-commission_2026_com-232-rail-ticketing.md](../Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.md): the European Commission's passenger package of May 2026.

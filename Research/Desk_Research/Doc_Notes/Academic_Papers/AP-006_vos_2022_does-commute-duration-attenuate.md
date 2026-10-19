@@ -15,8 +15,8 @@ related: [plan.md, AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md, AP-
 | --- | --- |
 | **ID** | AP-006 |
 | **Link** | [Does commute duration attenuate the effect of travel mode choice on commute satisfaction?](https://doi.org/10.1016/j.tbs.2022.02.004) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S2214367X22000138/pdf>) |
-| **Local copy** | [AP-006_vos_2022_does-commute-duration-attenuate.pdf](../../Desk_Research/docs/Academic_Papers/AP-006_vos_2022_does-commute-duration-attenuate.pdf), provided by Marco on 2026-10-07 |
-| **Markdown copy** | [AP-006_vos_2022_does-commute-duration-attenuate.md](../../Desk_Research/docs_md/Academic_Papers/AP-006_vos_2022_does-commute-duration-attenuate.md) |
+| **Local copy** | [AP-006_vos_2022_does-commute-duration-attenuate.pdf](../../docs/Academic_Papers/AP-006_vos_2022_does-commute-duration-attenuate.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-006_vos_2022_does-commute-duration-attenuate.md](../../docs_md/Academic_Papers/AP-006_vos_2022_does-commute-duration-attenuate.md) |
 | **Produced by** | Jonas De Vos et al. (3 authors; institutions in United Kingdom, Netherlands, United States) |
 | **Published by** | Travel Behaviour and Society |
 | **Kind of source** | Peer-reviewed journal article (hybrid open access) |
@@ -60,6 +60,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A2 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A2 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md) and [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md): the Ghent research on travel satisfaction.
 - Shares a pain point with [AP-025_wang_2020_exploring-physical-mental-health.md](AP-025_wang_2020_exploring-physical-mental-health.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](AP-027_keyes_2018_changing-influences-commuting-mode.md), [GR-033_statistics-canada_2023_commuting-time-2011-2022.md](../Global_Reports/GR-033_statistics-canada_2023_commuting-time-2011-2022.md) and [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md): long commutes and what they cost the commuter.

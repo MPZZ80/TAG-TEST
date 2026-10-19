@@ -51,5 +51,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [AR-002_railtarget_nd_eurobarometer-ticketing.md](../Articles/AR-002_railtarget_nd_eurobarometer-ticketing.md), [AR-003_cer_2025_eurobarometer-press-release.md](../Articles/AR-003_cer_2025_eurobarometer-press-release.md) and [GR-006_european-commission_2026_swd-300-impact-assessment.md](GR-006_european-commission_2026_swd-300-impact-assessment.md): the 2024 Eurobarometer on booking journeys.

@@ -4,7 +4,7 @@ Read this file instead of opening every source file. It lists the 4 sources of t
 
 - **What is here:** Forum and community threads. One file per: thread.
 - **Note:** The weakest category: Reddit and most forums block automated reading. Captures may contain forum nicknames; never copy them into other files.
-- **Text copies** are in `../../Desk_Research/docs_md/Online_Forums/` and downloaded documents in `../../Desk_Research/docs/Online_Forums/`, with the same base name as the source file. Both folders are kept out of Git.
+- **Text copies** are in `../../docs_md/Online_Forums/` and downloaded documents in `../../docs/Online_Forums/`, with the same base name as the source file. Both folders are kept out of Git.
 
 ## How to use it
 
@@ -19,7 +19,7 @@ Read this file instead of opening every source file. It lists the 4 sources of t
 
 ## Sources
 
-Topics are the question groups of `../../../Questions/initial_questions.md`: `who` Q1–Q8, `planning` Q9–Q12, `mode-choice` Q13–Q16, `information` Q17–Q19, `disruption` Q20–Q23, `tools` Q24–Q26, `why-now` Q27–Q33, `success` Q34–Q40.
+Topics are the question groups of `../../../../Questions/initial_questions.md`: `who` Q1–Q8, `planning` Q9–Q12, `mode-choice` Q13–Q16, `information` Q17–Q19, `disruption` Q20–Q23, `tools` Q24–Q26, `why-now` Q27–Q33, `success` Q34–Q40.
 
 | ID | Source | Year | Geography | Language | Grade | Topics | Copy | Read | In one line |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

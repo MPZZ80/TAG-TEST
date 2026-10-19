@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-14 00:13
+date: 2026-10-16 16:05
 method: generated
 status: draft
 grade: n/a
@@ -26,7 +26,7 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - Matteo_Rizzetto_notes.md — [research, interview, notes, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, usual-trip, crowding, workarounds, contradiction · draft · n/a · low]
 - Valentina_Di_Floriano_notes.md — [research, interview, notes, planning, disruption, information, no-alternative, first-last-mile, hybrid-work, unreliable-service, crowding, workarounds · draft · n/a · low]
 
-## Research/Sources/Academic_Papers
+## Research/Desk_Research/Doc_Notes/Academic_Papers
 
 - AP-001_goransson_2023_factors-that-make-public.md — [research, desk, source, mode-choice, tight-connection, habit, unreliable-service · draft · A · n/a]
 - AP-002_gonzalez_2019_drivers-barriers-adopting-mobility.md — [research, desk, source, why-now · draft · B · n/a]
@@ -57,7 +57,7 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - AP-027_keyes_2018_changing-influences-commuting-mode.md — [research, desk, source, mode-choice, habit · draft · B · n/a]
 - AP-028_shires_2018_impact-planned-disruptions-rail.md — [research, desk, source, disruption, no-alternative, tight-connection · draft · B · n/a]
 
-## Research/Sources/Articles
+## Research/Desk_Research/Doc_Notes/Articles
 
 - AR-001_railway-gazette_2026_passenger-package.md — [research, desk, source, why-now · draft · B · n/a]
 - AR-002_railtarget_nd_eurobarometer-ticketing.md — [research, desk, source, mode-choice · draft · C · n/a]
@@ -70,7 +70,7 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md — [research, desk, source, planning, why-now, hybrid-work · draft · C · n/a]
 - AR-010_global-fleet_2024_maas-1-is-dead.md — [research, desk, source, tools, why-now · draft · B · n/a]
 
-## Research/Sources/Global_Reports
+## Research/Desk_Research/Doc_Notes/Global_Reports
 
 - GR-001_eurostat_2020_commuting-time.md — [research, desk, source, who, planning · draft · B · n/a]
 - GR-002_eurostat_2023_interregional-commuters.md — [research, desk, source, who · draft · B · n/a]
@@ -129,14 +129,14 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - GR-055_gtfs-de_nd_realtime-data-germany.md — [research, desk, source, information, tools · draft · B · n/a]
 - GR-056_data4pt_nd_italian-ministry-partner-perspective.md — [research, desk, source, why-now, information · draft · C · n/a]
 
-## Research/Sources/Online_Forums
+## Research/Desk_Research/Doc_Notes/Online_Forums
 
 - OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md — [research, desk, source, information, tools · draft · C · n/a]
 - OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md — [research, desk, source, planning, disruption, late-info, no-alternative, tight-connection, first-last-mile, crowding, workarounds · draft · C · n/a]
 - OF-003_hacker-news_2023_hn-citymapper-joins-via.md — [research, desk, source, tools, why-now, late-info · draft · C · n/a]
 - OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md — [research, desk, source, tools, success · draft · C · n/a]
 
-## Research/Sources/Online_Reviews
+## Research/Desk_Research/Doc_Notes/Online_Reviews
 
 - OR-001_apple-app-store_2026_google-maps-it.md — [research, desk, source, tools, information · draft · C · n/a]
 - OR-002_apple-app-store_2026_moovit-it.md — [research, desk, source, tools, information, late-info · draft · C · n/a]
@@ -156,7 +156,7 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - OR-016_apple-app-store_2026_reiswijs-nl.md — [research, desk, source, tools, information · draft · C · n/a]
 - OR-017_apple-app-store_2026_sprinter-nl.md — [research, desk, source, tools, information · draft · C · n/a]
 
-## Research/Sources/Products
+## Research/Desk_Research/Doc_Notes/Products
 
 - PR-001_google_2026_google-maps.md — [research, desk, source, tools · draft · B · n/a]
 - PR-002_moovit_2026_moovit.md — [research, desk, source, tools · draft · B · n/a]

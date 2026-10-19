@@ -15,8 +15,8 @@ related: [plan.md, GR-006_european-commission_2026_swd-300-impact-assessment.md,
 | --- | --- |
 | **ID** | GR-020 |
 | **Link** | [Proposal for a Regulation on rail ticketing, COM(2026) 232](https://transport.ec.europa.eu/document/download/a3284ec0-f1ad-4ee4-a558-5d4c17948046_en?filename=Proposal_on_rail_ticketing.pdf) |
-| **Local copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.pdf](../../Desk_Research/docs/Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.pdf) |
-| **Markdown copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.md](../../Desk_Research/docs_md/Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.md) |
+| **Local copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.pdf](../../docs/Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.pdf) |
+| **Markdown copy** | [GR-020_european-commission_2026_com-232-rail-ticketing.md](../../docs_md/Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.md) |
 | **Produced by** | European Commission |
 | **Published by** | European Commission |
 | **Kind of source** | Legislative proposal, 40 pages |
@@ -66,6 +66,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-006_european-commission_2026_swd-300-impact-assessment.md](GR-006_european-commission_2026_swd-300-impact-assessment.md), [GR-007_european-commission_2026_com-231-multimodal-booking.md](GR-007_european-commission_2026_com-231-multimodal-booking.md) and [AR-001_railway-gazette_2026_passenger-package.md](../Articles/AR-001_railway-gazette_2026_passenger-package.md): the European Commission's passenger package of May 2026.
 - Shares the pain point `ticket-carryover` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [AP-015_mcilroy_2023_this-where-public-transport.md](../Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md), [GR-003_art_2025_relazione-annuale.md](GR-003_art_2025_relazione-annuale.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](GR-006_european-commission_2026_swd-300-impact-assessment.md) and [GR-007_european-commission_2026_com-231-multimodal-booking.md](GR-007_european-commission_2026_com-231-multimodal-booking.md): tickets, passes and rights that do not carry over between services.

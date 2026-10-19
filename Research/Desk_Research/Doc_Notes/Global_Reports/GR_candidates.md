@@ -13,7 +13,7 @@ related: [plan.md, GR_to_obtain.md]
 
 26 sources, all kept by Marco on 2026-10-05 ("proceed with everything"). Nineteen came from the first list; seven were added: the items that were first left out (GR-020, GR-021, GR-022) and the more recent ISTAT material Marco asked for (GR-023 to GR-026). Each has its own source file and, where it is a document, a copy in `Research/Desk_Research/docs/`.
 
-The grades are computed with the scoring rules and are provisional until the citations are counted at the end of the activity. Press articles that were first left out went to the Articles category: AR-001 to AR-004 in `Research/Sources/Articles/`.
+The grades are computed with the scoring rules and are provisional until the citations are counted at the end of the activity. Press articles that were first left out went to the Articles category: AR-001 to AR-004 in `Research/Desk_Research/Doc_Notes/Articles/`.
 
 Sources that could not be opened are in [GR_to_obtain.md](GR_to_obtain.md).
 
@@ -129,5 +129,5 @@ Leads, resolved or still open:
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- Is one of the lists the research plan asks for, [plan.md](../../../plan.md).
 - [GR_to_obtain.md](GR_to_obtain.md) is the other list of the same source category.

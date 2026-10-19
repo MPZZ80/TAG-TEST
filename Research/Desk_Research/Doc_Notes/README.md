@@ -1,4 +1,6 @@
-# Sources
+# Doc Notes
+
+One synthesis note per source of the desk research: who produced it, what it says, the evidence with page numbers, its limits and its links to other notes. These are notes written from the sources, not the sources themselves: the original documents are in `../docs/` and their text copies in `../docs_md/`.
 
 The evidence base of the desk research: 132 sources on 2026-10-07, one Markdown file each, in six category folders. Every folder has a `README.md` with the index of its sources. **Start from those indexes; do not open the source files one by one.**
 
@@ -13,9 +15,9 @@ The evidence base of the desk research: 132 sources on 2026-10-07, one Markdown 
 
 ## How the pieces fit
 
-- **Source file** (`Sources/<Category>/<ID>_<producer>_<year>_<short-title>.md`): who produced the source, when, how, with what interest, its grade with the points, what it says, the data extracted so far with page numbers, and its limits.
-- **Document** (`../Desk_Research/docs/<Category>/`, same base name): the downloaded PDF or data file, when there is one.
-- **Text copy** (`../Desk_Research/docs_md/<Category>/`, same base name): the document converted to Markdown, or the text of the web page. Use it for searching.
+- **Source file** (`Doc_Notes/<Category>/<ID>_<producer>_<year>_<short-title>.md`): who produced the source, when, how, with what interest, its grade with the points, what it says, the data extracted so far with page numbers, and its limits.
+- **Document** (`../docs/<Category>/`, same base name): the downloaded PDF or data file, when there is one.
+- **Text copy** (`../docs_md/<Category>/`, same base name): the document converted to Markdown, or the text of the web page. Use it for searching.
 - **Source ID** (for example `GR-047`): what outputs use to cite a source. A number is never reused.
 
 ## Finding something
@@ -38,4 +40,4 @@ The evidence base of the desk research: 132 sources on 2026-10-07, one Markdown 
 
 ## Adding a source
 
-Follow sections 11 and 12 of `../desk_research_instructions.md`: create the source file, save the document and its text copy in the folders of the same category, then add the row to that category's `README.md`.
+Follow sections 11 and 12 of `../../desk_research_instructions.md`: create the source file, save the document and its text copy in the folders of the same category, then add the row to that category's `README.md`.

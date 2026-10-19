@@ -7,7 +7,7 @@ Everything about the research: the plan, the working rules, the state of the wor
 1. **`progress.md`**: where the work stands and what the next step is. Read it at the start of every session and update it as you work.
 2. **`plan.md`**: the activities A1 to A8, what each must produce, and the three phases (desk research, Marco's review, interviews).
 3. **`desk_research_instructions.md`**: how to do the desk research. Read the sections you need: 3 scope, 5 evidence rules, 7 output template, 11 source files and documents, 12 grading, 13 candidate lists.
-4. **`Sources/README.md`**: the map of the sources. Go from there to the index of one category, and only then to single source files.
+4. **`Desk_Research/Doc_Notes/README.md`**: the map of the sources. Go from there to the index of one category, and only then to single source files.
 
 ## What is in this folder
 
@@ -21,7 +21,7 @@ Everything about the research: the plan, the working rules, the state of the wor
 | `Survey/` | The commuter survey in five languages, where to post it and the script that builds the forms; start from its `README.md` |
 | `open_issues.md` | Open questions, weak sources and contradictions, each with a priority and a criticality |
 | `Interviews/` | Recordings, automatic transcripts and one notes file per interview; start from its `README.md` |
-| `Sources/` | One file per source, in six category folders, each with an index in its `README.md` |
+| `Desk_Research/Doc_Notes/` | One file per source, in six category folders, each with an index in its `README.md` |
 | `Desk_Research/docs/` | Documents downloaded from the sources, by category. Not in Git |
 | `Desk_Research/docs_md/` | Text copies in Markdown of the documents and web pages, by category. Not in Git |
 

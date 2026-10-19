@@ -56,5 +56,5 @@ Supplied by Marco, renamed to the name of their source file, converted to Markdo
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- Is one of the lists the research plan asks for, [plan.md](../../../plan.md).
 - [AP_candidates.md](AP_candidates.md) is the other list of the same source category.

@@ -74,5 +74,5 @@ OpenAlex only, with the filter: articles and reviews published since 2017, sorte
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Is one of the lists the research plan asks for, [plan.md](../../plan.md).
+- Is one of the lists the research plan asks for, [plan.md](../../../plan.md).
 - [AP_to_obtain.md](AP_to_obtain.md) is the other list of the same source category.

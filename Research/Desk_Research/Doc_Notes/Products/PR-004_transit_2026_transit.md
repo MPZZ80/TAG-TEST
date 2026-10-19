@@ -17,7 +17,7 @@ related: [plan.md, OR-004_apple-app-store_2026_transit-us.md]
 | **Link** | [Transit](https://transitapp.com/) |
 | **App Store listing** | [Transit • Subway & Bus Times](https://apps.apple.com/us/app/transit-subway-bus-times/id498151501?uo=4) (US store, version 6.3.5 released 2026-10-06; 1,023,558 ratings, average 4.62, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-004_transit_2026_transit.md](../../Desk_Research/docs_md/Products/PR-004_transit_2026_transit.md) |
+| **Markdown copy** | [PR-004_transit_2026_transit.md](../../docs_md/Products/PR-004_transit_2026_transit.md) |
 | **Produced by** | 9280-0366 Quebec inc. (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -58,5 +58,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A3 of the research plan, [plan.md](../../../plan.md).
 - [OR-004_apple-app-store_2026_transit-us.md](../Online_Reviews/OR-004_apple-app-store_2026_transit-us.md) is the sample of user reviews of this product.

@@ -17,7 +17,7 @@ related: [plan.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md]
 | **Link** | [SBB Mobile](https://apps.apple.com/ch/app/id294855237) |
 | **App Store listing** | [SBB Mobile](https://apps.apple.com/ch/app/sbb-mobile/id294855237?uo=4) (CH store, version 12.58.4 released 2026-10-06; 979 ratings, average 3.04, on 2026-10-07) |
 | **Local copy** | not available: product pages are not downloaded as documents; the page text is the Markdown copy |
-| **Markdown copy** | [PR-014_sbb_2026_sbb-mobile.md](../../Desk_Research/docs_md/Products/PR-014_sbb_2026_sbb-mobile.md) |
+| **Markdown copy** | [PR-014_sbb_2026_sbb-mobile.md](../../docs_md/Products/PR-014_sbb_2026_sbb-mobile.md) |
 | **Produced by** | SBB (the seller named in the App Store; for the web page, the company that runs the product) |
 | **Published by** | The company's own website and the App Store |
 | **Kind of source** | Product website and App Store listing |
@@ -57,5 +57,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A3 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A3 of the research plan, [plan.md](../../../plan.md).
 - [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md) is the sample of user reviews of this product.

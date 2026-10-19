@@ -16,7 +16,7 @@ related: [plan.md, GR-021_european-union_2017_delegated-regulation-2017-1926.md,
 | **ID** | GR-056 |
 | **Link** | [The partner perspective: Italian Ministry of Sustainable Infrastructures and Mobility](https://data4pt-project.eu/the-partner-perspective-italian-ministry-of-infrastructures-and-transport/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-056_data4pt_nd_italian-ministry-partner-perspective.md](../../Desk_Research/docs_md/Global_Reports/GR-056_data4pt_nd_italian-ministry-partner-perspective.md) |
+| **Markdown copy** | [GR-056_data4pt_nd_italian-ministry-partner-perspective.md](../../docs_md/Global_Reports/GR-056_data4pt_nd_italian-ministry-partner-perspective.md) |
 | **Produced by** | DATA4PT project (UITP and ITxPT) |
 | **Published by** | DATA4PT |
 | **Kind of source** | Project news interview |
@@ -53,5 +53,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-021_european-union_2017_delegated-regulation-2017-1926.md](GR-021_european-union_2017_delegated-regulation-2017-1926.md), [GR-013_napcore_nd_position-paper-mmtis-revision.md](GR-013_napcore_nd_position-paper-mmtis-revision.md) and [GR-054_cciss_nd_italian-national-access-point-mmtis.md](GR-054_cciss_nd_italian-national-access-point-mmtis.md): the EU rules on travel data and the national access points.

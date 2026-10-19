@@ -15,8 +15,8 @@ related: [plan.md, PR-012_telepass_2026_telepass.md]
 | --- | --- |
 | **ID** | OR-012 |
 | **Link** | [Apple customer reviews feed](https://itunes.apple.com/it/rss/customerreviews/page=1/id=454224356/sortby=mostrecent/json) |
-| **Local copy** | [OR-012_apple-app-store_2026_telepass-it.json](../../Desk_Research/docs/Online_Reviews/OR-012_apple-app-store_2026_telepass-it.json) |
-| **Markdown copy** | [OR-012_apple-app-store_2026_telepass-it.md](../../Desk_Research/docs_md/Online_Reviews/OR-012_apple-app-store_2026_telepass-it.md) |
+| **Local copy** | [OR-012_apple-app-store_2026_telepass-it.json](../../docs/Online_Reviews/OR-012_apple-app-store_2026_telepass-it.json) |
+| **Markdown copy** | [OR-012_apple-app-store_2026_telepass-it.md](../../docs_md/Online_Reviews/OR-012_apple-app-store_2026_telepass-it.md) |
 | **Produced by** | Anonymous users of the app who wrote public reviews; names not recorded |
 | **Published by** | Apple App Store (Italy store) |
 | **Kind of source** | User reviews: a sample of the 50 most recent reviews |
@@ -59,5 +59,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A4 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A4 of the research plan, [plan.md](../../../plan.md).
 - [PR-012_telepass_2026_telepass.md](../Products/PR-012_telepass_2026_telepass.md) describes the product these reviews are about.

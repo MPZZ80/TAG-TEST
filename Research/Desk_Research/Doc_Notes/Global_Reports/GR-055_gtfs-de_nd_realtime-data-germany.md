@@ -16,7 +16,7 @@ related: [plan.md, GR-038_mobilitydata_2026_mobility-database-about.md, GR-021_e
 | **ID** | GR-055 |
 | **Link** | [Realtime data (GTFS-RT stream for Germany)](https://gtfs.de/en/realtime/) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-055_gtfs-de_nd_realtime-data-germany.md](../../Desk_Research/docs_md/Global_Reports/GR-055_gtfs-de_nd_realtime-data-germany.md) |
+| **Markdown copy** | [GR-055_gtfs-de_nd_realtime-data-germany.md](../../docs_md/Global_Reports/GR-055_gtfs-de_nd_realtime-data-germany.md) |
 | **Produced by** | GTFS.DE |
 | **Published by** | GTFS.DE |
 | **Kind of source** | Open data service page |
@@ -54,6 +54,6 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-038_mobilitydata_2026_mobility-database-about.md](GR-038_mobilitydata_2026_mobility-database-about.md), [GR-021_european-union_2017_delegated-regulation-2017-1926.md](GR-021_european-union_2017_delegated-regulation-2017-1926.md) and [GR-054_cciss_nd_italian-national-access-point-mmtis.md](GR-054_cciss_nd_italian-national-access-point-mmtis.md): open and real-time public transport data feeds.
-- Shares a pain point with [OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md](../Online_Forums/OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md), [OR-015_apple-app-store_2026_9292-nl.md](../Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](GR-006_european-commission_2026_swd-300-impact-assessment.md) and [Matteo_Rizzetto_notes.md](../../Interviews/Matteo_Rizzetto_notes.md): who holds and publishes the live data.
+- Shares a pain point with [OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md](../Online_Forums/OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md), [OR-015_apple-app-store_2026_9292-nl.md](../Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](GR-006_european-commission_2026_swd-300-impact-assessment.md) and [Matteo_Rizzetto_notes.md](../../../Interviews/Matteo_Rizzetto_notes.md): who holds and publishes the live data.

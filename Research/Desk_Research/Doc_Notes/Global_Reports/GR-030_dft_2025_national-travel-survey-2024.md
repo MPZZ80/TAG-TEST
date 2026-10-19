@@ -16,7 +16,7 @@ related: [plan.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, G
 | **ID** | GR-030 |
 | **Link** | [National Travel Survey 2024: introduction and main findings](https://www.gov.uk/government/statistics/national-travel-survey-2024/nts-2024-introduction-and-main-findings) |
 | **Local copy** | not available: web page, not downloaded |
-| **Markdown copy** | [GR-030_dft_2025_national-travel-survey-2024.md](../../Desk_Research/docs_md/Global_Reports/GR-030_dft_2025_national-travel-survey-2024.md) |
+| **Markdown copy** | [GR-030_dft_2025_national-travel-survey-2024.md](../../docs_md/Global_Reports/GR-030_dft_2025_national-travel-survey-2024.md) |
 | **Produced by** | Department for Transport |
 | **Published by** | GOV.UK |
 | **Kind of source** | Official statistics (accredited), household survey |
@@ -57,5 +57,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md](GR-042_sdes_2023_mobilite-locale-et-longue-distance-des-francais.md) and [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md): national travel surveys that report trips by means.

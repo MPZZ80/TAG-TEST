@@ -15,8 +15,8 @@ related: [plan.md, GR-019_istat_2014_commuting-matrices-2011.md, GR-023_istat_20
 | --- | --- |
 | **ID** | GR-025 |
 | **Link** | [La mobilità territoriale: trasferimenti di residenza e spostamenti quotidiani](https://www.istat.it/notizia/la-mobilita-territoriale-trasferimenti-di-residenza-e-spostamenti-quotidiani/) |
-| **Local copy** | [GR-025_istat_2024_la-mobilita-territoriale_guida-utente.pdf](../../Desk_Research/docs/Global_Reports/GR-025_istat_2024_la-mobilita-territoriale_guida-utente.pdf), [GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.pdf](../../Desk_Research/docs/Global_Reports/GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.pdf) |
-| **Markdown copy** | [GR-025_istat_2024_la-mobilita-territoriale_guida-utente.md](../../Desk_Research/docs_md/Global_Reports/GR-025_istat_2024_la-mobilita-territoriale_guida-utente.md), [GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.md](../../Desk_Research/docs_md/Global_Reports/GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.md) |
+| **Local copy** | [GR-025_istat_2024_la-mobilita-territoriale_guida-utente.pdf](../../docs/Global_Reports/GR-025_istat_2024_la-mobilita-territoriale_guida-utente.pdf), [GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.pdf](../../docs/Global_Reports/GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.pdf) |
+| **Markdown copy** | [GR-025_istat_2024_la-mobilita-territoriale_guida-utente.md](../../docs_md/Global_Reports/GR-025_istat_2024_la-mobilita-territoriale_guida-utente.md), [GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.md](../../docs_md/Global_Reports/GR-025_istat_2024_la-mobilita-territoriale_nota-metodologica.md) |
 | **Produced by** | ISTAT |
 | **Published by** | ISTAT |
 | **Kind of source** | Interactive geo-statistical product with a user guide (14 pages) and a methodological note (2 pages) |
@@ -51,5 +51,5 @@ No finding rests on this source yet.
 
 Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
 
-- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../plan.md).
+- Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-019_istat_2014_commuting-matrices-2011.md](GR-019_istat_2014_commuting-matrices-2011.md), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md), [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md), [GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md](GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md), [GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md](GR-008_isfort_2025_rapporto-mobilita-22-sintesi.md) and [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md): Italian statistics on commuting and daily travel.
