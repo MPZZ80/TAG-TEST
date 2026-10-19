@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-19 20:46
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, information]
-related: [plan.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, PR-011_kakao-mobility_2026_kakao-t.md]
+related: [plan.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, PR-011_kakao-mobility_2026_kakao-t.md, Generated_Touchpoints.md]
 ---
 
 # 카카오 T - 택시, 세차, 주차, 바이크, 항공, 퀵: App Store reviews, South Korea (sample)
@@ -65,3 +65,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A4 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md) and [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md): mobility platforms in South Korea.
 - [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md) describes the product these reviews are about.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).

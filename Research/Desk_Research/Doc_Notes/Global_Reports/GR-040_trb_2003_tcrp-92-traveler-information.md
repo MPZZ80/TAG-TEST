@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-19 20:46
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, information, usual-trip]
-related: [plan.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-008_apple-app-store_2026_ns-app-nl.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, PR-008_ns_2026_ns-app.md, PR-009_trenitalia_2026_trenitalia-app.md, Matteo_Rizzetto_notes.md]
+related: [plan.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-008_apple-app-store_2026_ns-app-nl.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, PR-008_ns_2026_ns-app.md, PR-009_trenitalia_2026_trenitalia-app.md, Matteo_Rizzetto_notes.md, Generated_Touchpoints.md]
 ---
 
 # TCRP Report 92: Strategies for Improved Traveler Information
@@ -81,3 +81,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares the pain point `usual-trip` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-008_apple-app-store_2026_ns-app-nl.md](../Online_Reviews/OR-008_apple-app-store_2026_ns-app-nl.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](../Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md), [PR-008_ns_2026_ns-app.md](../Products/PR-008_ns_2026_ns-app.md), [PR-009_trenitalia_2026_trenitalia-app.md](../Products/PR-009_trenitalia_2026_trenitalia-app.md) and [Matteo_Rizzetto_notes.md](../../../Interviews/Matteo_Rizzetto_notes.md): regular travellers who want their usual trip at a glance: saved trips, standing alerts.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).

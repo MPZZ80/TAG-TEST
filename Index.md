@@ -26,6 +26,18 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - Matteo_Rizzetto_notes.md — [research, interview, notes, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, usual-trip, crowding, workarounds, contradiction · draft · n/a · low]
 - Valentina_Di_Floriano_notes.md — [research, interview, notes, planning, disruption, information, no-alternative, first-last-mile, hybrid-work, unreliable-service, crowding, workarounds · draft · n/a · low]
 
+## Research/Analysis
+
+- Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
+- Touchpoint.md — [unknown · unknown · unknown · unknown]
+- Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
+- Generated_Touchpoints.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, usual-trip, workarounds · draft · n/a · low]
+- Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
+- Generated_Research_Report.md — [unknown · unknown · unknown · unknown]
+- Generated_Reaearch_Report_Prompt.md — [unknown · unknown · unknown · unknown]
+- Generated_Features.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+- Generated_User_Stories.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+
 ## Research/Desk_Research/Doc_Notes/Academic_Papers
 
 - AP-001_goransson_2023_factors-that-make-public.md — [research, desk, source, mode-choice, tight-connection, habit, unreliable-service · draft · A · n/a]

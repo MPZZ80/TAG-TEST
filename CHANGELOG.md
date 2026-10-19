@@ -4,6 +4,36 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-19 21:57
+
+- **Files:** `Index.md`, `Research/Analysis/README.md`
+- **Change:** Lines for `Research/Analysis/Generated_Research_Report.md` and `Research/Analysis/Generated_Reaearch_Report_Prompt.md`, two empty files with no metadata block, listed as unknown in the index and named in the folder guide.
+- **Why:** The agent's own initiative before the commit Marco asked for: the rules require every file in `Research/` to be in the index and in its folder guide.
+
+## 2026-10-19 21:31
+
+- **Files:** `Research/Analysis/research.html`, `Research/Analysis/README.md`, `Research/Analysis/Generated_User_Stories.md`, `Index.md`
+- **Change:** File created: `research.html`, one self-contained page with the touchpoints, features and user stories, then the 150 other files listed in `Index.md` in full, in its order; rows link to the notes they cite and each note lists the rows that cite it; one search field filters every text block. Row in the folder guide. In `Generated_User_Stories.md`, the "Personas" line at the top, overwritten by mistake in the previous change, is restored, and the stale persona counts under "Counts" are corrected (6, 10, 1, 4). Its line in `Index.md` moves after the features file, by date.
+- **Why:** Marco asked to build the research as a web interface that opens offline, browsable and searchable, rendering only what is in the files. The fix in the stories file is the agent's own: its previous edit replaced the wrong line.
+
+## 2026-10-19 21:19
+
+- **Files:** `Research/Analysis/Generated_User_Stories.md`, `Research/Analysis/Generated_Features.md`, `Research/Analysis/README.md`, `Index.md`
+- **Change:** File created: 60 user stories, one per feature with a traced value, each with its source line (feature · note · quote); 13 features sent back with the reason, one split. In the features file F-049 is split into F-049a and F-049b, the 13 features without a traced value are marked [value not traced], the counts are updated and the new file is added to `related` and "Connections". Rows for the new file and for the empty `Generated_User_Stories_Prompt.md` (listed as unknown) in the folder guide and in `Index.md`.
+- **Why:** Marco asked to translate each feature into one user story with who, moment and value taken from the notes, to split a feature that needs two stories, and to send back the features whose value cannot be traced.
+
+## 2026-10-19 21:03
+
+- **Files:** `Research/Analysis/Generated_Features.md`, `Research/Analysis/Generated_Touchpoints.md`, `Research/Analysis/README.md`, `Index.md`
+- **Change:** File created: 72 features proposed for the touchpoints (23 [strong], 49 [weak]), each with the touchpoints it answers and the quotes behind it, then 17 dropped features with the reason, the contradictions that touch them and the counts. The touchpoints file gets the new file in `related` and "Connections". Rows for the new file and for the empty `Generated_Features_Prompt.md` (listed as unknown) in the folder guide and in `Index.md`.
+- **Why:** Marco asked to propose the features a service could offer at each touchpoint, anchored to the data, marked by the strength of the evidence, with the dropped ones listed.
+
+## 2026-10-19 20:46
+
+- **Files:** `Research/Analysis/Generated_Touchpoints.md`, `Research/Analysis/README.md`, `Research/README.md`, `Index.md`, and the 42 notes it cites (the three interview notes, `Research/Survey/survey_results.md` and 38 notes in `Research/Desk_Research/Doc_Notes/`)
+- **Change:** File created: 85 touchpoints of the commute (47 direct, 30 indirect, 8 missed) with phase, mode, moment and the quotes behind each, then contradictions, coverage gaps and counts. Each cited note gets the new file in `related` and a line in "Connections". Folder guide for `Research/Analysis/`; row in `Research/README.md`; group in `Index.md`, where the two files of the folder without a metadata block are listed as unknown.
+- **Why:** Marco asked to extract the touchpoints from the research notes with the prompt in `Research/Analysis/Generated_Touchpoint_Prompt.md`.
+
 ## 2026-10-19 12:40
 
 - **Files:** `AGENTS.md`

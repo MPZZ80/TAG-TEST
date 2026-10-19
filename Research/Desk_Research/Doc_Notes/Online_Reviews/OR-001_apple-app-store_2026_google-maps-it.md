@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-19 20:46
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, information]
-related: [plan.md, PR-001_google_2026_google-maps.md]
+related: [plan.md, PR-001_google_2026_google-maps.md, Generated_Touchpoints.md]
 ---
 
 # Google Maps: App Store reviews, Italy (sample)
@@ -62,3 +62,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A4 of the research plan, [plan.md](../../../plan.md).
 - [PR-001_google_2026_google-maps.md](../Products/PR-001_google_2026_google-maps.md) describes the product these reviews are about.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).
