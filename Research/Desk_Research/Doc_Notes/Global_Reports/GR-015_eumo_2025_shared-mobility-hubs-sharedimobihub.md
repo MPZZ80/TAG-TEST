@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-21 16:14
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, mode-choice, first-last-mile]
-related: [plan.md, GR-010_egum_2024_public-transport-shared-mobility.md, GR-012_uitp_2023_policy-brief-mobility-hubs.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-025_wang_2020_exploring-physical-mental-health.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md]
+related: [plan.md, GR-010_egum_2024_public-transport-shared-mobility.md, GR-012_uitp_2023_policy-brief-mobility-hubs.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-025_wang_2020_exploring-physical-mental-health.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md, Generated_Touchpoints.md]
 ---
 
 # Shared mobility hubs: lessons learnt from the ShareDiMobiHub project
@@ -57,3 +57,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [GR-010_egum_2024_public-transport-shared-mobility.md](GR-010_egum_2024_public-transport-shared-mobility.md) and [GR-012_uitp_2023_policy-brief-mobility-hubs.md](GR-012_uitp_2023_policy-brief-mobility-hubs.md): mobility hubs and shared mobility at stations.
 - Shares the pain point `first-last-mile` with [AP-008_rahman_2022_first-last-mile-public.md](../Academic_Papers/AP-008_rahman_2022_first-last-mile-public.md), [AP-010_azimi_2020_mode-choice-behavior-access.md](../Academic_Papers/AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-025_wang_2020_exploring-physical-mental-health.md](../Academic_Papers/AP-025_wang_2020_exploring-physical-mental-health.md), [GR-010_egum_2024_public-transport-shared-mobility.md](GR-010_egum_2024_public-transport-shared-mobility.md), [GR-012_uitp_2023_policy-brief-mobility-hubs.md](GR-012_uitp_2023_policy-brief-mobility-hubs.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md), [GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md](GR-046_digital-agency-japan_2025_idou-juyou-no-haaku-saishu-houkokusho.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../../Interviews/Matteo_Rizzetto_notes.md), [Marco_Palermo_notes.md](../../../Interviews/Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](../../../Interviews/Valentina_Di_Floriano_notes.md): the first and last leg of the journey.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).

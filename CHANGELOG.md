@@ -4,6 +4,61 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-22 11:28
+
+- **Files:** `AGENTS.md`, `Research/desk_research_instructions.md`
+- **Change:** General instruction 34: after every update, commit and push automatically; instruction 33 marked as updated by it. Section 10 of the desk research instructions no longer says to commit only when asked.
+- **Why:** Marco: "From now on please Commit and Sync after every update, automatically"; reason not stated.
+- **Do not:** wait for Marco to ask before committing and pushing a completed update.
+
+## 2026-10-22 11:20
+
+- **Files:** `Research/Analysis/research.html`
+- **Change:** Page rebuilt without `Research/Analysis/Human_Touchpoints(not_complete).md`, which is no longer rendered or listed in the page's contents; it stays in `Index.md`.
+- **Why:** Marco: "Ignore Human_Touchpoints(not_complete).md and update research.html".
+
+## 2026-10-22 00:56
+
+- **Files:** `Research/Analysis/research.html`, `Research/Analysis/README.md`, `Research/Analysis/Prompts/README.md`, `Research/Analysis/Generated_Touchpoints.md`, `Index.md`
+- **Change:** Marco moved the four prompts into `Research/Analysis/Prompts/` and replaced `Touchpoint.md` with `Human_Touchpoints(not_complete).md`. `Index.md` lists them at their new places (as unknown: no metadata block); folder guide for `Prompts/` created; the Analysis folder guide updated; the link to the touchpoint prompt in `Generated_Touchpoints.md` fixed. `research.html` rebuilt, as Marco had deleted it.
+- **Why:** Marco asked again to build the research as a web interface (`Research/Analysis/Prompts/Generated_Reaearch_Report_Prompt.md`); the index and guides had to follow his moves first.
+
+## 2026-10-22 00:33
+
+- **Files:** `Research/Analysis/research.html`, `Research/Analysis/README.md`
+- **Change:** File created again: one self-contained page with the 109 touchpoints, 26 features and 24 user stories, then the 153 other non-empty files listed in `Index.md` in full, in its order; rows link to the notes they cite and each note lists the rows that cite it; one search field filters every text block. Row in the folder guide.
+- **Why:** Marco asked to build the research as a web interface again, after the touchpoints, features and user stories were rebuilt.
+
+## 2026-10-22 00:15
+
+- **Files:** `Research/Analysis/Generated_User_Stories.md`, `Research/Analysis/Generated_Features.md`, `Research/Analysis/README.md`, `Index.md`
+- **Change:** File created: 24 user stories, one per feature with a traced value, each with its source line (feature · note · quote); 10 on interview personas, 14 on desk personas; 2 features sent back; 2 splits. In the features file F-14 is split into F-14a and F-14b and F-17 into F-17a and F-17b, F-14b and F-17b are marked [value not traced], the counts are updated and the new file is added to `related` and "Connections". Row in the folder guide and line in `Index.md`.
+- **Why:** Marco asked to translate each feature into one user story with who, moment and value from the notes, to split a feature that needs two stories, and to send back the features whose value cannot be traced.
+
+## 2026-10-21 19:00
+
+- **Files:** `Research/Analysis/Generated_Features.md`, `Research/Analysis/Generated_Touchpoints.md`, `Research/Analysis/README.md`, `Index.md`
+- **Change:** File created: 24 features, the minimum set that answers 97 of the 109 touchpoints, each with its evidence, [strong] (16) or [weak] (8), and its impact by number of touchpoints answered (High 4, Medium 6, Low 14); then 16 dropped features with the reason, the contradictions that touch the features and the counts. The touchpoints file gets the new file in `related` and "Connections"; row in the folder guide and line in `Index.md`.
+- **Why:** Marco asked for the minimum set of features with the highest value per touchpoint, scored by how many touchpoints each answers.
+
+## 2026-10-21 18:52
+
+- **Files:** `Research/Analysis/Generated_Touchpoints.md`
+- **Change:** TP-033 (alerts set for the usual train never arrive, or are not sent) changed from "missed? / direct?" to direct; the counts now read 58 direct and no marked row; the note on marked types removed from the introduction.
+- **Why:** Marco: "correct the one with the question marks with direct".
+
+## 2026-10-21 16:19
+
+- **Files:** `Research/Analysis/README.md`
+- **Change:** Row for `research.html` removed from the folder guide.
+- **Why:** Marco: "we'll rebuild research.html later, now I'll delete it".
+
+## 2026-10-21 16:15
+
+- **Files:** `Research/Analysis/Generated_Touchpoints.md`, `Research/Analysis/README.md`, `Index.md`, and the 17 notes cited for the first time: AP-003, AP-012, AP-016, AP-017, AP-019, GR-003, GR-008, GR-009, GR-014, GR-015, GR-027, GR-045, GR-048, GR-053, OF-004, OR-016, OR-017 in `Research/Desk_Research/Doc_Notes/`
+- **Change:** `Generated_Touchpoints.md` rebuilt from scratch after Marco deleted it: 109 touchpoints (57 direct, 40 indirect, 11 missed, 1 marked "missed? / direct?") from 59 notes, with the interview transcripts read in full and quoted in 4 rows; 9 contradictions, coverage gaps and counts. The 17 newly cited notes get the file in `related` and a line in "Connections"; the 42 notes cited before are all still cited. `Index.md` and the folder guide drop `Generated_Features.md`, `Generated_User_Stories.md` and `Generated_Research_Report.md`, which Marco deleted; the folder guide says `research.html` is out of date.
+- **Why:** Marco ran the touchpoint prompt again (`Research/Analysis/Generated_Touchpoint_Prompt.md`) after deleting the earlier output; reason not stated.
+
 ## 2026-10-19 21:57
 
 - **Files:** `Index.md`, `Research/Analysis/README.md`

@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-21 16:14
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, success]
-related: [plan.md, AR-005_techcrunch_2023_via-acquires-citymapper.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, PR-003_citymapper_2026_citymapper.md, OR-003_apple-app-store_2026_citymapper-gb.md]
+related: [plan.md, AR-005_techcrunch_2023_via-acquires-citymapper.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, PR-003_citymapper_2026_citymapper.md, OR-003_apple-app-store_2026_citymapper-gb.md, Generated_Touchpoints.md]
 ---
 
 # I built my own CityMapper (Hacker News thread)
@@ -57,3 +57,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A5 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [AR-005_techcrunch_2023_via-acquires-citymapper.md](../Articles/AR-005_techcrunch_2023_via-acquires-citymapper.md), [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [PR-003_citymapper_2026_citymapper.md](../Products/PR-003_citymapper_2026_citymapper.md) and [OR-003_apple-app-store_2026_citymapper-gb.md](../Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md): Citymapper and its sale.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).

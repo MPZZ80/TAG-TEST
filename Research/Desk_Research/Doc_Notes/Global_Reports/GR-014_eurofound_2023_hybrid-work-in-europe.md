@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-21 16:14
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who, why-now, hybrid-work]
-related: [plan.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-043_kim_2024_kerncijfers-mobiliteit-2024.md, GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md, AP-013_iogansen_2024_change-work-arrangement-during.md, AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md, GR-052_govuk_2021_flexible-season-tickets-announcement.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md]
+related: [plan.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, GR-043_kim_2024_kerncijfers-mobiliteit-2024.md, GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md, GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md, GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md, AP-013_iogansen_2024_change-work-arrangement-during.md, AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md, GR-052_govuk_2021_flexible-season-tickets-announcement.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md, Generated_Touchpoints.md]
 ---
 
 # Hybrid work in Europe: Concept and practice
@@ -68,3 +68,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares the pain point `hybrid-work` with [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md), [GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md](GR-035_bfs-are_2023_mikrozensus-mobilitaet-verkehr-2021.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md), [GR-043_kim_2024_kerncijfers-mobiliteit-2024.md](GR-043_kim_2024_kerncijfers-mobiliteit-2024.md), [GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md](GR-044_kim_2025_mobiliteitsbeeld-2025-samenvatting.md), [GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md](GR-045_crtm_2025_encuesta-sintetica-movilidad-madrid-2024.md), [GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md](GR-048_mlit_2025_telework-jinkou-jittai-chousa-r6.md), [AP-013_iogansen_2024_change-work-arrangement-during.md](../Academic_Papers/AP-013_iogansen_2024_change-work-arrangement-during.md), [AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md](../Articles/AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md), [GR-052_govuk_2021_flexible-season-tickets-announcement.md](GR-052_govuk_2021_flexible-season-tickets-announcement.md), [Matteo_Rizzetto_notes.md](../../../Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../../Interviews/Valentina_Di_Floriano_notes.md): hybrid work, fewer office days and tickets that no longer fit.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).

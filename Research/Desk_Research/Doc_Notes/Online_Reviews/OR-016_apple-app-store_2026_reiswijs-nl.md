@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-21 16:14
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, information]
-related: [plan.md, PR-016_toertje_2026_reiswijs.md]
+related: [plan.md, PR-016_toertje_2026_reiswijs.md, Generated_Touchpoints.md]
 ---
 
 # ReisWijs: App Store reviews, Netherlands (sample)
@@ -59,3 +59,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A4 of the research plan, [plan.md](../../../plan.md).
 - [PR-016_toertje_2026_reiswijs.md](../Products/PR-016_toertje_2026_reiswijs.md) describes the product these reviews are about.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).

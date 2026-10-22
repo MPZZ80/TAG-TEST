@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-21 16:14
 method: review
 status: draft
 grade: A
 confidence: n/a
 tags: [research, desk, source, mode-choice, why-now, habit]
-related: [plan.md, AP-001_goransson_2023_factors-that-make-public.md, AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md, AP-018_vos_2018_people-travel-their-preferred.md, AP-024_an_2022_multimodal-travel-behaviour-attitudes.md, AP-027_keyes_2018_changing-influences-commuting-mode.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, Matteo_Rizzetto_notes.md]
+related: [plan.md, AP-001_goransson_2023_factors-that-make-public.md, AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md, AP-018_vos_2018_people-travel-their-preferred.md, AP-024_an_2022_multimodal-travel-behaviour-attitudes.md, AP-027_keyes_2018_changing-influences-commuting-mode.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, Matteo_Rizzetto_notes.md, Generated_Touchpoints.md]
 ---
 
 # Understanding travel mode choice through the lens of COVID-19: a systematic review of pandemic commuters
@@ -68,3 +68,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A2 of the research plan, [plan.md](../../../plan.md).
 - Shares the pain point `habit` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md), [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md), [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](AP-024_an_2022_multimodal-travel-behaviour-attitudes.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](AP-027_keyes_2018_changing-influences-commuting-mode.md), [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [Matteo_Rizzetto_notes.md](../../../Interviews/Matteo_Rizzetto_notes.md): habit and the lack of a real choice of means.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).

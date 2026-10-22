@@ -1,8 +1,11 @@
 You are working in my research repository for a course project on
 door to door multimodal commute. The base
 follows the usual structure: plan.md, index.md, notes/, transcripts/,
-and a synthesis document with three tables — touchpoints, features,
-user stories — every row citing its note and quote.
+and a synthesis document with three tables:
+- touchpoints coming from @generated_touchpoints 
+- features coming from @generated_features
+- user stories coming from @generated_user_stories
+— every row of every table citing its note and quote.
 
 TASK — build the research as a web interface:
 
@@ -39,4 +42,4 @@ FINALLY:
 - Report the counts: notes read, touchpoints, features, stories,
   contradictions carried over.
 - List anything you could not include, with the reason. Omission
-  is information.
+  is information.  

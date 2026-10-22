@@ -28,15 +28,17 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 
 ## Research/Analysis
 
-- Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
-- Touchpoint.md — [unknown · unknown · unknown · unknown]
+- Human_Touchpoints(not_complete).md — [unknown · unknown · unknown · unknown]
+- Generated_Touchpoints.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+- Generated_Features.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+- Generated_User_Stories.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+
+## Research/Analysis/Prompts
+
 - Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
-- Generated_Touchpoints.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, usual-trip, workarounds · draft · n/a · low]
-- Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
-- Generated_Research_Report.md — [unknown · unknown · unknown · unknown]
 - Generated_Reaearch_Report_Prompt.md — [unknown · unknown · unknown · unknown]
-- Generated_Features.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
-- Generated_User_Stories.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+- Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
+- Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
 
 ## Research/Desk_Research/Doc_Notes/Academic_Papers
 

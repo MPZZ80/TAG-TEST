@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-10-12 21:39
+date: 2026-10-21 16:14
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, who, mode-choice]
-related: [plan.md, AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md, GR-050_mit_2026_maas-for-italy-white-paper.md, GR-019_istat_2014_commuting-matrices-2011.md, GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md, GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md, GR-025_istat_2024_la-mobilita-territoriale.md, GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md]
+related: [plan.md, AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md, GR-050_mit_2026_maas-for-italy-white-paper.md, GR-019_istat_2014_commuting-matrices-2011.md, GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md, GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md, GR-025_istat_2024_la-mobilita-territoriale.md, GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md, GR-017_ipsos-europ-assistance_2025_mobility-barometer.md, Generated_Touchpoints.md]
 ---
 
 # 22° Rapporto sulla mobilità degli italiani: Eppur si muove (synthesis)
@@ -70,3 +70,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A1, A6 and A7 of the research plan, [plan.md](../../../plan.md).
 - Shares a source landscape with [AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md](../Articles/AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md) and [GR-050_mit_2026_maas-for-italy-white-paper.md](GR-050_mit_2026_maas-for-italy-white-paper.md): the MaaS for Italy programme.
 - Shares a source landscape with [GR-019_istat_2014_commuting-matrices-2011.md](GR-019_istat_2014_commuting-matrices-2011.md), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md), [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md), [GR-025_istat_2024_la-mobilita-territoriale.md](GR-025_istat_2024_la-mobilita-territoriale.md), [GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md](GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md) and [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md): Italian statistics on commuting and daily travel.
+- The moments of the journey drawn from this note are listed in [Generated_Touchpoints.md](../../../Analysis/Generated_Touchpoints.md).
