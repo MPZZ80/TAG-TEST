@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-26 21:22
+
+- **Files:** `Research/Generation/Chosen_concept.md`, `Research/Generation/Ideas_prioritization.md`, `Research/Generation/README.md`, `Index.md`
+- **Change:** File created: `Chosen_concept.md`, the draft of the concept from FAM-01 and FAM-02 without C1-03: definition paragraph, five features with their touchpoints, stories and quotes, the cut list (22 at this stage, 5 at ideation), the thin places and the counts. `Ideas_prioritization.md` links to it; README and index list it.
+- **Why:** Marco chose FAM-01 and FAM-02 and asked for them to be drafted into a concept document, without revisiting the choice; C1-03 excluded because it needs hardware or a change in the operator's organisation.
+
 ## 2026-10-26 20:51
 
 - **Files:** `Research/Generation/Ideas_prioritization.md`, `Research/Generation/Human+AI_Ideas.md`, `Research/Generation/README.md`, `Index.md`

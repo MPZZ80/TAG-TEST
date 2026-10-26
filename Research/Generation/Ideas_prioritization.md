@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-10-26 20:51
+date: 2026-10-26 21:22
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information]
-related: [Human+AI_Ideas.md, AI_Ideas.md, Human_Ideas.md, Generated_User_Stories.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
+related: [Chosen_concept.md, Human+AI_Ideas.md, AI_Ideas.md, Human_Ideas.md, Generated_User_Stories.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
 ---
 
 # Ideas Prioritization: Proposed Marks
@@ -73,3 +73,4 @@ No concept scores 3 on all three axes. The concepts with no axis at 1 are C1-07,
 - [Human_Ideas.md](Human_Ideas.md): Marco's concepts S01–S03.
 - [Generated_User_Stories.md](../Analysis/Generated_User_Stories.md): stories F-01 and F-09, whose "so that" the valuable marks are traced to.
 - [Matteo_Rizzetto_notes.md](../Interviews/Matteo_Rizzetto_notes.md) and [Marco_Palermo_notes.md](../Interviews/Marco_Palermo_notes.md): the quotes behind the two stories.
+- [Chosen_concept.md](Chosen_concept.md): the draft of the concept Marco chose from FAM-01 and FAM-02, with the cut list.

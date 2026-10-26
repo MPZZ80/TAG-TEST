@@ -40,6 +40,7 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - AI_Ideas.md — [design, internal, output, information · draft · n/a · n/a]
 - Human+AI_Ideas.md — [design, internal, synthesis, information · draft · n/a · n/a]
 - Ideas_prioritization.md — [design, internal, output, information · draft · n/a · n/a]
+- Chosen_concept.md — [design, internal, output, information, disruption · draft · n/a · low]
 
 ## Research/Analysis/Prompts
 
