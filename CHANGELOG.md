@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-26 18:05
+
+- **Files:** `Research/Analysis/research.html`, `Research/Analysis/README.md`
+- **Change:** A "Contradictions" block opens each section that has contradictions. In Touchpoints and Features it is the file's own contradictions block, moved from the end of the file to the top of the section. In Interviews and Desk research it gathers the "Contradiction with" lines from the Connections of the notes tagged `contradiction` (2 in each). The home page links to each block. The README row for the page now says so.
+- **Why:** Marco asked for a contradictions section in every section that contains them; reason not stated.
+
 ## 2026-10-26 17:58
 
 - **Files:** `AGENTS.md`
