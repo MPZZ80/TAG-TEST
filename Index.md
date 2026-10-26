@@ -36,8 +36,9 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 ## Research/Generation
 
 - How_might_we.md — [unknown · unknown · unknown · unknown]
-- Human_First_drafts.md — [unknown · unknown · unknown · unknown]
-- AI_Ideas-md — [design, internal, output, information · draft · n/a · n/a]
+- Human_Ideas.md — [unknown · unknown · unknown · unknown]
+- AI_Ideas.md — [design, internal, output, information · draft · n/a · n/a]
+- Human+AI_Ideas.md — [design, internal, synthesis, information · draft · n/a · n/a]
 
 ## Research/Analysis/Prompts
 

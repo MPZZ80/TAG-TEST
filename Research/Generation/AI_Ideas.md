@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-10-26 19:55
+date: 2026-10-26 20:18
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information]
-related: [Generated_User_Stories.md, Generated_Features.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
+related: [Human+AI_Ideas.md, Generated_User_Stories.md, Generated_Features.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
 ---
 
 # AI Ideas: Concepts for HMW-01 and HMW-02
@@ -94,3 +94,4 @@ HMW-02:
 - [Generated_Features.md](../Analysis/Generated_Features.md): the features F-01 and F-09 that the stories come from.
 - [Matteo_Rizzetto_notes.md](../Interviews/Matteo_Rizzetto_notes.md): the source of the F-01 quotes behind HMW-01.
 - [Marco_Palermo_notes.md](../Interviews/Marco_Palermo_notes.md): the source of the F-09 quotes behind HMW-02.
+- [Human+AI_Ideas.md](Human+AI_Ideas.md): clusters these concepts with Marco's into families of directions.

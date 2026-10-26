@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-26 20:18
+
+- **Files:** `Research/Generation/Human+AI_Ideas.md`, `Research/Generation/AI_Ideas.md`, `Research/Generation/README.md`, `Index.md`
+- **Change:** File created: `Human+AI_Ideas.md`, the 27 concepts of `Human_Ideas.md` and `AI_Ideas.md` in 12 families of directions, with authors, second directions and the families held by one hand. `AI_Ideas.md` links to it in `related` and Connections. README and `Index.md` follow Marco's renames (`AI_Ideas-md` to `AI_Ideas.md`, `Human_First_drafts.md` to `Human_Ideas.md`) and list the new file.
+- **Why:** Marco asked to cluster his concepts and the AI concepts by direction, keeping the author of each, without ranking or recommending.
+
 ## 2026-10-26 19:55
 
 - **Files:** `Research/Generation/AI_Ideas-md`, `Research/Generation/README.md`, `Research/README.md`, `Index.md`
