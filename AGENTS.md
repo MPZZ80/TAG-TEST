@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-10-22 11:28
+date: 2026-10-26 17:58
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -48,7 +48,7 @@ Every folder has a `README.md` that says what is in it, which file to read for w
 
 - **Read the README of a folder before opening its files**, and open only the files it points you to.
 - For the sources, go `Research/README.md` → `Research/Desk_Research/Doc_Notes/README.md` → the `README.md` of one category, which is the index of its sources → the single source files you need. Do not open the source files one by one, and do not read the text copies in `Research/Desk_Research/docs_md/` from start to finish: search them.
-- **Keep the READMEs current.** When you add, remove, rename or regrade a file, update the README of its folder in the same change, including the counts and the state it reports.
+- **Keep the READMEs current.** When you add, remove, rename or regrade a file, or change its content substantially, update the README of its folder in the same change, including the counts and the state it reports. This covers every kind of file, not only Markdown, for example `research.html` (instruction 35).
 - A README describes and points; it does not hold findings or rules. Rules stay in this file, in `Metadata/metadata_schema.md` and in `Research/desk_research_instructions.md`.
 - The `README.md` in the repository root is Marco's own front page; do not change it unless he asks.
 - README files have no metadata block.
@@ -111,6 +111,7 @@ This section is the running list of the standing instructions Marco gives during
 | 32 | 2026-10-19 | Use the origin tag `survey` for files whose content comes from the answers to a questionnaire. Details in section 8 of `Metadata/metadata_schema.md`. | The survey results did not come from an interview, and no origin tag fitted them |
 | 33 | 2026-10-19 | Updated by 34 (commit without being asked). Whenever Marco asks for a commit, push it to GitHub right after. | Not stated |
 | 34 | 2026-10-22 | After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
+| 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `research.html` had been added to `Research/Analysis/` without a row in its README |
 
 ### Language
 

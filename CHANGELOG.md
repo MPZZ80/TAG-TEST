@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-26 17:58
+
+- **Files:** `AGENTS.md`
+- **Change:** General instruction 35: update the folder README whenever a file is added or substantially modified, for every kind of file. The "Keep the READMEs current" rule under "Folder guides" now also covers substantial changes to content and non-Markdown files.
+- **Why:** Marco noticed that the README in `Research/Analysis/` had not been updated when `research.html` was added.
+
 ## 2026-10-26 17:57
 
 - **Files:** `Research/Analysis/research.html`, `Research/Analysis/README.md`
