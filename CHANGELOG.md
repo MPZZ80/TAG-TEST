@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-26 17:57
+
+- **Files:** `Research/Analysis/research.html`, `Research/Analysis/README.md`
+- **Change:** The page now opens on a home page listing seven sections (Touchpoints, Features, User stories, Interviews, Survey, Desk research, Plan and method) and shows one section at a time; a bar of section links stays at the top. Each section has its own contents list. Links to a row or a note open the section that holds it; search still covers every section. No content was changed. Added the page to the folder README.
+- **Why:** Marco: the page was disordered, with everything on one page and hard to look at; he wants it split into sections so that the user can choose from the start which one to read.
+
 ## 2026-10-22 11:28
 
 - **Files:** `AGENTS.md`, `Research/desk_research_instructions.md`
