@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-26 20:26
+
+- **Files:** `Research/Generation/Human+AI_Ideas.md`
+- **Change:** Added the column "what each concept does" to the families table: for each concept, the one-line description from `AI_Ideas.md` as written, or a one-line summary of Marco's concept.
+- **Why:** Marco needs the description of each idea while reading the table.
+
 ## 2026-10-26 20:18
 
 - **Files:** `Research/Generation/Human+AI_Ideas.md`, `Research/Generation/AI_Ideas.md`, `Research/Generation/README.md`, `Index.md`
