@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-10-26 20:26
+date: 2026-10-26 20:51
 method: coding
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, synthesis, information]
-related: [Human_Ideas.md, AI_Ideas.md]
+related: [Human_Ideas.md, AI_Ideas.md, Ideas_prioritization.md]
 ---
 
 # Human and AI Ideas: Families of Concepts
@@ -61,3 +61,4 @@ None. Every concept answers the question in a way that one of the families descr
 
 - [Human_Ideas.md](Human_Ideas.md): Marco's concepts S01–S03, clustered here.
 - [AI_Ideas.md](AI_Ideas.md): the AI concepts C1-01 to C2-12, clustered here, with the questions, the stories and the reasons for each [risky] mark.
+- [Ideas_prioritization.md](Ideas_prioritization.md): proposed marks for each concept on value, feasibility and relevance.

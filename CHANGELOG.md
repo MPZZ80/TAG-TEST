@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-26 20:51
+
+- **Files:** `Research/Generation/Ideas_prioritization.md`, `Research/Generation/Human+AI_Ideas.md`, `Research/Generation/README.md`, `Index.md`
+- **Change:** File created: `Ideas_prioritization.md`, the 27 concepts marked 0–3 on valuable, feasible and relevant, with a traced reason for each mark and the list of concepts whose axes disagree. Relevance was measured against the moment of each concept's HMW, because the brief names no single moment. `Human+AI_Ideas.md` links to it in `related` and Connections; README and index list it.
+- **Why:** Marco asked for proposed marks on three axes, without ranking or choosing a concept; the build decision stays with him.
+
 ## 2026-10-26 20:26
 
 - **Files:** `Research/Generation/Human+AI_Ideas.md`
