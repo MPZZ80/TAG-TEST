@@ -19,6 +19,7 @@ Everything about the research: the plan, the working rules, the state of the wor
 | `desk_research_partial_analysis.md` | Answers to Q1–Q40 from the complete reading of the sources, with 61 numbered findings, the evidence against the brief, what stays open and what could not be read |
 | `deepdive_interview_script.md` | Version 4 of the interview topics, which follows the commute in sequence and tests the findings of the complete reading and of the 18 papers read afterwards |
 | `Analysis/` | Analyses built on the notes, starting with the touchpoints of the commute; see its `README.md` |
+| `Generation/` | How-Might-We questions and the concepts generated for them; see its `README.md` |
 | `Survey/` | The commuter survey in five languages, where to post it and the script that builds the forms; start from its `README.md` |
 | `open_issues.md` | Open questions, weak sources and contradictions, each with a priority and a criticality |
 | `Interviews/` | Recordings, automatic transcripts and one notes file per interview; start from its `README.md` |

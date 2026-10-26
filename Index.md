@@ -33,6 +33,12 @@ One line per Markdown file of the `Research/` folder, grouped by folder and orde
 - Generated_Features.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 - Generated_User_Stories.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 
+## Research/Generation
+
+- How_might_we.md — [unknown · unknown · unknown · unknown]
+- Human_First_drafts.md — [unknown · unknown · unknown · unknown]
+- AI_Ideas-md — [design, internal, output, information · draft · n/a · n/a]
+
 ## Research/Analysis/Prompts
 
 - Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]

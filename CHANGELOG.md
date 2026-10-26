@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-26 19:55
+
+- **Files:** `Research/Generation/AI_Ideas-md`, `Research/Generation/README.md`, `Research/README.md`, `Index.md`
+- **Change:** File created: `AI_Ideas-md`, 24 concepts (twelve for HMW-01, twelve for HMW-02) in eleven directions, with [risky] marks and the dropped concepts. Created the folder README, added the `Generation/` row to `Research/README.md` and the folder's three files to `Index.md`.
+- **Why:** Marco asked to widen the range of answers to his two How-Might-We questions, without ranking them; he decides what is relevant, valuable and feasible.
+
 ## 2026-10-26 18:05
 
 - **Files:** `Research/Analysis/research.html`, `Research/Analysis/README.md`
