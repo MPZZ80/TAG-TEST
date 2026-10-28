@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-28 11:35
+
+- **Files:** `02_Ideation/How_might_we.md`, `02_Ideation/README.md`
+- **Change:** Moved Marco's How-Might-We questions (HMW-01, HMW-02 and the start of HMW-03) from `Research/Ideation/How_might_we.md`, where the editor had saved them after the move, into the empty `02_Ideation/How_might_we.md`; removed the leftover `Research/` folder. The README row describes the file's content.
+- **Why:** Marco: "procedi", after being told the editor had recreated the file at the old path.
+
 ## 2026-10-28 11:24
 
 - **Files:** `Research/` renamed `01_Research/`; `Research/Ideation/` moved to the root as `02_Ideation/`; `Questions/` moved to `01_Research/Questions/`. Paths and links updated in `.gitignore`, `CLAUDE.md`, `AGENTS.md`, `Index.md`, `Metadata/metadata_schema.md`, `Metadata/README.md`, `01_Research/README.md`, `01_Research/desk_research_instructions.md`, `01_Research/plan.md`, `01_Research/deepdive_interview_script.md`, `01_Research/Questions/initial_questions.md`, `01_Research/Analysis/Generated_Touchpoints.md`, `01_Research/Analysis/research.html`, the six category READMEs and three source lists in `01_Research/Desk_Research/Doc_Notes/`, and every file in `02_Ideation/`.
