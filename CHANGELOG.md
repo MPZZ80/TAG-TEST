@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-28 11:37
+
+- **Files:** `Brief/` moved to `00_Intro/Brief/`, `Metadata/` moved to `00_Intro/Metadata/`; `00_Intro/README.md` created. Paths and links updated in `CLAUDE.md`, `AGENTS.md`, `Index.md`, `00_Intro/Metadata/README.md`, `00_Intro/Metadata/metadata_schema.md`, `01_Research/plan.md`, `01_Research/desk_research_instructions.md`, `01_Research/Survey/survey_en.md`, `01_Research/Questions/initial_questions.md` and `01_Research/Analysis/research.html`.
+- **Change:** Brief and metadata schema grouped in a new `00_Intro/` folder, with its own README; `AGENTS.md` lists it in the repository layout, and `CLAUDE.md` imports the schema from its new path.
+- **Why:** Marco asked to put Brief and Metadata in a folder `00_Intro`; reason not stated.
+
 ## 2026-10-28 11:35
 
 - **Files:** `02_Ideation/How_might_we.md`, `02_Ideation/README.md`

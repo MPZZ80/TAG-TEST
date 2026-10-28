@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-10-28 11:24
+date: 2026-10-28 11:37
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -10,15 +10,16 @@ tags: [internal, rules]
 
 Rules for any AI agent working in this repository. Read this file in full before changing anything.
 
-The project is the discovery phase of a digital product design project about intercity commuting door to door, run by Marco. Start from `Brief/brief.md` and `01_Research/Questions/initial_questions.md`.
+The project is the discovery phase of a digital product design project about intercity commuting door to door, run by Marco. Start from `00_Intro/Brief/brief.md` and `01_Research/Questions/initial_questions.md`.
 
 Repository layout:
 
 | Location | What it holds |
 | --- | --- |
 | Repository root | Only the files that tools or conventions expect there: `AGENTS.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md`, and `Index.md`, the list of the files in `01_Research/` and `02_Ideation/` with their tags (see "Index" below) |
-| `Brief/` | The project brief |
-| `Metadata/` | The metadata schema: the block every file starts with and its allowed values |
+| `00_Intro/` | The project brief and the metadata schema |
+| `00_Intro/Brief/` | The project brief |
+| `00_Intro/Metadata/` | The metadata schema: the block every file starts with and its allowed values |
 | `01_Research/` | The research plan, the desk research instructions, the interview script and the research outputs |
 | `01_Research/Questions/` | The initial research questions and the prompt that generated them |
 | `01_Research/Interviews/` | Recordings, automatic transcripts and one notes file per interview |
@@ -40,7 +41,7 @@ Put a new document in the folder it belongs to, not in the root. Create a new fo
 - **Status is shown as it is.** A file still marked `draft` keeps that status in its line; do not hide it.
 - **Nothing is invented.** A missing field is written `unknown`. A file with no metadata block is listed with every value `unknown`, and Marco is told.
 - **Report** to Marco any file that could not be read and any file whose declared activity does not match its file name, for example a file named "interview" whose tags say `desk`.
-- **Start from `Index.md` when looking for something.** Search it for a tag (section 8 of `Metadata/metadata_schema.md`), then open only the files it points to. Go to the folder READMEs for what each file says.
+- **Start from `Index.md` when looking for something.** Search it for a tag (section 8 of `00_Intro/Metadata/metadata_schema.md`), then open only the files it points to. Go to the folder READMEs for what each file says.
 - **Keep it current.** When you create, rename, move or delete a file, or change its tags, status, grade, confidence or date, update its line in the same change.
 
 ### Folder guides
@@ -50,7 +51,7 @@ Every folder has a `README.md` that says what is in it, which file to read for w
 - **Read the README of a folder before opening its files**, and open only the files it points you to.
 - For the sources, go `01_Research/README.md` → `01_Research/Desk_Research/Doc_Notes/README.md` → the `README.md` of one category, which is the index of its sources → the single source files you need. Do not open the source files one by one, and do not read the text copies in `01_Research/Desk_Research/docs_md/` from start to finish: search them.
 - **Keep the READMEs current.** When you add, remove, rename or regrade a file, or change its content substantially, update the README of its folder in the same change, including the counts and the state it reports. This covers every kind of file, not only Markdown, for example `research.html` (instruction 35).
-- A README describes and points; it does not hold findings or rules. Rules stay in this file, in `Metadata/metadata_schema.md` and in `01_Research/desk_research_instructions.md`.
+- A README describes and points; it does not hold findings or rules. Rules stay in this file, in `00_Intro/Metadata/metadata_schema.md` and in `01_Research/desk_research_instructions.md`.
 - The `README.md` in the repository root is Marco's own front page; do not change it unless he asks.
 - README files have no metadata block.
 
@@ -90,8 +91,8 @@ This section is the running list of the standing instructions Marco gives during
 | 9 | 2026-10-05 | Do not use the log for the project's analysis and generation activities. It is only there to track the history of the files. Details in section 2. | The log is needed only to track file history |
 | 10 | 2026-10-05 | Keep a single log file for the whole project, `CHANGELOG.md`, not one log per document. Details in section 2. | One log per file increases entropy |
 | 11 | 2026-10-05 | Keep the desk research instructions in a single file of their own, `01_Research/desk_research_instructions.md`, not inside this file. Details in section 3. | Marco wants a file that contains only the desk research plan |
-| 12 | 2026-10-05 | Keep the metadata block definition in its own file, `Metadata/metadata_schema.md`, and take metadata values only from its fixed lists. Details in section 4. | To systematise the metadata so that categories and tags do not multiply |
-| 13 | 2026-10-05 | Grade every source, record confidence as an honest value, verify every citation by opening it, and trace every claim to its source. Details in `Metadata/metadata_schema.md` and `01_Research/desk_research_instructions.md`. | Not stated; taken from a slide Marco shared ("Sources, confidence") |
+| 12 | 2026-10-05 | Keep the metadata block definition in its own file, `00_Intro/Metadata/metadata_schema.md`, and take metadata values only from its fixed lists. Details in section 4. | To systematise the metadata so that categories and tags do not multiply |
+| 13 | 2026-10-05 | Grade every source, record confidence as an honest value, verify every citation by opening it, and trace every claim to its source. Details in `00_Intro/Metadata/metadata_schema.md` and `01_Research/desk_research_instructions.md`. | Not stated; taken from a slide Marco shared ("Sources, confidence") |
 | 14 | 2026-10-05 | Do not set arbitrary steps or numbers for the research. For each source category, draft a concise candidate list for Marco to vet; what follows is decided with him once it is known which sources there are and how many. Details in `01_Research/plan.md` and `01_Research/desk_research_instructions.md`. | Marco did not like the arbitrary pilot step and wants to vet the sources before deciding |
 | 15 | 2026-10-06 | While doing the desk research, keep everything tracked in `01_Research/progress.md`, updated as the work goes, so that the work can resume without starting over if tokens run out. Details in section 13 of `01_Research/desk_research_instructions.md`. | Marco may run out of tokens and wants to restart without redoing everything |
 | 16 | 2026-10-06 | Convert every downloaded PDF to Markdown with `pymupdf4llm` (OCR with `tesseract` where needed) into `01_Research/Desk_Research/docs_md/`, with the same name as the PDF. Details in section 11 of `01_Research/desk_research_instructions.md`. | Marco wants the PDFs as Markdown files and asked to install and use these tools |
@@ -101,15 +102,15 @@ This section is the running list of the standing instructions Marco gives during
 | 20 | 2026-10-07 | Keep `01_Research/Desk_Research/docs/` and `01_Research/Desk_Research/docs_md/` split by category, with the same folder names as `01_Research/Desk_Research/Doc_Notes/`. Details in section 11 of `01_Research/desk_research_instructions.md`. | Marco wants the sources divided by category |
 | 21 | 2026-10-07 | For the papers, do not ask anything more: keep all, download and convert. Then continue through the remaining categories with the extended scope until the desk research is finished, updating the progress file, and leave the interpretation for later. | Marco wants the collection finished before the interpretation |
 | 22 | 2026-10-07 | Keep a `README.md` in every folder that guides agents to the right file, so that they do not read every Markdown file each time; read the README of a folder first and keep it current. Details under "Folder guides" below. | To guide agents without making them read all the Markdown files every time |
-| 23 | 2026-10-07 | Widen the scope of the brief: do not think only of the Italian commuter, make a general analysis of commuting in multimodal environments, and decide the rest later ("e poi vediamo"). Applied on 2026-10-08: "Scope" section in `Brief/brief.md` and section 3 of `01_Research/desk_research_instructions.md`. | In Italy 86% use the car (Marco's figure, as he stated it) |
-| 24 | 2026-10-12 | Keep the tags to the smallest possible set, in the order phase, origin, type, topics: a phase tag (`research` now, `design` and `development` later), an origin tag in place of the `channel` field (`desk`, `interview`, `internal`), nine type tags and the eight topic tags. Details in section 8 of `Metadata/metadata_schema.md`. | To assign the tags of the metadata layer correctly, with the fewest tags possible for the knowledge base |
+| 23 | 2026-10-07 | Widen the scope of the brief: do not think only of the Italian commuter, make a general analysis of commuting in multimodal environments, and decide the rest later ("e poi vediamo"). Applied on 2026-10-08: "Scope" section in `00_Intro/Brief/brief.md` and section 3 of `01_Research/desk_research_instructions.md`. | In Italy 86% use the car (Marco's figure, as he stated it) |
+| 24 | 2026-10-12 | Keep the tags to the smallest possible set, in the order phase, origin, type, topics: a phase tag (`research` now, `design` and `development` later), an origin tag in place of the `channel` field (`desk`, `interview`, `internal`), nine type tags and the eight topic tags. Details in section 8 of `00_Intro/Metadata/metadata_schema.md`. | To assign the tags of the metadata layer correctly, with the fewest tags possible for the knowledge base |
 | 25 | 2026-10-12 | Keep `Index.md` in the repository root with one row per file showing the file name and its tags; use it first to find and connect files, and update it whenever a file or its tags change. Details under "Index" above. | To help the agent connect and find things faster, without searching the whole repository |
-| 27 | 2026-10-12 | Tag the single pain points with a small, granular set of terms (twelve pain-point tags, section 8 of `Metadata/metadata_schema.md`), and keep the findings of each interview inside its notes file without the finding numbers of the earlier analysis, which will come back under another naming system. | The analysis will come back in another form with another categorisation of the findings |
+| 27 | 2026-10-12 | Tag the single pain points with a small, granular set of terms (twelve pain-point tags, section 8 of `00_Intro/Metadata/metadata_schema.md`), and keep the findings of each interview inside its notes file without the finding numbers of the earlier analysis, which will come back under another naming system. | The analysis will come back in another form with another categorisation of the findings |
 | 28 | 2026-10-12 | Do not list `README.md` files in `Index.md`. | Not stated |
 | 29 | 2026-10-12 | Texts written for respondents, such as the survey, are made in the languages of the places where they are posted, one file per language; the reference version stays in English. | The survey has to reach Italians and people in other countries |
 | 30 | 2026-10-12 | Do not list the interview transcripts or the lists of sources (`*_candidates.md`, `*_to_obtain.md`) in `Index.md`. | Not stated; taken from Marco's own edit of the index |
 | 31 | 2026-10-16 | Keep the notes on the sources in `01_Research/Desk_Research/Doc_Notes/`, next to the documents they are written from (`docs/`, `docs_md/`), with a name that says they are synthesis notes and not the original sources. | The folder held synthesis notes, and its old name `Sources` suggested the original sources |
-| 32 | 2026-10-19 | Use the origin tag `survey` for files whose content comes from the answers to a questionnaire. Details in section 8 of `Metadata/metadata_schema.md`. | The survey results did not come from an interview, and no origin tag fitted them |
+| 32 | 2026-10-19 | Use the origin tag `survey` for files whose content comes from the answers to a questionnaire. Details in section 8 of `00_Intro/Metadata/metadata_schema.md`. | The survey results did not come from an interview, and no origin tag fitted them |
 | 33 | 2026-10-19 | Updated by 34 (commit without being asked). Whenever Marco asks for a commit, push it to GitHub right after. | Not stated |
 | 34 | 2026-10-22 | After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
 | 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `research.html` had been added to `01_Research/Analysis/` without a row in its README |
@@ -180,7 +181,7 @@ The desk research instructions are in their own file: `01_Research/desk_research
 
 Every file in the project starts with a metadata block: `source`, `date`, `method`, `status`, `grade`, `confidence`, `tags`. It is the first thing in the file, before the title, and it is not optional.
 
-The block, the rules and the allowed values are defined in one place: `Metadata/metadata_schema.md`. That file is the only copy; do not repeat its content here.
+The block, the rules and the allowed values are defined in one place: `00_Intro/Metadata/metadata_schema.md`. That file is the only copy; do not repeat its content here.
 
 - Take every value from the lists in that file. Do not invent new categories or tags.
 - If no listed value fits, propose a new one to Marco and add it to the schema before using it.

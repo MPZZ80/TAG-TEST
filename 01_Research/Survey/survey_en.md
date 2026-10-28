@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-12 22:49
+date: 2026-10-28 11:37
 method: generated
 status: draft
 grade: n/a
@@ -238,7 +238,7 @@ The reference text of the survey: 24 questions, 22 closed and 2 open and optiona
 - Questions 8, 13 and 17 are multiple choice; 22 allows up to three answers; question 3 is a drop-down list; all the others take one answer.
 - "Other" with a short text field only on questions 13, 17 and 19.
 - Respondents who answer "No" to question 1 leave the survey; those under 30 minutes in question 2 stay and are analysed apart.
-- The options of question 22 are the pain-point tags of `../../Metadata/metadata_schema.md`, plus traffic, parking and cost. Shuffle their order in the form settings.
+- The options of question 22 are the pain-point tags of `../../00_Intro/Metadata/metadata_schema.md`, plus traffic, parking and cost. Shuffle their order in the form settings.
 - No contact is asked and there is no follow-up conversation: Marco will not have the time for it.
 - Use one form per language and one link per posting venue, to know where the answers come from.
 - `build_google_forms.gs` in this folder creates the forms in Google Forms from these texts, one language per run.

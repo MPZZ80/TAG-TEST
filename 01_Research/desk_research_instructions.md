@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and plan.md
-date: 2026-10-28 11:24
+date: 2026-10-28 11:37
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
 tags: [research, internal, rules]
@@ -24,7 +24,7 @@ Marco will start interviewing fellow commuters only after he has seen the result
 
 | File | What it gives you |
 | --- | --- |
-| `../Brief/brief.md` | The user, the problem and Marco's motivation |
+| `../00_Intro/Brief/brief.md` | The user, the problem and Marco's motivation |
 | `Questions/initial_questions.md` | The 40 research questions, referred to as Q1–Q40 |
 | `plan.md` | The activities (A1–A8), their goals, sources, outputs, order of work and "done when" checks |
 | `Desk_Research/Doc_Notes/` and `Desk_Research/docs/` | The source files and downloaded documents already collected (see section 11) |
@@ -230,7 +230,7 @@ Apart from the candidate lists, where you always stop for Marco, do not stop to 
 ## 10. Housekeeping
 
 - Save outputs in this folder with the file names given in the plan.
-- Do not change `../Brief/brief.md` or `Questions/initial_questions.md` unless Marco asks. The "Scope" section of the brief was added on his instruction; the rest is his own text.
+- Do not change `../00_Intro/Brief/brief.md` or `Questions/initial_questions.md` unless Marco asks. The "Scope" section of the brief was added on his instruction; the rest is his own text.
 - If an output file from an earlier session needs revising, edit it in place and record the change in `../CHANGELOG.md` as described in section 2 of `../AGENTS.md`.
 - Commit and push to GitHub after every update, without waiting to be asked (instruction 34 in `../AGENTS.md`).
 

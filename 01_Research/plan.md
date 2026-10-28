@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's notes, brief.md and initial_questions.md
-date: 2026-10-28 11:24
+date: 2026-10-28 11:37
 method: AI-drafted plan, revised on Marco's instructions
 confidence: medium
 tags: [research, internal, plan]
@@ -8,7 +8,7 @@ tags: [research, internal, plan]
 
 # Research Plan
 
-Plan for answering the 40 questions in `Questions/initial_questions.md` (referred to below as Q1–Q40), based on the brief in `../Brief/brief.md`.
+Plan for answering the 40 questions in `Questions/initial_questions.md` (referred to below as Q1–Q40), based on the brief in `../00_Intro/Brief/brief.md`.
 
 ## 1. Scope and constraints
 

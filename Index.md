@@ -10,7 +10,7 @@ tags: [research, internal, synthesis]
 
 # Index
 
-One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, grouped by folder and ordered by the date in the metadata block, oldest first. Format: `filename — [tags · status · grade · confidence]`. The tags are in the order phase, origin (the activity: `desk`, `interview` or `internal`), type, topics; see section 8 of `Metadata/metadata_schema.md`. `unknown` means the field, or the whole metadata block, is missing.
+One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, grouped by folder and ordered by the date in the metadata block, oldest first. Format: `filename — [tags · status · grade · confidence]`. The tags are in the order phase, origin (the activity: `desk`, `interview` or `internal`), type, topics; see section 8 of `00_Intro/Metadata/metadata_schema.md`. `unknown` means the field, or the whole metadata block, is missing.
 
 ## 01_Research
 

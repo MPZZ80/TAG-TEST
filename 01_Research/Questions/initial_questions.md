@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), generated from brief.md with the prompt in prompt.md
-date: 2026-10-28 11:24
+date: 2026-10-28 11:37
 method: AI generation from Marco's prompt and framework (Who, What, Why now, What success)
 confidence: medium
 tags: [research, internal, questions]
@@ -8,7 +8,7 @@ tags: [research, internal, questions]
 
 # Initial Project Questions
 
-Open-ended questions for the discovery phase, based on the project brief in `../../Brief/brief.md`. They are meant to guide desk research and user interviews, not to point to a solution.
+Open-ended questions for the discovery phase, based on the project brief in `../../00_Intro/Brief/brief.md`. They are meant to guide desk research and user interviews, not to point to a solution.
 
 The focus is the intercity commute door to door: the whole journey from the door the commuter leaves to the door they arrive at. In the questions, a "leg" is one part of that journey: the first mile, the main intercity leg, a transfer, or the last mile.
 
