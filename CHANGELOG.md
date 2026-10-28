@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-10-28 11:24
+
+- **Files:** `Research/` renamed `01_Research/`; `Research/Ideation/` moved to the root as `02_Ideation/`; `Questions/` moved to `01_Research/Questions/`. Paths and links updated in `.gitignore`, `CLAUDE.md`, `AGENTS.md`, `Index.md`, `Metadata/metadata_schema.md`, `Metadata/README.md`, `01_Research/README.md`, `01_Research/desk_research_instructions.md`, `01_Research/plan.md`, `01_Research/deepdive_interview_script.md`, `01_Research/Questions/initial_questions.md`, `01_Research/Analysis/Generated_Touchpoints.md`, `01_Research/Analysis/research.html`, the six category READMEs and three source lists in `01_Research/Desk_Research/Doc_Notes/`, and every file in `02_Ideation/`.
+- **Change:** New folder layout. `AGENTS.md` lists `01_Research/Questions/` and `02_Ideation/` in the repository layout; `Index.md` now covers `01_Research/` and `02_Ideation/` and adds the two files of `Questions/`. The `02_Ideation/` README is titled "Ideation". Past log lines in `01_Research/progress.md` keep the old paths, as history. Marco's prompts in `01_Research/Analysis/Prompts/` (not committed) still name `Research/Generation/`.
+- **Why:** Marco asked to move the Ideation folder out of Research, name the two `01 Research` and `02 Ideation`, and put Questions inside Research; he chose the underscore over the space.
+
 ## 2026-10-26 21:22
 
 - **Files:** `Research/Generation/Chosen_concept.md`, `Research/Generation/Ideas_prioritization.md`, `Research/Generation/README.md`, `Index.md`
