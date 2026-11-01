@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-28 11:24
+date: 2026-11-01 16:40
 method: generated
 status: draft
 grade: n/a
@@ -90,8 +90,8 @@ HMW-02:
 
 ## Connections
 
-- [Generated_User_Stories.md](../01_Research/Analysis/Generated_User_Stories.md): holds the two user stories, F-01 and F-09, behind the questions.
-- [Generated_Features.md](../01_Research/Analysis/Generated_Features.md): the features F-01 and F-09 that the stories come from.
-- [Matteo_Rizzetto_notes.md](../01_Research/Interviews/Matteo_Rizzetto_notes.md): the source of the F-01 quotes behind HMW-01.
-- [Marco_Palermo_notes.md](../01_Research/Interviews/Marco_Palermo_notes.md): the source of the F-09 quotes behind HMW-02.
+- [Generated_User_Stories.md](../../01_Research/Analysis/Generated_User_Stories.md): holds the two user stories, F-01 and F-09, behind the questions.
+- [Generated_Features.md](../../01_Research/Analysis/Generated_Features.md): the features F-01 and F-09 that the stories come from.
+- [Matteo_Rizzetto_notes.md](../../01_Research/Interviews/Matteo_Rizzetto_notes.md): the source of the F-01 quotes behind HMW-01.
+- [Marco_Palermo_notes.md](../../01_Research/Interviews/Marco_Palermo_notes.md): the source of the F-09 quotes behind HMW-02.
 - [Human+AI_Ideas.md](Human+AI_Ideas.md): clusters these concepts with Marco's into families of directions.

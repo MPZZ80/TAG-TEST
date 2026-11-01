@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 16:40
+
+- **Files:** `02_Ideation/AI_Ideas.md`, `Chosen_concept.md`, `How_might_we.md`, `Human+AI_Ideas.md`, `Human_Ideas.md`, `Ideas_prioritization.md` and `README.md` moved to `02_Ideation/_old/`; `02_Ideation/README.md` created; `AGENTS.md`, `Index.md`
+- **Change:** The first round of ideation archived in `02_Ideation/_old/`, with its links to `01_Research/` corrected for the new depth and its README marked as archived. New empty-state README in `02_Ideation/`. `AGENTS.md` lists the new folder and `Index.md` lists the files under `02_Ideation/_old`.
+- **Why:** Marco wants to redo everything done in the Ideation folder: put the current files in `_old` and repeat the whole process.
+
 ## 2026-10-28 11:37
 
 - **Files:** `Brief/` moved to `00_Intro/Brief/`, `Metadata/` moved to `00_Intro/Metadata/`; `00_Intro/README.md` created. Paths and links updated in `CLAUDE.md`, `AGENTS.md`, `Index.md`, `00_Intro/Metadata/README.md`, `00_Intro/Metadata/metadata_schema.md`, `01_Research/plan.md`, `01_Research/desk_research_instructions.md`, `01_Research/Survey/survey_en.md`, `01_Research/Questions/initial_questions.md` and `01_Research/Analysis/research.html`.

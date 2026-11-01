@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-10-28 11:37
+date: 2026-11-01 16:40
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -28,6 +28,7 @@ Repository layout:
 | `01_Research/Desk_Research/docs/` | Documents downloaded from the sources, in one folder per category. Excluded from Git |
 | `01_Research/Desk_Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
 | `02_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
+| `02_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
 

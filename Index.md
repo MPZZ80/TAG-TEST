@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-28 11:24
+date: 2026-11-01 16:40
 method: generated
 status: draft
 grade: n/a
@@ -208,11 +208,11 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - survey_it.md — [research, internal, script · draft · n/a · n/a]
 - survey_nl.md — [research, internal, script · draft · n/a · n/a]
 
-## 02_Ideation
+## 02_Ideation/_old
 
 - How_might_we.md — [unknown · unknown · unknown · unknown]
 - Human_Ideas.md — [unknown · unknown · unknown · unknown]
-- AI_Ideas.md — [design, internal, output, information · draft · n/a · n/a]
 - Human+AI_Ideas.md — [design, internal, synthesis, information · draft · n/a · n/a]
+- AI_Ideas.md — [design, internal, output, information · draft · n/a · n/a]
 - Ideas_prioritization.md — [design, internal, output, information · draft · n/a · n/a]
 - Chosen_concept.md — [design, internal, output, information, disruption · draft · n/a · low]
