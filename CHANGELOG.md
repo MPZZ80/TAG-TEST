@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 17:38
+
+- **Files:** `02_Ideation/04_Human+AI_Ideas.md` (file created), `02_Ideation/_old/Human_Ideas.md` moved by Marco to `02_Ideation/02_Human_Ideas.md`; `02_Ideation/03_AI_Ideas.md`, `02_Ideation/README.md`, `02_Ideation/_old/README.md`, `02_Ideation/_old/Human+AI_Ideas.md`, `02_Ideation/_old/Ideas_prioritization.md`, `02_Ideation/_old/Chosen_concept.md`, `Index.md`
+- **Change:** 327 concepts grouped into 27 families with 2 unclassified, with the author marks, the families held by one hand and the count. Links in `_old/` follow the moved file. `Index.md` lists the new files.
+- **Why:** Marco asked to merge his ideas and the AI ideas and cluster them by direction, following his instructions.
+
 ## 2026-11-01 17:31
 
 - **Files:** `02_Ideation/03_AI_Ideas.md` (file created), `02_Ideation/01_How_might_we.md`, `02_Ideation/README.md`, `Index.md`

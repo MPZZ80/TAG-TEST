@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-01 17:31
+date: 2026-11-01 17:38
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [01_How_might_we.md]
+related: [01_How_might_we.md, 04_Human+AI_Ideas.md]
 ---
 
 # AI Ideas: Concepts for the How-Might-We Questions
@@ -409,3 +409,4 @@ Dropped while writing, because they do not answer the question.
 ## Connections
 
 - [01_How_might_we.md](01_How_might_we.md) holds the 27 questions these concepts answer, their stories and quotes, and the clusters and superclusters the tables follow.
+- [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) clusters these concepts with Marco's into families.

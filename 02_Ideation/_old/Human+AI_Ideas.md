@@ -1,17 +1,17 @@
 ---
 source: Claude
-date: 2026-10-26 20:51
+date: 2026-11-01 17:38
 method: coding
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, synthesis, information]
-related: [Human_Ideas.md, AI_Ideas.md, Ideas_prioritization.md]
+related: [02_Human_Ideas.md, AI_Ideas.md, Ideas_prioritization.md]
 ---
 
 # Human and AI Ideas: Families of Concepts
 
-The concepts of [Human_Ideas.md](Human_Ideas.md), written by Marco, and of [AI_Ideas.md](AI_Ideas.md), written by Claude, grouped by direction: two concepts are in one family when they answer the question in the same way. Nothing is added; the families are not ranked. The column "what each concept does" repeats the one-line description of each AI concept from `AI_Ideas.md` as written, and gives a one-line summary of each of Marco's concepts.
+The concepts of [Human_Ideas.md](../02_Human_Ideas.md), written by Marco, and of [AI_Ideas.md](AI_Ideas.md), written by Claude, grouped by direction: two concepts are in one family when they answer the question in the same way. Nothing is added; the families are not ranked. The column "what each concept does" repeats the one-line description of each AI concept from `AI_Ideas.md` as written, and gives a one-line summary of each of Marco's concepts.
 
 - **Concepts in:** 27. Marco: S01, S02 and S03. AI: C1-01 to C1-12 (for HMW-01) and C2-01 to C2-12 (for HMW-02). The five concepts listed as dropped in `AI_Ideas.md` are not concepts of that file and are left out.
 - **Families out:** 12.
@@ -59,6 +59,6 @@ None. Every concept answers the question in a way that one of the families descr
 
 ## Connections
 
-- [Human_Ideas.md](Human_Ideas.md): Marco's concepts S01–S03, clustered here.
+- [Human_Ideas.md](../02_Human_Ideas.md): Marco's concepts S01–S03, clustered here.
 - [AI_Ideas.md](AI_Ideas.md): the AI concepts C1-01 to C2-12, clustered here, with the questions, the stories and the reasons for each [risky] mark.
 - [Ideas_prioritization.md](Ideas_prioritization.md): proposed marks for each concept on value, feasibility and relevance.
