@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 17:09
+date: 2026-11-01 17:24
 method: generated
 status: draft
 grade: n/a
@@ -90,6 +90,15 @@ The 27 questions grouped by what they ask about, each in one cluster. CL-01 is M
 | CL-09 | The driver's route | HMW-17 | Alone: the only question about driving, and the decision stays with the driver |
 
 **Close to another cluster:** HMW-05 and HMW-09 also concern a delay, as CL-01 does, but they ask what the delay means for a decision and not where the train is. HMW-22 also concerns crowding, which no other question does. HMW-16 also concerns the delay, but it asks about the time promised before the trip.
+
+## Superclusters
+
+Marco's grouping of the clusters. The names are proposals. CL-06, CL-07, CL-08 and CL-09 stay as they are, in no supercluster.
+
+| ID | theme | clusters | questions | what connects them, one line |
+| --- | --- | --- | --- | --- |
+| SC-01 | The state of my train | CL-01, CL-02 | HMW-01, HMW-02, HMW-05, HMW-12, HMW-14 | Knowing how the train stands, for this trip or for the usual one |
+| SC-02 | Finding a way that works | CL-03, CL-04, CL-05 | HMW-03, HMW-04, HMW-06, HMW-07, HMW-08, HMW-09, HMW-10, HMW-13, HMW-16, HMW-22, HMW-25 | Deciding how to make the trip: before leaving, at a change, or when it breaks |
 
 ## Connections
 

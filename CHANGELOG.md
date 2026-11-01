@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 17:24
+
+- **Files:** `02_Ideation/01_How_might_we.md`, `02_Ideation/README.md`
+- **Change:** New "Superclusters" section: SC-01 groups CL-01 and CL-02, SC-02 groups CL-03, CL-04 and CL-05. CL-06 to CL-09 stay as they are. The theme names are the agent's proposals.
+- **Why:** Marco asked for a further series of superclusters with these groupings; reason not stated.
+
 ## 2026-11-01 17:09
 
 - **Files:** `02_Ideation/How_might_we.md` renamed `02_Ideation/01_How_might_we.md`; `02_Ideation/README.md`, `Index.md`, `01_Research/Analysis/Generated_User_Stories.md`, `01_Research/Analysis/research.html`, `AGENTS.md`
