@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 17:41
+
+- **Files:** `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/01_How_might_we.md`, `02_Ideation/README.md`
+- **Change:** New section "Questions for Marco's concepts": S01 to S03 assigned to the questions they answer or partly answer, with the part missing and the close question not assigned. Link added on both sides. `02_Human_Ideas.md` was not changed.
+- **Why:** Marco asked to try to assign a question or a set of questions to his ideas.
+
 ## 2026-11-01 17:38
 
 - **Files:** `02_Ideation/04_Human+AI_Ideas.md` (file created), `02_Ideation/_old/Human_Ideas.md` moved by Marco to `02_Ideation/02_Human_Ideas.md`; `02_Ideation/03_AI_Ideas.md`, `02_Ideation/README.md`, `02_Ideation/_old/README.md`, `02_Ideation/_old/Human+AI_Ideas.md`, `02_Ideation/_old/Ideas_prioritization.md`, `02_Ideation/_old/Chosen_concept.md`, `Index.md`

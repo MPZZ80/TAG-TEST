@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-01 17:38
+date: 2026-11-01 17:41
 method: coding
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, synthesis, information, disruption]
-related: [03_AI_Ideas.md]
+related: [03_AI_Ideas.md, 01_How_might_we.md]
 ---
 
 # Human and AI Ideas: Families of Concepts
@@ -15,7 +15,7 @@ The concepts of [02_Human_Ideas.md](02_Human_Ideas.md), written by Marco, and of
 
 - **Numbers:** S01 to S03 are Marco's, C01-01 to C27-12 are the AI's.
 - **Families and directions are different.** The direction column of `03_AI_Ideas.md` was written while generating. The families were made afresh from what each concept does, so a concept can sit apart from its direction.
-- **Questions:** Marco's concepts do not name a question, and none is assigned here.
+- **Questions:** Marco's concepts do not name a question. The section "Questions for Marco's concepts" proposes some.
 - **[risky]** marks are those of `03_AI_Ideas.md`. The concepts it lists as dropped are left out.
 
 ## Families
@@ -76,6 +76,19 @@ All three of Marco's concepts are about gathering and delivering delay informati
 - **Families out:** 27.
 - **Unclassified:** 2.
 
+## Questions for Marco's concepts
+
+Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_might_we.md) existed, so these are proposals, read from what each concept says. **Answers** means the concept does what the question asks. **Partly** means it covers one part, and the cell says which part is missing.
+
+| concept | what it does | answers | partly | not assigned, though close |
+| --- | --- | --- | --- | --- |
+| S01 | Gathers the delays on the user's leg and sends them as soon as available on the chosen channel, filtered by type and day | HMW-05: a change on the usual train, in time, on his office days | HMW-01: the delay early, but not where the train is<br>HMW-02: no need to read the board, but a cancellation only if the filter types cover it<br>HMW-09: the delay on the leg, but not whether the connection holds | HMW-12: it tells the user, not the person coming to fetch him |
+| S02 | Works out the delay by comparing the devices of those who bought the train with where the train should be, then sends it on the chosen channel | HMW-01: where the train really is, without depending on the board | HMW-02: a measured delay means less guessing, but it does not say a cancellation is coming<br>HMW-05: in time only if devices are already on board before he leaves<br>HMW-09: the measured delay, but not whether the connection holds | HMW-12: same reason as S01 |
+| S03 | Users report the delay directly on the app | HMW-01: the delay as early as someone reports it, with the position only if they give it | HMW-02: others' word in place of the numbers, but no answer on a cancellation<br>HMW-04: whether the bus has been seen, if someone is there to say it late in the evening<br>HMW-05: others on the line say what they see, if someone reports before he leaves | HMW-12: same reason as S01 |
+
+- **Where they land:** all three answer questions in SC-01. Only HMW-04 and HMW-09, reached partly, are in SC-02. None reaches CL-06, CL-07, CL-08 or CL-09.
+- **An assumption in S02:** it needs travellers to share the position of their device. The same assumption marks C01-05 as [risky] in `03_AI_Ideas.md`. S02 carries no mark here, because the marks are those of that file; Marco may want to weigh it.
+
 ## Decisions taken
 
 - **S01 in "Told where they are".** S01 also gathers all delays and filters by type and day. Its main answer is delivery on the chosen channel, so it sits there and not in two families.
@@ -86,3 +99,4 @@ All three of Marco's concepts are about gathering and delivering delay informati
 
 - [03_AI_Ideas.md](03_AI_Ideas.md) holds the AI concepts clustered here, with the question and the [risky] reason of each.
 - [02_Human_Ideas.md](02_Human_Ideas.md) holds Marco's concepts S01 to S03.
+- [01_How_might_we.md](01_How_might_we.md) holds the questions proposed for Marco's concepts.
