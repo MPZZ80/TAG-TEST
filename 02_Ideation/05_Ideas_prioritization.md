@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 17:53
+date: 2026-11-01 18:01
 method: generated
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [04_Human+AI_Ideas.md]
 
 # Ideas Prioritization: Proposed Marks
 
-The 327 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on three axes from 0 to 3. **The marks are proposals.** The concepts are not ranked, marks are not averaged, and nothing here says which to build: that decision is Marco's.
+The 327 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on three axes from 0 to 3, then its 27 families. **The marks are proposals.** The concepts are not ranked, marks are not averaged, and nothing here says which to build: that decision is Marco's.
 
 ## What the marks are measured against
 
@@ -379,10 +379,69 @@ The 327 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 
 No axis below 2: 57 concepts. This is a count, not a shortlist.
 
+## Marks by family
+
+The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same three axes. **These are proposals too.** The families are in their own order, not ranked.
+
+- **How a family gets its mark:** the mark most common among its concepts, the lower one on a tie. This is not an average, and it does not replace the marks of the concepts: a family can hold concepts far from its mark.
+- **Spread:** how many concepts of the family have 3/2/1/0, for valuable · feasible · relevant.
+- **Out of the families:** the two unclassified concepts, C21-10 and C22-08, belong to no family.
+
+| ID | family | concepts | valuable | feasible | relevant | spread | the one-line reasons |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| FAM-01 | Told where they are | 17 | 3 [strong] | 1 [weak] | 3 [strong] | 11/6/0/0 · 0/2/15/0 · 14/3/0/0 | **V:** being told in time is what "wait in the warm car" asks (F-03). **F:** what it tells comes from a feed. **R:** most reach the person in the moment of the question |
+| FAM-02 | Real position, not the timetable | 3 | 3 [strong] | 1 [weak] | 3 [strong] | 3/0/0/0 · 0/0/3/0 · 3/0/0/0 | **V:** the real position, "as early as an unofficial app" (F-01). **F:** the comparison needs the timetable and a feed. **R:** on the platform during the delay |
+| FAM-03 | Travellers report | 27 | 2 [medium] | 2 [medium] | 3 [strong] | 2/17/8/0 · 0/27/0/0 · 16/11/0/0 | **V:** others' word serves "as early as an unofficial app" (F-01) only if someone reports. **F:** the input of others can be staged in one flow. **R:** in the moment, or just before it |
+| FAM-04 | The source made visible | 13 | 2 [medium] | 1 [weak] | 3 [strong] | 0/9/4/0 · 0/0/13/0 · 12/1/0/0 | **V:** trust in a figure, while "as early as an unofficial app" (F-01) asks for it earlier. **F:** the sources come from a feed. **R:** beside the fact, in the moment |
+| FAM-05 | Honest uncertainty | 12 | 2 [medium] | 1 [weak] | 3 [strong] | 2/9/1/0 · 0/0/12/0 · 11/1/0/0 | **V:** truer figures, still close to the guess in "a 20 inizio a sentire la puzza" (F-01). **F:** the ranges and records come from a feed. **R:** beside the fact, in the moment |
+| FAM-06 | Times that allow for reality | 9 | 2 [medium] | 1 [weak] | 3 [strong] | 4/5/0/0 · 1/0/8/0 · 5/0/4/0 | **V:** allows for lateness, and only part of it reaches "the time that is kept" (F-13). **F:** needs a feed, or operators to change timetables. **R:** most in the moment, the timetable changes on the wider system |
+| FAM-07 | Told sooner | 6 | 2 [medium] | 1 [weak] | 2 [medium] | 1/4/1/0 · 1/0/5/0 · 2/3/1/0 | **V:** earlier word serves "wait in the warm car" (F-03) in part. **F:** operators have to say it sooner. **R:** most just before the moment |
+| FAM-08 | One answer, not data | 28 | 3 [strong] | 1 [weak] | 3 [strong] | 19/9/0/0 · 2/0/26/0 · 26/2/0/0 | **V:** settles what to do, as "ab wann macht es Sinn" (F-02) asks. **F:** a verdict rests on a feed. **R:** at the moment of deciding |
+| FAM-09 | Less in the way | 6 | 2 [medium] | 1 [weak] | 3 [strong] | 2/4/0/0 · 1/0/5/0 · 5/0/1/0 | **V:** serves "no extra step" (F-11) in part, and gives no news of its own. **F:** needs a feed or a provider to change; only C27-01 is one flow. **R:** in the moment of reading |
+| FAM-10 | What lies ahead, known beforehand | 13 | 3 [strong] | 1 [weak] | 3 [strong] | 7/5/1/0 · 1/0/12/0 · 8/5/0/0 | **V:** knowing ahead spares "ride past my station" (F-20). **F:** the state of places comes from a feed. **R:** most in the moment, the rest just before it |
+| FAM-11 | The place shows it | 10 | 2 [medium] | 1 [weak] | 3 [strong] | 2/7/1/0 · 0/0/10/0 · 6/4/0/0 | **V:** a fact on the spot, in part what "no extra step" (F-11) asks. **F:** needs hardware or an operator. **R:** at the place, in or near the moment |
+| FAM-12 | A person on the spot | 18 | 2 [medium] | 1 [weak] | 3 [strong] | 3/8/7/0 · 0/0/18/0 · 13/4/1/0 | **V:** replaces the reading, but not earlier than "a 20 inizio a sentire la puzza" (F-01). **F:** needs staff, so an organisation has to change. **R:** someone there in the moment |
+| FAM-13 | Those depending on them are told | 12 | 3 [strong] | 1 [weak] | 3 [strong] | 7/3/2/0 · 0/5/7/0 · 10/2/0/0 | **V:** serves "knows when he arrives" (F-09) directly. **F:** most need a feed; a few can be a message sent by hand. **R:** in the moment of the trip |
+| FAM-14 | The step done for them | 12 | 3 [strong] | 1 [weak] | 3 [strong] | 5/4/3/0 · 1/4/7/0 · 8/2/2/0 | **V:** takes the step away, as "does not depend on going to the train company" (F-16) asks. **F:** most need an operator or seller to act. **R:** most in the moment |
+| FAM-15 | It knows the traveller | 15 | 2 [medium] | 3 [strong] | 2 [medium] | 4/8/3/0 · 12/0/3/0 · 6/8/1/0 | **V:** saves a step, as in "no extra step" (F-11), and brings no news. **F:** most work on what the person enters. **R:** most before the moment |
+| FAM-16 | Settled beforehand | 8 | 2 [medium] | 3 [strong] | 2 [medium] | 4/4/0/0 · 7/0/1/0 · 1/7/0/0 | **V:** settled beforehand, as with "wenn der Bus nicht kommt" (F-02); the doubt may stay. **F:** a rule the person enters. **R:** before the moment, by nature |
+| FAM-17 | The decision stays with the person | 2 | 3 [strong] | 1 [weak] | 3 [strong] | 2/0/0/0 · 0/0/2/0 · 2/0/0/0 | **V:** serves "decides the route and is not fined" (F-14a) directly. **F:** rerouting needs a live traffic feed. **R:** at the queue or the route change |
+| FAM-18 | All ways side by side | 6 | 3 [strong] | 1 [weak] | 3 [strong] | 5/1/0/0 · 1/0/5/0 · 6/0/0/0 | **V:** serves "tutte le opzioni possibili" (F-04) directly. **F:** the options come from timetables and feeds. **R:** at the moment of comparing |
+| FAM-19 | The trip as one purchase | 2 | 1 [weak] | 1 [weak] | 1 [weak] | 0/1/1/0 · 0/0/2/0 · 1/0/1/0 | **V:** "tutte le opzioni possibili" (F-04) asks for options, not one price. **F:** operators have to sell together. **R:** mostly on the wider system |
+| FAM-20 | A place kept | 6 | 3 [strong] | 1 [weak] | 3 [strong] | 3/2/1/0 · 0/0/6/0 · 3/1/2/0 | **V:** serves "still finds a train at the time he wants" (F-04) and its parking and seat equivalents. **F:** operators have to keep the place. **R:** at or before the moment |
+| FAM-21 | Prices and tickets that fit the real use | 13 | 2 [medium] | 1 [weak] | 1 [weak] | 6/6/1/0 · 0/0/13/0 · 1/2/9/1 | **V:** in part what "pay for a pass meant for daily travel" (F-12) asks. **F:** operators have to change the offer, except two answers on what he enters. **R:** mostly the product, away from the moment |
+| FAM-22 | Money covers the failure | 15 | 1 [weak] | 1 [weak] | 1 [weak] | 3/3/9/0 · 0/0/15/0 · 4/2/9/0 | **V:** pays after the event, while "do not miss the train" (F-05) wants no miss. **F:** someone has to pay, so an organisation has to change. **R:** mostly after the moment, on the wider system |
+| FAM-23 | The connection held | 7 | 3 [strong] | 1 [weak] | 3 [strong] | 3/2/2/0 · 0/1/6/0 · 5/0/2/0 | **V:** serves "the connection waits" (F-22) directly. **F:** operators have to agree to wait. **R:** most on the late train itself |
+| FAM-24 | More or different service | 14 | 2 [medium] | 1 [weak] | 1 [weak] | 5/7/2/0 · 0/0/14/0 · 2/0/11/1 | **V:** helps if it runs, as with "you never get a seat" (F-19). **F:** the operator or the place has to change. **R:** mostly on the wider system |
+| FAM-25 | Rules and rights | 19 | 2 [medium] | 1 [weak] | 1 [weak] | 1/14/4/0 · 0/0/19/0 · 0/0/19/0 | **V:** a duty would meet "as early as an unofficial app" (F-01) only in general. **F:** a rule or law has to change. **R:** on the wider system |
+| FAM-26 | Travellers carry it together | 15 | 1 [weak] | 2 [medium] | 3 [strong] | 1/4/10/0 · 1/11/3/0 · 8/3/4/0 | **V:** company or a lift rarely serve the story; "not a moment of fear" (F-17a) is an exception. **F:** the input of others can be staged in one flow. **R:** most in the moment |
+| FAM-27 | Change the trip or the habit | 17 | 1 [weak] | 1 [weak] | 0 [out] | 0/6/11/0 · 4/1/12/0 · 1/3/2/11 | **V:** avoids the moment and does not serve it, as against "wait in the warm car" (F-03). **F:** most need an employer, an operator or a feed. **R:** most remove the moment by changing the trip |
+
+### Families where the axes disagree
+
+17 families are strong on one axis and weak on another. A family can be on more than one line.
+
+- **Strong on relevant, weak on feasible (16):** FAM-01, FAM-02, FAM-04, FAM-05, FAM-06, FAM-08, FAM-09, FAM-10, FAM-11, FAM-12, FAM-13, FAM-14, FAM-17, FAM-18, FAM-20, FAM-23.
+- **Strong on relevant, weak on valuable (1):** FAM-26.
+- **Strong on valuable, weak on feasible (10):** FAM-01, FAM-02, FAM-08, FAM-10, FAM-13, FAM-14, FAM-17, FAM-18, FAM-20, FAM-23.
+
+### Families out
+
+1 family has a 0 on one axis: FAM-27 (Change the trip or the habit). Its most common mark on relevant is 0, while some of its concepts stay in; they are in the spread.
+
+### Count by family
+
+| axis | strong (3) | medium (2) | weak (1) | out (0) |
+| --- | --- | --- | --- | --- |
+| valuable | 10 | 13 | 4 | 0 |
+| feasible | 2 | 2 | 23 | 0 |
+| relevant | 18 | 3 | 5 | 1 |
+
 ## Decisions taken
 
 - **The moment.** Each concept is measured against the moment of its own question, since no moment is chosen. Set aside: choosing one moment for Marco, which would decide the build. When Marco names the moment, the relevant column has to be redone.
 - **Feasible on live data.** Nearly every information concept needs a feed, so it gets 1 under Marco's rule. If he allows the prototype to run on simulated data, many of them would move up; that is his call.
+- **Family marks from concept marks.** The prompt marks concepts and forbids averaging, so a family takes its most common mark. Set aside: marking each family anew by judgement, which could disagree with its own concepts.
 - **0 on the relevant axis only.** Marco's rule puts feasibility problems at 1, so nothing is out on feasible.
 
 ## Connections

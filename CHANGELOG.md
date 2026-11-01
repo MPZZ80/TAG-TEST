@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 18:01
+
+- **Files:** `02_Ideation/05_Ideas_prioritization.md`, `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/README.md`
+- **Change:** New section "Marks by family": the 27 families marked on valuable, feasible and relevant, each with the most common mark of its concepts, the spread and the reasons, then the families whose axes disagree, those out and the count.
+- **Why:** Marco asked to make the prioritization also on the families in `02_Ideation/04_Human+AI_Ideas.md`.
+
 ## 2026-11-01 17:53
 
 - **Files:** `02_Ideation/05_Ideas_prioritization.md` (file created), `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/README.md`, `Index.md`
