@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 16:43
+
+- **Files:** `01_Research/Analysis/Generated_User_Stories.md`, `01_Research/Analysis/research.html`, `01_Research/Analysis/README.md`
+- **Change:** Persona names shortened in the table and in the stories. The four interview personas now use the short names the Counts section already had (Verona–Milan commuter, Como commuter, single-line commuter, outskirts hybrid worker). The desk personas keep who they are, and the rest moves into the moment of the story. Same text applied to the copy in `research.html`.
+- **Why:** Marco said the personas are too long and asked to condense them without distorting them.
+
 ## 2026-11-01 16:40
 
 - **Files:** `02_Ideation/AI_Ideas.md`, `Chosen_concept.md`, `How_might_we.md`, `Human+AI_Ideas.md`, `Human_Ideas.md`, `Ideas_prioritization.md` and `README.md` moved to `02_Ideation/_old/`; `02_Ideation/README.md` created; `AGENTS.md`, `Index.md`
