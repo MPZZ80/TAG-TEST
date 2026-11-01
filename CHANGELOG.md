@@ -6,6 +6,12 @@ This file only tracks file history. It is not a source for the project's analysi
 
 ## 2026-11-01 18:01
 
+- **Files:** `02_Ideation/05_Ideas_prioritization.md`
+- **Change:** Section "Marks by family" moved to the end of the file, just before "Connections", which the schema keeps last. The content did not change.
+- **Why:** Marco asked to add it at the bottom of the prioritization file.
+
+## 2026-11-01 18:01
+
 - **Files:** `02_Ideation/05_Ideas_prioritization.md`, `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/README.md`
 - **Change:** New section "Marks by family": the 27 families marked on valuable, feasible and relevant, each with the most common mark of its concepts, the spread and the reasons, then the families whose axes disagree, those out and the count.
 - **Why:** Marco asked to make the prioritization also on the families in `02_Ideation/04_Human+AI_Ideas.md`.

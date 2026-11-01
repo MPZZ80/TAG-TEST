@@ -379,6 +379,13 @@ The 327 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 
 No axis below 2: 57 concepts. This is a count, not a shortlist.
 
+## Decisions taken
+
+- **The moment.** Each concept is measured against the moment of its own question, since no moment is chosen. Set aside: choosing one moment for Marco, which would decide the build. When Marco names the moment, the relevant column has to be redone.
+- **Feasible on live data.** Nearly every information concept needs a feed, so it gets 1 under Marco's rule. If he allows the prototype to run on simulated data, many of them would move up; that is his call.
+- **Family marks from concept marks.** The prompt marks concepts and forbids averaging, so a family takes its most common mark. Set aside: marking each family anew by judgement, which could disagree with its own concepts.
+- **0 on the relevant axis only.** Marco's rule puts feasibility problems at 1, so nothing is out on feasible.
+
 ## Marks by family
 
 The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same three axes. **These are proposals too.** The families are in their own order, not ranked.
@@ -436,13 +443,6 @@ The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same thre
 | valuable | 10 | 13 | 4 | 0 |
 | feasible | 2 | 2 | 23 | 0 |
 | relevant | 18 | 3 | 5 | 1 |
-
-## Decisions taken
-
-- **The moment.** Each concept is measured against the moment of its own question, since no moment is chosen. Set aside: choosing one moment for Marco, which would decide the build. When Marco names the moment, the relevant column has to be redone.
-- **Feasible on live data.** Nearly every information concept needs a feed, so it gets 1 under Marco's rule. If he allows the prototype to run on simulated data, many of them would move up; that is his call.
-- **Family marks from concept marks.** The prompt marks concepts and forbids averaging, so a family takes its most common mark. Set aside: marking each family anew by judgement, which could disagree with its own concepts.
-- **0 on the relevant axis only.** Marco's rule puts feasibility problems at 1, so nothing is out on feasible.
 
 ## Connections
 
