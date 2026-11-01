@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 17:09
+
+- **Files:** `02_Ideation/How_might_we.md` renamed `02_Ideation/01_How_might_we.md`; `02_Ideation/README.md`, `Index.md`, `01_Research/Analysis/Generated_User_Stories.md`, `01_Research/Analysis/research.html`, `AGENTS.md`
+- **Change:** File renamed and its references updated. Instruction 36 added to the log of `AGENTS.md`: files of `02_Ideation/` start with a progressive number.
+- **Why:** Marco asked to name the How-Might-We file with `01_` at the start and the files added later to the folder in a similar way; reason not stated.
+
 ## 2026-11-01 17:06
 
 - **Files:** `02_Ideation/How_might_we.md`, `02_Ideation/README.md`

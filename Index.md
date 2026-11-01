@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 16:51
+date: 2026-11-01 17:09
 method: generated
 status: draft
 grade: n/a
@@ -210,7 +210,7 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 
 ## 02_Ideation
 
-- How_might_we.md — [design, internal, output, information, disruption · draft · n/a · n/a]
+- 01_How_might_we.md — [design, internal, output, information, disruption · draft · n/a · n/a]
 
 ## 02_Ideation/_old
 

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-01 16:51
+date: 2026-11-01 17:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds]
-related: [Generated_Features.md, How_might_we.md]
+related: [Generated_Features.md, 01_How_might_we.md]
 ---
 
 # User Stories from the Features
@@ -136,4 +136,4 @@ These have no story. The notes show the moment, but no outcome the person seeks 
 ## Connections
 
 - [Generated_Features.md](Generated_Features.md) holds the features these stories carry, with the touchpoints and the evidence behind each.
-- [How_might_we.md](../../02_Ideation/How_might_we.md) holds the questions written from these stories.
+- [01_How_might_we.md](../../02_Ideation/01_How_might_we.md) holds the questions written from these stories.

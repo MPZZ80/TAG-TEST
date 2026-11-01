@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-01 16:40
+date: 2026-11-01 17:09
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -115,6 +115,7 @@ This section is the running list of the standing instructions Marco gives during
 | 33 | 2026-10-19 | Updated by 34 (commit without being asked). Whenever Marco asks for a commit, push it to GitHub right after. | Not stated |
 | 34 | 2026-10-22 | After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
 | 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `research.html` had been added to `01_Research/Analysis/` without a row in its README |
+| 36 | 2026-11-01 | Name the files of `02_Ideation/` with a progressive number at the start, in the order of the process: `01_How_might_we.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
 
 ### Language
 
