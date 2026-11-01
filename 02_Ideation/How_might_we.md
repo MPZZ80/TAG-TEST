@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 16:51
+date: 2026-11-01 17:06
 method: generated
 status: draft
 grade: n/a
@@ -72,6 +72,24 @@ Marco's drafts are in [_old/How_might_we.md](_old/How_might_we.md). They are fro
 - **Who acts:** draft HMW-02 has the commuter alert the relatives, which already picks an answer; HMW-12 here asks that the person fetching him knows, whoever passes it on.
 - **Who is told:** draft HMW-02 says "relatives"; the story has one person, his father, coming to the station.
 - **Coverage:** the drafts cover two stories, F-01 and F-09; this table covers all 24, including the awkward ones.
+
+## Clusters
+
+The 27 questions grouped by what they ask about, each in one cluster. CL-01 is Marco's own grouping, on the exact place and delay; the others follow his example and are proposals. Nothing is ranked.
+
+| ID | theme | questions | what connects them, one line |
+| --- | --- | --- | --- |
+| CL-01 | Exact place and delay | HMW-01, HMW-02, HMW-12 | Knowing where the train really is and when it will really leave or arrive, for the commuter or for the person fetching him |
+| CL-02 | The usual trip | HMW-05, HMW-14 | Knowing the state or the platform of the regular train, without having to look for it |
+| CL-03 | Whether the change holds | HMW-08, HMW-09, HMW-10, HMW-25 | Making a change between services: the walk it takes, the delay it can bear, the margin it needs, the connection waiting |
+| CL-04 | When the trip breaks | HMW-03, HMW-04, HMW-22 | Choosing what to do when the bus or train does not come: which ways are left, keep waiting or not |
+| CL-05 | Choosing how to travel | HMW-06, HMW-07, HMW-13, HMW-16 | Deciding before the trip, from the options and the times that can really be counted on |
+| CL-06 | Tickets, passes and charges | HMW-11, HMW-15, HMW-19, HMW-21, HMW-24 | Not losing money or a ticket: moving it, the right pass, compensation, a parking session or bike charge still running |
+| CL-07 | The state of the station | HMW-18, HMW-20, HMW-23 | Knowing before arriving what the station offers: a parking place, staff and light, a working lift |
+| CL-08 | Attention at the moment | HMW-26, HMW-27 | Not having to spend attention or seconds on the app or on the stop while travelling |
+| CL-09 | The driver's route | HMW-17 | Alone: the only question about driving, and the decision stays with the driver |
+
+**Close to another cluster:** HMW-05 and HMW-09 also concern a delay, as CL-01 does, but they ask what the delay means for a decision and not where the train is. HMW-22 also concerns crowding, which no other question does. HMW-16 also concerns the delay, but it asks about the time promised before the trip.
 
 ## Connections
 

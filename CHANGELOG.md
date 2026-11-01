@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 17:06
+
+- **Files:** `02_Ideation/How_might_we.md`, `02_Ideation/README.md`
+- **Change:** New "Clusters" section, before "Connections": the 27 questions in 9 clusters, each question in one. CL-01 is Marco's grouping of HMW-01, HMW-02 and HMW-12; the others are proposals on his example.
+- **Why:** Marco asked to add a clustering of the How-Might-We questions at the end of the file, with connections like his example on the exact place and delay.
+
 ## 2026-11-01 16:51
 
 - **Files:** `02_Ideation/How_might_we.md` (file created), `02_Ideation/README.md`, `01_Research/Analysis/Generated_User_Stories.md`, `01_Research/Analysis/research.html`, `Index.md`
