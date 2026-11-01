@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-01 17:24
+date: 2026-11-01 17:31
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [Generated_User_Stories.md]
+related: [Generated_User_Stories.md, 03_AI_Ideas.md]
 ---
 
 # How Might We: Questions from the User Stories
@@ -103,3 +103,4 @@ Marco's grouping of the clusters. The names are proposals. CL-06, CL-07, CL-08 a
 ## Connections
 
 - [Generated_User_Stories.md](../01_Research/Analysis/Generated_User_Stories.md) holds the 24 stories behind these questions, with the source line of each quote.
+- [03_AI_Ideas.md](03_AI_Ideas.md) holds the concepts proposed for these questions.

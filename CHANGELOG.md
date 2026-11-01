@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 17:31
+
+- **Files:** `02_Ideation/03_AI_Ideas.md` (file created), `02_Ideation/01_How_might_we.md`, `02_Ideation/README.md`, `Index.md`
+- **Change:** New file with 324 AI concepts, twelve for each of the 27 How-Might-We questions, in one table per supercluster or remaining cluster, with 43 marked [risky], the directions found and the concepts dropped. Link added to `related` and "Connections" of the questions file.
+- **Why:** Marco asked to create `03_AI_Ideas` following his instructions, to expand the range of concepts for each question.
+
 ## 2026-11-01 17:24
 
 - **Files:** `02_Ideation/01_How_might_we.md`, `02_Ideation/README.md`
