@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 17:53
+
+- **Files:** `02_Ideation/05_Ideas_prioritization.md` (file created), `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/README.md`, `Index.md`
+- **Change:** New file with proposed marks 0–3 on valuable, feasible and relevant for all 327 concepts, with reasons, the concepts whose axes disagree, those out and the count per axis. Link added on both sides.
+- **Why:** Marco asked to mark the concepts on the three axes, following his instructions; the marks are proposals and the build decision stays with him.
+
 ## 2026-11-01 17:44
 
 - **Files:** `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/01_How_might_we.md`, `02_Ideation/README.md`

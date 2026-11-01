@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-01 17:44
+date: 2026-11-01 17:53
 method: coding
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, synthesis, information, disruption]
-related: [03_AI_Ideas.md, 01_How_might_we.md]
+related: [03_AI_Ideas.md, 01_How_might_we.md, 05_Ideas_prioritization.md]
 ---
 
 # Human and AI Ideas: Families of Concepts
@@ -100,3 +100,4 @@ Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_mi
 - [03_AI_Ideas.md](03_AI_Ideas.md) holds the AI concepts clustered here, with the question and the [risky] reason of each.
 - [02_Human_Ideas.md](02_Human_Ideas.md) holds Marco's concepts S01 to S03.
 - [01_How_might_we.md](01_How_might_we.md) holds the questions assigned to Marco's concepts.
+- [05_Ideas_prioritization.md](05_Ideas_prioritization.md) holds the proposed marks of these concepts.
