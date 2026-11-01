@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 16:40
+date: 2026-11-01 16:51
 method: generated
 status: draft
 grade: n/a
@@ -207,6 +207,10 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - survey_fr.md — [research, internal, script · draft · n/a · n/a]
 - survey_it.md — [research, internal, script · draft · n/a · n/a]
 - survey_nl.md — [research, internal, script · draft · n/a · n/a]
+
+## 02_Ideation
+
+- How_might_we.md — [design, internal, output, information, disruption · draft · n/a · n/a]
 
 ## 02_Ideation/_old
 

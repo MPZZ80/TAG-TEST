@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 16:51
+
+- **Files:** `02_Ideation/How_might_we.md` (file created), `02_Ideation/README.md`, `01_Research/Analysis/Generated_User_Stories.md`, `01_Research/Analysis/research.html`, `Index.md`
+- **Change:** New table of 27 How-Might-We questions from the 24 user stories, each with its story, quote and width, plus the thin stories and the comparison with Marco's first drafts. Link to it added to `related` and "Connections" of the user stories and to their copy in `research.html`.
+- **Why:** Marco asked to generate a How-Might-We file from the user stories, as a numbered table with the linked story, following the instructions he gave.
+
 ## 2026-11-01 16:43
 
 - **Files:** `01_Research/Analysis/Generated_User_Stories.md`, `01_Research/Analysis/research.html`, `01_Research/Analysis/README.md`
