@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 17:41
+date: 2026-11-01 17:44
 method: coding
 status: draft
 grade: n/a
@@ -15,7 +15,7 @@ The concepts of [02_Human_Ideas.md](02_Human_Ideas.md), written by Marco, and of
 
 - **Numbers:** S01 to S03 are Marco's, C01-01 to C27-12 are the AI's.
 - **Families and directions are different.** The direction column of `03_AI_Ideas.md` was written while generating. The families were made afresh from what each concept does, so a concept can sit apart from its direction.
-- **Questions:** Marco's concepts do not name a question. The section "Questions for Marco's concepts" proposes some.
+- **Questions:** Marco's concepts do not name a question. The section "Questions for Marco's concepts" assigns some, as Marco confirmed.
 - **[risky]** marks are those of `03_AI_Ideas.md`. The concepts it lists as dropped are left out.
 
 ## Families
@@ -78,7 +78,7 @@ All three of Marco's concepts are about gathering and delivering delay informati
 
 ## Questions for Marco's concepts
 
-Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_might_we.md) existed, so these are proposals, read from what each concept says. **Answers** means the concept does what the question asks. **Partly** means it covers one part, and the cell says which part is missing.
+Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_might_we.md) existed. These assignments were read from what each concept says, and Marco confirmed them on 2026-11-01. **Answers** means the concept does what the question asks. **Partly** means it covers one part, and the cell says which part is missing.
 
 | concept | what it does | answers | partly | not assigned, though close |
 | --- | --- | --- | --- | --- |
@@ -99,4 +99,4 @@ Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_mi
 
 - [03_AI_Ideas.md](03_AI_Ideas.md) holds the AI concepts clustered here, with the question and the [risky] reason of each.
 - [02_Human_Ideas.md](02_Human_Ideas.md) holds Marco's concepts S01 to S03.
-- [01_How_might_we.md](01_How_might_we.md) holds the questions proposed for Marco's concepts.
+- [01_How_might_we.md](01_How_might_we.md) holds the questions assigned to Marco's concepts.

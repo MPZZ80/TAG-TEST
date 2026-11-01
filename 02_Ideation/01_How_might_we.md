@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 17:41
+date: 2026-11-01 17:44
 method: generated
 status: draft
 grade: n/a
@@ -104,4 +104,4 @@ Marco's grouping of the clusters. The names are proposals. CL-06, CL-07, CL-08 a
 
 - [Generated_User_Stories.md](../01_Research/Analysis/Generated_User_Stories.md) holds the 24 stories behind these questions, with the source line of each quote.
 - [03_AI_Ideas.md](03_AI_Ideas.md) holds the concepts proposed for these questions.
-- [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) proposes which of these questions Marco's concepts answer.
+- [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) says which of these questions Marco's concepts answer.

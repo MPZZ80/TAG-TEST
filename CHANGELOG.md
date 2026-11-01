@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-01 17:44
+
+- **Files:** `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/01_How_might_we.md`, `02_Ideation/README.md`
+- **Change:** The questions for Marco's concepts S01 to S03 are now described as confirmed, not proposed. The assignments themselves did not change.
+- **Why:** Marco confirmed the assignment after reading the details for each idea.
+
 ## 2026-11-01 17:41
 
 - **Files:** `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/01_How_might_we.md`, `02_Ideation/README.md`
