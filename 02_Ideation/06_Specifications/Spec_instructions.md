@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 20:44
+date: 2026-11-02 20:58
 method: generated
 status: draft
 grade: n/a
@@ -35,14 +35,27 @@ TASK — write the specifications:
      05_Ideas_prioritization.md, HMW → feature in
      01_How_might_we.md);
    - outside: every other story.
-2. Start from the concept stories. Group them by the behaviour
+2. Write the foundation first: SPEC-01_foundation.md, with the
+   foundation template below. It lays the ground every other
+   specification stands on: the traveller and their usual trip,
+   the door to door legs, the sources of information and how far
+   each is trusted, the states of a trip, the channels, the
+   shared vocabulary, and the rules that hold everywhere (what
+   happens with no data, late data or contradicting sources;
+   what the traveller consents to share). Put in it only what
+   two or more of the specifications that follow need; what one
+   specification needs stays in that one. Every element traces
+   to the stories that need it, concept stories first. The other
+   specifications refer to it by its section and do not repeat
+   it; they still describe their own behaviour in full.
+3. Start from the concept stories. Group them by the behaviour
    that meets their need: one specification per behaviour. A
    specification may serve several stories and features, and a
    story may feed more than one specification; say why the
    stories of a specification belong together. If a story needs
    two behaviours that could ship apart, split it into two
-   specifications and say so.
-3. Then take the outside stories, one by one:
+   specifications and say so. Number them from SPEC-02.
+4. Then take the outside stories, one by one:
    - if a specification already written meets its need, add the
      story to it, marked outside;
    - if it needs a behaviour of its own, write a specification
@@ -53,9 +66,13 @@ TASK — write the specifications:
    An outside story never changes a behaviour a concept story
    needs; where the two pull in different directions, the
    concept story wins and the conflict goes in "Open questions".
-4. Write each specification in its own file in
+   If an outside story needs something new in the foundation,
+   add it there and mark it outside.
+5. Write each specification in its own file in
    02_Ideation/06_Specifications/, with the template below.
-5. Write SPEC-00_overview.md: the list of the specifications, the
+   Review the foundation once all are written: remove what only
+   one specification uses, add what several repeat.
+6. Write SPEC-00_overview.md: the list of the specifications, the
    traceability table, and every user story — concept and
    outside — with its priority and the specifications that serve
    it, or the reason it has none.
@@ -112,7 +129,8 @@ RULES:
 
 - **Folder:** `02_Ideation/06_Specifications/`, next to this file.
 - **Overview:** `SPEC-00_overview.md`.
-- **One specification:** `SPEC-<NN>_<short-name>.md`, for example `SPEC-01_delay-on-chosen-channel.md`. The number is two digits, in the order of the overview, and is never reused.
+- **Foundation:** `SPEC-01_foundation.md`, always the first specification.
+- **One specification:** `SPEC-<NN>_<short-name>.md` from `SPEC-02`, for example `SPEC-02_delay-on-chosen-channel.md`. The number is two digits, in the order of the overview, and is never reused.
 - **Metadata of a specification:** `source: Claude`, `method: synthesis`, `status: draft`, `grade: n/a`, `confidence: n/a`, `tags: [design, internal, output, <topics>, <pain points>]`, `related:` the files it traces to.
 - After writing, update the `README.md` of this folder, `Index.md` and `CHANGELOG.md`, as `AGENTS.md` says.
 
@@ -159,6 +177,7 @@ One row per story this specification serves, copied as written; concept stories 
 | **Concepts** | <S0… / C…-…, with link, or none> |
 | **Families** | <FAM-…, with link, or none> |
 | **Legs** | <first mile / main leg / transfer / last mile / whole journey> |
+| **Foundation** | <the sections of SPEC-01 it relies on> |
 
 ## Description
 What it does, for whom, in which moment. A stranger could read it and repeat it back.
@@ -181,6 +200,53 @@ What this specification does not do, and which specification does it, if any.
 
 ## Open questions
 Behaviours marked [not traced] or [technology choice open], and what Marco has to decide.
+```
+
+## Template of the foundation
+
+Every section lists, at its end, the stories that need it (feature · persona · priority) and the specifications that use it. A section no story needs is left out.
+
+```markdown
+---
+<metadata block>
+---
+
+# SPEC-01: Foundation
+
+Use this file as a prompt: it lays the ground that every other specification of this project stands on, independent of any technology. Build it first.
+
+## Purpose
+What the product is for, for whom and in which moments of the commute, in one paragraph drawn from the stories.
+
+## Principles
+The rules that hold in every specification, each traced to its stories: for example, the traveller sees where a fact comes from and how old it is.
+
+## The traveller
+Who uses it, by persona, and what the product knows about them: what they tell it, what they choose, what they can change or delete.
+
+## The trip
+The usual trip and a one-off trip: the door to door legs (first mile, main leg, transfer, last mile), the days of travel, what the traveller saves and what the product infers.
+
+## States of a trip
+The states a trip can be in (for example planned, on time, delayed, cancelled, broken, completed), what moves it from one to the next, and who or what can move it.
+
+## Sources of information
+Each kind of source (the traveller, other travellers, the operator, the timetable), what it can tell, how far it is trusted, and what happens when two sources disagree.
+
+## Channels
+The kinds of channel on which the traveller can receive something, how they choose them, and when the product stays quiet.
+
+## Rules that hold everywhere
+No data, late data, wrong data; the traveller does not respond; consent to share position or reports, and what is never shared.
+
+## Vocabulary
+The terms every specification uses, with one meaning each.
+
+## Acceptance criteria
+- **Given** <situation> **when** <event> **then** <observable result>
+
+## Open questions
+Elements marked [not traced] or [technology choice open], and what Marco has to decide.
 ```
 
 ## Template of the overview

@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 20:58
+
+- **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`, `02_Ideation/06_Specifications/README.md`
+- **Change:** The first specification is always `SPEC-01_foundation.md`, the ground of the project: purpose, principles, the traveller, the trip and its legs, states of a trip, sources of information, channels, rules that hold everywhere, vocabulary. It holds only what two or more specifications need, each element traced to its stories. Added its template; the other specifications start from SPEC-02 and name the foundation sections they rely on.
+- **Why:** Marco asked that the first specification be a foundation specification that lays the basis of the project.
+
 ## 2026-11-02 20:44
 
 - **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`, `02_Ideation/06_Specifications/README.md`, `02_Ideation/README.md`
