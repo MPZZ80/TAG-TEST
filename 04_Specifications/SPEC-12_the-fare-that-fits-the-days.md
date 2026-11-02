@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, why-now, hybrid-work]
-related: [SPEC-01_foundation.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-12_ticket-fits-days-travelled.md]
 ---
 
 # SPEC-12: The Fare That Fits the Days
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-12](../02_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, when his office days fell to about one a week and the pass still cost 70 euro a month, I want to know which pass, carnet or single tickets cost least for the days I actually travel, so that he does not pay for a pass meant for daily travel. | All of it |
+| concept | [F-12](../02_Analysis/03_User_Stories/US-F-12_ticket-fits-days-travelled.md) | the Como commuter | As the Como commuter, when his office days fell to about one a week and the pass still cost 70 euro a month, I want to know which pass, carnet or single tickets cost least for the days I actually travel, so that he does not pay for a pass meant for daily travel. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-12](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-002](../02_Analysis/02_Generated_Touchpoints.md), [TP-003](../02_Analysis/02_Generated_Touchpoints.md), [TP-007](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-12](../02_Analysis/02_Features/F-12_ticket-fits-days-travelled.md) |
+| **Touchpoints** | [TP-002](../02_Analysis/01_Touchpoints/TP-002_deciding-days-go-office.md), [TP-003](../02_Analysis/01_Touchpoints/TP-003_working-home-some-days.md), [TP-007](../02_Analysis/01_Touchpoints/TP-007_choosing-pass-carnet-single.md) |
 | **Problem questions** | [HMW-15](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [C15-01](../03_Ideation/03_AI_Ideas.md), [C15-02](../03_Ideation/03_AI_Ideas.md), [C15-10](../03_Ideation/03_AI_Ideas.md), [C15-11](../03_Ideation/03_AI_Ideas.md), [C15-12](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-27](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -78,3 +78,4 @@ The product counts the days the commuter really travels (C15-10) and says which 
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (Out of scope), where the two behaviours meet.
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-12.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-27, FAM-03.
+- [US-F-12_ticket-fits-days-travelled.md](../02_Analysis/03_User_Stories/US-F-12_ticket-fits-days-travelled.md): the user stories this specification serves, one file each.

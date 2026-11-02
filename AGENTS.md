@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-02 23:45
+date: 2026-11-02 23:59
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -28,7 +28,7 @@ Repository layout:
 | `01_Research/03_Desk_Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
 | `01_Research/04_Interviews/` | The interview script, recordings, automatic transcripts and one notes file per interview |
 | `01_Research/05_Survey/` | The commuter survey in six languages, where to post it, the script that builds the forms, the answers and the results |
-| `02_Analysis/` | Touchpoints, features and user stories built on the research, the research web page, and the prompts that generated them |
+| `02_Analysis/` | Touchpoints, features and user stories built on the research, as tables and as one file per item in `01_Touchpoints/`, `02_Features/` and `03_User_Stories/`; the research web page; the prompts that generated them |
 | `03_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
 | `03_Ideation/Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |

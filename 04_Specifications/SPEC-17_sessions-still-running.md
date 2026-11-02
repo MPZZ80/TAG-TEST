@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-14_the-station-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-14_the-station-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-18_parking-works-paying-leaving.md, US-F-21_where-shared-vehicle-can.md]
 ---
 
 # SPEC-17: Sessions Still Running
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-18](../02_Analysis/04_Generated_User_Stories.md) | an Italian driver (desk persona) | As an Italian driver (desk persona), leaving the car for the day on street parking paid in an app, I want to pay, end and leave the parking without delay and be reminded that a session is still running, so that I do not pay for eight or ten hours by forgetting it. | All of it except the barrier at a car park (see "Out of scope") |
-| concept | [F-21](../02_Analysis/04_Generated_User_Stories.md) | a shared-bike rider in South Korea (desk persona) | As a shared-bike rider in South Korea (desk persona), going home from work, at the end of the ride when the return zone is far or the position is wrong, I want to see where the shared bike can be returned near the destination, so that the charge does not keep running after the ride. | All of it |
+| concept | [F-18](../02_Analysis/03_User_Stories/US-F-18_parking-works-paying-leaving.md) | an Italian driver (desk persona) | As an Italian driver (desk persona), leaving the car for the day on street parking paid in an app, I want to pay, end and leave the parking without delay and be reminded that a session is still running, so that I do not pay for eight or ten hours by forgetting it. | All of it except the barrier at a car park (see "Out of scope") |
+| concept | [F-21](../02_Analysis/03_User_Stories/US-F-21_where-shared-vehicle-can.md) | a shared-bike rider in South Korea (desk persona) | As a shared-bike rider in South Korea (desk persona), going home from work, at the end of the ride when the return zone is far or the position is wrong, I want to see where the shared bike can be returned near the destination, so that the charge does not keep running after the ride. | All of it |
 
 These stories belong together because both are a paid session at the start or end of the trip (street parking, a shared bike) whose charge keeps running until it is ended, and both ask not to pay for time after the need is over.
 
@@ -27,8 +27,8 @@ These stories belong together because both are a paid session at the start or en
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-18](../02_Analysis/03_Generated_Features.md), [F-21](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-058](../02_Analysis/02_Generated_Touchpoints.md), [TP-085](../02_Analysis/02_Generated_Touchpoints.md), [TP-086](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-18](../02_Analysis/02_Features/F-18_parking-works-paying-leaving.md), [F-21](../02_Analysis/02_Features/F-21_where-shared-vehicle-can.md) |
+| **Touchpoints** | [TP-058](../02_Analysis/01_Touchpoints/TP-058_leaving-monthly-car-park.md), [TP-085](../02_Analysis/01_Touchpoints/TP-085_paying-parking-app-destination.md), [TP-086](../02_Analysis/01_Touchpoints/TP-086_returning-shared-bike-scooter.md) |
 | **Problem questions** | [HMW-21](../03_Ideation/01_How_might_we.md), [HMW-24](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [C21-01](../03_Ideation/03_AI_Ideas.md), [C21-02](../03_Ideation/03_AI_Ideas.md), [C21-04](../03_Ideation/03_AI_Ideas.md), [C21-05](../03_Ideation/03_AI_Ideas.md), [C21-09](../03_Ideation/03_AI_Ideas.md), [C24-09](../03_Ideation/03_AI_Ideas.md), [C24-12](../03_Ideation/03_AI_Ideas.md); background: [C24-01](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-01](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-13](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -86,3 +86,4 @@ When the commuter starts a paid session (street parking, a shared bike), the pro
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): named in this specification (the text), where the two behaviours meet.
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-18, F-21.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-16, FAM-15, FAM-13, FAM-08, FAM-10.
+- [US-F-18_parking-works-paying-leaving.md](../02_Analysis/03_User_Stories/US-F-18_parking-works-paying-leaving.md), [US-F-21_where-shared-vehicle-can.md](../02_Analysis/03_User_Stories/US-F-21_where-shared-vehicle-can.md): the user stories this specification serves, one file each.

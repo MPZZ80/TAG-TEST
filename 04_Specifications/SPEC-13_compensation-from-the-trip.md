@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, tools, refunds]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-16_compensation-claim-started-delayed.md]
 ---
 
 # SPEC-13: Compensation Claimed From the Trip
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-16](../02_Analysis/04_Generated_User_Stories.md) | a British traveller (desk persona) | As a British traveller (desk persona), after a delay on a ticket bought through a ticket seller, I want to start the compensation claim from the delayed trip itself, wherever the ticket was bought, so that the compensation does not depend on going to the train company. | All of it, up to handing the claim over |
+| concept | [F-16](../02_Analysis/03_User_Stories/US-F-16_compensation-claim-started-delayed.md) | a British traveller (desk persona) | As a British traveller (desk persona), after a delay on a ticket bought through a ticket seller, I want to start the compensation claim from the delayed trip itself, wherever the ticket was bought, so that the compensation does not depend on going to the train company. | All of it, up to handing the claim over |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-16](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-104](../02_Analysis/02_Generated_Touchpoints.md), [TP-105](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-16](../02_Analysis/02_Features/F-16_compensation-claim-started-delayed.md) |
+| **Touchpoints** | [TP-104](../02_Analysis/01_Touchpoints/TP-104_claiming-compensation-after-delay.md), [TP-105](../02_Analysis/01_Touchpoints/TP-105_complaining-after-poor-experience.md) |
 | **Problem questions** | [HMW-19](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [C19-05](../03_Ideation/03_AI_Ideas.md), [C19-11](../03_Ideation/03_AI_Ideas.md), [C19-12](../03_Ideation/03_AI_Ideas.md); background: [C19-01](../03_Ideation/03_AI_Ideas.md), [C19-04](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-07](../03_Ideation/04_Human+AI_Ideas.md), [FAM-26](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-14](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -82,3 +82,4 @@ After a trip with a delay, the product says on arrival what may be owed for it (
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (Operating logic), where the two behaviours meet.
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-16.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-07, FAM-26, FAM-14.
+- [US-F-16_compensation-claim-started-delayed.md](../02_Analysis/03_User_Stories/US-F-16_compensation-claim-started-delayed.md): the user stories this specification serves, one file each.

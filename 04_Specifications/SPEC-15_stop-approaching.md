@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-23_stop-approaching.md]
 ---
 
 # SPEC-15: The Stop Approaching
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-23](../02_Analysis/04_Generated_User_Stories.md) | a young commuter in Madrid (desk persona) | As a young commuter in Madrid (desk persona), on a bus, two stops before her own, I want to be told when my stop is approaching, so that she can sit without thinking about the stop and not miss it if she falls asleep. | All of it |
+| concept | [F-23](../02_Analysis/03_User_Stories/US-F-23_stop-approaching.md) | a young commuter in Madrid (desk persona) | As a young commuter in Madrid (desk persona), on a bus, two stops before her own, I want to be told when my stop is approaching, so that she can sit without thinking about the stop and not miss it if she falls asleep. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-23](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-074](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-23](../02_Analysis/02_Features/F-23_stop-approaching.md) |
+| **Touchpoints** | [TP-074](../02_Analysis/01_Touchpoints/TP-074_staying-alert-so-miss.md) |
 | **Problem questions** | [HMW-26](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [C26-01](../03_Ideation/03_AI_Ideas.md), [C26-02](../03_Ideation/03_AI_Ideas.md), [C26-07](../03_Ideation/03_AI_Ideas.md), [C26-08](../03_Ideation/03_AI_Ideas.md), [C26-10](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-01](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -79,3 +79,4 @@ The commuter's stop is known when she boards (C26-07). The product follows the r
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-23.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-15, FAM-16, FAM-08.
+- [US-F-23_stop-approaching.md](../02_Analysis/03_User_Stories/US-F-23_stop-approaching.md): the user stories this specification serves, one file each.

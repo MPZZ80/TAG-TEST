@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, planning, ticket-carryover]
-related: [SPEC-01_foundation.md, SPEC-09_every-way-side-by-side.md, SPEC-06_ways-out-when-the-trip-breaks.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md]
+related: [SPEC-01_foundation.md, SPEC-09_every-way-side-by-side.md, SPEC-06_ways-out-when-the-trip-breaks.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, US-F-04_one-search-one-booking.md, US-F-08_ticket-works-moment-needed.md]
 ---
 
 # SPEC-11: Tickets That Work When They Are Needed
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-04](../02_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants. | Booking as one journey. Showing every way is SPEC-09 |
-| concept | [F-08](../02_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, still in the underground five minutes before his train leaves, I want to buy, move and show a valid ticket in one step, up to departure and with no signal, so that he can take another train, or travel another day, without losing the ticket. | All of it |
+| concept | [F-04](../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md) | the Verona–Milan commuter | As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants. | Booking as one journey. Showing every way is SPEC-09 |
+| concept | [F-08](../02_Analysis/03_User_Stories/US-F-08_ticket-works-moment-needed.md) | the Verona–Milan commuter | As the Verona–Milan commuter, still in the underground five minutes before his train leaves, I want to buy, move and show a valid ticket in one step, up to departure and with no signal, so that he can take another train, or travel another day, without losing the ticket. | All of it |
 
 These stories belong together because both are the ticket: getting it for the whole trip in one go, and being able to use, move or show it at the moment it is needed.
 
@@ -27,8 +27,8 @@ These stories belong together because both are the ticket: getting it for the wh
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-04](../02_Analysis/03_Generated_Features.md), [F-08](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-005](../02_Analysis/02_Generated_Touchpoints.md), [TP-020](../02_Analysis/02_Generated_Touchpoints.md), [TP-021](../02_Analysis/02_Generated_Touchpoints.md), [TP-022](../02_Analysis/02_Generated_Touchpoints.md), [TP-008](../02_Analysis/02_Generated_Touchpoints.md), [TP-071](../02_Analysis/02_Generated_Touchpoints.md), [TP-076](../02_Analysis/02_Generated_Touchpoints.md), [TP-077](../02_Analysis/02_Generated_Touchpoints.md), [TP-103](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-04](../02_Analysis/02_Features/F-04_one-search-one-booking.md), [F-08](../02_Analysis/02_Features/F-08_ticket-works-moment-needed.md) |
+| **Touchpoints** | [TP-005](../02_Analysis/01_Touchpoints/TP-005_booking-train-days-ahead.md), [TP-020](../02_Analysis/01_Touchpoints/TP-020_booking-online-without-comparing.md), [TP-021](../02_Analysis/01_Touchpoints/TP-021_deciding-combine-means-operators.md), [TP-022](../02_Analysis/01_Touchpoints/TP-022_searching-each-leg-different.md), [TP-008](../02_Analysis/01_Touchpoints/TP-008_buying-pass-ticket-payment.md), [TP-071](../02_Analysis/01_Touchpoints/TP-071_buying-ticket-station-just.md), [TP-076](../02_Analysis/01_Touchpoints/TP-076_showing-ticket-inspector-gate.md), [TP-077](../02_Analysis/01_Touchpoints/TP-077_forgetting-check-fixed-route.md), [TP-103](../02_Analysis/01_Touchpoints/TP-103_moving-ticket-another-train.md) |
 | **Problem questions** | [HMW-07](../03_Ideation/01_How_might_we.md), [HMW-11](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [C07-06](../03_Ideation/03_AI_Ideas.md), [C11-02](../03_Ideation/03_AI_Ideas.md), [C11-11](../03_Ideation/03_AI_Ideas.md); background: [C11-01](../03_Ideation/03_AI_Ideas.md), [C11-04](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-19](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md), [FAM-01](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-21](../03_Ideation/04_Human+AI_Ideas.md), [FAM-14](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -89,3 +89,4 @@ The commuter books a whole door to door way as one journey, with one price (C07-
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-04, F-08.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-19, FAM-16, FAM-01, FAM-21, FAM-14.
 - [SPEC-12_the-fare-that-fits-the-days.md](SPEC-12_the-fare-that-fits-the-days.md), [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md): the specifications that name this one where their behaviours meet.
+- [US-F-04_one-search-one-booking.md](../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md), [US-F-08_ticket-works-moment-needed.md](../02_Analysis/03_User_Stories/US-F-08_ticket-works-moment-needed.md): the user stories this specification serves, one file each.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, mode-choice, no-alternative, crowding, unreliable-service]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, SPEC-09_every-way-side-by-side.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-08_the-connection-ahead.md, SPEC-11_tickets-that-work-when-needed.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, SPEC-09_every-way-side-by-side.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-08_the-connection-ahead.md, SPEC-11_tickets-that-work-when-needed.md, US-F-02_ways-still-open-trip.md, US-F-19_how-crowded-next-services.md]
 ---
 
 # SPEC-06: Ways Out When the Trip Breaks
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-02](../02_Analysis/04_Generated_User_Stories.md) | a teenager (desk persona) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. | All of it except telling home, which is SPEC-07 |
-| concept | [F-19](../02_Analysis/04_Generated_User_Stories.md) | the outskirts hybrid worker | As the outskirts hybrid worker, at her station when her train is cancelled and the only other train is the packed one to Cadorna, I want to know how full the next services are expected to be, so that she can choose between waiting and a train where "you never get a seat". | All of it; reports of how full a run is now come from SPEC-03 |
+| concept | [F-02](../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md) | a teenager (desk persona) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. | All of it except telling home, which is SPEC-07 |
+| concept | [F-19](../02_Analysis/03_User_Stories/US-F-19_how-crowded-next-services.md) | the outskirts hybrid worker | As the outskirts hybrid worker, at her station when her train is cancelled and the only other train is the packed one to Cadorna, I want to know how full the next services are expected to be, so that she can choose between waiting and a train where "you never get a seat". | All of it; reports of how full a run is now come from SPEC-03 |
 
 These stories belong together because both are the moment the planned trip has broken at a stop or station, and the commuter has to choose among the ways still open, with what each costs them: time, money, a seat, a lift from home.
 
@@ -27,8 +27,8 @@ These stories belong together because both are the moment the planned trip has b
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-02](../02_Analysis/03_Generated_Features.md), [F-19](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-026](../02_Analysis/02_Generated_Touchpoints.md), [TP-084](../02_Analysis/02_Generated_Touchpoints.md), [TP-093](../02_Analysis/02_Generated_Touchpoints.md), [TP-094](../02_Analysis/02_Generated_Touchpoints.md), [TP-095](../02_Analysis/02_Generated_Touchpoints.md), [TP-097](../02_Analysis/02_Generated_Touchpoints.md), [TP-098](../02_Analysis/02_Generated_Touchpoints.md), [TP-099](../02_Analysis/02_Generated_Touchpoints.md), [TP-100](../02_Analysis/02_Generated_Touchpoints.md), [TP-101](../02_Analysis/02_Generated_Touchpoints.md), [TP-102](../02_Analysis/02_Generated_Touchpoints.md), [TP-107](../02_Analysis/02_Generated_Touchpoints.md), [TP-072](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-02](../02_Analysis/02_Features/F-02_ways-still-open-trip.md), [F-19](../02_Analysis/02_Features/F-19_how-crowded-next-services.md) |
+| **Touchpoints** | [TP-026](../02_Analysis/01_Touchpoints/TP-026_keeping-ranked-fallback-none.md), [TP-084](../02_Analysis/01_Touchpoints/TP-084_last-service-night-gone.md), [TP-093](../02_Analysis/01_Touchpoints/TP-093_reacting-before-entering-station.md), [TP-094](../02_Analysis/01_Touchpoints/TP-094_going-back-home-take.md), [TP-095](../02_Analysis/01_Touchpoints/TP-095_giving-up-trip-staying.md), [TP-097](../02_Analysis/01_Touchpoints/TP-097_rerouting-another-line-service.md), [TP-098](../02_Analysis/01_Touchpoints/TP-098_taking-replacement-bus.md), [TP-099](../02_Analysis/01_Touchpoints/TP-099_looking-app-s-alternatives.md), [TP-100](../02_Analysis/01_Touchpoints/TP-100_paying-taxi-second-ticket.md), [TP-101](../02_Analysis/01_Touchpoints/TP-101_calling-taxi-hurry-does.md), [TP-102](../02_Analysis/01_Touchpoints/TP-102_ticket-valid-next-service.md), [TP-107](../02_Analysis/01_Touchpoints/TP-107_asking-relative-come-fetch.md), [TP-072](../02_Analysis/01_Touchpoints/TP-072_boarding-crowded-train-letting.md) |
 | **Problem questions** | [HMW-03](../03_Ideation/01_How_might_we.md), [HMW-04](../03_Ideation/01_How_might_we.md), [HMW-22](../03_Ideation/01_How_might_we.md), [HMW-07](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [S06](../03_Ideation/02_Human_Ideas.md), [C03-01](../03_Ideation/03_AI_Ideas.md), [C03-02](../03_Ideation/03_AI_Ideas.md), [C03-03](../03_Ideation/03_AI_Ideas.md), [C03-11](../03_Ideation/03_AI_Ideas.md), [C04-01](../03_Ideation/03_AI_Ideas.md), [C04-02](../03_Ideation/03_AI_Ideas.md), [C04-06](../03_Ideation/03_AI_Ideas.md), [C22-02](../03_Ideation/03_AI_Ideas.md), [C22-03](../03_Ideation/03_AI_Ideas.md), [C22-05](../03_Ideation/03_AI_Ideas.md), [C22-06](../03_Ideation/03_AI_Ideas.md); background: [C03-04](../03_Ideation/03_AI_Ideas.md), [C22-01](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-18](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../03_Ideation/04_Human+AI_Ideas.md), [FAM-05](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -102,3 +102,4 @@ When the trip breaks (a run is cancelled, a connection is lost, a bus does not c
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-16, FAM-03, FAM-15, FAM-10, FAM-05.
 - [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S06.
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md), [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): the specifications that name this one where their behaviours meet.
+- [US-F-02_ways-still-open-trip.md](../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md), [US-F-19_how-crowded-next-services.md](../02_Analysis/03_User_Stories/US-F-19_how-crowded-next-services.md): the user stories this specification serves, one file each.

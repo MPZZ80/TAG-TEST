@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, first-last-mile, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-14_the-station-ahead.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-14_the-station-ahead.md, US-F-02_ways-still-open-trip.md, US-F-06_whether-connection-still-holds.md, US-F-09_arrival-shared-whoever-waits.md]
 ---
 
 # SPEC-07: Those Waiting Are Told
@@ -17,9 +17,9 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-09](../02_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, on the train back to Verona with his father coming to fetch him at the station, I want to share the train time and the live arrival, with a confirmation of any delay, with the person driving or waiting, so that the person who comes to the station knows when he arrives. | All of it |
-| concept | [F-06](../02_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Warning the people he is meeting. Whether the connection holds is SPEC-08 |
-| concept | [F-02](../02_Analysis/04_Generated_User_Stories.md) | a teenager (desk persona) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. | Calling home: home sees the same state. The ways out are SPEC-06 |
+| concept | [F-09](../02_Analysis/03_User_Stories/US-F-09_arrival-shared-whoever-waits.md) | the Verona–Milan commuter | As the Verona–Milan commuter, on the train back to Verona with his father coming to fetch him at the station, I want to share the train time and the live arrival, with a confirmation of any delay, with the person driving or waiting, so that the person who comes to the station knows when he arrives. | All of it |
+| concept | [F-06](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Warning the people he is meeting. Whether the connection holds is SPEC-08 |
+| concept | [F-02](../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md) | a teenager (desk persona) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. | Calling home: home sees the same state. The ways out are SPEC-06 |
 
 These stories belong together because in each someone else depends on the commuter's arrival (a father fetching him, colleagues he is meeting, a parent who would drive out), and that person should know the arrival without the commuter having to manage it.
 
@@ -28,8 +28,8 @@ These stories belong together because in each someone else depends on the commut
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-09](../02_Analysis/03_Generated_Features.md), [F-06](../02_Analysis/03_Generated_Features.md), [F-02](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-004](../02_Analysis/02_Generated_Touchpoints.md), [TP-048](../02_Analysis/02_Generated_Touchpoints.md), [TP-075](../02_Analysis/02_Generated_Touchpoints.md), [TP-106](../02_Analysis/02_Generated_Touchpoints.md), [TP-107](../02_Analysis/02_Generated_Touchpoints.md), [TP-084](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-09](../02_Analysis/02_Features/F-09_arrival-shared-whoever-waits.md), [F-06](../02_Analysis/02_Features/F-06_whether-connection-still-holds.md), [F-02](../02_Analysis/02_Features/F-02_ways-still-open-trip.md) |
+| **Touchpoints** | [TP-004](../02_Analysis/01_Touchpoints/TP-004_fixing-departure-time-days.md), [TP-048](../02_Analysis/01_Touchpoints/TP-048_being-driven-station-relative.md), [TP-075](../02_Analysis/01_Touchpoints/TP-075_following-train-app-board.md), [TP-106](../02_Analysis/01_Touchpoints/TP-106_telling-people-waiting-colleagues.md), [TP-107](../02_Analysis/01_Touchpoints/TP-107_asking-relative-come-fetch.md), [TP-084](../02_Analysis/01_Touchpoints/TP-084_last-service-night-gone.md) |
 | **Problem questions** | [HMW-12](../03_Ideation/01_How_might_we.md), [HMW-09](../03_Ideation/01_How_might_we.md), [HMW-04](../03_Ideation/01_How_might_we.md), [HMW-03](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [S04](../03_Ideation/02_Human_Ideas.md), [C12-01](../03_Ideation/03_AI_Ideas.md), [C12-02](../03_Ideation/03_AI_Ideas.md), [C12-04](../03_Ideation/03_AI_Ideas.md), [C12-05](../03_Ideation/03_AI_Ideas.md), [C12-06](../03_Ideation/03_AI_Ideas.md), [C12-07](../03_Ideation/03_AI_Ideas.md), [C12-08](../03_Ideation/03_AI_Ideas.md), [C12-12](../03_Ideation/03_AI_Ideas.md), [C09-05](../03_Ideation/03_AI_Ideas.md), [C04-05](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-13](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-06](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -96,3 +96,4 @@ The commuter adds a contact to a trip, or to the return of their usual trip, and
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-13, FAM-04, FAM-06, FAM-16.
 - [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S04.
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): the specifications that name this one where their behaviours meet.
+- [US-F-02_ways-still-open-trip.md](../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md), [US-F-06_whether-connection-still-holds.md](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md), [US-F-09_arrival-shared-whoever-waits.md](../02_Analysis/03_User_Stories/US-F-09_arrival-shared-whoever-waits.md): the user stories this specification serves, one file each.

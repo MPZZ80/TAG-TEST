@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, planning, late-info, usual-trip]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-05_usual-trip-at-a-glance.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-05_usual-trip-at-a-glance.md, US-F-03_early-warning-usual-trip.md]
 ---
 
 # SPEC-04: Alerts on the Usual Trip
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-03](../02_Analysis/04_Generated_User_Stories.md) | the single-line commuter | As the single-line commuter, during the seven minutes he drives to the station on one of his three office days, I want to be told, only when something changes, of a delay, cancellation, strike or works on my usual train, in time to change the decision to leave, so that he can wait in the warm car if the train is late. | All of it |
+| concept | [F-03](../02_Analysis/03_User_Stories/US-F-03_early-warning-usual-trip.md) | the single-line commuter | As the single-line commuter, during the seven minutes he drives to the station on one of his three office days, I want to be told, only when something changes, of a delay, cancellation, strike or works on my usual train, in time to change the decision to leave, so that he can wait in the warm car if the train is late. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-03](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-031](../02_Analysis/02_Generated_Touchpoints.md), [TP-032](../02_Analysis/02_Generated_Touchpoints.md), [TP-033](../02_Analysis/02_Generated_Touchpoints.md), [TP-034](../02_Analysis/02_Generated_Touchpoints.md), [TP-035](../02_Analysis/02_Generated_Touchpoints.md), [TP-037](../02_Analysis/02_Generated_Touchpoints.md), [TP-039](../02_Analysis/02_Generated_Touchpoints.md), [TP-040](../02_Analysis/02_Generated_Touchpoints.md), [TP-087](../02_Analysis/02_Generated_Touchpoints.md), [TP-089](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-03](../02_Analysis/02_Features/F-03_early-warning-usual-trip.md) |
+| **Touchpoints** | [TP-031](../02_Analysis/01_Touchpoints/TP-031_checking-train-only-days.md), [TP-032](../02_Analysis/01_Touchpoints/TP-032_receiving-alert-usual-train.md), [TP-033](../02_Analysis/01_Touchpoints/TP-033_alerts-set-usual-train.md), [TP-034](../02_Analysis/01_Touchpoints/TP-034_turning-off-ignoring-operator.md), [TP-035](../02_Analysis/01_Touchpoints/TP-035_using-alerts-usual-trip.md), [TP-037](../02_Analysis/01_Touchpoints/TP-037_opening-operator-s-app.md), [TP-039](../02_Analysis/01_Touchpoints/TP-039_news-line-fault-relative.md), [TP-040](../02_Analysis/01_Touchpoints/TP-040_learning-strike-works-days.md), [TP-087](../02_Analysis/01_Touchpoints/TP-087_finding-about-cancellation-station.md), [TP-089](../02_Analysis/01_Touchpoints/TP-089_delay-cancellation-information-comes.md) |
 | **Problem questions** | [HMW-05](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [S01](../03_Ideation/02_Human_Ideas.md), [S05](../03_Ideation/02_Human_Ideas.md), [C05-01](../03_Ideation/03_AI_Ideas.md), [C05-02](../03_Ideation/03_AI_Ideas.md), [C05-03](../03_Ideation/03_AI_Ideas.md), [C05-04](../03_Ideation/03_AI_Ideas.md), [C05-05](../03_Ideation/03_AI_Ideas.md), [C05-06](../03_Ideation/03_AI_Ideas.md), [C05-07](../03_Ideation/03_AI_Ideas.md), [C05-09](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-01](../03_Ideation/04_Human+AI_Ideas.md), [FAM-07](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -91,3 +91,4 @@ The commuter names their usual train once, with their days of travel and the mom
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-07, FAM-08, FAM-15, FAM-03.
 - [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S01, S05.
 - [SPEC-05_usual-trip-at-a-glance.md](SPEC-05_usual-trip-at-a-glance.md): the specifications that name this one where their behaviours meet.
+- [US-F-03_early-warning-usual-trip.md](../02_Analysis/03_User_Stories/US-F-03_early-warning-usual-trip.md): the user stories this specification serves, one file each.

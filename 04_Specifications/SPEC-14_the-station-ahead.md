@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-17_sessions-still-running.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-17_sessions-still-running.md, US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-20_step-free-lit-way.md]
 ---
 
 # SPEC-14: The Station Ahead
@@ -17,9 +17,9 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-15](../02_Analysis/04_Generated_User_Stories.md) | a woman driving to the station (desk persona) | As a woman driving to the station (desk persona), before leaving home for the 8:17 train she takes because she starts later, I want to know whether there is a parking space or a safe bike place at the station and what it costs, so that she does not have to go back to leaving earlier. | All of it; reports that the car park is full come from SPEC-03 |
-| concept | [F-17a](../02_Analysis/04_Generated_User_Stories.md) | a daily traveller in a British city (desk persona) | As a daily traveller in a British city (desk persona), waiting at a station late at night, I want to know whether the station is staffed and whether the walk at the end is in the dark at the hour I travel, so that the wait at night is not a moment of fear. | All of it; reports of the station at night come from SPEC-03 |
-| concept | [F-20](../02_Analysis/04_Generated_User_Stories.md) | a wheelchair user (desk persona) | As a wheelchair user (desk persona), before getting off the train at a German station with stairs unlit for two months and no lift, I want to know whether the lifts and lights on my way through the station work today, so that I do not have to ride past my station and come back. | All of it; reports from other riders come from SPEC-03 |
+| concept | [F-15](../02_Analysis/03_User_Stories/US-F-15_parking-bike-space-station.md) | a woman driving to the station (desk persona) | As a woman driving to the station (desk persona), before leaving home for the 8:17 train she takes because she starts later, I want to know whether there is a parking space or a safe bike place at the station and what it costs, so that she does not have to go back to leaving earlier. | All of it; reports that the car park is full come from SPEC-03 |
+| concept | [F-17a](../02_Analysis/03_User_Stories/US-F-17a_staffed-station-lit-walk.md) | a daily traveller in a British city (desk persona) | As a daily traveller in a British city (desk persona), waiting at a station late at night, I want to know whether the station is staffed and whether the walk at the end is in the dark at the hour I travel, so that the wait at night is not a moment of fear. | All of it; reports of the station at night come from SPEC-03 |
+| concept | [F-20](../02_Analysis/03_User_Stories/US-F-20_step-free-lit-way.md) | a wheelchair user (desk persona) | As a wheelchair user (desk persona), before getting off the train at a German station with stairs unlit for two months and no lift, I want to know whether the lifts and lights on my way through the station work today, so that I do not have to ride past my station and come back. | All of it; reports from other riders come from SPEC-03 |
 
 These stories belong together because each asks to know, before getting there, the state of a place on the trip at the hour the commuter will be there: a free place to park, staff and light at night, a working lift.
 
@@ -28,8 +28,8 @@ These stories belong together because each asks to know, before getting there, t
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-15](../02_Analysis/03_Generated_Features.md), [F-17a](../02_Analysis/03_Generated_Features.md), [F-20](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-049](../02_Analysis/02_Generated_Touchpoints.md), [TP-050](../02_Analysis/02_Generated_Touchpoints.md), [TP-080](../02_Analysis/02_Generated_Touchpoints.md), [TP-083](../02_Analysis/02_Generated_Touchpoints.md), [TP-063](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-15](../02_Analysis/02_Features/F-15_parking-bike-space-station.md), [F-17a](../02_Analysis/02_Features/F-17a_staffed-station-lit-walk.md), [F-20](../02_Analysis/02_Features/F-20_step-free-lit-way.md) |
+| **Touchpoints** | [TP-049](../02_Analysis/01_Touchpoints/TP-049_driving-station-parking-near.md), [TP-050](../02_Analysis/01_Touchpoints/TP-050_cycling-station-leaving-bike.md), [TP-080](../02_Analysis/01_Touchpoints/TP-080_walking-last-station-office.md), [TP-083](../02_Analysis/01_Touchpoints/TP-083_protecting-oneself-way-between.md), [TP-063](../02_Analysis/01_Touchpoints/TP-063_getting-through-station-without.md) |
 | **Problem questions** | [HMW-18](../03_Ideation/01_How_might_we.md), [HMW-20](../03_Ideation/01_How_might_we.md), [HMW-23](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [C18-06](../03_Ideation/03_AI_Ideas.md), [C18-08](../03_Ideation/03_AI_Ideas.md), [C20-03](../03_Ideation/03_AI_Ideas.md), [C20-08](../03_Ideation/03_AI_Ideas.md), [C20-10](../03_Ideation/03_AI_Ideas.md), [C23-03](../03_Ideation/03_AI_Ideas.md), [C23-07](../03_Ideation/03_AI_Ideas.md), [C23-08](../03_Ideation/03_AI_Ideas.md), [C23-12](../03_Ideation/03_AI_Ideas.md); background: [C18-01](../03_Ideation/03_AI_Ideas.md), [C20-01](../03_Ideation/03_AI_Ideas.md), [C20-02](../03_Ideation/03_AI_Ideas.md), [C20-11](../03_Ideation/03_AI_Ideas.md), [C23-01](../03_Ideation/03_AI_Ideas.md), [C23-02](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-03](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-26](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-01](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -87,3 +87,4 @@ For each station or stop on the commuter's trip, the product knows the state of 
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-15, F-17a, F-20.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-03, FAM-08, FAM-26, FAM-15, FAM-01, FAM-10.
 - [SPEC-17_sessions-still-running.md](SPEC-17_sessions-still-running.md): the specifications that name this one where their behaviours meet.
+- [US-F-15_parking-bike-space-station.md](../02_Analysis/03_User_Stories/US-F-15_parking-bike-space-station.md), [US-F-17a_staffed-station-lit-walk.md](../02_Analysis/03_User_Stories/US-F-17a_staffed-station-lit-walk.md), [US-F-20_step-free-lit-way.md](../02_Analysis/03_User_Stories/US-F-20_step-free-lit-way.md): the user stories this specification serves, one file each.

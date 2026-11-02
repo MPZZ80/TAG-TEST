@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, planning]
-related: [SPEC-01_foundation.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-14a_asking-before-rerouting-tolls.md]
 ---
 
 # SPEC-16: The Route Stays With the Driver
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-14a](../02_Analysis/04_Generated_User_Stories.md) | an Italian driver (desk persona) | Split from F-14. As an Italian driver (desk persona), following a map app, when there is a queue and the app changes the route by itself, or sends him onto a foreign motorway, I want to be asked before the route is changed and warned of the tolls or stickers the route needs, so that he decides the route and is not fined. | All of it |
+| concept | [F-14a](../02_Analysis/03_User_Stories/US-F-14a_asking-before-rerouting-tolls.md) | an Italian driver (desk persona) | Split from F-14. As an Italian driver (desk persona), following a map app, when there is a queue and the app changes the route by itself, or sends him onto a foreign motorway, I want to be asked before the route is changed and warned of the tolls or stickers the route needs, so that he decides the route and is not fined. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-14a](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-078](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-14a](../02_Analysis/02_Features/F-14a_asking-before-rerouting-tolls.md) |
+| **Touchpoints** | [TP-078](../02_Analysis/01_Touchpoints/TP-078_following-navigation-app-changes.md) |
 | **Problem questions** | [HMW-17](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [C17-01](../03_Ideation/03_AI_Ideas.md), [C17-02](../03_Ideation/03_AI_Ideas.md), [C17-03](../03_Ideation/03_AI_Ideas.md), [C17-05](../03_Ideation/03_AI_Ideas.md), [C17-10](../03_Ideation/03_AI_Ideas.md); background: [C17-04](../03_Ideation/03_AI_Ideas.md), [C17-06](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-17](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -79,3 +79,4 @@ When the commuter drives, the route never changes without his yes (C17-01): a qu
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principle 5; The user (preferences); The things it deals with (leg, way); Channels (voice while driving); Rules that hold everywhere.
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-14a, F-14.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-17, FAM-04, FAM-15, FAM-03, FAM-10.
+- [US-F-14a_asking-before-rerouting-tolls.md](../02_Analysis/03_User_Stories/US-F-14a_asking-before-rerouting-tolls.md): the user stories this specification serves, one file each.

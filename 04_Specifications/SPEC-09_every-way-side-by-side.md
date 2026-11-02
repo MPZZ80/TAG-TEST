@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, mode-choice, tools, habit, ticket-carryover]
-related: [SPEC-01_foundation.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md]
+related: [SPEC-01_foundation.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md]
 ---
 
 # SPEC-09: Every Way Side by Side, Door to Door
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-04](../02_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants. | Every way shown with its time and price. Booking as one journey is SPEC-11 |
-| concept | [F-10](../02_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, looking at the timetables to see whether he can go back from the car to the train, I want the train and the car compared door to door for a given day and departure, on time, cost and arrival home, so that he can see whether the train still brings him back to Como when the working day ends. | All of it |
+| concept | [F-04](../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md) | the Verona–Milan commuter | As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants. | Every way shown with its time and price. Booking as one journey is SPEC-11 |
+| concept | [F-10](../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md) | the Como commuter | As the Como commuter, looking at the timetables to see whether he can go back from the car to the train, I want the train and the car compared door to door for a given day and departure, on time, cost and arrival home, so that he can see whether the train still brings him back to Como when the working day ends. | All of it |
 
 These stories belong together because both are a commuter, before the trip, weighing every way of making it from door to door, across modes and sellers, on time, price and arrival.
 
@@ -27,8 +27,8 @@ These stories belong together because both are a commuter, before the trip, weig
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-04](../02_Analysis/03_Generated_Features.md), [F-10](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-005](../02_Analysis/02_Generated_Touchpoints.md), [TP-013](../02_Analysis/02_Generated_Touchpoints.md), [TP-016](../02_Analysis/02_Generated_Touchpoints.md), [TP-019](../02_Analysis/02_Generated_Touchpoints.md), [TP-020](../02_Analysis/02_Generated_Touchpoints.md), [TP-021](../02_Analysis/02_Generated_Touchpoints.md), [TP-022](../02_Analysis/02_Generated_Touchpoints.md), [TP-065](../02_Analysis/02_Generated_Touchpoints.md), [TP-009](../02_Analysis/02_Generated_Touchpoints.md), [TP-010](../02_Analysis/02_Generated_Touchpoints.md), [TP-011](../02_Analysis/02_Generated_Touchpoints.md), [TP-044](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-04](../02_Analysis/02_Features/F-04_one-search-one-booking.md), [F-10](../02_Analysis/02_Features/F-10_car-against-train-office.md) |
+| **Touchpoints** | [TP-005](../02_Analysis/01_Touchpoints/TP-005_booking-train-days-ahead.md), [TP-013](../02_Analysis/01_Touchpoints/TP-013_choosing-each-day-means.md), [TP-016](../02_Analysis/01_Touchpoints/TP-016_knowing-public-transport-option.md), [TP-019](../02_Analysis/01_Touchpoints/TP-019_choosing-slower-route-because.md), [TP-020](../02_Analysis/01_Touchpoints/TP-020_booking-online-without-comparing.md), [TP-021](../02_Analysis/01_Touchpoints/TP-021_deciding-combine-means-operators.md), [TP-022](../02_Analysis/01_Touchpoints/TP-022_searching-each-leg-different.md), [TP-065](../02_Analysis/01_Touchpoints/TP-065_topping-up-card-middle.md), [TP-009](../02_Analysis/01_Touchpoints/TP-009_keeping-car-after-pass.md), [TP-010](../02_Analysis/01_Touchpoints/TP-010_weighing-car-against-train.md), [TP-011](../02_Analysis/01_Touchpoints/TP-011_looking-timetables-decide-whether.md), [TP-044](../02_Analysis/01_Touchpoints/TP-044_taking-car-keys-late.md) |
 | **Problem questions** | [HMW-06](../03_Ideation/01_How_might_we.md), [HMW-07](../03_Ideation/01_How_might_we.md), [HMW-13](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [S06](../03_Ideation/02_Human_Ideas.md), [C06-01](../03_Ideation/03_AI_Ideas.md), [C06-10](../03_Ideation/03_AI_Ideas.md), [C07-01](../03_Ideation/03_AI_Ideas.md), [C07-02](../03_Ideation/03_AI_Ideas.md), [C07-03](../03_Ideation/03_AI_Ideas.md), [C07-04](../03_Ideation/03_AI_Ideas.md), [C07-05](../03_Ideation/03_AI_Ideas.md), [C07-09](../03_Ideation/03_AI_Ideas.md), [C07-11](../03_Ideation/03_AI_Ideas.md), [C07-12](../03_Ideation/03_AI_Ideas.md), [C13-01](../03_Ideation/03_AI_Ideas.md), [C13-02](../03_Ideation/03_AI_Ideas.md), [C13-03](../03_Ideation/03_AI_Ideas.md), [C13-04](../03_Ideation/03_AI_Ideas.md), [C13-07](../03_Ideation/03_AI_Ideas.md), [C13-10](../03_Ideation/03_AI_Ideas.md), [C13-12](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-18](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-09](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md), [FAM-26](../03_Ideation/04_Human+AI_Ideas.md), [FAM-06](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -93,3 +93,4 @@ Before the trip, for a given day and time, the product shows every way of making
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-04, F-10.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-15, FAM-09, FAM-03, FAM-26, FAM-06.
 - [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S06.
+- [US-F-04_one-search-one-booking.md](../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md), [US-F-10_car-against-train-office.md](../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md): the user stories this specification serves, one file each.

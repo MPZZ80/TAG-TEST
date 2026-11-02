@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 23:59
+
+- **Files:** created `02_Analysis/01_Touchpoints/` (109 files, TP-001 to TP-109), `02_Analysis/02_Features/` (26 files, F-01 to F-24 with F-14a, F-14b, F-17a, F-17b) and `02_Analysis/03_User_Stories/` (24 files, US-F-01 to US-F-24), each with a `README.md`. Changed: `02_Analysis/02_Generated_Touchpoints.md`, `03_Generated_Features.md`, `04_Generated_User_Stories.md`, `02_Analysis/README.md`, the 17 specifications SPEC-00 and SPEC-02 to SPEC-17, `Index.md`, `AGENTS.md`.
+- **Change:** One file per touchpoint, feature and user story, split from the three tables, each with its row, its notes and quotes, and links to the items it connects to (touchpoint ↔ feature ↔ story ↔ specification), in `related` and "Connections" on both sides. In the three tables the IDs now link to the single files, and so do the IDs mentioned in their other sections. In the specifications, the links of story, feature and touchpoint IDs point to the single files, and each specification lists its story files in `related` and "Connections". The tables keep their content and stay the reference for the rules and counts. Not changed: `01_research.html`, the archive in `03_Ideation/_old/`, and the ideation files, which link to the tables by file name only.
+- **Why:** Marco asked to split the touchpoints, features and user stories into single files, in three numbered folders inside Analysis (01 Touchpoints, 02 Features, 03 User Stories), and to link these files in place of the items in the files with the source tables.
+
 ## 2026-11-02 23:51
 
 - **Files:** the 18 specifications in `04_Specifications/`; `02_Analysis/03_Generated_Features.md`, `04_Generated_User_Stories.md`; `03_Ideation/01_How_might_we.md`, `03_AI_Ideas.md`, `04_Human+AI_Ideas.md`, `05_Ideas_prioritization.md`, `06_Chosen_concept.md`; `01_Research/02_Plan/04_open_issues.md`; `01_Research/05_Survey/01_survey_en.md`, `03_posting_venues.md`, `04_permission_requests.md`; `01_Research/04_Interviews/Marco_Palermo_notes.md`, `Valentina_Di_Floriano_notes.md`; the source notes AR-006, GR-004, GR-047, OF-001 and OF-002.

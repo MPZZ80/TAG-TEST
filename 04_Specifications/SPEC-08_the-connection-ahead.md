@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, information, tight-connection, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-10_times-that-can-be-kept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-10_times-that-can-be-kept.md, US-F-06_whether-connection-still-holds.md, US-F-22_asking-connection-wait.md]
 ---
 
 # SPEC-08: The Connection Ahead
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-06](../02_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Whether it holds and the next one. Warning the people is SPEC-07 |
-| concept | [F-22](../02_Analysis/04_Generated_User_Stories.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. | All of it, with the limits in "Open questions" |
+| concept | [F-06](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Whether it holds and the next one. Warning the people is SPEC-07 |
+| concept | [F-22](../02_Analysis/03_User_Stories/US-F-22_asking-connection-wait.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. | All of it, with the limits in "Open questions" |
 
 These stories belong together because both are the commuter on a late run, before a change, wanting to know what happens to the connection: whether it holds, and whether it can be made to wait.
 
@@ -27,8 +27,8 @@ These stories belong together because both are the commuter on a late run, befor
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-06](../02_Analysis/03_Generated_Features.md), [F-22](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-053](../02_Analysis/02_Generated_Touchpoints.md), [TP-057](../02_Analysis/02_Generated_Touchpoints.md), [TP-060](../02_Analysis/02_Generated_Touchpoints.md), [TP-061](../02_Analysis/02_Generated_Touchpoints.md), [TP-068](../02_Analysis/02_Generated_Touchpoints.md), [TP-106](../02_Analysis/02_Generated_Touchpoints.md), [TP-069](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-06](../02_Analysis/02_Features/F-06_whether-connection-still-holds.md), [F-22](../02_Analysis/02_Features/F-22_asking-connection-wait.md) |
+| **Touchpoints** | [TP-053](../02_Analysis/01_Touchpoints/TP-053_taking-local-bus-station.md), [TP-057](../02_Analysis/01_Touchpoints/TP-057_giving-up-public-transport.md), [TP-060](../02_Analysis/01_Touchpoints/TP-060_changing-train-intermediate-station.md), [TP-061](../02_Analysis/01_Touchpoints/TP-061_checking-phone-before-arriving.md), [TP-068](../02_Analysis/01_Touchpoints/TP-068_connection-cannot-kept-missed.md), [TP-106](../02_Analysis/01_Touchpoints/TP-106_telling-people-waiting-colleagues.md), [TP-069](../02_Analysis/01_Touchpoints/TP-069_asking-conductor-phone-ahead.md) |
 | **Problem questions** | [HMW-09](../03_Ideation/01_How_might_we.md), [HMW-25](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [C09-01](../03_Ideation/03_AI_Ideas.md), [C09-02](../03_Ideation/03_AI_Ideas.md), [C09-03](../03_Ideation/03_AI_Ideas.md), [C09-09](../03_Ideation/03_AI_Ideas.md), [C09-12](../03_Ideation/03_AI_Ideas.md), [C25-05](../03_Ideation/03_AI_Ideas.md), [C25-12](../03_Ideation/03_AI_Ideas.md); background: [C25-01](../03_Ideation/03_AI_Ideas.md), [C25-02](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-23](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -95,3 +95,4 @@ For a commuter on a run with a change ahead, the product says before the change 
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-06, F-22.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-04, FAM-03, FAM-23.
 - [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): the specifications that name this one where their behaviours meet.
+- [US-F-06_whether-connection-still-holds.md](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md), [US-F-22_asking-connection-wait.md](../02_Analysis/03_User_Stories/US-F-22_asking-connection-wait.md): the user stories this specification serves, one file each.

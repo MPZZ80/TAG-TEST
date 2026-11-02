@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-02 23:59
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, unreliable-service]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, 04_Generated_User_Stories.md, 01_How_might_we.md, 06_Chosen_concept.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-13_compensation-from-the-trip.md, SPEC-15_stop-approaching.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, 04_Generated_User_Stories.md, 01_How_might_we.md, 06_Chosen_concept.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-13_compensation-from-the-trip.md, SPEC-15_stop-approaching.md, US-F-01_real-state-vehicle-source.md]
 ---
 
 # SPEC-02: The Real State of the Run
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-01](../02_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, standing on the platform watching the delay on the board grow from 5 to 10 to 15 minutes while a third-party app shows another time, I want to see where the train really is, when it will really leave and arrive, why it is late and which source says so, so that he knows as early as an unofficial app would tell him. | All of it. The reports of other travellers it uses are collected by SPEC-03 |
+| concept | [F-01](../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md) | the Como commuter | As the Como commuter, standing on the platform watching the delay on the board grow from 5 to 10 to 15 minutes while a third-party app shows another time, I want to see where the train really is, when it will really leave and arrive, why it is late and which source says so, so that he knows as early as an unofficial app would tell him. | All of it. The reports of other travellers it uses are collected by SPEC-03 |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-01](../02_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-028](../02_Analysis/02_Generated_Touchpoints.md), [TP-029](../02_Analysis/02_Generated_Touchpoints.md), [TP-038](../02_Analysis/02_Generated_Touchpoints.md), [TP-043](../02_Analysis/02_Generated_Touchpoints.md), [TP-067](../02_Analysis/02_Generated_Touchpoints.md), [TP-070](../02_Analysis/02_Generated_Touchpoints.md), [TP-075](../02_Analysis/02_Generated_Touchpoints.md), [TP-088](../02_Analysis/02_Generated_Touchpoints.md), [TP-089](../02_Analysis/02_Generated_Touchpoints.md), [TP-090](../02_Analysis/02_Generated_Touchpoints.md), [TP-091](../02_Analysis/02_Generated_Touchpoints.md), [TP-092](../02_Analysis/02_Generated_Touchpoints.md), [TP-096](../02_Analysis/02_Generated_Touchpoints.md) |
+| **Features** | [F-01](../02_Analysis/02_Features/F-01_real-state-vehicle-source.md) |
+| **Touchpoints** | [TP-028](../02_Analysis/01_Touchpoints/TP-028_deciding-return-train-day.md), [TP-029](../02_Analysis/01_Touchpoints/TP-029_checking-live-departures-before.md), [TP-038](../02_Analysis/01_Touchpoints/TP-038_checking-another-app-site.md), [TP-043](../02_Analysis/01_Touchpoints/TP-043_acting-delay-warning-turns.md), [TP-067](../02_Analysis/01_Touchpoints/TP-067_deciding-spot-whether-wait.md), [TP-070](../02_Analysis/01_Touchpoints/TP-070_waiting-platform-front-departure.md), [TP-075](../02_Analysis/01_Touchpoints/TP-075_following-train-app-board.md), [TP-088](../02_Analysis/01_Touchpoints/TP-088_watching-delay-grow-board.md), [TP-089](../02_Analysis/01_Touchpoints/TP-089_delay-cancellation-information-comes.md), [TP-090](../02_Analysis/01_Touchpoints/TP-090_choosing-source-believe-they.md), [TP-091](../02_Analysis/01_Touchpoints/TP-091_asking-staff-help-point.md), [TP-092](../02_Analysis/01_Touchpoints/TP-092_stuck-stopped-cancelled-train.md), [TP-096](../02_Analysis/01_Touchpoints/TP-096_waiting-next-service.md) |
 | **Problem questions** | [HMW-01](../03_Ideation/01_How_might_we.md), [HMW-02](../03_Ideation/01_How_might_we.md) |
 | **Concepts** | [S02](../03_Ideation/02_Human_Ideas.md), [S03](../03_Ideation/02_Human_Ideas.md), [C01-01](../03_Ideation/03_AI_Ideas.md), [C01-02](../03_Ideation/03_AI_Ideas.md), [C01-03](../03_Ideation/03_AI_Ideas.md) [risky], [C01-05](../03_Ideation/03_AI_Ideas.md) [risky], [C01-10](../03_Ideation/03_AI_Ideas.md), [C01-11](../03_Ideation/03_AI_Ideas.md), [C02-02](../03_Ideation/03_AI_Ideas.md), [C02-08](../03_Ideation/03_AI_Ideas.md), [C02-11](../03_Ideation/03_AI_Ideas.md); background: [C01-07](../03_Ideation/03_AI_Ideas.md), [C01-08](../03_Ideation/03_AI_Ideas.md) |
 | **Families** | [FAM-02](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-01](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-05](../03_Ideation/04_Human+AI_Ideas.md) |
@@ -104,3 +104,4 @@ For a commuter waiting for a run or travelling on it, the product shows where th
 - [01_How_might_we.md](../03_Ideation/01_How_might_we.md): the problem questions HMW-01, HMW-02.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-02, FAM-03, FAM-04, FAM-08, FAM-01, FAM-16, FAM-05.
 - [SPEC-05_usual-trip-at-a-glance.md](SPEC-05_usual-trip-at-a-glance.md), [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md), [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md), [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md), [SPEC-15_stop-approaching.md](SPEC-15_stop-approaching.md): the specifications that name this one where their behaviours meet.
+- [US-F-01_real-state-vehicle-source.md](../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md): the user stories this specification serves, one file each.
