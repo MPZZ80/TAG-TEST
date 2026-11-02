@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 19:07
+
+- **Files:** `02_Ideation/02_Human_Ideas.md`
+- **Change:** Spelling, punctuation and grammar corrected in S01 to S06 ("alertd", "seren", "ot", "wheter", "alterantives", capitals of WhatsApp, SMS and Google Maps, sentence endings). The meaning of each concept is unchanged.
+- **Why:** Marco: "Correggi pure" (go ahead and correct it), reason not stated.
+
 ## 2026-11-02 19:02
 
 - **Files:** `02_Ideation/02_Human_Ideas.md`, `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/05_Ideas_prioritization.md`, `02_Ideation/README.md`
