@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 18:01
+date: 2026-11-02 18:52
 method: coding
 status: draft
 grade: n/a
@@ -23,7 +23,7 @@ The concepts of [02_Human_Ideas.md](02_Human_Ideas.md), written by Marco, and of
 | ID | family | its direction, one line | concepts (by number) | authors |
 | --- | --- | --- | --- | --- |
 | FAM-01 | Told where they are | The fact reaches the traveller on a chosen channel or moment, without their going to look | S01, C01-11, C05-01, C05-02, C05-03, C05-05, C11-11, C14-01, C14-02, C14-03 [risky], C21-01, C21-02, C23-12, C24-12, C26-01, C26-02, C27-06 | Marco, AI |
-| FAM-02 | Real position, not the timetable | Where the train is gets measured from the train or the devices on it, not read from the timetable | S02, C01-03 [risky], C01-05 [risky] | Marco, AI |
+| FAM-02 | Delay measured from the real position | The delay comes from where the train really is, from passengers' phones or the train itself, compared with where it should be | S02, C01-03 [risky], C01-05 [risky] | Marco, AI |
 | FAM-03 | Travellers report | People on the line, on board or at the place say what they see, or pool what they know | S03, C01-04, C02-10, C03-05, C04-03, C05-08, C05-09, C07-11, C08-03, C09-09, C10-05, C10-06, C13-07, C14-10, C14-11, C15-12, C16-11, C17-10, C18-06, C20-03, C22-03, C22-04, C22-12, C23-03, C24-08 [risky], C25-12, C27-10 | Marco, AI |
 | FAM-04 | The source made visible | A fact comes with who gave it, how old it is, why, or whether it is final | C01-01, C01-02, C02-08, C03-03, C04-02, C07-02, C08-04, C09-03, C12-07, C14-12, C16-05, C17-03, C22-02 | AI |
 | FAM-05 | Honest uncertainty | The answer is a range, a likelihood or a past record, not one firm figure | C01-07, C01-08, C02-01 [risky], C02-09 [risky], C04-11, C06-02 [risky], C08-02, C10-04 [risky], C16-03, C16-04, C18-02 [risky], C22-01 | AI |
@@ -65,7 +65,7 @@ The concepts of [02_Human_Ideas.md](02_Human_Ideas.md), written by Marco, and of
 Both hands:
 
 - **FAM-01 Told where they are:** S01 with 16 AI concepts.
-- **FAM-02 Real position, not the timetable:** S02 with 2 AI concepts.
+- **FAM-02 Delay measured from the real position:** S02 with 2 AI concepts.
 - **FAM-03 Travellers report:** S03 with 26 AI concepts.
 
 All three of Marco's concepts are about gathering and delivering delay information, so nothing of his falls outside that space. The AI concepts were asked of all 27 questions and his were not written for them, so the AI-only families show what the wider set of questions asked for, as well as what each hand reached for.

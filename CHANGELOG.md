@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 18:52
+
+- **Files:** `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/05_Ideas_prioritization.md`
+- **Change:** FAM-02 renamed from "Real position, not the timetable" to "Delay measured from the real position", with a new direction line and main concept: the real position is compared with where the train should be, so the timetable is the reference, not something left out.
+- **Why:** Marco doubted the name; S02 compares the phones' position with the supposed position of the train, so "not the timetable" misread his concept.
+- **Do not:** describe FAM-02 as leaving out the timetable.
+
 ## 2026-11-02 18:41
 
 - **Files:** `02_Ideation/05_Ideas_prioritization.md`

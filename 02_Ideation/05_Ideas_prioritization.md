@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 18:41
+date: 2026-11-02 18:52
 method: generated
 status: draft
 grade: n/a
@@ -398,7 +398,7 @@ The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same thre
 | ID | family | concepts | valuable | feasible | relevant | spread | the one-line reasons |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | FAM-01 | Told where they are | 17 | 3 [strong] | 1 [weak] | 3 [strong] | 11/6/0/0 · 0/2/15/0 · 14/3/0/0 | **V:** being told in time is what "wait in the warm car" asks (F-03). **F:** what it tells comes from a feed. **R:** most reach the person in the moment of the question |
-| FAM-02 | Real position, not the timetable | 3 | 3 [strong] | 1 [weak] | 3 [strong] | 3/0/0/0 · 0/0/3/0 · 3/0/0/0 | **V:** the real position, "as early as an unofficial app" (F-01). **F:** the comparison needs the timetable and a feed. **R:** on the platform during the delay |
+| FAM-02 | Delay measured from the real position | 3 | 3 [strong] | 1 [weak] | 3 [strong] | 3/0/0/0 · 0/0/3/0 · 3/0/0/0 | **V:** the real position, "as early as an unofficial app" (F-01). **F:** the comparison needs the timetable and a feed. **R:** on the platform during the delay |
 | FAM-03 | Travellers report | 27 | 2 [medium] | 2 [medium] | 3 [strong] | 2/17/8/0 · 0/27/0/0 · 16/11/0/0 | **V:** others' word serves "as early as an unofficial app" (F-01) only if someone reports. **F:** the input of others can be staged in one flow. **R:** in the moment, or just before it |
 | FAM-04 | The source made visible | 13 | 2 [medium] | 1 [weak] | 3 [strong] | 0/9/4/0 · 0/0/13/0 · 12/1/0/0 | **V:** trust in a figure, while "as early as an unofficial app" (F-01) asks for it earlier. **F:** the sources come from a feed. **R:** beside the fact, in the moment |
 | FAM-05 | Honest uncertainty | 12 | 2 [medium] | 1 [weak] | 3 [strong] | 2/9/1/0 · 0/0/12/0 · 11/1/0/0 | **V:** truer figures, still close to the guess in "a 20 inizio a sentire la puzza" (F-01). **F:** the ranges and records come from a feed. **R:** beside the fact, in the moment |
@@ -455,7 +455,7 @@ The same 27 families, ordered by the sum of their three marks, then by their low
 | FAM-15 | It knows the traveller | The service knows the usual trip and needs, so the traveller does not repeat them | AI | 2 | 3 | 2 | 7 |
 | FAM-16 | Settled beforehand | A rule or a fallback agreed in advance, such as "if the bus is not there by 8:10, take the car" | AI | 2 | 3 | 2 | 7 |
 | FAM-01 | Told where they are | The news comes to the traveller, by the channel and at the moment they chose; they no longer go and look | Human+AI | 3 | 1 | 3 | 7 |
-| FAM-02 | Real position, not the timetable | The train's real position, measured on the train, replaces the timetable | Human+AI | 3 | 1 | 3 | 7 |
+| FAM-02 | Delay measured from the real position | The real position, from passengers' phones or the train itself, is compared with where the train should be, and the gap is the delay | Human+AI | 3 | 1 | 3 | 7 |
 | FAM-08 | One answer, not data | One clear verdict, such as "take the car" or "wait", in place of data to weigh | AI | 3 | 1 | 3 | 7 |
 | FAM-10 | What lies ahead, known beforehand | The state of the station, road or car park is known before getting there | AI | 3 | 1 | 3 | 7 |
 | FAM-13 | Those depending on them are told | Whoever waits for the traveller, at home or at the station, is told without the traveller doing it | AI | 3 | 1 | 3 | 7 |
