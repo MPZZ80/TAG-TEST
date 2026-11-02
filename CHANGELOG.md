@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-03 00:06
+
+- **Files:** `02_Analysis/README.md`
+- **Change:** The row of `01_research.html` marks it as a snapshot of 2026-11-01, not kept up to date: it still shows the full tables and the old folder names; only its links were updated.
+- **Why:** Marco chose to leave the page as it is, because he will rebuild it later with another structure.
+
 ## 2026-11-03 00:04
 
 - **Files:** `02_Analysis/02_Generated_Touchpoints.md`, `02_Analysis/03_Generated_Features.md`, `02_Analysis/04_Generated_User_Stories.md`, `02_Analysis/README.md`, the READMEs of `02_Analysis/01_Touchpoints/`, `02_Features/` and `03_User_Stories/`
