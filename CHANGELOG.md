@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 21:16
+
+- **Files:** `02_Ideation/06_Chosen_concept.md`, `02_Ideation/07_Specifications/` (was `02_Ideation/06_Specifications/`), `02_Ideation/README.md`, `Index.md`
+- **Change:** File created: the chosen concept, with all 27 families; FAM-05, FAM-10, FAM-12, FAM-14, FAM-20, FAM-21, FAM-22, FAM-23 and FAM-24 in the background, the other 18 main. Tables of the main and background families with concepts, questions, features and marks; the 27 questions with main and background counts and lead families; thin material; decisions. The specification folder renamed from `06_` to `07_` to follow the order of the process.
+- **Why:** Marco asked for the concept file covering all the families, with those he listed in the background, named `06_Chosen_concept` inside `02_Ideation`.
+
 ## 2026-11-02 21:12
 
 - **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`
