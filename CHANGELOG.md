@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-03 00:04
+
+- **Files:** `02_Analysis/02_Generated_Touchpoints.md`, `02_Analysis/03_Generated_Features.md`, `02_Analysis/04_Generated_User_Stories.md`, `02_Analysis/README.md`, the READMEs of `02_Analysis/01_Touchpoints/`, `02_Features/` and `03_User_Stories/`
+- **Change:** The three tables became indexes. Touchpoints: one row each with ID, type, phase, mode, touchpoint and the features that answer it; the column "when exactly it happens" and the notes and quotes now live only in the touchpoint files. Features: ID, feature, what it does, touchpoints, impact and user story; the evidence column lives only in the feature files. Stories: a table with story, persona, evidence and impact, and feature; the story text and source line live only in the story files. Intro notes, the personas, contradictions, gaps, dropped features, counts and decisions stay in the tables. The folder READMEs now say that the single files hold the content.
+- **Why:** Marco chose option 1 of three: make the single files the only source of the content and the tables their index, so that the same row does not live in two places.
+- **Do not:** copy quotes, evidence or story text back into the three tables; they belong in the single files.
+
 ## 2026-11-02 23:59
 
 - **Files:** created `02_Analysis/01_Touchpoints/` (109 files, TP-001 to TP-109), `02_Analysis/02_Features/` (26 files, F-01 to F-24 with F-14a, F-14b, F-17a, F-17b) and `02_Analysis/03_User_Stories/` (24 files, US-F-01 to US-F-24), each with a `README.md`. Changed: `02_Analysis/02_Generated_Touchpoints.md`, `03_Generated_Features.md`, `04_Generated_User_Stories.md`, `02_Analysis/README.md`, the 17 specifications SPEC-00 and SPEC-02 to SPEC-17, `Index.md`, `AGENTS.md`.

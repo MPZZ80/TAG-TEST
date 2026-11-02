@@ -1,6 +1,6 @@
 # Touchpoints
 
-One file per touchpoint of [`../02_Generated_Touchpoints.md`](../02_Generated_Touchpoints.md), the source table, which keeps the types, phases, contradictions, coverage gaps and counts. Each file holds its row: type, phase, mode, when it happens, the notes and quotes, and the features that answer it.
+One file per touchpoint, listed in the index [`../02_Generated_Touchpoints.md`](../02_Generated_Touchpoints.md), which also keeps the types, phases, contradictions, coverage gaps and counts. Each file holds its row: type, phase, mode, when it happens, the notes and quotes, and the features that answer it.
 
 | File | Touchpoint |
 | --- | --- |
@@ -115,4 +115,4 @@ One file per touchpoint of [`../02_Generated_Touchpoints.md`](../02_Generated_To
 | `TP-109_deciding-after-bad-disruption.md` | Deciding, after a bad disruption, to drive next time or to leave rail |
 
 - Find an item by its ID in the file name; open the source table for the rules and the overall picture.
-- The files are generated from the source table: when a row changes, change both.
+- These files hold the content: the quotes, the evidence and the full text live only here. The source table is the index; when an item changes, update its file and, if its short row changes, the row in the table.

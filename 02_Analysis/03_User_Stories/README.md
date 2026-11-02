@@ -1,6 +1,6 @@
 # User Stories
 
-One file per user story of [`../04_Generated_User_Stories.md`](../04_Generated_User_Stories.md), the source list, which keeps the personas, the features sent back and the splits. Each file holds the story, its source line, its feature and the specifications that serve it.
+One file per user story, listed in the index [`../04_Generated_User_Stories.md`](../04_Generated_User_Stories.md), which also keeps the personas, the features sent back and the splits. Each file holds the story, its source line, its feature and the specifications that serve it.
 
 | File | Story |
 | --- | --- |
@@ -30,4 +30,4 @@ One file per user story of [`../04_Generated_User_Stories.md`](../04_Generated_U
 | `US-F-24_travel-information-first-hurry.md` | Story F-24 |
 
 - Find an item by its ID in the file name; open the source table for the rules and the overall picture.
-- The files are generated from the source table: when a row changes, change both.
+- These files hold the content: the quotes, the evidence and the full text live only here. The source table is the index; when an item changes, update its file and, if its short row changes, the row in the table.

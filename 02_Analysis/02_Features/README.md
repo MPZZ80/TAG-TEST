@@ -1,6 +1,6 @@
 # Features
 
-One file per feature of [`../03_Generated_Features.md`](../03_Generated_Features.md), the source table, which keeps the strength rule, the dropped features, the contradictions and the counts. Each file holds its row: what it does, evidence mark, impact, the touchpoints it answers, the evidence and its user story.
+One file per feature, listed in the index [`../03_Generated_Features.md`](../03_Generated_Features.md), which also keeps the strength rule, the dropped features, the contradictions and the counts. Each file holds its row: what it does, evidence mark, impact, the touchpoints it answers, the evidence and its user story.
 
 | File | Feature |
 | --- | --- |
@@ -32,4 +32,4 @@ One file per feature of [`../03_Generated_Features.md`](../03_Generated_Features
 | `F-24_travel-information-first-hurry.md` | Travel information first, in a hurry |
 
 - Find an item by its ID in the file name; open the source table for the rules and the overall picture.
-- The files are generated from the source table: when a row changes, change both.
+- These files hold the content: the quotes, the evidence and the full text live only here. The source table is the index; when an item changes, update its file and, if its short row changes, the row in the table.
