@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 21:32
+
+- **Files:** `02_Ideation/07_Specifications/SPEC-00_overview.md` to `SPEC-17_sessions-still-running.md` (18 files), `02_Ideation/07_Specifications/README.md`, `02_Ideation/README.md`, `Index.md`
+- **Change:** Files created: the specifications written with `Spec_instructions.md` from the 24 user stories, all with priority concept: the overview, the foundation and 16 behaviour specifications, each with its stories, traceability to features, touchpoints, HMW, concepts, families and marks, operating logic, failures, out of scope, acceptance criteria and open questions. Background concepts used only where a story asks for them, and named as such.
+- **Why:** Marco asked to create the specifications following the instructions in `02_Ideation/07_Specifications/Spec_instructions.md`.
+
 ## 2026-11-02 21:18
 
 - **Files:** `02_Ideation/07_Specifications/Spec_instructions.md`

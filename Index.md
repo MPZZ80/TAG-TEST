@@ -220,6 +220,24 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 ## 02_Ideation/07_Specifications
 
 - Spec_instructions.md — [design, internal, rules · draft · n/a · n/a]
+- SPEC-00_overview.md — [design, internal, output, information, disruption, planning · draft · n/a · n/a]
+- SPEC-01_foundation.md — [design, internal, output, information, disruption, planning, late-info, usual-trip, workarounds · draft · n/a · n/a]
+- SPEC-02_real-state-of-the-run.md — [design, internal, output, information, disruption, late-info, unreliable-service · draft · n/a · n/a]
+- SPEC-03_travellers-report.md — [design, internal, output, information, disruption, late-info, crowding, first-last-mile, workarounds · draft · n/a · n/a]
+- SPEC-04_alerts-on-the-usual-trip.md — [design, internal, output, information, planning, late-info, usual-trip · draft · n/a · n/a]
+- SPEC-05_usual-trip-at-a-glance.md — [design, internal, output, information, tools, usual-trip · draft · n/a · n/a]
+- SPEC-06_ways-out-when-the-trip-breaks.md — [design, internal, output, disruption, mode-choice, no-alternative, crowding, unreliable-service · draft · n/a · n/a]
+- SPEC-07_those-waiting-are-told.md — [design, internal, output, information, disruption, first-last-mile, late-info · draft · n/a · n/a]
+- SPEC-08_the-connection-ahead.md — [design, internal, output, disruption, information, tight-connection, late-info · draft · n/a · n/a]
+- SPEC-09_every-way-side-by-side.md — [design, internal, output, planning, mode-choice, tools, habit, ticket-carryover · draft · n/a · n/a]
+- SPEC-10_times-that-can-be-kept.md — [design, internal, output, planning, tight-connection, first-last-mile, unreliable-service, workarounds · draft · n/a · n/a]
+- SPEC-11_tickets-that-work-when-needed.md — [design, internal, output, tools, planning, ticket-carryover · draft · n/a · n/a]
+- SPEC-12_the-fare-that-fits-the-days.md — [design, internal, output, planning, why-now, hybrid-work · draft · n/a · n/a]
+- SPEC-13_compensation-from-the-trip.md — [design, internal, output, disruption, tools, refunds · draft · n/a · n/a]
+- SPEC-14_the-station-ahead.md — [design, internal, output, planning, information, first-last-mile · draft · n/a · n/a]
+- SPEC-15_stop-approaching.md — [design, internal, output, information, first-last-mile · draft · n/a · n/a]
+- SPEC-16_the-route-stays-with-the-driver.md — [design, internal, output, tools, planning · draft · n/a · n/a]
+- SPEC-17_sessions-still-running.md — [design, internal, output, tools, first-last-mile · draft · n/a · n/a]
 
 ## 02_Ideation/_old
 
