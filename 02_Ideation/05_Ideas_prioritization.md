@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 18:59
+date: 2026-11-02 19:02
 method: generated
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [04_Human+AI_Ideas.md]
 
 # Ideas Prioritization: Proposed Marks
 
-The 328 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on three axes from 0 to 3, then its 27 families. **The marks are proposals.** The concepts are not ranked, marks are not averaged, and nothing here says which to build: that decision is Marco's.
+The 330 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on three axes from 0 to 3, then its 27 families. **The marks are proposals.** The concepts are not ranked, marks are not averaged, and nothing here says which to build: that decision is Marco's.
 
 ## What the marks are measured against
 
@@ -19,7 +19,7 @@ The 328 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 - **Valuable:** the "so that" or the quote of the story behind the question. Each reason ends with those words and the story, checked word for word against [Generated_User_Stories.md](../01_Research/Analysis/Generated_User_Stories.md).
 - **Feasible:** one flow, prototyped in this course by Marco and his agent. Anything needing hardware, a timetable or live feed, or an organisation or rule to change gets 1, as Marco asked. Other people's input, or a person behind the flow, gets 2. A flow that works on what the person enters gets 3. The reasons on this axis and on relevant are standard wordings, one per case.
 - **Relevant:** the chosen moment. **Assumption:** no moment has been chosen in this round, and the brief does not name one. Each concept is measured against the moment of its own question, as in the first round. 3 acts in that moment, 2 just before or after it, 1 on the wider system, 0 removes the moment by changing the trip.
-- **Marco's concepts** are marked against the question each one answers in [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md): S01 against HMW-05, S02 and S03 against HMW-01, S04 against HMW-12. Their question numbers come from the assignment he confirmed, except S04, whose question is proposed.
+- **Marco's concepts** are marked against the question each one answers in [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md): S01 against HMW-05, S02 and S03 against HMW-01, S04 against HMW-12, S05 against HMW-05, S06 against HMW-03. Their question numbers come from the assignment he confirmed, except S04 to S06, whose questions are proposed.
 - **[risky]** marks are those of [03_AI_Ideas.md](03_AI_Ideas.md). They lower a mark only where the reason says so.
 
 ## Marks
@@ -30,6 +30,8 @@ The 328 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 | S02 | Delay from device position | 3 [strong] | 1 [weak] | 3 [strong] | **V:** measures where the train really is ("as early as an unofficial app", F-01, for HMW-01). **F:** needs a live or timetable feed. **R:** acts in the moment: on the platform during a growing delay |
 | S03 | Users report the delay | 2 [medium] | 2 [medium] | 3 [strong] | **V:** as early as someone reports it ("as early as an unofficial app", F-01, for HMW-01). **F:** rests on other people's input, which one flow can stage. **R:** acts in the moment: on the platform during a growing delay |
 | S04 | Trip update sent to relatives | 3 [strong] | 2 [medium] | 3 [strong] | **V:** the person fetching him is told, by one step or a setting ("knows when he arrives", F-09, for HMW-12). **F:** needs a sender or person behind it, which one flow can stand in for; the automatic alert alone would need a feed and be 1. **R:** acts in the moment: on the train back, someone coming to fetch him |
+| S05 | Line state days before | 2 [medium] | 1 [weak] | 2 [medium] | **V:** helps with strikes, works and other planned changes only ("wait in the warm car", F-03, for HMW-05). **F:** needs a live or timetable feed. **R:** acts just before or after it: the seven-minute drive to the station |
+| S06 | Alternatives with estimated delays | 3 [strong] | 1 [weak] | 3 [strong] | **V:** which ways still run, with their likely delay ("ab wann macht es Sinn", F-02, for HMW-03). **F:** needs a live or timetable feed. **R:** acts in the moment: late at the stop, the bus not coming |
 | C01-01 | Source label | 2 [medium] | 1 [weak] | 3 [strong] | **V:** says whose figure, not an earlier one ("as early as an unofficial app", F-01). **F:** needs a live or timetable feed. **R:** acts in the moment: on the platform during a growing delay |
 | C01-02 | Disagreement flag | 2 [medium] | 1 [weak] | 3 [strong] | **V:** shows the gap he complains of, does not close it ("as early as an unofficial app", F-01). **F:** needs a live or timetable feed. **R:** acts in the moment: on the platform during a growing delay |
 | C01-03 | First-hand position [risky] | 3 [strong] | 1 [weak] | 3 [strong] | **V:** the position as soon as it exists ("as early as an unofficial app", F-01). **F:** needs an organisation to change. **R:** acts in the moment: on the platform during a growing delay |
@@ -357,13 +359,13 @@ The 328 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 
 ## Where the axes disagree
 
-173 concepts are strong on one axis and weak on another. A concept can be on more than one line. Concepts with a 0 are listed under "Out", not here.
+174 concepts are strong on one axis and weak on another. A concept can be on more than one line. Concepts with a 0 are listed under "Out", not here.
 
 - **Strong on feasible, weak on relevant (3):** C13-06, C19-11, C23-08.
 - **Strong on feasible, weak on valuable (4):** C07-09, C17-05, C19-11, C23-08.
-- **Strong on relevant, weak on feasible (135):** S02, C01-01, C01-02, C01-03, C01-05, C01-06, C01-07, C01-08, C01-09, C01-10, C01-11, C02-01, C02-02, C02-03, C02-04, C02-06, C02-07, C02-08, C02-09, C03-01, C03-02, C03-03, C03-04, C03-06, C03-07, C03-08, C03-09, C04-01, C04-02, C04-04, C04-05, C04-08, C04-11, C05-01, C05-03, C05-04, C05-05, C06-01, C06-05, C06-06, C06-10, C07-01, C07-02, C07-03, C07-05, C07-06, C08-01, C08-02, C08-04, C08-05, C08-06, C08-07, C08-08, C09-01, C09-02, C09-03, C09-04, C09-08, C09-12, C10-01, C10-02, C10-03, C10-04, C10-07, C10-08, C11-01, C11-04, C11-09, C11-11, C12-01, C12-02, C12-04, C12-06, C12-07, C12-08, C13-01, C13-02, C13-03, C13-04, C13-12, C14-01, C14-02, C14-03, C14-05, C14-06, C16-02, C16-03, C16-04, C16-05, C16-06, C17-01, C17-02, C17-03, C18-01, C18-02, C18-03, C18-08, C19-01, C19-02, C19-08, C20-01, C20-04, C20-05, C22-01, C22-02, C22-05, C22-09, C22-10, C23-01, C23-02, C23-07, C23-12, C24-01, C24-04, C24-05, C24-07, C24-09, C24-12, C25-01, C25-02, C25-03, C25-04, C25-05, C26-01, C26-02, C26-03, C26-04, C26-05, C26-10, C26-11, C27-03, C27-04, C27-05, C27-08, C27-09.
+- **Strong on relevant, weak on feasible (136):** S02, S06, C01-01, C01-02, C01-03, C01-05, C01-06, C01-07, C01-08, C01-09, C01-10, C01-11, C02-01, C02-02, C02-03, C02-04, C02-06, C02-07, C02-08, C02-09, C03-01, C03-02, C03-03, C03-04, C03-06, C03-07, C03-08, C03-09, C04-01, C04-02, C04-04, C04-05, C04-08, C04-11, C05-01, C05-03, C05-04, C05-05, C06-01, C06-05, C06-06, C06-10, C07-01, C07-02, C07-03, C07-05, C07-06, C08-01, C08-02, C08-04, C08-05, C08-06, C08-07, C08-08, C09-01, C09-02, C09-03, C09-04, C09-08, C09-12, C10-01, C10-02, C10-03, C10-04, C10-07, C10-08, C11-01, C11-04, C11-09, C11-11, C12-01, C12-02, C12-04, C12-06, C12-07, C12-08, C13-01, C13-02, C13-03, C13-04, C13-12, C14-01, C14-02, C14-03, C14-05, C14-06, C16-02, C16-03, C16-04, C16-05, C16-06, C17-01, C17-02, C17-03, C18-01, C18-02, C18-03, C18-08, C19-01, C19-02, C19-08, C20-01, C20-04, C20-05, C22-01, C22-02, C22-05, C22-09, C22-10, C23-01, C23-02, C23-07, C23-12, C24-01, C24-04, C24-05, C24-07, C24-09, C24-12, C25-01, C25-02, C25-03, C25-04, C25-05, C26-01, C26-02, C26-03, C26-04, C26-05, C26-10, C26-11, C27-03, C27-04, C27-05, C27-08, C27-09.
 - **Strong on relevant, weak on valuable (23):** C01-08, C02-10, C03-10, C04-07, C04-08, C07-02, C08-04, C08-08, C09-03, C11-05, C17-12, C22-02, C22-09, C22-10, C24-08, C25-09, C25-12, C26-03, C26-05, C26-06, C26-11, C27-09, C27-10.
-- **Strong on valuable, weak on feasible (89):** S01, S02, C01-03, C01-05, C01-09, C01-12, C02-01, C02-03, C03-01, C03-02, C04-01, C05-01, C05-02, C05-03, C05-04, C05-05, C06-01, C06-03, C06-05, C06-08, C06-10, C07-01, C07-03, C08-01, C08-05, C09-01, C09-02, C09-04, C09-12, C10-01, C10-03, C10-07, C11-01, C11-02, C11-03, C11-04, C12-01, C12-02, C12-04, C12-06, C13-01, C13-02, C13-03, C13-04, C13-12, C14-01, C14-05, C14-07, C15-03, C15-04, C15-06, C16-01, C16-06, C16-08, C17-01, C17-02, C17-04, C18-01, C18-03, C18-04, C19-01, C19-02, C19-08, C20-01, C20-04, C20-05, C20-06, C21-03, C22-01, C22-05, C23-01, C23-04, C23-05, C23-06, C23-07, C24-01, C24-04, C24-05, C24-06, C24-09, C25-01, C25-04, C25-06, C26-01, C26-02, C27-04, C27-05, C27-06, C27-08.
+- **Strong on valuable, weak on feasible (90):** S01, S02, S06, C01-03, C01-05, C01-09, C01-12, C02-01, C02-03, C03-01, C03-02, C04-01, C05-01, C05-02, C05-03, C05-04, C05-05, C06-01, C06-03, C06-05, C06-08, C06-10, C07-01, C07-03, C08-01, C08-05, C09-01, C09-02, C09-04, C09-12, C10-01, C10-03, C10-07, C11-01, C11-02, C11-03, C11-04, C12-01, C12-02, C12-04, C12-06, C13-01, C13-02, C13-03, C13-04, C13-12, C14-01, C14-05, C14-07, C15-03, C15-04, C15-06, C16-01, C16-06, C16-08, C17-01, C17-02, C17-04, C18-01, C18-03, C18-04, C19-01, C19-02, C19-08, C20-01, C20-04, C20-05, C20-06, C21-03, C22-01, C22-05, C23-01, C23-04, C23-05, C23-06, C23-07, C24-01, C24-04, C24-05, C24-06, C24-09, C25-01, C25-04, C25-06, C26-01, C26-02, C27-04, C27-05, C27-06, C27-08.
 - **Strong on valuable, weak on relevant (11):** C01-12, C11-03, C14-07, C15-03, C15-04, C15-06, C16-01, C16-08, C18-04, C20-06, C25-06.
 
 ## Out
@@ -374,9 +376,9 @@ The 328 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 
 | axis | strong (3) | medium (2) | weak (1) | out (0) |
 | --- | --- | --- | --- | --- |
-| valuable | 106 | 149 | 73 | 0 |
-| feasible | 33 | 52 | 243 | 0 |
-| relevant | 181 | 64 | 70 | 13 |
+| valuable | 107 | 150 | 73 | 0 |
+| feasible | 33 | 52 | 245 | 0 |
+| relevant | 182 | 65 | 70 | 13 |
 
 No axis below 2: 58 concepts. This is a count, not a shortlist.
 
@@ -404,7 +406,7 @@ The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same thre
 | FAM-04 | The source made visible | 13 | 2 [medium] | 1 [weak] | 3 [strong] | 0/9/4/0 · 0/0/13/0 · 12/1/0/0 | **V:** trust in a figure, while "as early as an unofficial app" (F-01) asks for it earlier. **F:** the sources come from a feed. **R:** beside the fact, in the moment |
 | FAM-05 | Honest uncertainty | 12 | 2 [medium] | 1 [weak] | 3 [strong] | 2/9/1/0 · 0/0/12/0 · 11/1/0/0 | **V:** truer figures, still close to the guess in "a 20 inizio a sentire la puzza" (F-01). **F:** the ranges and records come from a feed. **R:** beside the fact, in the moment |
 | FAM-06 | Times that allow for reality | 9 | 2 [medium] | 1 [weak] | 3 [strong] | 4/5/0/0 · 1/0/8/0 · 5/0/4/0 | **V:** allows for lateness, and only part of it reaches "the time that is kept" (F-13). **F:** needs a feed, or operators to change timetables. **R:** most in the moment, the timetable changes on the wider system |
-| FAM-07 | Told sooner | 6 | 2 [medium] | 1 [weak] | 2 [medium] | 1/4/1/0 · 1/0/5/0 · 2/3/1/0 | **V:** earlier word serves "wait in the warm car" (F-03) in part. **F:** operators have to say it sooner. **R:** most just before the moment |
+| FAM-07 | Told sooner | 7 | 2 [medium] | 1 [weak] | 2 [medium] | 1/5/1/0 · 1/0/6/0 · 2/4/1/0 | **V:** earlier word serves "wait in the warm car" (F-03) in part. **F:** operators have to say it sooner. **R:** most just before the moment |
 | FAM-08 | One answer, not data | 28 | 3 [strong] | 1 [weak] | 3 [strong] | 19/9/0/0 · 2/0/26/0 · 26/2/0/0 | **V:** settles what to do, as "ab wann macht es Sinn" (F-02) asks. **F:** a verdict rests on a feed. **R:** at the moment of deciding |
 | FAM-09 | Less in the way | 6 | 2 [medium] | 1 [weak] | 3 [strong] | 2/4/0/0 · 1/0/5/0 · 5/0/1/0 | **V:** serves "no extra step" (F-11) in part, and gives no news of its own. **F:** needs a feed or a provider to change; only C27-01 is one flow. **R:** in the moment of reading |
 | FAM-10 | What lies ahead, known beforehand | 13 | 3 [strong] | 1 [weak] | 3 [strong] | 7/5/1/0 · 1/0/12/0 · 8/5/0/0 | **V:** knowing ahead spares "ride past my station" (F-20). **F:** the state of places comes from a feed. **R:** most in the moment, the rest just before it |
@@ -415,7 +417,7 @@ The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same thre
 | FAM-15 | It knows the traveller | 15 | 2 [medium] | 3 [strong] | 2 [medium] | 4/8/3/0 · 12/0/3/0 · 6/8/1/0 | **V:** saves a step, as in "no extra step" (F-11), and brings no news. **F:** most work on what the person enters. **R:** most before the moment |
 | FAM-16 | Settled beforehand | 8 | 2 [medium] | 3 [strong] | 2 [medium] | 4/4/0/0 · 7/0/1/0 · 1/7/0/0 | **V:** settled beforehand, as with "wenn der Bus nicht kommt" (F-02); the doubt may stay. **F:** a rule the person enters. **R:** before the moment, by nature |
 | FAM-17 | The decision stays with the person | 2 | 3 [strong] | 1 [weak] | 3 [strong] | 2/0/0/0 · 0/0/2/0 · 2/0/0/0 | **V:** serves "decides the route and is not fined" (F-14a) directly. **F:** rerouting needs a live traffic feed. **R:** at the queue or the route change |
-| FAM-18 | All ways side by side | 6 | 3 [strong] | 1 [weak] | 3 [strong] | 5/1/0/0 · 1/0/5/0 · 6/0/0/0 | **V:** serves "tutte le opzioni possibili" (F-04) directly. **F:** the options come from timetables and feeds. **R:** at the moment of comparing |
+| FAM-18 | All ways side by side | 7 | 3 [strong] | 1 [weak] | 3 [strong] | 6/1/0/0 · 1/0/6/0 · 7/0/0/0 | **V:** serves "tutte le opzioni possibili" (F-04) directly. **F:** the options come from timetables and feeds. **R:** at the moment of comparing |
 | FAM-19 | The trip as one purchase | 2 | 1 [weak] | 1 [weak] | 1 [weak] | 0/1/1/0 · 0/0/2/0 · 1/0/1/0 | **V:** "tutte le opzioni possibili" (F-04) asks for options, not one price. **F:** operators have to sell together. **R:** mostly on the wider system |
 | FAM-20 | A place kept | 6 | 3 [strong] | 1 [weak] | 3 [strong] | 3/2/1/0 · 0/0/6/0 · 3/1/2/0 | **V:** serves "still finds a train at the time he wants" (F-04) and its parking and seat equivalents. **F:** operators have to keep the place. **R:** at or before the moment |
 | FAM-21 | Prices and tickets that fit the real use | 13 | 2 [medium] | 1 [weak] | 1 [weak] | 6/6/1/0 · 0/0/13/0 · 1/2/9/1 | **V:** in part what "pay for a pass meant for daily travel" (F-12) asks. **F:** operators have to change the offer, except two answers on what he enters. **R:** mostly the product, away from the moment |
@@ -462,7 +464,7 @@ The same 27 families, ordered by the sum of their three marks, then by their low
 | FAM-13 | Those depending on them are told | Whoever waits for the traveller, at home or at the station, is told by the service or by the traveller in one step | Human+AI | 3 | 1 | 3 | 7 |
 | FAM-14 | The step done for them | The service or a person does the step, such as rebooking or claiming, in the traveller's place | AI | 3 | 1 | 3 | 7 |
 | FAM-17 | The decision stays with the person | Nothing changes for the traveller without their consent | AI | 3 | 1 | 3 | 7 |
-| FAM-18 | All ways side by side | Every way of making the trip compared side by side, door to door | AI | 3 | 1 | 3 | 7 |
+| FAM-18 | All ways side by side | Every way of making the trip compared side by side, door to door | Human+AI | 3 | 1 | 3 | 7 |
 | FAM-20 | A place kept | A seat or a parking place is kept before the traveller arrives | AI | 3 | 1 | 3 | 7 |
 | FAM-23 | The connection held | The connecting train or bus waits for the late one | AI | 3 | 1 | 3 | 7 |
 | FAM-04 | The source made visible | Every piece of news says who gave it, how old it is and whether it is final | AI | 2 | 1 | 3 | 6 |
@@ -472,7 +474,7 @@ The same 27 families, ordered by the sum of their three marks, then by their low
 | FAM-11 | The place shows it | The platform, stop, vehicle or car park itself shows the information | AI | 2 | 1 | 3 | 6 |
 | FAM-12 | A person on the spot | A person on the spot answers or decides at that moment | AI | 2 | 1 | 3 | 6 |
 | FAM-26 | Travellers carry it together | Travellers on the same way share lifts, tickets, company or tasks | AI | 1 | 2 | 3 | 6 |
-| FAM-07 | Told sooner | What is already known, such as a strike or works, is said earlier | AI | 2 | 1 | 2 | 5 |
+| FAM-07 | Told sooner | What is already known, such as a strike or works, is said earlier | Human+AI | 2 | 1 | 2 | 5 |
 | FAM-21 | Prices and tickets that fit the real use | Prices and passes follow how the person really travels, for example fewer office days | AI | 2 | 1 | 1 | 4 |
 | FAM-24 | More or different service | The operator runs more or different service, or repairs what fails | AI | 2 | 1 | 1 | 4 |
 | FAM-25 | Rules and rights | A rule or a right obliges an operator or an employer to act | AI | 2 | 1 | 1 | 4 |

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 18:59
+date: 2026-11-02 19:02
 method: coding
 status: draft
 grade: n/a
@@ -13,7 +13,7 @@ related: [03_AI_Ideas.md, 01_How_might_we.md, 05_Ideas_prioritization.md]
 
 The concepts of [02_Human_Ideas.md](02_Human_Ideas.md), written by Marco, and of [03_AI_Ideas.md](03_AI_Ideas.md), written by Claude, grouped by direction: two concepts are in one family when they answer the question in the same way. Nothing is added, and the families are not ranked.
 
-- **Numbers:** S01 to S04 are Marco's, C01-01 to C27-12 are the AI's.
+- **Numbers:** S01 to S06 are Marco's, C01-01 to C27-12 are the AI's.
 - **Families and directions are different.** The direction column of `03_AI_Ideas.md` was written while generating. The families were made afresh from what each concept does, so a concept can sit apart from its direction.
 - **Questions:** Marco's concepts do not name a question. The section "Questions for Marco's concepts" assigns some, as Marco confirmed.
 - **[risky]** marks are those of `03_AI_Ideas.md`. The concepts it lists as dropped are left out.
@@ -28,7 +28,7 @@ The concepts of [02_Human_Ideas.md](02_Human_Ideas.md), written by Marco, and of
 | FAM-04 | The source made visible | A fact comes with who gave it, how old it is, why, or whether it is final | C01-01, C01-02, C02-08, C03-03, C04-02, C07-02, C08-04, C09-03, C12-07, C14-12, C16-05, C17-03, C22-02 | AI |
 | FAM-05 | Honest uncertainty | The answer is a range, a likelihood or a past record, not one firm figure | C01-07, C01-08, C02-01 [risky], C02-09 [risky], C04-11, C06-02 [risky], C08-02, C10-04 [risky], C16-03, C16-04, C18-02 [risky], C22-01 | AI |
 | FAM-06 | Times that allow for reality | The time given already allows for crowds, usual lateness or real margins | C08-01, C10-09, C10-10, C12-08, C13-12, C16-01, C16-02, C16-07, C16-08 | AI |
-| FAM-07 | Told sooner | What is already known or decided is said earlier than today | C02-03, C02-04, C05-07, C08-09, C08-11, C19-11 | AI |
+| FAM-07 | Told sooner | What is already known or decided is said earlier than today | S05, C02-03, C02-04, C05-07, C08-09, C08-11, C19-11 | Marco, AI |
 | FAM-08 | One answer, not data | The traveller gets a verdict or a single figure to act on, and does the weighing no more | C01-10, C02-02, C03-01, C03-02, C04-01, C05-04, C06-01, C08-05, C08-06, C09-01, C09-12, C10-07, C10-08, C13-03, C13-04, C15-01, C15-02, C16-06, C18-08, C19-05, C20-10, C22-05, C23-07, C24-09, C25-05, C26-10, C27-04, C27-08 | AI |
 | FAM-09 | Less in the way | What stands around the fact is removed, so only what matters is left | C07-05, C14-05, C14-06, C27-01, C27-02, C27-03 [risky] | AI |
 | FAM-10 | What lies ahead, known beforehand | The state of the place or the way is known before getting there | C03-04, C10-03, C17-04, C17-06, C18-01, C20-01, C20-02, C20-11, C23-01, C23-02, C24-01, C24-02, C26-11 | AI |
@@ -39,7 +39,7 @@ The concepts of [02_Human_Ideas.md](02_Human_Ideas.md), written by Marco, and of
 | FAM-15 | It knows the traveller | Their usual trip, needs, limits or record are kept, so they do not have to say them again | C05-06, C07-04, C07-09, C08-10, C09-02, C10-01, C10-02, C14-04, C15-10, C17-05, C21-05, C22-06, C23-08, C26-07, C27-07 | AI |
 | FAM-16 | Settled beforehand | A rule, limit or fallback is agreed before the moment, by the traveller or with others | C02-11, C03-11, C04-06, C09-11, C11-02, C12-12, C21-04, C26-08 | AI |
 | FAM-17 | The decision stays with the person | Nothing changes for them without their consent | C17-01, C17-02 | AI |
-| FAM-18 | All ways side by side | The ways of making the trip are compared together, door to door | C06-10, C07-01, C07-03, C13-01, C13-02, C13-10 | AI |
+| FAM-18 | All ways side by side | The ways of making the trip are compared together, door to door | S06, C06-10, C07-01, C07-03, C13-01, C13-02, C13-10 | Marco, AI |
 | FAM-19 | The trip as one purchase | The whole journey has one price and one protection | C07-06, C07-07 [risky] | AI |
 | FAM-20 | A place kept | A seat or a parking place is held or set aside before the moment | C06-03 [risky], C06-05, C06-09, C18-03, C18-11, C22-10 [risky] | AI |
 | FAM-21 | Prices and tickets that fit the real use | What is paid and what a ticket allows follows how the person really travels | C06-08, C11-01, C11-03, C11-06, C15-03, C15-04, C15-05, C15-06, C17-07, C18-10 [risky], C21-06, C21-11, C21-12 | AI |
@@ -59,38 +59,43 @@ The concepts of [02_Human_Ideas.md](02_Human_Ideas.md), written by Marco, and of
 
 ## Families held by one hand
 
-- **Marco alone:** none. Each of his four concepts shares a family with AI concepts.
-- **AI alone:** 23 families: FAM-04 (The source made visible), FAM-05 (Honest uncertainty), FAM-06 (Times that allow for reality), FAM-07 (Told sooner), FAM-08 (One answer, not data), FAM-09 (Less in the way), FAM-10 (What lies ahead, known beforehand), FAM-11 (The place shows it), FAM-12 (A person on the spot), FAM-14 (The step done for them), FAM-15 (It knows the traveller), FAM-16 (Settled beforehand), FAM-17 (The decision stays with the person), FAM-18 (All ways side by side), FAM-19 (The trip as one purchase), FAM-20 (A place kept), FAM-21 (Prices and tickets that fit the real use), FAM-22 (Money covers the failure), FAM-23 (The connection held), FAM-24 (More or different service), FAM-25 (Rules and rights), FAM-26 (Travellers carry it together), FAM-27 (Change the trip or the habit).
+- **Marco alone:** none. Each of his six concepts shares a family with AI concepts.
+- **AI alone:** 21 families: FAM-04 (The source made visible), FAM-05 (Honest uncertainty), FAM-06 (Times that allow for reality), FAM-08 (One answer, not data), FAM-09 (Less in the way), FAM-10 (What lies ahead, known beforehand), FAM-11 (The place shows it), FAM-12 (A person on the spot), FAM-14 (The step done for them), FAM-15 (It knows the traveller), FAM-16 (Settled beforehand), FAM-17 (The decision stays with the person), FAM-19 (The trip as one purchase), FAM-20 (A place kept), FAM-21 (Prices and tickets that fit the real use), FAM-22 (Money covers the failure), FAM-23 (The connection held), FAM-24 (More or different service), FAM-25 (Rules and rights), FAM-26 (Travellers carry it together), FAM-27 (Change the trip or the habit).
 
 Both hands:
 
 - **FAM-01 Told where they are:** S01 with 16 AI concepts.
 - **FAM-02 Delay measured from the real position:** S02 with 2 AI concepts.
 - **FAM-03 Travellers report:** S03 with 26 AI concepts.
+- **FAM-07 Told sooner:** S05 with 6 AI concepts.
 - **FAM-13 Those depending on them are told:** S04 with 12 AI concepts.
+- **FAM-18 All ways side by side:** S06 with 6 AI concepts.
 
-Three of Marco's concepts are about gathering and delivering delay information; S04 passes it on to the people waiting for the traveller. The AI concepts were asked of all 27 questions and his were not written for them, so the AI-only families show what the wider set of questions asked for, as well as what each hand reached for.
+S01 to S03 gather and deliver delay information, S04 passes it on to the people waiting for the traveller, S05 warns days ahead and S06 shows the alternatives with estimated delays. The AI concepts were asked of all 27 questions and his were not written for them, so the AI-only families show what the wider set of questions asked for, as well as what each hand reached for.
 
 ## Count
 
-- **Concepts in:** 328: 4 by Marco, 324 by the AI.
+- **Concepts in:** 330: 6 by Marco, 324 by the AI.
 - **Families out:** 27.
 - **Unclassified:** 2.
 
 ## Questions for Marco's concepts
 
-Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_might_we.md) existed. These assignments were read from what each concept says, and Marco confirmed them on 2026-11-01. S04, added on 2026-11-02, has proposed questions that Marco has not confirmed yet. **Answers** means the concept does what the question asks. **Partly** means it covers one part, and the cell says which part is missing.
+Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_might_we.md) existed. These assignments were read from what each concept says, and Marco confirmed them on 2026-11-01. S04 to S06, added on 2026-11-02, have proposed questions that Marco has not confirmed yet. **Answers** means the concept does what the question asks. **Partly** means it covers one part, and the cell says which part is missing.
 
 | concept | what it does | answers | partly | not assigned, though close |
 | --- | --- | --- | --- | --- |
 | S01 | Gathers the delays on the user's leg and sends them as soon as available on the chosen channel, filtered by type and day | HMW-05: a change on the usual train, in time, on his office days | HMW-01: the delay early, but not where the train is<br>HMW-02: no need to read the board, but a cancellation only if the filter types cover it<br>HMW-09: the delay on the leg, but not whether the connection holds | HMW-12: it tells the user, not the person coming to fetch him |
 | S02 | Works out the delay by comparing the devices of those who bought the train with where the train should be, then sends it on the chosen channel | HMW-01: where the train really is, without depending on the board | HMW-02: a measured delay means less guessing, but it does not say a cancellation is coming<br>HMW-05: in time only if devices are already on board before he leaves<br>HMW-09: the measured delay, but not whether the connection holds | HMW-12: same reason as S01 |
-| S03 | Users report the delay directly on the app | HMW-01: the delay as early as someone reports it, with the position only if they give it | HMW-02: others' word in place of the numbers, but no answer on a cancellation<br>HMW-04: whether the bus has been seen, if someone is there to say it late in the evening<br>HMW-05: others on the line say what they see, if someone reports before he leaves | HMW-12: same reason as S01 |
+| S03 | Users report the delay directly on the app, and the app prompts them to report if they have not | HMW-01: the delay as early as someone reports it, with the position only if they give it | HMW-02: others' word in place of the numbers, but no answer on a cancellation<br>HMW-04: whether the bus has been seen, if someone is there to say it late in the evening<br>HMW-05: others on the line say what they see, if someone reports before he leaves | HMW-12: same reason as S01 |
 | S04 | The user sends an update on the trip to relatives or friends in one step, or sets it for a trip so that they are alerted directly, on a chosen channel or through the service's WhatsApp or SMS in the user's name | HMW-12: the person coming to fetch him knows when he arrives, with no effort from him on the train | HMW-04: home is warned, but the teenager still decides whether to wait<br>HMW-09: the people he is meeting are warned, but he still does not know whether the connection holds<br>HMW-20: someone knows where they are, but the station and the walk stay unknown | HMW-01: the others learn the delay, the commuter on the platform learns nothing new |
+| S05 | Alerts on the state of the line in the days before: strikes, works on the line and other planned changes | none fully; it is marked against HMW-05 | HMW-05: a planned change on his usual train, known days before, but not the lateness of that morning<br>HMW-02: a strike known ahead spares guessing that day, but not a cancellation during a growing delay<br>HMW-13: whether a strike or works touch the train home, but not the evening times | HMW-16: it warns of disruption, it does not make the promised time the kept one |
+| S06 | When a trip is delayed or disrupted, now or days before, shows the alternatives, public and private, with delays estimated from past trips and other users' comments | HMW-03: which ways still run from there, with their likely delay; the point to call home only through those estimates | HMW-07: every way side by side, but only when the trip is disrupted, not when booking<br>HMW-22: the alternatives to waiting, but whether there is a seat only if other users say so<br>HMW-16: times from past trips, but the promised time is not made the kept one | HMW-04: it shows the ways, it does not settle whether to call home |
 
-- **Where they land:** all four answer questions in SC-01, S04 through HMW-12. HMW-04 and HMW-09, reached partly, are in SC-02. Only S04 reaches CL-07, partly, through HMW-20. None reaches CL-06, CL-08 or CL-09.
+- **Where they land:** S01 to S05 answer or are marked against questions in SC-01; S06 answers HMW-03, in SC-02. HMW-04, HMW-07, HMW-09, HMW-13, HMW-16 and HMW-22, reached partly, are in SC-02 too. Only S04 reaches CL-07, partly, through HMW-20. None reaches CL-06, CL-08 or CL-09.
 - **An assumption in S02:** it needs travellers to share the position of their device. The same assumption marks C01-05 as [risky] in `03_AI_Ideas.md`. S02 carries no mark here, because the marks are those of that file; Marco may want to weigh it.
 - **Assumptions in S04:** the relative or friend has to accept messages from the service's number, and a message sent "as if it came from the user" still comes from that number, not from the user's own, so it has to say on whose behalf it is sent. The automatic alert also needs to know the delay, so it rests on S01, S02 or S03 or on a feed. No mark here, for the same reason as S02.
+- **Assumptions in S06:** the estimates need a record of past trips and enough comments from other users on each alternative; private transport needs a traffic feed. No mark here, for the same reason as S02.
 
 ## Decisions taken
 
@@ -101,6 +106,6 @@ Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_mi
 ## Connections
 
 - [03_AI_Ideas.md](03_AI_Ideas.md) holds the AI concepts clustered here, with the question and the [risky] reason of each.
-- [02_Human_Ideas.md](02_Human_Ideas.md) holds Marco's concepts S01 to S04.
+- [02_Human_Ideas.md](02_Human_Ideas.md) holds Marco's concepts S01 to S06.
 - [01_How_might_we.md](01_How_might_we.md) holds the questions assigned to Marco's concepts.
 - [05_Ideas_prioritization.md](05_Ideas_prioritization.md) holds the proposed marks of these concepts and families.

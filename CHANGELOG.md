@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 19:02
+
+- **Files:** `02_Ideation/02_Human_Ideas.md`, `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/05_Ideas_prioritization.md`, `02_Ideation/README.md`
+- **Change:** `02_Human_Ideas.md` saved with Marco's text from his editor (S03 extended, S05 and S06 new) and S04 as he corrected it. S05 joins FAM-07 and S06 joins FAM-18, both now Marco and AI; proposed questions (S05 marked against HMW-05, S06 answers HMW-03) and S06's assumptions added; S05 marked 2/1/2, S06 3/1/3; counts, disagreements, spreads and authors updated. Family marks unchanged.
+- **Why:** Marco asked to update the rest to his ideas file; his S03 to S06 were in his editor and not yet saved to disk.
+
 ## 2026-11-02 18:59
 
 - **Files:** `02_Ideation/02_Human_Ideas.md`, `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/05_Ideas_prioritization.md`, `02_Ideation/README.md`
