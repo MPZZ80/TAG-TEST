@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [research, internal, script]
-related: [01_plan.md, 03_posting_venues.md, 01_survey_en.md]
+related: [01_plan.md, 03_posting_venues.md, 01_survey_en.md, 05_direct_posts.md]
 ---
 
 # Permission Requests
@@ -219,3 +219,4 @@ Links to the notes this file rests on. The same files are listed by name in the 
 
 - The people to write to, by language, are in [03_posting_venues.md](03_posting_venues.md).
 - The survey these messages ask to share is [01_survey_en.md](01_survey_en.md) and its translations; it is the survey activity of [01_plan.md](../02_Plan/01_plan.md).
+- [05_direct_posts.md](05_direct_posts.md): the posts for the places that need no permission, the counterpart of these messages.

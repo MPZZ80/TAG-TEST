@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, synthesis, information, disruption]
-related: [03_AI_Ideas.md, 01_How_might_we.md, 05_Ideas_prioritization.md]
+related: [03_AI_Ideas.md, 01_How_might_we.md, 05_Ideas_prioritization.md, 06_Chosen_concept.md, SPEC-00_overview.md]
 ---
 
 # Human and AI Ideas: Families of Concepts
@@ -109,3 +109,5 @@ Marco wrote S01 to S03 before the 27 questions of [01_How_might_we.md](01_How_mi
 - [02_Human_Ideas.md](02_Human_Ideas.md) holds Marco's concepts S01 to S06.
 - [01_How_might_we.md](01_How_might_we.md) holds the questions assigned to Marco's concepts.
 - [05_Ideas_prioritization.md](05_Ideas_prioritization.md) holds the proposed marks of these concepts and families.
+- [06_Chosen_concept.md](06_Chosen_concept.md): the chosen concept: all 27 families, 18 main and 9 in the background.
+- [SPEC-00_overview.md](../04_Specifications/SPEC-00_overview.md): the specifications traced by these families.

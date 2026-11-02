@@ -72,3 +72,10 @@ The commuter's stop is known when she boards (C26-07). The product follows the r
 
 - The channel that reaches her asleep [technology choice open].
 - Whether "two stops" is fixed or set by the commuter; how often to repeat; what to offer when the stop is passed [not traced].
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 4, 6; The things it deals with (trip, run, leg); Channels (something worn or carried); Rules that hold everywhere (consent to share position).
+- [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-23.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-15, FAM-16, FAM-08.

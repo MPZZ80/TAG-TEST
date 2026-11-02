@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, planning]
-related: [Spec_instructions.md, 06_Chosen_concept.md, 04_Generated_User_Stories.md, 03_Generated_Features.md, 02_Generated_Touchpoints.md, 01_How_might_we.md, 04_Human+AI_Ideas.md, 05_Ideas_prioritization.md]
+related: [Spec_instructions.md, 06_Chosen_concept.md, 04_Generated_User_Stories.md, 03_Generated_Features.md, 02_Generated_Touchpoints.md, 01_How_might_we.md, 04_Human+AI_Ideas.md, 05_Ideas_prioritization.md, SPEC-01_foundation.md]
 ---
 
 # Specifications: Overview
@@ -125,3 +125,15 @@ Every story is also served by [SPEC-01](SPEC-01_foundation.md).
 
 **Technology choices open**
 - One booking and one payment across sellers (SPEC-11); moves with no signal (SPEC-11); handing a claim over (SPEC-13); sources of walking times (SPEC-10), of station facilities (SPEC-14), of tolls and stickers (SPEC-16); ending a session by itself (SPEC-17).
+
+## Connections
+
+- [Spec_instructions.md](Spec_instructions.md): the instructions these specifications were written with.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept, whose families the specifications draw on.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the 24 user stories; every behaviour specification serves some of them, and the foundation holds what they share.
+- [03_Generated_Features.md](../02_Analysis/03_Generated_Features.md): the features the specifications trace to.
+- [02_Generated_Touchpoints.md](../02_Analysis/02_Generated_Touchpoints.md): the touchpoints the specifications trace to.
+- [01_How_might_we.md](../03_Ideation/01_How_might_we.md): the problem questions the specifications trace to.
+- [04_Human+AI_Ideas.md](../03_Ideation/04_Human+AI_Ideas.md): the families and their concepts, by which the specifications are traced.
+- [05_Ideas_prioritization.md](../03_Ideation/05_Ideas_prioritization.md): the marks quoted in the traceability.
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation, the first specification this overview maps.

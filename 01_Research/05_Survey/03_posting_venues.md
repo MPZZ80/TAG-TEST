@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [research, desk, output]
-related: [01_plan.md, 01_survey_en.md, GR-004_legambiente_2025_pendolaria-20-edizione.md, OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md]
+related: [01_plan.md, 01_survey_en.md, GR-004_legambiente_2025_pendolaria-20-edizione.md, OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, 01_survey_de.md, 01_survey_es.md, 01_survey_fr.md, 01_survey_it.md, 01_survey_nl.md, 04_permission_requests.md, 05_direct_posts.md]
 ---
 
 # Where to Post the Survey
@@ -309,3 +309,6 @@ Links to the notes this file rests on. The same files are listed by name in the 
 - Lists the places for the survey in [01_survey_en.md](01_survey_en.md) and its translations, which is the survey activity of [01_plan.md](../02_Plan/01_plan.md).
 - The list of Italian committees comes from the Pendolaria site of the organisation behind [GR-004_legambiente_2025_pendolaria-20-edizione.md](../03_Desk_Research/Doc_Notes/Global_Reports/GR-004_legambiente_2025_pendolaria-20-edizione.md).
 - Two forums are already sources of the research: [OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md](../03_Desk_Research/Doc_Notes/Online_Forums/OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md) and [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../03_Desk_Research/Doc_Notes/Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md).
+- [01_survey_de.md](01_survey_de.md), [01_survey_es.md](01_survey_es.md), [01_survey_fr.md](01_survey_fr.md), [01_survey_it.md](01_survey_it.md), [01_survey_nl.md](01_survey_nl.md): the language versions this list places.
+- [04_permission_requests.md](04_permission_requests.md): the messages for the people listed here, by language.
+- [05_direct_posts.md](05_direct_posts.md): the posts for the places listed here that need no permission.

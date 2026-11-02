@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, crowding, first-last-mile, workarounds]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, SPEC-10_times-that-can-be-kept.md, SPEC-14_the-station-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, SPEC-10_times-that-can-be-kept.md, SPEC-14_the-station-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-04_alerts-on-the-usual-trip.md]
 ---
 
 # SPEC-03: Travellers Report What They See
@@ -96,3 +96,15 @@ Travellers who are on a run, at a stop, at a change, at a car park or in a stati
 - That travellers are willing to report is in no note: the only trace is 2 of 17 Belgian respondents who believe other travellers (TP-090) [not traced].
 - How long each kind of report lasts, how many reports make a fact credible, how wrong or abusive reports are found [not traced].
 - Whether a traveller who reports gets anything back [not traced].
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principle 2; The things it deals with (fact, run, place); States (fact); Sources of information (other travellers); Rules that hold everywhere (consent to report, never shared).
+- [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
+- [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
+- [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
+- [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
+- [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-01, F-02, F-06, F-07, F-15, F-17a, F-19, F-20.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-03.
+- [SPEC-04_alerts-on-the-usual-trip.md](SPEC-04_alerts-on-the-usual-trip.md): the specifications that name this one where their behaviours meet.

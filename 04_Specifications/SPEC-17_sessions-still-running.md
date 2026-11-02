@@ -79,3 +79,10 @@ When the commuter starts a paid session (street parking, a shared bike), the pro
 
 - The reminder interval; whether ending by itself at the set time needs the operator [not traced; technology choice open].
 - Whether a failed return attempt is accepted as an end by operators [not traced].
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principle 4; The things it deals with (place); Channels; Rules that hold everywhere.
+- [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): named in this specification (the text), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-18, F-21.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-16, FAM-15, FAM-13, FAM-08, FAM-10.

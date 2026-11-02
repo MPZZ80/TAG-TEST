@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 23:51
+
+- **Files:** the 18 specifications in `04_Specifications/`; `02_Analysis/02_Generated_Touchpoints.md`, `03_Generated_Features.md`, `04_Generated_User_Stories.md`; `03_Ideation/01_How_might_we.md`, `03_AI_Ideas.md`, `04_Human+AI_Ideas.md`, `05_Ideas_prioritization.md`, `06_Chosen_concept.md`; `01_Research/02_Plan/04_open_issues.md`; `01_Research/05_Survey/01_survey_en.md`, `03_posting_venues.md`, `04_permission_requests.md`; `01_Research/04_Interviews/Marco_Palermo_notes.md`, `Valentina_Di_Floriano_notes.md`; the source notes AR-006, GR-004, GR-047, OF-001 and OF-002.
+- **Change:** The `related` network made two-sided: 112 one-sided links completed on the other side, each with a sentence in "Connections". The specifications get a "Connections" section that names each related file and what is shared. Left one-sided on purpose: the 15 links from `03_Ideation/_old/` and the course prompts, which are archive and external material.
+- **Why:** Marco asked to verify the network and then to fix the one-sided links and the missing "Connections" ("vai").
+
 ## 2026-11-02 23:45
 
 - **Files:** `AGENTS.md`, `01_Research/02_Plan/01_plan.md`

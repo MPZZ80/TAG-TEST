@@ -74,3 +74,11 @@ After a trip with a delay, the product says on arrival what may be owed for it (
 
 - Handing a claim over depends on each operator's process [technology choice open].
 - Whether travellers on the same delayed train could claim together (C19-12) [not traced].
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: The things it deals with (trip, run, ticket); States (run, trip); Sources of information; Rules that hold everywhere.
+- [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
+- [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (Operating logic), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-16.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-07, FAM-26, FAM-14.

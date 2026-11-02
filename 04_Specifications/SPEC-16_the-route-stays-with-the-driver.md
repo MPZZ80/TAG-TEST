@@ -73,3 +73,9 @@ When the commuter drives, the route never changes without his yes (C17-01): a qu
 
 - Where toll and sticker rules come from (FAM-10, background) [technology choice open].
 - Whether F-14a fits a product for intercity commuting by train and car: drivers are a desk persona [not traced].
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principle 5; The user (preferences); The things it deals with (leg, way); Channels (voice while driving); Rules that hold everywhere.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-14a, F-14.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-17, FAM-04, FAM-15, FAM-03, FAM-10.

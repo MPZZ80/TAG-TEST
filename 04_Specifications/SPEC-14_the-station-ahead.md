@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-17_sessions-still-running.md]
 ---
 
 # SPEC-14: The Station Ahead
@@ -78,3 +78,12 @@ For each station or stop on the commuter's trip, the product knows the state of 
 - Where the state of facilities comes from: operator data is a background family (FAM-10, feasible 1) [technology choice open].
 - Whether travellers waiting late want to be found by others (C20-08) [not traced].
 - Cost of parking and bike places: asked by F-15; its source [not traced].
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 2, 6; The user (needs); The things it deals with (place); Sources of information; Channels; Rules that hold everywhere.
+- [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
+- [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-15, F-17a, F-20.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-03, FAM-08, FAM-26, FAM-15, FAM-01, FAM-10.
+- [SPEC-17_sessions-still-running.md](SPEC-17_sessions-still-running.md): the specifications that name this one where their behaviours meet.

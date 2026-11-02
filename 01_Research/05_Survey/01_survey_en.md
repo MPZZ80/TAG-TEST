@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [research, internal, script]
-related: [01_plan.md, 04_open_issues.md, 03_posting_venues.md]
+related: [01_plan.md, 04_open_issues.md, 03_posting_venues.md, 01_survey_de.md, 01_survey_es.md, 01_survey_fr.md, 01_survey_it.md, 01_survey_nl.md, 04_permission_requests.md, 05_direct_posts.md, 07_survey_results.md]
 ---
 
 # Commuter Survey: English Version
@@ -263,3 +263,7 @@ Links to the notes this file rests on. The same files are listed by name in the 
 - Each block of questions answers open issues listed in [04_open_issues.md](../02_Plan/04_open_issues.md).
 - It is the survey activity of the research plan, [01_plan.md](../02_Plan/01_plan.md).
 - [03_posting_venues.md](03_posting_venues.md) lists where to post it, by language.
+- [01_survey_de.md](01_survey_de.md), [01_survey_es.md](01_survey_es.md), [01_survey_fr.md](01_survey_fr.md), [01_survey_it.md](01_survey_it.md), [01_survey_nl.md](01_survey_nl.md): its translations for respondents, one per language.
+- [04_permission_requests.md](04_permission_requests.md): the messages that ask permission to share this survey.
+- [05_direct_posts.md](05_direct_posts.md): the posts that share this survey where no permission is needed.
+- [07_survey_results.md](07_survey_results.md): the answers to these questions, with the counts.

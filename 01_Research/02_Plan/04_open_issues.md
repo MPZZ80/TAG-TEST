@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [research, internal, output]
-related: [01_plan.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md]
+related: [01_plan.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, 01_survey_de.md, 01_survey_en.md, 01_survey_es.md, 01_survey_fr.md, 01_survey_it.md, 01_survey_nl.md, 07_survey_results.md]
 ---
 
 # Open Issues
@@ -83,3 +83,6 @@ Links to the notes named above. The same files are listed by name in the `relate
 - The open questions are those the research plan, [01_plan.md](01_plan.md), expects the interviews to answer.
 - [Matteo_Rizzetto_notes.md](../04_Interviews/Matteo_Rizzetto_notes.md), [Marco_Palermo_notes.md](../04_Interviews/Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](../04_Interviews/Valentina_Di_Floriano_notes.md) are the source of most open questions, of W-01 and W-02 and of C-01.
 - [AR-006_frost-sullivan_2024_maas-global-collapse.md](../03_Desk_Research/Doc_Notes/Articles/AR-006_frost-sullivan_2024_maas-global-collapse.md) and [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](../03_Desk_Research/Doc_Notes/Global_Reports/GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md) carry the contradiction C-02.
+- [01_survey_de.md](../05_Survey/01_survey_de.md), [01_survey_es.md](../05_Survey/01_survey_es.md), [01_survey_fr.md](../05_Survey/01_survey_fr.md), [01_survey_it.md](../05_Survey/01_survey_it.md), [01_survey_nl.md](../05_Survey/01_survey_nl.md): the survey texts whose questions answer these issues.
+- [01_survey_en.md](../05_Survey/01_survey_en.md): the survey text whose blocks of questions answer these issues.
+- [07_survey_results.md](../05_Survey/07_survey_results.md): reads each survey result against these issues.

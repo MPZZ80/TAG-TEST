@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds]
-related: [02_Generated_Touchpoints.md, 04_Generated_User_Stories.md]
+related: [02_Generated_Touchpoints.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-00_overview.md, SPEC-01_foundation.md]
 ---
 
 # Features Proposed from the Touchpoints
@@ -101,3 +101,5 @@ The features are kept; the conflict is part of the evidence. Numbers refer to th
 
 - [04_Generated_User_Stories.md](04_Generated_User_Stories.md) turns the features with a traced value into user stories and lists the ones sent back.
 - [02_Generated_Touchpoints.md](02_Generated_Touchpoints.md) holds the 109 touchpoints these features answer, with the full citations, the contradictions and the coverage gaps.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept, which names these features for each family.
+- [SPEC-00_overview.md](../04_Specifications/SPEC-00_overview.md), [SPEC-01_foundation.md](../04_Specifications/SPEC-01_foundation.md): the specifications that trace to these features.

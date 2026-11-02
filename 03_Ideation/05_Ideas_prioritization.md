@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [04_Human+AI_Ideas.md]
+related: [04_Human+AI_Ideas.md, 06_Chosen_concept.md, SPEC-00_overview.md]
 ---
 
 # Ideas Prioritization: Proposed Marks
@@ -485,3 +485,5 @@ The same 27 families, ordered by the sum of their three marks, then by their low
 ## Connections
 
 - [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) holds the families of these concepts and the questions of Marco's concepts.
+- [06_Chosen_concept.md](06_Chosen_concept.md): the chosen concept, which quotes these family marks.
+- [SPEC-00_overview.md](../04_Specifications/SPEC-00_overview.md): the specifications that quote these marks.

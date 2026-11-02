@@ -83,3 +83,13 @@ Before the trip, for a given day and time, the product shows every way of making
 - How the car is costed (fuel, wear, tolls, parking) [not traced].
 - Whether ways set aside by the commuter's rules are hidden or shown greyed [not traced].
 - The record of past trips and other users' comments that S06 relies on for delays (FAM-05, background).
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 3, 6; The user (doors, contacts); The things it deals with (way, leg, run); Sources of information; Rules that hold everywhere.
+- [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (Out of scope), where the two behaviours meet.
+- [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
+- [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (User stories served, Out of scope), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-04, F-10.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-15, FAM-09, FAM-03, FAM-26, FAM-06.
+- [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S06.

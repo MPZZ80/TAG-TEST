@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, unreliable-service]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, 04_Generated_User_Stories.md, 01_How_might_we.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, 04_Generated_User_Stories.md, 01_How_might_we.md, 06_Chosen_concept.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-13_compensation-from-the-trip.md, SPEC-15_stop-approaching.md]
 ---
 
 # SPEC-02: The Real State of the Run
@@ -94,3 +94,13 @@ For a commuter waiting for a run or travelling on it, the product shows where th
 - That travellers agree to have their position used: assumption of S02 and of C01-05 [risky] [not traced].
 - The operator's own position of the run (C01-03) depends on the operator releasing it [risky].
 - Whether a range in place of a single time (C01-07) and a promised time for the next news (C01-08), both background, should be added.
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 1, 2, 3; The things it deals with (run, fact); States (run, fact); Sources of information; Channels; Rules that hold everywhere.
+- [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
+- [SPEC-04_alerts-on-the-usual-trip.md](SPEC-04_alerts-on-the-usual-trip.md): named in this specification (Out of scope), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-01.
+- [01_How_might_we.md](../03_Ideation/01_How_might_we.md): the problem questions HMW-01, HMW-02.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-02, FAM-03, FAM-04, FAM-08, FAM-01, FAM-16, FAM-05.
+- [SPEC-05_usual-trip-at-a-glance.md](SPEC-05_usual-trip-at-a-glance.md), [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md), [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md), [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md), [SPEC-15_stop-approaching.md](SPEC-15_stop-approaching.md): the specifications that name this one where their behaviours meet.

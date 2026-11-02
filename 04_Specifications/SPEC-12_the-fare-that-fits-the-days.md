@@ -71,3 +71,10 @@ The product counts the days the commuter really travels (C15-10) and says which 
 
 - Over how many weeks the days are counted, and how often the product checks [not traced].
 - Whether the product reads the days from the commuter's calendar or work pattern [not traced; technology choice open].
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 3, 6; The user (days of travel); The things it deals with (usual trip, trip, ticket).
+- [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (Out of scope), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-12.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-27, FAM-03.

@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, information, tight-connection, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-10_times-that-can-be-kept.md]
 ---
 
 # SPEC-08: The Connection Ahead
@@ -84,3 +84,14 @@ For a commuter on a run with a change ahead, the product says before the change 
 - **Feasibility:** asking the connecting service to wait needs an operator process to receive and answer the request (FAM-23, background; feasible 1). Whether to build it before that process exists is for Marco to decide [technology choice open].
 - How long before the change the commuter must be told [not traced].
 - Whether the product counts how many people need the connection (C25-09, background, [not traced] which source it would use).
+
+## Connections
+
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 1, 2, 3, 6; The user (own threshold); The things it deals with (connection, run); States (connection); Sources of information; Channels.
+- [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
+- [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (Operating logic), where the two behaviours meet.
+- [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
+- [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
+- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-06, F-22.
+- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-04, FAM-03, FAM-23.
+- [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): the specifications that name this one where their behaviours meet.

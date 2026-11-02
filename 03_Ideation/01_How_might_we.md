@@ -6,7 +6,7 @@ status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [04_Generated_User_Stories.md, 03_AI_Ideas.md, 04_Human+AI_Ideas.md]
+related: [04_Generated_User_Stories.md, 03_AI_Ideas.md, 04_Human+AI_Ideas.md, 06_Chosen_concept.md, SPEC-00_overview.md, SPEC-02_real-state-of-the-run.md]
 ---
 
 # How Might We: Questions from the User Stories
@@ -105,3 +105,5 @@ Marco's grouping of the clusters. The names are proposals. CL-06, CL-07, CL-08 a
 - [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md) holds the 24 stories behind these questions, with the source line of each quote.
 - [03_AI_Ideas.md](03_AI_Ideas.md) holds the concepts proposed for these questions.
 - [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) says which of these questions Marco's concepts answer.
+- [06_Chosen_concept.md](06_Chosen_concept.md): the chosen concept, which lists for each family the questions it answers.
+- [SPEC-00_overview.md](../04_Specifications/SPEC-00_overview.md), [SPEC-02_real-state-of-the-run.md](../04_Specifications/SPEC-02_real-state-of-the-run.md): the specifications that trace to these questions.
