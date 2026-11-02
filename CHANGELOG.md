@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 19:49
+
+- **Files:** `02_Ideation/04_Human+AI_Ideas.md`
+- **Change:** In the families table, the concepts cell is now a bulleted list: each concept with its ID, its [risky] mark, its name and what it does, taken from `03_AI_Ideas.md` and, for Marco's concepts, from the section "Questions for Marco's concepts".
+- **Why:** Marco asked for a bulleted list with a description of each concept, in place of the comma-separated IDs, so that it is clear what each concept is.
+
 ## 2026-11-02 19:22
 
 - **Files:** `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/05_Ideas_prioritization.md`
