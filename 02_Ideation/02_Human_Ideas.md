@@ -4,3 +4,4 @@ S02 - A system that gathers delay information by:
 - comparing the timestamp of the mobile device of the users that bought a certain train and the supposed arrival time of the train in a certain location.
 and then communicates the delay to the user on the preferred channel
 S03 - A system that gathers delay information thanks to users that signal the delay directly on the app 
+S04 - The user can easily send an update on their trip to relatives and friends, or set, for a given trip, that a relative or friend is alerted directly on a chosen channel, even through our WhatsApp or SMS as if the message came from the user

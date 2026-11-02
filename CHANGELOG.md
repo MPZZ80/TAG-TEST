@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 18:59
+
+- **Files:** `02_Ideation/02_Human_Ideas.md`, `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/05_Ideas_prioritization.md`, `02_Ideation/README.md`
+- **Change:** Added Marco's S04 in its corrected form: the user sends a trip update to relatives or friends, or sets a trip so that they are alerted directly, on a chosen channel or through the service's WhatsApp or SMS in the user's name. S04 joins FAM-13 (now Marco and AI), with proposed questions (answers HMW-12; partly HMW-04, HMW-09, HMW-20) and its assumptions; marked 3/2/3; counts, FAM-13 spread and author updated. Family marks unchanged.
+- **Why:** Marco: relatives and friends are not alerted by connecting to the app; the user sends the update easily or sets the alert for that trip.
+- **Do not:** describe S04 as relatives connecting to the app to be alerted or to check where the train is.
+
 ## 2026-11-02 18:52
 
 - **Files:** `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/05_Ideas_prioritization.md`

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 18:52
+date: 2026-11-02 18:59
 method: generated
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [04_Human+AI_Ideas.md]
 
 # Ideas Prioritization: Proposed Marks
 
-The 327 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on three axes from 0 to 3, then its 27 families. **The marks are proposals.** The concepts are not ranked, marks are not averaged, and nothing here says which to build: that decision is Marco's.
+The 328 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on three axes from 0 to 3, then its 27 families. **The marks are proposals.** The concepts are not ranked, marks are not averaged, and nothing here says which to build: that decision is Marco's.
 
 ## What the marks are measured against
 
@@ -19,7 +19,7 @@ The 327 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 - **Valuable:** the "so that" or the quote of the story behind the question. Each reason ends with those words and the story, checked word for word against [Generated_User_Stories.md](../01_Research/Analysis/Generated_User_Stories.md).
 - **Feasible:** one flow, prototyped in this course by Marco and his agent. Anything needing hardware, a timetable or live feed, or an organisation or rule to change gets 1, as Marco asked. Other people's input, or a person behind the flow, gets 2. A flow that works on what the person enters gets 3. The reasons on this axis and on relevant are standard wordings, one per case.
 - **Relevant:** the chosen moment. **Assumption:** no moment has been chosen in this round, and the brief does not name one. Each concept is measured against the moment of its own question, as in the first round. 3 acts in that moment, 2 just before or after it, 1 on the wider system, 0 removes the moment by changing the trip.
-- **Marco's concepts** are marked against the question each one answers in [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md): S01 against HMW-05, S02 and S03 against HMW-01. Their question numbers come from the assignment he confirmed.
+- **Marco's concepts** are marked against the question each one answers in [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md): S01 against HMW-05, S02 and S03 against HMW-01, S04 against HMW-12. Their question numbers come from the assignment he confirmed, except S04, whose question is proposed.
 - **[risky]** marks are those of [03_AI_Ideas.md](03_AI_Ideas.md). They lower a mark only where the reason says so.
 
 ## Marks
@@ -29,6 +29,7 @@ The 327 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 | S01 | Delays sent on the chosen channel | 3 [strong] | 1 [weak] | 2 [medium] | **V:** it tells him in time, on the channel and days he sets ("wait in the warm car", F-03, for HMW-05). **F:** needs a live or timetable feed. **R:** acts just before or after it: the seven-minute drive to the station |
 | S02 | Delay from device position | 3 [strong] | 1 [weak] | 3 [strong] | **V:** measures where the train really is ("as early as an unofficial app", F-01, for HMW-01). **F:** needs a live or timetable feed. **R:** acts in the moment: on the platform during a growing delay |
 | S03 | Users report the delay | 2 [medium] | 2 [medium] | 3 [strong] | **V:** as early as someone reports it ("as early as an unofficial app", F-01, for HMW-01). **F:** rests on other people's input, which one flow can stage. **R:** acts in the moment: on the platform during a growing delay |
+| S04 | Trip update sent to relatives | 3 [strong] | 2 [medium] | 3 [strong] | **V:** the person fetching him is told, by one step or a setting ("knows when he arrives", F-09, for HMW-12). **F:** needs a sender or person behind it, which one flow can stand in for; the automatic alert alone would need a feed and be 1. **R:** acts in the moment: on the train back, someone coming to fetch him |
 | C01-01 | Source label | 2 [medium] | 1 [weak] | 3 [strong] | **V:** says whose figure, not an earlier one ("as early as an unofficial app", F-01). **F:** needs a live or timetable feed. **R:** acts in the moment: on the platform during a growing delay |
 | C01-02 | Disagreement flag | 2 [medium] | 1 [weak] | 3 [strong] | **V:** shows the gap he complains of, does not close it ("as early as an unofficial app", F-01). **F:** needs a live or timetable feed. **R:** acts in the moment: on the platform during a growing delay |
 | C01-03 | First-hand position [risky] | 3 [strong] | 1 [weak] | 3 [strong] | **V:** the position as soon as it exists ("as early as an unofficial app", F-01). **F:** needs an organisation to change. **R:** acts in the moment: on the platform during a growing delay |
@@ -373,11 +374,11 @@ The 327 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 
 | axis | strong (3) | medium (2) | weak (1) | out (0) |
 | --- | --- | --- | --- | --- |
-| valuable | 105 | 149 | 73 | 0 |
-| feasible | 33 | 51 | 243 | 0 |
-| relevant | 180 | 64 | 70 | 13 |
+| valuable | 106 | 149 | 73 | 0 |
+| feasible | 33 | 52 | 243 | 0 |
+| relevant | 181 | 64 | 70 | 13 |
 
-No axis below 2: 57 concepts. This is a count, not a shortlist.
+No axis below 2: 58 concepts. This is a count, not a shortlist.
 
 ## Decisions taken
 
@@ -409,7 +410,7 @@ The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same thre
 | FAM-10 | What lies ahead, known beforehand | 13 | 3 [strong] | 1 [weak] | 3 [strong] | 7/5/1/0 · 1/0/12/0 · 8/5/0/0 | **V:** knowing ahead spares "ride past my station" (F-20). **F:** the state of places comes from a feed. **R:** most in the moment, the rest just before it |
 | FAM-11 | The place shows it | 10 | 2 [medium] | 1 [weak] | 3 [strong] | 2/7/1/0 · 0/0/10/0 · 6/4/0/0 | **V:** a fact on the spot, in part what "no extra step" (F-11) asks. **F:** needs hardware or an operator. **R:** at the place, in or near the moment |
 | FAM-12 | A person on the spot | 18 | 2 [medium] | 1 [weak] | 3 [strong] | 3/8/7/0 · 0/0/18/0 · 13/4/1/0 | **V:** replaces the reading, but not earlier than "a 20 inizio a sentire la puzza" (F-01). **F:** needs staff, so an organisation has to change. **R:** someone there in the moment |
-| FAM-13 | Those depending on them are told | 12 | 3 [strong] | 1 [weak] | 3 [strong] | 7/3/2/0 · 0/5/7/0 · 10/2/0/0 | **V:** serves "knows when he arrives" (F-09) directly. **F:** most need a feed; a few can be a message sent by hand. **R:** in the moment of the trip |
+| FAM-13 | Those depending on them are told | 13 | 3 [strong] | 1 [weak] | 3 [strong] | 8/3/2/0 · 0/6/7/0 · 11/2/0/0 | **V:** serves "knows when he arrives" (F-09) directly. **F:** most need a feed; a few can be a message sent by hand. **R:** in the moment of the trip |
 | FAM-14 | The step done for them | 12 | 3 [strong] | 1 [weak] | 3 [strong] | 5/4/3/0 · 1/4/7/0 · 8/2/2/0 | **V:** takes the step away, as "does not depend on going to the train company" (F-16) asks. **F:** most need an operator or seller to act. **R:** most in the moment |
 | FAM-15 | It knows the traveller | 15 | 2 [medium] | 3 [strong] | 2 [medium] | 4/8/3/0 · 12/0/3/0 · 6/8/1/0 | **V:** saves a step, as in "no extra step" (F-11), and brings no news. **F:** most work on what the person enters. **R:** most before the moment |
 | FAM-16 | Settled beforehand | 8 | 2 [medium] | 3 [strong] | 2 [medium] | 4/4/0/0 · 7/0/1/0 · 1/7/0/0 | **V:** settled beforehand, as with "wenn der Bus nicht kommt" (F-02); the doubt may stay. **F:** a rule the person enters. **R:** before the moment, by nature |
@@ -458,7 +459,7 @@ The same 27 families, ordered by the sum of their three marks, then by their low
 | FAM-02 | Delay measured from the real position | The real position, from passengers' phones or the train itself, is compared with where the train should be, and the gap is the delay | Human+AI | 3 | 1 | 3 | 7 |
 | FAM-08 | One answer, not data | One clear verdict, such as "take the car" or "wait", in place of data to weigh | AI | 3 | 1 | 3 | 7 |
 | FAM-10 | What lies ahead, known beforehand | The state of the station, road or car park is known before getting there | AI | 3 | 1 | 3 | 7 |
-| FAM-13 | Those depending on them are told | Whoever waits for the traveller, at home or at the station, is told without the traveller doing it | AI | 3 | 1 | 3 | 7 |
+| FAM-13 | Those depending on them are told | Whoever waits for the traveller, at home or at the station, is told by the service or by the traveller in one step | Human+AI | 3 | 1 | 3 | 7 |
 | FAM-14 | The step done for them | The service or a person does the step, such as rebooking or claiming, in the traveller's place | AI | 3 | 1 | 3 | 7 |
 | FAM-17 | The decision stays with the person | Nothing changes for the traveller without their consent | AI | 3 | 1 | 3 | 7 |
 | FAM-18 | All ways side by side | Every way of making the trip compared side by side, door to door | AI | 3 | 1 | 3 | 7 |
