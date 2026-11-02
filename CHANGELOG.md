@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 18:41
+
+- **Files:** `02_Ideation/05_Ideas_prioritization.md`
+- **Change:** Table "Families in order of their marks": new column "main concept", one plain line per family taken from its direction in `02_Ideation/04_Human+AI_Ideas.md`.
+- **Why:** Marco asked to add the main concept of each family to the table, explained clearly and briefly.
+
 ## 2026-11-02 18:37
 
 - **Files:** `02_Ideation/05_Ideas_prioritization.md`, `02_Ideation/README.md`

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 18:37
+date: 2026-11-02 18:41
 method: generated
 status: draft
 grade: n/a
@@ -447,37 +447,37 @@ The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same thre
 
 ### Families in order of their marks
 
-The same 27 families, ordered by the sum of their three marks, then by their lowest mark, then by ID. Asked by Marco. **The sum is used only to order the rows**: it is not a fourth mark, and the order is not a choice. A family with a 0 is out whatever its sum.
+The same 27 families, ordered by the sum of their three marks, then by their lowest mark, then by ID, each with its main concept in one line. Asked by Marco. **The sum is used only to order the rows**: it is not a fourth mark, and the order is not a choice. A family with a 0 is out whatever its sum.
 
-| ID | family | valuable | feasible | relevant | sum |
-| --- | --- | --- | --- | --- | --- |
-| FAM-03 | Travellers report | 2 | 2 | 3 | 7 |
-| FAM-15 | It knows the traveller | 2 | 3 | 2 | 7 |
-| FAM-16 | Settled beforehand | 2 | 3 | 2 | 7 |
-| FAM-01 | Told where they are | 3 | 1 | 3 | 7 |
-| FAM-02 | Real position, not the timetable | 3 | 1 | 3 | 7 |
-| FAM-08 | One answer, not data | 3 | 1 | 3 | 7 |
-| FAM-10 | What lies ahead, known beforehand | 3 | 1 | 3 | 7 |
-| FAM-13 | Those depending on them are told | 3 | 1 | 3 | 7 |
-| FAM-14 | The step done for them | 3 | 1 | 3 | 7 |
-| FAM-17 | The decision stays with the person | 3 | 1 | 3 | 7 |
-| FAM-18 | All ways side by side | 3 | 1 | 3 | 7 |
-| FAM-20 | A place kept | 3 | 1 | 3 | 7 |
-| FAM-23 | The connection held | 3 | 1 | 3 | 7 |
-| FAM-04 | The source made visible | 2 | 1 | 3 | 6 |
-| FAM-05 | Honest uncertainty | 2 | 1 | 3 | 6 |
-| FAM-06 | Times that allow for reality | 2 | 1 | 3 | 6 |
-| FAM-09 | Less in the way | 2 | 1 | 3 | 6 |
-| FAM-11 | The place shows it | 2 | 1 | 3 | 6 |
-| FAM-12 | A person on the spot | 2 | 1 | 3 | 6 |
-| FAM-26 | Travellers carry it together | 1 | 2 | 3 | 6 |
-| FAM-07 | Told sooner | 2 | 1 | 2 | 5 |
-| FAM-21 | Prices and tickets that fit the real use | 2 | 1 | 1 | 4 |
-| FAM-24 | More or different service | 2 | 1 | 1 | 4 |
-| FAM-25 | Rules and rights | 2 | 1 | 1 | 4 |
-| FAM-19 | The trip as one purchase | 1 | 1 | 1 | 3 |
-| FAM-22 | Money covers the failure | 1 | 1 | 1 | 3 |
-| FAM-27 | Change the trip or the habit | 1 | 1 | 0 | 2 |
+| ID | family | main concept | valuable | feasible | relevant | sum |
+| --- | --- | --- | --- | --- | --- | --- |
+| FAM-03 | Travellers report | Travellers on the line say what they see, and the others read it | 2 | 2 | 3 | 7 |
+| FAM-15 | It knows the traveller | The service knows the usual trip and needs, so the traveller does not repeat them | 2 | 3 | 2 | 7 |
+| FAM-16 | Settled beforehand | A rule or a fallback agreed in advance, such as "if the bus is not there by 8:10, take the car" | 2 | 3 | 2 | 7 |
+| FAM-01 | Told where they are | The news comes to the traveller, by the channel and at the moment they chose; they no longer go and look | 3 | 1 | 3 | 7 |
+| FAM-02 | Real position, not the timetable | The train's real position, measured on the train, replaces the timetable | 3 | 1 | 3 | 7 |
+| FAM-08 | One answer, not data | One clear verdict, such as "take the car" or "wait", in place of data to weigh | 3 | 1 | 3 | 7 |
+| FAM-10 | What lies ahead, known beforehand | The state of the station, road or car park is known before getting there | 3 | 1 | 3 | 7 |
+| FAM-13 | Those depending on them are told | Whoever waits for the traveller, at home or at the station, is told without the traveller doing it | 3 | 1 | 3 | 7 |
+| FAM-14 | The step done for them | The service or a person does the step, such as rebooking or claiming, in the traveller's place | 3 | 1 | 3 | 7 |
+| FAM-17 | The decision stays with the person | Nothing changes for the traveller without their consent | 3 | 1 | 3 | 7 |
+| FAM-18 | All ways side by side | Every way of making the trip compared side by side, door to door | 3 | 1 | 3 | 7 |
+| FAM-20 | A place kept | A seat or a parking place is kept before the traveller arrives | 3 | 1 | 3 | 7 |
+| FAM-23 | The connection held | The connecting train or bus waits for the late one | 3 | 1 | 3 | 7 |
+| FAM-04 | The source made visible | Every piece of news says who gave it, how old it is and whether it is final | 2 | 1 | 3 | 6 |
+| FAM-05 | Honest uncertainty | A range or a likelihood in place of one firm figure that turns out wrong | 2 | 1 | 3 | 6 |
+| FAM-06 | Times that allow for reality | Times that already include the usual lateness, crowds and real margins | 2 | 1 | 3 | 6 |
+| FAM-09 | Less in the way | Only the fact that matters is shown, with nothing around it | 2 | 1 | 3 | 6 |
+| FAM-11 | The place shows it | The platform, stop, vehicle or car park itself shows the information | 2 | 1 | 3 | 6 |
+| FAM-12 | A person on the spot | A person on the spot answers or decides at that moment | 2 | 1 | 3 | 6 |
+| FAM-26 | Travellers carry it together | Travellers on the same way share lifts, tickets, company or tasks | 1 | 2 | 3 | 6 |
+| FAM-07 | Told sooner | What is already known, such as a strike or works, is said earlier | 2 | 1 | 2 | 5 |
+| FAM-21 | Prices and tickets that fit the real use | Prices and passes follow how the person really travels, for example fewer office days | 2 | 1 | 1 | 4 |
+| FAM-24 | More or different service | The operator runs more or different service, or repairs what fails | 2 | 1 | 1 | 4 |
+| FAM-25 | Rules and rights | A rule or a right obliges an operator or an employer to act | 2 | 1 | 1 | 4 |
+| FAM-19 | The trip as one purchase | The whole trip bought as one ticket with one price and one protection | 1 | 1 | 1 | 3 |
+| FAM-22 | Money covers the failure | When it goes wrong, money or a paid alternative covers the cost | 1 | 1 | 1 | 3 |
+| FAM-27 | Change the trip or the habit | The trip, the hour or the habit changes, so the problem does not arise | 1 | 1 | 0 | 2 |
 
 ## Connections
 
