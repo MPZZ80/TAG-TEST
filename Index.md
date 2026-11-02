@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:12
 method: generated
 status: draft
 grade: n/a
@@ -198,6 +198,13 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 
 - 05_Human_Touchpoints(not_complete).md — [unknown · unknown · unknown · unknown]
 
+## 02_Analysis/00_Analysis_Prompts
+
+- 01_Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
+- 02_Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
+- 03_Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
+- 04_Generated_Research_Report_Prompt.md — [unknown · unknown · unknown · unknown]
+
 ## 02_Analysis/01_Touchpoints
 
 - 00_Touchpoints_index.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
@@ -368,13 +375,6 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - US-F-22_asking-connection-wait.md — [research, desk, synthesis · draft · n/a · low]
 - US-F-23_stop-approaching.md — [research, desk, synthesis · draft · n/a · low]
 - US-F-24_travel-information-first-hurry.md — [research, desk, synthesis · draft · n/a · low]
-
-## 02_Analysis/Prompts
-
-- 01_Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
-- 02_Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
-- 03_Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
-- 04_Generated_Research_Report_Prompt.md — [unknown · unknown · unknown · unknown]
 
 ## 03_Ideation
 

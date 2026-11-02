@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:12
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [01_plan.md, 00_Features_index.md, Marco_Palermo_notes.md, 07_survey_re
 
 # Touchpoints of the Commute
 
-Every moment of the journey found in the research notes, from the first thought about travelling to the arrival, classified as direct, indirect or missed interactions. Built with the prompt in [01_Generated_Touchpoint_Prompt.md](../Prompts/01_Generated_Touchpoint_Prompt.md), on all the notes listed in [Index.md](../../Index.md). This file is the index: one row per touchpoint, linked to its own file in [./](./), which holds when exactly it happens and the notes and quotes behind it. The same moment found in several notes is one touchpoint with several citations.
+Every moment of the journey found in the research notes, from the first thought about travelling to the arrival, classified as direct, indirect or missed interactions. Built with the prompt in [01_Generated_Touchpoint_Prompt.md](../00_Analysis_Prompts/01_Generated_Touchpoint_Prompt.md), on all the notes listed in [Index.md](../../Index.md). This file is the index: one row per touchpoint, linked to its own file in [./](./), which holds when exactly it happens and the notes and quotes behind it. The same moment found in several notes is one touchpoint with several citations.
 
 - **Direct:** contact with a mobility service (app, board, train, bus, staff, ticket machine, gate, parking, taxi, sharing vehicle, ticket).
 - **Indirect:** a moment around the journey that shapes it without touching a service. The field "when exactly it happens", in the touchpoint file, says which part of the journey the choice affects; where the note gives no link to a single trip, the cell says so.
