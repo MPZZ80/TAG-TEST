@@ -1,4 +1,4 @@
-S01 - A system that gathers all the delays inherent to the user's leg and communicates them as soon as they are available, on the user's preferred channel of communication (WhatsApp, SMS, phone call), the notifications can be filtered by type (delay, incidents, works on the line) and by day.
+S01 - A system that gathers all the delays inherent to the user's leg and communicates them as soon as they are available, on the user's preferred channel of communication (WhatsApp, SMS, phone call). The notifications can be filtered by type (delay, incidents, works on the line) and by day.
 
 S02 - A system that gathers delay information by:
 
