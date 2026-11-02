@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-03 00:42
 method: generated
 status: draft
 grade: n/a
@@ -194,9 +194,6 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - 01_survey_it.md — [research, internal, script · draft · n/a · n/a]
 - 01_survey_nl.md — [research, internal, script · draft · n/a · n/a]
 
-## 02_Analysis
-
-- 05_Human_Touchpoints(not_complete).md — [unknown · unknown · unknown · unknown]
 
 ## 02_Analysis/00_Analysis_Prompts
 
@@ -317,6 +314,7 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - TP-107_asking-relative-come-fetch.md — [research, desk, synthesis, disruption · draft · n/a · low]
 - TP-108_car-commuter-meets-traffic.md — [research, desk, synthesis, disruption · draft · n/a · low]
 - TP-109_deciding-after-bad-disruption.md — [research, desk, synthesis, disruption · draft · n/a · low]
+- 999_Human_Touchpoints(not_complete).md — [unknown · unknown · unknown · unknown]
 
 ## 02_Analysis/02_Features
 

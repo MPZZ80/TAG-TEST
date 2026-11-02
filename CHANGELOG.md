@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-03 00:42
+
+- **Files:** `02_Analysis/05_Human_Touchpoints(not_complete).md` moved to `02_Analysis/01_Touchpoints/999_Human_Touchpoints(not_complete).md`; `02_Analysis/README.md`, `02_Analysis/01_Touchpoints/README.md`, `Index.md` updated.
+- **Change:** Marco's own touchpoints sit with the other touchpoints, numbered 999 so that they come last; the file itself is unchanged.
+- **Why:** Marco asked to move the file into Touchpoints with a number such as 999; reason not stated.
+
 ## 2026-11-03 00:40
 
 - **Files:** `03_Ideation/02_Ideas/05_Chosen_concept.md`

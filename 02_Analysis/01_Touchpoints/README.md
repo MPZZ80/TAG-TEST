@@ -117,3 +117,4 @@ One file per touchpoint, listed in the index [`00_Touchpoints_index.md`](00_Touc
 
 - Find an item by its ID in the file name; open the source table for the rules and the overall picture.
 - These files hold the content: the quotes, the evidence and the full text live only here. The index is `00_Touchpoints_index.md`; when an item changes, update its file and, if its short row changes, the row in the table.
+- `999_Human_Touchpoints(not_complete).md` holds Marco's own touchpoints, not complete and without a metadata block; it is not part of the TP-001 to TP-109 set and is numbered 999 to stay last.
