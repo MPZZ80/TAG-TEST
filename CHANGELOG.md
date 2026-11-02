@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 23:45
+
+- **Files:** `AGENTS.md`, `01_Research/02_Plan/01_plan.md`
+- **Change:** `AGENTS.md`: new "Network" section under the folder guides, and instruction 38 in the log: keep links, `related`, "Connections", `Index.md` and README rows working whenever a file or folder changes, and check them before committing. `01_plan.md`: the four candidate lists still to write now point to `../03_Desk_Research/Doc_Notes/`.
+- **Why:** Marco asked whether all links and `related` entries were still working, and to add to `AGENTS.md` the instruction to keep the whole network.
+
 ## 2026-11-02 23:42
 
 - **Files:** `01_Research/06_Analysis/` moved to the root as `02_Analysis/` (with `Prompts/`); `02_Ideation/` renamed `03_Ideation/`; `03_Specifications/` renamed `04_Specifications/`. Paths and links updated in every file that names them, including `AGENTS.md`, `Index.md`, `01_Research/README.md`, the source notes, the interview notes, the survey results, the ideation files, the specifications and `01_research.html`.

@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's notes, brief.md and 02_initial_questions.md
-date: 2026-11-02 23:29
+date: 2026-11-02 23:45
 method: AI-drafted plan, revised on Marco's instructions
 confidence: medium
 tags: [research, internal, plan]
@@ -156,10 +156,10 @@ Before any activity starts, Claude drafts a short list of candidate sources for 
 | --- | --- | --- | --- |
 | 1 | Global reports | `../03_Desk_Research/Doc_Notes/Global_Reports/GR_candidates.md` | A1, A6, A7 |
 | 2 | Academic papers | `../03_Desk_Research/Doc_Notes/Academic_Papers/AP_candidates.md` | A2 |
-| 3 | Products | `Desk_Research/Doc_Notes/Products/PR_candidates.md` | A3 |
-| 4 | Articles | `Desk_Research/Doc_Notes/Articles/AR_candidates.md` | A6 |
-| 5 | Online forums | `Desk_Research/Doc_Notes/Online_Forums/OF_candidates.md` | A5 |
-| 6 | Online reviews | `Desk_Research/Doc_Notes/Online_Reviews/OR_candidates.md` | A4, after the products are chosen |
+| 3 | Products | `../03_Desk_Research/Doc_Notes/Products/PR_candidates.md` | A3 |
+| 4 | Articles | `../03_Desk_Research/Doc_Notes/Articles/AR_candidates.md` | A6 |
+| 5 | Online forums | `../03_Desk_Research/Doc_Notes/Online_Forums/OF_candidates.md` | A5 |
+| 6 | Online reviews | `../03_Desk_Research/Doc_Notes/Online_Reviews/OR_candidates.md` | A4, after the products are chosen |
 
 The Global reports list comes first. Once Marco has seen which candidates there are and how many, he and Claude decide what to do next: which sources to keep, how deep to go, and when to draft the other lists. The same happens after each list.
 
