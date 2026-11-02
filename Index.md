@@ -216,6 +216,10 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - 04_Human+AI_Ideas.md — [design, internal, synthesis, information, disruption · draft · n/a · n/a]
 - 05_Ideas_prioritization.md — [design, internal, output, information, disruption · draft · n/a · n/a]
 
+## 02_Ideation/06_Specifications
+
+- Spec_instructions.md — [design, internal, rules · draft · n/a · n/a]
+
 ## 02_Ideation/_old
 
 - How_might_we.md — [unknown · unknown · unknown · unknown]

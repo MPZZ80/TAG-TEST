@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 20:37
+
+- **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`, `02_Ideation/06_Specifications/README.md`, `02_Ideation/README.md`, `Index.md`
+- **Change:** File created: the supplementary prompt for generating the specifications, one file per specification in `02_Ideation/06_Specifications/`, technology-agnostic, with operating logic and references to concepts, families, HMW, features, user stories and touchpoints. New folder with its README; row in the ideation README and line in the index.
+- **Why:** Marco asked for an instruction file to generate specifications that keep the references to features, user stories and HMW, describe the operating logic, serve as integration prompts, are split into separate files in their own folder and are technology-agnostic.
+
 ## 2026-11-02 19:49
 
 - **Files:** `02_Ideation/04_Human+AI_Ideas.md`
