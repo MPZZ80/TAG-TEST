@@ -10,7 +10,7 @@ tags: [design, internal, rules]
 
 # Instructions for Writing Specifications
 
-How an agent turns a set of user stories into technology-agnostic specifications, one file per behaviour, each usable on its own as a prompt for building that behaviour. They do not depend on any project: when someone says "use `Spec_instructions.md` to create the specifications", follow this file from start to end.
+How an agent turns a set of user stories into technology-agnostic specifications, one file per behaviour, each usable on its own as a prompt for building that behaviour. They do not depend on any project or domain (mobility, energy, online grocery shopping or any other): when someone says "use `Spec_instructions.md` to create the specifications", follow this file from start to end.
 
 ## 1. Before you start
 
@@ -64,7 +64,7 @@ Find the inputs. If the request does not say where they are, look for them in th
 
 - **Overview:** `SPEC-00_overview.md`.
 - **Foundation:** `SPEC-01_foundation.md`, always the first specification.
-- **One specification:** `SPEC-<NN>_<short-name>.md` from `SPEC-02`, for example `SPEC-02_reminder-before-leaving.md`. The number has two digits, follows the order of the overview, and is never reused.
+- **One specification:** `SPEC-<NN>_<short-name>.md` from `SPEC-02`, for example `SPEC-02_reminder-before-leaving.md` or `SPEC-03_missing-item-swap.md`. The number has two digits, follows the order of the overview, and is never reused.
 - **After writing:** update whatever the project keeps current when files are added, such as a folder guide, an index or a change log.
 
 ## 5. Templates
@@ -139,7 +139,7 @@ The rules that hold in every specification, each traced to its stories: for exam
 Who uses it, by persona, and what the product knows about them: what they tell it, what they choose, what they can change or delete.
 
 ## The things it deals with
-The main objects of the product (for example a booking, a request, a trip), their parts, what the user saves and what the product infers.
+The main objects of the product (for example a trip, an energy contract and its meter readings, or a grocery order and its delivery slot), their parts, what the user saves and what the product infers.
 
 ## States
 The states each main object can be in, what moves it from one to the next, and who or what can move it.
