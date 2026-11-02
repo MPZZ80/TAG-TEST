@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, first-last-mile, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, 00_User_Stories_index.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-14_the-station-ahead.md, US-F-02_ways-still-open-trip.md, US-F-06_whether-connection-still-holds.md, US-F-09_arrival-shared-whoever-waits.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, 00_User_Stories_index.md, 05_Chosen_concept.md, 01_Human_Ideas_index.md, SPEC-14_the-station-ahead.md, US-F-02_ways-still-open-trip.md, US-F-06_whether-connection-still-holds.md, US-F-09_arrival-shared-whoever-waits.md]
 ---
 
 # SPEC-07: Those Waiting Are Told
@@ -30,11 +30,11 @@ These stories belong together because in each someone else depends on the commut
 | **Priority** | concept |
 | **Features** | [F-09](../02_Analysis/02_Features/F-09_arrival-shared-whoever-waits.md), [F-06](../02_Analysis/02_Features/F-06_whether-connection-still-holds.md), [F-02](../02_Analysis/02_Features/F-02_ways-still-open-trip.md) |
 | **Touchpoints** | [TP-004](../02_Analysis/01_Touchpoints/TP-004_fixing-departure-time-days.md), [TP-048](../02_Analysis/01_Touchpoints/TP-048_being-driven-station-relative.md), [TP-075](../02_Analysis/01_Touchpoints/TP-075_following-train-app-board.md), [TP-106](../02_Analysis/01_Touchpoints/TP-106_telling-people-waiting-colleagues.md), [TP-107](../02_Analysis/01_Touchpoints/TP-107_asking-relative-come-fetch.md), [TP-084](../02_Analysis/01_Touchpoints/TP-084_last-service-night-gone.md) |
-| **Problem questions** | [HMW-12](../03_Ideation/01_How_might_we.md), [HMW-09](../03_Ideation/01_How_might_we.md), [HMW-04](../03_Ideation/01_How_might_we.md), [HMW-03](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [S04](../03_Ideation/02_Human_Ideas.md), [C12-01](../03_Ideation/03_AI_Ideas.md), [C12-02](../03_Ideation/03_AI_Ideas.md), [C12-04](../03_Ideation/03_AI_Ideas.md), [C12-05](../03_Ideation/03_AI_Ideas.md), [C12-06](../03_Ideation/03_AI_Ideas.md), [C12-07](../03_Ideation/03_AI_Ideas.md), [C12-08](../03_Ideation/03_AI_Ideas.md), [C12-12](../03_Ideation/03_AI_Ideas.md), [C09-05](../03_Ideation/03_AI_Ideas.md), [C04-05](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-13](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-06](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-12](../03_Ideation/01_How_Might_We/HMW-12_make-sure-person-coming-fetch.md), [HMW-09](../03_Ideation/01_How_Might_We/HMW-09_help-como-commuter-8-23.md), [HMW-04](../03_Ideation/01_How_Might_We/HMW-04_help-teenager-stop-late-evening.md), [HMW-03](../03_Ideation/01_How_Might_We/HMW-03_help-teenager-waiting-late-evening.md) |
+| **Concepts** | [S04](../03_Ideation/02_Ideas/S04_trip-update-sent-relatives.md), [C12-01](../03_Ideation/02_Ideas/C12-01_live-arrival-driver.md), [C12-02](../03_Ideation/02_Ideas/C12-02_word-home-without-him.md), [C12-04](../03_Ideation/02_Ideas/C12-04_told-car.md), [C12-05](../03_Ideation/02_Ideas/C12-05_word-passed-one-gesture.md), [C12-06](../03_Ideation/02_Ideas/C12-06_set-off.md), [C12-07](../03_Ideation/02_Ideas/C12-07_confirmed-estimated.md), [C12-08](../03_Ideation/02_Ideas/C12-08_allowed-arrival.md), [C12-12](../03_Ideation/02_Ideas/C12-12_agreed-plan.md), [C09-05](../03_Ideation/02_Ideas/C09-05_message-ready-send.md), [C04-05](../03_Ideation/02_Ideas/C04-05_home-sees-same.md) |
+| **Families** | [FAM-13](../03_Ideation/02_Ideas/FAM-13_those-depending-them-told.md), [FAM-04](../03_Ideation/02_Ideas/FAM-04_source-made-visible.md), [FAM-06](../03_Ideation/02_Ideas/FAM-06_times-allow-reality.md), [FAM-16](../03_Ideation/02_Ideas/FAM-16_settled-beforehand.md) |
 | **Stages covered** | main leg, last mile, disruption |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | S04 3·2·3, C12-01 3·1·3, C12-02 3·1·3, C12-04 3·1·3, C12-05 3·2·3, C12-06 3·1·3, C12-07 2·1·3, C12-08 2·1·3, C12-12 2·3·2, C09-05 3·2·3, C04-05 2·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | S04 3·2·3, C12-01 3·1·3, C12-02 3·1·3, C12-04 3·1·3, C12-05 3·2·3, C12-06 3·1·3, C12-07 2·1·3, C12-08 2·1·3, C12-12 2·3·2, C09-05 3·2·3, C04-05 2·1·3 |
 | **Foundation** | Principles 2, 5; The user (contacts); The things it deals with (trip, contact); States (trip, run); Channels (message to a contact); Rules that hold everywhere (consent of contacts, never shared) |
 
 ## Description
@@ -93,7 +93,7 @@ The commuter adds a contact to a trip, or to the return of their usual trip, and
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (User stories served, When things go wrong, Out of scope), where the two behaviours meet.
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-09, F-06, F-02.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-13, FAM-04, FAM-06, FAM-16.
-- [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S04.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-13, FAM-04, FAM-06, FAM-16.
+- [01_Human_Ideas_index.md](../03_Ideation/02_Ideas/01_Human_Ideas_index.md): Marco's concepts this specification carries: S04.
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): the specifications that name this one where their behaviours meet.
 - [US-F-02_ways-still-open-trip.md](../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md), [US-F-06_whether-connection-still-holds.md](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md), [US-F-09_arrival-shared-whoever-waits.md](../02_Analysis/03_User_Stories/US-F-09_arrival-shared-whoever-waits.md): the user stories this specification serves, one file each.

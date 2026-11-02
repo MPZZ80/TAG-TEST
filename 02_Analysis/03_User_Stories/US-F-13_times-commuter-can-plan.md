@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-13_times-commuter-can-plan.md, SPEC-10_times-that-can-be-kept.md]
+related: [F-13_times-commuter-can-plan.md, SPEC-10_times-that-can-be-kept.md, HMW-16_make-time-promised-verona-milan.md]
 ---
 
 # Story F-13
@@ -19,6 +19,7 @@ As the Verona–Milan commuter, planning the trip while taking it for granted th
 | --- | --- |
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-13_times-commuter-can-plan.md](../02_Features/F-13_times-commuter-can-plan.md) |
+| **Questions (HMW)** | [HMW-16](../../03_Ideation/01_How_Might_We/HMW-16_make-time-promised-verona-milan.md) |
 | **Specifications** | [SPEC-10](../../04_Specifications/SPEC-10_times-that-can-be-kept.md) |
 
 ## Source
@@ -29,3 +30,4 @@ As the Verona–Milan commuter, planning the trip while taking it for granted th
 
 - [F-13_times-commuter-can-plan.md](../02_Features/F-13_times-commuter-can-plan.md): the feature this story carries.
 - [SPEC-10_times-that-can-be-kept.md](../../04_Specifications/SPEC-10_times-that-can-be-kept.md): the specifications that serve this story.
+- [HMW-16_make-time-promised-verona-milan.md](../../03_Ideation/01_How_Might_We/HMW-16_make-time-promised-verona-milan.md): the How-Might-We questions written from this story.

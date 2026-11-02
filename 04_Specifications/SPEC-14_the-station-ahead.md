@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, 00_User_Stories_index.md, 06_Chosen_concept.md, SPEC-17_sessions-still-running.md, US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-20_step-free-lit-way.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, 00_User_Stories_index.md, 05_Chosen_concept.md, SPEC-17_sessions-still-running.md, US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-20_step-free-lit-way.md]
 ---
 
 # SPEC-14: The Station Ahead
@@ -30,11 +30,11 @@ These stories belong together because each asks to know, before getting there, t
 | **Priority** | concept |
 | **Features** | [F-15](../02_Analysis/02_Features/F-15_parking-bike-space-station.md), [F-17a](../02_Analysis/02_Features/F-17a_staffed-station-lit-walk.md), [F-20](../02_Analysis/02_Features/F-20_step-free-lit-way.md) |
 | **Touchpoints** | [TP-049](../02_Analysis/01_Touchpoints/TP-049_driving-station-parking-near.md), [TP-050](../02_Analysis/01_Touchpoints/TP-050_cycling-station-leaving-bike.md), [TP-080](../02_Analysis/01_Touchpoints/TP-080_walking-last-station-office.md), [TP-083](../02_Analysis/01_Touchpoints/TP-083_protecting-oneself-way-between.md), [TP-063](../02_Analysis/01_Touchpoints/TP-063_getting-through-station-without.md) |
-| **Problem questions** | [HMW-18](../03_Ideation/01_How_might_we.md), [HMW-20](../03_Ideation/01_How_might_we.md), [HMW-23](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C18-06](../03_Ideation/03_AI_Ideas.md), [C18-08](../03_Ideation/03_AI_Ideas.md), [C20-03](../03_Ideation/03_AI_Ideas.md), [C20-08](../03_Ideation/03_AI_Ideas.md), [C20-10](../03_Ideation/03_AI_Ideas.md), [C23-03](../03_Ideation/03_AI_Ideas.md), [C23-07](../03_Ideation/03_AI_Ideas.md), [C23-08](../03_Ideation/03_AI_Ideas.md), [C23-12](../03_Ideation/03_AI_Ideas.md); background: [C18-01](../03_Ideation/03_AI_Ideas.md), [C20-01](../03_Ideation/03_AI_Ideas.md), [C20-02](../03_Ideation/03_AI_Ideas.md), [C20-11](../03_Ideation/03_AI_Ideas.md), [C23-01](../03_Ideation/03_AI_Ideas.md), [C23-02](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-03](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-26](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-01](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-18](../03_Ideation/01_How_Might_We/HMW-18_spare-woman-driving-station-before.md), [HMW-20](../03_Ideation/01_How_Might_We/HMW-20_help-daily-traveller-british-city.md), [HMW-23](../03_Ideation/01_How_Might_We/HMW-23_spare-wheelchair-user-before-getting.md) |
+| **Concepts** | [C18-06](../03_Ideation/02_Ideas/C18-06_others-say-full.md), [C18-08](../03_Ideation/02_Ideas/C18-08_way-today.md), [C20-03](../03_Ideation/02_Ideas/C20-03_night-accounts.md), [C20-08](../03_Ideation/02_Ideas/C20-08_wait-together.md), [C20-10](../03_Ideation/02_Ideas/C20-10_quieter-busier-station.md), [C23-03](../03_Ideation/02_Ideas/C23-03_other-riders-report.md), [C23-07](../03_Ideation/02_Ideas/C23-07_next-station-works.md), [C23-08](../03_Ideation/02_Ideas/C23-08_own-needs-known.md), [C23-12](../03_Ideation/02_Ideas/C23-12_told-board.md); background: [C18-01](../03_Ideation/02_Ideas/C18-01_places-free-now.md), [C20-01](../03_Ideation/02_Ideas/C20-01_staffed-hour.md), [C20-02](../03_Ideation/02_Ideas/C20-02_dark-lit-walk.md), [C20-11](../03_Ideation/02_Ideas/C20-11_known-before-setting.md), [C23-01](../03_Ideation/02_Ideas/C23-01_lift-state-today.md), [C23-02](../03_Ideation/02_Ideas/C23-02_stairs-lights-today.md) |
+| **Families** | [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md), [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md), [FAM-26](../03_Ideation/02_Ideas/FAM-26_travellers-carry-together.md), [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md), [FAM-01](../03_Ideation/02_Ideas/FAM-01_told-where-they.md); background: [FAM-10](../03_Ideation/02_Ideas/FAM-10_lies-ahead-known-beforehand.md) |
 | **Stages covered** | before departure, first mile, transfer, last mile |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C18-06 2·2·3, C18-08 2·1·3, C20-03 2·2·2, C20-08 3·2·3, C20-10 2·1·2, C23-03 2·2·2, C23-07 3·1·3, C23-08 1·3·1, C23-12 2·1·3; background C18-01 3·1·3, C20-01 3·1·3, C20-02 2·1·2, C20-11 2·1·2, C23-01 3·1·3, C23-02 2·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C18-06 2·2·3, C18-08 2·1·3, C20-03 2·2·2, C20-08 3·2·3, C20-10 2·1·2, C23-03 2·2·2, C23-07 3·1·3, C23-08 1·3·1, C23-12 2·1·3; background C18-01 3·1·3, C20-01 3·1·3, C20-02 2·1·2, C20-11 2·1·2, C23-01 3·1·3, C23-02 2·1·3 |
 | **Foundation** | Principles 2, 6; The user (needs); The things it deals with (place); Sources of information; Channels; Rules that hold everywhere |
 
 ## Description
@@ -85,6 +85,6 @@ For each station or stop on the commuter's trip, the product knows the state of 
 - [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-15, F-17a, F-20.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-03, FAM-08, FAM-26, FAM-15, FAM-01, FAM-10.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-03, FAM-08, FAM-26, FAM-15, FAM-01, FAM-10.
 - [SPEC-17_sessions-still-running.md](SPEC-17_sessions-still-running.md): the specifications that name this one where their behaviours meet.
 - [US-F-15_parking-bike-space-station.md](../02_Analysis/03_User_Stories/US-F-15_parking-bike-space-station.md), [US-F-17a_staffed-station-lit-walk.md](../02_Analysis/03_User_Stories/US-F-17a_staffed-station-lit-walk.md), [US-F-20_step-free-lit-way.md](../02_Analysis/03_User_Stories/US-F-20_step-free-lit-way.md): the user stories this specification serves, one file each.

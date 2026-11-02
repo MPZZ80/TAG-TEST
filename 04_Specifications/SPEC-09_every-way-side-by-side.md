@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, mode-choice, tools, habit, ticket-carryover]
-related: [SPEC-01_foundation.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 06_Chosen_concept.md, 02_Human_Ideas.md, US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md]
+related: [SPEC-01_foundation.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 05_Chosen_concept.md, 01_Human_Ideas_index.md, US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md]
 ---
 
 # SPEC-09: Every Way Side by Side, Door to Door
@@ -29,11 +29,11 @@ These stories belong together because both are a commuter, before the trip, weig
 | **Priority** | concept |
 | **Features** | [F-04](../02_Analysis/02_Features/F-04_one-search-one-booking.md), [F-10](../02_Analysis/02_Features/F-10_car-against-train-office.md) |
 | **Touchpoints** | [TP-005](../02_Analysis/01_Touchpoints/TP-005_booking-train-days-ahead.md), [TP-013](../02_Analysis/01_Touchpoints/TP-013_choosing-each-day-means.md), [TP-016](../02_Analysis/01_Touchpoints/TP-016_knowing-public-transport-option.md), [TP-019](../02_Analysis/01_Touchpoints/TP-019_choosing-slower-route-because.md), [TP-020](../02_Analysis/01_Touchpoints/TP-020_booking-online-without-comparing.md), [TP-021](../02_Analysis/01_Touchpoints/TP-021_deciding-combine-means-operators.md), [TP-022](../02_Analysis/01_Touchpoints/TP-022_searching-each-leg-different.md), [TP-065](../02_Analysis/01_Touchpoints/TP-065_topping-up-card-middle.md), [TP-009](../02_Analysis/01_Touchpoints/TP-009_keeping-car-after-pass.md), [TP-010](../02_Analysis/01_Touchpoints/TP-010_weighing-car-against-train.md), [TP-011](../02_Analysis/01_Touchpoints/TP-011_looking-timetables-decide-whether.md), [TP-044](../02_Analysis/01_Touchpoints/TP-044_taking-car-keys-late.md) |
-| **Problem questions** | [HMW-06](../03_Ideation/01_How_might_we.md), [HMW-07](../03_Ideation/01_How_might_we.md), [HMW-13](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [S06](../03_Ideation/02_Human_Ideas.md), [C06-01](../03_Ideation/03_AI_Ideas.md), [C06-10](../03_Ideation/03_AI_Ideas.md), [C07-01](../03_Ideation/03_AI_Ideas.md), [C07-02](../03_Ideation/03_AI_Ideas.md), [C07-03](../03_Ideation/03_AI_Ideas.md), [C07-04](../03_Ideation/03_AI_Ideas.md), [C07-05](../03_Ideation/03_AI_Ideas.md), [C07-09](../03_Ideation/03_AI_Ideas.md), [C07-11](../03_Ideation/03_AI_Ideas.md), [C07-12](../03_Ideation/03_AI_Ideas.md), [C13-01](../03_Ideation/03_AI_Ideas.md), [C13-02](../03_Ideation/03_AI_Ideas.md), [C13-03](../03_Ideation/03_AI_Ideas.md), [C13-04](../03_Ideation/03_AI_Ideas.md), [C13-07](../03_Ideation/03_AI_Ideas.md), [C13-10](../03_Ideation/03_AI_Ideas.md), [C13-12](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-18](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-09](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md), [FAM-26](../03_Ideation/04_Human+AI_Ideas.md), [FAM-06](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-06](../03_Ideation/01_How_Might_We/HMW-06_help-verona-milan-commuter-booking.md), [HMW-07](../03_Ideation/01_How_Might_We/HMW-07_let-verona-milan-commuter-he.md), [HMW-13](../03_Ideation/01_How_Might_We/HMW-13_help-como-commuter-looking-timetables.md) |
+| **Concepts** | [S06](../03_Ideation/02_Ideas/S06_alternatives-estimated-delays.md), [C06-01](../03_Ideation/02_Ideas/C06-01_nearest-arrival.md), [C06-10](../03_Ideation/02_Ideas/C06-10_every-seller-together.md), [C07-01](../03_Ideation/02_Ideas/C07-01_all-ways-one-page.md), [C07-02](../03_Ideation/02_Ideas/C07-02_runs-each-leg.md), [C07-03](../03_Ideation/02_Ideas/C07-03_real-door-time.md), [C07-04](../03_Ideation/02_Ideas/C07-04_only-those-fit.md), [C07-05](../03_Ideation/02_Ideas/C07-05_only-differs.md), [C07-09](../03_Ideation/02_Ideas/C07-09_doors-known.md), [C07-11](../03_Ideation/02_Ideas/C07-11_regulars-accounts.md), [C07-12](../03_Ideation/02_Ideas/C07-12_lifts-count-way.md), [C13-01](../03_Ideation/02_Ideas/C13-01_side-side-door-door.md), [C13-02](../03_Ideation/02_Ideas/C13-02_evening-times-apply.md), [C13-03](../03_Ideation/02_Ideas/C13-03_home-answer.md), [C13-04](../03_Ideation/02_Ideas/C13-04_latest-office-exit.md), [C13-07](../03_Ideation/02_Ideas/C13-07_those-moved-back.md), [C13-10](../03_Ideation/02_Ideas/C13-10_true-cost-both.md), [C13-12](../03_Ideation/02_Ideas/C13-12_return-time-holds.md) |
+| **Families** | [FAM-18](../03_Ideation/02_Ideas/FAM-18_all-ways-side-side.md), [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md), [FAM-04](../03_Ideation/02_Ideas/FAM-04_source-made-visible.md), [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md), [FAM-09](../03_Ideation/02_Ideas/FAM-09_less-way.md), [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md), [FAM-26](../03_Ideation/02_Ideas/FAM-26_travellers-carry-together.md), [FAM-06](../03_Ideation/02_Ideas/FAM-06_times-allow-reality.md) |
 | **Stages covered** | planning, whole journey |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | S06 3·1·2, C06-01 3·1·3, C06-10 3·1·3, C07-01 3·1·3, C07-02 1·1·3, C07-03 3·1·3, C07-04 2·3·3, C07-05 2·1·3, C07-09 1·3·2, C07-11 1·2·2, C07-12 2·3·3, C13-01 3·1·3, C13-02 3·1·3, C13-03 3·1·3, C13-04 3·1·3, C13-07 2·2·2, C13-10 2·3·3, C13-12 3·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | S06 3·1·2, C06-01 3·1·3, C06-10 3·1·3, C07-01 3·1·3, C07-02 1·1·3, C07-03 3·1·3, C07-04 2·3·3, C07-05 2·1·3, C07-09 1·3·2, C07-11 1·2·2, C07-12 2·3·3, C13-01 3·1·3, C13-02 3·1·3, C13-03 3·1·3, C13-04 3·1·3, C13-07 2·2·2, C13-10 2·3·3, C13-12 3·1·3 |
 | **Foundation** | Principles 3, 6; The user (doors, contacts); The things it deals with (way, leg, run); Sources of information; Rules that hold everywhere |
 
 ## Description
@@ -91,6 +91,6 @@ Before the trip, for a given day and time, the product shows every way of making
 - [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (User stories served, Out of scope), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-04, F-10.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-15, FAM-09, FAM-03, FAM-26, FAM-06.
-- [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S06.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-15, FAM-09, FAM-03, FAM-26, FAM-06.
+- [01_Human_Ideas_index.md](../03_Ideation/02_Ideas/01_Human_Ideas_index.md): Marco's concepts this specification carries: S06.
 - [US-F-04_one-search-one-booking.md](../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md), [US-F-10_car-against-train-office.md](../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md): the user stories this specification serves, one file each.

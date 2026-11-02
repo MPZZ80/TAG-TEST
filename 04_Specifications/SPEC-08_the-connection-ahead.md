@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, information, tight-connection, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 00_User_Stories_index.md, 06_Chosen_concept.md, SPEC-10_times-that-can-be-kept.md, US-F-06_whether-connection-still-holds.md, US-F-22_asking-connection-wait.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 00_User_Stories_index.md, 05_Chosen_concept.md, SPEC-10_times-that-can-be-kept.md, US-F-06_whether-connection-still-holds.md, US-F-22_asking-connection-wait.md]
 ---
 
 # SPEC-08: The Connection Ahead
@@ -29,11 +29,11 @@ These stories belong together because both are the commuter on a late run, befor
 | **Priority** | concept |
 | **Features** | [F-06](../02_Analysis/02_Features/F-06_whether-connection-still-holds.md), [F-22](../02_Analysis/02_Features/F-22_asking-connection-wait.md) |
 | **Touchpoints** | [TP-053](../02_Analysis/01_Touchpoints/TP-053_taking-local-bus-station.md), [TP-057](../02_Analysis/01_Touchpoints/TP-057_giving-up-public-transport.md), [TP-060](../02_Analysis/01_Touchpoints/TP-060_changing-train-intermediate-station.md), [TP-061](../02_Analysis/01_Touchpoints/TP-061_checking-phone-before-arriving.md), [TP-068](../02_Analysis/01_Touchpoints/TP-068_connection-cannot-kept-missed.md), [TP-106](../02_Analysis/01_Touchpoints/TP-106_telling-people-waiting-colleagues.md), [TP-069](../02_Analysis/01_Touchpoints/TP-069_asking-conductor-phone-ahead.md) |
-| **Problem questions** | [HMW-09](../03_Ideation/01_How_might_we.md), [HMW-25](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C09-01](../03_Ideation/03_AI_Ideas.md), [C09-02](../03_Ideation/03_AI_Ideas.md), [C09-03](../03_Ideation/03_AI_Ideas.md), [C09-09](../03_Ideation/03_AI_Ideas.md), [C09-12](../03_Ideation/03_AI_Ideas.md), [C25-05](../03_Ideation/03_AI_Ideas.md), [C25-12](../03_Ideation/03_AI_Ideas.md); background: [C25-01](../03_Ideation/03_AI_Ideas.md), [C25-02](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-23](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-09](../03_Ideation/01_How_Might_We/HMW-09_help-como-commuter-8-23.md), [HMW-25](../03_Ideation/01_How_Might_We/HMW-25_help-german-rail-regular-late.md) |
+| **Concepts** | [C09-01](../03_Ideation/02_Ideas/C09-01_holds.md), [C09-02](../03_Ideation/02_Ideas/C09-02_own-threshold.md), [C09-03](../03_Ideation/02_Ideas/C09-03_whose-word-connection.md), [C09-09](../03_Ideation/02_Ideas/C09-09_those-already-change.md), [C09-12](../03_Ideation/02_Ideas/C09-12_new-arrival-stated.md), [C25-05](../03_Ideation/02_Ideas/C25-05_answer-visible.md), [C25-12](../03_Ideation/02_Ideas/C25-12_word-connection.md); background: [C25-01](../03_Ideation/02_Ideas/C25-01_ask-train.md), [C25-02](../03_Ideation/02_Ideas/C25-02_reported-itself.md) |
+| **Families** | [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md), [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md), [FAM-04](../03_Ideation/02_Ideas/FAM-04_source-made-visible.md), [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md); background: [FAM-23](../03_Ideation/02_Ideas/FAM-23_connection-held.md) |
 | **Stages covered** | main leg, transfer, disruption |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C09-01 3·1·3, C09-02 3·1·3, C09-03 1·1·3, C09-09 2·2·3, C09-12 3·1·3, C25-05 2·1·3, C25-12 1·2·3; background C25-01 3·1·3, C25-02 2·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C09-01 3·1·3, C09-02 3·1·3, C09-03 1·1·3, C09-09 2·2·3, C09-12 3·1·3, C25-05 2·1·3, C25-12 1·2·3; background C25-01 3·1·3, C25-02 2·1·3 |
 | **Foundation** | Principles 1, 2, 3, 6; The user (own threshold); The things it deals with (connection, run); States (connection); Sources of information; Channels |
 
 ## Description
@@ -93,6 +93,6 @@ For a commuter on a run with a change ahead, the product says before the change 
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-06, F-22.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-04, FAM-03, FAM-23.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-04, FAM-03, FAM-23.
 - [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): the specifications that name this one where their behaviours meet.
 - [US-F-06_whether-connection-still-holds.md](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md), [US-F-22_asking-connection-wait.md](../02_Analysis/03_User_Stories/US-F-22_asking-connection-wait.md): the user stories this specification serves, one file each.

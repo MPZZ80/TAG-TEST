@@ -1,6 +1,6 @@
 # Ideation: first round (archived)
 
-The first round of ideation, kept as it was when Marco asked to redo the whole process on 2026-11-01. Marco's concepts S01 to S03 moved up to `../02_Human_Ideas.md`. Not current: the new round is in the parent folder.
+The first round of ideation, kept as it was when Marco asked to redo the whole process on 2026-11-01. Marco's concepts S01 to S03 moved up to `../02_Ideas/01_Human_Ideas_index.md`. Not current: the new round is in the parent folder.
 
 | File | What it is |
 | --- | --- |
@@ -11,5 +11,5 @@ The first round of ideation, kept as it was when Marco asked to redo the whole p
 | `Chosen_concept.md` | Draft of the concept Marco chose (FAM-01 and FAM-02, without C1-03): the definition, the five features with their touchpoints, stories and quotes, the full cut list and where the material is thin |
 
 - Nothing here is ranked: the files widen and map the range, and the choice is Marco's.
-- Read `Human+AI_Ideas.md` first for the map, then `Ideas_prioritization.md` for the proposed marks and `Chosen_concept.md` for the concept chosen; open `AI_Ideas.md` and `../02_Human_Ideas.md` for the concepts in full.
+- Read `Human+AI_Ideas.md` first for the map, then `Ideas_prioritization.md` for the proposed marks and `Chosen_concept.md` for the concept chosen; open `AI_Ideas.md` and `../02_Ideas/01_Human_Ideas_index.md` for the concepts in full.
 - Each question in `AI_Ideas.md` names the user story and the quotes behind it; follow them to `../../02_Analysis/03_User_Stories/00_User_Stories_index.md` and the interview notes.

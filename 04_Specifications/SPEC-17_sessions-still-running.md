@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-14_the-station-ahead.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-18_parking-works-paying-leaving.md, US-F-21_where-shared-vehicle-can.md]
+related: [SPEC-01_foundation.md, SPEC-14_the-station-ahead.md, 00_User_Stories_index.md, 05_Chosen_concept.md, US-F-18_parking-works-paying-leaving.md, US-F-21_where-shared-vehicle-can.md]
 ---
 
 # SPEC-17: Sessions Still Running
@@ -29,11 +29,11 @@ These stories belong together because both are a paid session at the start or en
 | **Priority** | concept |
 | **Features** | [F-18](../02_Analysis/02_Features/F-18_parking-works-paying-leaving.md), [F-21](../02_Analysis/02_Features/F-21_where-shared-vehicle-can.md) |
 | **Touchpoints** | [TP-058](../02_Analysis/01_Touchpoints/TP-058_leaving-monthly-car-park.md), [TP-085](../02_Analysis/01_Touchpoints/TP-085_paying-parking-app-destination.md), [TP-086](../02_Analysis/01_Touchpoints/TP-086_returning-shared-bike-scooter.md) |
-| **Problem questions** | [HMW-21](../03_Ideation/01_How_might_we.md), [HMW-24](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C21-01](../03_Ideation/03_AI_Ideas.md), [C21-02](../03_Ideation/03_AI_Ideas.md), [C21-04](../03_Ideation/03_AI_Ideas.md), [C21-05](../03_Ideation/03_AI_Ideas.md), [C21-09](../03_Ideation/03_AI_Ideas.md), [C24-09](../03_Ideation/03_AI_Ideas.md), [C24-12](../03_Ideation/03_AI_Ideas.md); background: [C24-01](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-01](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-13](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-21](../03_Ideation/01_How_Might_We/HMW-21_keep-italian-driver-leaving-car.md), [HMW-24](../03_Ideation/01_How_Might_We/HMW-24_keep-charge-running-shared-bike.md) |
+| **Concepts** | [C21-01](../03_Ideation/02_Ideas/C21-01_still-running-reminder.md), [C21-02](../03_Ideation/02_Ideas/C21-02_told-once-away.md), [C21-04](../03_Ideation/02_Ideas/C21-04_end-set-start.md), [C21-05](../03_Ideation/02_Ideas/C21-05_usual-stay-known.md), [C21-09](../03_Ideation/02_Ideas/C21-09_family-sees.md), [C24-09](../03_Ideation/02_Ideas/C24-09_nearest-works.md), [C24-12](../03_Ideation/02_Ideas/C24-12_told-while-riding.md); background: [C24-01](../03_Ideation/02_Ideas/C24-01_zones-shown.md) |
+| **Families** | [FAM-01](../03_Ideation/02_Ideas/FAM-01_told-where-they.md), [FAM-16](../03_Ideation/02_Ideas/FAM-16_settled-beforehand.md), [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md), [FAM-13](../03_Ideation/02_Ideas/FAM-13_those-depending-them-told.md), [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md); background: [FAM-10](../03_Ideation/02_Ideas/FAM-10_lies-ahead-known-beforehand.md) |
 | **Stages covered** | first mile, last mile |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C21-01 3·2·3, C21-02 3·2·3, C21-04 3·3·3, C21-05 2·3·2, C21-09 1·2·2, C24-09 3·1·3, C24-12 2·1·3; background C24-01 3·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C21-01 3·2·3, C21-02 3·2·3, C21-04 3·3·3, C21-05 2·3·2, C21-09 1·2·2, C24-09 3·1·3, C24-12 2·1·3; background C24-01 3·1·3 |
 | **Foundation** | Principle 4; The things it deals with (place); Channels; Rules that hold everywhere |
 
 ## Description
@@ -85,5 +85,5 @@ When the commuter starts a paid session (street parking, a shared bike), the pro
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principle 4; The things it deals with (place); Channels; Rules that hold everywhere.
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): named in this specification (the text), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-18, F-21.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-16, FAM-15, FAM-13, FAM-08, FAM-10.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-16, FAM-15, FAM-13, FAM-08, FAM-10.
 - [US-F-18_parking-works-paying-leaving.md](../02_Analysis/03_User_Stories/US-F-18_parking-works-paying-leaving.md), [US-F-21_where-shared-vehicle-can.md](../02_Analysis/03_User_Stories/US-F-21_where-shared-vehicle-can.md): the user stories this specification serves, one file each.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, tools, usual-trip]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-11_usual-trip-glance.md, US-F-24_travel-information-first-hurry.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, 00_User_Stories_index.md, 05_Chosen_concept.md, US-F-11_usual-trip-glance.md, US-F-24_travel-information-first-hurry.md]
 ---
 
 # SPEC-05: The Usual Trip at a Glance
@@ -29,11 +29,11 @@ These stories belong together because both ask that the first thing the product 
 | **Priority** | concept |
 | **Features** | [F-11](../02_Analysis/02_Features/F-11_usual-trip-glance.md), [F-24](../02_Analysis/02_Features/F-24_travel-information-first-hurry.md) |
 | **Touchpoints** | [TP-012](../02_Analysis/01_Touchpoints/TP-012_deciding-means-before-opening.md), [TP-027](../02_Analysis/01_Touchpoints/TP-027_opening-saved-usual-trip.md), [TP-062](../02_Analysis/01_Touchpoints/TP-062_finding-next-platform-change.md), [TP-055](../02_Analysis/01_Touchpoints/TP-055_checking-app-hurry-being.md) |
-| **Problem questions** | [HMW-14](../03_Ideation/01_How_might_we.md), [HMW-27](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C14-01](../03_Ideation/03_AI_Ideas.md), [C14-04](../03_Ideation/03_AI_Ideas.md), [C14-05](../03_Ideation/03_AI_Ideas.md), [C14-06](../03_Ideation/03_AI_Ideas.md), [C14-12](../03_Ideation/03_AI_Ideas.md), [C27-01](../03_Ideation/03_AI_Ideas.md), [C27-04](../03_Ideation/03_AI_Ideas.md), [C27-06](../03_Ideation/03_AI_Ideas.md), [C27-07](../03_Ideation/03_AI_Ideas.md), [C27-08](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-09](../03_Ideation/04_Human+AI_Ideas.md), [FAM-01](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-14](../03_Ideation/01_How_Might_We/HMW-14_let-dutch-rail-commuter-way.md), [HMW-27](../03_Ideation/01_How_Might_We/HMW-27_keep-few-seconds-deciding-whether.md) |
+| **Concepts** | [C14-01](../03_Ideation/02_Ideas/C14-01_platform-door.md), [C14-04](../03_Ideation/02_Ideas/C14-04_usual-trip-remembered.md), [C14-05](../03_Ideation/02_Ideas/C14-05_only-one-fact.md), [C14-06](../03_Ideation/02_Ideas/C14-06_only-different.md), [C14-12](../03_Ideation/02_Ideas/C14-12_final.md), [C27-01](../03_Ideation/02_Ideas/C27-01_nothing-front.md), [C27-04](../03_Ideation/02_Ideas/C27-04_hurry-recognised.md), [C27-06](../03_Ideation/02_Ideas/C27-06_before-he-opens-anything.md), [C27-07](../03_Ideation/02_Ideas/C27-07_usual-bus-known.md), [C27-08](../03_Ideation/02_Ideas/C27-08_time-reach.md) |
+| **Families** | [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md), [FAM-09](../03_Ideation/02_Ideas/FAM-09_less-way.md), [FAM-01](../03_Ideation/02_Ideas/FAM-01_told-where-they.md), [FAM-04](../03_Ideation/02_Ideas/FAM-04_source-made-visible.md), [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md) |
 | **Stages covered** | before departure, first mile, transfer |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C14-01 3·1·3, C14-04 3·3·3, C14-05 3·1·3, C14-06 2·1·3, C14-12 2·1·2, C27-01 3·3·3, C27-04 3·1·3, C27-06 3·1·2, C27-07 2·3·2, C27-08 3·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C14-01 3·1·3, C14-04 3·3·3, C14-05 3·1·3, C14-06 2·1·3, C14-12 2·1·2, C27-01 3·3·3, C27-04 3·1·3, C27-06 3·1·2, C27-07 2·3·2, C27-08 3·1·3 |
 | **Foundation** | Principles 4, 6; The things it deals with (usual trip, run, connection); States (run); Channels; Rules that hold everywhere |
 
 ## Description
@@ -87,5 +87,5 @@ When the commuter opens the product, the first thing shown is the next run of th
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
 - [SPEC-04_alerts-on-the-usual-trip.md](SPEC-04_alerts-on-the-usual-trip.md): named in this specification (Out of scope), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-11, F-24.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-15, FAM-09, FAM-01, FAM-04, FAM-08.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-15, FAM-09, FAM-01, FAM-04, FAM-08.
 - [US-F-11_usual-trip-glance.md](../02_Analysis/03_User_Stories/US-F-11_usual-trip-glance.md), [US-F-24_travel-information-first-hurry.md](../02_Analysis/03_User_Stories/US-F-24_travel-information-first-hurry.md): the user stories this specification serves, one file each.

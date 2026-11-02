@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, planning, ticket-carryover]
-related: [SPEC-01_foundation.md, SPEC-09_every-way-side-by-side.md, SPEC-06_ways-out-when-the-trip-breaks.md, 00_User_Stories_index.md, 06_Chosen_concept.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, US-F-04_one-search-one-booking.md, US-F-08_ticket-works-moment-needed.md]
+related: [SPEC-01_foundation.md, SPEC-09_every-way-side-by-side.md, SPEC-06_ways-out-when-the-trip-breaks.md, 00_User_Stories_index.md, 05_Chosen_concept.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, US-F-04_one-search-one-booking.md, US-F-08_ticket-works-moment-needed.md]
 ---
 
 # SPEC-11: Tickets That Work When They Are Needed
@@ -29,11 +29,11 @@ These stories belong together because both are the ticket: getting it for the wh
 | **Priority** | concept |
 | **Features** | [F-04](../02_Analysis/02_Features/F-04_one-search-one-booking.md), [F-08](../02_Analysis/02_Features/F-08_ticket-works-moment-needed.md) |
 | **Touchpoints** | [TP-005](../02_Analysis/01_Touchpoints/TP-005_booking-train-days-ahead.md), [TP-020](../02_Analysis/01_Touchpoints/TP-020_booking-online-without-comparing.md), [TP-021](../02_Analysis/01_Touchpoints/TP-021_deciding-combine-means-operators.md), [TP-022](../02_Analysis/01_Touchpoints/TP-022_searching-each-leg-different.md), [TP-008](../02_Analysis/01_Touchpoints/TP-008_buying-pass-ticket-payment.md), [TP-071](../02_Analysis/01_Touchpoints/TP-071_buying-ticket-station-just.md), [TP-076](../02_Analysis/01_Touchpoints/TP-076_showing-ticket-inspector-gate.md), [TP-077](../02_Analysis/01_Touchpoints/TP-077_forgetting-check-fixed-route.md), [TP-103](../02_Analysis/01_Touchpoints/TP-103_moving-ticket-another-train.md) |
-| **Problem questions** | [HMW-07](../03_Ideation/01_How_might_we.md), [HMW-11](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C07-06](../03_Ideation/03_AI_Ideas.md), [C11-02](../03_Ideation/03_AI_Ideas.md), [C11-11](../03_Ideation/03_AI_Ideas.md); background: [C11-01](../03_Ideation/03_AI_Ideas.md), [C11-04](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-19](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md), [FAM-01](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-21](../03_Ideation/04_Human+AI_Ideas.md), [FAM-14](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-07](../03_Ideation/01_How_Might_We/HMW-07_let-verona-milan-commuter-he.md), [HMW-11](../03_Ideation/01_How_Might_We/HMW-11_let-verona-milan-commuter-still.md) |
+| **Concepts** | [C07-06](../03_Ideation/02_Ideas/C07-06_one-price.md), [C11-02](../03_Ideation/02_Ideas/C11-02_next-one-if-i.md), [C11-11](../03_Ideation/02_Ideas/C11-11_last-moment-warned.md); background: [C11-01](../03_Ideation/02_Ideas/C11-01_move-signal.md), [C11-04](../03_Ideation/02_Ideas/C11-04_ticket-follows-him.md) |
+| **Families** | [FAM-19](../03_Ideation/02_Ideas/FAM-19_trip-one-purchase.md), [FAM-16](../03_Ideation/02_Ideas/FAM-16_settled-beforehand.md), [FAM-01](../03_Ideation/02_Ideas/FAM-01_told-where-they.md); background: [FAM-21](../03_Ideation/02_Ideas/FAM-21_prices-tickets-fit-real.md), [FAM-14](../03_Ideation/02_Ideas/FAM-14_step-done-them.md) |
 | **Stages covered** | planning, before departure, main leg |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C07-06 2·1·3, C11-02 3·1·2, C11-11 2·1·3; background C11-01 3·1·3, C11-04 3·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C07-06 2·1·3, C11-02 3·1·2, C11-11 2·1·3; background C11-01 3·1·3, C11-04 3·1·3 |
 | **Foundation** | Principle 5; The things it deals with (ticket, trip, way); Rules that hold everywhere |
 
 ## Description
@@ -87,6 +87,6 @@ The commuter books a whole door to door way as one journey, with one price (C07-
 - [SPEC-09_every-way-side-by-side.md](SPEC-09_every-way-side-by-side.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (Operating logic), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-04, F-08.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-19, FAM-16, FAM-01, FAM-21, FAM-14.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-19, FAM-16, FAM-01, FAM-21, FAM-14.
 - [SPEC-12_the-fare-that-fits-the-days.md](SPEC-12_the-fare-that-fits-the-days.md), [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md): the specifications that name this one where their behaviours meet.
 - [US-F-04_one-search-one-booking.md](../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md), [US-F-08_ticket-works-moment-needed.md](../02_Analysis/03_User_Stories/US-F-08_ticket-works-moment-needed.md): the user stories this specification serves, one file each.

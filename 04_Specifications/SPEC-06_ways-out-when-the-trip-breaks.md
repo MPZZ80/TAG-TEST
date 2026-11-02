@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, mode-choice, no-alternative, crowding, unreliable-service]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, SPEC-09_every-way-side-by-side.md, 00_User_Stories_index.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-08_the-connection-ahead.md, SPEC-11_tickets-that-work-when-needed.md, US-F-02_ways-still-open-trip.md, US-F-19_how-crowded-next-services.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, SPEC-09_every-way-side-by-side.md, 00_User_Stories_index.md, 05_Chosen_concept.md, 01_Human_Ideas_index.md, SPEC-08_the-connection-ahead.md, SPEC-11_tickets-that-work-when-needed.md, US-F-02_ways-still-open-trip.md, US-F-19_how-crowded-next-services.md]
 ---
 
 # SPEC-06: Ways Out When the Trip Breaks
@@ -29,11 +29,11 @@ These stories belong together because both are the moment the planned trip has b
 | **Priority** | concept |
 | **Features** | [F-02](../02_Analysis/02_Features/F-02_ways-still-open-trip.md), [F-19](../02_Analysis/02_Features/F-19_how-crowded-next-services.md) |
 | **Touchpoints** | [TP-026](../02_Analysis/01_Touchpoints/TP-026_keeping-ranked-fallback-none.md), [TP-084](../02_Analysis/01_Touchpoints/TP-084_last-service-night-gone.md), [TP-093](../02_Analysis/01_Touchpoints/TP-093_reacting-before-entering-station.md), [TP-094](../02_Analysis/01_Touchpoints/TP-094_going-back-home-take.md), [TP-095](../02_Analysis/01_Touchpoints/TP-095_giving-up-trip-staying.md), [TP-097](../02_Analysis/01_Touchpoints/TP-097_rerouting-another-line-service.md), [TP-098](../02_Analysis/01_Touchpoints/TP-098_taking-replacement-bus.md), [TP-099](../02_Analysis/01_Touchpoints/TP-099_looking-app-s-alternatives.md), [TP-100](../02_Analysis/01_Touchpoints/TP-100_paying-taxi-second-ticket.md), [TP-101](../02_Analysis/01_Touchpoints/TP-101_calling-taxi-hurry-does.md), [TP-102](../02_Analysis/01_Touchpoints/TP-102_ticket-valid-next-service.md), [TP-107](../02_Analysis/01_Touchpoints/TP-107_asking-relative-come-fetch.md), [TP-072](../02_Analysis/01_Touchpoints/TP-072_boarding-crowded-train-letting.md) |
-| **Problem questions** | [HMW-03](../03_Ideation/01_How_might_we.md), [HMW-04](../03_Ideation/01_How_might_we.md), [HMW-22](../03_Ideation/01_How_might_we.md), [HMW-07](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [S06](../03_Ideation/02_Human_Ideas.md), [C03-01](../03_Ideation/03_AI_Ideas.md), [C03-02](../03_Ideation/03_AI_Ideas.md), [C03-03](../03_Ideation/03_AI_Ideas.md), [C03-11](../03_Ideation/03_AI_Ideas.md), [C04-01](../03_Ideation/03_AI_Ideas.md), [C04-02](../03_Ideation/03_AI_Ideas.md), [C04-06](../03_Ideation/03_AI_Ideas.md), [C22-02](../03_Ideation/03_AI_Ideas.md), [C22-03](../03_Ideation/03_AI_Ideas.md), [C22-05](../03_Ideation/03_AI_Ideas.md), [C22-06](../03_Ideation/03_AI_Ideas.md); background: [C03-04](../03_Ideation/03_AI_Ideas.md), [C22-01](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-18](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../03_Ideation/04_Human+AI_Ideas.md), [FAM-05](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-03](../03_Ideation/01_How_Might_We/HMW-03_help-teenager-waiting-late-evening.md), [HMW-04](../03_Ideation/01_How_Might_We/HMW-04_help-teenager-stop-late-evening.md), [HMW-22](../03_Ideation/01_How_Might_We/HMW-22_help-outskirts-hybrid-worker-station.md), [HMW-07](../03_Ideation/01_How_Might_We/HMW-07_let-verona-milan-commuter-he.md) |
+| **Concepts** | [S06](../03_Ideation/02_Ideas/S06_alternatives-estimated-delays.md), [C03-01](../03_Ideation/02_Ideas/C03-01_call-home-point.md), [C03-02](../03_Ideation/02_Ideas/C03-02_last-way-home.md), [C03-03](../03_Ideation/02_Ideas/C03-03_confirmed-running.md), [C03-11](../03_Ideation/02_Ideas/C03-11_family-plan.md), [C04-01](../03_Ideation/02_Ideas/C04-01_wait-call-word.md), [C04-02](../03_Ideation/02_Ideas/C04-02_seen-seen.md), [C04-06](../03_Ideation/02_Ideas/C04-06_rule-agreed-home.md), [C22-02](../03_Ideation/02_Ideas/C22-02_measured-estimated.md), [C22-03](../03_Ideation/02_Ideas/C22-03_word-packed-train.md), [C22-05](../03_Ideation/02_Ideas/C22-05_wait-go-word.md), [C22-06](../03_Ideation/02_Ideas/C22-06_seat-time-preference.md); background: [C03-04](../03_Ideation/02_Ideas/C03-04_valid.md), [C22-01](../03_Ideation/02_Ideas/C22-01_expected-fullness.md) |
+| **Families** | [FAM-18](../03_Ideation/02_Ideas/FAM-18_all-ways-side-side.md), [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md), [FAM-04](../03_Ideation/02_Ideas/FAM-04_source-made-visible.md), [FAM-16](../03_Ideation/02_Ideas/FAM-16_settled-beforehand.md), [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md), [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md); background: [FAM-10](../03_Ideation/02_Ideas/FAM-10_lies-ahead-known-beforehand.md), [FAM-05](../03_Ideation/02_Ideas/FAM-05_honest-uncertainty.md) |
 | **Stages covered** | disruption, first mile, transfer, last mile |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | S06 3·1·2, C03-01 3·1·3, C03-02 3·1·3, C03-03 2·1·3, C03-11 3·3·2, C04-01 3·1·3, C04-02 2·1·3, C04-06 3·3·2, C22-02 1·1·3, C22-03 3·2·3, C22-05 3·1·3, C22-06 2·3·2; background C03-04 2·1·3, C22-01 3·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | S06 3·1·2, C03-01 3·1·3, C03-02 3·1·3, C03-03 2·1·3, C03-11 3·3·2, C04-01 3·1·3, C04-02 2·1·3, C04-06 3·3·2, C22-02 1·1·3, C22-03 3·2·3, C22-05 3·1·3, C22-06 2·3·2; background C03-04 2·1·3, C22-01 3·1·3 |
 | **Foundation** | Principles 2, 3, 5; The user (rules, preferences); The things it deals with (way, ticket, run); States (trip: broken); Sources of information; Rules that hold everywhere |
 
 ## Description
@@ -99,7 +99,7 @@ When the trip breaks (a run is cancelled, a connection is lost, a bus does not c
 - [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-09_every-way-side-by-side.md](SPEC-09_every-way-side-by-side.md): named in this specification (Out of scope), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-02, F-19.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-16, FAM-03, FAM-15, FAM-10, FAM-05.
-- [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S06.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-16, FAM-03, FAM-15, FAM-10, FAM-05.
+- [01_Human_Ideas_index.md](../03_Ideation/02_Ideas/01_Human_Ideas_index.md): Marco's concepts this specification carries: S06.
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md), [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): the specifications that name this one where their behaviours meet.
 - [US-F-02_ways-still-open-trip.md](../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md), [US-F-19_how-crowded-next-services.md](../02_Analysis/03_User_Stories/US-F-19_how-crowded-next-services.md): the user stories this specification serves, one file each.

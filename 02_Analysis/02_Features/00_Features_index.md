@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds]
-related: [00_Touchpoints_index.md, 00_User_Stories_index.md, 06_Chosen_concept.md, SPEC-00_overview.md, SPEC-01_foundation.md]
+related: [00_Touchpoints_index.md, 00_User_Stories_index.md, 05_Chosen_concept.md, SPEC-00_overview.md, SPEC-01_foundation.md]
 ---
 
 # Features Proposed from the Touchpoints
@@ -101,5 +101,5 @@ The features are kept; the conflict is part of the evidence. Numbers refer to th
 
 - [00_User_Stories_index.md](../03_User_Stories/00_User_Stories_index.md) turns the features with a traced value into user stories and lists the ones sent back.
 - [00_Touchpoints_index.md](../01_Touchpoints/00_Touchpoints_index.md) holds the 109 touchpoints these features answer, with the full citations, the contradictions and the coverage gaps.
-- [06_Chosen_concept.md](../../03_Ideation/06_Chosen_concept.md): the chosen concept, which names these features for each family.
+- [05_Chosen_concept.md](../../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept, which names these features for each family.
 - [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md), [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md): the specifications that trace to these features.

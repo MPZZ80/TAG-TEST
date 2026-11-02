@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-03 00:15
+date: 2026-11-03 00:35
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -30,6 +30,8 @@ Repository layout:
 | `01_Research/05_Survey/` | The commuter survey in six languages, where to post it, the script that builds the forms, the answers and the results |
 | `02_Analysis/` | Touchpoints, features and user stories built on the research, one file per item in `01_Touchpoints/`, `02_Features/` and `03_User_Stories/`, each folder with its index (`00_…_index.md`); the research web page, a dated snapshot; the prompts that generated them |
 | `03_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
+| `03_Ideation/01_How_Might_We/` | The How-Might-We questions, clusters and superclusters, one file each, with their index |
+| `03_Ideation/02_Ideas/` | Marco's and the AI's concepts and their families, one file each, with their indexes, the marks and the chosen concept |
 | `03_Ideation/00_Ideation_Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
 | `04_Specifications/` | The specifications written from the user stories and the chosen concept, one file per behaviour, with the instructions for writing them |
@@ -127,7 +129,7 @@ This section is the running list of the standing instructions Marco gives during
 | 33 | 2026-10-19 | Updated by 34 (commit without being asked). Whenever Marco asks for a commit, push it to GitHub right after. | Not stated |
 | 34 | 2026-10-22 | After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
 | 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `04_research.html` had been added to `02_Analysis/` without a row in its README |
-| 36 | 2026-11-01 | Name the files of `03_Ideation/` with a progressive number at the start, in the order of the process: `01_How_might_we.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
+| 36 | 2026-11-01 | Name the files of `03_Ideation/` with a progressive number at the start, in the order of the process: `00_How_might_we_index.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
 | 37 | 2026-11-02 | Number the folders of `01_Research/` in the order they were created (`01_Questions/` to `05_Survey/`; Analysis, numbered `06_` at first, was then moved to the root as `02_Analysis/`), and number the files inside that have no progressive number yet, in the order they were created. Files that already carry a number or an ID keep it (source IDs such as `GR-001`, the course prompts `prompt-01-…`). The interview files stay without numbers. The plan and the instructions for running it go in `01_Research/02_Plan/`. | To put order in the research folder |
 | 38 | 2026-11-02 | Keep the whole network of the files working: when a file or folder is created, moved, renamed or deleted, update every link, `related` entry, "Connections" sentence, `Index.md` line and README row that names it, then check that all links and `related` entries still resolve. Details under "Network" above. | Not stated; asked after the research folders were renumbered and moved |
 

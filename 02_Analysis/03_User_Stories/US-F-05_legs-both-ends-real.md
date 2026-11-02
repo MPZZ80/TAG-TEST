@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-05_legs-both-ends-real.md, SPEC-10_times-that-can-be-kept.md]
+related: [F-05_legs-both-ends-real.md, SPEC-10_times-that-can-be-kept.md, HMW-08_help-london-traveller-changing-king.md]
 ---
 
 # Story F-05
@@ -19,6 +19,7 @@ As a London traveller (desk persona), changing at King's Cross for a train to Lu
 | --- | --- |
 | **Evidence and impact** | strong · Medium |
 | **Feature** | [F-05_legs-both-ends-real.md](../02_Features/F-05_legs-both-ends-real.md) |
+| **Questions (HMW)** | [HMW-08](../../03_Ideation/01_How_Might_We/HMW-08_help-london-traveller-changing-king.md) |
 | **Specifications** | [SPEC-10](../../04_Specifications/SPEC-10_times-that-can-be-kept.md) |
 
 ## Source
@@ -29,3 +30,4 @@ As a London traveller (desk persona), changing at King's Cross for a train to Lu
 
 - [F-05_legs-both-ends-real.md](../02_Features/F-05_legs-both-ends-real.md): the feature this story carries.
 - [SPEC-10_times-that-can-be-kept.md](../../04_Specifications/SPEC-10_times-that-can-be-kept.md): the specifications that serve this story.
+- [HMW-08_help-london-traveller-changing-king.md](../../03_Ideation/01_How_Might_We/HMW-08_help-london-traveller-changing-king.md): the How-Might-We questions written from this story.

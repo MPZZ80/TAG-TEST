@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-07_trips-planned-commuter-s.md, SPEC-03_travellers-report.md, SPEC-10_times-that-can-be-kept.md]
+related: [F-07_trips-planned-commuter-s.md, SPEC-03_travellers-report.md, SPEC-10_times-that-can-be-kept.md, HMW-10_help-german-rail-regular-planner.md]
 ---
 
 # Story F-07
@@ -19,6 +19,7 @@ As a German rail regular (desk persona), logging every trip and his connections,
 | --- | --- |
 | **Evidence and impact** | strong · Medium |
 | **Feature** | [F-07_trips-planned-commuter-s.md](../02_Features/F-07_trips-planned-commuter-s.md) |
+| **Questions (HMW)** | [HMW-10](../../03_Ideation/01_How_Might_We/HMW-10_help-german-rail-regular-planner.md) |
 | **Specifications** | [SPEC-03](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-10](../../04_Specifications/SPEC-10_times-that-can-be-kept.md) |
 
 ## Source
@@ -29,3 +30,4 @@ As a German rail regular (desk persona), logging every trip and his connections,
 
 - [F-07_trips-planned-commuter-s.md](../02_Features/F-07_trips-planned-commuter-s.md): the feature this story carries.
 - [SPEC-03_travellers-report.md](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-10_times-that-can-be-kept.md](../../04_Specifications/SPEC-10_times-that-can-be-kept.md): the specifications that serve this story.
+- [HMW-10_help-german-rail-regular-planner.md](../../03_Ideation/01_How_Might_We/HMW-10_help-german-rail-regular-planner.md): the How-Might-We questions written from this story.

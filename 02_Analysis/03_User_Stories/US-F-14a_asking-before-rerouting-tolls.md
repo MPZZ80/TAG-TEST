@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-14a_asking-before-rerouting-tolls.md, SPEC-16_the-route-stays-with-the-driver.md]
+related: [F-14a_asking-before-rerouting-tolls.md, SPEC-16_the-route-stays-with-the-driver.md, HMW-17_keep-route-decision-italian-driver.md]
 ---
 
 # Story F-14a
@@ -19,6 +19,7 @@ Split from F-14. As an Italian driver (desk persona), following a map app, when 
 | --- | --- |
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-14a_asking-before-rerouting-tolls.md](../02_Features/F-14a_asking-before-rerouting-tolls.md) |
+| **Questions (HMW)** | [HMW-17](../../03_Ideation/01_How_Might_We/HMW-17_keep-route-decision-italian-driver.md) |
 | **Specifications** | [SPEC-16](../../04_Specifications/SPEC-16_the-route-stays-with-the-driver.md) |
 
 ## Source
@@ -29,3 +30,4 @@ Split from F-14. As an Italian driver (desk persona), following a map app, when 
 
 - [F-14a_asking-before-rerouting-tolls.md](../02_Features/F-14a_asking-before-rerouting-tolls.md): the feature this story carries.
 - [SPEC-16_the-route-stays-with-the-driver.md](../../04_Specifications/SPEC-16_the-route-stays-with-the-driver.md): the specifications that serve this story.
+- [HMW-17_keep-route-decision-italian-driver.md](../../03_Ideation/01_How_Might_We/HMW-17_keep-route-decision-italian-driver.md): the How-Might-We questions written from this story.

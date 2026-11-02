@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [design, internal, output, information, disruption]
-related: [Ideas_prioritization.md, Human+AI_Ideas.md, AI_Ideas.md, 02_Human_Ideas.md, 00_User_Stories_index.md, 00_Features_index.md, 00_Touchpoints_index.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
+related: [Ideas_prioritization.md, Human+AI_Ideas.md, AI_Ideas.md, 01_Human_Ideas_index.md, 00_User_Stories_index.md, 00_Features_index.md, 00_Touchpoints_index.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
 ---
 
 # Chosen Concept: The Delay as the Travellers See It
@@ -34,7 +34,7 @@ It acts in these moments:
 
 - **HMW-01:** How might we enable the daily commuter to be informed about the exact delay and location while waiting on the platform? Answered by C1-07 and C1-08.
 - **HMW-02:** How might we enable the daily commuter on their return train to alert their relatives of the exact delay of the train? Answered by C2-06.
-- S02 and S03 name no question in [Human_Ideas.md](../02_Human_Ideas.md). In [Ideas_prioritization.md](Ideas_prioritization.md) they were marked against F-01, so they are listed under HMW-01 below.
+- S02 and S03 name no question in [Human_Ideas.md](../02_Ideas/01_Human_Ideas_index.md). In [Ideas_prioritization.md](Ideas_prioritization.md) they were marked against F-01, so they are listed under HMW-01 below.
 
 ## The reduced feature set
 
@@ -117,7 +117,7 @@ From [AI_Ideas.md](AI_Ideas.md), with the reasons given there.
 
 - [Ideas_prioritization.md](Ideas_prioritization.md): the marks of every concept here, and the choice of FAM-01 and FAM-02.
 - [Human+AI_Ideas.md](Human+AI_Ideas.md): the families and the wording of each concept.
-- [AI_Ideas.md](AI_Ideas.md) and [Human_Ideas.md](../02_Human_Ideas.md): the concepts in full, HMW-01 and HMW-02, and the concepts dropped at ideation.
+- [AI_Ideas.md](AI_Ideas.md) and [Human_Ideas.md](../02_Ideas/01_Human_Ideas_index.md): the concepts in full, HMW-01 and HMW-02, and the concepts dropped at ideation.
 - [00_User_Stories_index.md](../../02_Analysis/03_User_Stories/00_User_Stories_index.md): stories F-01 and F-09.
 - [00_Features_index.md](../../02_Analysis/02_Features/00_Features_index.md): features F-01 and F-09 and the touchpoints they answer.
 - [00_Touchpoints_index.md](../../02_Analysis/01_Touchpoints/00_Touchpoints_index.md): TP-038, TP-070, TP-075, TP-088, TP-089, TP-090, TP-092 and TP-106, with all their citations.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, planning, late-info, usual-trip, workarounds]
-related: [SPEC-00_overview.md, 06_Chosen_concept.md, 00_User_Stories_index.md, 00_Features_index.md, 00_Touchpoints_index.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md]
+related: [SPEC-00_overview.md, 05_Chosen_concept.md, 00_User_Stories_index.md, 00_Features_index.md, 00_Touchpoints_index.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md]
 ---
 
 # SPEC-01: Foundation
@@ -151,7 +151,7 @@ The product tells a commuter who travels between cities, and the people who depe
 ## Connections
 
 - [SPEC-00_overview.md](SPEC-00_overview.md): the overview that maps every specification to its stories and references.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept, whose families the specifications draw on.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept, whose families the specifications draw on.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the 24 user stories; every behaviour specification serves some of them, and the foundation holds what they share.
 - [00_Features_index.md](../02_Analysis/02_Features/00_Features_index.md): the features the specifications trace to.
 - [00_Touchpoints_index.md](../02_Analysis/01_Touchpoints/00_Touchpoints_index.md): the touchpoints the specifications trace to.

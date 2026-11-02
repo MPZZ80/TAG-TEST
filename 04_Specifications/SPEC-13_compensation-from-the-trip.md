@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, tools, refunds]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-16_compensation-claim-started-delayed.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 05_Chosen_concept.md, US-F-16_compensation-claim-started-delayed.md]
 ---
 
 # SPEC-13: Compensation Claimed From the Trip
@@ -26,11 +26,11 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 | **Priority** | concept |
 | **Features** | [F-16](../02_Analysis/02_Features/F-16_compensation-claim-started-delayed.md) |
 | **Touchpoints** | [TP-104](../02_Analysis/01_Touchpoints/TP-104_claiming-compensation-after-delay.md), [TP-105](../02_Analysis/01_Touchpoints/TP-105_complaining-after-poor-experience.md) |
-| **Problem questions** | [HMW-19](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C19-05](../03_Ideation/03_AI_Ideas.md), [C19-11](../03_Ideation/03_AI_Ideas.md), [C19-12](../03_Ideation/03_AI_Ideas.md); background: [C19-01](../03_Ideation/03_AI_Ideas.md), [C19-04](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-07](../03_Ideation/04_Human+AI_Ideas.md), [FAM-26](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-14](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-19](../03_Ideation/01_How_Might_We/HMW-19_help-british-traveller-after-delay.md) |
+| **Concepts** | [C19-05](../03_Ideation/02_Ideas/C19-05_owed.md), [C19-11](../03_Ideation/02_Ideas/C19-11_claim-path-known-purchase.md), [C19-12](../03_Ideation/02_Ideas/C19-12_claim-together.md); background: [C19-01](../03_Ideation/02_Ideas/C19-01_seller-claims.md), [C19-04](../03_Ideation/02_Ideas/C19-04_proof-ready.md) |
+| **Families** | [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md), [FAM-07](../03_Ideation/02_Ideas/FAM-07_told-sooner.md), [FAM-26](../03_Ideation/02_Ideas/FAM-26_travellers-carry-together.md); background: [FAM-14](../03_Ideation/02_Ideas/FAM-14_step-done-them.md) |
 | **Stages covered** | disruption (after the trip) |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C19-05 2·1·2, C19-11 1·3·1, C19-12 1·2·2; background C19-01 3·1·3, C19-04 2·3·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C19-05 2·1·2, C19-11 1·3·1, C19-12 1·2·2; background C19-01 3·1·3, C19-04 2·3·3 |
 | **Foundation** | The things it deals with (trip, run, ticket); States (run, trip); Sources of information; Rules that hold everywhere |
 
 ## Description
@@ -81,5 +81,5 @@ After a trip with a delay, the product says on arrival what may be owed for it (
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (Operating logic), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-16.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-07, FAM-26, FAM-14.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-07, FAM-26, FAM-14.
 - [US-F-16_compensation-claim-started-delayed.md](../02_Analysis/03_User_Stories/US-F-16_compensation-claim-started-delayed.md): the user stories this specification serves, one file each.

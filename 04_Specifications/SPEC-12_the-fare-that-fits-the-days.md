@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, why-now, hybrid-work]
-related: [SPEC-01_foundation.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-12_ticket-fits-days-travelled.md]
+related: [SPEC-01_foundation.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 05_Chosen_concept.md, US-F-12_ticket-fits-days-travelled.md]
 ---
 
 # SPEC-12: The Fare That Fits the Days
@@ -26,11 +26,11 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 | **Priority** | concept |
 | **Features** | [F-12](../02_Analysis/02_Features/F-12_ticket-fits-days-travelled.md) |
 | **Touchpoints** | [TP-002](../02_Analysis/01_Touchpoints/TP-002_deciding-days-go-office.md), [TP-003](../02_Analysis/01_Touchpoints/TP-003_working-home-some-days.md), [TP-007](../02_Analysis/01_Touchpoints/TP-007_choosing-pass-carnet-single.md) |
-| **Problem questions** | [HMW-15](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C15-01](../03_Ideation/03_AI_Ideas.md), [C15-02](../03_Ideation/03_AI_Ideas.md), [C15-10](../03_Ideation/03_AI_Ideas.md), [C15-11](../03_Ideation/03_AI_Ideas.md), [C15-12](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-27](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-15](../03_Ideation/01_How_Might_We/HMW-15_keep-como-commuter-whose-office.md) |
+| **Concepts** | [C15-01](../03_Ideation/02_Ideas/C15-01_cheapest-days.md), [C15-02](../03_Ideation/02_Ideas/C15-02_told-stops-paying.md), [C15-10](../03_Ideation/02_Ideas/C15-10_count-days.md), [C15-11](../03_Ideation/02_Ideas/C15-11_drop-pass.md), [C15-12](../03_Ideation/02_Ideas/C15-12_others-tallies.md) |
+| **Families** | [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md), [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md), [FAM-27](../03_Ideation/02_Ideas/FAM-27_change-trip-habit.md), [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md) |
 | **Stages covered** | planning |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C15-01 3·3·3, C15-02 3·3·3, C15-10 2·3·2, C15-11 2·3·3, C15-12 2·2·2 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C15-01 3·3·3, C15-02 3·3·3, C15-10 2·3·2, C15-11 2·3·3, C15-12 2·2·2 |
 | **Foundation** | Principles 3, 6; The user (days of travel); The things it deals with (usual trip, trip, ticket) |
 
 ## Description
@@ -77,5 +77,5 @@ The product counts the days the commuter really travels (C15-10) and says which 
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 3, 6; The user (days of travel); The things it deals with (usual trip, trip, ticket).
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (Out of scope), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-12.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-27, FAM-03.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-27, FAM-03.
 - [US-F-12_ticket-fits-days-travelled.md](../02_Analysis/03_User_Stories/US-F-12_ticket-fits-days-travelled.md): the user stories this specification serves, one file each.

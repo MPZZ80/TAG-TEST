@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-15_parking-bike-space-station.md, SPEC-03_travellers-report.md, SPEC-14_the-station-ahead.md]
+related: [F-15_parking-bike-space-station.md, SPEC-03_travellers-report.md, SPEC-14_the-station-ahead.md, HMW-18_spare-woman-driving-station-before.md]
 ---
 
 # Story F-15
@@ -19,6 +19,7 @@ As a woman driving to the station (desk persona), before leaving home for the 8:
 | --- | --- |
 | **Evidence and impact** | strong · Low |
 | **Feature** | [F-15_parking-bike-space-station.md](../02_Features/F-15_parking-bike-space-station.md) |
+| **Questions (HMW)** | [HMW-18](../../03_Ideation/01_How_Might_We/HMW-18_spare-woman-driving-station-before.md) |
 | **Specifications** | [SPEC-03](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-14](../../04_Specifications/SPEC-14_the-station-ahead.md) |
 
 ## Source
@@ -29,3 +30,4 @@ As a woman driving to the station (desk persona), before leaving home for the 8:
 
 - [F-15_parking-bike-space-station.md](../02_Features/F-15_parking-bike-space-station.md): the feature this story carries.
 - [SPEC-03_travellers-report.md](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-14_the-station-ahead.md](../../04_Specifications/SPEC-14_the-station-ahead.md): the specifications that serve this story.
+- [HMW-18_spare-woman-driving-station-before.md](../../03_Ideation/01_How_Might_We/HMW-18_spare-woman-driving-station-before.md): the How-Might-We questions written from this story.

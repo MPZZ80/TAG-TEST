@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, planning]
-related: [SPEC-01_foundation.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-14a_asking-before-rerouting-tolls.md]
+related: [SPEC-01_foundation.md, 00_User_Stories_index.md, 05_Chosen_concept.md, US-F-14a_asking-before-rerouting-tolls.md]
 ---
 
 # SPEC-16: The Route Stays With the Driver
@@ -26,11 +26,11 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 | **Priority** | concept |
 | **Features** | [F-14a](../02_Analysis/02_Features/F-14a_asking-before-rerouting-tolls.md) |
 | **Touchpoints** | [TP-078](../02_Analysis/01_Touchpoints/TP-078_following-navigation-app-changes.md) |
-| **Problem questions** | [HMW-17](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C17-01](../03_Ideation/03_AI_Ideas.md), [C17-02](../03_Ideation/03_AI_Ideas.md), [C17-03](../03_Ideation/03_AI_Ideas.md), [C17-05](../03_Ideation/03_AI_Ideas.md), [C17-10](../03_Ideation/03_AI_Ideas.md); background: [C17-04](../03_Ideation/03_AI_Ideas.md), [C17-06](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-17](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-17](../03_Ideation/01_How_Might_We/HMW-17_keep-route-decision-italian-driver.md) |
+| **Concepts** | [C17-01](../03_Ideation/02_Ideas/C17-01_ask-first.md), [C17-02](../03_Ideation/02_Ideas/C17-02_stay-route.md), [C17-03](../03_Ideation/02_Ideas/C17-03_why-changed.md), [C17-05](../03_Ideation/02_Ideas/C17-05_preferred-roads.md), [C17-10](../03_Ideation/02_Ideas/C17-10_drivers-warn-drivers.md); background: [C17-04](../03_Ideation/02_Ideas/C17-04_tolls-stated.md), [C17-06](../03_Ideation/02_Ideas/C17-06_foreign-trip-check.md) |
+| **Families** | [FAM-17](../03_Ideation/02_Ideas/FAM-17_decision-stays-person.md), [FAM-04](../03_Ideation/02_Ideas/FAM-04_source-made-visible.md), [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md), [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md); background: [FAM-10](../03_Ideation/02_Ideas/FAM-10_lies-ahead-known-beforehand.md) |
 | **Stages covered** | planning, main leg (by car) |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C17-01 3·1·3, C17-02 3·1·3, C17-03 2·1·3, C17-05 1·3·2, C17-10 2·2·2; background C17-04 3·1·2, C17-06 3·3·2 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C17-01 3·1·3, C17-02 3·1·3, C17-03 2·1·3, C17-05 1·3·2, C17-10 2·2·2; background C17-04 3·1·2, C17-06 3·3·2 |
 | **Foundation** | Principle 5; The user (preferences); The things it deals with (leg, way); Channels (voice while driving); Rules that hold everywhere |
 
 ## Description
@@ -78,5 +78,5 @@ When the commuter drives, the route never changes without his yes (C17-01): a qu
 
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principle 5; The user (preferences); The things it deals with (leg, way); Channels (voice while driving); Rules that hold everywhere.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-14a, F-14.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-17, FAM-04, FAM-15, FAM-03, FAM-10.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-17, FAM-04, FAM-15, FAM-03, FAM-10.
 - [US-F-14a_asking-before-rerouting-tolls.md](../02_Analysis/03_User_Stories/US-F-14a_asking-before-rerouting-tolls.md): the user stories this specification serves, one file each.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-19_how-crowded-next-services.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md]
+related: [F-19_how-crowded-next-services.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, HMW-22_help-outskirts-hybrid-worker-station.md]
 ---
 
 # Story F-19
@@ -19,6 +19,7 @@ As the outskirts hybrid worker, at her station when her train is cancelled and t
 | --- | --- |
 | **Evidence and impact** | strong · Low |
 | **Feature** | [F-19_how-crowded-next-services.md](../02_Features/F-19_how-crowded-next-services.md) |
+| **Questions (HMW)** | [HMW-22](../../03_Ideation/01_How_Might_We/HMW-22_help-outskirts-hybrid-worker-station.md) |
 | **Specifications** | [SPEC-03](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-06](../../04_Specifications/SPEC-06_ways-out-when-the-trip-breaks.md) |
 
 ## Source
@@ -29,3 +30,4 @@ As the outskirts hybrid worker, at her station when her train is cancelled and t
 
 - [F-19_how-crowded-next-services.md](../02_Features/F-19_how-crowded-next-services.md): the feature this story carries.
 - [SPEC-03_travellers-report.md](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-06_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-06_ways-out-when-the-trip-breaks.md): the specifications that serve this story.
+- [HMW-22_help-outskirts-hybrid-worker-station.md](../../03_Ideation/01_How_Might_We/HMW-22_help-outskirts-hybrid-worker-station.md): the How-Might-We questions written from this story.

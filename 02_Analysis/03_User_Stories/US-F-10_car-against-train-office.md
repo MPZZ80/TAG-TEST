@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-10_car-against-train-office.md, SPEC-09_every-way-side-by-side.md]
+related: [F-10_car-against-train-office.md, SPEC-09_every-way-side-by-side.md, HMW-13_help-como-commuter-looking-timetables.md]
 ---
 
 # Story F-10
@@ -19,6 +19,7 @@ As the Como commuter, looking at the timetables to see whether he can go back fr
 | --- | --- |
 | **Evidence and impact** | strong · Medium |
 | **Feature** | [F-10_car-against-train-office.md](../02_Features/F-10_car-against-train-office.md) |
+| **Questions (HMW)** | [HMW-13](../../03_Ideation/01_How_Might_We/HMW-13_help-como-commuter-looking-timetables.md) |
 | **Specifications** | [SPEC-09](../../04_Specifications/SPEC-09_every-way-side-by-side.md) |
 
 ## Source
@@ -29,3 +30,4 @@ As the Como commuter, looking at the timetables to see whether he can go back fr
 
 - [F-10_car-against-train-office.md](../02_Features/F-10_car-against-train-office.md): the feature this story carries.
 - [SPEC-09_every-way-side-by-side.md](../../04_Specifications/SPEC-09_every-way-side-by-side.md): the specifications that serve this story.
+- [HMW-13_help-como-commuter-looking-timetables.md](../../03_Ideation/01_How_Might_We/HMW-13_help-como-commuter-looking-timetables.md): the How-Might-We questions written from this story.

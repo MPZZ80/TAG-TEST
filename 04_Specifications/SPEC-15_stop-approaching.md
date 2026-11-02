@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-23_stop-approaching.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, 00_User_Stories_index.md, 05_Chosen_concept.md, US-F-23_stop-approaching.md]
 ---
 
 # SPEC-15: The Stop Approaching
@@ -26,11 +26,11 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 | **Priority** | concept |
 | **Features** | [F-23](../02_Analysis/02_Features/F-23_stop-approaching.md) |
 | **Touchpoints** | [TP-074](../02_Analysis/01_Touchpoints/TP-074_staying-alert-so-miss.md) |
-| **Problem questions** | [HMW-26](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [C26-01](../03_Ideation/03_AI_Ideas.md), [C26-02](../03_Ideation/03_AI_Ideas.md), [C26-07](../03_Ideation/03_AI_Ideas.md), [C26-08](../03_Ideation/03_AI_Ideas.md), [C26-10](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-01](../03_Ideation/04_Human+AI_Ideas.md), [FAM-15](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-26](../03_Ideation/01_How_Might_We/HMW-26_let-young-commuter-madrid-bus.md) |
+| **Concepts** | [C26-01](../03_Ideation/02_Ideas/C26-01_nudge-near-stop.md), [C26-02](../03_Ideation/02_Ideas/C26-02_something-she-wears.md), [C26-07](../03_Ideation/02_Ideas/C26-07_stop-set-boarding.md), [C26-08](../03_Ideation/02_Ideas/C26-08_alarm-time.md), [C26-10](../03_Ideation/02_Ideas/C26-10_get-off-now.md) |
+| **Families** | [FAM-01](../03_Ideation/02_Ideas/FAM-01_told-where-they.md), [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md), [FAM-16](../03_Ideation/02_Ideas/FAM-16_settled-beforehand.md), [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md) |
 | **Stages covered** | main leg, last mile |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | C26-01 3·1·3, C26-02 3·1·3, C26-07 3·3·2, C26-08 2·3·2, C26-10 2·1·3 |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | C26-01 3·1·3, C26-02 3·1·3, C26-07 3·3·2, C26-08 2·3·2, C26-10 2·1·3 |
 | **Foundation** | Principles 4, 6; The things it deals with (trip, run, leg); Channels (something worn or carried); Rules that hold everywhere (consent to share position) |
 
 ## Description
@@ -78,5 +78,5 @@ The commuter's stop is known when she boards (C26-07). The product follows the r
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 4, 6; The things it deals with (trip, run, leg); Channels (something worn or carried); Rules that hold everywhere (consent to share position).
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-23.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-15, FAM-16, FAM-08.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-15, FAM-16, FAM-08.
 - [US-F-23_stop-approaching.md](../02_Analysis/03_User_Stories/US-F-23_stop-approaching.md): the user stories this specification serves, one file each.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-16_compensation-claim-started-delayed.md, SPEC-13_compensation-from-the-trip.md]
+related: [F-16_compensation-claim-started-delayed.md, SPEC-13_compensation-from-the-trip.md, HMW-19_help-british-traveller-after-delay.md]
 ---
 
 # Story F-16
@@ -19,6 +19,7 @@ As a British traveller (desk persona), after a delay on a ticket bought through 
 | --- | --- |
 | **Evidence and impact** | strong · Low |
 | **Feature** | [F-16_compensation-claim-started-delayed.md](../02_Features/F-16_compensation-claim-started-delayed.md) |
+| **Questions (HMW)** | [HMW-19](../../03_Ideation/01_How_Might_We/HMW-19_help-british-traveller-after-delay.md) |
 | **Specifications** | [SPEC-13](../../04_Specifications/SPEC-13_compensation-from-the-trip.md) |
 
 ## Source
@@ -29,3 +30,4 @@ As a British traveller (desk persona), after a delay on a ticket bought through 
 
 - [F-16_compensation-claim-started-delayed.md](../02_Features/F-16_compensation-claim-started-delayed.md): the feature this story carries.
 - [SPEC-13_compensation-from-the-trip.md](../../04_Specifications/SPEC-13_compensation-from-the-trip.md): the specifications that serve this story.
+- [HMW-19_help-british-traveller-after-delay.md](../../03_Ideation/01_How_Might_We/HMW-19_help-british-traveller-after-delay.md): the How-Might-We questions written from this story.

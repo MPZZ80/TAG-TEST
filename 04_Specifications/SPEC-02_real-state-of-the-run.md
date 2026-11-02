@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-03 00:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, unreliable-service]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, 00_User_Stories_index.md, 01_How_might_we.md, 06_Chosen_concept.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-13_compensation-from-the-trip.md, SPEC-15_stop-approaching.md, US-F-01_real-state-vehicle-source.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, 00_User_Stories_index.md, 00_How_might_we_index.md, 05_Chosen_concept.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-13_compensation-from-the-trip.md, SPEC-15_stop-approaching.md, US-F-01_real-state-vehicle-source.md]
 ---
 
 # SPEC-02: The Real State of the Run
@@ -26,11 +26,11 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 | **Priority** | concept |
 | **Features** | [F-01](../02_Analysis/02_Features/F-01_real-state-vehicle-source.md) |
 | **Touchpoints** | [TP-028](../02_Analysis/01_Touchpoints/TP-028_deciding-return-train-day.md), [TP-029](../02_Analysis/01_Touchpoints/TP-029_checking-live-departures-before.md), [TP-038](../02_Analysis/01_Touchpoints/TP-038_checking-another-app-site.md), [TP-043](../02_Analysis/01_Touchpoints/TP-043_acting-delay-warning-turns.md), [TP-067](../02_Analysis/01_Touchpoints/TP-067_deciding-spot-whether-wait.md), [TP-070](../02_Analysis/01_Touchpoints/TP-070_waiting-platform-front-departure.md), [TP-075](../02_Analysis/01_Touchpoints/TP-075_following-train-app-board.md), [TP-088](../02_Analysis/01_Touchpoints/TP-088_watching-delay-grow-board.md), [TP-089](../02_Analysis/01_Touchpoints/TP-089_delay-cancellation-information-comes.md), [TP-090](../02_Analysis/01_Touchpoints/TP-090_choosing-source-believe-they.md), [TP-091](../02_Analysis/01_Touchpoints/TP-091_asking-staff-help-point.md), [TP-092](../02_Analysis/01_Touchpoints/TP-092_stuck-stopped-cancelled-train.md), [TP-096](../02_Analysis/01_Touchpoints/TP-096_waiting-next-service.md) |
-| **Problem questions** | [HMW-01](../03_Ideation/01_How_might_we.md), [HMW-02](../03_Ideation/01_How_might_we.md) |
-| **Concepts** | [S02](../03_Ideation/02_Human_Ideas.md), [S03](../03_Ideation/02_Human_Ideas.md), [C01-01](../03_Ideation/03_AI_Ideas.md), [C01-02](../03_Ideation/03_AI_Ideas.md), [C01-03](../03_Ideation/03_AI_Ideas.md) [risky], [C01-05](../03_Ideation/03_AI_Ideas.md) [risky], [C01-10](../03_Ideation/03_AI_Ideas.md), [C01-11](../03_Ideation/03_AI_Ideas.md), [C02-02](../03_Ideation/03_AI_Ideas.md), [C02-08](../03_Ideation/03_AI_Ideas.md), [C02-11](../03_Ideation/03_AI_Ideas.md); background: [C01-07](../03_Ideation/03_AI_Ideas.md), [C01-08](../03_Ideation/03_AI_Ideas.md) |
-| **Families** | [FAM-02](../03_Ideation/04_Human+AI_Ideas.md), [FAM-03](../03_Ideation/04_Human+AI_Ideas.md), [FAM-04](../03_Ideation/04_Human+AI_Ideas.md), [FAM-08](../03_Ideation/04_Human+AI_Ideas.md), [FAM-01](../03_Ideation/04_Human+AI_Ideas.md), [FAM-16](../03_Ideation/04_Human+AI_Ideas.md); background: [FAM-05](../03_Ideation/04_Human+AI_Ideas.md) |
+| **Problem questions** | [HMW-01](../03_Ideation/01_How_Might_We/HMW-01_help-como-commuter-standing-platform.md), [HMW-02](../03_Ideation/01_How_Might_We/HMW-02_spare-como-commuter-platform-during.md) |
+| **Concepts** | [S02](../03_Ideation/02_Ideas/S02_delay-device-position.md), [S03](../03_Ideation/02_Ideas/S03_users-report-delay.md), [C01-01](../03_Ideation/02_Ideas/C01-01_source-label.md), [C01-02](../03_Ideation/02_Ideas/C01-02_disagreement-flag.md), [C01-03](../03_Ideation/02_Ideas/C01-03_first-hand-position.md) [risky], [C01-05](../03_Ideation/02_Ideas/C01-05_position-phones-board.md) [risky], [C01-10](../03_Ideation/02_Ideas/C01-10_single-expected-time.md), [C01-11](../03_Ideation/02_Ideas/C01-11_told-without-watching.md), [C02-02](../03_Ideation/02_Ideas/C02-02_nothing-read-yet.md), [C02-08](../03_Ideation/02_Ideas/C02-08_reason-behind-numbers.md), [C02-11](../03_Ideation/02_Ideas/C02-11_own-limit.md); background: [C01-07](../03_Ideation/02_Ideas/C01-07_honest-range.md), [C01-08](../03_Ideation/02_Ideas/C01-08_next-news-promised.md) |
+| **Families** | [FAM-02](../03_Ideation/02_Ideas/FAM-02_delay-measured-real-position.md), [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md), [FAM-04](../03_Ideation/02_Ideas/FAM-04_source-made-visible.md), [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md), [FAM-01](../03_Ideation/02_Ideas/FAM-01_told-where-they.md), [FAM-16](../03_Ideation/02_Ideas/FAM-16_settled-beforehand.md); background: [FAM-05](../03_Ideation/02_Ideas/FAM-05_honest-uncertainty.md) |
 | **Stages covered** | before departure, main leg (waiting on the platform, on board), disruption |
-| **[Marks](../03_Ideation/05_Ideas_prioritization.md)** | S02 3·1·3, S03 2·2·3, C01-01 2·1·3, C01-02 2·1·3, C01-03 3·1·3, C01-05 3·1·3, C01-10 2·1·3, C01-11 2·1·3, C02-02 2·1·3, C02-08 2·1·3, C02-11 2·3·2; background C01-07 2·1·3, C01-08 1·1·3 (valuable · feasible · relevant) |
+| **[Marks](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)** | S02 3·1·3, S03 2·2·3, C01-01 2·1·3, C01-02 2·1·3, C01-03 3·1·3, C01-05 3·1·3, C01-10 2·1·3, C01-11 2·1·3, C02-02 2·1·3, C02-08 2·1·3, C02-11 2·3·2; background C01-07 2·1·3, C01-08 1·1·3 (valuable · feasible · relevant) |
 | **Foundation** | Principles 1, 2, 3; The things it deals with (run, fact); States (run, fact); Sources of information; Channels; Rules that hold everywhere |
 
 ## Description
@@ -101,7 +101,7 @@ For a commuter waiting for a run or travelling on it, the product shows where th
 - [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-04_alerts-on-the-usual-trip.md](SPEC-04_alerts-on-the-usual-trip.md): named in this specification (Out of scope), where the two behaviours meet.
 - [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-01.
-- [01_How_might_we.md](../03_Ideation/01_How_might_we.md): the problem questions HMW-01, HMW-02.
-- [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-02, FAM-03, FAM-04, FAM-08, FAM-01, FAM-16, FAM-05.
+- [00_How_might_we_index.md](../03_Ideation/01_How_Might_We/00_How_might_we_index.md): the problem questions HMW-01, HMW-02.
+- [05_Chosen_concept.md](../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-02, FAM-03, FAM-04, FAM-08, FAM-01, FAM-16, FAM-05.
 - [SPEC-05_usual-trip-at-a-glance.md](SPEC-05_usual-trip-at-a-glance.md), [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md), [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md), [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md), [SPEC-15_stop-approaching.md](SPEC-15_stop-approaching.md): the specifications that name this one where their behaviours meet.
 - [US-F-01_real-state-vehicle-source.md](../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md): the user stories this specification serves, one file each.
