@@ -10,7 +10,7 @@ The process was restarted on 2026-11-01.
 | `02_Human_Ideas.md` | Marco's own concepts, S01 to S03: how delays are gathered and delivered |
 | `03_AI_Ideas.md` | 324 AI concepts, twelve for each of the 27 questions, in tables by supercluster and cluster, in 13 directions, with 43 marked [risky] and the concepts dropped. Not ranked |
 | `04_Human+AI_Ideas.md` | The 327 concepts of the two files above grouped into 27 families of directions, with the author of each, the families held by one hand, the 2 unclassified and the questions assigned to Marco's concepts |
-| `05_Ideas_prioritization.md` | The 327 concepts marked 0–3 on valuable, feasible and relevant, each with its reasons; the 173 concepts whose axes disagree; the 13 out; the count per axis; the same marks for the 27 families. Proposals, not a decision |
+| `05_Ideas_prioritization.md` | The 327 concepts marked 0–3 on valuable, feasible and relevant, each with its reasons; the 173 concepts whose axes disagree; the 13 out; the count per axis; the same marks for the 27 families, also in order of their marks. Proposals, not a decision |
 | `_old/` | The first round, archived: questions, concepts, families, marks and the chosen concept. Not current; read its `README.md` before opening it |
 
 - Nothing here is ranked: the choice of questions and concepts is Marco's.

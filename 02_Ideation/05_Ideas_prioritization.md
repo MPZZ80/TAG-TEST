@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 18:01
+date: 2026-11-02 18:37
 method: generated
 status: draft
 grade: n/a
@@ -384,6 +384,7 @@ No axis below 2: 57 concepts. This is a count, not a shortlist.
 - **The moment.** Each concept is measured against the moment of its own question, since no moment is chosen. Set aside: choosing one moment for Marco, which would decide the build. When Marco names the moment, the relevant column has to be redone.
 - **Feasible on live data.** Nearly every information concept needs a feed, so it gets 1 under Marco's rule. If he allows the prototype to run on simulated data, many of them would move up; that is his call.
 - **Family marks from concept marks.** The prompt marks concepts and forbids averaging, so a family takes its most common mark. Set aside: marking each family anew by judgement, which could disagree with its own concepts.
+- **Order of the families.** Marco asked for the families ordered by their marks; the sum orders them, the lowest mark breaks a tie so that an even family comes before an uneven one. Set aside: ordering by one axis first, which would put that axis above the others.
 - **0 on the relevant axis only.** Marco's rule puts feasibility problems at 1, so nothing is out on feasible.
 
 ## Marks by family
@@ -443,6 +444,40 @@ The 27 families of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) on the same thre
 | valuable | 10 | 13 | 4 | 0 |
 | feasible | 2 | 2 | 23 | 0 |
 | relevant | 18 | 3 | 5 | 1 |
+
+### Families in order of their marks
+
+The same 27 families, ordered by the sum of their three marks, then by their lowest mark, then by ID. Asked by Marco. **The sum is used only to order the rows**: it is not a fourth mark, and the order is not a choice. A family with a 0 is out whatever its sum.
+
+| ID | family | valuable | feasible | relevant | sum |
+| --- | --- | --- | --- | --- | --- |
+| FAM-03 | Travellers report | 2 | 2 | 3 | 7 |
+| FAM-15 | It knows the traveller | 2 | 3 | 2 | 7 |
+| FAM-16 | Settled beforehand | 2 | 3 | 2 | 7 |
+| FAM-01 | Told where they are | 3 | 1 | 3 | 7 |
+| FAM-02 | Real position, not the timetable | 3 | 1 | 3 | 7 |
+| FAM-08 | One answer, not data | 3 | 1 | 3 | 7 |
+| FAM-10 | What lies ahead, known beforehand | 3 | 1 | 3 | 7 |
+| FAM-13 | Those depending on them are told | 3 | 1 | 3 | 7 |
+| FAM-14 | The step done for them | 3 | 1 | 3 | 7 |
+| FAM-17 | The decision stays with the person | 3 | 1 | 3 | 7 |
+| FAM-18 | All ways side by side | 3 | 1 | 3 | 7 |
+| FAM-20 | A place kept | 3 | 1 | 3 | 7 |
+| FAM-23 | The connection held | 3 | 1 | 3 | 7 |
+| FAM-04 | The source made visible | 2 | 1 | 3 | 6 |
+| FAM-05 | Honest uncertainty | 2 | 1 | 3 | 6 |
+| FAM-06 | Times that allow for reality | 2 | 1 | 3 | 6 |
+| FAM-09 | Less in the way | 2 | 1 | 3 | 6 |
+| FAM-11 | The place shows it | 2 | 1 | 3 | 6 |
+| FAM-12 | A person on the spot | 2 | 1 | 3 | 6 |
+| FAM-26 | Travellers carry it together | 1 | 2 | 3 | 6 |
+| FAM-07 | Told sooner | 2 | 1 | 2 | 5 |
+| FAM-21 | Prices and tickets that fit the real use | 2 | 1 | 1 | 4 |
+| FAM-24 | More or different service | 2 | 1 | 1 | 4 |
+| FAM-25 | Rules and rights | 2 | 1 | 1 | 4 |
+| FAM-19 | The trip as one purchase | 1 | 1 | 1 | 3 |
+| FAM-22 | Money covers the failure | 1 | 1 | 1 | 3 |
+| FAM-27 | Change the trip or the habit | 1 | 1 | 0 | 2 |
 
 ## Connections
 

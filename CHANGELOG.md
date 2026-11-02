@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 18:37
+
+- **Files:** `02_Ideation/05_Ideas_prioritization.md`, `02_Ideation/README.md`
+- **Change:** New table "Families in order of their marks" after "Count by family": the 27 families ordered by the sum of their three marks, then by their lowest mark, then by ID; a line under "Decisions taken".
+- **Why:** Marco asked for another table under the last one with the families ordered by the marks of the three axes.
+
 ## 2026-11-01 18:01
 
 - **Files:** `02_Ideation/05_Ideas_prioritization.md`
