@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-02](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a teenager (desk persona) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. | All of it except telling home, which is SPEC-07 |
-| concept | [F-19](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the outskirts hybrid worker | As the outskirts hybrid worker, at her station when her train is cancelled and the only other train is the packed one to Cadorna, I want to know how full the next services are expected to be, so that she can choose between waiting and a train where "you never get a seat". | All of it; reports of how full a run is now come from SPEC-03 |
+| concept | [F-02](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a teenager (desk persona) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. | All of it except telling home, which is SPEC-07 |
+| concept | [F-19](../01_Research/06_Analysis/04_Generated_User_Stories.md) | the outskirts hybrid worker | As the outskirts hybrid worker, at her station when her train is cancelled and the only other train is the packed one to Cadorna, I want to know how full the next services are expected to be, so that she can choose between waiting and a train where "you never get a seat". | All of it; reports of how full a run is now come from SPEC-03 |
 
 These stories belong together because both are the moment the planned trip has broken at a stop or station, and the commuter has to choose among the ways still open, with what each costs them: time, money, a seat, a lift from home.
 
@@ -27,13 +27,13 @@ These stories belong together because both are the moment the planned trip has b
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-02](../../01_Research/06_Analysis/03_Generated_Features.md), [F-19](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-026](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-084](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-093](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-094](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-095](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-097](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-098](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-099](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-100](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-101](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-102](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-107](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-072](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-03](../01_How_might_we.md), [HMW-04](../01_How_might_we.md), [HMW-22](../01_How_might_we.md), [HMW-07](../01_How_might_we.md) |
-| **Concepts** | [S06](../02_Human_Ideas.md), [C03-01](../03_AI_Ideas.md), [C03-02](../03_AI_Ideas.md), [C03-03](../03_AI_Ideas.md), [C03-11](../03_AI_Ideas.md), [C04-01](../03_AI_Ideas.md), [C04-02](../03_AI_Ideas.md), [C04-06](../03_AI_Ideas.md), [C22-02](../03_AI_Ideas.md), [C22-03](../03_AI_Ideas.md), [C22-05](../03_AI_Ideas.md), [C22-06](../03_AI_Ideas.md); background: [C03-04](../03_AI_Ideas.md), [C22-01](../03_AI_Ideas.md) |
-| **Families** | [FAM-18](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-16](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md); background: [FAM-10](../04_Human+AI_Ideas.md), [FAM-05](../04_Human+AI_Ideas.md) |
+| **Features** | [F-02](../01_Research/06_Analysis/03_Generated_Features.md), [F-19](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-026](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-084](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-093](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-094](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-095](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-097](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-098](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-099](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-100](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-101](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-102](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-107](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-072](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-03](../02_Ideation/01_How_might_we.md), [HMW-04](../02_Ideation/01_How_might_we.md), [HMW-22](../02_Ideation/01_How_might_we.md), [HMW-07](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [S06](../02_Ideation/02_Human_Ideas.md), [C03-01](../02_Ideation/03_AI_Ideas.md), [C03-02](../02_Ideation/03_AI_Ideas.md), [C03-03](../02_Ideation/03_AI_Ideas.md), [C03-11](../02_Ideation/03_AI_Ideas.md), [C04-01](../02_Ideation/03_AI_Ideas.md), [C04-02](../02_Ideation/03_AI_Ideas.md), [C04-06](../02_Ideation/03_AI_Ideas.md), [C22-02](../02_Ideation/03_AI_Ideas.md), [C22-03](../02_Ideation/03_AI_Ideas.md), [C22-05](../02_Ideation/03_AI_Ideas.md), [C22-06](../02_Ideation/03_AI_Ideas.md); background: [C03-04](../02_Ideation/03_AI_Ideas.md), [C22-01](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-18](../02_Ideation/04_Human+AI_Ideas.md), [FAM-08](../02_Ideation/04_Human+AI_Ideas.md), [FAM-04](../02_Ideation/04_Human+AI_Ideas.md), [FAM-16](../02_Ideation/04_Human+AI_Ideas.md), [FAM-03](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../02_Ideation/04_Human+AI_Ideas.md), [FAM-05](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | disruption, first mile, transfer, last mile |
-| **[Marks](../05_Ideas_prioritization.md)** | S06 3·1·2, C03-01 3·1·3, C03-02 3·1·3, C03-03 2·1·3, C03-11 3·3·2, C04-01 3·1·3, C04-02 2·1·3, C04-06 3·3·2, C22-02 1·1·3, C22-03 3·2·3, C22-05 3·1·3, C22-06 2·3·2; background C03-04 2·1·3, C22-01 3·1·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | S06 3·1·2, C03-01 3·1·3, C03-02 3·1·3, C03-03 2·1·3, C03-11 3·3·2, C04-01 3·1·3, C04-02 2·1·3, C04-06 3·3·2, C22-02 1·1·3, C22-03 3·2·3, C22-05 3·1·3, C22-06 2·3·2; background C03-04 2·1·3, C22-01 3·1·3 |
 | **Foundation** | Principles 2, 3, 5; The user (rules, preferences); The things it deals with (way, ticket, run); States (trip: broken); Sources of information; Rules that hold everywhere |
 
 ## Description

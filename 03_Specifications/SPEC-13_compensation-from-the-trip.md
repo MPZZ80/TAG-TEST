@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,20 +17,20 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-16](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a British traveller (desk persona) | As a British traveller (desk persona), after a delay on a ticket bought through a ticket seller, I want to start the compensation claim from the delayed trip itself, wherever the ticket was bought, so that the compensation does not depend on going to the train company. | All of it, up to handing the claim over |
+| concept | [F-16](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a British traveller (desk persona) | As a British traveller (desk persona), after a delay on a ticket bought through a ticket seller, I want to start the compensation claim from the delayed trip itself, wherever the ticket was bought, so that the compensation does not depend on going to the train company. | All of it, up to handing the claim over |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-16](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-104](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-105](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-19](../01_How_might_we.md) |
-| **Concepts** | [C19-05](../03_AI_Ideas.md), [C19-11](../03_AI_Ideas.md), [C19-12](../03_AI_Ideas.md); background: [C19-01](../03_AI_Ideas.md), [C19-04](../03_AI_Ideas.md) |
-| **Families** | [FAM-08](../04_Human+AI_Ideas.md), [FAM-07](../04_Human+AI_Ideas.md), [FAM-26](../04_Human+AI_Ideas.md); background: [FAM-14](../04_Human+AI_Ideas.md) |
+| **Features** | [F-16](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-104](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-105](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-19](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C19-05](../02_Ideation/03_AI_Ideas.md), [C19-11](../02_Ideation/03_AI_Ideas.md), [C19-12](../02_Ideation/03_AI_Ideas.md); background: [C19-01](../02_Ideation/03_AI_Ideas.md), [C19-04](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-08](../02_Ideation/04_Human+AI_Ideas.md), [FAM-07](../02_Ideation/04_Human+AI_Ideas.md), [FAM-26](../02_Ideation/04_Human+AI_Ideas.md); background: [FAM-14](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | disruption (after the trip) |
-| **[Marks](../05_Ideas_prioritization.md)** | C19-05 2·1·2, C19-11 1·3·1, C19-12 1·2·2; background C19-01 3·1·3, C19-04 2·3·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C19-05 2·1·2, C19-11 1·3·1, C19-12 1·2·2; background C19-01 3·1·3, C19-04 2·3·3 |
 | **Foundation** | The things it deals with (trip, run, ticket); States (run, trip); Sources of information; Rules that hold everywhere |
 
 ## Description

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,9 +17,9 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-15](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a woman driving to the station (desk persona) | As a woman driving to the station (desk persona), before leaving home for the 8:17 train she takes because she starts later, I want to know whether there is a parking space or a safe bike place at the station and what it costs, so that she does not have to go back to leaving earlier. | All of it; reports that the car park is full come from SPEC-03 |
-| concept | [F-17a](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a daily traveller in a British city (desk persona) | As a daily traveller in a British city (desk persona), waiting at a station late at night, I want to know whether the station is staffed and whether the walk at the end is in the dark at the hour I travel, so that the wait at night is not a moment of fear. | All of it; reports of the station at night come from SPEC-03 |
-| concept | [F-20](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a wheelchair user (desk persona) | As a wheelchair user (desk persona), before getting off the train at a German station with stairs unlit for two months and no lift, I want to know whether the lifts and lights on my way through the station work today, so that I do not have to ride past my station and come back. | All of it; reports from other riders come from SPEC-03 |
+| concept | [F-15](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a woman driving to the station (desk persona) | As a woman driving to the station (desk persona), before leaving home for the 8:17 train she takes because she starts later, I want to know whether there is a parking space or a safe bike place at the station and what it costs, so that she does not have to go back to leaving earlier. | All of it; reports that the car park is full come from SPEC-03 |
+| concept | [F-17a](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a daily traveller in a British city (desk persona) | As a daily traveller in a British city (desk persona), waiting at a station late at night, I want to know whether the station is staffed and whether the walk at the end is in the dark at the hour I travel, so that the wait at night is not a moment of fear. | All of it; reports of the station at night come from SPEC-03 |
+| concept | [F-20](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a wheelchair user (desk persona) | As a wheelchair user (desk persona), before getting off the train at a German station with stairs unlit for two months and no lift, I want to know whether the lifts and lights on my way through the station work today, so that I do not have to ride past my station and come back. | All of it; reports from other riders come from SPEC-03 |
 
 These stories belong together because each asks to know, before getting there, the state of a place on the trip at the hour the commuter will be there: a free place to park, staff and light at night, a working lift.
 
@@ -28,13 +28,13 @@ These stories belong together because each asks to know, before getting there, t
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-15](../../01_Research/06_Analysis/03_Generated_Features.md), [F-17a](../../01_Research/06_Analysis/03_Generated_Features.md), [F-20](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-049](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-050](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-080](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-083](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-063](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-18](../01_How_might_we.md), [HMW-20](../01_How_might_we.md), [HMW-23](../01_How_might_we.md) |
-| **Concepts** | [C18-06](../03_AI_Ideas.md), [C18-08](../03_AI_Ideas.md), [C20-03](../03_AI_Ideas.md), [C20-08](../03_AI_Ideas.md), [C20-10](../03_AI_Ideas.md), [C23-03](../03_AI_Ideas.md), [C23-07](../03_AI_Ideas.md), [C23-08](../03_AI_Ideas.md), [C23-12](../03_AI_Ideas.md); background: [C18-01](../03_AI_Ideas.md), [C20-01](../03_AI_Ideas.md), [C20-02](../03_AI_Ideas.md), [C20-11](../03_AI_Ideas.md), [C23-01](../03_AI_Ideas.md), [C23-02](../03_AI_Ideas.md) |
-| **Families** | [FAM-03](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md), [FAM-26](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-01](../04_Human+AI_Ideas.md); background: [FAM-10](../04_Human+AI_Ideas.md) |
+| **Features** | [F-15](../01_Research/06_Analysis/03_Generated_Features.md), [F-17a](../01_Research/06_Analysis/03_Generated_Features.md), [F-20](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-049](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-050](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-080](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-083](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-063](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-18](../02_Ideation/01_How_might_we.md), [HMW-20](../02_Ideation/01_How_might_we.md), [HMW-23](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C18-06](../02_Ideation/03_AI_Ideas.md), [C18-08](../02_Ideation/03_AI_Ideas.md), [C20-03](../02_Ideation/03_AI_Ideas.md), [C20-08](../02_Ideation/03_AI_Ideas.md), [C20-10](../02_Ideation/03_AI_Ideas.md), [C23-03](../02_Ideation/03_AI_Ideas.md), [C23-07](../02_Ideation/03_AI_Ideas.md), [C23-08](../02_Ideation/03_AI_Ideas.md), [C23-12](../02_Ideation/03_AI_Ideas.md); background: [C18-01](../02_Ideation/03_AI_Ideas.md), [C20-01](../02_Ideation/03_AI_Ideas.md), [C20-02](../02_Ideation/03_AI_Ideas.md), [C20-11](../02_Ideation/03_AI_Ideas.md), [C23-01](../02_Ideation/03_AI_Ideas.md), [C23-02](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-03](../02_Ideation/04_Human+AI_Ideas.md), [FAM-08](../02_Ideation/04_Human+AI_Ideas.md), [FAM-26](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-01](../02_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | before departure, first mile, transfer, last mile |
-| **[Marks](../05_Ideas_prioritization.md)** | C18-06 2·2·3, C18-08 2·1·3, C20-03 2·2·2, C20-08 3·2·3, C20-10 2·1·2, C23-03 2·2·2, C23-07 3·1·3, C23-08 1·3·1, C23-12 2·1·3; background C18-01 3·1·3, C20-01 3·1·3, C20-02 2·1·2, C20-11 2·1·2, C23-01 3·1·3, C23-02 2·1·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C18-06 2·2·3, C18-08 2·1·3, C20-03 2·2·2, C20-08 3·2·3, C20-10 2·1·2, C23-03 2·2·2, C23-07 3·1·3, C23-08 1·3·1, C23-12 2·1·3; background C18-01 3·1·3, C20-01 3·1·3, C20-02 2·1·2, C20-11 2·1·2, C23-01 3·1·3, C23-02 2·1·3 |
 | **Foundation** | Principles 2, 6; The user (needs); The things it deals with (place); Sources of information; Channels; Rules that hold everywhere |
 
 ## Description

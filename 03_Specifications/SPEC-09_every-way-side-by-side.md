@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-04](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants. | Every way shown with its time and price. Booking as one journey is SPEC-11 |
-| concept | [F-10](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, looking at the timetables to see whether he can go back from the car to the train, I want the train and the car compared door to door for a given day and departure, on time, cost and arrival home, so that he can see whether the train still brings him back to Como when the working day ends. | All of it |
+| concept | [F-04](../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants. | Every way shown with its time and price. Booking as one journey is SPEC-11 |
+| concept | [F-10](../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, looking at the timetables to see whether he can go back from the car to the train, I want the train and the car compared door to door for a given day and departure, on time, cost and arrival home, so that he can see whether the train still brings him back to Como when the working day ends. | All of it |
 
 These stories belong together because both are a commuter, before the trip, weighing every way of making it from door to door, across modes and sellers, on time, price and arrival.
 
@@ -27,13 +27,13 @@ These stories belong together because both are a commuter, before the trip, weig
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-04](../../01_Research/06_Analysis/03_Generated_Features.md), [F-10](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-005](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-013](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-016](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-019](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-020](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-021](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-022](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-065](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-009](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-010](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-011](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-044](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-06](../01_How_might_we.md), [HMW-07](../01_How_might_we.md), [HMW-13](../01_How_might_we.md) |
-| **Concepts** | [S06](../02_Human_Ideas.md), [C06-01](../03_AI_Ideas.md), [C06-10](../03_AI_Ideas.md), [C07-01](../03_AI_Ideas.md), [C07-02](../03_AI_Ideas.md), [C07-03](../03_AI_Ideas.md), [C07-04](../03_AI_Ideas.md), [C07-05](../03_AI_Ideas.md), [C07-09](../03_AI_Ideas.md), [C07-11](../03_AI_Ideas.md), [C07-12](../03_AI_Ideas.md), [C13-01](../03_AI_Ideas.md), [C13-02](../03_AI_Ideas.md), [C13-03](../03_AI_Ideas.md), [C13-04](../03_AI_Ideas.md), [C13-07](../03_AI_Ideas.md), [C13-10](../03_AI_Ideas.md), [C13-12](../03_AI_Ideas.md) |
-| **Families** | [FAM-18](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-09](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md), [FAM-26](../04_Human+AI_Ideas.md), [FAM-06](../04_Human+AI_Ideas.md) |
+| **Features** | [F-04](../01_Research/06_Analysis/03_Generated_Features.md), [F-10](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-005](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-013](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-016](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-019](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-020](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-021](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-022](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-065](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-009](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-010](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-011](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-044](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-06](../02_Ideation/01_How_might_we.md), [HMW-07](../02_Ideation/01_How_might_we.md), [HMW-13](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [S06](../02_Ideation/02_Human_Ideas.md), [C06-01](../02_Ideation/03_AI_Ideas.md), [C06-10](../02_Ideation/03_AI_Ideas.md), [C07-01](../02_Ideation/03_AI_Ideas.md), [C07-02](../02_Ideation/03_AI_Ideas.md), [C07-03](../02_Ideation/03_AI_Ideas.md), [C07-04](../02_Ideation/03_AI_Ideas.md), [C07-05](../02_Ideation/03_AI_Ideas.md), [C07-09](../02_Ideation/03_AI_Ideas.md), [C07-11](../02_Ideation/03_AI_Ideas.md), [C07-12](../02_Ideation/03_AI_Ideas.md), [C13-01](../02_Ideation/03_AI_Ideas.md), [C13-02](../02_Ideation/03_AI_Ideas.md), [C13-03](../02_Ideation/03_AI_Ideas.md), [C13-04](../02_Ideation/03_AI_Ideas.md), [C13-07](../02_Ideation/03_AI_Ideas.md), [C13-10](../02_Ideation/03_AI_Ideas.md), [C13-12](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-18](../02_Ideation/04_Human+AI_Ideas.md), [FAM-08](../02_Ideation/04_Human+AI_Ideas.md), [FAM-04](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-09](../02_Ideation/04_Human+AI_Ideas.md), [FAM-03](../02_Ideation/04_Human+AI_Ideas.md), [FAM-26](../02_Ideation/04_Human+AI_Ideas.md), [FAM-06](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | planning, whole journey |
-| **[Marks](../05_Ideas_prioritization.md)** | S06 3·1·2, C06-01 3·1·3, C06-10 3·1·3, C07-01 3·1·3, C07-02 1·1·3, C07-03 3·1·3, C07-04 2·3·3, C07-05 2·1·3, C07-09 1·3·2, C07-11 1·2·2, C07-12 2·3·3, C13-01 3·1·3, C13-02 3·1·3, C13-03 3·1·3, C13-04 3·1·3, C13-07 2·2·2, C13-10 2·3·3, C13-12 3·1·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | S06 3·1·2, C06-01 3·1·3, C06-10 3·1·3, C07-01 3·1·3, C07-02 1·1·3, C07-03 3·1·3, C07-04 2·3·3, C07-05 2·1·3, C07-09 1·3·2, C07-11 1·2·2, C07-12 2·3·3, C13-01 3·1·3, C13-02 3·1·3, C13-03 3·1·3, C13-04 3·1·3, C13-07 2·2·2, C13-10 2·3·3, C13-12 3·1·3 |
 | **Foundation** | Principles 3, 6; The user (doors, contacts); The things it deals with (way, leg, run); Sources of information; Rules that hold everywhere |
 
 ## Description

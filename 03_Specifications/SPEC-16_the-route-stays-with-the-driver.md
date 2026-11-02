@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,20 +17,20 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-14a](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | an Italian driver (desk persona) | Split from F-14. As an Italian driver (desk persona), following a map app, when there is a queue and the app changes the route by itself, or sends him onto a foreign motorway, I want to be asked before the route is changed and warned of the tolls or stickers the route needs, so that he decides the route and is not fined. | All of it |
+| concept | [F-14a](../01_Research/06_Analysis/04_Generated_User_Stories.md) | an Italian driver (desk persona) | Split from F-14. As an Italian driver (desk persona), following a map app, when there is a queue and the app changes the route by itself, or sends him onto a foreign motorway, I want to be asked before the route is changed and warned of the tolls or stickers the route needs, so that he decides the route and is not fined. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-14a](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-078](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-17](../01_How_might_we.md) |
-| **Concepts** | [C17-01](../03_AI_Ideas.md), [C17-02](../03_AI_Ideas.md), [C17-03](../03_AI_Ideas.md), [C17-05](../03_AI_Ideas.md), [C17-10](../03_AI_Ideas.md); background: [C17-04](../03_AI_Ideas.md), [C17-06](../03_AI_Ideas.md) |
-| **Families** | [FAM-17](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md); background: [FAM-10](../04_Human+AI_Ideas.md) |
+| **Features** | [F-14a](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-078](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-17](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C17-01](../02_Ideation/03_AI_Ideas.md), [C17-02](../02_Ideation/03_AI_Ideas.md), [C17-03](../02_Ideation/03_AI_Ideas.md), [C17-05](../02_Ideation/03_AI_Ideas.md), [C17-10](../02_Ideation/03_AI_Ideas.md); background: [C17-04](../02_Ideation/03_AI_Ideas.md), [C17-06](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-17](../02_Ideation/04_Human+AI_Ideas.md), [FAM-04](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-03](../02_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | planning, main leg (by car) |
-| **[Marks](../05_Ideas_prioritization.md)** | C17-01 3·1·3, C17-02 3·1·3, C17-03 2·1·3, C17-05 1·3·2, C17-10 2·2·2; background C17-04 3·1·2, C17-06 3·3·2 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C17-01 3·1·3, C17-02 3·1·3, C17-03 2·1·3, C17-05 1·3·2, C17-10 2·2·2; background C17-04 3·1·2, C17-06 3·3·2 |
 | **Foundation** | Principle 5; The user (preferences); The things it deals with (leg, way); Channels (voice while driving); Rules that hold everywhere |
 
 ## Description

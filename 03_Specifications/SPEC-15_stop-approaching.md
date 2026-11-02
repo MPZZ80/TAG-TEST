@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,20 +17,20 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-23](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a young commuter in Madrid (desk persona) | As a young commuter in Madrid (desk persona), on a bus, two stops before her own, I want to be told when my stop is approaching, so that she can sit without thinking about the stop and not miss it if she falls asleep. | All of it |
+| concept | [F-23](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a young commuter in Madrid (desk persona) | As a young commuter in Madrid (desk persona), on a bus, two stops before her own, I want to be told when my stop is approaching, so that she can sit without thinking about the stop and not miss it if she falls asleep. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-23](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-074](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-26](../01_How_might_we.md) |
-| **Concepts** | [C26-01](../03_AI_Ideas.md), [C26-02](../03_AI_Ideas.md), [C26-07](../03_AI_Ideas.md), [C26-08](../03_AI_Ideas.md), [C26-10](../03_AI_Ideas.md) |
-| **Families** | [FAM-01](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-16](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md) |
+| **Features** | [F-23](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-074](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-26](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C26-01](../02_Ideation/03_AI_Ideas.md), [C26-02](../02_Ideation/03_AI_Ideas.md), [C26-07](../02_Ideation/03_AI_Ideas.md), [C26-08](../02_Ideation/03_AI_Ideas.md), [C26-10](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-01](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-16](../02_Ideation/04_Human+AI_Ideas.md), [FAM-08](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | main leg, last mile |
-| **[Marks](../05_Ideas_prioritization.md)** | C26-01 3·1·3, C26-02 3·1·3, C26-07 3·3·2, C26-08 2·3·2, C26-10 2·1·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C26-01 3·1·3, C26-02 3·1·3, C26-07 3·3·2, C26-08 2·3·2, C26-10 2·1·3 |
 | **Foundation** | Principles 4, 6; The things it deals with (trip, run, leg); Channels (something worn or carried); Rules that hold everywhere (consent to share position) |
 
 ## Description

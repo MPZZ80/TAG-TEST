@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-06](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Whether it holds and the next one. Warning the people is SPEC-07 |
-| concept | [F-22](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. | All of it, with the limits in "Open questions" |
+| concept | [F-06](../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Whether it holds and the next one. Warning the people is SPEC-07 |
+| concept | [F-22](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. | All of it, with the limits in "Open questions" |
 
 These stories belong together because both are the commuter on a late run, before a change, wanting to know what happens to the connection: whether it holds, and whether it can be made to wait.
 
@@ -27,13 +27,13 @@ These stories belong together because both are the commuter on a late run, befor
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-06](../../01_Research/06_Analysis/03_Generated_Features.md), [F-22](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-053](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-057](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-060](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-061](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-068](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-106](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-069](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-09](../01_How_might_we.md), [HMW-25](../01_How_might_we.md) |
-| **Concepts** | [C09-01](../03_AI_Ideas.md), [C09-02](../03_AI_Ideas.md), [C09-03](../03_AI_Ideas.md), [C09-09](../03_AI_Ideas.md), [C09-12](../03_AI_Ideas.md), [C25-05](../03_AI_Ideas.md), [C25-12](../03_AI_Ideas.md); background: [C25-01](../03_AI_Ideas.md), [C25-02](../03_AI_Ideas.md) |
-| **Families** | [FAM-08](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md); background: [FAM-23](../04_Human+AI_Ideas.md) |
+| **Features** | [F-06](../01_Research/06_Analysis/03_Generated_Features.md), [F-22](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-053](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-057](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-060](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-061](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-068](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-106](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-069](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-09](../02_Ideation/01_How_might_we.md), [HMW-25](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C09-01](../02_Ideation/03_AI_Ideas.md), [C09-02](../02_Ideation/03_AI_Ideas.md), [C09-03](../02_Ideation/03_AI_Ideas.md), [C09-09](../02_Ideation/03_AI_Ideas.md), [C09-12](../02_Ideation/03_AI_Ideas.md), [C25-05](../02_Ideation/03_AI_Ideas.md), [C25-12](../02_Ideation/03_AI_Ideas.md); background: [C25-01](../02_Ideation/03_AI_Ideas.md), [C25-02](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-08](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-04](../02_Ideation/04_Human+AI_Ideas.md), [FAM-03](../02_Ideation/04_Human+AI_Ideas.md); background: [FAM-23](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | main leg, transfer, disruption |
-| **[Marks](../05_Ideas_prioritization.md)** | C09-01 3·1·3, C09-02 3·1·3, C09-03 1·1·3, C09-09 2·2·3, C09-12 3·1·3, C25-05 2·1·3, C25-12 1·2·3; background C25-01 3·1·3, C25-02 2·1·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C09-01 3·1·3, C09-02 3·1·3, C09-03 1·1·3, C09-09 2·2·3, C09-12 3·1·3, C25-05 2·1·3, C25-12 1·2·3; background C25-01 3·1·3, C25-02 2·1·3 |
 | **Foundation** | Principles 1, 2, 3, 6; The user (own threshold); The things it deals with (connection, run); States (connection); Sources of information; Channels |
 
 ## Description

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-11](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a Dutch rail commuter (desk persona) | As a Dutch rail commuter (desk persona), on the way out of the door in the morning, I want the app to open on my usual trip with its state and its platforms, the change included, without searching, so that I know which platform to go to with no extra step. | All of it |
-| concept | [F-24](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | an Italian bus user (desk persona) | As an Italian bus user (desk persona), in a hurry to catch a bus, opening the app at the stop, I want the travel information shown at once, with nothing in front of it, so that a few seconds do not decide whether I catch the bus. | All of it |
+| concept | [F-11](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a Dutch rail commuter (desk persona) | As a Dutch rail commuter (desk persona), on the way out of the door in the morning, I want the app to open on my usual trip with its state and its platforms, the change included, without searching, so that I know which platform to go to with no extra step. | All of it |
+| concept | [F-24](../01_Research/06_Analysis/04_Generated_User_Stories.md) | an Italian bus user (desk persona) | As an Italian bus user (desk persona), in a hurry to catch a bus, opening the app at the stop, I want the travel information shown at once, with nothing in front of it, so that a few seconds do not decide whether I catch the bus. | All of it |
 
 These stories belong together because both ask that the first thing the product shows, at the moment it is opened, is the information for the trip being made now, with no step and nothing in front of it.
 
@@ -27,13 +27,13 @@ These stories belong together because both ask that the first thing the product 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-11](../../01_Research/06_Analysis/03_Generated_Features.md), [F-24](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-012](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-027](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-062](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-055](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-14](../01_How_might_we.md), [HMW-27](../01_How_might_we.md) |
-| **Concepts** | [C14-01](../03_AI_Ideas.md), [C14-04](../03_AI_Ideas.md), [C14-05](../03_AI_Ideas.md), [C14-06](../03_AI_Ideas.md), [C14-12](../03_AI_Ideas.md), [C27-01](../03_AI_Ideas.md), [C27-04](../03_AI_Ideas.md), [C27-06](../03_AI_Ideas.md), [C27-07](../03_AI_Ideas.md), [C27-08](../03_AI_Ideas.md) |
-| **Families** | [FAM-15](../04_Human+AI_Ideas.md), [FAM-09](../04_Human+AI_Ideas.md), [FAM-01](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md) |
+| **Features** | [F-11](../01_Research/06_Analysis/03_Generated_Features.md), [F-24](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-012](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-027](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-062](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-055](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-14](../02_Ideation/01_How_might_we.md), [HMW-27](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C14-01](../02_Ideation/03_AI_Ideas.md), [C14-04](../02_Ideation/03_AI_Ideas.md), [C14-05](../02_Ideation/03_AI_Ideas.md), [C14-06](../02_Ideation/03_AI_Ideas.md), [C14-12](../02_Ideation/03_AI_Ideas.md), [C27-01](../02_Ideation/03_AI_Ideas.md), [C27-04](../02_Ideation/03_AI_Ideas.md), [C27-06](../02_Ideation/03_AI_Ideas.md), [C27-07](../02_Ideation/03_AI_Ideas.md), [C27-08](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-09](../02_Ideation/04_Human+AI_Ideas.md), [FAM-01](../02_Ideation/04_Human+AI_Ideas.md), [FAM-04](../02_Ideation/04_Human+AI_Ideas.md), [FAM-08](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | before departure, first mile, transfer |
-| **[Marks](../05_Ideas_prioritization.md)** | C14-01 3·1·3, C14-04 3·3·3, C14-05 3·1·3, C14-06 2·1·3, C14-12 2·1·2, C27-01 3·3·3, C27-04 3·1·3, C27-06 3·1·2, C27-07 2·3·2, C27-08 3·1·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C14-01 3·1·3, C14-04 3·3·3, C14-05 3·1·3, C14-06 2·1·3, C14-12 2·1·2, C27-01 3·3·3, C27-04 3·1·3, C27-06 3·1·2, C27-07 2·3·2, C27-08 3·1·3 |
 | **Foundation** | Principles 4, 6; The things it deals with (usual trip, run, connection); States (run); Channels; Rules that hold everywhere |
 
 ## Description

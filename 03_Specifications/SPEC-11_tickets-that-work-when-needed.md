@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-04](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants. | Booking as one journey. Showing every way is SPEC-09 |
-| concept | [F-08](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, still in the underground five minutes before his train leaves, I want to buy, move and show a valid ticket in one step, up to departure and with no signal, so that he can take another train, or travel another day, without losing the ticket. | All of it |
+| concept | [F-04](../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants. | Booking as one journey. Showing every way is SPEC-09 |
+| concept | [F-08](../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, still in the underground five minutes before his train leaves, I want to buy, move and show a valid ticket in one step, up to departure and with no signal, so that he can take another train, or travel another day, without losing the ticket. | All of it |
 
 These stories belong together because both are the ticket: getting it for the whole trip in one go, and being able to use, move or show it at the moment it is needed.
 
@@ -27,13 +27,13 @@ These stories belong together because both are the ticket: getting it for the wh
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-04](../../01_Research/06_Analysis/03_Generated_Features.md), [F-08](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-005](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-020](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-021](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-022](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-008](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-071](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-076](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-077](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-103](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-07](../01_How_might_we.md), [HMW-11](../01_How_might_we.md) |
-| **Concepts** | [C07-06](../03_AI_Ideas.md), [C11-02](../03_AI_Ideas.md), [C11-11](../03_AI_Ideas.md); background: [C11-01](../03_AI_Ideas.md), [C11-04](../03_AI_Ideas.md) |
-| **Families** | [FAM-19](../04_Human+AI_Ideas.md), [FAM-16](../04_Human+AI_Ideas.md), [FAM-01](../04_Human+AI_Ideas.md); background: [FAM-21](../04_Human+AI_Ideas.md), [FAM-14](../04_Human+AI_Ideas.md) |
+| **Features** | [F-04](../01_Research/06_Analysis/03_Generated_Features.md), [F-08](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-005](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-020](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-021](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-022](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-008](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-071](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-076](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-077](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-103](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-07](../02_Ideation/01_How_might_we.md), [HMW-11](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C07-06](../02_Ideation/03_AI_Ideas.md), [C11-02](../02_Ideation/03_AI_Ideas.md), [C11-11](../02_Ideation/03_AI_Ideas.md); background: [C11-01](../02_Ideation/03_AI_Ideas.md), [C11-04](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-19](../02_Ideation/04_Human+AI_Ideas.md), [FAM-16](../02_Ideation/04_Human+AI_Ideas.md), [FAM-01](../02_Ideation/04_Human+AI_Ideas.md); background: [FAM-21](../02_Ideation/04_Human+AI_Ideas.md), [FAM-14](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | planning, before departure, main leg |
-| **[Marks](../05_Ideas_prioritization.md)** | C07-06 2·1·3, C11-02 3·1·2, C11-11 2·1·3; background C11-01 3·1·3, C11-04 3·1·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C07-06 2·1·3, C11-02 3·1·2, C11-11 2·1·3; background C11-01 3·1·3, C11-04 3·1·3 |
 | **Foundation** | Principle 5; The things it deals with (ticket, trip, way); Rules that hold everywhere |
 
 ## Description

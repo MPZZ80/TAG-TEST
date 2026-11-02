@@ -12,10 +12,10 @@ The process was restarted on 2026-11-01.
 | `04_Human+AI_Ideas.md` | The 330 concepts of the two files above grouped into 27 families of directions, with the author of each, the families held by one hand, the 2 unclassified and the questions assigned to Marco's concepts |
 | `05_Ideas_prioritization.md` | The 330 concepts marked 0–3 on valuable, feasible and relevant, each with its reasons; the 174 concepts whose axes disagree; the 13 out; the count per axis; the same marks for the 27 families, also in order of their marks. Proposals, not a decision |
 | `06_Chosen_concept.md` | The chosen concept: all 27 families, 18 main and 9 in the background (FAM-05, 10, 12, 14, 20, 21, 22, 23, 24), each with its concepts, questions, features and marks; the 27 questions with the families that answer them; where the material is thin |
-| `07_Specifications/` | The specifications built from the user stories, those of the chosen concept first, one file each, and `Spec_instructions.md`, the project-independent instructions for writing them. 17 specifications for the 24 user stories, with an overview and a foundation; read its `README.md` first |
 | `Prompts/` | The course's example prompts for each step of the ideation, under their own names; see its `README.md` |
 | `_old/` | The first round, archived: questions, concepts, families, marks and the chosen concept. Not current; read its `README.md` before opening it |
 
+- The specifications written from the chosen concept are in `../03_Specifications/`, outside this folder.
 - Nothing here is ranked: the choice of questions and concepts is Marco's.
 - `03_AI_Ideas.md` is long: read `04_Human+AI_Ideas.md` first for the map, then search it for a concept, a question or a direction, not in full.
 - Files of this round are numbered in the order of the process: `01_`, `02_` and so on.

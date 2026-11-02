@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,20 +17,20 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-12](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, when his office days fell to about one a week and the pass still cost 70 euro a month, I want to know which pass, carnet or single tickets cost least for the days I actually travel, so that he does not pay for a pass meant for daily travel. | All of it |
+| concept | [F-12](../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, when his office days fell to about one a week and the pass still cost 70 euro a month, I want to know which pass, carnet or single tickets cost least for the days I actually travel, so that he does not pay for a pass meant for daily travel. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-12](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-002](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-003](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-007](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-15](../01_How_might_we.md) |
-| **Concepts** | [C15-01](../03_AI_Ideas.md), [C15-02](../03_AI_Ideas.md), [C15-10](../03_AI_Ideas.md), [C15-11](../03_AI_Ideas.md), [C15-12](../03_AI_Ideas.md) |
-| **Families** | [FAM-08](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-27](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md) |
+| **Features** | [F-12](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-002](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-003](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-007](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-15](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C15-01](../02_Ideation/03_AI_Ideas.md), [C15-02](../02_Ideation/03_AI_Ideas.md), [C15-10](../02_Ideation/03_AI_Ideas.md), [C15-11](../02_Ideation/03_AI_Ideas.md), [C15-12](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-08](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-27](../02_Ideation/04_Human+AI_Ideas.md), [FAM-03](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | planning |
-| **[Marks](../05_Ideas_prioritization.md)** | C15-01 3·3·3, C15-02 3·3·3, C15-10 2·3·2, C15-11 2·3·3, C15-12 2·2·2 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C15-01 3·3·3, C15-02 3·3·3, C15-10 2·3·2, C15-11 2·3·3, C15-12 2·2·2 |
 | **Foundation** | Principles 3, 6; The user (days of travel); The things it deals with (usual trip, trip, ticket) |
 
 ## Description

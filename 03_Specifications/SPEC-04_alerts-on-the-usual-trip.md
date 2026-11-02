@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,20 +17,20 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-03](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the single-line commuter | As the single-line commuter, during the seven minutes he drives to the station on one of his three office days, I want to be told, only when something changes, of a delay, cancellation, strike or works on my usual train, in time to change the decision to leave, so that he can wait in the warm car if the train is late. | All of it |
+| concept | [F-03](../01_Research/06_Analysis/04_Generated_User_Stories.md) | the single-line commuter | As the single-line commuter, during the seven minutes he drives to the station on one of his three office days, I want to be told, only when something changes, of a delay, cancellation, strike or works on my usual train, in time to change the decision to leave, so that he can wait in the warm car if the train is late. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-03](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-031](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-032](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-033](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-034](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-035](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-037](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-039](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-040](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-087](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-089](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-05](../01_How_might_we.md) |
-| **Concepts** | [S01](../02_Human_Ideas.md), [S05](../02_Human_Ideas.md), [C05-01](../03_AI_Ideas.md), [C05-02](../03_AI_Ideas.md), [C05-03](../03_AI_Ideas.md), [C05-04](../03_AI_Ideas.md), [C05-05](../03_AI_Ideas.md), [C05-06](../03_AI_Ideas.md), [C05-07](../03_AI_Ideas.md), [C05-09](../03_AI_Ideas.md) |
-| **Families** | [FAM-01](../04_Human+AI_Ideas.md), [FAM-07](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md) |
+| **Features** | [F-03](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-031](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-032](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-033](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-034](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-035](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-037](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-039](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-040](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-087](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-089](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-05](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [S01](../02_Ideation/02_Human_Ideas.md), [S05](../02_Ideation/02_Human_Ideas.md), [C05-01](../02_Ideation/03_AI_Ideas.md), [C05-02](../02_Ideation/03_AI_Ideas.md), [C05-03](../02_Ideation/03_AI_Ideas.md), [C05-04](../02_Ideation/03_AI_Ideas.md), [C05-05](../02_Ideation/03_AI_Ideas.md), [C05-06](../02_Ideation/03_AI_Ideas.md), [C05-07](../02_Ideation/03_AI_Ideas.md), [C05-09](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-01](../02_Ideation/04_Human+AI_Ideas.md), [FAM-07](../02_Ideation/04_Human+AI_Ideas.md), [FAM-08](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-03](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | planning (days before), before departure, first mile |
-| **[Marks](../05_Ideas_prioritization.md)** | S01 3·1·2, S05 2·1·2, C05-01 3·1·3, C05-02 3·1·2, C05-03 3·1·3, C05-04 3·1·3, C05-05 3·1·3, C05-06 2·3·2, C05-07 2·1·2, C05-09 2·2·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | S01 3·1·2, S05 2·1·2, C05-01 3·1·3, C05-02 3·1·2, C05-03 3·1·3, C05-04 3·1·3, C05-05 3·1·3, C05-06 2·3·2, C05-07 2·1·2, C05-09 2·2·3 |
 | **Foundation** | Principles 1, 4, 6; The user; The things it deals with (usual trip, run); States (run, trip); Sources of information; Channels; Rules that hold everywhere |
 
 ## Description

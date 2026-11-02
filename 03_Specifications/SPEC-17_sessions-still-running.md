@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:29
+date: 2026-11-02 23:38
 method: synthesis
 status: draft
 grade: n/a
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-18](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | an Italian driver (desk persona) | As an Italian driver (desk persona), leaving the car for the day on street parking paid in an app, I want to pay, end and leave the parking without delay and be reminded that a session is still running, so that I do not pay for eight or ten hours by forgetting it. | All of it except the barrier at a car park (see "Out of scope") |
-| concept | [F-21](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a shared-bike rider in South Korea (desk persona) | As a shared-bike rider in South Korea (desk persona), going home from work, at the end of the ride when the return zone is far or the position is wrong, I want to see where the shared bike can be returned near the destination, so that the charge does not keep running after the ride. | All of it |
+| concept | [F-18](../01_Research/06_Analysis/04_Generated_User_Stories.md) | an Italian driver (desk persona) | As an Italian driver (desk persona), leaving the car for the day on street parking paid in an app, I want to pay, end and leave the parking without delay and be reminded that a session is still running, so that I do not pay for eight or ten hours by forgetting it. | All of it except the barrier at a car park (see "Out of scope") |
+| concept | [F-21](../01_Research/06_Analysis/04_Generated_User_Stories.md) | a shared-bike rider in South Korea (desk persona) | As a shared-bike rider in South Korea (desk persona), going home from work, at the end of the ride when the return zone is far or the position is wrong, I want to see where the shared bike can be returned near the destination, so that the charge does not keep running after the ride. | All of it |
 
 These stories belong together because both are a paid session at the start or end of the trip (street parking, a shared bike) whose charge keeps running until it is ended, and both ask not to pay for time after the need is over.
 
@@ -27,13 +27,13 @@ These stories belong together because both are a paid session at the start or en
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-18](../../01_Research/06_Analysis/03_Generated_Features.md), [F-21](../../01_Research/06_Analysis/03_Generated_Features.md) |
-| **Touchpoints** | [TP-058](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-085](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-086](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
-| **Problem questions** | [HMW-21](../01_How_might_we.md), [HMW-24](../01_How_might_we.md) |
-| **Concepts** | [C21-01](../03_AI_Ideas.md), [C21-02](../03_AI_Ideas.md), [C21-04](../03_AI_Ideas.md), [C21-05](../03_AI_Ideas.md), [C21-09](../03_AI_Ideas.md), [C24-09](../03_AI_Ideas.md), [C24-12](../03_AI_Ideas.md); background: [C24-01](../03_AI_Ideas.md) |
-| **Families** | [FAM-01](../04_Human+AI_Ideas.md), [FAM-16](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-13](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md); background: [FAM-10](../04_Human+AI_Ideas.md) |
+| **Features** | [F-18](../01_Research/06_Analysis/03_Generated_Features.md), [F-21](../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-058](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-085](../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-086](../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
+| **Problem questions** | [HMW-21](../02_Ideation/01_How_might_we.md), [HMW-24](../02_Ideation/01_How_might_we.md) |
+| **Concepts** | [C21-01](../02_Ideation/03_AI_Ideas.md), [C21-02](../02_Ideation/03_AI_Ideas.md), [C21-04](../02_Ideation/03_AI_Ideas.md), [C21-05](../02_Ideation/03_AI_Ideas.md), [C21-09](../02_Ideation/03_AI_Ideas.md), [C24-09](../02_Ideation/03_AI_Ideas.md), [C24-12](../02_Ideation/03_AI_Ideas.md); background: [C24-01](../02_Ideation/03_AI_Ideas.md) |
+| **Families** | [FAM-01](../02_Ideation/04_Human+AI_Ideas.md), [FAM-16](../02_Ideation/04_Human+AI_Ideas.md), [FAM-15](../02_Ideation/04_Human+AI_Ideas.md), [FAM-13](../02_Ideation/04_Human+AI_Ideas.md), [FAM-08](../02_Ideation/04_Human+AI_Ideas.md); background: [FAM-10](../02_Ideation/04_Human+AI_Ideas.md) |
 | **Stages covered** | first mile, last mile |
-| **[Marks](../05_Ideas_prioritization.md)** | C21-01 3·2·3, C21-02 3·2·3, C21-04 3·3·3, C21-05 2·3·2, C21-09 1·2·2, C24-09 3·1·3, C24-12 2·1·3; background C24-01 3·1·3 |
+| **[Marks](../02_Ideation/05_Ideas_prioritization.md)** | C21-01 3·2·3, C21-02 3·2·3, C21-04 3·3·3, C21-05 2·3·2, C21-09 1·2·2, C24-09 3·1·3, C24-12 2·1·3; background C24-01 3·1·3 |
 | **Foundation** | Principle 4; The things it deals with (place); Channels; Rules that hold everywhere |
 
 ## Description

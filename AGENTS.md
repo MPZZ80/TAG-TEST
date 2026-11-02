@@ -16,7 +16,7 @@ Repository layout:
 
 | Location | What it holds |
 | --- | --- |
-| Repository root | Only the files that tools or conventions expect there: `AGENTS.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md`, and `Index.md`, the list of the files in `01_Research/` and `02_Ideation/` with their tags (see "Index" below) |
+| Repository root | Only the files that tools or conventions expect there: `AGENTS.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md`, and `Index.md`, the list of the files in `01_Research/`, `02_Ideation/` and `03_Specifications/` with their tags (see "Index" below) |
 | `00_Intro/` | The project brief and the metadata schema |
 | `00_Intro/Brief/` | The project brief |
 | `00_Intro/Metadata/` | The metadata schema: the block every file starts with and its allowed values |
@@ -32,12 +32,13 @@ Repository layout:
 | `02_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
 | `02_Ideation/Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `02_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
+| `03_Specifications/` | The specifications written from the user stories and the chosen concept, one file per behaviour, with the instructions for writing them |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
 
 ### Index
 
-`Index.md` in the repository root has one line for every Markdown file in the `01_Research/` and `02_Ideation/` folders and their subfolders. Files outside them are not listed, and neither are the `README.md` files, the interview transcripts and the lists of sources (`*_candidates.md`, `*_to_obtain.md`). It exists so that an agent can connect and find things quickly without searching the whole repository.
+`Index.md` in the repository root has one line for every Markdown file in the `01_Research/`, `02_Ideation/` and `03_Specifications/` folders and their subfolders. Files outside them are not listed, and neither are the `README.md` files, the interview transcripts and the lists of sources (`*_candidates.md`, `*_to_obtain.md`). It exists so that an agent can connect and find things quickly without searching the whole repository.
 
 - **Format of a line, exactly:** `- filename — [tags · status · grade · confidence]`. The tags include the activity (`desk`, `interview`, `survey` or `internal`).
 - **One line per file.** No summaries, no commentary, no interpretation.

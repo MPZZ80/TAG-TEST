@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 23:38
+
+- **Files:** `02_Ideation/07_Specifications/` moved to `03_Specifications/` (all 20 files); paths and links updated in the specifications, `Spec_instructions.md`, `02_Ideation/README.md`, `02_Ideation/06_Chosen_concept.md`, `Index.md` and `AGENTS.md`.
+- **Change:** The specifications are a top-level folder numbered `03_`, after `01_Research/` and `02_Ideation/`. `AGENTS.md` lists it in the repository layout, and `Index.md` now covers `03_Specifications/` as well, as its last group. `Spec_instructions.md` names `03_Specifications/` as the output folder. The note in `06_Chosen_concept.md` keeps the earlier name and records the move.
+- **Why:** Marco asked to move Specifications out of Ideation and give it the progressive number 03; reason not stated.
+
 ## 2026-11-02 23:32
 
 - **Files:** in `01_Research/`: `Questions/` renamed `01_Questions/` (`01_prompt.md`, `02_initial_questions.md`); new `02_Plan/` with `01_plan.md`, `02_desk_research_instructions.md`, `03_progress.md`, `04_open_issues.md` (moved from `01_Research/`) and a `README.md`; `Desk_Research/` renamed `03_Desk_Research/` (contents unchanged); `Interviews/` renamed `04_Interviews/`, with `deepdive_interview_script.md` moved in and the empty `Human_notes/` removed; `Survey/` renamed `05_Survey/` (`01_survey_<language>.md`, `02_build_google_forms.gs`, `03_posting_venues.md`, `04_permission_requests.md`, `05_direct_posts.md`, `06_Responses/`, `07_survey_results.md`); `Analysis/` renamed `06_Analysis/` (`01_research.html`, `02_Generated_Touchpoints.md`, `03_Generated_Features.md`, `04_Generated_User_Stories.md`, `05_Human_Touchpoints(not_complete).md`, `Prompts/01_…` to `04_…`, with the typo "Reaearch" corrected). The five course prompts `prompt-0…` moved to the new `02_Ideation/Prompts/`, with a `README.md`. Paths and links updated in every file that names them, including `CLAUDE.md`, `AGENTS.md`, `.gitignore`, `Index.md`, `00_Intro/Metadata/`, the folder READMEs, the source notes, `02_Ideation/` and `research.html`; `date` updated in 191 files. The `.DS_Store` files removed from Git and ignored.
