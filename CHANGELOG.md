@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 20:41
+
+- **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`
+- **Change:** One specification per behaviour, not per feature: several user stories (and features) may feed the same specification, and one story may feed several. The template has a "User stories served" table; the overview has a column of stories per specification, a table of each story with its specifications, and "Splits and groupings".
+- **Why:** Marco asked to make sure that several user stories can contribute to the same specification.
+
 ## 2026-11-02 20:37
 
 - **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`, `02_Ideation/06_Specifications/README.md`, `02_Ideation/README.md`, `Index.md`

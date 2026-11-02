@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 20:37
+date: 2026-11-02 20:41
 method: generated
 status: draft
 grade: n/a
@@ -27,15 +27,20 @@ them into specifications, not to revisit them.
 
 TASK — write the specifications:
 
-1. Split the chosen concept into specifications, one per feature
-   it delivers. If a feature needs two behaviours that could ship
-   apart, split it into two specifications and say so. If two
-   features are one behaviour, merge them and say so.
+1. Split the chosen concept into specifications, one per
+   behaviour it delivers. A specification may serve several
+   features and several user stories: group the stories whose
+   need is met by the same behaviour into one specification, and
+   say why they belong together. A story may also feed more than
+   one specification. If a feature needs two behaviours that
+   could ship apart, split it into two specifications and say so.
 2. Write each specification in its own file in
    02_Ideation/06_Specifications/, with the template below.
 3. Write SPEC-00_overview.md: the list of the specifications and
    the traceability table that links every one of them to its
-   concept, family, HMW, feature, user story and touchpoints.
+   concepts, families, HMW, features, user stories and
+   touchpoints, and shows every user story of the chosen concept
+   under at least one specification.
 
 Each specification is a prompt for integration: a designer, a
 developer or another agent must be able to build the behaviour
@@ -51,8 +56,8 @@ RULES:
   If a behaviour cannot be described without a technology, write
   the need it serves and mark it [technology choice open].
 - Keep every reference. Every specification names, by its exact
-  ID, the concept (S01…, C01-01…), the family (FAM-…), the
-  How-Might-We questions (HMW-…), the features (F-…), the user
+  ID, the concepts (S01…, C01-01…), the families (FAM-…), the
+  How-Might-We questions (HMW-…), the features (F-…), every user
   story (by its feature and persona) and the touchpoints (TP-…)
   it rests on, with a relative link to the file that holds each.
 - Logic, not screens. Describe how it works: what starts it,
@@ -114,13 +119,20 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | | |
 | --- | --- |
-| **Concept** | <S0… / C…-…, with link> |
-| **Family** | <FAM-…, with link> |
+| **Concepts** | <S0… / C…-…, with link> |
+| **Families** | <FAM-…, with link> |
 | **How-Might-We** | <HMW-…, with link> |
-| **Feature** | <F-…, with link> |
-| **User story** | <As a …, in …, I want …, so that … — copied as written, with link> |
+| **Features** | <F-…, with link> |
 | **Touchpoints** | <TP-…, with link> |
 | **Legs** | <first mile / main leg / transfer / last mile / whole journey> |
+
+### User stories served
+
+One row per story this specification serves, copied as written.
+
+| Feature | Persona | Story | What this specification covers of it |
+| --- | --- | --- | --- |
+| <F-…, with link> | <persona> | <As a …, in …, I want …, so that …> | <all of it, or the part covered, and which specification covers the rest> |
 
 ## Description
 What it does, for whom, in which moment. A stranger could read it and repeat it back.
@@ -156,11 +168,17 @@ Behaviours marked [not traced] or [technology choice open], and what Marco has t
 
 <Two or three lines: the concept specified, how many specifications, what they leave out.>
 
-| Spec | Name | Concept | Family | HMW | Feature | Persona | Touchpoints |
+| Spec | Name | Concepts | Families | HMW | Features | User stories (feature · persona) | Touchpoints |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
-## Splits and merges
-Features split or merged into specifications, and why.
+## User stories and specifications
+One row per user story of the chosen concept, with the specifications that serve it. A story with no specification is listed under "Not specified".
+
+| Feature | Persona | Specifications |
+| --- | --- | --- |
+
+## Splits and groupings
+Features split into several specifications, and stories grouped into one, and why.
 
 ## Not specified
 Features or concepts of the chosen direction left without a specification, and why.
