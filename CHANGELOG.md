@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 21:11
+
+- **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`, `02_Ideation/06_Specifications/README.md`, `02_Ideation/README.md`
+- **Change:** `Spec_instructions.md` rewritten as a set of instructions independent of this project: the prompt block is removed, its content is now the steps and rules of the file itself; references to commuting, door to door legs, trains, Marco and the project's files and IDs are replaced by generic inputs (user stories, chosen concepts, problem questions, features, touchpoints, families, marks); `related` removed. Folder READMEs updated.
+- **Why:** Marco wants to reuse the file in any project by saying "use the file spec_instructions.md to create the specifications".
+- **Do not:** put a prompt block or project-specific references back in the file.
+
 ## 2026-11-02 20:58
 
 - **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`, `02_Ideation/06_Specifications/README.md`
