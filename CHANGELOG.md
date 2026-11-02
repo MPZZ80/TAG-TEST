@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 20:44
+
+- **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`, `02_Ideation/06_Specifications/README.md`, `02_Ideation/README.md`
+- **Change:** The specifications are built from the user stories, not from the concept. Each story gets a priority, concept (its feature is behind an HMW the chosen concept answers) or outside; concept stories are specified first, outside stories are added to an existing specification, get their own after the concept ones, or are listed as not specified with the reason. Templates now put the stories served first, with their priority; the overview lists every story.
+- **Why:** Marco asked to rely more on the user stories and not focus on the concept, giving precedence to the stories related to the concept while also taking into account those outside it.
+
 ## 2026-11-02 20:41
 
 - **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`

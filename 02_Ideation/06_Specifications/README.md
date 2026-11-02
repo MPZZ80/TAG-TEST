@@ -1,6 +1,6 @@
 # Specifications
 
-The specifications of the chosen concept, one file per behaviour, technology-agnostic, each usable as a prompt for integration.
+The specifications built from the user stories, the stories of the chosen concept first, one file per behaviour, technology-agnostic, each usable as a prompt for integration.
 
 | File | What it is |
 | --- | --- |

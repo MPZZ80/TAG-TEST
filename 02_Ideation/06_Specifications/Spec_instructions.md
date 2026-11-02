@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 20:41
+date: 2026-11-02 20:44
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, rules]
-related: [01_How_might_we.md, 04_Human+AI_Ideas.md, 05_Ideas_prioritization.md, Generated_Features.md, Generated_User_Stories.md, Generated_Touchpoints.md]
+related: [Generated_User_Stories.md, 01_How_might_we.md, 04_Human+AI_Ideas.md, 05_Ideas_prioritization.md, Generated_Features.md, Generated_Touchpoints.md]
 ---
 
 # Instructions for Generating the Specifications
@@ -19,28 +19,46 @@ A supplementary prompt. Give it to the agent together with the request to write 
 You are working in my research repository on door to door
 intercity commuting in multimodal environments.
 
-Input: my decisions — the concept or concepts I chose, the
-families and marks in 02_Ideation/, the How-Might-We questions,
-the features, the user stories and the touchpoints in
-01_Research/Analysis/. The choices are made; your job is to turn
-them into specifications, not to revisit them.
+Input: the user stories in
+01_Research/Analysis/Generated_User_Stories.md are the base of
+the specifications. Around them: the features and touchpoints
+behind each story, the How-Might-We questions, and my decisions
+in 02_Ideation/ — the concept or concepts I chose, their
+families and marks. The choices are made; your job is to turn
+the stories into specifications, not to revisit the choices.
 
 TASK — write the specifications:
 
-1. Split the chosen concept into specifications, one per
-   behaviour it delivers. A specification may serve several
-   features and several user stories: group the stories whose
-   need is met by the same behaviour into one specification, and
-   say why they belong together. A story may also feed more than
-   one specification. If a feature needs two behaviours that
-   could ship apart, split it into two specifications and say so.
-2. Write each specification in its own file in
+1. Read every user story and give it a priority:
+   - concept: the story's feature is behind an HMW that the
+     chosen concept answers (concept → HMW in
+     05_Ideas_prioritization.md, HMW → feature in
+     01_How_might_we.md);
+   - outside: every other story.
+2. Start from the concept stories. Group them by the behaviour
+   that meets their need: one specification per behaviour. A
+   specification may serve several stories and features, and a
+   story may feed more than one specification; say why the
+   stories of a specification belong together. If a story needs
+   two behaviours that could ship apart, split it into two
+   specifications and say so.
+3. Then take the outside stories, one by one:
+   - if a specification already written meets its need, add the
+     story to it, marked outside;
+   - if it needs a behaviour of its own, write a specification
+     for it after the concept ones, marked outside;
+   - if it does not fit the product the concept stories outline,
+     do not specify it: list it under "Not specified" with the
+     reason.
+   An outside story never changes a behaviour a concept story
+   needs; where the two pull in different directions, the
+   concept story wins and the conflict goes in "Open questions".
+4. Write each specification in its own file in
    02_Ideation/06_Specifications/, with the template below.
-3. Write SPEC-00_overview.md: the list of the specifications and
-   the traceability table that links every one of them to its
-   concepts, families, HMW, features, user stories and
-   touchpoints, and shows every user story of the chosen concept
-   under at least one specification.
+5. Write SPEC-00_overview.md: the list of the specifications, the
+   traceability table, and every user story — concept and
+   outside — with its priority and the specifications that serve
+   it, or the reason it has none.
 
 Each specification is a prompt for integration: a designer, a
 developer or another agent must be able to build the behaviour
@@ -55,11 +73,18 @@ RULES:
   the traveller chose", not the name of an app or a protocol).
   If a behaviour cannot be described without a technology, write
   the need it serves and mark it [technology choice open].
+- Stories first. The behaviour of a specification is what its
+  stories ask for: the persona, the moment and the "so that"
+  come from the stories, not from the wording of a concept. A
+  concept says how the chosen direction answers a story; use it
+  to shape the behaviour, not to add to it.
 - Keep every reference. Every specification names, by its exact
-  ID, the concepts (S01…, C01-01…), the families (FAM-…), the
-  How-Might-We questions (HMW-…), the features (F-…), every user
-  story (by its feature and persona) and the touchpoints (TP-…)
-  it rests on, with a relative link to the file that holds each.
+  ID, every user story (by its feature and persona) with its
+  priority, the features (F-…), the touchpoints (TP-…), the
+  How-Might-We questions (HMW-…), the concepts (S01…, C01-01…)
+  and the families (FAM-…) it rests on, with a relative link to
+  the file that holds each. A specification with only outside
+  stories writes "none" for concepts and families.
 - Logic, not screens. Describe how it works: what starts it,
   what it needs to know, the rules it follows step by step, the
   states it can be in, and what the traveller sees or receives
@@ -97,7 +122,7 @@ RULES:
 | --- | --- | --- |
 | `TP-…` | Touchpoints: moments of the commute, with their quotes | [Generated_Touchpoints.md](../../01_Research/Analysis/Generated_Touchpoints.md) |
 | `F-…` | Features, with the touchpoints they answer | [Generated_Features.md](../../01_Research/Analysis/Generated_Features.md) |
-| user story | One per feature, named by its feature and persona | [Generated_User_Stories.md](../../01_Research/Analysis/Generated_User_Stories.md) |
+| user story | The base of the specifications: one per feature, named by its feature and persona | [Generated_User_Stories.md](../../01_Research/Analysis/Generated_User_Stories.md) |
 | `HMW-…` | How-Might-We questions, each with its feature | [01_How_might_we.md](../01_How_might_we.md) |
 | `S0…` | Marco's concepts | [02_Human_Ideas.md](../02_Human_Ideas.md) |
 | `C…-…` | AI concepts | [03_AI_Ideas.md](../03_AI_Ideas.md) (search it, do not read it in full) |
@@ -115,24 +140,25 @@ RULES:
 
 Use this file as a prompt: it describes one behaviour to build, independent of any technology.
 
+## User stories served
+
+One row per story this specification serves, copied as written; concept stories first.
+
+| Priority | Feature | Persona | Story | What this specification covers of it |
+| --- | --- | --- | --- | --- |
+| <concept / outside> | <F-…, with link> | <persona> | <As a …, in …, I want …, so that …> | <all of it, or the part covered, and which specification covers the rest> |
+
 ## Traceability
 
 | | |
 | --- | --- |
-| **Concepts** | <S0… / C…-…, with link> |
-| **Families** | <FAM-…, with link> |
-| **How-Might-We** | <HMW-…, with link> |
+| **Priority** | <concept, if at least one story is concept; otherwise outside> |
 | **Features** | <F-…, with link> |
 | **Touchpoints** | <TP-…, with link> |
+| **How-Might-We** | <HMW-…, with link> |
+| **Concepts** | <S0… / C…-…, with link, or none> |
+| **Families** | <FAM-…, with link, or none> |
 | **Legs** | <first mile / main leg / transfer / last mile / whole journey> |
-
-### User stories served
-
-One row per story this specification serves, copied as written.
-
-| Feature | Persona | Story | What this specification covers of it |
-| --- | --- | --- | --- |
-| <F-…, with link> | <persona> | <As a …, in …, I want …, so that …> | <all of it, or the part covered, and which specification covers the rest> |
 
 ## Description
 What it does, for whom, in which moment. A stranger could read it and repeat it back.
@@ -166,22 +192,22 @@ Behaviours marked [not traced] or [technology choice open], and what Marco has t
 
 # Specifications: Overview
 
-<Two or three lines: the concept specified, how many specifications, what they leave out.>
+<Two or three lines: how many stories, how many concept and outside, how many specifications, what they leave out.>
 
-| Spec | Name | Concepts | Families | HMW | Features | User stories (feature · persona) | Touchpoints |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| Spec | Name | Priority | User stories (feature · persona) | Features | Touchpoints | HMW | Concepts | Families |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 ## User stories and specifications
-One row per user story of the chosen concept, with the specifications that serve it. A story with no specification is listed under "Not specified".
+One row per user story in Generated_User_Stories.md, concept stories first.
 
-| Feature | Persona | Specifications |
-| --- | --- | --- |
+| Priority | Feature | Persona | Specifications |
+| --- | --- | --- | --- |
 
 ## Splits and groupings
-Features split into several specifications, and stories grouped into one, and why.
+Stories split into several specifications, stories grouped into one, outside stories added to a concept specification, and why.
 
 ## Not specified
-Features or concepts of the chosen direction left without a specification, and why.
+Stories left without a specification, concept or outside, and why.
 
 ## Open questions
 All the open questions of the specifications, in one list.
