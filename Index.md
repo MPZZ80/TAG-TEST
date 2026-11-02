@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-03 00:12
+date: 2026-11-03 00:15
 method: generated
 status: draft
 grade: n/a
@@ -385,6 +385,14 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - 05_Ideas_prioritization.md — [design, internal, output, information, disruption · draft · n/a · n/a]
 - 06_Chosen_concept.md — [design, internal, output, information, disruption · draft · n/a · n/a]
 
+## 03_Ideation/00_Ideation_Prompts
+
+- prompt-01-hmw.md — [unknown · unknown · unknown · unknown]
+- prompt-03-ideation.md — [unknown · unknown · unknown · unknown]
+- prompt-04-clustering.md — [unknown · unknown · unknown · unknown]
+- prompt-05-prioritisation.md — [unknown · unknown · unknown · unknown]
+- prompt-06-concept.md — [unknown · unknown · unknown · unknown]
+
 ## 03_Ideation/_old
 
 - How_might_we.md — [unknown · unknown · unknown · unknown]
@@ -392,14 +400,6 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - AI_Ideas.md — [design, internal, output, information · draft · n/a · n/a]
 - Ideas_prioritization.md — [design, internal, output, information · draft · n/a · n/a]
 - Chosen_concept.md — [design, internal, output, information, disruption · draft · n/a · low]
-
-## 03_Ideation/Prompts
-
-- prompt-01-hmw.md — [unknown · unknown · unknown · unknown]
-- prompt-03-ideation.md — [unknown · unknown · unknown · unknown]
-- prompt-04-clustering.md — [unknown · unknown · unknown · unknown]
-- prompt-05-prioritisation.md — [unknown · unknown · unknown · unknown]
-- prompt-06-concept.md — [unknown · unknown · unknown · unknown]
 
 ## 04_Specifications
 

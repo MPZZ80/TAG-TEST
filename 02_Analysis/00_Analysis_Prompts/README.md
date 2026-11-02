@@ -10,4 +10,4 @@ The prompts Marco wrote to generate the analysis files in the folder above. Each
 | `04_Generated_Research_Report_Prompt.md` | `../04_research.html` |
 
 - Open a prompt only to see how an analysis file was asked for; the files themselves say what they contain.
-- The course prompts for the ideation steps are in `../../03_Ideation/Prompts/`.
+- The course prompts for the ideation steps are in `../../03_Ideation/00_Ideation_Prompts/`.

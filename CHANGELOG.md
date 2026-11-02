@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-03 00:15
+
+- **Files:** `03_Ideation/Prompts/` renamed `03_Ideation/00_Ideation_Prompts/`; paths updated in `03_Ideation/README.md`, `02_Analysis/00_Analysis_Prompts/README.md`, `AGENTS.md` and `Index.md`.
+- **Change:** The course prompts folder takes the same form as the analysis one and comes first in `03_Ideation/`, in its README and in the index. The prompts inside keep their names and content.
+- **Why:** Marco agreed to give the Ideation prompts folder the same form as `00_Analysis_Prompts` ("si").
+
 ## 2026-11-03 00:12
 
 - **Files:** `02_Analysis/Prompts/` renamed `02_Analysis/00_Analysis_Prompts/`; paths updated in `02_Analysis/README.md`, `02_Analysis/01_Touchpoints/00_Touchpoints_index.md`, `02_Analysis/04_research.html` and `Index.md`.

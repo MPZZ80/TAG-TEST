@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-03 00:09
+date: 2026-11-03 00:15
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -30,7 +30,7 @@ Repository layout:
 | `01_Research/05_Survey/` | The commuter survey in six languages, where to post it, the script that builds the forms, the answers and the results |
 | `02_Analysis/` | Touchpoints, features and user stories built on the research, one file per item in `01_Touchpoints/`, `02_Features/` and `03_User_Stories/`, each folder with its index (`00_…_index.md`); the research web page, a dated snapshot; the prompts that generated them |
 | `03_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
-| `03_Ideation/Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
+| `03_Ideation/00_Ideation_Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
 | `04_Specifications/` | The specifications written from the user stories and the chosen concept, one file per behaviour, with the instructions for writing them |
 
