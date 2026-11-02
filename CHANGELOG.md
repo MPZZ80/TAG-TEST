@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 21:18
+
+- **Files:** `02_Ideation/07_Specifications/Spec_instructions.md`
+- **Change:** The specifications are created in `02_Ideation/07_Specifications/`: stated in "Output folder" (section 1), unless the request names another folder, and as a new "Folder" line in section 4.
+- **Why:** Marco asked to add the instruction to create the specifications inside `02_Ideation/07_Specifications`.
+
 ## 2026-11-02 21:16
 
 - **Files:** `02_Ideation/06_Chosen_concept.md`, `02_Ideation/07_Specifications/` (was `02_Ideation/06_Specifications/`), `02_Ideation/README.md`, `Index.md`

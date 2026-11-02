@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 21:12
+date: 2026-11-02 21:18
 method: generated
 status: draft
 grade: n/a
@@ -27,7 +27,7 @@ Find the inputs. If the request does not say where they are, look for them in th
 - **The choices are made.** Your job is to turn the stories into specifications, not to revisit which concept was chosen or how it was marked.
 - **No chosen concept:** every story has the same priority. Skip the priority rules below and say so in the overview.
 - **Project rules win.** If the project has its own conventions for language, metadata, file names, indexes or change logs, follow them on top of this file.
-- **Output folder:** the one the request names; otherwise the folder of this file.
+- **Output folder:** create the specifications in `02_Ideation/07_Specifications/`, unless the request names another folder.
 
 ### Map of the references
 
@@ -78,6 +78,7 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
 
 ## 4. Files and names
 
+- **Folder:** every file below goes in `02_Ideation/07_Specifications/`, next to this file.
 - **Overview:** `SPEC-00_overview.md`.
 - **Foundation:** `SPEC-01_foundation.md`, always the first specification.
 - **One specification:** `SPEC-<NN>_<short-name>.md` from `SPEC-02`, for example `SPEC-02_reminder-before-leaving.md` or `SPEC-03_missing-item-swap.md`. The number has two digits, follows the order of the overview, and is never reused.
