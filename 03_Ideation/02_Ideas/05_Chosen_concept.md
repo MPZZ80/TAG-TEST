@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-03 00:40
 method: synthesis
 status: draft
 grade: n/a
@@ -122,7 +122,7 @@ Every one of the 27 questions of [00_How_might_we_index.md](../01_How_Might_We/0
 - **[FAM-23](FAM-23_connection-held.md) listed twice** in Marco's list: read as one family, so nine background families.
 - **Background means after, not out.** Marco said "in secondo piano" (in the background); read as: kept in the concept, used after the main families, never overriding them. The alternative, leaving them out of the specifications, was set aside because he asked to contemplate all families.
 - **Lead families** are counted from the concepts each family has for a question, as a reading aid only; they are not marks and not a ranking.
-- **File and folder numbers.** This file is `06_`, after the prioritization; the specification folder, until now `06_Specifications/`, became `07_Specifications/` to follow the process; on 2026-11-02 it moved out of `03_Ideation/` to `../../04_Specifications/`.
+- **File and folder numbers.** This file was written as `06_Chosen_concept.md`, after the prioritization; on 2026-11-03 it became `05_Chosen_concept.md` in `02_Ideas/`. The specification folder, `06_Specifications/` at first, became `07_Specifications/` to follow the process; on 2026-11-02 it moved out of Ideation, and it is now `../../04_Specifications/`.
 
 ## Connections
 

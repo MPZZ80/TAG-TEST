@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-03 00:40
+
+- **Files:** `03_Ideation/02_Ideas/05_Chosen_concept.md`
+- **Change:** The decision "File and folder numbers" tells the history of the file and folder names as it happened; the link rewrites of the moves had turned the old names into the current ones.
+- **Why:** Found while verifying all the links of the repository, as Marco asked.
+
 ## 2026-11-03 00:35
 
 - **Files:** moved and turned into indexes: `03_Ideation/01_How_might_we.md` → `03_Ideation/01_How_Might_We/00_How_might_we_index.md`, `02_Human_Ideas.md` → `02_Ideas/01_Human_Ideas_index.md`, `03_AI_Ideas.md` → `02_Ideas/02_AI_Ideas_index.md`, `04_Human+AI_Ideas.md` → `02_Ideas/03_Families_index.md`; moved with their content kept: `05_Ideas_prioritization.md` → `02_Ideas/04_Ideas_prioritization.md`, `06_Chosen_concept.md` → `02_Ideas/05_Chosen_concept.md`. Created in `01_How_Might_We/`: HMW-01 to HMW-27, CL-01 to CL-09, SC-01, SC-02 and SC-00; in `02_Ideas/`: S01 to S06, C01-01 to C27-12 (324) and FAM-01 to FAM-27; a `README.md` in each folder. Changed: the 17 specifications, the 24 story files in `02_Analysis/03_User_Stories/`, `03_Ideation/README.md`, `Index.md`, `AGENTS.md`, and the files that linked the six originals by name.
