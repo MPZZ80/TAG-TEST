@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 19:22
+
+- **Files:** `02_Ideation/04_Human+AI_Ideas.md`, `02_Ideation/05_Ideas_prioritization.md`
+- **Change:** Questions of S04 to S06 set as Marco chose: S04 answers HMW-12 only (HMW-04, HMW-09, HMW-20 removed); S05 confirmed as proposed; S06 answers HMW-07, partly HMW-22 and HMW-16, and HMW-03 is removed. S06 re-marked against HMW-07: relevant from 3 to 2, so 3/1/2; counts, disagreement list and FAM-18 spread updated. Family marks unchanged.
+- **Why:** Marco chose the questions of his new concepts from the options offered.
+- **Do not:** assign HMW-03 to S06, or HMW-04, HMW-09, HMW-20 to S04.
+
 ## 2026-11-02 19:07
 
 - **Files:** `02_Ideation/02_Human_Ideas.md`
