@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -16,7 +16,7 @@ Repository layout:
 
 | Location | What it holds |
 | --- | --- |
-| Repository root | Only the files that tools or conventions expect there: `AGENTS.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md`, and `Index.md`, the list of the files in `01_Research/`, `02_Ideation/` and `03_Specifications/` with their tags (see "Index" below) |
+| Repository root | Only the files that tools or conventions expect there: `AGENTS.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md`, and `Index.md`, the list of the files in `01_Research/`, `02_Analysis/`, `03_Ideation/` and `04_Specifications/` with their tags (see "Index" below) |
 | `00_Intro/` | The project brief and the metadata schema |
 | `00_Intro/Brief/` | The project brief |
 | `00_Intro/Metadata/` | The metadata schema: the block every file starts with and its allowed values |
@@ -28,17 +28,17 @@ Repository layout:
 | `01_Research/03_Desk_Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
 | `01_Research/04_Interviews/` | The interview script, recordings, automatic transcripts and one notes file per interview |
 | `01_Research/05_Survey/` | The commuter survey in six languages, where to post it, the script that builds the forms, the answers and the results |
-| `01_Research/06_Analysis/` | Touchpoints, features and user stories built on the research, the research web page, and the prompts that generated them |
-| `02_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
-| `02_Ideation/Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
-| `02_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
-| `03_Specifications/` | The specifications written from the user stories and the chosen concept, one file per behaviour, with the instructions for writing them |
+| `02_Analysis/` | Touchpoints, features and user stories built on the research, the research web page, and the prompts that generated them |
+| `03_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
+| `03_Ideation/Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
+| `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
+| `04_Specifications/` | The specifications written from the user stories and the chosen concept, one file per behaviour, with the instructions for writing them |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
 
 ### Index
 
-`Index.md` in the repository root has one line for every Markdown file in the `01_Research/`, `02_Ideation/` and `03_Specifications/` folders and their subfolders. Files outside them are not listed, and neither are the `README.md` files, the interview transcripts and the lists of sources (`*_candidates.md`, `*_to_obtain.md`). It exists so that an agent can connect and find things quickly without searching the whole repository.
+`Index.md` in the repository root has one line for every Markdown file in the `01_Research/`, `02_Analysis/`, `03_Ideation/` and `04_Specifications/` folders and their subfolders. Files outside them are not listed, and neither are the `README.md` files, the interview transcripts and the lists of sources (`*_candidates.md`, `*_to_obtain.md`). It exists so that an agent can connect and find things quickly without searching the whole repository.
 
 - **Format of a line, exactly:** `- filename — [tags · status · grade · confidence]`. The tags include the activity (`desk`, `interview`, `survey` or `internal`).
 - **One line per file.** No summaries, no commentary, no interpretation.
@@ -118,9 +118,9 @@ This section is the running list of the standing instructions Marco gives during
 | 32 | 2026-10-19 | Use the origin tag `survey` for files whose content comes from the answers to a questionnaire. Details in section 8 of `00_Intro/Metadata/metadata_schema.md`. | The survey results did not come from an interview, and no origin tag fitted them |
 | 33 | 2026-10-19 | Updated by 34 (commit without being asked). Whenever Marco asks for a commit, push it to GitHub right after. | Not stated |
 | 34 | 2026-10-22 | After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
-| 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `01_research.html` had been added to `01_Research/06_Analysis/` without a row in its README |
-| 36 | 2026-11-01 | Name the files of `02_Ideation/` with a progressive number at the start, in the order of the process: `01_How_might_we.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
-| 37 | 2026-11-02 | Number the folders of `01_Research/` in the order they were created (`01_Questions/` to `06_Analysis/`), and number the files inside that have no progressive number yet, in the order they were created. Files that already carry a number or an ID keep it (source IDs such as `GR-001`, the course prompts `prompt-01-…`). The interview files stay without numbers. The plan and the instructions for running it go in `01_Research/02_Plan/`. | To put order in the research folder |
+| 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `01_research.html` had been added to `02_Analysis/` without a row in its README |
+| 36 | 2026-11-01 | Name the files of `03_Ideation/` with a progressive number at the start, in the order of the process: `01_How_might_we.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
+| 37 | 2026-11-02 | Number the folders of `01_Research/` in the order they were created (`01_Questions/` to `05_Survey/`; Analysis, numbered `06_` at first, was then moved to the root as `02_Analysis/`), and number the files inside that have no progressive number yet, in the order they were created. Files that already carry a number or an ID keep it (source IDs such as `GR-001`, the course prompts `prompt-01-…`). The interview files stay without numbers. The plan and the instructions for running it go in `01_Research/02_Plan/`. | To put order in the research folder |
 
 ### Language
 

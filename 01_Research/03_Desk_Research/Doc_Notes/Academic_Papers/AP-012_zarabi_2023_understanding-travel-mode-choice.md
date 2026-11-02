@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: A
@@ -68,4 +68,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A2 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares the pain point `habit` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md), [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md), [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](AP-024_an_2022_multimodal-travel-behaviour-attitudes.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](AP-027_keyes_2018_changing-influences-commuting-mode.md), [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md): habit and the lack of a real choice of means.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

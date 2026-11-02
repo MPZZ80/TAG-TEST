@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: A
@@ -85,4 +85,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Shares a source landscape with [GR-005_european-commission_2025_eurobarometer-booking-press-release.md](GR-005_european-commission_2025_eurobarometer-booking-press-release.md), [AR-002_railtarget_nd_eurobarometer-ticketing.md](../Articles/AR-002_railtarget_nd_eurobarometer-ticketing.md) and [AR-003_cer_2025_eurobarometer-press-release.md](../Articles/AR-003_cer_2025_eurobarometer-press-release.md): the 2024 Eurobarometer on booking journeys.
 - Shares the pain point `ticket-carryover` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [AP-015_mcilroy_2023_this-where-public-transport.md](../Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md), [GR-003_art_2025_relazione-annuale.md](GR-003_art_2025_relazione-annuale.md), [GR-007_european-commission_2026_com-231-multimodal-booking.md](GR-007_european-commission_2026_com-231-multimodal-booking.md) and [GR-020_european-commission_2026_com-232-rail-ticketing.md](GR-020_european-commission_2026_com-232-rail-ticketing.md): tickets, passes and rights that do not carry over between services.
 - Shares a pain point with [OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md](../Online_Forums/OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md), [OR-015_apple-app-store_2026_9292-nl.md](../Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-055_gtfs-de_nd_realtime-data-germany.md](GR-055_gtfs-de_nd_realtime-data-germany.md) and [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md): who holds and publishes the live data.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

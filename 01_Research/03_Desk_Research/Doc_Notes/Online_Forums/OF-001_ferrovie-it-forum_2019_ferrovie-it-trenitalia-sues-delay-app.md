@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: C
@@ -64,4 +64,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A5 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares a source landscape with [PR-009_trenitalia_2026_trenitalia-app.md](../Products/PR-009_trenitalia_2026_trenitalia-app.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md) and [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md): train status data of the main Italian operator and the apps that show it.
 - Shares a pain point with [OR-015_apple-app-store_2026_9292-nl.md](../Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](../Global_Reports/GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-055_gtfs-de_nd_realtime-data-germany.md](../Global_Reports/GR-055_gtfs-de_nd_realtime-data-germany.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](../Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md) and [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md): who holds and publishes the live data.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

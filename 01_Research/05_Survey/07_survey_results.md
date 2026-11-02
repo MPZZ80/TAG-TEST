@@ -1,6 +1,6 @@
 ---
 source: participant
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: coding
 status: draft
 grade: n/a
@@ -140,4 +140,4 @@ Links to the notes this file rests on. The same files are listed by name in the 
 - The questions are those of [01_survey_en.md](01_survey_en.md), the survey activity of the research plan, [01_plan.md](../02_Plan/01_plan.md).
 - Each result is read against the open issues of [04_open_issues.md](../02_Plan/04_open_issues.md).
 - Shares the pain points `late-info` and `workarounds` with [Matteo_Rizzetto_notes.md](../04_Interviews/Matteo_Rizzetto_notes.md), [Marco_Palermo_notes.md](../04_Interviews/Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](../04_Interviews/Valentina_Di_Floriano_notes.md): in both, people find out about problems at the station; the interviewees have a fallback ready while most survey respondents do not.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../02_Analysis/02_Generated_Touchpoints.md).

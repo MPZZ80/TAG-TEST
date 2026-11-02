@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 23:42
+
+- **Files:** `01_Research/06_Analysis/` moved to the root as `02_Analysis/` (with `Prompts/`); `02_Ideation/` renamed `03_Ideation/`; `03_Specifications/` renamed `04_Specifications/`. Paths and links updated in every file that names them, including `AGENTS.md`, `Index.md`, `01_Research/README.md`, the source notes, the interview notes, the survey results, the ideation files, the specifications and `01_research.html`.
+- **Change:** Top-level folders now `00_Intro`, `01_Research`, `02_Analysis`, `03_Ideation`, `04_Specifications`. `AGENTS.md`: repository layout and the scope of the index include `02_Analysis/`; instruction 37 says Analysis was moved out. `Index.md`: groups renamed and ordered, and `02_Analysis/` added to its scope. The README of `01_Research/` points to `../02_Analysis/`. Not changed: the old log lines of `03_progress.md`, the transcripts and the prompts.
+- **Why:** Marco asked to move Analysis out of Research with the number 02, and to raise Ideation and Specifications by one; reason not stated.
+
 ## 2026-11-02 23:38
 
 - **Files:** `02_Ideation/07_Specifications/` moved to `03_Specifications/` (all 20 files); paths and links updated in the specifications, `Spec_instructions.md`, `02_Ideation/README.md`, `02_Ideation/06_Chosen_concept.md`, `Index.md` and `AGENTS.md`.

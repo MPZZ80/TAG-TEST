@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:38
+date: 2026-11-02 23:42
 method: generated
 status: draft
 grade: n/a
@@ -10,7 +10,7 @@ tags: [research, internal, synthesis]
 
 # Index
 
-One line per Markdown file of the `01_Research/`, `02_Ideation/` and `03_Specifications/` folders, grouped by folder and ordered by the date in the metadata block, oldest first. Format: `filename — [tags · status · grade · confidence]`. The tags are in the order phase, origin (the activity: `desk`, `interview` or `internal`), type, topics; see section 8 of `00_Intro/Metadata/metadata_schema.md`. `unknown` means the field, or the whole metadata block, is missing.
+One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/` and `04_Specifications/` folders, grouped by folder and ordered by the date in the metadata block, oldest first. Format: `filename — [tags · status · grade · confidence]`. The tags are in the order phase, origin (the activity: `desk`, `interview` or `internal`), type, topics; see section 8 of `00_Intro/Metadata/metadata_schema.md`. `unknown` means the field, or the whole metadata block, is missing.
 
 ## 01_Research/01_Questions
 
@@ -194,21 +194,21 @@ One line per Markdown file of the `01_Research/`, `02_Ideation/` and `03_Specifi
 - 01_survey_it.md — [research, internal, script · draft · n/a · n/a]
 - 01_survey_nl.md — [research, internal, script · draft · n/a · n/a]
 
-## 01_Research/06_Analysis
+## 02_Analysis
 
 - 05_Human_Touchpoints(not_complete).md — [unknown · unknown · unknown · unknown]
 - 02_Generated_Touchpoints.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 - 03_Generated_Features.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 - 04_Generated_User_Stories.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 
-## 01_Research/06_Analysis/Prompts
+## 02_Analysis/Prompts
 
 - 01_Generated_Research_Report_Prompt.md — [unknown · unknown · unknown · unknown]
 - 02_Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
 - 03_Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
 - 04_Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
 
-## 02_Ideation
+## 03_Ideation
 
 - 01_How_might_we.md — [design, internal, output, information, disruption · draft · n/a · n/a]
 - 02_Human_Ideas.md — [unknown · unknown · unknown · unknown]
@@ -217,7 +217,7 @@ One line per Markdown file of the `01_Research/`, `02_Ideation/` and `03_Specifi
 - 05_Ideas_prioritization.md — [design, internal, output, information, disruption · draft · n/a · n/a]
 - 06_Chosen_concept.md — [design, internal, output, information, disruption · draft · n/a · n/a]
 
-## 02_Ideation/_old
+## 03_Ideation/_old
 
 - How_might_we.md — [unknown · unknown · unknown · unknown]
 - Human+AI_Ideas.md — [design, internal, synthesis, information · draft · n/a · n/a]
@@ -225,7 +225,7 @@ One line per Markdown file of the `01_Research/`, `02_Ideation/` and `03_Specifi
 - Ideas_prioritization.md — [design, internal, output, information · draft · n/a · n/a]
 - Chosen_concept.md — [design, internal, output, information, disruption · draft · n/a · low]
 
-## 02_Ideation/Prompts
+## 03_Ideation/Prompts
 
 - prompt-01-hmw.md — [unknown · unknown · unknown · unknown]
 - prompt-03-ideation.md — [unknown · unknown · unknown · unknown]
@@ -233,7 +233,7 @@ One line per Markdown file of the `01_Research/`, `02_Ideation/` and `03_Specifi
 - prompt-05-prioritisation.md — [unknown · unknown · unknown · unknown]
 - prompt-06-concept.md — [unknown · unknown · unknown · unknown]
 
-## 03_Specifications
+## 04_Specifications
 
 - Spec_instructions.md — [design, internal, rules · draft · n/a · n/a]
 - SPEC-00_overview.md — [design, internal, output, information, disruption, planning · draft · n/a · n/a]

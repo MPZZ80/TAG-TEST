@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: B
@@ -61,4 +61,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A1, A6 and A7 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares a source landscape with [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](GR-027_orr_2026_annual-rail-consumer-report-2025-26.md) and [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](GR-028_orr_2025_annual-rail-consumer-report-2024-25.md): the British rail regulator's monitoring of information, complaints and compensation.
 - Shares the pain point `refunds` with [GR-003_art_2025_relazione-annuale.md](GR-003_art_2025_relazione-annuale.md), [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [GR-051_transport-focus_2026_rail-customer-experience-survey.md](GR-051_transport-focus_2026_rail-customer-experience-survey.md), [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md) and [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md): complaints, refunds and compensation after a delay.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

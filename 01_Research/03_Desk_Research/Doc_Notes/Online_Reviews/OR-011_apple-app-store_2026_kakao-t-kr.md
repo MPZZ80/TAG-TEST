@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: C
@@ -65,4 +65,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A4 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares a source landscape with [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md) and [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md): mobility platforms in South Korea.
 - [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md) describes the product these reviews are about.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

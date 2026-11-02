@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: C
@@ -69,4 +69,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Shares the pain point `ticket-carryover` with [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [AP-015_mcilroy_2023_this-where-public-transport.md](../Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md), [GR-003_art_2025_relazione-annuale.md](../Global_Reports/GR-003_art_2025_relazione-annuale.md), [GR-006_european-commission_2026_swd-300-impact-assessment.md](../Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md), [GR-007_european-commission_2026_com-231-multimodal-booking.md](../Global_Reports/GR-007_european-commission_2026_com-231-multimodal-booking.md) and [GR-020_european-commission_2026_com-232-rail-ticketing.md](../Global_Reports/GR-020_european-commission_2026_com-232-rail-ticketing.md): tickets, passes and rights that do not carry over between services.
 - Shares the pain point `refunds` with [GR-003_art_2025_relazione-annuale.md](../Global_Reports/GR-003_art_2025_relazione-annuale.md), [GR-027_orr_2026_annual-rail-consumer-report-2025-26.md](../Global_Reports/GR-027_orr_2026_annual-rail-consumer-report-2025-26.md), [GR-028_orr_2025_annual-rail-consumer-report-2024-25.md](../Global_Reports/GR-028_orr_2025_annual-rail-consumer-report-2024-25.md), [GR-053_orr_2025_complaints-delay-compensation-2024-25.md](../Global_Reports/GR-053_orr_2025_complaints-delay-compensation-2024-25.md), [GR-051_transport-focus_2026_rail-customer-experience-survey.md](../Global_Reports/GR-051_transport-focus_2026_rail-customer-experience-survey.md), [OR-006_apple-app-store_2026_flixbus-it.md](OR-006_apple-app-store_2026_flixbus-it.md) and [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md): complaints, refunds and compensation after a delay.
 - [PR-005_trainline_2026_trainline.md](../Products/PR-005_trainline_2026_trainline.md) describes the product these reviews are about.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

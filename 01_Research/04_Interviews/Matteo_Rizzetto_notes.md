@@ -1,6 +1,6 @@
 ---
 source: participant
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: interview
 status: draft
 grade: n/a
@@ -158,4 +158,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Shares a pain point with [OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md](../03_Desk_Research/Doc_Notes/Online_Forums/OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md), [OR-015_apple-app-store_2026_9292-nl.md](../03_Desk_Research/Doc_Notes/Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](../03_Desk_Research/Doc_Notes/Global_Reports/GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-055_gtfs-de_nd_realtime-data-germany.md](../03_Desk_Research/Doc_Notes/Global_Reports/GR-055_gtfs-de_nd_realtime-data-germany.md) and [GR-006_european-commission_2026_swd-300-impact-assessment.md](../03_Desk_Research/Doc_Notes/Global_Reports/GR-006_european-commission_2026_swd-300-impact-assessment.md): who holds and publishes the live data.
 - Shares the pain point `workarounds` with [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../03_Desk_Research/Doc_Notes/Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [AP-015_mcilroy_2023_this-where-public-transport.md](../03_Desk_Research/Doc_Notes/Academic_Papers/AP-015_mcilroy_2023_this-where-public-transport.md), [Marco_Palermo_notes.md](Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](Valentina_Di_Floriano_notes.md): personal rules, buffers and fallbacks of experienced travellers.
 - **Contradiction** with [Marco_Palermo_notes.md](Marco_Palermo_notes.md) on whether a timely warning about delays and cancellations exists: in Marco_Palermo_notes.md the participant says there is no timely way to be told and one has to go and look; in this note the participant describes a friend who receives notifications from the operator's app about his line, set for his office days and timed for his way to the station. Both statements are kept; they may concern different operators.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../02_Analysis/02_Generated_Touchpoints.md).

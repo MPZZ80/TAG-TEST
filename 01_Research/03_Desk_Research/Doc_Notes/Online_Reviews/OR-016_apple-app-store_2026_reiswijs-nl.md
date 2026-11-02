@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: C
@@ -59,4 +59,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A4 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - [PR-016_toertje_2026_reiswijs.md](../Products/PR-016_toertje_2026_reiswijs.md) describes the product these reviews are about.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

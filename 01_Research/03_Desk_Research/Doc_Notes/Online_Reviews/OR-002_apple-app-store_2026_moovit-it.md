@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: C
@@ -63,4 +63,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A4 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares the pain point `late-info` with [OR-003_apple-app-store_2026_citymapper-gb.md](OR-003_apple-app-store_2026_citymapper-gb.md), [OR-004_apple-app-store_2026_transit-us.md](OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](OR-007_apple-app-store_2026_db-navigator-de.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-010_apple-app-store_2026_italo-it.md](OR-010_apple-app-store_2026_italo-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OR-015_apple-app-store_2026_9292-nl.md](OR-015_apple-app-store_2026_9292-nl.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](../Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md) and [Marco_Palermo_notes.md](../../../04_Interviews/Marco_Palermo_notes.md): delay or arrival information that is late or wrong.
 - [PR-002_moovit_2026_moovit.md](../Products/PR-002_moovit_2026_moovit.md) describes the product these reviews are about.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

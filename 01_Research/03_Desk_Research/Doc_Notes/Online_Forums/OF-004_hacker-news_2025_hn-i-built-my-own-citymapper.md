@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: C
@@ -57,4 +57,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A5 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares a source landscape with [AR-005_techcrunch_2023_via-acquires-citymapper.md](../Articles/AR-005_techcrunch_2023_via-acquires-citymapper.md), [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](OF-003_hacker-news_2023_hn-citymapper-joins-via.md), [PR-003_citymapper_2026_citymapper.md](../Products/PR-003_citymapper_2026_citymapper.md) and [OR-003_apple-app-store_2026_citymapper-gb.md](../Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md): Citymapper and its sale.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).

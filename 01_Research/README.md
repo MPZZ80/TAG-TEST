@@ -20,7 +20,8 @@ Everything about the research: the plan, the working rules, the state of the wor
 | `03_Desk_Research/docs_md/` | Text copies in Markdown of the documents and web pages, by category. Not in Git |
 | `04_Interviews/` | The interview script, recordings, automatic transcripts and one notes file per interview; start from its `README.md` |
 | `05_Survey/` | The commuter survey in six languages, where to post it, the script that builds the forms, the answers and the results; start from its `README.md` |
-| `06_Analysis/` | Touchpoints, features and user stories built on the notes, the research web page and their prompts; see its `README.md` |
+
+The analyses built on the research (touchpoints, features, user stories) are in `../02_Analysis/`, outside this folder.
 
 `desk_research_partial_analysis.md`, which this guide used to list, is no longer in the repository.
 

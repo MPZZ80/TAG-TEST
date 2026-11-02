@@ -1,6 +1,6 @@
 ---
 source: external
-date: 2026-11-02 23:29
+date: 2026-11-02 23:42
 method: review
 status: draft
 grade: B
@@ -70,4 +70,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A1, A6 and A7 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares a source landscape with [AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md](../Articles/AR-008_corriere-comunicazioni_2026_maas-for-italy-white-paper.md) and [GR-050_mit_2026_maas-for-italy-white-paper.md](GR-050_mit_2026_maas-for-italy-white-paper.md): the MaaS for Italy programme.
 - Shares a source landscape with [GR-019_istat_2014_commuting-matrices-2011.md](GR-019_istat_2014_commuting-matrices-2011.md), [GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md](GR-023_istat_2020_spostamenti-sul-territorio-prima-del-covid.md), [GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md](GR-024_istat_2018_spostamenti-quotidiani-e-nuove-forme-di-mobilita.md), [GR-025_istat_2024_la-mobilita-territoriale.md](GR-025_istat_2024_la-mobilita-territoriale.md), [GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md](GR-026_istat_2025_matrici-contiguita-distanza-pendolarismo.md) and [GR-017_ipsos-europ-assistance_2025_mobility-barometer.md](GR-017_ipsos-europ-assistance_2025_mobility-barometer.md): Italian statistics on commuting and daily travel.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).
