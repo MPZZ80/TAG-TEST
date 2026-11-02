@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [TP-045_checking-traffic-app-before.md, TP-078_following-navigation-app
 
 # F-14b: [value not traced] The state of the usual drive, with known works (split from F-14)
 
-One row of [03_Generated_Features.md](../03_Generated_Features.md), where the impact, the strength rule and the dropped features are explained.
+One row of [00_Features_index.md](00_Features_index.md), where the impact, the strength rule and the dropped features are explained.
 
 | | |
 | --- | --- |
@@ -19,7 +19,7 @@ One row of [03_Generated_Features.md](../03_Generated_Features.md), where the im
 | **Evidence** | weak |
 | **Impact** | Low · 3 |
 | **Touchpoints it answers** | [TP-045](../01_Touchpoints/TP-045_checking-traffic-app-before.md), [TP-078](../01_Touchpoints/TP-078_following-navigation-app-changes.md), [TP-108](../01_Touchpoints/TP-108_car-commuter-meets-traffic.md) |
-| **User story** | none: value not traced; see "Features sent back" in [04_Generated_User_Stories.md](../04_Generated_User_Stories.md) |
+| **User story** | none: value not traced; see "Features sent back" in [00_User_Stories_index.md](../03_User_Stories/00_User_Stories_index.md) |
 
 ## Evidence (note + quote)
 

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: []
 
 # TP-047: Taking the bike instead of the car at the last moment, for points
 
-One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
+One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
 
 | | |
 | --- | --- |
@@ -19,7 +19,7 @@ One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where 
 | **Phase** | before departure |
 | **Mode** | multiple |
 | **When exactly it happens** | When about to leave; it sets the means of the day |
-| **Answered by** | no feature; see "Dropped" in [03_Generated_Features.md](../03_Generated_Features.md): Points for choosing the bike over the car (The same reviewer says cost decides in the end ('6,- per dag'); the evidence is one review of a regional app) |
+| **Answered by** | no feature; see "Dropped" in [00_Features_index.md](../02_Features/00_Features_index.md): Points for choosing the bike over the car (The same reviewer says cost decides in the end ('6,- per dag'); the evidence is one review of a regional app) |
 
 ## Notes and quotes
 

@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-03 00:09
+
+- **Files:** `02_Analysis/02_Generated_Touchpoints.md` moved to `02_Analysis/01_Touchpoints/00_Touchpoints_index.md`, `03_Generated_Features.md` to `02_Features/00_Features_index.md`, `04_Generated_User_Stories.md` to `03_User_Stories/00_User_Stories_index.md`; `01_research.html` renamed `04_research.html`; the prompts in `02_Analysis/Prompts/` renumbered to match (`01_Generated_Touchpoint_Prompt.md`, `02_Generated_Features_Prompt.md`, `03_Generated_User_Stories_Prompt.md`, `04_Generated_Research_Report_Prompt.md`). Links and `related` names updated in every file that names them, including the 159 item files, the specifications, `03_Ideation/`, the research notes, `Index.md`, `AGENTS.md` and the READMEs of `02_Analysis/` and its folders.
+- **Change:** Each index sits at the top of the folder of its items, so that no number in `02_Analysis/` means two things. `Index.md` lists each index first in its folder's group. The READMEs point to the index first.
+- **Why:** Marco chose option 2 of three: put each index inside its folder; the numbers 01–03 in `02_Analysis/` were used both by the tables and by the folders.
+
 ## 2026-11-03 00:06
 
 - **Files:** `02_Analysis/README.md`

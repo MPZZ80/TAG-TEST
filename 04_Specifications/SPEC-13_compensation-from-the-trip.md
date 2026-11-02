@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, tools, refunds]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-16_compensation-claim-started-delayed.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-16_compensation-claim-started-delayed.md]
 ---
 
 # SPEC-13: Compensation Claimed From the Trip
@@ -80,6 +80,6 @@ After a trip with a delay, the product says on arrival what may be owed for it (
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: The things it deals with (trip, run, ticket); States (run, trip); Sources of information; Rules that hold everywhere.
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (Operating logic), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-16.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-16.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-07, FAM-26, FAM-14.
 - [US-F-16_compensation-claim-started-delayed.md](../02_Analysis/03_User_Stories/US-F-16_compensation-claim-started-delayed.md): the user stories this specification serves, one file each.

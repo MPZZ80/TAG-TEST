@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-18_parking-works-paying-leaving.md, SPEC-17_sessions-still-running.m
 
 # Story F-18
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As an Italian driver (desk persona), leaving the car for the day on street parking paid in an app, I want to pay, end and leave the parking without delay and be reminded that a session is still running, so that I do not pay for eight or ten hours by forgetting it.
 

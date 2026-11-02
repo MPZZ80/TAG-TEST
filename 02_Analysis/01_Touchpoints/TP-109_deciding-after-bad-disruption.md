@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: []
 
 # TP-109: Deciding, after a bad disruption, to drive next time or to leave rail
 
-One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
+One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
 
 | | |
 | --- | --- |
@@ -19,7 +19,7 @@ One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where 
 | **Phase** | disruption |
 | **Mode** | multiple |
 | **When exactly it happens** | After the disrupted trip; it affects the next choice of means |
-| **Answered by** | no feature; see "Dropped" in [03_Generated_Features.md](../03_Generated_Features.md): Keeping people on rail after a bad disruption (The moment is a decision taken after the fact; what the quotes blame (late information, no alternative, the service) is answered upstream by F-01, F-02 and F-03, and a feature aimed at the decision itself would be invented) |
+| **Answered by** | no feature; see "Dropped" in [00_Features_index.md](../02_Features/00_Features_index.md): Keeping people on rail after a bad disruption (The moment is a decision taken after the fact; what the quotes blame (late information, no alternative, the service) is answered upstream by F-01, F-02 and F-03, and a feature aimed at the decision itself would be invented) |
 
 ## Notes and quotes
 

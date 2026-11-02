@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, why-now, hybrid-work]
-related: [SPEC-01_foundation.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-12_ticket-fits-days-travelled.md]
+related: [SPEC-01_foundation.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-12_ticket-fits-days-travelled.md]
 ---
 
 # SPEC-12: The Fare That Fits the Days
@@ -76,6 +76,6 @@ The product counts the days the commuter really travels (C15-10) and says which 
 
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 3, 6; The user (days of travel); The things it deals with (usual trip, trip, ticket).
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (Out of scope), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-12.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-12.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-27, FAM-03.
 - [US-F-12_ticket-fits-days-travelled.md](../02_Analysis/03_User_Stories/US-F-12_ticket-fits-days-travelled.md): the user stories this specification serves, one file each.

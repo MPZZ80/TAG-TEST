@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-16_compensation-claim-started-delayed.md, SPEC-13_compensation-from-
 
 # Story F-16
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As a British traveller (desk persona), after a delay on a ticket bought through a ticket seller, I want to start the compensation claim from the delayed trip itself, wherever the ticket was bought, so that the compensation does not depend on going to the train company.
 

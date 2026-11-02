@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-06_whether-connection-still-holds.md]
 
 # TP-057: Giving up public transport to the station because the connections do not hold
 
-One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
+One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
 
 | | |
 | --- | --- |

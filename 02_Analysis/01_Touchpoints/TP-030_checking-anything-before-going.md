@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: []
 
 # TP-030: Not checking anything before going to the station
 
-One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
+One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
 
 | | |
 | --- | --- |
@@ -19,7 +19,7 @@ One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where 
 | **Phase** | before departure |
 | **Mode** | public transport |
 | **When exactly it happens** | Before leaving home, when a check on the phone was possible |
-| **Answered by** | no feature; see "Dropped" in [03_Generated_Features.md](../03_Generated_Features.md): A prompt to check the train before leaving (The reasons given (a margin, routine, letting events guide, fatalism) are reasons not to check, and 8 of 17 Belgian respondents do not want alerts. F-03 answers those who want to be told, not these) |
+| **Answered by** | no feature; see "Dropped" in [00_Features_index.md](../02_Features/00_Features_index.md): A prompt to check the train before leaving (The reasons given (a margin, routine, letting events guide, fatalism) are reasons not to check, and 8 of 17 Belgian respondents do not want alerts. F-03 answers those who want to be told, not these) |
 
 ## Notes and quotes
 

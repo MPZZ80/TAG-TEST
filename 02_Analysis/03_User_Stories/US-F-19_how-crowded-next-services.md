@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-19_how-crowded-next-services.md, SPEC-03_travellers-report.md, SPEC-
 
 # Story F-19
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As the outskirts hybrid worker, at her station when her train is cancelled and the only other train is the packed one to Cadorna, I want to know how full the next services are expected to be, so that she can choose between waiting and a train where "you never get a seat".
 

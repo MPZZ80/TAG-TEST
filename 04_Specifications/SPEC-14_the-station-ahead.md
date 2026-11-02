@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-17_sessions-still-running.md, US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-20_step-free-lit-way.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, 00_User_Stories_index.md, 06_Chosen_concept.md, SPEC-17_sessions-still-running.md, US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-20_step-free-lit-way.md]
 ---
 
 # SPEC-14: The Station Ahead
@@ -84,7 +84,7 @@ For each station or stop on the commuter's trip, the product knows the state of 
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 2, 6; The user (needs); The things it deals with (place); Sources of information; Channels; Rules that hold everywhere.
 - [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-15, F-17a, F-20.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-15, F-17a, F-20.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-03, FAM-08, FAM-26, FAM-15, FAM-01, FAM-10.
 - [SPEC-17_sessions-still-running.md](SPEC-17_sessions-still-running.md): the specifications that name this one where their behaviours meet.
 - [US-F-15_parking-bike-space-station.md](../02_Analysis/03_User_Stories/US-F-15_parking-bike-space-station.md), [US-F-17a_staffed-station-lit-walk.md](../02_Analysis/03_User_Stories/US-F-17a_staffed-station-lit-walk.md), [US-F-20_step-free-lit-way.md](../02_Analysis/03_User_Stories/US-F-20_step-free-lit-way.md): the user stories this specification serves, one file each.

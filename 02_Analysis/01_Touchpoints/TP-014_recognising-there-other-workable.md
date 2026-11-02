@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: []
 
 # TP-014: Recognising that there is no other workable way to make the trip
 
-One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
+One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
 
 | | |
 | --- | --- |
@@ -19,7 +19,7 @@ One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where 
 | **Phase** | planning |
 | **Mode** | multiple |
 | **When exactly it happens** | When thinking about the trip; it limits the choice of means |
-| **Answered by** | no feature; see "Dropped" in [03_Generated_Features.md](../03_Generated_Features.md): Showing other means where there is "no other way" (The quotes say the alternatives do not exist or are too inconvenient; a feature would imagine a choice the data says is absent) |
+| **Answered by** | no feature; see "Dropped" in [00_Features_index.md](../02_Features/00_Features_index.md): Showing other means where there is "no other way" (The quotes say the alternatives do not exist or are too inconvenient; a feature would imagine a choice the data says is absent) |
 
 ## Notes and quotes
 

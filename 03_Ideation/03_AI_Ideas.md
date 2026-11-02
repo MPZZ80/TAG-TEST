@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-03 00:09
 method: generated
 status: draft
 grade: n/a
@@ -14,7 +14,7 @@ related: [01_How_might_we.md, 04_Human+AI_Ideas.md, 06_Chosen_concept.md]
 Twelve concepts for each of the 27 questions in [01_How_might_we.md](01_How_might_we.md): 324 concepts. The tables follow the superclusters, and the clusters outside them. The concepts widen the range; they are not ranked, compared or recommended.
 
 - **ID:** `C<question>-<number>`, so C01-03 is the third concept for HMW-01.
-- **Evidence:** the questions come from the stories in [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md). The concepts do not; they are new.
+- **Evidence:** the questions come from the stories in [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md). The concepts do not; they are new.
 - **[risky]** marks a concept that leans on an assumption the stories do not support, and says which. There are 43.
 
 ## SC-01: The state of my train

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [05_Ideas_prioritization.md, 04_Human+AI_Ideas.md, 03_AI_Ideas.md, 02_Human_Ideas.md, 01_How_might_we.md, 04_Generated_User_Stories.md, 03_Generated_Features.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md]
+related: [05_Ideas_prioritization.md, 04_Human+AI_Ideas.md, 03_AI_Ideas.md, 02_Human_Ideas.md, 01_How_might_we.md, 00_User_Stories_index.md, 00_Features_index.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md]
 ---
 
 # Chosen Concept: The Whole Commute, Told As It Is
@@ -21,7 +21,7 @@ related: [05_Ideas_prioritization.md, 04_Human+AI_Ideas.md, 03_AI_Ideas.md, 02_H
 
 A service that knows the commuter's usual door to door trip and tells them, and the people who depend on them, how that trip really stands: the delay measured from where the vehicle really is and reported by the travellers on the line, with its source and a time that allows for reality, said as early as it is known and given as one answer to act on. The place itself shows it too. When the trip breaks, every way still open is shown side by side, the fallbacks the commuter settled beforehand come into play, and nothing changes for them without their consent. Travellers carry part of it together, the trip can be bought as one, rules and rights oblige operators to act, and the trip or the habit can change so that the problem does not arise.
 
-It is for the commuters of the stories in [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md), first those of the interviews:
+It is for the commuters of the stories in [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md), first those of the interviews:
 
 - **The Como commuter**, on the platform while the delay on the board grows (F-01): "a 20 inizio a sentire la puzza, a 25 la puzza si fa più forte e aspetto solo che appaia la scritta annullato" (at 20 I begin to smell it, at 25 the smell is stronger and I only wait for the word cancelled to appear).
 - **The single-line commuter**, during the seven minutes he drives to the station, who wants to "wait in the warm car" if the train is late (F-03).
@@ -107,7 +107,7 @@ Every one of the 27 questions of [01_How_might_we.md](01_How_might_we.md) is ans
 
 - **Lead families:** the main families with two or more concepts for that question; "in the background" names a background family with two or more.
 - **Where the background holds most of the answers:** HMW-06, HMW-11, HMW-18, HMW-19, HMW-23, HMW-24 and HMW-25 have more background concepts than main ones; HMW-20 has as many. Their stories are in the concept, but their main answers are thin: see the next section.
-- **Features with no story:** F-14b and F-17b were sent back in `04_Generated_User_Stories.md`, so no question and no family reaches them.
+- **Features with no story:** F-14b and F-17b were sent back in `00_User_Stories_index.md`, so no question and no family reaches them.
 
 ## Where the material is thin
 
@@ -131,6 +131,6 @@ Every one of the 27 questions of [01_How_might_we.md](01_How_might_we.md) is ans
 - [03_AI_Ideas.md](03_AI_Ideas.md): the AI concepts, from whose IDs the questions of each family are read.
 - [02_Human_Ideas.md](02_Human_Ideas.md): Marco's concepts S01 to S06, in FAM-01, FAM-02, FAM-03, FAM-07, FAM-13 and FAM-18.
 - [01_How_might_we.md](01_How_might_we.md): the 27 questions, each with its feature and persona.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the stories behind the questions, and the personas.
-- [03_Generated_Features.md](../02_Analysis/03_Generated_Features.md): the features named in the tables.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the stories behind the questions, and the personas.
+- [00_Features_index.md](../02_Analysis/02_Features/00_Features_index.md): the features named in the tables.
 - [SPEC-00_overview.md](../04_Specifications/SPEC-00_overview.md), [SPEC-01_foundation.md](../04_Specifications/SPEC-01_foundation.md), [SPEC-02_real-state-of-the-run.md](../04_Specifications/SPEC-02_real-state-of-the-run.md), [SPEC-03_travellers-report.md](../04_Specifications/SPEC-03_travellers-report.md), [SPEC-04_alerts-on-the-usual-trip.md](../04_Specifications/SPEC-04_alerts-on-the-usual-trip.md), [SPEC-05_usual-trip-at-a-glance.md](../04_Specifications/SPEC-05_usual-trip-at-a-glance.md), [SPEC-06_ways-out-when-the-trip-breaks.md](../04_Specifications/SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07_those-waiting-are-told.md](../04_Specifications/SPEC-07_those-waiting-are-told.md), [SPEC-08_the-connection-ahead.md](../04_Specifications/SPEC-08_the-connection-ahead.md), [SPEC-09_every-way-side-by-side.md](../04_Specifications/SPEC-09_every-way-side-by-side.md), [SPEC-10_times-that-can-be-kept.md](../04_Specifications/SPEC-10_times-that-can-be-kept.md), [SPEC-11_tickets-that-work-when-needed.md](../04_Specifications/SPEC-11_tickets-that-work-when-needed.md), [SPEC-12_the-fare-that-fits-the-days.md](../04_Specifications/SPEC-12_the-fare-that-fits-the-days.md), [SPEC-13_compensation-from-the-trip.md](../04_Specifications/SPEC-13_compensation-from-the-trip.md), [SPEC-14_the-station-ahead.md](../04_Specifications/SPEC-14_the-station-ahead.md), [SPEC-15_stop-approaching.md](../04_Specifications/SPEC-15_stop-approaching.md), [SPEC-16_the-route-stays-with-the-driver.md](../04_Specifications/SPEC-16_the-route-stays-with-the-driver.md), [SPEC-17_sessions-still-running.md](../04_Specifications/SPEC-17_sessions-still-running.md): the specifications written from this concept.

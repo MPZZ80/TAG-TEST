@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, information, tight-connection, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-10_times-that-can-be-kept.md, US-F-06_whether-connection-still-holds.md, US-F-22_asking-connection-wait.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 00_User_Stories_index.md, 06_Chosen_concept.md, SPEC-10_times-that-can-be-kept.md, US-F-06_whether-connection-still-holds.md, US-F-22_asking-connection-wait.md]
 ---
 
 # SPEC-08: The Connection Ahead
@@ -92,7 +92,7 @@ For a commuter on a run with a change ahead, the product says before the change 
 - [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (Operating logic), where the two behaviours meet.
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-06, F-22.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-06, F-22.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-08, FAM-15, FAM-04, FAM-03, FAM-23.
 - [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): the specifications that name this one where their behaviours meet.
 - [US-F-06_whether-connection-still-holds.md](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md), [US-F-22_asking-connection-wait.md](../02_Analysis/03_User_Stories/US-F-22_asking-connection-wait.md): the user stories this specification serves, one file each.

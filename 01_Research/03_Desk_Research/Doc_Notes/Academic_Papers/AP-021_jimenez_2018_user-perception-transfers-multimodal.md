@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-11-02 23:42
+date: 2026-11-03 00:09
 method: review
 status: draft
 grade: B
 confidence: n/a
 tags: [research, desk, source, mode-choice, tight-connection]
-related: [01_plan.md, AP-001_goransson_2023_factors-that-make-public.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-015_mcilroy_2023_this-where-public-transport.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, 02_Generated_Touchpoints.md]
+related: [01_plan.md, AP-001_goransson_2023_factors-that-make-public.md, AP-008_rahman_2022_first-last-mile-public.md, AP-010_azimi_2020_mode-choice-behavior-access.md, AP-015_mcilroy_2023_this-where-public-transport.md, AP-028_shires_2018_impact-planned-disruptions-rail.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, 00_Touchpoints_index.md]
 ---
 
 # User perception of transfers in multimodal urban trips: A qualitative study
@@ -64,4 +64,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A2 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares the pain point `tight-connection` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-008_rahman_2022_first-last-mile-public.md](AP-008_rahman_2022_first-last-mile-public.md), [AP-010_azimi_2020_mode-choice-behavior-access.md](AP-010_azimi_2020_mode-choice-behavior-access.md), [AP-015_mcilroy_2023_this-where-public-transport.md](AP-015_mcilroy_2023_this-where-public-transport.md), [AP-028_shires_2018_impact-planned-disruptions-rail.md](AP-028_shires_2018_impact-planned-disruptions-rail.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md) and [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md): changes between services: tight, broken or costly connections.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [00_Touchpoints_index.md](../../../../02_Analysis/01_Touchpoints/00_Touchpoints_index.md).

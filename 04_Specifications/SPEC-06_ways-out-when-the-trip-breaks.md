@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, mode-choice, no-alternative, crowding, unreliable-service]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, SPEC-09_every-way-side-by-side.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-08_the-connection-ahead.md, SPEC-11_tickets-that-work-when-needed.md, US-F-02_ways-still-open-trip.md, US-F-19_how-crowded-next-services.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-07_those-waiting-are-told.md, SPEC-09_every-way-side-by-side.md, 00_User_Stories_index.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-08_the-connection-ahead.md, SPEC-11_tickets-that-work-when-needed.md, US-F-02_ways-still-open-trip.md, US-F-19_how-crowded-next-services.md]
 ---
 
 # SPEC-06: Ways Out When the Trip Breaks
@@ -98,7 +98,7 @@ When the trip breaks (a run is cancelled, a connection is lost, a bus does not c
 - [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (User stories served, Operating logic), where the two behaviours meet.
 - [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-09_every-way-side-by-side.md](SPEC-09_every-way-side-by-side.md): named in this specification (Out of scope), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-02, F-19.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-02, F-19.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-16, FAM-03, FAM-15, FAM-10, FAM-05.
 - [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S06.
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md), [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): the specifications that name this one where their behaviours meet.

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-11_usual-trip-glance.md, SPEC-05_usual-trip-at-a-glance.md]
 
 # Story F-11
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As a Dutch rail commuter (desk persona), on the way out of the door in the morning, I want the app to open on my usual trip with its state and its platforms, the change included, without searching, so that I know which platform to go to with no extra step.
 

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, planning]
-related: [Spec_instructions.md, 06_Chosen_concept.md, 04_Generated_User_Stories.md, 03_Generated_Features.md, 02_Generated_Touchpoints.md, 01_How_might_we.md, 04_Human+AI_Ideas.md, 05_Ideas_prioritization.md, SPEC-01_foundation.md]
+related: [Spec_instructions.md, 06_Chosen_concept.md, 00_User_Stories_index.md, 00_Features_index.md, 00_Touchpoints_index.md, 01_How_might_we.md, 04_Human+AI_Ideas.md, 05_Ideas_prioritization.md, SPEC-01_foundation.md]
 ---
 
 # Specifications: Overview
@@ -19,9 +19,9 @@ Read [SPEC-01_foundation.md](SPEC-01_foundation.md) first: it is the ground ever
 
 | ID | What it is | File |
 | --- | --- | --- |
-| `F-…` · persona | User stories, one per feature, named by their feature and persona: the base of the specifications | [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md) |
-| `F-…` | Features, with the touchpoints they answer | [03_Generated_Features.md](../02_Analysis/03_Generated_Features.md) |
-| `TP-…` | Touchpoints: moments of the commute, with their quotes | [02_Generated_Touchpoints.md](../02_Analysis/02_Generated_Touchpoints.md) |
+| `F-…` · persona | User stories, one per feature, named by their feature and persona: the base of the specifications | [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md) |
+| `F-…` | Features, with the touchpoints they answer | [00_Features_index.md](../02_Analysis/02_Features/00_Features_index.md) |
+| `TP-…` | Touchpoints: moments of the commute, with their quotes | [00_Touchpoints_index.md](../02_Analysis/01_Touchpoints/00_Touchpoints_index.md) |
 | `HMW-…` | How-Might-We questions, each with its feature and persona | [01_How_might_we.md](../03_Ideation/01_How_might_we.md) |
 | `S0…` | Marco's concepts | [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md) |
 | `C…-…` | AI concepts; `C05-03` is the third concept for HMW-05 | [03_AI_Ideas.md](../03_Ideation/03_AI_Ideas.md) |
@@ -100,7 +100,7 @@ Every story is also served by [SPEC-01](SPEC-01_foundation.md).
 ## Not specified
 
 - **Stories:** none.
-- **Features with no story:** F-14b and F-17b were sent back in [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md), so they have no specification.
+- **Features with no story:** F-14b and F-17b were sent back in [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md), so they have no specification.
 - **Concepts left out of every specification,** because they need an operator, an employer or a rule to change, not the product: most of FAM-12, FAM-22, FAM-23, FAM-24 (background) and FAM-25 (main), and FAM-11 where it needs the place itself to show the information. Each specification names those it leaves out under "Out of scope".
 - **Unclassified concepts** C21-10 and C22-08: not part of the chosen concept.
 
@@ -130,9 +130,9 @@ Every story is also served by [SPEC-01](SPEC-01_foundation.md).
 
 - [Spec_instructions.md](Spec_instructions.md): the instructions these specifications were written with.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept, whose families the specifications draw on.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the 24 user stories; every behaviour specification serves some of them, and the foundation holds what they share.
-- [03_Generated_Features.md](../02_Analysis/03_Generated_Features.md): the features the specifications trace to.
-- [02_Generated_Touchpoints.md](../02_Analysis/02_Generated_Touchpoints.md): the touchpoints the specifications trace to.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the 24 user stories; every behaviour specification serves some of them, and the foundation holds what they share.
+- [00_Features_index.md](../02_Analysis/02_Features/00_Features_index.md): the features the specifications trace to.
+- [00_Touchpoints_index.md](../02_Analysis/01_Touchpoints/00_Touchpoints_index.md): the touchpoints the specifications trace to.
 - [01_How_might_we.md](../03_Ideation/01_How_might_we.md): the problem questions the specifications trace to.
 - [04_Human+AI_Ideas.md](../03_Ideation/04_Human+AI_Ideas.md): the families and their concepts, by which the specifications are traced.
 - [05_Ideas_prioritization.md](../03_Ideation/05_Ideas_prioritization.md): the marks quoted in the traceability.

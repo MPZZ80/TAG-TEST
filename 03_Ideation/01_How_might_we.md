@@ -1,17 +1,17 @@
 ---
 source: Claude
-date: 2026-11-02 23:52
+date: 2026-11-03 00:09
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [04_Generated_User_Stories.md, 03_AI_Ideas.md, 04_Human+AI_Ideas.md, 06_Chosen_concept.md, SPEC-00_overview.md, SPEC-02_real-state-of-the-run.md]
+related: [00_User_Stories_index.md, 03_AI_Ideas.md, 04_Human+AI_Ideas.md, 06_Chosen_concept.md, SPEC-00_overview.md, SPEC-02_real-state-of-the-run.md]
 ---
 
 # How Might We: Questions from the User Stories
 
-One question for each of the 24 stories in [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md), and one more at a different width for the three stories with the strongest evidence: 27 questions. Nothing is filtered or ranked; choosing is Marco's.
+One question for each of the 24 stories in [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md), and one more at a different width for the three stories with the strongest evidence: 27 questions. Nothing is filtered or ranked; choosing is Marco's.
 
 - **Strongest evidence:** F-01, F-02 and F-04, the only stories marked both [strong] and High.
 - **Width:** [narrow] fewer than three concepts could answer it; [calibrated] three or more, and each can be traced to the story; [wide] it asks beyond what the story's capability covers, so a concept could be hard to trace.
@@ -59,7 +59,7 @@ None was left out: every story has a question, because the brief for this file s
 - **F-17a (HMW-20):** the source line shows fear at night and a dark walk, but no outcome the person says they seek. "Not a moment of fear" is the absence of the problem.
 - **F-22 (HMW-25):** "so that the connection waits" is close to a mechanism, not an outcome. Why the connection matters to him is not stated in the story.
 
-One part left out on purpose: the cost in F-02. [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md) records that it has no traced value of its own, so HMW-03 does not ask about it.
+One part left out on purpose: the cost in F-02. [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md) records that it has no traced value of its own, so HMW-03 does not ask about it.
 
 ## Compared with Marco's drafts
 
@@ -102,7 +102,7 @@ Marco's grouping of the clusters. The names are proposals. CL-06, CL-07, CL-08 a
 
 ## Connections
 
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md) holds the 24 stories behind these questions, with the source line of each quote.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md) holds the 24 stories behind these questions, with the source line of each quote.
 - [03_AI_Ideas.md](03_AI_Ideas.md) holds the concepts proposed for these questions.
 - [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md) says which of these questions Marco's concepts answer.
 - [06_Chosen_concept.md](06_Chosen_concept.md): the chosen concept, which lists for each family the questions it answers.

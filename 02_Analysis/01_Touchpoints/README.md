@@ -1,9 +1,10 @@
 # Touchpoints
 
-One file per touchpoint, listed in the index [`../02_Generated_Touchpoints.md`](../02_Generated_Touchpoints.md), which also keeps the types, phases, contradictions, coverage gaps and counts. Each file holds its row: type, phase, mode, when it happens, the notes and quotes, and the features that answer it.
+One file per touchpoint, listed in the index [`00_Touchpoints_index.md`](00_Touchpoints_index.md), which also keeps the types, phases, contradictions, coverage gaps and counts. Each file holds its row: type, phase, mode, when it happens, the notes and quotes, and the features that answer it.
 
 | File | Touchpoint |
 | --- | --- |
+| `00_Touchpoints_index.md` | The index of all touchpoints: read it first |
 | `TP-001_deciding-travel-evening-before.md` | Deciding to travel the evening before the office day |
 | `TP-002_deciding-days-go-office.md` | Deciding which days to go to the office |
 | `TP-003_working-home-some-days.md` | Working from home on some days to avoid a long commute |
@@ -115,4 +116,4 @@ One file per touchpoint, listed in the index [`../02_Generated_Touchpoints.md`](
 | `TP-109_deciding-after-bad-disruption.md` | Deciding, after a bad disruption, to drive next time or to leave rail |
 
 - Find an item by its ID in the file name; open the source table for the rules and the overall picture.
-- These files hold the content: the quotes, the evidence and the full text live only here. The source table is the index; when an item changes, update its file and, if its short row changes, the row in the table.
+- These files hold the content: the quotes, the evidence and the full text live only here. The index is `00_Touchpoints_index.md`; when an item changes, update its file and, if its short row changes, the row in the table.

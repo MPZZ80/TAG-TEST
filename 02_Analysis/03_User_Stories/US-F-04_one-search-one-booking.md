@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-04_one-search-one-booking.md, SPEC-09_every-way-side-by-side.md, SPE
 
 # Story F-04
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As the Verona–Milan commuter, booking three or four days ahead and finding the train he wanted sold out, I want every way to make the trip door to door shown with its time and price, and booked as one journey, so that he still finds a train at the time he wants.
 

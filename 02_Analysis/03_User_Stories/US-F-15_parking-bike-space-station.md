@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-15_parking-bike-space-station.md, SPEC-03_travellers-report.md, SPEC
 
 # Story F-15
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As a woman driving to the station (desk persona), before leaving home for the 8:17 train she takes because she starts later, I want to know whether there is a parking space or a safe bike place at the station and what it costs, so that she does not have to go back to leaving earlier.
 

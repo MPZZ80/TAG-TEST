@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: []
 
 # TP-079: Sitting in traffic, with nothing else to do
 
-One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
+One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
 
 | | |
 | --- | --- |
@@ -19,7 +19,7 @@ One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where 
 | **Phase** | main leg |
 | **Mode** | private vehicle |
 | **When exactly it happens** | Driving to or from work |
-| **Answered by** | no feature; see "Dropped" in [03_Generated_Features.md](../03_Generated_Features.md): Something to do, or a switch to the train, when stuck in traffic (The quote shows suffering in traffic, not a wish to change means or to be entertained) |
+| **Answered by** | no feature; see "Dropped" in [00_Features_index.md](../02_Features/00_Features_index.md): Something to do, or a switch to the train, when stuck in traffic (The quote shows suffering in traffic, not a wish to change means or to be entertained) |
 
 ## Notes and quotes
 

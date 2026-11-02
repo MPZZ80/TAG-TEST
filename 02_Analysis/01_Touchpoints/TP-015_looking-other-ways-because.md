@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: []
 
 # TP-015: Not looking for other ways because the trip is familiar
 
-One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
+One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, the phases and the rules of the table are explained, with the contradictions and the coverage gaps.
 
 | | |
 | --- | --- |
@@ -19,7 +19,7 @@ One row of [02_Generated_Touchpoints.md](../02_Generated_Touchpoints.md), where 
 | **Phase** | planning |
 | **Mode** | multiple |
 | **When exactly it happens** | When planning a routine trip. Why: habit, familiarity |
-| **Answered by** | no feature; see "Dropped" in [03_Generated_Features.md](../03_Generated_Features.md): Prompting familiar travellers to look at alternatives (The notes give habit and familiarity as the reason; nobody asks to be prompted. F-04 shows options to those who search) |
+| **Answered by** | no feature; see "Dropped" in [00_Features_index.md](../02_Features/00_Features_index.md): Prompting familiar travellers to look at alternatives (The notes give habit and familiarity as the reason; nobody asks to be prompted. F-04 shows options to those who search) |
 
 ## Notes and quotes
 

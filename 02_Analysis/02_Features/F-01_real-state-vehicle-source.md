@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [TP-028_deciding-return-train-day.md, TP-029_checking-live-departures-b
 
 # F-01: The real state of the vehicle, with its source and its reason
 
-One row of [03_Generated_Features.md](../03_Generated_Features.md), where the impact, the strength rule and the dropped features are explained.
+One row of [00_Features_index.md](00_Features_index.md), where the impact, the strength rule and the dropped features are explained.
 
 | | |
 | --- | --- |

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-21_where-shared-vehicle-can.md, SPEC-17_sessions-still-running.md]
 
 # Story F-21
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As a shared-bike rider in South Korea (desk persona), going home from work, at the end of the ride when the return zone is far or the position is wrong, I want to see where the shared bike can be returned near the destination, so that the charge does not keep running after the ride.
 

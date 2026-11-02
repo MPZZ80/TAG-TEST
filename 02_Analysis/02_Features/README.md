@@ -1,9 +1,10 @@
 # Features
 
-One file per feature, listed in the index [`../03_Generated_Features.md`](../03_Generated_Features.md), which also keeps the strength rule, the dropped features, the contradictions and the counts. Each file holds its row: what it does, evidence mark, impact, the touchpoints it answers, the evidence and its user story.
+One file per feature, listed in the index [`00_Features_index.md`](00_Features_index.md), which also keeps the strength rule, the dropped features, the contradictions and the counts. Each file holds its row: what it does, evidence mark, impact, the touchpoints it answers, the evidence and its user story.
 
 | File | Feature |
 | --- | --- |
+| `00_Features_index.md` | The index of all features: read it first |
 | `F-01_real-state-vehicle-source.md` | The real state of the vehicle, with its source and its reason |
 | `F-02_ways-still-open-trip.md` | The ways still open when the trip breaks |
 | `F-03_early-warning-usual-trip.md` | Early warning on the usual trip |
@@ -32,4 +33,4 @@ One file per feature, listed in the index [`../03_Generated_Features.md`](../03_
 | `F-24_travel-information-first-hurry.md` | Travel information first, in a hurry |
 
 - Find an item by its ID in the file name; open the source table for the rules and the overall picture.
-- These files hold the content: the quotes, the evidence and the full text live only here. The source table is the index; when an item changes, update its file and, if its short row changes, the row in the table.
+- These files hold the content: the quotes, the evidence and the full text live only here. The index is `00_Features_index.md`; when an item changes, update its file and, if its short row changes, the row in the table.

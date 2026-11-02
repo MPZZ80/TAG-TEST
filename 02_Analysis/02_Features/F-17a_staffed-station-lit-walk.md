@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [TP-080_walking-last-station-office.md, TP-083_protecting-oneself-way-b
 
 # F-17a: A staffed station and a lit walk at that hour (split from F-17)
 
-One row of [03_Generated_Features.md](../03_Generated_Features.md), where the impact, the strength rule and the dropped features are explained.
+One row of [00_Features_index.md](00_Features_index.md), where the impact, the strength rule and the dropped features are explained.
 
 | | |
 | --- | --- |

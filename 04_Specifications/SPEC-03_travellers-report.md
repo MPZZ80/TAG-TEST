@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, crowding, first-last-mile, workarounds]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, SPEC-10_times-that-can-be-kept.md, SPEC-14_the-station-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-04_alerts-on-the-usual-trip.md, US-F-01_real-state-vehicle-source.md, US-F-02_ways-still-open-trip.md, US-F-06_whether-connection-still-holds.md, US-F-07_trips-planned-commuter-s.md, US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-19_how-crowded-next-services.md, US-F-20_step-free-lit-way.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, SPEC-10_times-that-can-be-kept.md, SPEC-14_the-station-ahead.md, 00_User_Stories_index.md, 06_Chosen_concept.md, SPEC-04_alerts-on-the-usual-trip.md, US-F-01_real-state-vehicle-source.md, US-F-02_ways-still-open-trip.md, US-F-06_whether-connection-still-holds.md, US-F-07_trips-planned-commuter-s.md, US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-19_how-crowded-next-services.md, US-F-20_step-free-lit-way.md]
 ---
 
 # SPEC-03: Travellers Report What They See
@@ -105,7 +105,7 @@ Travellers who are on a run, at a stop, at a change, at a car park or in a stati
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-01, F-02, F-06, F-07, F-15, F-17a, F-19, F-20.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-01, F-02, F-06, F-07, F-15, F-17a, F-19, F-20.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-03.
 - [SPEC-04_alerts-on-the-usual-trip.md](SPEC-04_alerts-on-the-usual-trip.md): the specifications that name this one where their behaviours meet.
 - [US-F-01_real-state-vehicle-source.md](../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md), [US-F-02_ways-still-open-trip.md](../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md), [US-F-06_whether-connection-still-holds.md](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md), [US-F-07_trips-planned-commuter-s.md](../02_Analysis/03_User_Stories/US-F-07_trips-planned-commuter-s.md), [US-F-15_parking-bike-space-station.md](../02_Analysis/03_User_Stories/US-F-15_parking-bike-space-station.md), [US-F-17a_staffed-station-lit-walk.md](../02_Analysis/03_User_Stories/US-F-17a_staffed-station-lit-walk.md), [US-F-19_how-crowded-next-services.md](../02_Analysis/03_User_Stories/US-F-19_how-crowded-next-services.md), [US-F-20_step-free-lit-way.md](../02_Analysis/03_User_Stories/US-F-20_step-free-lit-way.md): the user stories this specification serves, one file each.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, first-last-mile, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-14_the-station-ahead.md, US-F-02_ways-still-open-trip.md, US-F-06_whether-connection-still-holds.md, US-F-09_arrival-shared-whoever-waits.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, 00_User_Stories_index.md, 06_Chosen_concept.md, 02_Human_Ideas.md, SPEC-14_the-station-ahead.md, US-F-02_ways-still-open-trip.md, US-F-06_whether-connection-still-holds.md, US-F-09_arrival-shared-whoever-waits.md]
 ---
 
 # SPEC-07: Those Waiting Are Told
@@ -92,7 +92,7 @@ The commuter adds a contact to a trip, or to the return of their usual trip, and
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (User stories served, When things go wrong, Out of scope), where the two behaviours meet.
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-09, F-06, F-02.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-09, F-06, F-02.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-13, FAM-04, FAM-06, FAM-16.
 - [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S04.
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): the specifications that name this one where their behaviours meet.

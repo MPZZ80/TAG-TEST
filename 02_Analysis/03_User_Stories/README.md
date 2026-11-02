@@ -1,9 +1,10 @@
 # User Stories
 
-One file per user story, listed in the index [`../04_Generated_User_Stories.md`](../04_Generated_User_Stories.md), which also keeps the personas, the features sent back and the splits. Each file holds the story, its source line, its feature and the specifications that serve it.
+One file per user story, listed in the index [`00_User_Stories_index.md`](00_User_Stories_index.md), which also keeps the personas, the features sent back and the splits. Each file holds the story, its source line, its feature and the specifications that serve it.
 
 | File | Story |
 | --- | --- |
+| `00_User_Stories_index.md` | The index of all stories: read it first |
 | `US-F-01_real-state-vehicle-source.md` | Story F-01 |
 | `US-F-02_ways-still-open-trip.md` | Story F-02 |
 | `US-F-03_early-warning-usual-trip.md` | Story F-03 |
@@ -30,4 +31,4 @@ One file per user story, listed in the index [`../04_Generated_User_Stories.md`]
 | `US-F-24_travel-information-first-hurry.md` | Story F-24 |
 
 - Find an item by its ID in the file name; open the source table for the rules and the overall picture.
-- These files hold the content: the quotes, the evidence and the full text live only here. The source table is the index; when an item changes, update its file and, if its short row changes, the row in the table.
+- These files hold the content: the quotes, the evidence and the full text live only here. The index is `00_User_Stories_index.md`; when an item changes, update its file and, if its short row changes, the row in the table.

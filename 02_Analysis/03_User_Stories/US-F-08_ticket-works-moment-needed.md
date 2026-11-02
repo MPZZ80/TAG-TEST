@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-08_ticket-works-moment-needed.md, SPEC-11_tickets-that-work-when-nee
 
 # Story F-08
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As the Verona–Milan commuter, still in the underground five minutes before his train leaves, I want to buy, move and show a valid ticket in one step, up to departure and with no signal, so that he can take another train, or travel another day, without losing the ticket.
 

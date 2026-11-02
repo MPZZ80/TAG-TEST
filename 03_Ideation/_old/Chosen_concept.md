@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:42
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [design, internal, output, information, disruption]
-related: [Ideas_prioritization.md, Human+AI_Ideas.md, AI_Ideas.md, 02_Human_Ideas.md, 04_Generated_User_Stories.md, 03_Generated_Features.md, 02_Generated_Touchpoints.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
+related: [Ideas_prioritization.md, Human+AI_Ideas.md, AI_Ideas.md, 02_Human_Ideas.md, 00_User_Stories_index.md, 00_Features_index.md, 00_Touchpoints_index.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
 ---
 
 # Chosen Concept: The Delay as the Travellers See It
@@ -38,7 +38,7 @@ It acts in these moments:
 
 ## The reduced feature set
 
-Five concepts, as written in [Human+AI_Ideas.md](Human+AI_Ideas.md), not merged and not changed. The touchpoints are those that [03_Generated_Features.md](../../02_Analysis/03_Generated_Features.md) lists under the feature behind each story: F-01 for HMW-01 and F-09 for HMW-02. The marks are those in [Ideas_prioritization.md](Ideas_prioritization.md), shown as valuable / feasible / relevant.
+Five concepts, as written in [Human+AI_Ideas.md](Human+AI_Ideas.md), not merged and not changed. The touchpoints are those that [00_Features_index.md](../../02_Analysis/02_Features/00_Features_index.md) lists under the feature behind each story: F-01 for HMW-01 and F-09 for HMW-02. The marks are those in [Ideas_prioritization.md](Ideas_prioritization.md), shown as valuable / feasible / relevant.
 
 | ID | feature | author | HMW | touchpoint(s) it answers | user story behind it | quotes | marks |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -48,7 +48,7 @@ Five concepts, as written in [Human+AI_Ideas.md](Human+AI_Ideas.md), not merged 
 | C1-07 | Commuters waiting at earlier stations confirm when the train passes them [risky] | AI | HMW-01 | TP-070 waiting on the platform in front of the departure screen; TP-088 watching the delay grow until it becomes a cancellation | F-01 | TP-070, Marco_Palermo_notes: "At the station he has his place on the platform, in front of the monitor that shows the delays."; TP-088, Matteo_Rizzetto_notes: "a 20 inizio a sentire la puzza …" | 2 / 2 / 3 |
 | C1-08 | Passengers already on the late train report where it is and why it stopped [risky] | AI | HMW-01 | TP-088 watching the delay grow until it becomes a cancellation; TP-092 stuck on a stopped or cancelled train while the app shows nothing wrong | F-01 | TP-092, OR-014: 'Ich sitze jetzt wieder mal in der Zuercher S-Bahn fest. Bei meiner Pendelverbindung, die betroffen ist, heisst es alles gruen - fuer morgen' (EN: I am stuck on the Zurich S-Bahn again; for my commuting connection, which is affected, it says all green, for tomorrow) | 3 / 2 / 3 |
 
-The user stories, from [04_Generated_User_Stories.md](../../02_Analysis/04_Generated_User_Stories.md):
+The user stories, from [00_User_Stories_index.md](../../02_Analysis/03_User_Stories/00_User_Stories_index.md):
 
 - **F-01** [strong · High]: As the Como cross-border office-day commuter, standing on the platform watching the delay on the board grow from 5 to 10 to 15 minutes while a third-party app shows another time, I want to see where the train really is, when it will really leave and arrive, why it is late and which source says so, so that he knows as early as an unofficial app would tell him.
 - **F-09** [strong · Medium]: As the Verona–Milan evening-before commuter, on the train back to Verona with his father coming to fetch him at the station, I want to share the train time and the live arrival, with a confirmation of any delay, with the person driving or waiting, so that the person who comes to the station knows when he arrives.
@@ -118,7 +118,7 @@ From [AI_Ideas.md](AI_Ideas.md), with the reasons given there.
 - [Ideas_prioritization.md](Ideas_prioritization.md): the marks of every concept here, and the choice of FAM-01 and FAM-02.
 - [Human+AI_Ideas.md](Human+AI_Ideas.md): the families and the wording of each concept.
 - [AI_Ideas.md](AI_Ideas.md) and [Human_Ideas.md](../02_Human_Ideas.md): the concepts in full, HMW-01 and HMW-02, and the concepts dropped at ideation.
-- [04_Generated_User_Stories.md](../../02_Analysis/04_Generated_User_Stories.md): stories F-01 and F-09.
-- [03_Generated_Features.md](../../02_Analysis/03_Generated_Features.md): features F-01 and F-09 and the touchpoints they answer.
-- [02_Generated_Touchpoints.md](../../02_Analysis/02_Generated_Touchpoints.md): TP-038, TP-070, TP-075, TP-088, TP-089, TP-090, TP-092 and TP-106, with all their citations.
+- [00_User_Stories_index.md](../../02_Analysis/03_User_Stories/00_User_Stories_index.md): stories F-01 and F-09.
+- [00_Features_index.md](../../02_Analysis/02_Features/00_Features_index.md): features F-01 and F-09 and the touchpoints they answer.
+- [00_Touchpoints_index.md](../../02_Analysis/01_Touchpoints/00_Touchpoints_index.md): TP-038, TP-070, TP-075, TP-088, TP-089, TP-090, TP-092 and TP-106, with all their citations.
 - [Matteo_Rizzetto_notes.md](../../01_Research/04_Interviews/Matteo_Rizzetto_notes.md) and [Marco_Palermo_notes.md](../../01_Research/04_Interviews/Marco_Palermo_notes.md): the interview quotes.

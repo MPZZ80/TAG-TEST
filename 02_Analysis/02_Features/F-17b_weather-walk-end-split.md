@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [TP-080_walking-last-station-office.md]
 
 # F-17b: [value not traced] The weather on the walk at the end (split from F-17)
 
-One row of [03_Generated_Features.md](../03_Generated_Features.md), where the impact, the strength rule and the dropped features are explained.
+One row of [00_Features_index.md](00_Features_index.md), where the impact, the strength rule and the dropped features are explained.
 
 | | |
 | --- | --- |
@@ -19,7 +19,7 @@ One row of [03_Generated_Features.md](../03_Generated_Features.md), where the im
 | **Evidence** | strong (strong: ) |
 | **Impact** | Low · 1 |
 | **Touchpoints it answers** | [TP-080](../01_Touchpoints/TP-080_walking-last-station-office.md) |
-| **User story** | none: value not traced; see "Features sent back" in [04_Generated_User_Stories.md](../04_Generated_User_Stories.md) |
+| **User story** | none: value not traced; see "Features sent back" in [00_User_Stories_index.md](../03_User_Stories/00_User_Stories_index.md) |
 
 ## Evidence (note + quote)
 

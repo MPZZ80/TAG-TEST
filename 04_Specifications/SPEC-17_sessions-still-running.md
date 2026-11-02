@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-14_the-station-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-18_parking-works-paying-leaving.md, US-F-21_where-shared-vehicle-can.md]
+related: [SPEC-01_foundation.md, SPEC-14_the-station-ahead.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-18_parking-works-paying-leaving.md, US-F-21_where-shared-vehicle-can.md]
 ---
 
 # SPEC-17: Sessions Still Running
@@ -84,6 +84,6 @@ When the commuter starts a paid session (street parking, a shared bike), the pro
 
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principle 4; The things it deals with (place); Channels; Rules that hold everywhere.
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): named in this specification (the text), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-18, F-21.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-18, F-21.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-16, FAM-15, FAM-13, FAM-08, FAM-10.
 - [US-F-18_parking-works-paying-leaving.md](../02_Analysis/03_User_Stories/US-F-18_parking-works-paying-leaving.md), [US-F-21_where-shared-vehicle-can.md](../02_Analysis/03_User_Stories/US-F-21_where-shared-vehicle-can.md): the user stories this specification serves, one file each.

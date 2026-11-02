@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, mode-choice, tools, habit, ticket-carryover]
-related: [SPEC-01_foundation.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md, US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md]
+related: [SPEC-01_foundation.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, 00_User_Stories_index.md, 06_Chosen_concept.md, 02_Human_Ideas.md, US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md]
 ---
 
 # SPEC-09: Every Way Side by Side, Door to Door
@@ -90,7 +90,7 @@ Before the trip, for a given day and time, the product shows every way of making
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (Out of scope), where the two behaviours meet.
 - [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): named in this specification (User stories served, Out of scope), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-04, F-10.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-04, F-10.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-18, FAM-08, FAM-04, FAM-15, FAM-09, FAM-03, FAM-26, FAM-06.
 - [02_Human_Ideas.md](../03_Ideation/02_Human_Ideas.md): Marco's concepts this specification carries: S06.
 - [US-F-04_one-search-one-booking.md](../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md), [US-F-10_car-against-train-office.md](../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md): the user stories this specification serves, one file each.

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-12_ticket-fits-days-travelled.md, SPEC-12_the-fare-that-fits-the-day
 
 # Story F-12
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As the Como commuter, when his office days fell to about one a week and the pass still cost 70 euro a month, I want to know which pass, carnet or single tickets cost least for the days I actually travel, so that he does not pay for a pass meant for daily travel.
 

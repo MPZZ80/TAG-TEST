@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-20_step-free-lit-way.md, SPEC-03_travellers-report.md, SPEC-14_the-s
 
 # Story F-20
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As a wheelchair user (desk persona), before getting off the train at a German station with stairs unlit for two months and no lift, I want to know whether the lifts and lights on my way through the station work today, so that I do not have to ride past my station and come back.
 

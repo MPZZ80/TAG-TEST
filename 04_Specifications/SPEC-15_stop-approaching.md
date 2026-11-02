@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-23_stop-approaching.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-23_stop-approaching.md]
 ---
 
 # SPEC-15: The Stop Approaching
@@ -77,6 +77,6 @@ The commuter's stop is known when she boards (C26-07). The product follows the r
 
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principles 4, 6; The things it deals with (trip, run, leg); Channels (something worn or carried); Rules that hold everywhere (consent to share position).
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): named in this specification (Operating logic), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-23.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-23.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-01, FAM-15, FAM-16, FAM-08.
 - [US-F-23_stop-approaching.md](../02_Analysis/03_User_Stories/US-F-23_stop-approaching.md): the user stories this specification serves, one file each.

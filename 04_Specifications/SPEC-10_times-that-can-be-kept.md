@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, tight-connection, first-last-mile, unreliable-service, workarounds]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, US-F-07_trips-planned-commuter-s.md, US-F-05_legs-both-ends-real.md, US-F-13_times-commuter-can-plan.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, 00_User_Stories_index.md, 06_Chosen_concept.md, US-F-07_trips-planned-commuter-s.md, US-F-05_legs-both-ends-real.md, US-F-13_times-commuter-can-plan.md]
 ---
 
 # SPEC-10: Times That Can Be Kept
@@ -89,6 +89,6 @@ When the product plans a trip, every time in it is one that can be kept: walks t
 - [SPEC-03_travellers-report.md](SPEC-03_travellers-report.md): named in this specification (User stories served, Operating logic, Open questions), where the two behaviours meet.
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-09_every-way-side-by-side.md](SPEC-09_every-way-side-by-side.md): named in this specification (Operating logic, Out of scope), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-05, F-07, F-13.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-05, F-07, F-13.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-06, FAM-03, FAM-04, FAM-08, FAM-15, FAM-10, FAM-05.
 - [US-F-07_trips-planned-commuter-s.md](../02_Analysis/03_User_Stories/US-F-07_trips-planned-commuter-s.md), [US-F-05_legs-both-ends-real.md](../02_Analysis/03_User_Stories/US-F-05_legs-both-ends-real.md), [US-F-13_times-commuter-can-plan.md](../02_Analysis/03_User_Stories/US-F-13_times-commuter-can-plan.md): the user stories this specification serves, one file each.

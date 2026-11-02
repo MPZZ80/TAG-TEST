@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-05_legs-both-ends-real.md, SPEC-10_times-that-can-be-kept.md]
 
 # Story F-05
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As a London traveller (desk persona), changing at King's Cross for a train to Luton, when the app says the walk to the platform takes 3 minutes, I want the way to the first stop and from the last one, where to board included, planned and timed at the length it really takes, so that I do not miss the train after running for 10 minutes.
 

@@ -1,12 +1,12 @@
 ---
 source: participant
-date: 2026-11-02 23:42
+date: 2026-11-03 00:09
 method: coding
 status: draft
 grade: n/a
 confidence: low
 tags: [research, survey, output, planning, disruption, late-info, no-alternative, tight-connection, first-last-mile, unreliable-service, crowding, workarounds]
-related: [01_plan.md, 01_survey_en.md, 04_open_issues.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md, 02_Generated_Touchpoints.md]
+related: [01_plan.md, 01_survey_en.md, 04_open_issues.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md, 00_Touchpoints_index.md]
 ---
 
 # Survey Results: First Export
@@ -140,4 +140,4 @@ Links to the notes this file rests on. The same files are listed by name in the 
 - The questions are those of [01_survey_en.md](01_survey_en.md), the survey activity of the research plan, [01_plan.md](../02_Plan/01_plan.md).
 - Each result is read against the open issues of [04_open_issues.md](../02_Plan/04_open_issues.md).
 - Shares the pain points `late-info` and `workarounds` with [Matteo_Rizzetto_notes.md](../04_Interviews/Matteo_Rizzetto_notes.md), [Marco_Palermo_notes.md](../04_Interviews/Marco_Palermo_notes.md) and [Valentina_Di_Floriano_notes.md](../04_Interviews/Valentina_Di_Floriano_notes.md): in both, people find out about problems at the station; the interviewees have a fallback ready while most survey respondents do not.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../02_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [00_Touchpoints_index.md](../../02_Analysis/01_Touchpoints/00_Touchpoints_index.md).

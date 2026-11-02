@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-24_travel-information-first-hurry.md, SPEC-05_usual-trip-at-a-glance
 
 # Story F-24
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As an Italian bus user (desk persona), in a hurry to catch a bus, opening the app at the stop, I want the travel information shown at once, with nothing in front of it, so that a few seconds do not decide whether I catch the bus.
 

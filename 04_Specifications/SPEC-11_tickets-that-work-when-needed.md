@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, planning, ticket-carryover]
-related: [SPEC-01_foundation.md, SPEC-09_every-way-side-by-side.md, SPEC-06_ways-out-when-the-trip-breaks.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, US-F-04_one-search-one-booking.md, US-F-08_ticket-works-moment-needed.md]
+related: [SPEC-01_foundation.md, SPEC-09_every-way-side-by-side.md, SPEC-06_ways-out-when-the-trip-breaks.md, 00_User_Stories_index.md, 06_Chosen_concept.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, US-F-04_one-search-one-booking.md, US-F-08_ticket-works-moment-needed.md]
 ---
 
 # SPEC-11: Tickets That Work When They Are Needed
@@ -86,7 +86,7 @@ The commuter books a whole door to door way as one journey, with one price (C07-
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation this specification builds on: Principle 5; The things it deals with (ticket, trip, way); Rules that hold everywhere.
 - [SPEC-09_every-way-side-by-side.md](SPEC-09_every-way-side-by-side.md): named in this specification (User stories served, Operating logic, Out of scope), where the two behaviours meet.
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): named in this specification (Operating logic), where the two behaviours meet.
-- [04_Generated_User_Stories.md](../02_Analysis/04_Generated_User_Stories.md): the user stories this specification serves: F-04, F-08.
+- [00_User_Stories_index.md](../02_Analysis/03_User_Stories/00_User_Stories_index.md): the user stories this specification serves: F-04, F-08.
 - [06_Chosen_concept.md](../03_Ideation/06_Chosen_concept.md): the chosen concept; this specification draws on its families FAM-19, FAM-16, FAM-01, FAM-21, FAM-14.
 - [SPEC-12_the-fare-that-fits-the-days.md](SPEC-12_the-fare-that-fits-the-days.md), [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md): the specifications that name this one where their behaviours meet.
 - [US-F-04_one-search-one-booking.md](../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md), [US-F-08_ticket-works-moment-needed.md](../02_Analysis/03_User_Stories/US-F-08_ticket-works-moment-needed.md): the user stories this specification serves, one file each.

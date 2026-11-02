@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-17a_staffed-station-lit-walk.md, SPEC-03_travellers-report.md, SPEC-
 
 # Story F-17a
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 Split from F-17. As a daily traveller in a British city (desk persona), waiting at a station late at night, I want to know whether the station is staffed and whether the walk at the end is in the dark at the hour I travel, so that the wait at night is not a moment of fear.
 

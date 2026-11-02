@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [F-22_asking-connection-wait.md, SPEC-08_the-connection-ahead.md]
 
 # Story F-22
 
-One story of [04_Generated_User_Stories.md](../04_Generated_User_Stories.md), where the personas, the splits and the features sent back are explained.
+One story of [00_User_Stories_index.md](00_User_Stories_index.md), where the personas, the splits and the features sent back are explained.
 
 As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him.
 

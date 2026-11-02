@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-11-02 23:42
+date: 2026-11-03 00:09
 method: review
 status: draft
 grade: A
 confidence: n/a
 tags: [research, desk, source, information, crowding]
-related: [01_plan.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md, 02_Generated_Touchpoints.md]
+related: [01_plan.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Matteo_Rizzetto_notes.md, Valentina_Di_Floriano_notes.md, 00_Touchpoints_index.md]
 ---
 
 # Should I stay or should I board? Willingness to wait with real-time crowding information in urban public transport
@@ -64,4 +64,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 
 - Collected for activity A2 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - Shares the pain point `crowding` with [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](../Online_Forums/OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md) and [Valentina_Di_Floriano_notes.md](../../../04_Interviews/Valentina_Di_Floriano_notes.md): crowded vehicles at peak hours.
-- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../../02_Analysis/02_Generated_Touchpoints.md).
+- The moments of the journey drawn from this note are listed in [00_Touchpoints_index.md](../../../../02_Analysis/01_Touchpoints/00_Touchpoints_index.md).

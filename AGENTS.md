@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -28,7 +28,7 @@ Repository layout:
 | `01_Research/03_Desk_Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
 | `01_Research/04_Interviews/` | The interview script, recordings, automatic transcripts and one notes file per interview |
 | `01_Research/05_Survey/` | The commuter survey in six languages, where to post it, the script that builds the forms, the answers and the results |
-| `02_Analysis/` | Touchpoints, features and user stories built on the research, as tables and as one file per item in `01_Touchpoints/`, `02_Features/` and `03_User_Stories/`; the research web page; the prompts that generated them |
+| `02_Analysis/` | Touchpoints, features and user stories built on the research, one file per item in `01_Touchpoints/`, `02_Features/` and `03_User_Stories/`, each folder with its index (`00_…_index.md`); the research web page, a dated snapshot; the prompts that generated them |
 | `03_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
 | `03_Ideation/Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
@@ -55,7 +55,7 @@ Every folder has a `README.md` that says what is in it, which file to read for w
 
 - **Read the README of a folder before opening its files**, and open only the files it points you to.
 - For the sources, go `01_Research/README.md` → `01_Research/03_Desk_Research/Doc_Notes/README.md` → the `README.md` of one category, which is the index of its sources → the single source files you need. Do not open the source files one by one, and do not read the text copies in `01_Research/03_Desk_Research/docs_md/` from start to finish: search them.
-- **Keep the READMEs current.** When you add, remove, rename or regrade a file, or change its content substantially, update the README of its folder in the same change, including the counts and the state it reports. This covers every kind of file, not only Markdown, for example `01_research.html` (instruction 35).
+- **Keep the READMEs current.** When you add, remove, rename or regrade a file, or change its content substantially, update the README of its folder in the same change, including the counts and the state it reports. This covers every kind of file, not only Markdown, for example `04_research.html` (instruction 35).
 - A README describes and points; it does not hold findings or rules. Rules stay in this file, in `00_Intro/Metadata/metadata_schema.md` and in `01_Research/02_Plan/02_desk_research_instructions.md`.
 - The `README.md` in the repository root is Marco's own front page; do not change it unless he asks.
 - README files have no metadata block.
@@ -126,7 +126,7 @@ This section is the running list of the standing instructions Marco gives during
 | 32 | 2026-10-19 | Use the origin tag `survey` for files whose content comes from the answers to a questionnaire. Details in section 8 of `00_Intro/Metadata/metadata_schema.md`. | The survey results did not come from an interview, and no origin tag fitted them |
 | 33 | 2026-10-19 | Updated by 34 (commit without being asked). Whenever Marco asks for a commit, push it to GitHub right after. | Not stated |
 | 34 | 2026-10-22 | After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
-| 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `01_research.html` had been added to `02_Analysis/` without a row in its README |
+| 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `04_research.html` had been added to `02_Analysis/` without a row in its README |
 | 36 | 2026-11-01 | Name the files of `03_Ideation/` with a progressive number at the start, in the order of the process: `01_How_might_we.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
 | 37 | 2026-11-02 | Number the folders of `01_Research/` in the order they were created (`01_Questions/` to `05_Survey/`; Analysis, numbered `06_` at first, was then moved to the root as `02_Analysis/`), and number the files inside that have no progressive number yet, in the order they were created. Files that already carry a number or an ID keep it (source IDs such as `GR-001`, the course prompts `prompt-01-…`). The interview files stay without numbers. The plan and the instructions for running it go in `01_Research/02_Plan/`. | To put order in the research folder |
 | 38 | 2026-11-02 | Keep the whole network of the files working: when a file or folder is created, moved, renamed or deleted, update every link, `related` entry, "Connections" sentence, `Index.md` line and README row that names it, then check that all links and `related` entries still resolve. Details under "Network" above. | Not stated; asked after the research folders were renumbered and moved |

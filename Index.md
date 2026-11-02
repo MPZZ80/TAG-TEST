@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:59
+date: 2026-11-03 00:09
 method: generated
 status: draft
 grade: n/a
@@ -197,12 +197,10 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 ## 02_Analysis
 
 - 05_Human_Touchpoints(not_complete).md — [unknown · unknown · unknown · unknown]
-- 02_Generated_Touchpoints.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
-- 03_Generated_Features.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
-- 04_Generated_User_Stories.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 
 ## 02_Analysis/01_Touchpoints
 
+- 00_Touchpoints_index.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 - TP-001_deciding-travel-evening-before.md — [research, desk, synthesis, planning · draft · n/a · low]
 - TP-002_deciding-days-go-office.md — [research, desk, synthesis, planning · draft · n/a · low]
 - TP-003_working-home-some-days.md — [research, desk, synthesis, planning · draft · n/a · low]
@@ -315,6 +313,7 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 
 ## 02_Analysis/02_Features
 
+- 00_Features_index.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 - F-01_real-state-vehicle-source.md — [research, desk, synthesis · draft · n/a · low]
 - F-02_ways-still-open-trip.md — [research, desk, synthesis · draft · n/a · low]
 - F-03_early-warning-usual-trip.md — [research, desk, synthesis · draft · n/a · low]
@@ -344,6 +343,7 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 
 ## 02_Analysis/03_User_Stories
 
+- 00_User_Stories_index.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
 - US-F-01_real-state-vehicle-source.md — [research, desk, synthesis · draft · n/a · low]
 - US-F-02_ways-still-open-trip.md — [research, desk, synthesis · draft · n/a · low]
 - US-F-03_early-warning-usual-trip.md — [research, desk, synthesis · draft · n/a · low]
@@ -371,10 +371,10 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 
 ## 02_Analysis/Prompts
 
-- 01_Generated_Research_Report_Prompt.md — [unknown · unknown · unknown · unknown]
-- 02_Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
-- 03_Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
-- 04_Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
+- 01_Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
+- 02_Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
+- 03_Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
+- 04_Generated_Research_Report_Prompt.md — [unknown · unknown · unknown · unknown]
 
 ## 03_Ideation
 
