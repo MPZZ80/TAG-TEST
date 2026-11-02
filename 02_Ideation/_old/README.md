@@ -12,4 +12,4 @@ The first round of ideation, kept as it was when Marco asked to redo the whole p
 
 - Nothing here is ranked: the files widen and map the range, and the choice is Marco's.
 - Read `Human+AI_Ideas.md` first for the map, then `Ideas_prioritization.md` for the proposed marks and `Chosen_concept.md` for the concept chosen; open `AI_Ideas.md` and `../02_Human_Ideas.md` for the concepts in full.
-- Each question in `AI_Ideas.md` names the user story and the quotes behind it; follow them to `../../01_Research/Analysis/Generated_User_Stories.md` and the interview notes.
+- Each question in `AI_Ideas.md` names the user story and the quotes behind it; follow them to `../../01_Research/06_Analysis/04_Generated_User_Stories.md` and the interview notes.

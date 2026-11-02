@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, tools, usual-trip]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
 ---
 
 # SPEC-05: The Usual Trip at a Glance
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-11](../../01_Research/Analysis/Generated_User_Stories.md) | a Dutch rail commuter (desk persona) | As a Dutch rail commuter (desk persona), on the way out of the door in the morning, I want the app to open on my usual trip with its state and its platforms, the change included, without searching, so that I know which platform to go to with no extra step. | All of it |
-| concept | [F-24](../../01_Research/Analysis/Generated_User_Stories.md) | an Italian bus user (desk persona) | As an Italian bus user (desk persona), in a hurry to catch a bus, opening the app at the stop, I want the travel information shown at once, with nothing in front of it, so that a few seconds do not decide whether I catch the bus. | All of it |
+| concept | [F-11](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a Dutch rail commuter (desk persona) | As a Dutch rail commuter (desk persona), on the way out of the door in the morning, I want the app to open on my usual trip with its state and its platforms, the change included, without searching, so that I know which platform to go to with no extra step. | All of it |
+| concept | [F-24](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | an Italian bus user (desk persona) | As an Italian bus user (desk persona), in a hurry to catch a bus, opening the app at the stop, I want the travel information shown at once, with nothing in front of it, so that a few seconds do not decide whether I catch the bus. | All of it |
 
 These stories belong together because both ask that the first thing the product shows, at the moment it is opened, is the information for the trip being made now, with no step and nothing in front of it.
 
@@ -27,8 +27,8 @@ These stories belong together because both ask that the first thing the product 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-11](../../01_Research/Analysis/Generated_Features.md), [F-24](../../01_Research/Analysis/Generated_Features.md) |
-| **Touchpoints** | [TP-012](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-027](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-062](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-055](../../01_Research/Analysis/Generated_Touchpoints.md) |
+| **Features** | [F-11](../../01_Research/06_Analysis/03_Generated_Features.md), [F-24](../../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-012](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-027](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-062](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-055](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
 | **Problem questions** | [HMW-14](../01_How_might_we.md), [HMW-27](../01_How_might_we.md) |
 | **Concepts** | [C14-01](../03_AI_Ideas.md), [C14-04](../03_AI_Ideas.md), [C14-05](../03_AI_Ideas.md), [C14-06](../03_AI_Ideas.md), [C14-12](../03_AI_Ideas.md), [C27-01](../03_AI_Ideas.md), [C27-04](../03_AI_Ideas.md), [C27-06](../03_AI_Ideas.md), [C27-07](../03_AI_Ideas.md), [C27-08](../03_AI_Ideas.md) |
 | **Families** | [FAM-15](../04_Human+AI_Ideas.md), [FAM-09](../04_Human+AI_Ideas.md), [FAM-01](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md) |

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, planning, late-info, usual-trip]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md]
 ---
 
 # SPEC-04: Alerts on the Usual Trip
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-03](../../01_Research/Analysis/Generated_User_Stories.md) | the single-line commuter | As the single-line commuter, during the seven minutes he drives to the station on one of his three office days, I want to be told, only when something changes, of a delay, cancellation, strike or works on my usual train, in time to change the decision to leave, so that he can wait in the warm car if the train is late. | All of it |
+| concept | [F-03](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the single-line commuter | As the single-line commuter, during the seven minutes he drives to the station on one of his three office days, I want to be told, only when something changes, of a delay, cancellation, strike or works on my usual train, in time to change the decision to leave, so that he can wait in the warm car if the train is late. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-03](../../01_Research/Analysis/Generated_Features.md) |
-| **Touchpoints** | [TP-031](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-032](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-033](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-034](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-035](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-037](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-039](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-040](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-087](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-089](../../01_Research/Analysis/Generated_Touchpoints.md) |
+| **Features** | [F-03](../../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-031](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-032](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-033](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-034](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-035](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-037](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-039](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-040](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-087](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-089](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
 | **Problem questions** | [HMW-05](../01_How_might_we.md) |
 | **Concepts** | [S01](../02_Human_Ideas.md), [S05](../02_Human_Ideas.md), [C05-01](../03_AI_Ideas.md), [C05-02](../03_AI_Ideas.md), [C05-03](../03_AI_Ideas.md), [C05-04](../03_AI_Ideas.md), [C05-05](../03_AI_Ideas.md), [C05-06](../03_AI_Ideas.md), [C05-07](../03_AI_Ideas.md), [C05-09](../03_AI_Ideas.md) |
 | **Families** | [FAM-01](../04_Human+AI_Ideas.md), [FAM-07](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md) |

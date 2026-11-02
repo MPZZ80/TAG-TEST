@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, tools, refunds]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
 ---
 
 # SPEC-13: Compensation Claimed From the Trip
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-16](../../01_Research/Analysis/Generated_User_Stories.md) | a British traveller (desk persona) | As a British traveller (desk persona), after a delay on a ticket bought through a ticket seller, I want to start the compensation claim from the delayed trip itself, wherever the ticket was bought, so that the compensation does not depend on going to the train company. | All of it, up to handing the claim over |
+| concept | [F-16](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a British traveller (desk persona) | As a British traveller (desk persona), after a delay on a ticket bought through a ticket seller, I want to start the compensation claim from the delayed trip itself, wherever the ticket was bought, so that the compensation does not depend on going to the train company. | All of it, up to handing the claim over |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-16](../../01_Research/Analysis/Generated_Features.md) |
-| **Touchpoints** | [TP-104](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-105](../../01_Research/Analysis/Generated_Touchpoints.md) |
+| **Features** | [F-16](../../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-104](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-105](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
 | **Problem questions** | [HMW-19](../01_How_might_we.md) |
 | **Concepts** | [C19-05](../03_AI_Ideas.md), [C19-11](../03_AI_Ideas.md), [C19-12](../03_AI_Ideas.md); background: [C19-01](../03_AI_Ideas.md), [C19-04](../03_AI_Ideas.md) |
 | **Families** | [FAM-08](../04_Human+AI_Ideas.md), [FAM-07](../04_Human+AI_Ideas.md), [FAM-26](../04_Human+AI_Ideas.md); background: [FAM-14](../04_Human+AI_Ideas.md) |

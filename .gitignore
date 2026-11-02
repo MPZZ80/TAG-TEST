@@ -1,7 +1,10 @@
 # Downloaded source documents and their text conversions: kept locally, not published (copyright)
 01_Research/docs/
 01_Research/docs_md/
-01_Research/Desk_Research/docs/
-01_Research/Desk_Research/docs_md/
-01_Research/Survey/Responses/*.csv
-01_Research/Survey/Responses/*.zip
+01_Research/03_Desk_Research/docs/
+01_Research/03_Desk_Research/docs_md/
+01_Research/05_Survey/06_Responses/*.csv
+01_Research/05_Survey/06_Responses/*.zip
+
+# macOS folder metadata
+.DS_Store

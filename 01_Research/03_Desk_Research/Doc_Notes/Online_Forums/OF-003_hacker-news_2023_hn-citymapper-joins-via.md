@@ -1,0 +1,68 @@
+---
+source: external
+date: 2026-11-02 23:29
+method: review
+status: draft
+grade: C
+confidence: n/a
+tags: [research, desk, source, tools, why-now, late-info]
+related: [01_plan.md, AR-005_techcrunch_2023_via-acquires-citymapper.md, OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md, PR-003_citymapper_2026_citymapper.md, OR-003_apple-app-store_2026_citymapper-gb.md, OR-002_apple-app-store_2026_moovit-it.md, OR-004_apple-app-store_2026_transit-us.md, OR-006_apple-app-store_2026_flixbus-it.md, OR-007_apple-app-store_2026_db-navigator-de.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-010_apple-app-store_2026_italo-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, OR-015_apple-app-store_2026_9292-nl.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-016_mcilroy_2024_reservation-i-have-that.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, 02_Generated_Touchpoints.md]
+---
+
+# Citymapper Joins Via (Hacker News thread)
+
+| | |
+| --- | --- |
+| **ID** | OF-003 |
+| **Link** | [Citymapper Joins Via (Hacker News thread)](https://news.ycombinator.com/item?id=35182240) |
+| **Local copy** | [OF-003_hacker-news_2023_hn-citymapper-joins-via.json](../../docs/Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.json) (comments without usernames) |
+| **Markdown copy** | [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](../../docs_md/Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.md) |
+| **Produced by** | Anonymous forum users (nicknames not recorded) |
+| **Published by** | Hacker News |
+| **Kind of source** | Online forum thread |
+| **Published on** | 2023-03-16 (thread opened; comments over the following days) |
+| **Opened on** | 2026-10-07 |
+| **Read** | In full (text capture of the whole thread, about 100 comments, 16-19 March 2023) (2026-10-07) |
+| **Geography** | International (a technology community) |
+| **Language** | English |
+| **How it was produced** | Spontaneous posts; no method. A technology and startup community; users discuss as developers and users, not as typical commuters. Usernames are not kept. |
+| **Who paid for it or has an interest** | None known; participants are not verified |
+| **Cited by** | None counted yet |
+| **Grade** | C — 2 points: reliability 0 (anonymous user content), date 2, citations 0, method 0 |
+
+## What it says
+
+A discussion among technical users after the trip planner Citymapper was bought. What users value is precision in the trip itself: accurate times that matter for changes, time to walk inside a station, which exit and which part of the train, routes that drop cancelled services at once and say why. They do not value it enough to pay: several say route planning is now a commodity given by Google and Apple, and people close to the company say there was no way to make money.
+
+## Data and quotes used
+
+- Thread of 2023-03-16 with 87 comments (API count).
+- Forum thread on a technology news site, about 100 comments, March 2023; users mostly in London, New York, Chicago, Paris (thread, captured 2026-10-07).
+- What one paying user (20 dollars a year) lists as reasons, New York: 'Most accurate arrival times (this matters a lot for transfers)'; 'it takes into account how long it takes to walk between platforms (some apps assume its instant, but if it's a large station it can take the better part of 10 minutes)'; which part of the train to sit in; service changes included in the routing; routes with less walking if it rains or combining bike and transit (thread).
+- Live information versus averages: 'Big difference between based on average times, this is the fastest route and based on the latest information, this is the fastest route' (thread).
+- Telling the reason: the app 'actively surfaces that it's rerouting because of cancellations on XYZ train, which is very helpful information ... without that information front and center it can be confusing if it's not a regular route' (thread).
+- Leaving the user to check: with the general map app 'The routes suggested ... also still include cancelled trains / buses - it's your job to double check by visiting the TfL / train operator's websites'; the specialised app 'excludes delayed / cancelled trains from results within minutes' (London user, thread).
+- Known route versus unknown route: one app 'works great for status updates for buses or trains you're already familiar with. If I'm travelling an unfamiliar route, it's always' the other; another praises an app that 'opens straight to live arrival times of all the lines nearest to you' (thread).
+- Commute use: 'I enabled (silent) push notifications for the routes and lines I use going to and from work. It is more convenient than searching for a route every time' (thread).
+- Missing during the trip: 'you're committed to a particular route once you start'; another app warns on the train 'that I might not make it in time for my connection' and gives the next option; 'I kind of wish it offered me alternates that don't necessarily include the original end station' (thread).
+- Trust depends on the operator's data: 'ghost buses' shown live that do not exist; 'the underlying data from metro is a mess, so they end up looking bad anyway'; someone with experience in agencies: 'the tech infrastructure is unfortunately not to the level it should be' (thread).
+- Cost shown per route is valued in London, where routes of similar time cost different amounts (thread).
+- Business: 'Consumer-facing routing is a commodity these days'; people who knew senior staff: 'there was ultimately no feasible way to monetise'; attempts with payments, data and running transport 'haven't been successful'. Features behind a paywall made it 'less useful'. High battery use is a reason to drop the app (thread).
+- A side thread describes moving from London to Leeds and working remotely for a London company because of housing costs (thread): a person's account, not data.
+
+## Limits
+
+Readers of a technology forum: technical, urban, English-speaking, often developers; not typical commuters. About trips inside big cities (London, New York), not between cities. One thread on one day, prompted by a company announcement. Opinions on the business come from second-hand accounts. Nicknames and one e-mail address in the working copy were not copied.
+
+## Used in
+
+No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A5 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
+- Shares a source landscape with [AR-005_techcrunch_2023_via-acquires-citymapper.md](../Articles/AR-005_techcrunch_2023_via-acquires-citymapper.md), [OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md](OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md), [PR-003_citymapper_2026_citymapper.md](../Products/PR-003_citymapper_2026_citymapper.md) and [OR-003_apple-app-store_2026_citymapper-gb.md](../Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md): Citymapper and its sale.
+- Shares the pain point `late-info` with [OR-002_apple-app-store_2026_moovit-it.md](../Online_Reviews/OR-002_apple-app-store_2026_moovit-it.md), [OR-003_apple-app-store_2026_citymapper-gb.md](../Online_Reviews/OR-003_apple-app-store_2026_citymapper-gb.md), [OR-004_apple-app-store_2026_transit-us.md](../Online_Reviews/OR-004_apple-app-store_2026_transit-us.md), [OR-006_apple-app-store_2026_flixbus-it.md](../Online_Reviews/OR-006_apple-app-store_2026_flixbus-it.md), [OR-007_apple-app-store_2026_db-navigator-de.md](../Online_Reviews/OR-007_apple-app-store_2026_db-navigator-de.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-010_apple-app-store_2026_italo-it.md](../Online_Reviews/OR-010_apple-app-store_2026_italo-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [OR-015_apple-app-store_2026_9292-nl.md](../Online_Reviews/OR-015_apple-app-store_2026_9292-nl.md), [OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md](OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](../Academic_Papers/AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](../Academic_Papers/AP-016_mcilroy_2024_reservation-i-have-that.md), [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md) and [Marco_Palermo_notes.md](../../../04_Interviews/Marco_Palermo_notes.md): delay or arrival information that is late or wrong.
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).

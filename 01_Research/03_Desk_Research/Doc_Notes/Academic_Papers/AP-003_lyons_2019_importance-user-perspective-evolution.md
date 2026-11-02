@@ -1,0 +1,70 @@
+---
+source: external
+date: 2026-11-02 23:29
+method: review
+status: draft
+grade: B
+confidence: n/a
+tags: [research, desk, source, tools, success, usual-trip]
+related: [01_plan.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-011_uitp_2019_policy-brief-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-039_nordic-policy-centre_2022_finland-maas-legislation.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, GR-050_mit_2026_maas-for-italy-white-paper.md, AP-004_alyavina_2020_mobility-as-service-sustainable.md, AP-005_kriswardhana_2022_systematic-literature-review-mobility.md, AP-007_reck_2020_maas-bundle-design.md, AP-014_smith_2023_mobility-as-service-users.md, AP-016_mcilroy_2024_reservation-i-have-that.md, AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, AR-010_global-fleet_2024_maas-1-is-dead.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-008_apple-app-store_2026_ns-app-nl.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, GR-040_trb_2003_tcrp-92-traveler-information.md, PR-008_ns_2026_ns-app.md, PR-009_trenitalia_2026_trenitalia-app.md, Matteo_Rizzetto_notes.md, 02_Generated_Touchpoints.md]
+---
+
+# The importance of user perspective in the evolution of MaaS
+
+| | |
+| --- | --- |
+| **ID** | AP-003 |
+| **Link** | [The importance of user perspective in the evolution of MaaS](https://doi.org/10.1016/j.tra.2018.12.010) (open-access PDF: <https://www.sciencedirect.com/science/article/pii/S0965856418307134/pdf>) |
+| **Local copy** | [AP-003_lyons_2019_importance-user-perspective-evolution.pdf](../../docs/Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.pdf), provided by Marco on 2026-10-07 |
+| **Markdown copy** | [AP-003_lyons_2019_importance-user-perspective-evolution.md](../../docs_md/Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md) |
+| **Produced by** | Glenn D. Lyons et al. (3 authors; institutions in United Kingdom) |
+| **Published by** | Transportation Research Part A Policy and Practice |
+| **Kind of source** | Peer-reviewed journal article (hybrid open access) |
+| **Published on** | 2019-01-09 |
+| **Opened on** | 2026-10-07 |
+| **Read** | In full, 13 pages of text (figures 1 to 3 are described in the text; figure 3 was not read as an image; the reference list was skimmed) (2026-10-07) |
+| **Geography** | Study area not extracted; authors' institutions in United Kingdom |
+| **Language** | English |
+| **How it was produced** | Not stated in the abstract or no abstract; the paper was not read |
+| **Who paid for it or has an interest** | Not checked: the funding statement was not read |
+| **Cited by** | 228 citations in OpenAlex on 2026-10-07 (academic papers are counted there, not among the source files) |
+| **Grade** | B — 6 points: reliability 3 (peer-reviewed), date 1, citations 2, method 0 |
+
+## What it says
+
+A conceptual paper with a literature review, no data of its own. It argues that bringing modes together in one service is the latest step of a long evolution of travel information, not a revolution. It ranks what users need: first transport services that work together, then information in one place, then booking and payment in one place. It proposes six levels of integration ordered by how much mental effort is left to the traveller. From older research on travel information it draws three points for this project: familiar and predictable trips create little demand for information, demand peaks at disruption, and people look for information about a way of travelling they already consider, not the other way round.
+
+## Data and quotes used
+
+- The hierarchy of need, from the user's side: 'Operational integration ... is most fundamental. This is followed by informational integration ... and in turn by transactional integration'; operational and informational integration 'will remain principal determinants' of mass use, alongside price (PDF p.10). In the conclusions: 'Fundamental in this hierarchy is the existence of viable travel alternatives to the private car. Only then do the higher levels concerning information for journey planning and booking and payment facilities come into their own' (PDF p.13).
+- Definitions: operational integration = 'interchange penalties are low and door-to-door journey experience is seamless'; informational = planning and execution information for the available modes through one interface; transactional = payment, booking and ticketing through one interface; cognitive user effort = the effort of relying on the system beyond the private car (figure 2, PDF p.8).
+- The six levels, with the examples the authors give in 2018: 0 no integration (National Rail Enquiries: rail operators together, 'Point-to-point not door-to-door'; the original Uber); 1 information across modes with separate transactions (Traveline; Google Transit, with no transaction layer); 2 some shared payment or coordination (Trainline; the London planner with the Oyster card); 3 one platform for some journeys; 4 full integration under certain conditions (Whim; moovel in Stuttgart and Hamburg); 5 full integration for all journeys, including longer domestic trips, which 'may make it an unrealisable ideal' (PDF p.8-9).
+- Not new: 'the goal of achieving a more integrated transport system is decades old (and the last mile link remains a key challenge for a truly integrated door-to-door approach)' (PDF p.2). The United Kingdom ran a national door-to-door planner for car and public transport, Transport Direct, from the end of 2004; it closed on 30 September 2014 after third-party services appeared (PDF p.7 and footnote 14).
+- Why operators do not join, from evidence given to the UK Parliament's Transport Committee: data availability and consistency; operators 'reluctant to cede ownership of their customer'; no access to their booking and ticketing systems and no obligation to give it in the United Kingdom, unlike Finland (PDF p.2). Bus operators' reluctance is noted again on PDF p.6.
+- Familiar trips: 'Journey situations that are familiar and predictable are associated with low demand for use of (formal) information services, with past experience and heuristics able to be relied upon'; demand 'is especially high at times of transport service disruption' (PDF p.11).
+- People keep their sources: 'people have favoured, familiar and satisfactory information sources that are sufficient for their needs, and may indeed have back-up sources they turn to' (PDF p.11, citing a 2008 study).
+- Information follows behaviour: on long-distance public transport trips 'travel behaviour [has] a stronger impact on information use than vice versa' (PDF p.11, quoting a 2012 study by Farag and Lyons); public bodies and industry have tended to assume that better information alone changes behaviour, a 'build it and they will come' mentality (PDF p.10).
+- How people choose, from the literature reviewed: 'good enough' choices, limited time and attention, habit after repeated experience, copying others, preference for known outcomes; people seek more information when they fear regretting the outcome, for example missing an interview (PDF p.11).
+- Planning and using public transport is seen as mentally more demanding than the car; first impressions of public transport weigh on later attitudes (PDF p.10).
+- A new offer does not create its own demand: 'users must be presented with a change in circumstances sufficient to prompt them to consider' it; someone satisfied with what they do may have no reason to look (PDF p.11, p.13).
+- Subscriptions are hard to judge: the Whim plans launched in the West Midlands in April 2018 were pay as you go, 99 pounds a month and 349 pounds a month, and 'unlimited' had limits; participants in the Gothenburg trial overestimated how much car they needed. Season tickets, car ownership and leasing lock behaviour in through the money already spent (PDF p.2-4).
+- Thin evidence on behaviour, as of 2018: a Scottish pilot with 98 people aged 16 to 25 produced 480 paid journeys, 58% of them single-occupancy taxi, and 75% said they would have used the bus more had it been included; the Whim survey in Helsinki gave no sample details (PDF p.5).
+- Left open by the authors: 'who holds responsibility for the level of service experienced by the user and who provides redress if problems arise' when an intermediary and several operators are involved (PDF p.13).
+- Closing advice: prioritise 'getting the product in the mobility services layer right as a precursor to, or alongside' price and promotion through the intermediary (PDF p.13).
+
+## Limits
+
+A conceptual paper: the hierarchy of need and the six levels are the authors' proposal and are not tested on users. Two of the three authors work for a consultancy. The examples and the state of the trials date from 2018, and several products named have since changed or closed. The evidence on information use that it reviews is mostly older than 2015 and from before smartphones were general; the 2012 study it leans on concerns long-distance trips, not commuting. Mostly United Kingdom.
+
+## Used in
+
+No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
+- Shares a source landscape with [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-011_uitp_2019_policy-brief-maas.md](../Global_Reports/GR-011_uitp_2019_policy-brief-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-039_nordic-policy-centre_2022_finland-maas-legislation.md](../Global_Reports/GR-039_nordic-policy-centre_2022_finland-maas-legislation.md), [GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md](../Global_Reports/GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md), [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md), [GR-050_mit_2026_maas-for-italy-white-paper.md](../Global_Reports/GR-050_mit_2026_maas-for-italy-white-paper.md), [AP-004_alyavina_2020_mobility-as-service-sustainable.md](AP-004_alyavina_2020_mobility-as-service-sustainable.md), [AP-005_kriswardhana_2022_systematic-literature-review-mobility.md](AP-005_kriswardhana_2022_systematic-literature-review-mobility.md), [AP-007_reck_2020_maas-bundle-design.md](AP-007_reck_2020_maas-bundle-design.md), [AP-014_smith_2023_mobility-as-service-users.md](AP-014_smith_2023_mobility-as-service-users.md), [AP-016_mcilroy_2024_reservation-i-have-that.md](AP-016_mcilroy_2024_reservation-i-have-that.md), [AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md](AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md), [AR-006_frost-sullivan_2024_maas-global-collapse.md](../Articles/AR-006_frost-sullivan_2024_maas-global-collapse.md) and [AR-010_global-fleet_2024_maas-1-is-dead.md](../Articles/AR-010_global-fleet_2024_maas-1-is-dead.md): combined mobility services (MaaS): trials, demand and results.
+- Shares the pain point `usual-trip` with [OR-005_apple-app-store_2026_trainline-gb.md](../Online_Reviews/OR-005_apple-app-store_2026_trainline-gb.md), [OR-008_apple-app-store_2026_ns-app-nl.md](../Online_Reviews/OR-008_apple-app-store_2026_ns-app-nl.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](../Online_Reviews/OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](../Online_Reviews/OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](../Online_Reviews/OR-014_apple-app-store_2026_sbb-mobile-ch.md), [GR-040_trb_2003_tcrp-92-traveler-information.md](../Global_Reports/GR-040_trb_2003_tcrp-92-traveler-information.md), [PR-008_ns_2026_ns-app.md](../Products/PR-008_ns_2026_ns-app.md), [PR-009_trenitalia_2026_trenitalia-app.md](../Products/PR-009_trenitalia_2026_trenitalia-app.md) and [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md): regular travellers who want their usual trip at a glance: saved trips, standing alerts.
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).

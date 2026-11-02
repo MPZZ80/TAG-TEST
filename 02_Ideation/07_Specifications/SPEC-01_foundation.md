@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, planning, late-info, usual-trip, workarounds]
-related: [SPEC-00_overview.md, 06_Chosen_concept.md, Generated_User_Stories.md, Generated_Features.md, Generated_Touchpoints.md]
+related: [SPEC-00_overview.md, 06_Chosen_concept.md, 04_Generated_User_Stories.md, 03_Generated_Features.md, 02_Generated_Touchpoints.md]
 ---
 
 # SPEC-01: Foundation

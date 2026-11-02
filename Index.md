@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-01 17:53
+date: 2026-11-02 23:29
 method: generated
 status: draft
 grade: n/a
@@ -12,40 +12,19 @@ tags: [research, internal, synthesis]
 
 One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, grouped by folder and ordered by the date in the metadata block, oldest first. Format: `filename — [tags · status · grade · confidence]`. The tags are in the order phase, origin (the activity: `desk`, `interview` or `internal`), type, topics; see section 8 of `00_Intro/Metadata/metadata_schema.md`. `unknown` means the field, or the whole metadata block, is missing.
 
-## 01_Research
+## 01_Research/01_Questions
 
-- desk_research_instructions.md — [research, internal, rules · unknown · unknown · medium]
-- plan.md — [research, internal, plan · unknown · unknown · medium]
-- progress.md — [research, internal, plan · draft · n/a · n/a]
-- deepdive_interview_script.md — [research, internal, script · draft · n/a · n/a]
-- open_issues.md — [research, internal, output · draft · n/a · n/a]
+- 02_initial_questions.md — [research, internal, questions · unknown · unknown · medium]
+- 01_prompt.md — [research, internal, rules · unknown · unknown · high]
 
-## 01_Research/Questions
+## 01_Research/02_Plan
 
-- initial_questions.md — [research, internal, questions · unknown · unknown · medium]
-- prompt.md — [research, internal, rules · unknown · unknown · high]
+- 01_plan.md — [research, internal, plan · unknown · unknown · medium]
+- 02_desk_research_instructions.md — [research, internal, rules · unknown · unknown · medium]
+- 03_progress.md — [research, internal, plan · draft · n/a · n/a]
+- 04_open_issues.md — [research, internal, output · draft · n/a · n/a]
 
-## 01_Research/Interviews
-
-- Marco_Palermo_notes.md — [research, interview, notes, planning, disruption, tools, late-info, first-last-mile, workarounds, contradiction · draft · n/a · low]
-- Matteo_Rizzetto_notes.md — [research, interview, notes, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, usual-trip, crowding, workarounds, contradiction · draft · n/a · low]
-- Valentina_Di_Floriano_notes.md — [research, interview, notes, planning, disruption, information, no-alternative, first-last-mile, hybrid-work, unreliable-service, crowding, workarounds · draft · n/a · low]
-
-## 01_Research/Analysis
-
-- Human_Touchpoints(not_complete).md — [unknown · unknown · unknown · unknown]
-- Generated_Touchpoints.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
-- Generated_Features.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
-- Generated_User_Stories.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
-
-## 01_Research/Analysis/Prompts
-
-- Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
-- Generated_Reaearch_Report_Prompt.md — [unknown · unknown · unknown · unknown]
-- Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
-- Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
-
-## 01_Research/Desk_Research/Doc_Notes/Academic_Papers
+## 01_Research/03_Desk_Research/Doc_Notes/Academic_Papers
 
 - AP-001_goransson_2023_factors-that-make-public.md — [research, desk, source, mode-choice, tight-connection, habit, unreliable-service · draft · A · n/a]
 - AP-002_gonzalez_2019_drivers-barriers-adopting-mobility.md — [research, desk, source, why-now · draft · B · n/a]
@@ -76,7 +55,7 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - AP-027_keyes_2018_changing-influences-commuting-mode.md — [research, desk, source, mode-choice, habit · draft · B · n/a]
 - AP-028_shires_2018_impact-planned-disruptions-rail.md — [research, desk, source, disruption, no-alternative, tight-connection · draft · B · n/a]
 
-## 01_Research/Desk_Research/Doc_Notes/Articles
+## 01_Research/03_Desk_Research/Doc_Notes/Articles
 
 - AR-001_railway-gazette_2026_passenger-package.md — [research, desk, source, why-now · draft · B · n/a]
 - AR-002_railtarget_nd_eurobarometer-ticketing.md — [research, desk, source, mode-choice · draft · C · n/a]
@@ -89,7 +68,7 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - AR-009_personnel-today_2021_flexible-rail-tickets-hybrid.md — [research, desk, source, planning, why-now, hybrid-work · draft · C · n/a]
 - AR-010_global-fleet_2024_maas-1-is-dead.md — [research, desk, source, tools, why-now · draft · B · n/a]
 
-## 01_Research/Desk_Research/Doc_Notes/Global_Reports
+## 01_Research/03_Desk_Research/Doc_Notes/Global_Reports
 
 - GR-001_eurostat_2020_commuting-time.md — [research, desk, source, who, planning · draft · B · n/a]
 - GR-002_eurostat_2023_interregional-commuters.md — [research, desk, source, who · draft · B · n/a]
@@ -148,14 +127,14 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - GR-055_gtfs-de_nd_realtime-data-germany.md — [research, desk, source, information, tools · draft · B · n/a]
 - GR-056_data4pt_nd_italian-ministry-partner-perspective.md — [research, desk, source, why-now, information · draft · C · n/a]
 
-## 01_Research/Desk_Research/Doc_Notes/Online_Forums
+## 01_Research/03_Desk_Research/Doc_Notes/Online_Forums
 
 - OF-001_ferrovie-it-forum_2019_ferrovie-it-trenitalia-sues-delay-app.md — [research, desk, source, information, tools · draft · C · n/a]
 - OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md — [research, desk, source, planning, disruption, late-info, no-alternative, tight-connection, first-last-mile, crowding, workarounds · draft · C · n/a]
 - OF-003_hacker-news_2023_hn-citymapper-joins-via.md — [research, desk, source, tools, why-now, late-info · draft · C · n/a]
 - OF-004_hacker-news_2025_hn-i-built-my-own-citymapper.md — [research, desk, source, tools, success · draft · C · n/a]
 
-## 01_Research/Desk_Research/Doc_Notes/Online_Reviews
+## 01_Research/03_Desk_Research/Doc_Notes/Online_Reviews
 
 - OR-001_apple-app-store_2026_google-maps-it.md — [research, desk, source, tools, information · draft · C · n/a]
 - OR-002_apple-app-store_2026_moovit-it.md — [research, desk, source, tools, information, late-info · draft · C · n/a]
@@ -175,7 +154,7 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - OR-016_apple-app-store_2026_reiswijs-nl.md — [research, desk, source, tools, information · draft · C · n/a]
 - OR-017_apple-app-store_2026_sprinter-nl.md — [research, desk, source, tools, information · draft · C · n/a]
 
-## 01_Research/Desk_Research/Doc_Notes/Products
+## 01_Research/03_Desk_Research/Doc_Notes/Products
 
 - PR-001_google_2026_google-maps.md — [research, desk, source, tools · draft · B · n/a]
 - PR-002_moovit_2026_moovit.md — [research, desk, source, tools · draft · B · n/a]
@@ -195,18 +174,39 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - PR-016_toertje_2026_reiswijs.md — [research, desk, source, mode-choice, tools · draft · B · n/a]
 - PR-017_bodlaender_2026_sprinter.md — [research, desk, source, tools · draft · B · n/a]
 
-## 01_Research/Survey
+## 01_Research/04_Interviews
 
-- direct_posts.md — [research, internal, script · draft · n/a · n/a]
-- permission_requests.md — [research, internal, script · draft · n/a · n/a]
-- posting_venues.md — [research, desk, output · draft · n/a · n/a]
-- survey_results.md — [research, survey, output, planning, disruption, late-info, no-alternative, tight-connection, first-last-mile, unreliable-service, crowding, workarounds · draft · n/a · low]
-- survey_de.md — [research, internal, script · draft · n/a · n/a]
-- survey_es.md — [research, internal, script · draft · n/a · n/a]
-- survey_en.md — [research, internal, script · draft · n/a · n/a]
-- survey_fr.md — [research, internal, script · draft · n/a · n/a]
-- survey_it.md — [research, internal, script · draft · n/a · n/a]
-- survey_nl.md — [research, internal, script · draft · n/a · n/a]
+- deepdive_interview_script.md — [research, internal, script · draft · n/a · n/a]
+- Marco_Palermo_notes.md — [research, interview, notes, planning, disruption, tools, late-info, first-last-mile, workarounds, contradiction · draft · n/a · low]
+- Matteo_Rizzetto_notes.md — [research, interview, notes, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, usual-trip, crowding, workarounds, contradiction · draft · n/a · low]
+- Valentina_Di_Floriano_notes.md — [research, interview, notes, planning, disruption, information, no-alternative, first-last-mile, hybrid-work, unreliable-service, crowding, workarounds · draft · n/a · low]
+
+## 01_Research/05_Survey
+
+- 05_direct_posts.md — [research, internal, script · draft · n/a · n/a]
+- 04_permission_requests.md — [research, internal, script · draft · n/a · n/a]
+- 03_posting_venues.md — [research, desk, output · draft · n/a · n/a]
+- 07_survey_results.md — [research, survey, output, planning, disruption, late-info, no-alternative, tight-connection, first-last-mile, unreliable-service, crowding, workarounds · draft · n/a · low]
+- 01_survey_de.md — [research, internal, script · draft · n/a · n/a]
+- 01_survey_es.md — [research, internal, script · draft · n/a · n/a]
+- 01_survey_en.md — [research, internal, script · draft · n/a · n/a]
+- 01_survey_fr.md — [research, internal, script · draft · n/a · n/a]
+- 01_survey_it.md — [research, internal, script · draft · n/a · n/a]
+- 01_survey_nl.md — [research, internal, script · draft · n/a · n/a]
+
+## 01_Research/06_Analysis
+
+- 05_Human_Touchpoints(not_complete).md — [unknown · unknown · unknown · unknown]
+- 02_Generated_Touchpoints.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, habit, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+- 03_Generated_Features.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+- 04_Generated_User_Stories.md — [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds · draft · n/a · low]
+
+## 01_Research/06_Analysis/Prompts
+
+- 01_Generated_Research_Report_Prompt.md — [unknown · unknown · unknown · unknown]
+- 02_Generated_Touchpoint_Prompt.md — [unknown · unknown · unknown · unknown]
+- 03_Generated_Features_Prompt.md — [unknown · unknown · unknown · unknown]
+- 04_Generated_User_Stories_Prompt.md — [unknown · unknown · unknown · unknown]
 
 ## 02_Ideation
 
@@ -246,3 +246,11 @@ One line per Markdown file of the `01_Research/` and `02_Ideation/` folders, gro
 - AI_Ideas.md — [design, internal, output, information · draft · n/a · n/a]
 - Ideas_prioritization.md — [design, internal, output, information · draft · n/a · n/a]
 - Chosen_concept.md — [design, internal, output, information, disruption · draft · n/a · low]
+
+## 02_Ideation/Prompts
+
+- prompt-01-hmw.md — [unknown · unknown · unknown · unknown]
+- prompt-03-ideation.md — [unknown · unknown · unknown · unknown]
+- prompt-04-clustering.md — [unknown · unknown · unknown · unknown]
+- prompt-05-prioritisation.md — [unknown · unknown · unknown · unknown]
+- prompt-06-concept.md — [unknown · unknown · unknown · unknown]

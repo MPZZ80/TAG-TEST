@@ -1,0 +1,66 @@
+---
+source: external
+date: 2026-11-02 23:29
+method: review
+status: draft
+grade: B
+confidence: n/a
+tags: [research, desk, source, success, habit]
+related: [01_plan.md, AP-006_vos_2022_does-commute-duration-attenuate.md, AP-018_vos_2018_people-travel-their-preferred.md, AP-001_goransson_2023_factors-that-make-public.md, AP-012_zarabi_2023_understanding-travel-mode-choice.md, AP-024_an_2022_multimodal-travel-behaviour-attitudes.md, AP-027_keyes_2018_changing-influences-commuting-mode.md, GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md, Matteo_Rizzetto_notes.md, 02_Generated_Touchpoints.md]
+---
+
+# Travel satisfaction revisited. On the pivotal role of travel satisfaction in conceptualising a travel behaviour process
+
+| | |
+| --- | --- |
+| **ID** | AP-017 |
+| **Link** | [Travel satisfaction revisited. On the pivotal role of travel satisfaction in conceptualising a travel behaviour process](https://doi.org/10.1016/j.tra.2017.10.009) |
+| **Local copy** | [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.pdf](../../docs/Academic_Papers/AP-017_vos_2017_travel-satisfaction-revisited-pivotal.pdf) |
+| **Markdown copy** | [AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md](../../docs_md/Academic_Papers/AP-017_vos_2017_travel-satisfaction-revisited-pivotal.md) |
+| **Produced by** | Jonas De Vos et al. (2 authors; institutions in Belgium) |
+| **Published by** | Transportation Research Part A Policy and Practice |
+| **Kind of source** | Peer-reviewed journal article (bronze open access) |
+| **Published on** | 2017-10-23 |
+| **Opened on** | 2026-10-07 |
+| **Read** | In full, 19 pages (14 of text, 5 of references; figures 1-3 did not convert) (2026-10-07) |
+| **Geography** | Study area not extracted; authors' institutions in Belgium |
+| **Language** | English |
+| **How it was produced** | Not stated in the abstract or no abstract; the paper was not read |
+| **Who paid for it or has an interest** | Not checked: the funding statement was not read |
+| **Cited by** | 203 citations in OpenAlex on 2026-10-07 (academic papers are counted there, not among the source files) |
+| **Grade** | B — 5 points: reliability 3 (peer-reviewed), date 0, citations 2, method 0 |
+
+## What it says
+
+A conceptual paper with no new data. It argues that travel satisfaction is not only a result of mode, duration and attitudes but also a cause: repeated satisfying or unsatisfying trips shape satisfaction with daily travel, which shapes attitudes, mode choice, the choice of where to live and long-term well-being. Commute trips are repetitive, so mode choice becomes a habit and is not reconsidered unless the context is disrupted; temporary disruptions mostly do not last.
+
+## Data and quotes used
+
+- Type of evidence: conceptual paper based on earlier studies; no sample, no new data (PDF p.2-3).
+- Trip duration lowers travel satisfaction: 'With longer durations, travellers become less enthusiastic, less relaxed and they will evaluate the quality and efficiency of the trip lower' (PDF p.6).
+- Mode and satisfaction: 'People using public transport (bus in particular) seem least satisfied with their trip, while active travel results in the highest levels of travel satisfaction'; why is not clear, 'partly because of a lack of studies using qualitative data' (PDF p.6).
+- What shapes satisfaction by mode: for car users congestion, travel time reliability, parking, other road users; for public transport cleanliness, comfort, staff behaviour, safety, punctuality and frequency (PDF p.7).
+- Spill-over to work: 'A stressful and/or tiring commute trip ... might negatively impact performance at work and satisfaction with work'; travel time can also be used to prepare mentally for the activity ahead (PDF p.5).
+- Activities on board: public transport allows reading, calls, working; many are 'anti-activities' that give a time out, and some 'might be attempts to abate boredom' (PDF p.7).
+- Habit: 'frequently performed behaviour in stable contexts is unlikely to be spontaneously reconsidered and changed as the cost of searching for and constructing new alternatives is generally high and the expected benefits associated with new alternatives uncertain' (PDF p.12).
+- Disrupting habits: temporary road changes or a free bus ticket for habitual drivers reduce car use during the period, but 'most people return to car use after going back to the original state'; a permanent context change such as moving home opens a window in which the mode is reconsidered (PDF p.13).
+- With intermediate or high satisfaction with daily travel 'people will most likely not look for alternative travel modes'; with low satisfaction they may change mode or relocate (PDF p.12). Footnote: being very satisfied with the neighbourhood may be a reason to put up with unsatisfying travel (PDF p.10).
+- The link between trip satisfaction and satisfaction with daily travel is expected to be stronger for commute trips because they are more repetitive and stable (PDF p.10).
+- Research gaps named by the authors: in-depth interviews and longitudinal data on how repeated good or bad trips change satisfaction, attitudes and choices; real-time measures of emotions before, during and after a trip (PDF p.13-14).
+
+## Limits
+
+No data of its own: the links are proposals, several are stated as 'possible' or 'plausible'. The cited studies are mostly on urban trips and single-mode trips; nothing on combined door-to-door trips between cities. Published in 2017, before hybrid work. Useful as a frame for interviews, not as proof.
+
+## Used in
+
+No finding rests on this source yet.
+
+## Connections
+
+Links to the notes that share evidence with this one. The same files are listed by name in the `related` field of the metadata block.
+
+- Collected for activity A2 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
+- Shares a source landscape with [AP-006_vos_2022_does-commute-duration-attenuate.md](AP-006_vos_2022_does-commute-duration-attenuate.md) and [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md): the Ghent research on travel satisfaction.
+- Shares the pain point `habit` with [AP-001_goransson_2023_factors-that-make-public.md](AP-001_goransson_2023_factors-that-make-public.md), [AP-012_zarabi_2023_understanding-travel-mode-choice.md](AP-012_zarabi_2023_understanding-travel-mode-choice.md), [AP-018_vos_2018_people-travel-their-preferred.md](AP-018_vos_2018_people-travel-their-preferred.md), [AP-024_an_2022_multimodal-travel-behaviour-attitudes.md](AP-024_an_2022_multimodal-travel-behaviour-attitudes.md), [AP-027_keyes_2018_changing-influences-commuting-mode.md](AP-027_keyes_2018_changing-influences-commuting-mode.md), [GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md](../Global_Reports/GR-009_oecd-itf_2021_integrating-public-transport-into-maas.md), [GR-037_imove-australia_2021_sydney-maas-trial-final-report.md](../Global_Reports/GR-037_imove-australia_2021_sydney-maas-trial-final-report.md), [GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md](../Global_Reports/GR-041_bmv-infas_2025_mobilitaet-in-deutschland-2023.md) and [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md): habit and the lack of a real choice of means.
+- The moments of the journey drawn from this note are listed in [02_Generated_Touchpoints.md](../../../06_Analysis/02_Generated_Touchpoints.md).

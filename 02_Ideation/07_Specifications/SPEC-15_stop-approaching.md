@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, first-last-mile]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
 ---
 
 # SPEC-15: The Stop Approaching
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-23](../../01_Research/Analysis/Generated_User_Stories.md) | a young commuter in Madrid (desk persona) | As a young commuter in Madrid (desk persona), on a bus, two stops before her own, I want to be told when my stop is approaching, so that she can sit without thinking about the stop and not miss it if she falls asleep. | All of it |
+| concept | [F-23](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a young commuter in Madrid (desk persona) | As a young commuter in Madrid (desk persona), on a bus, two stops before her own, I want to be told when my stop is approaching, so that she can sit without thinking about the stop and not miss it if she falls asleep. | All of it |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-23](../../01_Research/Analysis/Generated_Features.md) |
-| **Touchpoints** | [TP-074](../../01_Research/Analysis/Generated_Touchpoints.md) |
+| **Features** | [F-23](../../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-074](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
 | **Problem questions** | [HMW-26](../01_How_might_we.md) |
 | **Concepts** | [C26-01](../03_AI_Ideas.md), [C26-02](../03_AI_Ideas.md), [C26-07](../03_AI_Ideas.md), [C26-08](../03_AI_Ideas.md), [C26-10](../03_AI_Ideas.md) |
 | **Families** | [FAM-01](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-16](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md) |

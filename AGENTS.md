@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-01 17:09
+date: 2026-11-02 23:29
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -10,7 +10,7 @@ tags: [internal, rules]
 
 Rules for any AI agent working in this repository. Read this file in full before changing anything.
 
-The project is the discovery phase of a digital product design project about intercity commuting door to door, run by Marco. Start from `00_Intro/Brief/brief.md` and `01_Research/Questions/initial_questions.md`.
+The project is the discovery phase of a digital product design project about intercity commuting door to door, run by Marco. Start from `00_Intro/Brief/brief.md` and `01_Research/01_Questions/02_initial_questions.md`.
 
 Repository layout:
 
@@ -20,14 +20,17 @@ Repository layout:
 | `00_Intro/` | The project brief and the metadata schema |
 | `00_Intro/Brief/` | The project brief |
 | `00_Intro/Metadata/` | The metadata schema: the block every file starts with and its allowed values |
-| `01_Research/` | The research plan, the desk research instructions, the interview script and the research outputs |
-| `01_Research/Questions/` | The initial research questions and the prompt that generated them |
-| `01_Research/Interviews/` | Recordings, automatic transcripts and one notes file per interview |
-| `01_Research/Survey/` | The commuter survey in five languages, where to post it and the script that builds the forms |
-| `01_Research/Desk_Research/Doc_Notes/` | One synthesis note per source, in a folder per source category: notes written from the sources, not the sources themselves |
-| `01_Research/Desk_Research/docs/` | Documents downloaded from the sources, in one folder per category. Excluded from Git |
-| `01_Research/Desk_Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
+| `01_Research/` | The research, in numbered folders in the order they were created |
+| `01_Research/01_Questions/` | The initial research questions and the prompt that generated them |
+| `01_Research/02_Plan/` | The research plan, the desk research instructions, the progress record and the open issues |
+| `01_Research/03_Desk_Research/Doc_Notes/` | One synthesis note per source, in a folder per source category: notes written from the sources, not the sources themselves |
+| `01_Research/03_Desk_Research/docs/` | Documents downloaded from the sources, in one folder per category. Excluded from Git |
+| `01_Research/03_Desk_Research/docs_md/` | Markdown conversions of the documents and text captures of web pages, in one folder per category. Excluded from Git |
+| `01_Research/04_Interviews/` | The interview script, recordings, automatic transcripts and one notes file per interview |
+| `01_Research/05_Survey/` | The commuter survey in six languages, where to post it, the script that builds the forms, the answers and the results |
+| `01_Research/06_Analysis/` | Touchpoints, features and user stories built on the research, the research web page, and the prompts that generated them |
 | `02_Ideation/` | How-Might-We questions, the concepts generated for them, their families, their marks and the chosen concept |
+| `02_Ideation/Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `02_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
@@ -50,9 +53,9 @@ Put a new document in the folder it belongs to, not in the root. Create a new fo
 Every folder has a `README.md` that says what is in it, which file to read for what, and what not to read in full. They exist to save reading.
 
 - **Read the README of a folder before opening its files**, and open only the files it points you to.
-- For the sources, go `01_Research/README.md` → `01_Research/Desk_Research/Doc_Notes/README.md` → the `README.md` of one category, which is the index of its sources → the single source files you need. Do not open the source files one by one, and do not read the text copies in `01_Research/Desk_Research/docs_md/` from start to finish: search them.
-- **Keep the READMEs current.** When you add, remove, rename or regrade a file, or change its content substantially, update the README of its folder in the same change, including the counts and the state it reports. This covers every kind of file, not only Markdown, for example `research.html` (instruction 35).
-- A README describes and points; it does not hold findings or rules. Rules stay in this file, in `00_Intro/Metadata/metadata_schema.md` and in `01_Research/desk_research_instructions.md`.
+- For the sources, go `01_Research/README.md` → `01_Research/03_Desk_Research/Doc_Notes/README.md` → the `README.md` of one category, which is the index of its sources → the single source files you need. Do not open the source files one by one, and do not read the text copies in `01_Research/03_Desk_Research/docs_md/` from start to finish: search them.
+- **Keep the READMEs current.** When you add, remove, rename or regrade a file, or change its content substantially, update the README of its folder in the same change, including the counts and the state it reports. This covers every kind of file, not only Markdown, for example `01_research.html` (instruction 35).
+- A README describes and points; it does not hold findings or rules. Rules stay in this file, in `00_Intro/Metadata/metadata_schema.md` and in `01_Research/02_Plan/02_desk_research_instructions.md`.
 - The `README.md` in the repository root is Marco's own front page; do not change it unless he asks.
 - README files have no metadata block.
 
@@ -91,37 +94,38 @@ This section is the running list of the standing instructions Marco gives during
 | 8 | 2026-10-05 | Updated by 9 (the log is for file history only). Log files have no metadata block. The log can show a new agent what not to do. | The logs are useful to a new instance of the agent to understand what not to do |
 | 9 | 2026-10-05 | Do not use the log for the project's analysis and generation activities. It is only there to track the history of the files. Details in section 2. | The log is needed only to track file history |
 | 10 | 2026-10-05 | Keep a single log file for the whole project, `CHANGELOG.md`, not one log per document. Details in section 2. | One log per file increases entropy |
-| 11 | 2026-10-05 | Keep the desk research instructions in a single file of their own, `01_Research/desk_research_instructions.md`, not inside this file. Details in section 3. | Marco wants a file that contains only the desk research plan |
+| 11 | 2026-10-05 | Keep the desk research instructions in a single file of their own, `01_Research/02_Plan/02_desk_research_instructions.md`, not inside this file. Details in section 3. | Marco wants a file that contains only the desk research plan |
 | 12 | 2026-10-05 | Keep the metadata block definition in its own file, `00_Intro/Metadata/metadata_schema.md`, and take metadata values only from its fixed lists. Details in section 4. | To systematise the metadata so that categories and tags do not multiply |
-| 13 | 2026-10-05 | Grade every source, record confidence as an honest value, verify every citation by opening it, and trace every claim to its source. Details in `00_Intro/Metadata/metadata_schema.md` and `01_Research/desk_research_instructions.md`. | Not stated; taken from a slide Marco shared ("Sources, confidence") |
-| 14 | 2026-10-05 | Do not set arbitrary steps or numbers for the research. For each source category, draft a concise candidate list for Marco to vet; what follows is decided with him once it is known which sources there are and how many. Details in `01_Research/plan.md` and `01_Research/desk_research_instructions.md`. | Marco did not like the arbitrary pilot step and wants to vet the sources before deciding |
-| 15 | 2026-10-06 | While doing the desk research, keep everything tracked in `01_Research/progress.md`, updated as the work goes, so that the work can resume without starting over if tokens run out. Details in section 13 of `01_Research/desk_research_instructions.md`. | Marco may run out of tokens and wants to restart without redoing everything |
-| 16 | 2026-10-06 | Convert every downloaded PDF to Markdown with `pymupdf4llm` (OCR with `tesseract` where needed) into `01_Research/Desk_Research/docs_md/`, with the same name as the PDF. Details in section 11 of `01_Research/desk_research_instructions.md`. | Marco wants the PDFs as Markdown files and asked to install and use these tools |
-| 17 | 2026-10-06 | Extend the research scope from Europe to the Western countries and the more advanced countries of the rest of the world that resemble the West, mainly to find technology solutions and pain points. Details in section 3 of `01_Research/desk_research_instructions.md`. | Marco is not sure that what was found in Europe is valuable, especially for technology solutions and pain points |
-| 18 | 2026-10-06 | Include sources in languages other than English, searched in their own language, and note which tools to install to read them (in `01_Research/progress.md`). Details in section 3 of `01_Research/desk_research_instructions.md`. | Marco wants the research to cover the wider scope in the languages of those countries |
-| 19 | 2026-10-06 | Every source gets Markdown files: PDFs are converted, and web pages are captured as text, into `01_Research/Desk_Research/docs_md/`. Details in section 11 of `01_Research/desk_research_instructions.md`. | Marco wants the Markdown files of the sources first, and the interpretation later |
-| 20 | 2026-10-07 | Keep `01_Research/Desk_Research/docs/` and `01_Research/Desk_Research/docs_md/` split by category, with the same folder names as `01_Research/Desk_Research/Doc_Notes/`. Details in section 11 of `01_Research/desk_research_instructions.md`. | Marco wants the sources divided by category |
+| 13 | 2026-10-05 | Grade every source, record confidence as an honest value, verify every citation by opening it, and trace every claim to its source. Details in `00_Intro/Metadata/metadata_schema.md` and `01_Research/02_Plan/02_desk_research_instructions.md`. | Not stated; taken from a slide Marco shared ("Sources, confidence") |
+| 14 | 2026-10-05 | Do not set arbitrary steps or numbers for the research. For each source category, draft a concise candidate list for Marco to vet; what follows is decided with him once it is known which sources there are and how many. Details in `01_Research/02_Plan/01_plan.md` and `01_Research/02_Plan/02_desk_research_instructions.md`. | Marco did not like the arbitrary pilot step and wants to vet the sources before deciding |
+| 15 | 2026-10-06 | While doing the desk research, keep everything tracked in `01_Research/02_Plan/03_progress.md`, updated as the work goes, so that the work can resume without starting over if tokens run out. Details in section 13 of `01_Research/02_Plan/02_desk_research_instructions.md`. | Marco may run out of tokens and wants to restart without redoing everything |
+| 16 | 2026-10-06 | Convert every downloaded PDF to Markdown with `pymupdf4llm` (OCR with `tesseract` where needed) into `01_Research/03_Desk_Research/docs_md/`, with the same name as the PDF. Details in section 11 of `01_Research/02_Plan/02_desk_research_instructions.md`. | Marco wants the PDFs as Markdown files and asked to install and use these tools |
+| 17 | 2026-10-06 | Extend the research scope from Europe to the Western countries and the more advanced countries of the rest of the world that resemble the West, mainly to find technology solutions and pain points. Details in section 3 of `01_Research/02_Plan/02_desk_research_instructions.md`. | Marco is not sure that what was found in Europe is valuable, especially for technology solutions and pain points |
+| 18 | 2026-10-06 | Include sources in languages other than English, searched in their own language, and note which tools to install to read them (in `01_Research/02_Plan/03_progress.md`). Details in section 3 of `01_Research/02_Plan/02_desk_research_instructions.md`. | Marco wants the research to cover the wider scope in the languages of those countries |
+| 19 | 2026-10-06 | Every source gets Markdown files: PDFs are converted, and web pages are captured as text, into `01_Research/03_Desk_Research/docs_md/`. Details in section 11 of `01_Research/02_Plan/02_desk_research_instructions.md`. | Marco wants the Markdown files of the sources first, and the interpretation later |
+| 20 | 2026-10-07 | Keep `01_Research/03_Desk_Research/docs/` and `01_Research/03_Desk_Research/docs_md/` split by category, with the same folder names as `01_Research/03_Desk_Research/Doc_Notes/`. Details in section 11 of `01_Research/02_Plan/02_desk_research_instructions.md`. | Marco wants the sources divided by category |
 | 21 | 2026-10-07 | For the papers, do not ask anything more: keep all, download and convert. Then continue through the remaining categories with the extended scope until the desk research is finished, updating the progress file, and leave the interpretation for later. | Marco wants the collection finished before the interpretation |
 | 22 | 2026-10-07 | Keep a `README.md` in every folder that guides agents to the right file, so that they do not read every Markdown file each time; read the README of a folder first and keep it current. Details under "Folder guides" below. | To guide agents without making them read all the Markdown files every time |
-| 23 | 2026-10-07 | Widen the scope of the brief: do not think only of the Italian commuter, make a general analysis of commuting in multimodal environments, and decide the rest later ("e poi vediamo"). Applied on 2026-10-08: "Scope" section in `00_Intro/Brief/brief.md` and section 3 of `01_Research/desk_research_instructions.md`. | In Italy 86% use the car (Marco's figure, as he stated it) |
+| 23 | 2026-10-07 | Widen the scope of the brief: do not think only of the Italian commuter, make a general analysis of commuting in multimodal environments, and decide the rest later ("e poi vediamo"). Applied on 2026-10-08: "Scope" section in `00_Intro/Brief/brief.md` and section 3 of `01_Research/02_Plan/02_desk_research_instructions.md`. | In Italy 86% use the car (Marco's figure, as he stated it) |
 | 24 | 2026-10-12 | Keep the tags to the smallest possible set, in the order phase, origin, type, topics: a phase tag (`research` now, `design` and `development` later), an origin tag in place of the `channel` field (`desk`, `interview`, `internal`), nine type tags and the eight topic tags. Details in section 8 of `00_Intro/Metadata/metadata_schema.md`. | To assign the tags of the metadata layer correctly, with the fewest tags possible for the knowledge base |
 | 25 | 2026-10-12 | Keep `Index.md` in the repository root with one row per file showing the file name and its tags; use it first to find and connect files, and update it whenever a file or its tags change. Details under "Index" above. | To help the agent connect and find things faster, without searching the whole repository |
 | 27 | 2026-10-12 | Tag the single pain points with a small, granular set of terms (twelve pain-point tags, section 8 of `00_Intro/Metadata/metadata_schema.md`), and keep the findings of each interview inside its notes file without the finding numbers of the earlier analysis, which will come back under another naming system. | The analysis will come back in another form with another categorisation of the findings |
 | 28 | 2026-10-12 | Do not list `README.md` files in `Index.md`. | Not stated |
 | 29 | 2026-10-12 | Texts written for respondents, such as the survey, are made in the languages of the places where they are posted, one file per language; the reference version stays in English. | The survey has to reach Italians and people in other countries |
 | 30 | 2026-10-12 | Do not list the interview transcripts or the lists of sources (`*_candidates.md`, `*_to_obtain.md`) in `Index.md`. | Not stated; taken from Marco's own edit of the index |
-| 31 | 2026-10-16 | Keep the notes on the sources in `01_Research/Desk_Research/Doc_Notes/`, next to the documents they are written from (`docs/`, `docs_md/`), with a name that says they are synthesis notes and not the original sources. | The folder held synthesis notes, and its old name `Sources` suggested the original sources |
+| 31 | 2026-10-16 | Keep the notes on the sources in `01_Research/03_Desk_Research/Doc_Notes/`, next to the documents they are written from (`docs/`, `docs_md/`), with a name that says they are synthesis notes and not the original sources. | The folder held synthesis notes, and its old name `Sources` suggested the original sources |
 | 32 | 2026-10-19 | Use the origin tag `survey` for files whose content comes from the answers to a questionnaire. Details in section 8 of `00_Intro/Metadata/metadata_schema.md`. | The survey results did not come from an interview, and no origin tag fitted them |
 | 33 | 2026-10-19 | Updated by 34 (commit without being asked). Whenever Marco asks for a commit, push it to GitHub right after. | Not stated |
 | 34 | 2026-10-22 | After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
-| 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `research.html` had been added to `01_Research/Analysis/` without a row in its README |
+| 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `01_research.html` had been added to `01_Research/06_Analysis/` without a row in its README |
 | 36 | 2026-11-01 | Name the files of `02_Ideation/` with a progressive number at the start, in the order of the process: `01_How_might_we.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
+| 37 | 2026-11-02 | Number the folders of `01_Research/` in the order they were created (`01_Questions/` to `06_Analysis/`), and number the files inside that have no progressive number yet, in the order they were created. Files that already carry a number or an ID keep it (source IDs such as `GR-001`, the course prompts `prompt-01-…`). The interview files stay without numbers. The plan and the instructions for running it go in `01_Research/02_Plan/`. | To put order in the research folder |
 
 ### Language
 
 - Every file in the project is written in English, whatever language Marco uses in the conversation.
 - This covers content, headings, metadata, change logs and file names.
-- The only exceptions are a verbatim quote from a source or an interviewee, which stays in its original language with an English translation, and the texts written for respondents, such as the survey translations in `01_Research/Survey/`.
+- The only exceptions are a verbatim quote from a source or an interviewee, which stays in its original language with an English translation, and the texts written for respondents, such as the survey translations in `01_Research/05_Survey/`.
 
 ## 2. Change log
 
@@ -129,7 +133,7 @@ Marco wants a trace of what changed in each file and why, without filling the fo
 
 ### Rules
 
-1. **Edit the original file in place.** Always work on the file with the base name, for example `01_Research/plan.md`. Do not create `_v<N>` copies or other duplicates.
+1. **Edit the original file in place.** Always work on the file with the base name, for example `01_Research/02_Plan/01_plan.md`. Do not create `_v<N>` copies or other duplicates.
 2. **Record the change in `CHANGELOG.md`.** There is one log for the whole project. Do not create a log per file or per folder.
 3. **One entry per request**, even when the request changed several files. List all of them in the entry.
 4. **Never rewrite or delete past entries.** The log only grows.
@@ -155,7 +159,7 @@ Entries go newest first, under the introduction of the log:
 ```markdown
 ## 2026-10-05 20:42
 
-- **Files:** `01_Research/plan.md`, `AGENTS.md`
+- **Files:** `01_Research/02_Plan/01_plan.md`, `AGENTS.md`
 - **Change:** <what was modified, in one to three lines>
 - **Why:** <Marco's reason, in his terms>
 - **Do not:** <only when the change reverses an earlier approach: what was abandoned and must not be reintroduced>
@@ -173,11 +177,11 @@ Tell Marco which files you changed and what you wrote in the log, so he can corr
 
 ## 3. Desk research
 
-The desk research instructions are in their own file: `01_Research/desk_research_instructions.md`. That file is the only copy; do not repeat its content here.
+The desk research instructions are in their own file: `01_Research/02_Plan/02_desk_research_instructions.md`. That file is the only copy; do not repeat its content here.
 
 - Read it in full at the start of every desk research session, before searching for anything.
 - `CLAUDE.md` imports it, so Claude Code loads it automatically. Other agents must open it themselves.
-- The activities, their outputs and the run order are in `01_Research/plan.md`.
+- The activities, their outputs and the run order are in `01_Research/02_Plan/01_plan.md`.
 
 ## 4. File metadata
 

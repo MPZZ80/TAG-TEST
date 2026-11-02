@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:16
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [05_Ideas_prioritization.md, 04_Human+AI_Ideas.md, 03_AI_Ideas.md, 02_Human_Ideas.md, 01_How_might_we.md, Generated_User_Stories.md, Generated_Features.md]
+related: [05_Ideas_prioritization.md, 04_Human+AI_Ideas.md, 03_AI_Ideas.md, 02_Human_Ideas.md, 01_How_might_we.md, 04_Generated_User_Stories.md, 03_Generated_Features.md]
 ---
 
 # Chosen Concept: The Whole Commute, Told As It Is
@@ -21,7 +21,7 @@ related: [05_Ideas_prioritization.md, 04_Human+AI_Ideas.md, 03_AI_Ideas.md, 02_H
 
 A service that knows the commuter's usual door to door trip and tells them, and the people who depend on them, how that trip really stands: the delay measured from where the vehicle really is and reported by the travellers on the line, with its source and a time that allows for reality, said as early as it is known and given as one answer to act on. The place itself shows it too. When the trip breaks, every way still open is shown side by side, the fallbacks the commuter settled beforehand come into play, and nothing changes for them without their consent. Travellers carry part of it together, the trip can be bought as one, rules and rights oblige operators to act, and the trip or the habit can change so that the problem does not arise.
 
-It is for the commuters of the stories in [Generated_User_Stories.md](../01_Research/Analysis/Generated_User_Stories.md), first those of the interviews:
+It is for the commuters of the stories in [04_Generated_User_Stories.md](../01_Research/06_Analysis/04_Generated_User_Stories.md), first those of the interviews:
 
 - **The Como commuter**, on the platform while the delay on the board grows (F-01): "a 20 inizio a sentire la puzza, a 25 la puzza si fa più forte e aspetto solo che appaia la scritta annullato" (at 20 I begin to smell it, at 25 the smell is stronger and I only wait for the word cancelled to appear).
 - **The single-line commuter**, during the seven minutes he drives to the station, who wants to "wait in the warm car" if the train is late (F-03).
@@ -107,7 +107,7 @@ Every one of the 27 questions of [01_How_might_we.md](01_How_might_we.md) is ans
 
 - **Lead families:** the main families with two or more concepts for that question; "in the background" names a background family with two or more.
 - **Where the background holds most of the answers:** HMW-06, HMW-11, HMW-18, HMW-19, HMW-23, HMW-24 and HMW-25 have more background concepts than main ones; HMW-20 has as many. Their stories are in the concept, but their main answers are thin: see the next section.
-- **Features with no story:** F-14b and F-17b were sent back in `Generated_User_Stories.md`, so no question and no family reaches them.
+- **Features with no story:** F-14b and F-17b were sent back in `04_Generated_User_Stories.md`, so no question and no family reaches them.
 
 ## Where the material is thin
 
@@ -131,5 +131,5 @@ Every one of the 27 questions of [01_How_might_we.md](01_How_might_we.md) is ans
 - [03_AI_Ideas.md](03_AI_Ideas.md): the AI concepts, from whose IDs the questions of each family are read.
 - [02_Human_Ideas.md](02_Human_Ideas.md): Marco's concepts S01 to S06, in FAM-01, FAM-02, FAM-03, FAM-07, FAM-13 and FAM-18.
 - [01_How_might_we.md](01_How_might_we.md): the 27 questions, each with its feature and persona.
-- [Generated_User_Stories.md](../01_Research/Analysis/Generated_User_Stories.md): the stories behind the questions, and the personas.
-- [Generated_Features.md](../01_Research/Analysis/Generated_Features.md): the features named in the tables.
+- [04_Generated_User_Stories.md](../01_Research/06_Analysis/04_Generated_User_Stories.md): the stories behind the questions, and the personas.
+- [03_Generated_Features.md](../01_Research/06_Analysis/03_Generated_Features.md): the features named in the tables.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, information, tight-connection, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
 ---
 
 # SPEC-08: The Connection Ahead
@@ -17,8 +17,8 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-06](../../01_Research/Analysis/Generated_User_Stories.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Whether it holds and the next one. Warning the people is SPEC-07 |
-| concept | [F-22](../../01_Research/Analysis/Generated_User_Stories.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. | All of it, with the limits in "Open questions" |
+| concept | [F-06](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Whether it holds and the next one. Warning the people is SPEC-07 |
+| concept | [F-22](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. | All of it, with the limits in "Open questions" |
 
 These stories belong together because both are the commuter on a late run, before a change, wanting to know what happens to the connection: whether it holds, and whether it can be made to wait.
 
@@ -27,8 +27,8 @@ These stories belong together because both are the commuter on a late run, befor
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-06](../../01_Research/Analysis/Generated_Features.md), [F-22](../../01_Research/Analysis/Generated_Features.md) |
-| **Touchpoints** | [TP-053](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-057](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-060](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-061](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-068](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-106](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-069](../../01_Research/Analysis/Generated_Touchpoints.md) |
+| **Features** | [F-06](../../01_Research/06_Analysis/03_Generated_Features.md), [F-22](../../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-053](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-057](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-060](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-061](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-068](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-106](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-069](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
 | **Problem questions** | [HMW-09](../01_How_might_we.md), [HMW-25](../01_How_might_we.md) |
 | **Concepts** | [C09-01](../03_AI_Ideas.md), [C09-02](../03_AI_Ideas.md), [C09-03](../03_AI_Ideas.md), [C09-09](../03_AI_Ideas.md), [C09-12](../03_AI_Ideas.md), [C25-05](../03_AI_Ideas.md), [C25-12](../03_AI_Ideas.md); background: [C25-01](../03_AI_Ideas.md), [C25-02](../03_AI_Ideas.md) |
 | **Families** | [FAM-08](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md); background: [FAM-23](../04_Human+AI_Ideas.md) |

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 19:22
+date: 2026-11-02 23:29
 method: generated
 status: draft
 grade: n/a
@@ -16,7 +16,7 @@ The 330 concepts of [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md), each marked on
 ## What the marks are measured against
 
 - **Scale:** 3 [strong], 2 [medium], 1 [weak], 0 [out]. One 0 on any axis puts a concept out, whatever the other two say.
-- **Valuable:** the "so that" or the quote of the story behind the question. Each reason ends with those words and the story, checked word for word against [Generated_User_Stories.md](../01_Research/Analysis/Generated_User_Stories.md).
+- **Valuable:** the "so that" or the quote of the story behind the question. Each reason ends with those words and the story, checked word for word against [04_Generated_User_Stories.md](../01_Research/06_Analysis/04_Generated_User_Stories.md).
 - **Feasible:** one flow, prototyped in this course by Marco and his agent. Anything needing hardware, a timetable or live feed, or an organisation or rule to change gets 1, as Marco asked. Other people's input, or a person behind the flow, gets 2. A flow that works on what the person enters gets 3. The reasons on this axis and on relevant are standard wordings, one per case.
 - **Relevant:** the chosen moment. **Assumption:** no moment has been chosen in this round, and the brief does not name one. Each concept is measured against the moment of its own question, as in the first round. 3 acts in that moment, 2 just before or after it, 1 on the wider system, 0 removes the moment by changing the trip.
 - **Marco's concepts** are marked against the question each one answers in [04_Human+AI_Ideas.md](04_Human+AI_Ideas.md): S01 against HMW-05, S02 and S03 against HMW-01, S04 against HMW-12, S05 against HMW-05, S06 against HMW-07. Their question numbers come from the assignment he confirmed.

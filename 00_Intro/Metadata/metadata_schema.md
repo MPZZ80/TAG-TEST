@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-10-28 11:37
+date: 2026-11-02 23:29
 method: generated
 status: draft
 grade: n/a
@@ -92,7 +92,7 @@ Every file has a status. It says how settled the file is, not how true its conte
 | `C` | Source score of 0 to 3 |
 | `n/a` | The file contains no evidence |
 
-- The score is built from who produced the source, its date, how often it is cited and whether it states its method. The scoring rules are in section 12 of `../../01_Research/desk_research_instructions.md`, which is the only copy.
+- The score is built from who produced the source, its date, how often it is cited and whether it states its method. The scoring rules are in section 12 of `../../01_Research/02_Plan/02_desk_research_instructions.md`, which is the only copy.
 - The grade applies to files of type `source`, `output` and `synthesis`. A source file carries the grade of its source. An output or synthesis carries the grade most common among the sources behind its findings.
 - How to grade interview `notes` will be decided before the interviews. Until then they have `grade: n/a`.
 
@@ -107,7 +107,7 @@ Confidence applies to files of type `output`, `notes` and `synthesis`. Every oth
 | `low` | Everything else |
 | `n/a` | The file contains no evidence |
 
-- The full rules are in section 12 of `../../01_Research/desk_research_instructions.md`.
+- The full rules are in section 12 of `../../01_Research/02_Plan/02_desk_research_instructions.md`.
 - The value in the metadata is the level most common among the findings of the file. Each finding also carries its own rating.
 - **Confidence is a value, not an apology.** Set it to what the rules give and state the content plainly. Do not raise it to make a file look stronger, and do not replace it with hedging in the text.
 - **A low-confidence file is an honest file.** `low` is a normal and useful value: it tells Marco what still needs checking.
@@ -219,7 +219,7 @@ Added on 2026-10-12 on Marco's instruction.
 Added on 2026-10-12 on Marco's instruction, to turn the files into a network.
 
 ```markdown
-related: [plan.md, desk_research_partial_analysis.md, GR-006_european-commission_2026_swd-300-impact-assessment.md]
+related: [01_plan.md, desk_research_partial_analysis.md, GR-006_european-commission_2026_swd-300-impact-assessment.md]
 ```
 
 - It lists, by file name exactly as in `Index.md`, the other files that share material evidence with this one: the same pain point, the same moment of the commute, the same source landscape.

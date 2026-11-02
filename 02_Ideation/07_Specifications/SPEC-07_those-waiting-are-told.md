@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, first-last-mile, late-info]
-related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md]
+related: [SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md, 02_Human_Ideas.md]
 ---
 
 # SPEC-07: Those Waiting Are Told
@@ -17,9 +17,9 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-09](../../01_Research/Analysis/Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, on the train back to Verona with his father coming to fetch him at the station, I want to share the train time and the live arrival, with a confirmation of any delay, with the person driving or waiting, so that the person who comes to the station knows when he arrives. | All of it |
-| concept | [F-06](../../01_Research/Analysis/Generated_User_Stories.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Warning the people he is meeting. Whether the connection holds is SPEC-08 |
-| concept | [F-02](../../01_Research/Analysis/Generated_User_Stories.md) | a teenager (desk persona) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. | Calling home: home sees the same state. The ways out are SPEC-06 |
+| concept | [F-09](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, on the train back to Verona with his father coming to fetch him at the station, I want to share the train time and the live arrival, with a confirmation of any delay, with the person driving or waiting, so that the person who comes to the station knows when he arrives. | All of it |
+| concept | [F-06](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Warning the people he is meeting. Whether the connection holds is SPEC-08 |
+| concept | [F-02](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a teenager (desk persona) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. | Calling home: home sees the same state. The ways out are SPEC-06 |
 
 These stories belong together because in each someone else depends on the commuter's arrival (a father fetching him, colleagues he is meeting, a parent who would drive out), and that person should know the arrival without the commuter having to manage it.
 
@@ -28,8 +28,8 @@ These stories belong together because in each someone else depends on the commut
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-09](../../01_Research/Analysis/Generated_Features.md), [F-06](../../01_Research/Analysis/Generated_Features.md), [F-02](../../01_Research/Analysis/Generated_Features.md) |
-| **Touchpoints** | [TP-004](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-048](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-075](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-106](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-107](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-084](../../01_Research/Analysis/Generated_Touchpoints.md) |
+| **Features** | [F-09](../../01_Research/06_Analysis/03_Generated_Features.md), [F-06](../../01_Research/06_Analysis/03_Generated_Features.md), [F-02](../../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-004](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-048](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-075](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-106](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-107](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-084](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
 | **Problem questions** | [HMW-12](../01_How_might_we.md), [HMW-09](../01_How_might_we.md), [HMW-04](../01_How_might_we.md), [HMW-03](../01_How_might_we.md) |
 | **Concepts** | [S04](../02_Human_Ideas.md), [C12-01](../03_AI_Ideas.md), [C12-02](../03_AI_Ideas.md), [C12-04](../03_AI_Ideas.md), [C12-05](../03_AI_Ideas.md), [C12-06](../03_AI_Ideas.md), [C12-07](../03_AI_Ideas.md), [C12-08](../03_AI_Ideas.md), [C12-12](../03_AI_Ideas.md), [C09-05](../03_AI_Ideas.md), [C04-05](../03_AI_Ideas.md) |
 | **Families** | [FAM-13](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-06](../04_Human+AI_Ideas.md), [FAM-16](../04_Human+AI_Ideas.md) |

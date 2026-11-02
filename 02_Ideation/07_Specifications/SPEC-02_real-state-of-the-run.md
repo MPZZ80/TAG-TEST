@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, unreliable-service]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, Generated_User_Stories.md, 01_How_might_we.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, 04_Generated_User_Stories.md, 01_How_might_we.md, 06_Chosen_concept.md]
 ---
 
 # SPEC-02: The Real State of the Run
@@ -17,15 +17,15 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-01](../../01_Research/Analysis/Generated_User_Stories.md) | the Como commuter | As the Como commuter, standing on the platform watching the delay on the board grow from 5 to 10 to 15 minutes while a third-party app shows another time, I want to see where the train really is, when it will really leave and arrive, why it is late and which source says so, so that he knows as early as an unofficial app would tell him. | All of it. The reports of other travellers it uses are collected by SPEC-03 |
+| concept | [F-01](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Como commuter | As the Como commuter, standing on the platform watching the delay on the board grow from 5 to 10 to 15 minutes while a third-party app shows another time, I want to see where the train really is, when it will really leave and arrive, why it is late and which source says so, so that he knows as early as an unofficial app would tell him. | All of it. The reports of other travellers it uses are collected by SPEC-03 |
 
 ## Traceability
 
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-01](../../01_Research/Analysis/Generated_Features.md) |
-| **Touchpoints** | [TP-028](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-029](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-038](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-043](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-067](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-070](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-075](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-088](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-089](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-090](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-091](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-092](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-096](../../01_Research/Analysis/Generated_Touchpoints.md) |
+| **Features** | [F-01](../../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-028](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-029](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-038](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-043](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-067](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-070](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-075](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-088](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-089](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-090](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-091](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-092](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-096](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
 | **Problem questions** | [HMW-01](../01_How_might_we.md), [HMW-02](../01_How_might_we.md) |
 | **Concepts** | [S02](../02_Human_Ideas.md), [S03](../02_Human_Ideas.md), [C01-01](../03_AI_Ideas.md), [C01-02](../03_AI_Ideas.md), [C01-03](../03_AI_Ideas.md) [risky], [C01-05](../03_AI_Ideas.md) [risky], [C01-10](../03_AI_Ideas.md), [C01-11](../03_AI_Ideas.md), [C02-02](../03_AI_Ideas.md), [C02-08](../03_AI_Ideas.md), [C02-11](../03_AI_Ideas.md); background: [C01-07](../03_AI_Ideas.md), [C01-08](../03_AI_Ideas.md) |
 | **Families** | [FAM-02](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md), [FAM-01](../04_Human+AI_Ideas.md), [FAM-16](../04_Human+AI_Ideas.md); background: [FAM-05](../04_Human+AI_Ideas.md) |

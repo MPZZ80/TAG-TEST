@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-02 21:32
+date: 2026-11-02 23:29
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, tight-connection, first-last-mile, unreliable-service, workarounds]
-related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, Generated_User_Stories.md, 06_Chosen_concept.md]
+related: [SPEC-01_foundation.md, SPEC-03_travellers-report.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, 04_Generated_User_Stories.md, 06_Chosen_concept.md]
 ---
 
 # SPEC-10: Times That Can Be Kept
@@ -17,9 +17,9 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 | Priority | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- | --- |
-| concept | [F-05](../../01_Research/Analysis/Generated_User_Stories.md) | a London traveller (desk persona) | As a London traveller (desk persona), changing at King's Cross for a train to Luton, when the app says the walk to the platform takes 3 minutes, I want the way to the first stop and from the last one, where to board included, planned and timed at the length it really takes, so that I do not miss the train after running for 10 minutes. | All of it |
-| concept | [F-07](../../01_Research/Analysis/Generated_User_Stories.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), logging every trip and his connections, when the planner offers a change shorter than his own rule, I want the trip planned with my own minimum change time, margin, number of changes and own leg, and to see how tight each connection is, so that he relies only on connections he counts as real and not on "connections on paper". | All of it; regulars' marks on connections come from SPEC-03 |
-| concept | [F-13](../../01_Research/Analysis/Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, planning the trip while taking it for granted that his train will be 5 to 15 minutes late, I want to see the trip time and arrival I can expect from works and from how late that train usually is, so that the time he is promised is the time that is kept. | All of it |
+| concept | [F-05](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a London traveller (desk persona) | As a London traveller (desk persona), changing at King's Cross for a train to Luton, when the app says the walk to the platform takes 3 minutes, I want the way to the first stop and from the last one, where to board included, planned and timed at the length it really takes, so that I do not miss the train after running for 10 minutes. | All of it |
+| concept | [F-07](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), logging every trip and his connections, when the planner offers a change shorter than his own rule, I want the trip planned with my own minimum change time, margin, number of changes and own leg, and to see how tight each connection is, so that he relies only on connections he counts as real and not on "connections on paper". | All of it; regulars' marks on connections come from SPEC-03 |
+| concept | [F-13](../../01_Research/06_Analysis/04_Generated_User_Stories.md) | the Verona–Milan commuter | As the Verona–Milan commuter, planning the trip while taking it for granted that his train will be 5 to 15 minutes late, I want to see the trip time and arrival I can expect from works and from how late that train usually is, so that the time he is promised is the time that is kept. | All of it |
 
 These stories belong together because each asks that the times used to plan a trip (a walk, a change, an arrival) be the times that really happen, not the nominal ones, so that the plan can be kept.
 
@@ -28,8 +28,8 @@ These stories belong together because each asks that the times used to plan a tr
 | | |
 | --- | --- |
 | **Priority** | concept |
-| **Features** | [F-05](../../01_Research/Analysis/Generated_Features.md), [F-07](../../01_Research/Analysis/Generated_Features.md), [F-13](../../01_Research/Analysis/Generated_Features.md) |
-| **Touchpoints** | [TP-051](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-054](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-056](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-059](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-064](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-081](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-082](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-018](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-023](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-024](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-025](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-073](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-006](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-017](../../01_Research/Analysis/Generated_Touchpoints.md), [TP-041](../../01_Research/Analysis/Generated_Touchpoints.md) |
+| **Features** | [F-05](../../01_Research/06_Analysis/03_Generated_Features.md), [F-07](../../01_Research/06_Analysis/03_Generated_Features.md), [F-13](../../01_Research/06_Analysis/03_Generated_Features.md) |
+| **Touchpoints** | [TP-051](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-054](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-056](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-059](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-064](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-081](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-082](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-018](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-023](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-024](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-025](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-073](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-006](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-017](../../01_Research/06_Analysis/02_Generated_Touchpoints.md), [TP-041](../../01_Research/06_Analysis/02_Generated_Touchpoints.md) |
 | **Problem questions** | [HMW-08](../01_How_might_we.md), [HMW-10](../01_How_might_we.md), [HMW-16](../01_How_might_we.md) |
 | **Concepts** | [C08-01](../03_AI_Ideas.md), [C08-03](../03_AI_Ideas.md), [C08-04](../03_AI_Ideas.md), [C08-05](../03_AI_Ideas.md), [C08-06](../03_AI_Ideas.md), [C08-10](../03_AI_Ideas.md), [C10-01](../03_AI_Ideas.md), [C10-02](../03_AI_Ideas.md), [C10-05](../03_AI_Ideas.md), [C10-07](../03_AI_Ideas.md), [C10-08](../03_AI_Ideas.md), [C16-02](../03_AI_Ideas.md), [C16-05](../03_AI_Ideas.md), [C16-06](../03_AI_Ideas.md), [C16-07](../03_AI_Ideas.md); background: [C10-03](../03_AI_Ideas.md), [C16-04](../03_AI_Ideas.md) |
 | **Families** | [FAM-06](../04_Human+AI_Ideas.md), [FAM-03](../04_Human+AI_Ideas.md), [FAM-04](../04_Human+AI_Ideas.md), [FAM-08](../04_Human+AI_Ideas.md), [FAM-15](../04_Human+AI_Ideas.md); background: [FAM-10](../04_Human+AI_Ideas.md), [FAM-05](../04_Human+AI_Ideas.md) |

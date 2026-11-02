@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-01 16:40
+date: 2026-11-02 23:29
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information]
-related: [Human+AI_Ideas.md, Generated_User_Stories.md, Generated_Features.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
+related: [Human+AI_Ideas.md, 04_Generated_User_Stories.md, 03_Generated_Features.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
 ---
 
 # AI Ideas: Concepts for HMW-01 and HMW-02
@@ -90,8 +90,8 @@ HMW-02:
 
 ## Connections
 
-- [Generated_User_Stories.md](../../01_Research/Analysis/Generated_User_Stories.md): holds the two user stories, F-01 and F-09, behind the questions.
-- [Generated_Features.md](../../01_Research/Analysis/Generated_Features.md): the features F-01 and F-09 that the stories come from.
-- [Matteo_Rizzetto_notes.md](../../01_Research/Interviews/Matteo_Rizzetto_notes.md): the source of the F-01 quotes behind HMW-01.
-- [Marco_Palermo_notes.md](../../01_Research/Interviews/Marco_Palermo_notes.md): the source of the F-09 quotes behind HMW-02.
+- [04_Generated_User_Stories.md](../../01_Research/06_Analysis/04_Generated_User_Stories.md): holds the two user stories, F-01 and F-09, behind the questions.
+- [03_Generated_Features.md](../../01_Research/06_Analysis/03_Generated_Features.md): the features F-01 and F-09 that the stories come from.
+- [Matteo_Rizzetto_notes.md](../../01_Research/04_Interviews/Matteo_Rizzetto_notes.md): the source of the F-01 quotes behind HMW-01.
+- [Marco_Palermo_notes.md](../../01_Research/04_Interviews/Marco_Palermo_notes.md): the source of the F-09 quotes behind HMW-02.
 - [Human+AI_Ideas.md](Human+AI_Ideas.md): clusters these concepts with Marco's into families of directions.

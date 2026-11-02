@@ -13,6 +13,7 @@ The process was restarted on 2026-11-01.
 | `05_Ideas_prioritization.md` | The 330 concepts marked 0–3 on valuable, feasible and relevant, each with its reasons; the 174 concepts whose axes disagree; the 13 out; the count per axis; the same marks for the 27 families, also in order of their marks. Proposals, not a decision |
 | `06_Chosen_concept.md` | The chosen concept: all 27 families, 18 main and 9 in the background (FAM-05, 10, 12, 14, 20, 21, 22, 23, 24), each with its concepts, questions, features and marks; the 27 questions with the families that answer them; where the material is thin |
 | `07_Specifications/` | The specifications built from the user stories, those of the chosen concept first, one file each, and `Spec_instructions.md`, the project-independent instructions for writing them. 17 specifications for the 24 user stories, with an overview and a foundation; read its `README.md` first |
+| `Prompts/` | The course's example prompts for each step of the ideation, under their own names; see its `README.md` |
 | `_old/` | The first round, archived: questions, concepts, families, marks and the chosen concept. Not current; read its `README.md` before opening it |
 
 - Nothing here is ranked: the choice of questions and concepts is Marco's.
