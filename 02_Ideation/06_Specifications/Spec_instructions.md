@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 21:11
+date: 2026-11-02 21:12
 method: generated
 status: draft
 grade: n/a
@@ -28,6 +28,22 @@ Find the inputs. If the request does not say where they are, look for them in th
 - **No chosen concept:** every story has the same priority. Skip the priority rules below and say so in the overview.
 - **Project rules win.** If the project has its own conventions for language, metadata, file names, indexes or change logs, follow them on top of this file.
 - **Output folder:** the one the request names; otherwise the folder of this file.
+
+### Map of the references
+
+Before writing, list where each kind of reference lives in this project and how its IDs are written. The map goes at the top of the overview, and every specification uses the same IDs and links. Leave out a row the project does not have. For example:
+
+| ID | What it is | File |
+| --- | --- | --- |
+| `US-…` or feature · persona | User stories, the base of the specifications | <relative link> |
+| `F-…` | Features, with the touchpoints they answer | <relative link> |
+| `TP-…` | Touchpoints: moments of the user's journey, with their quotes | <relative link> |
+| `HMW-…` | Problem questions, each with the feature or story it comes from | <relative link> |
+| `S0…`, `C…-…` | Concepts, human and AI | <relative link> |
+| `FAM-…` | Families of concepts | <relative link> |
+| marks | Scores of the concepts, with their reasons | <relative link> |
+
+When an input has no IDs, give it short ones in the map, say so, and do not change the input file.
 
 ## 2. Steps
 
@@ -89,12 +105,13 @@ One row per story this specification serves, copied as written; concept stories 
 | | |
 | --- | --- |
 | **Priority** | <concept, if at least one story is concept; otherwise outside> |
-| **Features** | <IDs, with links, or none> |
-| **Touchpoints** | <IDs, with links, or none> |
-| **Problem questions** | <IDs, with links, or none> |
-| **Concepts** | <IDs, with links, or none> |
-| **Families** | <IDs, with links, or none> |
-| **Stages covered** | <the stages of the user's journey, or whole journey> |
+| **Features** | <F-…, each with its link, or none> |
+| **Touchpoints** | <TP-…, each with its link, or none> |
+| **Problem questions** | <HMW-…, each with its link, or none> |
+| **Concepts** | <S0… / C…-…, each with its link, or none> |
+| **Families** | <FAM-…, each with its link, or none> |
+| **Stages covered** | <the stages of the user's journey it acts on, or whole journey> |
+| **Marks** | <the scores of its concepts, if the project has them, or none> |
 | **Foundation** | <the sections of SPEC-01 it relies on> |
 
 ## Description
@@ -169,6 +186,13 @@ Elements marked [not traced] or [technology choice open], and what the person wh
 # Specifications: Overview
 
 <Two or three lines: how many stories, how many concept and outside, how many specifications, what they leave out.>
+
+## Map of the references
+
+| ID | What it is | File |
+| --- | --- | --- |
+
+## Specifications
 
 | Spec | Name | Priority | User stories | Features | Touchpoints | Problem questions | Concepts | Families |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

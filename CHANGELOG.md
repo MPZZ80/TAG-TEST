@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-02 21:12
+
+- **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`
+- **Change:** Back the detail of the references, in a form valid for any project: new "Map of the references" in section 1 (ID, what it is, file, with the ID patterns F-, TP-, HMW-, S0/C, FAM- as examples), the same map at the top of the overview template, and the traceability rows of a specification with their ID patterns and a new "Marks" row.
+- **Why:** Marco liked the specification structure with all its details and traceability, which the project-independent version had made generic.
+
 ## 2026-11-02 21:11
 
 - **Files:** `02_Ideation/06_Specifications/Spec_instructions.md`, `02_Ideation/06_Specifications/README.md`, `02_Ideation/README.md`
