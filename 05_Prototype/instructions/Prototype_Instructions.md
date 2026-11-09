@@ -1,12 +1,12 @@
 ---
 source: Marco
-date: 2026-11-09 20:46
+date: 2026-11-09 21:36
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, rules]
-related: [SPEC-00_overview.md, 05_Chosen_concept.md]
+related: [SPEC-00_overview.md]
 ---
 
 # Instructions for the Prototype
@@ -17,7 +17,7 @@ How an agent builds the prototype of the product in `05_Prototype/`. Read this f
 
 - A **frontend-only** prototype. It shows the interface, the flows between screens and the interactions on each screen.
 - It is **not a working application**. It does not need to compute real journeys, store anything or talk to any service.
-- What to show comes from the specifications in `../../04_Specifications/` (start from `SPEC-00_overview.md`) and from the chosen concept, `../../03_Ideation/02_Ideas/05_Chosen_concept.md`.
+- What to show comes from the specifications in `../../04_Specifications/` (start from `SPEC-00_overview.md`)
 
 ### Not allowed
 
@@ -109,4 +109,3 @@ DATA.trips = [
 ## Connections
 
 - `SPEC-00_overview.md`: the list of the specifications that the screens of the prototype show.
-- `05_Chosen_concept.md`: the concept the prototype represents.

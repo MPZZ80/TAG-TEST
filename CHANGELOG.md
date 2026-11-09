@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-09 21:36
+
+- **Files:** `05_Prototype/instructions/Prototype_Instructions.md`
+- **Change:** Marco removed the chosen concept from what the prototype shows: only the specifications in `04_Specifications/` remain. The agent then took `05_Chosen_concept.md` out of `related` and "Connections", and updated `date`. The prototype itself needed no change: every screen and dataset already traces to the specifications.
+- **Why:** Marco's own edit; reason not stated. He asked to follow all the instructions again.
+
 ## 2026-11-09 21:01
 
 - **Files:** created in `05_Prototype/`: `html/` index, trip, ways_out, contacts, plan, alerts (`.html`); `js/` common and one script per screen; `data/` ui_text, scenarios, commuter, usual_trip, ways_out, contacts, plan_ways (`.js`). Changed: `05_Prototype/css/style.css` and the READMEs of `05_Prototype/`, `html/`, `css/`, `js/`, `data/`.
