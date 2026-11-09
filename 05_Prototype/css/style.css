@@ -8,6 +8,9 @@
   --color-muted: #666666;
   --color-accent: #0055cc;
   --color-alert: #c62828;
+  --color-ok: #2e7d32;
+  --color-warn: #b26a00;
+  --color-surface: #f5f6f8;
   --color-border: #dddddd;
   --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-size: 16px;
@@ -51,3 +54,57 @@ button {
 .muted { color: var(--color-muted); }
 .alert { color: var(--color-alert); }
 .hidden { display: none; }
+
+h1 { font-size: 1.5rem; margin: var(--space) 0; }
+h2 { font-size: 1.125rem; margin: 0 0 calc(var(--space) / 2); }
+h3 { font-size: 1rem; }
+
+.site-header { border-bottom: 1px solid var(--color-border); padding-bottom: calc(var(--space) / 2); }
+.app-name { font-weight: 700; margin: 0 0 calc(var(--space) / 2); }
+.site-header nav { display: flex; flex-wrap: wrap; gap: var(--space); }
+.site-header a[aria-current="page"] { font-weight: 700; text-decoration: none; color: var(--color-text); }
+
+.answer {
+  margin: 0 0 var(--space);
+  padding: calc(var(--space) * 0.75);
+  border-radius: var(--radius);
+  border-left: 6px solid currentColor;
+  background: var(--color-surface);
+  font-weight: 600;
+}
+.tone-ok { color: var(--color-ok); }
+.tone-warn { color: var(--color-warn); }
+.tone-alert { color: var(--color-alert); }
+
+.state { font-weight: 700; }
+.state-on_time, .conn-holds { color: var(--color-ok); }
+.state-delayed, .state-unknown, .conn-at_risk { color: var(--color-warn); }
+.state-cancelled, .conn-lost { color: var(--color-alert); }
+
+.actions { display: flex; flex-wrap: wrap; gap: var(--space); align-items: center; }
+a.button {
+  padding: calc(var(--space) / 2) var(--space);
+  border-radius: var(--radius);
+  background: var(--color-accent);
+  color: var(--color-bg);
+  text-decoration: none;
+}
+button.secondary { background: var(--color-bg); color: var(--color-accent); }
+button:disabled { opacity: 0.5; cursor: default; }
+
+.legs, .facts { padding-left: 1.25em; }
+.legs li, .facts li { margin-bottom: calc(var(--space) / 2); }
+.grid { display: grid; gap: var(--space); }
+.check { display: block; padding: 4px 0; }
+fieldset legend { font-weight: 700; }
+blockquote { margin: 0; padding-left: var(--space); border-left: 3px solid var(--color-border); }
+dialog { border: 1px solid var(--color-border); border-radius: var(--radius); max-width: calc(var(--max-width) - 2 * var(--space)); }
+
+.demo {
+  margin-top: calc(var(--space) * 2);
+  padding: var(--space);
+  border: 1px dashed var(--color-muted);
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+}
+.demo h2 { font-size: 0.875rem; text-transform: uppercase; }

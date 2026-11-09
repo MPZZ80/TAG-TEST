@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-09 21:01
+
+- **Files:** created in `05_Prototype/`: `html/` index, trip, ways_out, contacts, plan, alerts (`.html`); `js/` common and one script per screen; `data/` ui_text, scenarios, commuter, usual_trip, ways_out, contacts, plan_ways (`.js`). Changed: `05_Prototype/css/style.css` and the READMEs of `05_Prototype/`, `html/`, `css/`, `js/`, `data/`.
+- **Change:** First prototype: six screens on the Como–Lugano usual trip showing SPEC-02 to SPEC-09 (trip at a glance, facts with source and age, travellers' reports, connection ahead, ways out with consent, contacts told, every way side by side, alert settings). Every content comes from commented mock datasets; a scenario switcher (on time, late 8, late 25, cancelled, no news) drives every screen. Placeholder CSS extended with the classes the screens use.
+- **Why:** Marco asked to create the prototype following `05_Prototype/instructions/Prototype_Instructions.md`.
+
 ## 2026-11-09 20:50
 
 - **Files:** created `05_Prototype/instructions/Prototype_Instructions.md`, `05_Prototype/css/style.css` and a `README.md` in `05_Prototype/` and in each of its folders (`html/`, `css/`, `js/`, `data/`, `assets/`, `instructions/`); `AGENTS.md` updated (layout row for `05_Prototype/`, log entry 39).
