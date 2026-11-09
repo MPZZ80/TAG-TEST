@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-09 20:50
+
+- **Files:** created `05_Prototype/instructions/Prototype_Instructions.md`, `05_Prototype/css/style.css` and a `README.md` in `05_Prototype/` and in each of its folders (`html/`, `css/`, `js/`, `data/`, `assets/`, `instructions/`); `AGENTS.md` updated (layout row for `05_Prototype/`, log entry 39).
+- **Change:** Instructions for a frontend-only prototype: no backend, API or server; plain HTML, CSS, JS; folder structure; placeholder style with values in `:root`; every content from commented datasets in `data/` (JS files on the global `DATA`, so the prototype opens from `file://`), mock now and client data later with the same fields.
+- **Why:** Marco asked for an instructions file to lay the foundations of a prototype that represents the UI, flows and interactions, not a working app; he asked for the name `Prototype_Instructions.md` in a folder called `05_Prototype`.
+
 ## 2026-11-03 00:42
 
 - **Files:** `02_Analysis/01_Touchpoints/999_Human_Touchpoints(not_complete).md` renamed `TP-999_Human_Touchpoints(not_complete).md`; `02_Analysis/README.md`, `02_Analysis/01_Touchpoints/README.md`, `Index.md` updated.

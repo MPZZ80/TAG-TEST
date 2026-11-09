@@ -1,0 +1,53 @@
+/*
+ * Placeholder stylesheet. Marco will provide the real style file later.
+ * Change values in :root, not the markup (see instructions/Prototype_Instructions.md, section 4).
+ */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-muted: #666666;
+  --color-accent: #0055cc;
+  --color-alert: #c62828;
+  --color-border: #dddddd;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-size: 16px;
+  --space: 16px;
+  --radius: 8px;
+  --max-width: 480px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: var(--space);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size);
+  line-height: 1.5;
+}
+
+a { color: var(--color-accent); }
+
+button {
+  font: inherit;
+  padding: calc(var(--space) / 2) var(--space);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius);
+  background: var(--color-accent);
+  color: var(--color-bg);
+  cursor: pointer;
+}
+
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space);
+  margin-bottom: var(--space);
+}
+
+.muted { color: var(--color-muted); }
+.alert { color: var(--color-alert); }
+.hidden { display: none; }
