@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-02 23:42
+date: 2026-11-16 18:08
 method: generated
 status: draft
 grade: n/a
@@ -19,11 +19,11 @@ Find the inputs. If the request does not say where they are, look for them in th
 | Input | Needed | What it gives |
 | --- | --- | --- |
 | User stories | Yes | The base of the specifications: who, in which moment, wants what, so that what |
-| Chosen concept or concepts | No | The direction already chosen; it sets the priority of the stories |
 | Problem questions (for example How-Might-We) | No | The link between a concept and the stories it answers |
 | Features, touchpoints, journey moments | No | What lies behind each story, and the quotes or evidence behind it |
 | Families of concepts, marks or scores | No | How the concepts were grouped and judged |
 
+- **Do not follow the chosen concept for now.** Even if the project has a chosen concept, ignore it: do not use it as an input, give every story the same priority, and skip the priority rules below.
 - **The choices are made.** Your job is to turn the stories into specifications, not to revisit which concept was chosen or how it was marked.
 - **No chosen concept:** every story has the same priority. Skip the priority rules below and say so in the overview.
 - **Project rules win.** If the project has its own conventions for language, metadata, file names, indexes or change logs, follow them on top of this file.

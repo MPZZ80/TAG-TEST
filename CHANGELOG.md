@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 18:08
+
+- **Files:** `04_Specifications/Spec_instructions.md`, `AGENTS.md`
+- **Change:** Section 1 "Before you start": the input row "Chosen concept or concepts" deleted, and a new first rule added: "Do not follow the chosen concept for now", which says to ignore it, give every story the same priority and skip the priority rules. `AGENTS.md`: log entry 40 records the instruction.
+- **Why:** Marco: "I don't want to follow the chosen concept right now, write it explicitly".
+
 ## 2026-11-16 17:46
 
 - **Files:** restored `05_Prototype/instructions/Prototype_Instructions.md` and `05_Prototype/instructions/README.md` from commit `9740110` (the version with Marco's edit); created `05_Prototype/README.md`; `AGENTS.md` updated (the `05_Prototype/` row back, log entry 39 marked restored).
