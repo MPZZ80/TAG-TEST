@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 17:26
+
+- **Files:** `04_Specifications/SPEC-00_overview.md`, `Index.md`
+- **Change:** Every relation to `05_Chosen_concept.md` removed from the overview: the link in the intro, the "main, background" row of the map, the "Background" note, the Priority column of both tables (all stories now have the same priority, as `Spec_instructions.md` says when there is no chosen concept), the "background:" labels in the Concepts and Families cells, "the 18 main families" for SPEC-01, the "Outside stories" and "Background concepts used" bullets, "(background)"/"(main)" after families, the chosen concept in `related` and "Connections". Concepts and families stay as traceability. `Index.md`: SPEC-00 moved last in its group, following its new date.
+- **Why:** Marco: "abbiamo detto che vogliamo ignorarlo per ora" (we said we want to ignore it for now).
+
 ## 2026-11-09 21:36
 
 - **Files:** `05_Prototype/instructions/Prototype_Instructions.md`

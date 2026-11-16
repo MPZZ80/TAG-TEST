@@ -802,7 +802,6 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 ## 04_Specifications
 
 - Spec_instructions.md — [design, internal, rules · draft · n/a · n/a]
-- SPEC-00_overview.md — [design, internal, output, information, disruption, planning · draft · n/a · n/a]
 - SPEC-01_foundation.md — [design, internal, output, information, disruption, planning, late-info, usual-trip, workarounds · draft · n/a · n/a]
 - SPEC-02_real-state-of-the-run.md — [design, internal, output, information, disruption, late-info, unreliable-service · draft · n/a · n/a]
 - SPEC-03_travellers-report.md — [design, internal, output, information, disruption, late-info, crowding, first-last-mile, workarounds · draft · n/a · n/a]
@@ -820,3 +819,4 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - SPEC-15_stop-approaching.md — [design, internal, output, information, first-last-mile · draft · n/a · n/a]
 - SPEC-16_the-route-stays-with-the-driver.md — [design, internal, output, tools, planning · draft · n/a · n/a]
 - SPEC-17_sessions-still-running.md — [design, internal, output, tools, first-last-mile · draft · n/a · n/a]
+- SPEC-00_overview.md — [design, internal, output, information, disruption, planning · draft · n/a · n/a]
