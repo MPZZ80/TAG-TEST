@@ -4,7 +4,7 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
-## 2026-11-16 23:40
+## 2026-11-16 23:34
 
 - **Files:** `05_Prototype/instructions/Prototype_Instructions.md`, `05_Prototype/instructions/README.md`, `05_Prototype/README.md`, `AGENTS.md`; created: `05_Prototype/html/` (17 screens), `05_Prototype/js/` (18 scripts), `05_Prototype/data/` (18 datasets), `05_Prototype/css/style.css`, and a `README.md` in `html/`, `js/`, `data/`, `css/`, `assets/`
 - **Change:** Section 9 "Choices for the first draft" added to the prototype instructions, with links in `related` and "Connections". First draft of the prototype built: one screen per specification SPEC-02 to SPEC-17 plus an index, a scenario selector (nothing set up, on time, late, cancelled), simulated messages, one mock clock, all content from mock datasets for the Verona–Milan commuter. AGENTS log entry 44, layout row of `05_Prototype/` updated.
