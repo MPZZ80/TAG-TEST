@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-16 18:17
+date: 2026-11-16 18:23
 method: generated
 status: draft
 grade: n/a
@@ -57,7 +57,7 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
 - **Technology-agnostic.** Name no platform, operating system, language, framework, vendor, database, API, data format or device brand. Describe what the system knows, decides and shows, and on which kind of channel ("a message on the channel the user chose", not the name of an app or a protocol). If a behaviour cannot be described without a technology, write the need it serves and mark it [technology choice open].
 - **Stories first.** The behaviour of a specification is what its stories ask for: the persona, the moment and the "so that" come from the stories, not from the wording of a concept. A concept shapes how the behaviour answers a story; it does not add to it.
 - **Keep every reference.** Every specification names, by its exact ID and with a relative link to the file that holds it, every story it serves, and every feature, touchpoint, problem question, concept and family it rests on, when the inputs have them. A specification with no concept or family behind it writes "none" for them.
-- **Logic, not screens.** Describe what starts it, what it needs to know, the rules it follows step by step, the states it can be in, and what the user sees or receives at each step. Layout and visual design are out of scope.
+- **Logic, not screens.** Describe what starts it, what it needs to know, the rules it follows step by step, the states it can be in, and what the user sees or receives at each step. Layout and visual design are out of scope. If a specification needs another element to work (information, a setting, an object, a choice of the user), that element must be specified too: how it is included, entered, configured or obtained, in the same specification or in another one, which it names. Nothing a behaviour relies on is assumed to exist already. When no story asks for that element, trace it to the specification that needs it.
 - **No invention.** Every rule and behaviour traces to a story, a feature, a problem question or the evidence behind them. A behaviour you need and cannot trace is marked [not traced] and listed under "Open questions"; it is not written as settled.
 - **Failure is a normal case.** For every specification, say what happens when the data is late, missing, wrong or contradicted by another source, when the process breaks halfway, and when the user does not respond.
 - **Say what part of the experience it covers.** Name the stages of the user's journey the specification acts on, using the stages the inputs define, or "whole journey".

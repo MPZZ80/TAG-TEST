@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 18:23
+
+- **Files:** `04_Specifications/Spec_instructions.md`, `AGENTS.md`
+- **Change:** Rule "Logic, not screens" (section 3) extended: an element a specification needs (information, setting, object, choice of the user) must itself be specified, in the same or another named specification, with how it is included, entered, configured or obtained; nothing is assumed to exist; when no story asks for it, it is traced to the specification that needs it. `AGENTS.md`: log entry 41.
+- **Why:** Marco asked for it, explaining it with an example he did not want in the file: an app that monitors a commuter's route must let the user set the route to monitor.
+
 ## 2026-11-16 18:17
 
 - **Files:** `04_Specifications/Spec_instructions.md`
