@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-16 18:08
+date: 2026-11-16 18:17
 method: generated
 status: draft
 grade: n/a
@@ -23,9 +23,8 @@ Find the inputs. If the request does not say where they are, look for them in th
 | Features, touchpoints, journey moments | No | What lies behind each story, and the quotes or evidence behind it |
 | Families of concepts, marks or scores | No | How the concepts were grouped and judged |
 
-- **Do not follow the chosen concept for now.** Even if the project has a chosen concept, ignore it: do not use it as an input, give every story the same priority, and skip the priority rules below.
-- **The choices are made.** Your job is to turn the stories into specifications, not to revisit which concept was chosen or how it was marked.
-- **No chosen concept:** every story has the same priority. Skip the priority rules below and say so in the overview.
+- **Do not follow the chosen concept for now.** Even if the project has a chosen concept, ignore it: do not use it as an input and do not rank the stories by it. Every story has the same weight.
+- **The inputs are settled.** Your job is to turn the stories into specifications, not to revisit the concepts or how they were marked.
 - **Project rules win.** If the project has its own conventions for language, metadata, file names, indexes or change logs, follow them on top of this file.
 - **Output folder:** create the specifications in `04_Specifications/`, unless the request names another folder.
 
@@ -47,26 +46,17 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
 
 ## 2. Steps
 
-1. **Give every story a priority.**
-   - **concept:** the story is answered by a chosen concept, directly or through the problem question that links them;
-   - **outside:** every other story.
-2. **Write the foundation first**, `SPEC-01_foundation.md`, with the template in section 5. It holds what two or more specifications need: the user, the things the product deals with, their states, the sources of information and how far each is trusted, the channels, the vocabulary, and the rules that hold everywhere (no data, late data, contradicting sources, what the user consents to share). What only one specification needs stays in that one. Every element names the stories that need it, concept stories first. The other specifications refer to the foundation by section and do not repeat it; they still describe their own behaviour in full.
-3. **Write the concept specifications.** Group the concept stories by the behaviour that meets their need: one specification per behaviour, numbered from `SPEC-02`. A specification may serve several stories, and a story may feed more than one specification; say why the stories of a specification belong together. If a story needs two behaviours that could ship apart, split it into two specifications and say so.
-4. **Take the outside stories, one by one.**
-   - If a specification already written meets its need, add the story to it, marked outside.
-   - If it needs a behaviour of its own, write a specification for it after the concept ones, marked outside.
-   - If it does not fit the product the concept stories outline, do not specify it: list it under "Not specified" with the reason.
-   - An outside story never changes a behaviour a concept story needs. Where the two pull apart, the concept story wins and the conflict goes in "Open questions".
-   - If an outside story needs something new in the foundation, add it there, marked outside.
-5. **Review the foundation** once every specification is written: remove what only one uses, add what several repeat.
-6. **Write the overview**, `SPEC-00_overview.md`: the list of the specifications, the traceability table, and every story with its priority and the specifications that serve it, or the reason it has none.
+1. **Write the foundation first**, `SPEC-01_foundation.md`, with the template in section 5. It holds what two or more specifications need: the user, the things the product deals with, their states, the sources of information and how far each is trusted, the channels, the vocabulary, and the rules that hold everywhere (no data, late data, contradicting sources, what the user consents to share). What only one specification needs stays in that one. Every element names the stories that need it. The other specifications refer to the foundation by section and do not repeat it; they still describe their own behaviour in full.
+2. **Write the specifications.** Group the stories by the behaviour that meets their need: one specification per behaviour, numbered from `SPEC-02`. A specification may serve several stories, and a story may feed more than one specification; say why the stories of a specification belong together. If a story needs two behaviours that could ship apart, split it into two specifications and say so. If a story does not fit the product the other stories outline, do not specify it: list it under "Not specified" with the reason.
+3. **Review the foundation** once every specification is written: remove what only one uses, add what several repeat.
+4. **Write the overview**, `SPEC-00_overview.md`: the list of the specifications, the traceability table, and every story with the specifications that serve it, or the reason it has none.
 
 ## 3. Rules
 
 - **Each file stands alone.** A designer, a developer or another agent must be able to build the behaviour from that file and the foundation, without opening anything else. References are there to trace a behaviour back, not to explain it.
 - **Technology-agnostic.** Name no platform, operating system, language, framework, vendor, database, API, data format or device brand. Describe what the system knows, decides and shows, and on which kind of channel ("a message on the channel the user chose", not the name of an app or a protocol). If a behaviour cannot be described without a technology, write the need it serves and mark it [technology choice open].
 - **Stories first.** The behaviour of a specification is what its stories ask for: the persona, the moment and the "so that" come from the stories, not from the wording of a concept. A concept shapes how the behaviour answers a story; it does not add to it.
-- **Keep every reference.** Every specification names, by its exact ID and with a relative link to the file that holds it, every story it serves with its priority, and every feature, touchpoint, problem question, concept and family it rests on, when the inputs have them. A specification with only outside stories writes "none" for concepts and families.
+- **Keep every reference.** Every specification names, by its exact ID and with a relative link to the file that holds it, every story it serves, and every feature, touchpoint, problem question, concept and family it rests on, when the inputs have them. A specification with no concept or family behind it writes "none" for them.
 - **Logic, not screens.** Describe what starts it, what it needs to know, the rules it follows step by step, the states it can be in, and what the user sees or receives at each step. Layout and visual design are out of scope.
 - **No invention.** Every rule and behaviour traces to a story, a feature, a problem question or the evidence behind them. A behaviour you need and cannot trace is marked [not traced] and listed under "Open questions"; it is not written as settled.
 - **Failure is a normal case.** For every specification, say what happens when the data is late, missing, wrong or contradicted by another source, when the process breaks halfway, and when the user does not respond.
@@ -95,17 +85,16 @@ Use this file as a prompt: it describes one behaviour to build, independent of a
 
 ## User stories served
 
-One row per story this specification serves, copied as written; concept stories first.
+One row per story this specification serves, copied as written.
 
-| Priority | Story ID or feature | Persona | Story | What this specification covers of it |
-| --- | --- | --- | --- | --- |
-| <concept / outside> | <ID, with link> | <persona> | <As a …, in …, I want …, so that …> | <all of it, or the part covered, and which specification covers the rest> |
+| Story ID or feature | Persona | Story | What this specification covers of it |
+| --- | --- | --- | --- |
+| <ID, with link> | <persona> | <As a …, in …, I want …, so that …> | <all of it, or the part covered, and which specification covers the rest> |
 
 ## Traceability
 
 | | |
 | --- | --- |
-| **Priority** | <concept, if at least one story is concept; otherwise outside> |
 | **Features** | <F-…, each with its link, or none> |
 | **Touchpoints** | <TP-…, each with its link, or none> |
 | **Problem questions** | <HMW-…, each with its link, or none> |
@@ -140,7 +129,7 @@ Behaviours marked [not traced] or [technology choice open], and what the person 
 
 ### The foundation
 
-Every section ends with the stories that need it (story · persona · priority) and the specifications that use it. Leave out a section no story needs.
+Every section ends with the stories that need it (story · persona) and the specifications that use it. Leave out a section no story needs.
 
 ```markdown
 # SPEC-01: Foundation
@@ -186,7 +175,7 @@ Elements marked [not traced] or [technology choice open], and what the person wh
 ```markdown
 # Specifications: Overview
 
-<Two or three lines: how many stories, how many concept and outside, how many specifications, what they leave out.>
+<Two or three lines: how many stories, how many specifications, what they leave out.>
 
 ## Map of the references
 
@@ -195,17 +184,17 @@ Elements marked [not traced] or [technology choice open], and what the person wh
 
 ## Specifications
 
-| Spec | Name | Priority | User stories | Features | Touchpoints | Problem questions | Concepts | Families |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Spec | Name | User stories | Features | Touchpoints | Problem questions | Concepts | Families |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 
 ## User stories and specifications
-One row per user story, concept stories first.
+One row per user story.
 
-| Priority | Story | Persona | Specifications |
-| --- | --- | --- | --- |
+| Story | Persona | Specifications |
+| --- | --- | --- |
 
 ## Splits and groupings
-Stories split into several specifications, stories grouped into one, outside stories added to a concept specification, and why.
+Stories split into several specifications, stories grouped into one, and why.
 
 ## Not specified
 Stories left without a specification, and why.

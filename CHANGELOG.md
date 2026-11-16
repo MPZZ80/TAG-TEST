@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 18:17
+
+- **Files:** `04_Specifications/Spec_instructions.md`
+- **Change:** Every priority tied to the chosen concept removed. Section 1: the "No chosen concept" bullet merged into "Do not follow the chosen concept for now"; "The choices are made" (which concept was chosen) became "The inputs are settled". Section 2: step 1 "Give every story a priority" (concept / outside) and step 4 "Take the outside stories" deleted, keeping only "not fitting the product → Not specified" inside the specifications step; "concept stories first" and "concept specifications" removed; steps renumbered 1–4. Section 3: "with its priority" and "only outside stories" removed. Templates: the Priority column of the stories tables, the Priority row of Traceability, "priority" in the foundation's note, the concept/outside counts and "outside stories added to a concept specification" in the overview removed. Concepts and families stay as references.
+- **Why:** Marco: "we just decided to ignore the chosen concept, check all the file for the chosen concept or prioritization connected to the chosen concept".
+- **Do not:** reintroduce the concept / outside priority of the stories while the chosen concept is ignored.
+
 ## 2026-11-16 18:08
 
 - **Files:** `04_Specifications/Spec_instructions.md`, `AGENTS.md`
