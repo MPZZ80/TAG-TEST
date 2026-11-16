@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 17:46
+
+- **Files:** restored `05_Prototype/instructions/Prototype_Instructions.md` and `05_Prototype/instructions/README.md` from commit `9740110` (the version with Marco's edit); created `05_Prototype/README.md`; `AGENTS.md` updated (the `05_Prototype/` row back, log entry 39 marked restored).
+- **Change:** The prototype instructions are back unchanged. The prototype itself (screens, scripts, data, stylesheet) stays deleted. The instructions still name `SPEC-00_overview.md`, which does not exist now.
+- **Why:** Marco: "recupera prototype instructions" (recover the prototype instructions). This reverses the deletion of the instructions only; the "Do not" of the previous entry no longer applies to them.
+
 ## 2026-11-16 17:35
 
 - **Files:** deleted: the whole `05_Prototype/` folder (instructions, screens, scripts, datasets, stylesheet, READMEs) and `04_Specifications/SPEC-00_overview.md` to `SPEC-17_sessions-still-running.md` (18 files). Changed: the 24 story files `02_Analysis/03_User_Stories/US-F-*.md`, `00_User_Stories_index.md` and the folder `README.md`; `02_Analysis/02_Features/00_Features_index.md`; `03_Ideation/01_How_Might_We/00_How_might_we_index.md`, `03_Ideation/02_Ideas/01_Human_Ideas_index.md`, `03_Families_index.md`, `04_Ideas_prioritization.md`, `05_Chosen_concept.md`, `03_Ideation/README.md`; `04_Specifications/README.md`; `Index.md`; `AGENTS.md`.
