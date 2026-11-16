@@ -2,4 +2,4 @@
 
 | File | What it is |
 | --- | --- |
-| `Prototype_Instructions.md` | What the prototype is and is not, the stack, the folder structure, the style placeholder, the rules for the mock and real data, screens and flows, quality and language. Read it in full before working on the prototype |
+| `Prototype_Instructions.md` | What the prototype is and is not, the stack, the folder structure, the style placeholder, the rules for the mock and real data, screens and flows, quality, language, and the choices for the first draft (section 9). Read it in full before working on the prototype |

@@ -1,12 +1,12 @@
 ---
 source: Marco
-date: 2026-11-09 21:36
+date: 2026-11-16 23:20
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, rules]
-related: [SPEC-00_overview.md]
+related: [SPEC-00_overview.md, SPEC-01_foundation.md, 00_Open_questions_index.md]
 ---
 
 # Instructions for the Prototype
@@ -17,7 +17,7 @@ How an agent builds the prototype of the product in `05_Prototype/`. Read this f
 
 - A **frontend-only** prototype. It shows the interface, the flows between screens and the interactions on each screen.
 - It is **not a working application**. It does not need to compute real journeys, store anything or talk to any service.
-- What to show comes from the specifications in `../../04_Specifications/` (start from `SPEC-00_overview.md`)
+- What to show comes from the specifications in `../../04_Specifications/` (start from `SPEC-00_overview.md`). The choices for the first draft are in section 9.
 
 ### Not allowed
 
@@ -106,6 +106,23 @@ DATA.trips = [
 - Files, comments and dataset names are in English, as for the rest of the repository.
 - The interface texts are in English unless Marco asks otherwise. Since they live in `data/ui_text.js`, another language is a different version of that file.
 
+## 9. Choices for the first draft
+
+Marco's choices of 2026-11-16, before the first draft was built.
+
+- **Screens:** every specification from SPEC-02 to SPEC-17 has at least one screen. The rules of SPEC-01 (source, age and status of every fact; "no news since"; what is missing and where to set it up) show on every screen.
+- **Set-up data:** what the set-up screen (SPEC-02) shows comes from the mock dataset of the commuter's set-up, `data/profile.js`, and every other screen reads the same dataset, so that all screens tell one consistent story. What is typed into the prototype is not kept: to change the set-up, change the dataset.
+- **Open questions:** where a specification leaves a value open (see `../../04_Specifications/01_Open_Questions/`), the dataset uses a provisional value and a comment names the question, for example `// provisional, OQ-02`.
+- **Scenarios:** a visible selector switches between the scenarios of `data/scenarios.js`: nothing set up, on time, late, cancelled. The scenario passes from screen to screen in the URL query (`?scenario=late`).
+- **Persona:** one commuter, the Verona–Milan commuter. The situations of the other stories (parking, a shared bike, a drive, step-free access) are shown on his trips.
+- **Messages outside the product** (alerts, a message to a contact, the stop approaching) are simulated as a notification at the top of the page, from `data/notifications.js`, triggered by a visible control.
+- **The contact** who waits has no screen of their own: the prototype shows the message they receive.
+- **Time:** one mock clock for every screen, `DATA.clock`.
+- **`index.html`** is the index of the screens, for review, with the scenario selector.
+- **Changes** to the files of the prototype are recorded in `CHANGELOG.md` like any other file, one entry per request.
+
 ## Connections
 
-- `SPEC-00_overview.md`: the list of the specifications that the screens of the prototype show.
+- [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md): the list of the specifications that the screens of the prototype show.
+- [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md): the rules every screen follows.
+- [00_Open_questions_index.md](../../04_Specifications/01_Open_Questions/00_Open_questions_index.md): the open questions whose provisional values the datasets use.
