@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 17:35
+date: 2026-11-16 18:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-24_travel-information-first-hurry.md, HMW-27_keep-few-seconds-deciding-whether.md]
+related: [F-24_travel-information-first-hurry.md, HMW-27_keep-few-seconds-deciding-whether.md, SPEC-05_todays-trip-at-a-glance.md]
 ---
 
 # Story F-24
@@ -20,7 +20,7 @@ As an Italian bus user (desk persona), in a hurry to catch a bus, opening the ap
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-24_travel-information-first-hurry.md](../02_Features/F-24_travel-information-first-hurry.md) |
 | **Questions (HMW)** | [HMW-27](../../03_Ideation/01_How_Might_We/HMW-27_keep-few-seconds-deciding-whether.md) |
-| **Specifications** | none: the specifications were deleted on 2026-11-16 |
+| **Specifications** | [SPEC-05](../../04_Specifications/SPEC-05_todays-trip-at-a-glance.md) |
 
 ## Source
 
@@ -30,3 +30,4 @@ As an Italian bus user (desk persona), in a hurry to catch a bus, opening the ap
 
 - [F-24_travel-information-first-hurry.md](../02_Features/F-24_travel-information-first-hurry.md): the feature this story carries.
 - [HMW-27_keep-few-seconds-deciding-whether.md](../../03_Ideation/01_How_Might_We/HMW-27_keep-few-seconds-deciding-whether.md): the How-Might-We questions written from this story.
+- [SPEC-05_todays-trip-at-a-glance.md](../../04_Specifications/SPEC-05_todays-trip-at-a-glance.md): the specifications that serve this story.

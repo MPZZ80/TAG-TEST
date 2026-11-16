@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 17:35
+date: 2026-11-16 18:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds]
-related: [00_Features_index.md, 00_How_might_we_index.md, 05_Chosen_concept.md]
+related: [00_Features_index.md, 00_How_might_we_index.md, 05_Chosen_concept.md, SPEC-00_overview.md]
 ---
 
 # User Stories from the Features
@@ -29,7 +29,7 @@ One user story for each feature in [00_Features_index.md](../02_Features/00_Feat
 
 ## Stories
 
-One row per story; the story itself, its source line (feature · note · quote) and the specifications that serve it, once written, are in its own file in [./](./).
+One row per story; the story itself, its source line (feature · note · quote) and the specifications that serve it are in its own file in [./](./).
 
 | Story | Persona | Evidence · impact | Feature |
 | --- | --- | --- | --- |
@@ -95,3 +95,4 @@ These have no story. The notes show the moment, but no outcome the person seeks 
 - [00_Features_index.md](../02_Features/00_Features_index.md) holds the features these stories carry, with the touchpoints and the evidence behind each.
 - [00_How_might_we_index.md](../../03_Ideation/01_How_Might_We/00_How_might_we_index.md) holds the questions written from these stories.
 - [05_Chosen_concept.md](../../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept, built on the questions written from these stories.
+- [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md): the overview of the specifications written from these stories, with every story and the specifications that serve it.

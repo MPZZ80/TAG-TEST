@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 18:41
+
+- **Files:** created in `04_Specifications/`: `SPEC-00_overview.md`, `SPEC-01_foundation.md`, `SPEC-02_the-commuters-set-up.md` to `SPEC-17_sessions-still-running.md` (18 files); changed: `04_Specifications/README.md`, the 24 story files `02_Analysis/03_User_Stories/US-F-*.md` ("Specifications" row, `related`, "Connections"), `00_User_Stories_index.md` and the folder `README.md`, `Index.md`, `AGENTS.md` (layout row of `04_Specifications/`).
+- **Change:** New specifications written with the revised `Spec_instructions.md`: every story with the same weight, the chosen concept not used, concepts and families cited as references only (every concept of each story's questions), each specification with "Depends on" and "Provides", and a dependencies table in the overview. New compared with the specifications deleted earlier the same day: SPEC-02, where the commuter enters doors, usual trip, days, own rules, needs, channels and consent to use position, written because the other specifications depend on them; the trip of the day held in SPEC-05; no specification for travellers reporting, since no story asks for it ("other travellers" is a source in the foundation).
+- **Why:** Marco asked to create the specifications following `Spec_instructions.md`, and to ask questions where needed. This is a new round, not the reintroduction of the deleted specifications.
+
 ## 2026-11-16 18:29
 
 - **Files:** `04_Specifications/Spec_instructions.md`, `AGENTS.md`

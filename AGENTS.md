@@ -34,7 +34,7 @@ Repository layout:
 | `03_Ideation/02_Ideas/` | Marco's and the AI's concepts and their families, one file each, with their indexes, the marks and the chosen concept |
 | `03_Ideation/00_Ideation_Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
-| `04_Specifications/` | The instructions for writing specifications from the user stories, to be revised with Marco; the specifications go here, one file per behaviour, once written |
+| `04_Specifications/` | The specifications written from the user stories, one file per behaviour, with the instructions for writing them |
 | `05_Prototype/` | The instructions for a frontend-only prototype (HTML, CSS, JavaScript, mock data), in `instructions/Prototype_Instructions.md`; the prototype itself is not built yet |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.

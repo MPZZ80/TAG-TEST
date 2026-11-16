@@ -1,0 +1,87 @@
+---
+source: Claude
+date: 2026-11-16 18:41
+method: synthesis
+status: draft
+grade: n/a
+confidence: n/a
+tags: [design, internal, output, planning, why-now, hybrid-work]
+related: [US-F-12_ticket-fits-days-travelled.md, F-12_ticket-fits-days-travelled.md, HMW-15_keep-como-commuter-whose-office.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-02_the-commuters-set-up.md, SPEC-11_tickets-that-work-when-needed.md]
+---
+
+# SPEC-12: The Fare That Fits the Days
+
+Use this file as a prompt: it describes one behaviour to build, independent of any technology.
+
+## User stories served
+
+One row per story this specification serves, copied as written.
+
+| Story ID or feature | Persona | Story | What this specification covers of it |
+| --- | --- | --- | --- |
+| [F-12](../02_Analysis/03_User_Stories/US-F-12_ticket-fits-days-travelled.md) | the Como commuter | As the Como commuter, when his office days fell to about one a week and the pass still cost 70 euro a month, I want to know which pass, carnet or single tickets cost least for the days I actually travel, so that he does not pay for a pass meant for daily travel. | All of it |
+
+**Why these stories belong together:** One story.
+
+## Traceability
+
+| | |
+| --- | --- |
+| **Features** | [F-12](../02_Analysis/02_Features/F-12_ticket-fits-days-travelled.md) |
+| **Touchpoints** | [TP-002](../02_Analysis/01_Touchpoints/TP-002_deciding-days-go-office.md), [TP-003](../02_Analysis/01_Touchpoints/TP-003_working-home-some-days.md), [TP-007](../02_Analysis/01_Touchpoints/TP-007_choosing-pass-carnet-single.md) |
+| **Problem questions** | [HMW-15](../03_Ideation/01_How_Might_We/HMW-15_keep-como-commuter-whose-office.md) |
+| **Concepts** | [C15-01](../03_Ideation/02_Ideas/C15-01_cheapest-days.md), [C15-02](../03_Ideation/02_Ideas/C15-02_told-stops-paying.md), [C15-03](../03_Ideation/02_Ideas/C15-03_pay-day.md), [C15-04](../03_Ideation/02_Ideas/C15-04_price-cap.md), [C15-05](../03_Ideation/02_Ideas/C15-05_pause-pass.md), [C15-06](../03_Ideation/02_Ideas/C15-06_part-time-pass.md), [C15-07](../03_Ideation/02_Ideas/C15-07_best-price-duty.md), [C15-08](../03_Ideation/02_Ideas/C15-08_pass-shared-colleagues.md), [C15-09](../03_Ideation/02_Ideas/C15-09_employer-pays-day.md), [C15-10](../03_Ideation/02_Ideas/C15-10_count-days.md), [C15-11](../03_Ideation/02_Ideas/C15-11_drop-pass.md), [C15-12](../03_Ideation/02_Ideas/C15-12_others-tallies.md) |
+| **Families** | [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md) Travellers report, [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md) One answer, not data, [FAM-14](../03_Ideation/02_Ideas/FAM-14_step-done-them.md) The step done for them, [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md) It knows the traveller, [FAM-21](../03_Ideation/02_Ideas/FAM-21_prices-tickets-fit-real.md) Prices and tickets that fit the real use, [FAM-25](../03_Ideation/02_Ideas/FAM-25_rules-rights.md) Rules and rights, [FAM-26](../03_Ideation/02_Ideas/FAM-26_travellers-carry-together.md) Travellers carry it together, [FAM-27](../03_Ideation/02_Ideas/FAM-27_change-trip-habit.md) Change the trip or the habit |
+| **Stages covered** | planning |
+| **Marks** | FAM-03 2 · 2 · 3; FAM-08 3 · 1 · 3; FAM-14 3 · 1 · 3; FAM-15 2 · 3 · 2; FAM-21 2 · 1 · 1; FAM-25 2 · 1 · 1; FAM-26 1 · 2 · 3; FAM-27 1 · 1 · 0 (valuable · feasible · relevant, by family, from [04_Ideas_prioritization.md](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)) |
+| **Foundation** | The things it deals with (ticket); Sources of information (third parties) |
+
+Concepts and families are references only: the behaviour below comes from the stories.
+
+## Description
+
+Tells the commuter which pass, carnet or single tickets cost least for the days they actually travel.
+
+## Operating logic
+
+- **Starts when:** The commuter asks, or the days actually travelled over a period change against the ticket held [not traced: whether the product says so first].
+- **Needs to know:** The days actually travelled: the completed trips of the day (SPEC-05) and the days of travel (SPEC-02); the fares for the usual trip (operators); the ticket held (SPEC-11).
+- **Rules:**
+  1. Count the days actually travelled over a period, from completed trips, or from the days of travel when there are no trips yet.
+  2. Compare the cost of a pass, a carnet and single tickets for those days.
+  3. Say which costs least, and how much it saves against the ticket held.
+  4. Let the commuter correct the count of days.
+- **States:** None of its own.
+- **The user receives:** Inside the product: the cheapest fare for the days travelled, with the comparison behind it.
+- **Depends on:** Trip of the day ([SPEC-05](SPEC-05_todays-trip-at-a-glance.md)); Days of travel ([SPEC-02](SPEC-02_the-commuters-set-up.md)); Tickets held ([SPEC-11](SPEC-11_tickets-that-work-when-needed.md)); Usual trip ([SPEC-02](SPEC-02_the-commuters-set-up.md))
+- **Provides:** none
+
+## When things go wrong
+
+- **No usual trip:** no fare can be compared; the commuter is led to SPEC-02.
+- **No trips and no days of travel:** the commuter enters how many days they travel.
+- **A fare unknown:** that option is shown as unknown.
+
+## Out of scope
+
+Buying the fare (SPEC-11).
+
+## Acceptance criteria
+
+- **Given** about one office day a week and a monthly pass **when** the commuter asks **then** they see that single tickets or a carnet cost less, and by how much.
+- **Given** the commuter corrects the days to three a week **when** the comparison is shown again **then** it uses three days.
+
+## Open questions
+
+- The period over which days are counted [not traced].
+
+## Connections
+
+- [US-F-12_ticket-fits-days-travelled.md](../02_Analysis/03_User_Stories/US-F-12_ticket-fits-days-travelled.md): a story this specification serves.
+- [F-12_ticket-fits-days-travelled.md](../02_Analysis/02_Features/F-12_ticket-fits-days-travelled.md): the feature behind story F-12.
+- [HMW-15_keep-como-commuter-whose-office.md](../03_Ideation/01_How_Might_We/HMW-15_keep-como-commuter-whose-office.md): the problem question written from a story it serves.
+- [SPEC-00_overview.md](SPEC-00_overview.md): the overview that lists this specification.
+- [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation it stands on.
+- [SPEC-05_todays-trip-at-a-glance.md](SPEC-05_todays-trip-at-a-glance.md): provides elements this specification depends on.
+- [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
+- [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): provides elements this specification depends on.
