@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, information, tight-connection, late-info]
-related: [US-F-06_whether-connection-still-holds.md, US-F-22_asking-connection-wait.md, F-06_whether-connection-still-holds.md, F-22_asking-connection-wait.md, HMW-09_help-como-commuter-8-23.md, HMW-25_help-german-rail-regular-late.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-02_the-commuters-set-up.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md]
+related: [US-F-06_whether-connection-still-holds.md, US-F-22_asking-connection-wait.md, F-06_whether-connection-still-holds.md, F-22_asking-connection-wait.md, HMW-09_help-como-commuter-8-23.md, HMW-25_help-german-rail-regular-late.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-02_the-commuters-set-up.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, OQ-17_how-early-before-a-change.md, OQ-18_asking-a-connection-to-wait.md]
 ---
 
 # SPEC-08: The Connection Ahead
@@ -78,8 +78,10 @@ Telling the people met (SPEC-07); the ways out if the connection is lost and no 
 
 ## Open questions
 
-- How long before the change the commuter is told [not traced].
-- Whether to build asking a connection to wait before operators can answer [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-17](01_Open_Questions/OQ-17_how-early-before-a-change.md)** How long before the change does the commuter learn whether the connection still holds? [not traced] Research: ⚠ not supported.
+- **[OQ-18](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md)** Is the request to hold a connection built before any operator can receive or answer it? [not traced] Research: ⚠ not supported.
 
 ## Connections
 
@@ -96,3 +98,5 @@ Telling the people met (SPEC-07); the ways out if the connection is lost and no 
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): depends on elements this specification provides.
 - [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): depends on elements this specification provides.
+- [OQ-17_how-early-before-a-change.md](01_Open_Questions/OQ-17_how-early-before-a-change.md): an open question this specification raises.
+- [OQ-18_asking-a-connection-to-wait.md](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md): an open question this specification raises.

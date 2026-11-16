@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, disruption]
-related: [Spec_instructions.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-door-to-door.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md, 00_User_Stories_index.md, 00_Features_index.md, 00_Touchpoints_index.md, 00_How_might_we_index.md, 03_Families_index.md, 04_Ideas_prioritization.md]
+related: [Spec_instructions.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-door-to-door.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md, 00_User_Stories_index.md, 00_Features_index.md, 00_Touchpoints_index.md, 00_How_might_we_index.md, 03_Families_index.md, 04_Ideas_prioritization.md, 00_Open_questions_index.md]
 ---
 
 # Specifications: Overview
@@ -127,70 +127,43 @@ One row per user story. Every story is also served by [SPEC-01](SPEC-01_foundati
 
 ## Open questions
 
-**From the foundation**
-- **Which sources** tell the real position of a vehicle, and which leads when they disagree [not traced]. (SPEC-01)
-- **The age limit** after which a fact is `outdated` [not traced]. (SPEC-01)
-- **How a message is heard while driving,** and other channels that reach the commuter without looking [technology choice open]. (SPEC-01)
+All the open questions of the specifications, 33 in all, one file each in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), where each is traced back to the research. Questions the research does not support are kept and marked ⚠.
 
-**SPEC-02 The Commuter's Set-Up**
-- Whether the product may suggest a usual trip from repeated trips, for the commuter to confirm [not traced].
-- Whether more than one usual trip is needed (for example the evening return, F-09) [not traced: the stories name one usual trip each].
-
-**SPEC-03 The Real State of the Run**
-- Which sources give the real position, and which leads the expected time when they disagree [not traced].
-- How long the record of past runs must be to tell how late a run usually is [not traced].
-
-**SPEC-04 Alerts on the Usual Trip**
-- Whether "nothing changed" should ever be said, for example at the first moment of the day [not traced].
-- How early before a travel day works and strikes are repeated [not traced].
-
-**SPEC-05 Today's Trip at a Glance**
-- What the first view shows at a stop with no usual trip from it: the next departures, which would need the commuter's position [not traced].
-
-**SPEC-06 Ways Out When the Trip Breaks**
-- Whether the cost of each way is shown: the notes record what people paid, not a wish to know it beforehand (F-02) [not traced].
-- After how long a bus not seen counts as not coming [not traced].
-- Whether minors use the product alone (F-02, a teenager) [not traced].
-
-**SPEC-07 Those Waiting Are Told**
-- By how much the arrival must move before the contact is told again [not traced].
-- Whether the contact is also told when to set off to the station (F-09: the father drives) [not traced].
-
-**SPEC-08 The Connection Ahead**
-- How long before the change the commuter is told [not traced].
-- Whether to build asking a connection to wait before operators can answer [not traced].
-
-**SPEC-09 Every Way Door to Door**
-- Whether a lift from a contact counts as a way [not traced].
-- Which car costs are counted (fuel, tolls, parking) [not traced].
-
-**SPEC-10 Times That Can Be Kept**
-- Where the real walking times come from [technology choice open].
-- How long reports or records are kept to time a leg [not traced].
-
-**SPEC-11 Tickets That Work When Needed**
-- Booking and paying as one across different sellers [technology choice open].
-- Moving a ticket with no signal [technology choice open].
-
-**SPEC-12 The Fare That Fits the Days**
-- The period over which days are counted [not traced].
-
-**SPEC-13 Compensation From the Trip**
-- Handing a claim to the operator when the ticket came from a seller [technology choice open].
-
-**SPEC-14 The Station Ahead**
-- Where the state of facilities comes from [technology choice open].
-
-**SPEC-15 The Stop Approaching**
-- How far before the stop, and how many repeats [not traced].
-- What reaches a commuter who is asleep [technology choice open].
-
-**SPEC-16 The Route Stays With the Driver**
-- Whether a driver's route fits the product, which is mostly about public transport [not traced].
-
-**SPEC-17 Sessions Still Running**
-- Ending a session by itself [technology choice open].
-- The reminder interval [not traced].
+| ID | Question | Raised in | Marker | Research support |
+| --- | --- | --- | --- | --- |
+| [OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md) | Which sources tell the real position, and which leads | SPEC-01, SPEC-03 | [not traced] | partly |
+| [OQ-02](01_Open_Questions/OQ-02_age-limit-of-a-fact.md) | The age after which a fact is outdated | SPEC-01, SPEC-03 | [not traced] | ⚠ not supported |
+| [OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md) | Reaching the commuter without looking: driving | SPEC-01, SPEC-04, SPEC-15, SPEC-16 | [technology choice open] | ⚠ not supported |
+| [OQ-04](01_Open_Questions/OQ-04_suggesting-the-usual-trip.md) | Suggesting the usual trip from repeated trips | SPEC-02 | [not traced] | ⚠ not supported |
+| [OQ-05](01_Open_Questions/OQ-05_more-than-one-usual-trip.md) | More than one usual trip | SPEC-02, SPEC-05, SPEC-07 | [not traced] | supported |
+| [OQ-06](01_Open_Questions/OQ-06_length-of-the-record-of-past-runs.md) | How long the record of past runs must be | SPEC-03 | [not traced] | ⚠ not supported |
+| [OQ-07](01_Open_Questions/OQ-07_saying-that-nothing-changed.md) | Saying that nothing changed | SPEC-04 | [not traced] | partly |
+| [OQ-08](01_Open_Questions/OQ-08_how-early-works-and-strikes-are-told.md) | How early works and strikes are told, and how often repeated | SPEC-04 | [not traced] | partly |
+| [OQ-09](01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md) | The first view at a stop with no usual trip | SPEC-05 | [not traced] | ⚠ not supported |
+| [OQ-10](01_Open_Questions/OQ-10_another-run-taken-without-saying.md) | Another run taken without saying so | SPEC-05 | [not traced] | partly |
+| [OQ-11](01_Open_Questions/OQ-11_whether-every-break-is-sent.md) | Whether every break of the trip is sent as a message | SPEC-06 | [not traced] | partly |
+| [OQ-12](01_Open_Questions/OQ-12_cost-of-each-way-out.md) | Showing the cost of each way out | SPEC-06 | [not traced] | partly |
+| [OQ-13](01_Open_Questions/OQ-13_when-a-vehicle-not-seen-is-not-coming.md) | When a vehicle not seen counts as not coming | SPEC-06 | [not traced] | ⚠ not supported |
+| [OQ-14](01_Open_Questions/OQ-14_minors-using-the-product-alone.md) | Minors using the product alone | SPEC-06, SPEC-07 | [not traced] | ⚠ not supported |
+| [OQ-15](01_Open_Questions/OQ-15_when-the-contact-is-told-again.md) | When the contact is told again | SPEC-07 | [not traced] | ⚠ not supported |
+| [OQ-16](01_Open_Questions/OQ-16_telling-the-contact-when-to-set-off.md) | Telling the contact when to set off | SPEC-07 | [not traced] | ⚠ not supported |
+| [OQ-17](01_Open_Questions/OQ-17_how-early-before-a-change.md) | How early before a change the commuter is told | SPEC-08 | [not traced] | ⚠ not supported |
+| [OQ-18](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md) | Asking a connection to wait before operators can answer | SPEC-08 | [not traced] | ⚠ not supported |
+| [OQ-19](01_Open_Questions/OQ-19_a-lift-as-a-way.md) | A lift from a contact as a way | SPEC-09, SPEC-06 | [not traced] | supported |
+| [OQ-20](01_Open_Questions/OQ-20_which-car-costs-are-counted.md) | Which car costs are counted | SPEC-09 | [not traced] | partly |
+| [OQ-21](01_Open_Questions/OQ-21_source-of-walking-times.md) | Where the real walking times come from | SPEC-10 | [technology choice open] | ⚠ not supported |
+| [OQ-22](01_Open_Questions/OQ-22_how-long-records-are-kept-to-time-a-leg.md) | How long records are kept to time a leg | SPEC-10 | [not traced] | ⚠ not supported |
+| [OQ-23](01_Open_Questions/OQ-23_booking-and-paying-across-sellers.md) | Booking and paying as one across sellers | SPEC-11 | [technology choice open] | ⚠ not supported |
+| [OQ-24](01_Open_Questions/OQ-24_moving-a-ticket-with-no-signal.md) | Moving a ticket with no signal | SPEC-11 | [technology choice open] | ⚠ not supported |
+| [OQ-25](01_Open_Questions/OQ-25_period-over-which-days-are-counted.md) | The period over which days of travel are counted | SPEC-12 | [not traced] | partly |
+| [OQ-26](01_Open_Questions/OQ-26_telling-first-that-the-fare-no-longer-fits.md) | Telling first that the fare no longer fits | SPEC-12 | [not traced] | ⚠ not supported |
+| [OQ-27](01_Open_Questions/OQ-27_claims-on-tickets-from-a-seller.md) | Handing a claim to the operator for a ticket from a seller | SPEC-13 | [technology choice open] | ⚠ not supported |
+| [OQ-28](01_Open_Questions/OQ-28_source-of-the-state-of-facilities.md) | Where the state of station facilities comes from | SPEC-14 | [technology choice open] | ⚠ not supported |
+| [OQ-29](01_Open_Questions/OQ-29_how-far-before-the-stop.md) | How far before the stop, and how many repeats | SPEC-15 | [not traced] | ⚠ not supported |
+| [OQ-30](01_Open_Questions/OQ-30_reaching-a-commuter-who-is-asleep.md) | Reaching a commuter who is asleep | SPEC-15 | [technology choice open] | ⚠ not supported |
+| [OQ-31](01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md) | Whether a driver's route fits the product | SPEC-16 | [not traced] | partly |
+| [OQ-32](01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md) | How a running session is known and ended | SPEC-17 | [technology choice open] | ⚠ not supported |
+| [OQ-33](01_Open_Questions/OQ-33_the-reminder-interval.md) | The reminder interval for a running session | SPEC-17 | [not traced] | ⚠ not supported |
 
 ## Connections
 
@@ -218,3 +191,4 @@ One row per user story. Every story is also served by [SPEC-01](SPEC-01_foundati
 - [00_How_might_we_index.md](../03_Ideation/01_How_Might_We/00_How_might_we_index.md): the problem questions the specifications trace to.
 - [03_Families_index.md](../03_Ideation/02_Ideas/03_Families_index.md): the families of the concepts cited.
 - [04_Ideas_prioritization.md](../03_Ideation/02_Ideas/04_Ideas_prioritization.md): the family marks quoted.
+- [00_Open_questions_index.md](01_Open_Questions/00_Open_questions_index.md): the open questions of the specifications, one file each, traced to the research.

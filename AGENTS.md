@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-03 00:35
+date: 2026-11-16 23:04
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -35,6 +35,7 @@ Repository layout:
 | `03_Ideation/00_Ideation_Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
 | `04_Specifications/` | The specifications written from the user stories, one file per behaviour, with the instructions for writing them |
+| `04_Specifications/01_Open_Questions/` | The open questions of the specifications, one file each, with the chain that links it to the research and its state |
 | `05_Prototype/` | The instructions for a frontend-only prototype (HTML, CSS, JavaScript, mock data), in `instructions/Prototype_Instructions.md`; the prototype itself is not built yet |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
@@ -137,6 +138,7 @@ This section is the running list of the standing instructions Marco gives during
 | 40 | 2026-11-16 | Do not follow the chosen concept (`03_Ideation/02_Ideas/05_Chosen_concept.md`) for now: do not use it as an input for specifications or other work, and give every user story the same priority. Written into `04_Specifications/Spec_instructions.md`, section 1. | Marco does not want to follow the chosen concept right now |
 | 41 | 2026-11-16 | When a specification needs another element to work (information, a setting, an object, a choice of the user), that element must be specified too, in the same or another specification: how it is included, entered, configured or obtained. Written into the rule "Logic, not screens" of `04_Specifications/Spec_instructions.md`. | Not stated; Marco's example: to monitor a route, the user must be able to set which route to monitor |
 | 42 | 2026-11-16 | Specifications declare what they depend on and provide, and the dependencies are checked; a behaviour also covers the state before its elements are set up; conflicting stories go to Open questions; a story is judged against the purpose in the foundation; concepts are references only; existing specifications are edited in place with stable numbers; a final completeness check closes the work. Accessibility and data retention are left for later. Details in `04_Specifications/Spec_instructions.md`. | Marco accepted the agent's review; accessibility and data retention are details for the future, since this is a prototype |
+| 43 | 2026-11-16 | Keep the open questions of the specifications in a separate folder, `04_Specifications/01_Open_Questions/`, one file per question, each tracing the chain that links it to the research; keep the questions the research does not support, and flag them. Details in section 4 of `04_Specifications/Spec_instructions.md`. | To check the open questions later |
 
 ### Language
 

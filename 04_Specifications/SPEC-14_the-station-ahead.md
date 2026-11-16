@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, first-last-mile]
-related: [US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-20_step-free-lit-way.md, F-15_parking-bike-space-station.md, F-17a_staffed-station-lit-walk.md, F-20_step-free-lit-way.md, HMW-18_spare-woman-driving-station-before.md, HMW-20_help-daily-traveller-british-city.md, HMW-23_spare-wheelchair-user-before-getting.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-05_todays-trip-at-a-glance.md]
+related: [US-F-15_parking-bike-space-station.md, US-F-17a_staffed-station-lit-walk.md, US-F-20_step-free-lit-way.md, F-15_parking-bike-space-station.md, F-17a_staffed-station-lit-walk.md, F-20_step-free-lit-way.md, HMW-18_spare-woman-driving-station-before.md, HMW-20_help-daily-traveller-british-city.md, HMW-23_spare-wheelchair-user-before-getting.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-05_todays-trip-at-a-glance.md, OQ-28_source-of-the-state-of-facilities.md]
 ---
 
 # SPEC-14: The Station Ahead
@@ -76,7 +76,9 @@ Changing the route because of a station (SPEC-06, SPEC-10).
 
 ## Open questions
 
-- Where the state of facilities comes from [technology choice open].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-28](01_Open_Questions/OQ-28_source-of-the-state-of-facilities.md)** Where does the product learn the state of lifts, lighting, staff and parking at a station? [technology choice open] Research: ⚠ not supported.
 
 ## Connections
 
@@ -93,3 +95,4 @@ Changing the route because of a station (SPEC-06, SPEC-10).
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation it stands on.
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
 - [SPEC-05_todays-trip-at-a-glance.md](SPEC-05_todays-trip-at-a-glance.md): provides elements this specification depends on.
+- [OQ-28_source-of-the-state-of-facilities.md](01_Open_Questions/OQ-28_source-of-the-state-of-facilities.md): an open question this specification raises.

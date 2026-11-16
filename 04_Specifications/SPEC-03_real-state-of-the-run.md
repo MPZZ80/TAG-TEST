@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, unreliable-service]
-related: [US-F-01_real-state-vehicle-source.md, F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-10_times-that-can-be-kept.md, SPEC-13_compensation-from-the-trip.md, SPEC-15_stop-approaching.md]
+related: [US-F-01_real-state-vehicle-source.md, F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-10_times-that-can-be-kept.md, SPEC-13_compensation-from-the-trip.md, SPEC-15_stop-approaching.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-06_length-of-the-record-of-past-runs.md]
 ---
 
 # SPEC-03: The Real State of the Run
@@ -80,8 +80,11 @@ What to do about a delay: ways out (SPEC-06), alerts (SPEC-04), connections (SPE
 
 ## Open questions
 
-- Which sources give the real position, and which leads the expected time when they disagree [not traced].
-- How long the record of past runs must be to tell how late a run usually is [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md)** Which sources tell the real position and the expected time of a vehicle (the operator, the position of travellers on board, what travellers report), and which one leads when they disagree? [not traced] Research: partly.
+- **[OQ-02](01_Open_Questions/OQ-02_age-limit-of-a-fact.md)** After how long without news is a fact (a time, a state, a position) marked outdated, and a run marked `no news`? [not traced] Research: ⚠ not supported.
+- **[OQ-06](01_Open_Questions/OQ-06_length-of-the-record-of-past-runs.md)** Over how many past runs, or how long a period, is the record kept to tell how late a run usually is? [not traced] Research: ⚠ not supported.
 
 ## Connections
 
@@ -100,3 +103,6 @@ What to do about a delay: ways out (SPEC-06), alerts (SPEC-04), connections (SPE
 - [SPEC-10_times-that-can-be-kept.md](SPEC-10_times-that-can-be-kept.md): depends on elements this specification provides.
 - [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md): depends on elements this specification provides.
 - [SPEC-15_stop-approaching.md](SPEC-15_stop-approaching.md): depends on elements this specification provides.
+- [OQ-01_sources-of-the-real-position.md](01_Open_Questions/OQ-01_sources-of-the-real-position.md): an open question this specification raises.
+- [OQ-02_age-limit-of-a-fact.md](01_Open_Questions/OQ-02_age-limit-of-a-fact.md): an open question this specification raises.
+- [OQ-06_length-of-the-record-of-past-runs.md](01_Open_Questions/OQ-06_length-of-the-record-of-past-runs.md): an open question this specification raises.

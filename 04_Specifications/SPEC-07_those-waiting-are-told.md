@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, first-last-mile, late-info]
-related: [US-F-09_arrival-shared-whoever-waits.md, US-F-06_whether-connection-still-holds.md, US-F-02_ways-still-open-trip.md, F-09_arrival-shared-whoever-waits.md, F-06_whether-connection-still-holds.md, F-02_ways-still-open-trip.md, HMW-12_make-sure-person-coming-fetch.md, HMW-09_help-como-commuter-8-23.md, HMW-03_help-teenager-waiting-late-evening.md, HMW-04_help-teenager-stop-late-evening.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-02_the-commuters-set-up.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md]
+related: [US-F-09_arrival-shared-whoever-waits.md, US-F-06_whether-connection-still-holds.md, US-F-02_ways-still-open-trip.md, F-09_arrival-shared-whoever-waits.md, F-06_whether-connection-still-holds.md, F-02_ways-still-open-trip.md, HMW-12_make-sure-person-coming-fetch.md, HMW-09_help-como-commuter-8-23.md, HMW-03_help-teenager-waiting-late-evening.md, HMW-04_help-teenager-stop-late-evening.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-02_the-commuters-set-up.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-08_the-connection-ahead.md, OQ-05_more-than-one-usual-trip.md, OQ-14_minors-using-the-product-alone.md, OQ-15_when-the-contact-is-told-again.md, OQ-16_telling-the-contact-when-to-set-off.md]
 ---
 
 # SPEC-07: Those Waiting Are Told
@@ -81,8 +81,12 @@ Whether the connection holds (SPEC-08); the ways out (SPEC-06).
 
 ## Open questions
 
-- By how much the arrival must move before the contact is told again [not traced].
-- Whether the contact is also told when to set off to the station (F-09: the father drives) [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-05](01_Open_Questions/OQ-05_more-than-one-usual-trip.md)** Does the commuter keep more than one usual trip, for example the morning trip and the evening return, or two trains used most? [not traced] Research: supported.
+- **[OQ-14](01_Open_Questions/OQ-14_minors-using-the-product-alone.md)** Do minors use the product alone, and if so what changes (consent, contacts, what is shared with a parent)? [not traced] Research: ⚠ not supported.
+- **[OQ-15](01_Open_Questions/OQ-15_when-the-contact-is-told-again.md)** By how much must the expected arrival move before the person waiting is told again? [not traced] Research: ⚠ not supported.
+- **[OQ-16](01_Open_Questions/OQ-16_telling-the-contact-when-to-set-off.md)** Is the person who comes to the station also told when to leave, not only when the commuter arrives? [not traced] Research: ⚠ not supported.
 
 ## Connections
 
@@ -103,3 +107,7 @@ Whether the connection holds (SPEC-08); the ways out (SPEC-06).
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): provides elements this specification depends on.
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md): provides elements this specification depends on.
+- [OQ-05_more-than-one-usual-trip.md](01_Open_Questions/OQ-05_more-than-one-usual-trip.md): an open question this specification raises.
+- [OQ-14_minors-using-the-product-alone.md](01_Open_Questions/OQ-14_minors-using-the-product-alone.md): an open question this specification raises.
+- [OQ-15_when-the-contact-is-told-again.md](01_Open_Questions/OQ-15_when-the-contact-is-told-again.md): an open question this specification raises.
+- [OQ-16_telling-the-contact-when-to-set-off.md](01_Open_Questions/OQ-16_telling-the-contact-when-to-set-off.md): an open question this specification raises.

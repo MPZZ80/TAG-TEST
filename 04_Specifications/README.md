@@ -5,7 +5,7 @@ The specifications built from the 24 user stories, one file per behaviour, techn
 | File | What it is |
 | --- | --- |
 | `Spec_instructions.md` | Instructions, independent of this project, for writing specifications from user stories: inputs, steps, rules, file names and templates |
-| `SPEC-00_overview.md` | Overview: map of the references, list of the specifications, dependencies between them, every story with its specifications, splits, open questions |
+| `SPEC-00_overview.md` | Overview: map of the references, list of the specifications, dependencies between them, every story with its specifications, splits, and the open questions linked to their files |
 | `SPEC-01_foundation.md` | Foundation: purpose, principles, the user, the things the product deals with, their states, sources, channels, rules that hold everywhere, vocabulary |
 | `SPEC-02_the-commuters-set-up.md` | The Commuter's Set-Up: stories F-03, F-07, F-11 |
 | `SPEC-03_real-state-of-the-run.md` | The Real State of the Run: stories F-01 |
@@ -23,6 +23,8 @@ The specifications built from the 24 user stories, one file per behaviour, techn
 | `SPEC-15_stop-approaching.md` | The Stop Approaching: stories F-23 |
 | `SPEC-16_the-route-stays-with-the-driver.md` | The Route Stays With the Driver: stories F-14a |
 | `SPEC-17_sessions-still-running.md` | Sessions Still Running: stories F-18, F-21 |
+| `01_Open_Questions/` | The open questions of the specifications, one file each, with the chain to the research, research support and state; start from `00_Open_questions_index.md` |
 
 - 17 specifications for the 24 stories: the foundation and 16 behaviours. Drafts.
 - Read `SPEC-00_overview.md` first, then `SPEC-01_foundation.md` and `SPEC-02_the-commuters-set-up.md`, which provides what the others depend on; then open only the specification you need.
+- 33 open questions, all open, in `01_Open_Questions/`: 2 supported by the research, 9 partly, 22 not supported (kept and marked ⚠).

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, planning, ticket-carryover]
-related: [US-F-04_one-search-one-booking.md, US-F-08_ticket-works-moment-needed.md, F-04_one-search-one-booking.md, F-08_ticket-works-moment-needed.md, HMW-06_help-verona-milan-commuter-booking.md, HMW-07_let-verona-milan-commuter-he.md, HMW-11_let-verona-milan-commuter-still.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-09_every-way-door-to-door.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md]
+related: [US-F-04_one-search-one-booking.md, US-F-08_ticket-works-moment-needed.md, F-04_one-search-one-booking.md, F-08_ticket-works-moment-needed.md, HMW-06_help-verona-milan-commuter-booking.md, HMW-07_let-verona-milan-commuter-he.md, HMW-11_let-verona-milan-commuter-still.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-09_every-way-door-to-door.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, OQ-23_booking-and-paying-across-sellers.md, OQ-24_moving-a-ticket-with-no-signal.md]
 ---
 
 # SPEC-11: Tickets That Work When Needed
@@ -77,8 +77,10 @@ Which fare fits the days travelled (SPEC-12); compensation (SPEC-13).
 
 ## Open questions
 
-- Booking and paying as one across different sellers [technology choice open].
-- Moving a ticket with no signal [technology choice open].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-23](01_Open_Questions/OQ-23_booking-and-paying-across-sellers.md)** How is a trip with legs from different sellers booked and paid in one step? [technology choice open] Research: ⚠ not supported.
+- **[OQ-24](01_Open_Questions/OQ-24_moving-a-ticket-with-no-signal.md)** Can a ticket be shown and moved to another run when there is no signal? [technology choice open] Research: ⚠ not supported.
 
 ## Connections
 
@@ -95,3 +97,5 @@ Which fare fits the days travelled (SPEC-12); compensation (SPEC-13).
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): depends on elements this specification provides.
 - [SPEC-12_the-fare-that-fits-the-days.md](SPEC-12_the-fare-that-fits-the-days.md): depends on elements this specification provides.
 - [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md): depends on elements this specification provides.
+- [OQ-23_booking-and-paying-across-sellers.md](01_Open_Questions/OQ-23_booking-and-paying-across-sellers.md): an open question this specification raises.
+- [OQ-24_moving-a-ticket-with-no-signal.md](01_Open_Questions/OQ-24_moving-a-ticket-with-no-signal.md): an open question this specification raises.

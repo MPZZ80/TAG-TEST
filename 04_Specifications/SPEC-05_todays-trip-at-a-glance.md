@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, tools, usual-trip]
-related: [US-F-11_usual-trip-glance.md, US-F-24_travel-information-first-hurry.md, F-11_usual-trip-glance.md, F-24_travel-information-first-hurry.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-27_keep-few-seconds-deciding-whether.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, SPEC-09_every-way-door-to-door.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md]
+related: [US-F-11_usual-trip-glance.md, US-F-24_travel-information-first-hurry.md, F-11_usual-trip-glance.md, F-24_travel-information-first-hurry.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-27_keep-few-seconds-deciding-whether.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, SPEC-09_every-way-door-to-door.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md]
 ---
 
 # SPEC-05: Today's Trip at a Glance
@@ -80,7 +80,11 @@ The detail of the run (SPEC-03); planning other ways (SPEC-09).
 
 ## Open questions
 
-- What the first view shows at a stop with no usual trip from it: the next departures, which would need the commuter's position [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-05](01_Open_Questions/OQ-05_more-than-one-usual-trip.md)** Does the commuter keep more than one usual trip, for example the morning trip and the evening return, or two trains used most? [not traced] Research: supported.
+- **[OQ-09](01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md)** What does the first view show when the commuter opens the product at a stop or station from which no usual trip starts? [not traced] Research: ⚠ not supported.
+- **[OQ-10](01_Open_Questions/OQ-10_another-run-taken-without-saying.md)** When the commuter takes another run than the planned one without saying so, may the product infer it and follow that run? [not traced] Research: partly.
 
 ## Connections
 
@@ -102,3 +106,6 @@ The detail of the run (SPEC-03); planning other ways (SPEC-09).
 - [SPEC-13_compensation-from-the-trip.md](SPEC-13_compensation-from-the-trip.md): depends on elements this specification provides.
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): depends on elements this specification provides.
 - [SPEC-15_stop-approaching.md](SPEC-15_stop-approaching.md): depends on elements this specification provides.
+- [OQ-05_more-than-one-usual-trip.md](01_Open_Questions/OQ-05_more-than-one-usual-trip.md): an open question this specification raises.
+- [OQ-09_first-view-with-no-usual-trip.md](01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md): an open question this specification raises.
+- [OQ-10_another-run-taken-without-saying.md](01_Open_Questions/OQ-10_another-run-taken-without-saying.md): an open question this specification raises.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, disruption, usual-trip, late-info]
-related: [SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-door-to-door.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md, SPEC-00_overview.md]
+related: [SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-door-to-door.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md, SPEC-00_overview.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md]
 ---
 
 # SPEC-01: Foundation
@@ -130,9 +130,11 @@ The product helps a person who commutes, often between cities and on more than o
 
 ## Open questions
 
-- **Which sources** tell the real position of a vehicle, and which leads when they disagree [not traced].
-- **The age limit** after which a fact is `outdated` [not traced].
-- **How a message is heard while driving,** and other channels that reach the commuter without looking [technology choice open].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md)** Which sources tell the real position and the expected time of a vehicle (the operator, the position of travellers on board, what travellers report), and which one leads when they disagree? [not traced] Research: partly.
+- **[OQ-02](01_Open_Questions/OQ-02_age-limit-of-a-fact.md)** After how long without news is a fact (a time, a state, a position) marked outdated, and a run marked `no news`? [not traced] Research: ⚠ not supported.
+- **[OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)** How does a message reach a commuter who cannot look at a screen, for example while driving to the station or on a rerouted drive? [technology choice open] Research: ⚠ not supported.
 
 ## Connections
 
@@ -153,3 +155,6 @@ The product helps a person who commutes, often between cities and on more than o
 - [SPEC-15_stop-approaching.md](SPEC-15_stop-approaching.md): stands on this foundation.
 - [SPEC-16_the-route-stays-with-the-driver.md](SPEC-16_the-route-stays-with-the-driver.md): stands on this foundation.
 - [SPEC-17_sessions-still-running.md](SPEC-17_sessions-still-running.md): stands on this foundation.
+- [OQ-01_sources-of-the-real-position.md](01_Open_Questions/OQ-01_sources-of-the-real-position.md): an open question this specification raises.
+- [OQ-02_age-limit-of-a-fact.md](01_Open_Questions/OQ-02_age-limit-of-a-fact.md): an open question this specification raises.
+- [OQ-03_reaching-the-commuter-without-looking.md](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md): an open question this specification raises.

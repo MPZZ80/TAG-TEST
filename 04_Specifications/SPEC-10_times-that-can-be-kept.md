@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, tight-connection, first-last-mile, unreliable-service]
-related: [US-F-05_legs-both-ends-real.md, US-F-07_trips-planned-commuter-s.md, US-F-13_times-commuter-can-plan.md, F-05_legs-both-ends-real.md, F-07_trips-planned-commuter-s.md, F-13_times-commuter-can-plan.md, HMW-08_help-london-traveller-changing-king.md, HMW-10_help-german-rail-regular-planner.md, HMW-16_make-time-promised-verona-milan.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, SPEC-09_every-way-door-to-door.md]
+related: [US-F-05_legs-both-ends-real.md, US-F-07_trips-planned-commuter-s.md, US-F-13_times-commuter-can-plan.md, F-05_legs-both-ends-real.md, F-07_trips-planned-commuter-s.md, F-13_times-commuter-can-plan.md, HMW-08_help-london-traveller-changing-king.md, HMW-10_help-german-rail-regular-planner.md, HMW-16_make-time-promised-verona-milan.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, SPEC-09_every-way-door-to-door.md, OQ-21_source-of-walking-times.md, OQ-22_how-long-records-are-kept-to-time-a-leg.md]
 ---
 
 # SPEC-10: Times That Can Be Kept
@@ -78,8 +78,10 @@ Comparing ways (SPEC-09); the live state of a run (SPEC-03).
 
 ## Open questions
 
-- Where the real walking times come from [technology choice open].
-- How long reports or records are kept to time a leg [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-21](01_Open_Questions/OQ-21_source-of-walking-times.md)** Where do the real walking times come from: at both ends, and between platforms? [technology choice open] Research: ⚠ not supported.
+- **[OQ-22](01_Open_Questions/OQ-22_how-long-records-are-kept-to-time-a-leg.md)** How long are reports and records kept to time a leg (a walk, a change, a drive)? [not traced] Research: ⚠ not supported.
 
 ## Connections
 
@@ -97,3 +99,5 @@ Comparing ways (SPEC-09); the live state of a run (SPEC-03).
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
 - [SPEC-03_real-state-of-the-run.md](SPEC-03_real-state-of-the-run.md): provides elements this specification depends on.
 - [SPEC-09_every-way-door-to-door.md](SPEC-09_every-way-door-to-door.md): depends on elements this specification provides.
+- [OQ-21_source-of-walking-times.md](01_Open_Questions/OQ-21_source-of-walking-times.md): an open question this specification raises.
+- [OQ-22_how-long-records-are-kept-to-time-a-leg.md](01_Open_Questions/OQ-22_how-long-records-are-kept-to-time-a-leg.md): an open question this specification raises.

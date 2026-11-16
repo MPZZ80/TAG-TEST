@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, planning, late-info, usual-trip]
-related: [US-F-03_early-warning-usual-trip.md, F-03_early-warning-usual-trip.md, HMW-05_let-single-line-commuter-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md]
+related: [US-F-03_early-warning-usual-trip.md, F-03_early-warning-usual-trip.md, HMW-05_let-single-line-commuter-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-03_real-state-of-the-run.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-07_saying-that-nothing-changed.md, OQ-08_how-early-works-and-strikes-are-told.md]
 ---
 
 # SPEC-04: Alerts on the Usual Trip
@@ -79,8 +79,11 @@ The state of the run itself (SPEC-03); what to do when the trip breaks (SPEC-06)
 
 ## Open questions
 
-- Whether "nothing changed" should ever be said, for example at the first moment of the day [not traced].
-- How early before a travel day works and strikes are repeated [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)** How does a message reach a commuter who cannot look at a screen, for example while driving to the station or on a rerouted drive? [technology choice open] Research: ⚠ not supported.
+- **[OQ-07](01_Open_Questions/OQ-07_saying-that-nothing-changed.md)** Is "nothing changed" or "no news" ever sent as a message, for example once at the first moment of the day, or only shown inside the product? [not traced] Research: partly.
+- **[OQ-08](01_Open_Questions/OQ-08_how-early-works-and-strikes-are-told.md)** How many days before a travel day are planned works and strikes told, and how often is the message repeated? [not traced] Research: partly.
 
 ## Connections
 
@@ -91,3 +94,6 @@ The state of the run itself (SPEC-03); what to do when the trip breaks (SPEC-06)
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation it stands on.
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
 - [SPEC-03_real-state-of-the-run.md](SPEC-03_real-state-of-the-run.md): provides elements this specification depends on.
+- [OQ-03_reaching-the-commuter-without-looking.md](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md): an open question this specification raises.
+- [OQ-07_saying-that-nothing-changed.md](01_Open_Questions/OQ-07_saying-that-nothing-changed.md): an open question this specification raises.
+- [OQ-08_how-early-works-and-strikes-are-told.md](01_Open_Questions/OQ-08_how-early-works-and-strikes-are-told.md): an open question this specification raises.

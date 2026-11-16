@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, first-last-mile]
-related: [US-F-23_stop-approaching.md, F-23_stop-approaching.md, HMW-26_let-young-commuter-madrid-bus.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-02_the-commuters-set-up.md]
+related: [US-F-23_stop-approaching.md, F-23_stop-approaching.md, HMW-26_let-young-commuter-madrid-bus.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-02_the-commuters-set-up.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-29_how-far-before-the-stop.md, OQ-30_reaching-a-commuter-who-is-asleep.md]
 ---
 
 # SPEC-15: The Stop Approaching
@@ -71,8 +71,11 @@ Anything after getting off (SPEC-14).
 
 ## Open questions
 
-- How far before the stop, and how many repeats [not traced].
-- What reaches a commuter who is asleep [technology choice open].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)** How does a message reach a commuter who cannot look at a screen, for example while driving to the station or on a rerouted drive? [technology choice open] Research: ⚠ not supported.
+- **[OQ-29](01_Open_Questions/OQ-29_how-far-before-the-stop.md)** How far before the stop is the commuter told, and how often is it repeated if they do not respond? [not traced] Research: ⚠ not supported.
+- **[OQ-30](01_Open_Questions/OQ-30_reaching-a-commuter-who-is-asleep.md)** What reaches a commuter who has fallen asleep before their stop? [technology choice open] Research: ⚠ not supported.
 
 ## Connections
 
@@ -84,3 +87,6 @@ Anything after getting off (SPEC-14).
 - [SPEC-05_todays-trip-at-a-glance.md](SPEC-05_todays-trip-at-a-glance.md): provides elements this specification depends on.
 - [SPEC-03_real-state-of-the-run.md](SPEC-03_real-state-of-the-run.md): provides elements this specification depends on.
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
+- [OQ-03_reaching-the-commuter-without-looking.md](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md): an open question this specification raises.
+- [OQ-29_how-far-before-the-stop.md](01_Open_Questions/OQ-29_how-far-before-the-stop.md): an open question this specification raises.
+- [OQ-30_reaching-a-commuter-who-is-asleep.md](01_Open_Questions/OQ-30_reaching-a-commuter-who-is-asleep.md): an open question this specification raises.

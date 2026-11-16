@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, mode-choice, tools, habit]
-related: [US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md, F-04_one-search-one-booking.md, F-10_car-against-train-office.md, HMW-06_help-verona-milan-commuter-booking.md, HMW-07_let-verona-milan-commuter-he.md, HMW-13_help-como-commuter-looking-timetables.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-10_times-that-can-be-kept.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-11_tickets-that-work-when-needed.md]
+related: [US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md, F-04_one-search-one-booking.md, F-10_car-against-train-office.md, HMW-06_help-verona-milan-commuter-booking.md, HMW-07_let-verona-milan-commuter-he.md, HMW-13_help-como-commuter-looking-timetables.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, SPEC-10_times-that-can-be-kept.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-11_tickets-that-work-when-needed.md, OQ-19_a-lift-as-a-way.md, OQ-20_which-car-costs-are-counted.md]
 ---
 
 # SPEC-09: Every Way Door to Door
@@ -79,8 +79,10 @@ Booking the way as one journey (SPEC-11); timing legs at their real length (SPEC
 
 ## Open questions
 
-- Whether a lift from a contact counts as a way [not traced].
-- Which car costs are counted (fuel, tolls, parking) [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-19](01_Open_Questions/OQ-19_a-lift-as-a-way.md)** Does a lift from a relative or friend count as one of the ways from door to door? [not traced] Research: supported.
+- **[OQ-20](01_Open_Questions/OQ-20_which-car-costs-are-counted.md)** Which costs of the car are counted when it is compared with the train: fuel, tolls, parking? [not traced] Research: partly.
 
 ## Connections
 
@@ -98,3 +100,5 @@ Booking the way as one journey (SPEC-11); timing legs at their real length (SPEC
 - [SPEC-05_todays-trip-at-a-glance.md](SPEC-05_todays-trip-at-a-glance.md): depends on elements this specification provides.
 - [SPEC-06_ways-out-when-the-trip-breaks.md](SPEC-06_ways-out-when-the-trip-breaks.md): depends on elements this specification provides.
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): depends on elements this specification provides.
+- [OQ-19_a-lift-as-a-way.md](01_Open_Questions/OQ-19_a-lift-as-a-way.md): an open question this specification raises.
+- [OQ-20_which-car-costs-are-counted.md](01_Open_Questions/OQ-20_which-car-costs-are-counted.md): an open question this specification raises.

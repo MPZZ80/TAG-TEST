@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, mode-choice, no-alternative, crowding]
-related: [US-F-02_ways-still-open-trip.md, US-F-19_how-crowded-next-services.md, F-02_ways-still-open-trip.md, F-19_how-crowded-next-services.md, HMW-03_help-teenager-waiting-late-evening.md, HMW-04_help-teenager-stop-late-evening.md, HMW-22_help-outskirts-hybrid-worker-station.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-09_every-way-door-to-door.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-02_the-commuters-set-up.md, SPEC-08_the-connection-ahead.md, SPEC-07_those-waiting-are-told.md]
+related: [US-F-02_ways-still-open-trip.md, US-F-19_how-crowded-next-services.md, F-02_ways-still-open-trip.md, F-19_how-crowded-next-services.md, HMW-03_help-teenager-waiting-late-evening.md, HMW-04_help-teenager-stop-late-evening.md, HMW-22_help-outskirts-hybrid-worker-station.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-09_every-way-door-to-door.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-02_the-commuters-set-up.md, SPEC-08_the-connection-ahead.md, SPEC-07_those-waiting-are-told.md, OQ-11_whether-every-break-is-sent.md, OQ-12_cost-of-each-way-out.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, OQ-14_minors-using-the-product-alone.md, OQ-19_a-lift-as-a-way.md]
 ---
 
 # SPEC-06: Ways Out When the Trip Breaks
@@ -79,9 +79,13 @@ Telling the person who waits (SPEC-07); buying a ticket for the chosen way (SPEC
 
 ## Open questions
 
-- Whether the cost of each way is shown: the notes record what people paid, not a wish to know it beforehand (F-02) [not traced].
-- After how long a bus not seen counts as not coming [not traced].
-- Whether minors use the product alone (F-02, a teenager) [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-11](01_Open_Questions/OQ-11_whether-every-break-is-sent.md)** When the trip of the day breaks, is a message always sent on the commuter's channel, or only for some breaks? [not traced] Research: partly.
+- **[OQ-12](01_Open_Questions/OQ-12_cost-of-each-way-out.md)** Is the cost of each way out shown before the commuter chooses it? [not traced] Research: partly.
+- **[OQ-13](01_Open_Questions/OQ-13_when-a-vehicle-not-seen-is-not-coming.md)** After how long without any sign of it does a bus or train count as not coming? [not traced] Research: ⚠ not supported.
+- **[OQ-14](01_Open_Questions/OQ-14_minors-using-the-product-alone.md)** Do minors use the product alone, and if so what changes (consent, contacts, what is shared with a parent)? [not traced] Research: ⚠ not supported.
+- **[OQ-19](01_Open_Questions/OQ-19_a-lift-as-a-way.md)** Does a lift from a relative or friend count as one of the ways from door to door? [not traced] Research: supported.
 
 ## Connections
 
@@ -101,3 +105,8 @@ Telling the person who waits (SPEC-07); buying a ticket for the chosen way (SPEC
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
 - [SPEC-08_the-connection-ahead.md](SPEC-08_the-connection-ahead.md): provides elements this specification depends on.
 - [SPEC-07_those-waiting-are-told.md](SPEC-07_those-waiting-are-told.md): depends on elements this specification provides.
+- [OQ-11_whether-every-break-is-sent.md](01_Open_Questions/OQ-11_whether-every-break-is-sent.md): an open question this specification raises.
+- [OQ-12_cost-of-each-way-out.md](01_Open_Questions/OQ-12_cost-of-each-way-out.md): an open question this specification raises.
+- [OQ-13_when-a-vehicle-not-seen-is-not-coming.md](01_Open_Questions/OQ-13_when-a-vehicle-not-seen-is-not-coming.md): an open question this specification raises.
+- [OQ-14_minors-using-the-product-alone.md](01_Open_Questions/OQ-14_minors-using-the-product-alone.md): an open question this specification raises.
+- [OQ-19_a-lift-as-a-way.md](01_Open_Questions/OQ-19_a-lift-as-a-way.md): an open question this specification raises.

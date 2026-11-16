@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, why-now, hybrid-work]
-related: [US-F-12_ticket-fits-days-travelled.md, F-12_ticket-fits-days-travelled.md, HMW-15_keep-como-commuter-whose-office.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-02_the-commuters-set-up.md, SPEC-11_tickets-that-work-when-needed.md]
+related: [US-F-12_ticket-fits-days-travelled.md, F-12_ticket-fits-days-travelled.md, HMW-15_keep-como-commuter-whose-office.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-02_the-commuters-set-up.md, SPEC-11_tickets-that-work-when-needed.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md]
 ---
 
 # SPEC-12: The Fare That Fits the Days
@@ -73,7 +73,10 @@ Buying the fare (SPEC-11).
 
 ## Open questions
 
-- The period over which days are counted [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-25](01_Open_Questions/OQ-25_period-over-which-days-are-counted.md)** Over which period are the days actually travelled counted to compare fares: a week, a month, longer? [not traced] Research: partly.
+- **[OQ-26](01_Open_Questions/OQ-26_telling-first-that-the-fare-no-longer-fits.md)** Does the product say on its own that the ticket held no longer fits the days travelled, or only when the commuter asks? [not traced] Research: ⚠ not supported.
 
 ## Connections
 
@@ -85,3 +88,5 @@ Buying the fare (SPEC-11).
 - [SPEC-05_todays-trip-at-a-glance.md](SPEC-05_todays-trip-at-a-glance.md): provides elements this specification depends on.
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): provides elements this specification depends on.
+- [OQ-25_period-over-which-days-are-counted.md](01_Open_Questions/OQ-25_period-over-which-days-are-counted.md): an open question this specification raises.
+- [OQ-26_telling-first-that-the-fare-no-longer-fits.md](01_Open_Questions/OQ-26_telling-first-that-the-fare-no-longer-fits.md): an open question this specification raises.

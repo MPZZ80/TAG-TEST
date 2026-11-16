@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-16 18:29
+date: 2026-11-16 23:04
 method: generated
 status: draft
 grade: n/a
@@ -54,7 +54,7 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
    - Every story has at least one specification, or a reason under "Not specified".
    - Every element under "Depends on" is provided by a named specification.
    - Every reference link opens an existing file.
-   - Every [not traced] or [technology choice open] item is listed under "Open questions".
+   - Every [not traced] or [technology choice open] item is listed under "Open questions" and has its own file in `01_Open_Questions/` (section 4).
 
 ## 3. Rules
 
@@ -79,6 +79,12 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
 - **Foundation:** `SPEC-01_foundation.md`, always the first specification.
 - **One specification:** `SPEC-<NN>_<short-name>.md` from `SPEC-02`, for example `SPEC-02_reminder-before-leaving.md` or `SPEC-03_missing-item-swap.md`. The number has two digits, follows the order of the overview, and is never reused.
 - **Specifications already written:** when the folder already holds specifications, edit them in place under their names and keep their numbers. A new specification takes the next free number. A specification that is dropped is deleted, its number stays unused, and the overview says so under "Not specified".
+- **Open questions:** one file per open question in `01_Open_Questions/`, named `OQ-<NN>_<short-name>.md`, with an index `00_Open_questions_index.md` and a folder guide. A question raised by several specifications has one file. Each file holds:
+  - the question, the specifications that raise it and its marker;
+  - the chain back to the research: specification, story, feature, touchpoint, and the quote from the interview, survey or source behind it, each with its link, as far as the inputs go;
+  - what the research says about it, and whether it supports an answer: supported, partly, or not supported. A question the research does not support is kept and marked ⚠;
+  - its state (`open` or `decided`), the decision and its date.
+  The "Open questions" sections of the specifications and of the overview link to these files. When a question is decided, its file records the decision, and the specifications that raise it are edited to remove the marker; the file stays and its number is never reused.
 - **After writing:** update whatever the project keeps current when files are added, such as a folder guide, an index or a change log.
 
 ## 5. Templates
@@ -133,7 +139,7 @@ What this specification does not do, and which specification does it, if any.
 - **Given** <situation> **when** <event> **then** <observable result>
 
 ## Open questions
-Behaviours marked [not traced] or [technology choice open], and what the person who asked has to decide.
+Behaviours marked [not traced] or [technology choice open], each linked to its file in `01_Open_Questions/`.
 ```
 
 ### The foundation
@@ -176,7 +182,7 @@ The terms every specification uses, with one meaning each.
 - **Given** <situation> **when** <event> **then** <observable result>
 
 ## Open questions
-Elements marked [not traced] or [technology choice open], and what the person who asked has to decide.
+Elements marked [not traced] or [technology choice open], each linked to its file in `01_Open_Questions/`.
 ```
 
 ### The overview
@@ -215,5 +221,5 @@ Stories split into several specifications, stories grouped into one, and why.
 Stories left without a specification, specifications dropped, and why.
 
 ## Open questions
-All the open questions of the specifications, in one list.
+All the open questions of the specifications, one row each, linked to their files in `01_Open_Questions/`, with their research support.
 ```

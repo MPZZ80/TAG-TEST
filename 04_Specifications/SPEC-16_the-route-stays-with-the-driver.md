@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, planning]
-related: [US-F-14a_asking-before-rerouting-tolls.md, F-14a_asking-before-rerouting-tolls.md, HMW-17_keep-route-decision-italian-driver.md, SPEC-00_overview.md, SPEC-01_foundation.md]
+related: [US-F-14a_asking-before-rerouting-tolls.md, F-14a_asking-before-rerouting-tolls.md, HMW-17_keep-route-decision-italian-driver.md, SPEC-00_overview.md, SPEC-01_foundation.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-31_whether-a-drivers-route-fits.md]
 ---
 
 # SPEC-16: The Route Stays With the Driver
@@ -73,7 +73,10 @@ Comparing car and train (SPEC-09).
 
 ## Open questions
 
-- Whether a driver's route fits the product, which is mostly about public transport [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)** How does a message reach a commuter who cannot look at a screen, for example while driving to the station or on a rerouted drive? [technology choice open] Research: ⚠ not supported.
+- **[OQ-31](01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md)** Does a product mostly about public transport also look after a commuter's drive, as story F-14a asks? [not traced] Research: partly.
 
 ## Connections
 
@@ -82,3 +85,5 @@ Comparing car and train (SPEC-09).
 - [HMW-17_keep-route-decision-italian-driver.md](../03_Ideation/01_How_Might_We/HMW-17_keep-route-decision-italian-driver.md): the problem question written from a story it serves.
 - [SPEC-00_overview.md](SPEC-00_overview.md): the overview that lists this specification.
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation it stands on.
+- [OQ-03_reaching-the-commuter-without-looking.md](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md): an open question this specification raises.
+- [OQ-31_whether-a-drivers-route-fits.md](01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md): an open question this specification raises.

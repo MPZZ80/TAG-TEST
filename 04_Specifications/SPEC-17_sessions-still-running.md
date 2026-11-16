@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, tools, first-last-mile]
-related: [US-F-18_parking-works-paying-leaving.md, US-F-21_where-shared-vehicle-can.md, F-18_parking-works-paying-leaving.md, F-21_where-shared-vehicle-can.md, HMW-21_keep-italian-driver-leaving-car.md, HMW-24_keep-charge-running-shared-bike.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md]
+related: [US-F-18_parking-works-paying-leaving.md, US-F-21_where-shared-vehicle-can.md, F-18_parking-works-paying-leaving.md, F-21_where-shared-vehicle-can.md, HMW-21_keep-italian-driver-leaving-car.md, HMW-24_keep-charge-running-shared-bike.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_the-commuters-set-up.md, OQ-32_how-a-session-is-known-and-ended.md, OQ-33_the-reminder-interval.md]
 ---
 
 # SPEC-17: Sessions Still Running
@@ -74,8 +74,10 @@ Finding a parking space before leaving (SPEC-14).
 
 ## Open questions
 
-- Ending a session by itself [technology choice open].
-- The reminder interval [not traced].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-32](01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md)** How does the product know that a paid session (parking, a shared vehicle) is running, and can it end the session by itself? [technology choice open] Research: ⚠ not supported.
+- **[OQ-33](01_Open_Questions/OQ-33_the-reminder-interval.md)** After how long is the commuter reminded of a session still running, and how often? [not traced] Research: ⚠ not supported.
 
 ## Connections
 
@@ -88,3 +90,5 @@ Finding a parking space before leaving (SPEC-14).
 - [SPEC-00_overview.md](SPEC-00_overview.md): the overview that lists this specification.
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation it stands on.
 - [SPEC-02_the-commuters-set-up.md](SPEC-02_the-commuters-set-up.md): provides elements this specification depends on.
+- [OQ-32_how-a-session-is-known-and-ended.md](01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md): an open question this specification raises.
+- [OQ-33_the-reminder-interval.md](01_Open_Questions/OQ-33_the-reminder-interval.md): an open question this specification raises.

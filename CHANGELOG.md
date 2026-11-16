@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 23:04
+
+- **Files:** `04_Specifications/01_Open_Questions/` (created: `README.md`, `00_Open_questions_index.md`, `OQ-01` to `OQ-33`), `04_Specifications/SPEC-00_overview.md` to `SPEC-17_sessions-still-running.md`, `04_Specifications/Spec_instructions.md`, `04_Specifications/README.md`, `Index.md`, `AGENTS.md`
+- **Change:** The open questions of the specifications moved into a folder of their own, one file per question (33, duplicates merged, plus four [not traced] markers that had no entry), each with the chain specification → story → feature → touchpoint → quote, research support (2 supported, 9 partly, 22 not supported, marked ⚠) and state. The "Open questions" sections of the specifications and the overview now link to them. Spec_instructions section 4 and the check in step 5 describe the folder; AGENTS log entry 43 and layout row added.
+- **Why:** Marco: "Fai una cartella separata invece del file che stai proponendo, dentro a 04_Specifications: fai un file per ogni open point e per ognuno di loro traccia la filiera che lo collega alla ricerca, se non sono supportati dalla ricerca mantienili, ma segnalalo", so that the open points can be checked later.
+
 ## 2026-11-16 18:41
 
 - **Files:** created in `04_Specifications/`: `SPEC-00_overview.md`, `SPEC-01_foundation.md`, `SPEC-02_the-commuters-set-up.md` to `SPEC-17_sessions-still-running.md` (18 files); changed: `04_Specifications/README.md`, the 24 story files `02_Analysis/03_User_Stories/US-F-*.md` ("Specifications" row, `related`, "Connections"), `00_User_Stories_index.md` and the folder `README.md`, `Index.md`, `AGENTS.md` (layout row of `04_Specifications/`).

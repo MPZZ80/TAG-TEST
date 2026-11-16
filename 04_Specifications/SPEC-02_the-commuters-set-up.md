@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, tools, usual-trip, workarounds]
-related: [US-F-07_trips-planned-commuter-s.md, US-F-11_usual-trip-glance.md, US-F-03_early-warning-usual-trip.md, F-07_trips-planned-commuter-s.md, F-11_usual-trip-glance.md, F-03_early-warning-usual-trip.md, HMW-10_help-german-rail-regular-planner.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-05_let-single-line-commuter-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-09_every-way-door-to-door.md, SPEC-03_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-10_times-that-can-be-kept.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-17_sessions-still-running.md]
+related: [US-F-07_trips-planned-commuter-s.md, US-F-11_usual-trip-glance.md, US-F-03_early-warning-usual-trip.md, F-07_trips-planned-commuter-s.md, F-11_usual-trip-glance.md, F-03_early-warning-usual-trip.md, HMW-10_help-german-rail-regular-planner.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-05_let-single-line-commuter-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-09_every-way-door-to-door.md, SPEC-03_real-state-of-the-run.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-10_times-that-can-be-kept.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-17_sessions-still-running.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md]
 ---
 
 # SPEC-02: The Commuter's Set-Up
@@ -83,8 +83,10 @@ Planning with the own rules (SPEC-10); the alerts and their moments (SPEC-04); c
 
 ## Open questions
 
-- Whether the product may suggest a usual trip from repeated trips, for the commuter to confirm [not traced].
-- Whether more than one usual trip is needed (for example the evening return, F-09) [not traced: the stories name one usual trip each].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-04](01_Open_Questions/OQ-04_suggesting-the-usual-trip.md)** May the product suggest a usual trip from trips the commuter repeats, for them to confirm, or does the commuter always enter it? [not traced] Research: ⚠ not supported.
+- **[OQ-05](01_Open_Questions/OQ-05_more-than-one-usual-trip.md)** Does the commuter keep more than one usual trip, for example the morning trip and the evening return, or two trains used most? [not traced] Research: supported.
 
 ## Connections
 
@@ -111,3 +113,5 @@ Planning with the own rules (SPEC-10); the alerts and their moments (SPEC-04); c
 - [SPEC-14_the-station-ahead.md](SPEC-14_the-station-ahead.md): depends on elements this specification provides.
 - [SPEC-15_stop-approaching.md](SPEC-15_stop-approaching.md): depends on elements this specification provides.
 - [SPEC-17_sessions-still-running.md](SPEC-17_sessions-still-running.md): depends on elements this specification provides.
+- [OQ-04_suggesting-the-usual-trip.md](01_Open_Questions/OQ-04_suggesting-the-usual-trip.md): an open question this specification raises.
+- [OQ-05_more-than-one-usual-trip.md](01_Open_Questions/OQ-05_more-than-one-usual-trip.md): an open question this specification raises.

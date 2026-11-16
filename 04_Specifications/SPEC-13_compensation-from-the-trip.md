@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-16 23:04
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, disruption, tools, refunds]
-related: [US-F-16_compensation-claim-started-delayed.md, F-16_compensation-claim-started-delayed.md, HMW-19_help-british-traveller-after-delay.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md]
+related: [US-F-16_compensation-claim-started-delayed.md, F-16_compensation-claim-started-delayed.md, HMW-19_help-british-traveller-after-delay.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-03_real-state-of-the-run.md, SPEC-11_tickets-that-work-when-needed.md, OQ-27_claims-on-tickets-from-a-seller.md]
 ---
 
 # SPEC-13: Compensation From the Trip
@@ -73,7 +73,9 @@ Refunds for tickets not used (SPEC-11).
 
 ## Open questions
 
-- Handing a claim to the operator when the ticket came from a seller [technology choice open].
+Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
+
+- **[OQ-27](01_Open_Questions/OQ-27_claims-on-tickets-from-a-seller.md)** How does a compensation claim reach the operator when the ticket was bought from a ticket seller? [technology choice open] Research: ⚠ not supported.
 
 ## Connections
 
@@ -85,3 +87,4 @@ Refunds for tickets not used (SPEC-11).
 - [SPEC-05_todays-trip-at-a-glance.md](SPEC-05_todays-trip-at-a-glance.md): provides elements this specification depends on.
 - [SPEC-03_real-state-of-the-run.md](SPEC-03_real-state-of-the-run.md): provides elements this specification depends on.
 - [SPEC-11_tickets-that-work-when-needed.md](SPEC-11_tickets-that-work-when-needed.md): provides elements this specification depends on.
+- [OQ-27_claims-on-tickets-from-a-seller.md](01_Open_Questions/OQ-27_claims-on-tickets-from-a-seller.md): an open question this specification raises.
