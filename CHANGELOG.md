@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 18:29
+
+- **Files:** `04_Specifications/Spec_instructions.md`, `AGENTS.md`
+- **Change:** From the agent's review, points 1–7: "Depends on" and "Provides" in the template's operating logic, a "Dependencies" table in the overview and a dependency check in step 3; "nothing set up yet" in "Failure is a normal case" and in the template's "When things go wrong"; new rule "Stories that conflict"; step 2 judges a story against the purpose in the foundation, and asks when in doubt; "Stories first": concepts are references only, and a choice between them goes to "Open questions"; section 4: "Specifications already written" (edit in place, stable numbers, dropped specifications listed); new step 5 "Check before finishing". `AGENTS.md`: log entry 42.
+- **Why:** Marco accepted the suggestions except accessibility and data retention: "this is a prototype and we'll define this kind of details in the future".
+
 ## 2026-11-16 18:23
 
 - **Files:** `04_Specifications/Spec_instructions.md`, `AGENTS.md`
