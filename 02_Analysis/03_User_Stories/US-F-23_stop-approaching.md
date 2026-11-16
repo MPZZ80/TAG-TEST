@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-16 17:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-23_stop-approaching.md, SPEC-15_stop-approaching.md, HMW-26_let-young-commuter-madrid-bus.md]
+related: [F-23_stop-approaching.md, HMW-26_let-young-commuter-madrid-bus.md]
 ---
 
 # Story F-23
@@ -20,7 +20,7 @@ As a young commuter in Madrid (desk persona), on a bus, two stops before her own
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-23_stop-approaching.md](../02_Features/F-23_stop-approaching.md) |
 | **Questions (HMW)** | [HMW-26](../../03_Ideation/01_How_Might_We/HMW-26_let-young-commuter-madrid-bus.md) |
-| **Specifications** | [SPEC-15](../../04_Specifications/SPEC-15_stop-approaching.md) |
+| **Specifications** | none: the specifications were deleted on 2026-11-16 |
 
 ## Source
 
@@ -29,5 +29,4 @@ As a young commuter in Madrid (desk persona), on a bus, two stops before her own
 ## Connections
 
 - [F-23_stop-approaching.md](../02_Features/F-23_stop-approaching.md): the feature this story carries.
-- [SPEC-15_stop-approaching.md](../../04_Specifications/SPEC-15_stop-approaching.md): the specifications that serve this story.
 - [HMW-26_let-young-commuter-madrid-bus.md](../../03_Ideation/01_How_Might_We/HMW-26_let-young-commuter-madrid-bus.md): the How-Might-We questions written from this story.

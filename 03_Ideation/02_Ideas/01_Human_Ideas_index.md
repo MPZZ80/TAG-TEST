@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-16 17:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [05_Chosen_concept.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-09_every-way-side-by-side.md]
+related: [05_Chosen_concept.md]
 ---
 
 # Human Ideas: Marco's Concepts
@@ -26,4 +26,3 @@ The index of Marco's six concepts, S01 to S06. Each concept has its own file in 
 
 - [S01_delays-sent-chosen-channel.md](S01_delays-sent-chosen-channel.md), [S02_delay-device-position.md](S02_delay-device-position.md), [S03_users-report-delay.md](S03_users-report-delay.md), [S04_trip-update-sent-relatives.md](S04_trip-update-sent-relatives.md), [S05_line-state-days-before.md](S05_line-state-days-before.md), [S06_alternatives-estimated-delays.md](S06_alternatives-estimated-delays.md): Marco's concepts, one file each.
 - [05_Chosen_concept.md](05_Chosen_concept.md): the chosen concept, which places these concepts in their families.
-- [SPEC-04_alerts-on-the-usual-trip.md](../../04_Specifications/SPEC-04_alerts-on-the-usual-trip.md), [SPEC-06_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07_those-waiting-are-told.md](../../04_Specifications/SPEC-07_those-waiting-are-told.md), [SPEC-09_every-way-side-by-side.md](../../04_Specifications/SPEC-09_every-way-side-by-side.md): the specifications that carry Marco's concepts.

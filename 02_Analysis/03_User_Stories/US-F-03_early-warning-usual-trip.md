@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-16 17:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-03_early-warning-usual-trip.md, SPEC-04_alerts-on-the-usual-trip.md, HMW-05_let-single-line-commuter-during.md]
+related: [F-03_early-warning-usual-trip.md, HMW-05_let-single-line-commuter-during.md]
 ---
 
 # Story F-03
@@ -20,7 +20,7 @@ As the single-line commuter, during the seven minutes he drives to the station o
 | **Evidence and impact** | weak · High |
 | **Feature** | [F-03_early-warning-usual-trip.md](../02_Features/F-03_early-warning-usual-trip.md) |
 | **Questions (HMW)** | [HMW-05](../../03_Ideation/01_How_Might_We/HMW-05_let-single-line-commuter-during.md) |
-| **Specifications** | [SPEC-04](../../04_Specifications/SPEC-04_alerts-on-the-usual-trip.md) |
+| **Specifications** | none: the specifications were deleted on 2026-11-16 |
 
 ## Source
 
@@ -29,5 +29,4 @@ As the single-line commuter, during the seven minutes he drives to the station o
 ## Connections
 
 - [F-03_early-warning-usual-trip.md](../02_Features/F-03_early-warning-usual-trip.md): the feature this story carries.
-- [SPEC-04_alerts-on-the-usual-trip.md](../../04_Specifications/SPEC-04_alerts-on-the-usual-trip.md): the specifications that serve this story.
 - [HMW-05_let-single-line-commuter-during.md](../../03_Ideation/01_How_Might_We/HMW-05_let-single-line-commuter-during.md): the How-Might-We questions written from this story.

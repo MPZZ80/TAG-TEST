@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-16 17:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-04_one-search-one-booking.md, SPEC-09_every-way-side-by-side.md, SPEC-11_tickets-that-work-when-needed.md, HMW-06_help-verona-milan-commuter-booking.md, HMW-07_let-verona-milan-commuter-he.md]
+related: [F-04_one-search-one-booking.md, HMW-06_help-verona-milan-commuter-booking.md, HMW-07_let-verona-milan-commuter-he.md]
 ---
 
 # Story F-04
@@ -20,7 +20,7 @@ As the Verona–Milan commuter, booking three or four days ahead and finding the
 | **Evidence and impact** | strong · High |
 | **Feature** | [F-04_one-search-one-booking.md](../02_Features/F-04_one-search-one-booking.md) |
 | **Questions (HMW)** | [HMW-06](../../03_Ideation/01_How_Might_We/HMW-06_help-verona-milan-commuter-booking.md), [HMW-07](../../03_Ideation/01_How_Might_We/HMW-07_let-verona-milan-commuter-he.md) |
-| **Specifications** | [SPEC-09](../../04_Specifications/SPEC-09_every-way-side-by-side.md), [SPEC-11](../../04_Specifications/SPEC-11_tickets-that-work-when-needed.md) |
+| **Specifications** | none: the specifications were deleted on 2026-11-16 |
 
 ## Source
 
@@ -29,5 +29,4 @@ As the Verona–Milan commuter, booking three or four days ahead and finding the
 ## Connections
 
 - [F-04_one-search-one-booking.md](../02_Features/F-04_one-search-one-booking.md): the feature this story carries.
-- [SPEC-09_every-way-side-by-side.md](../../04_Specifications/SPEC-09_every-way-side-by-side.md), [SPEC-11_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-11_tickets-that-work-when-needed.md): the specifications that serve this story.
 - [HMW-06_help-verona-milan-commuter-booking.md](../../03_Ideation/01_How_Might_We/HMW-06_help-verona-milan-commuter-booking.md), [HMW-07_let-verona-milan-commuter-he.md](../../03_Ideation/01_How_Might_We/HMW-07_let-verona-milan-commuter-he.md): the How-Might-We questions written from this story.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-16 17:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-08_ticket-works-moment-needed.md, SPEC-11_tickets-that-work-when-needed.md, HMW-11_let-verona-milan-commuter-still.md]
+related: [F-08_ticket-works-moment-needed.md, HMW-11_let-verona-milan-commuter-still.md]
 ---
 
 # Story F-08
@@ -20,7 +20,7 @@ As the Verona–Milan commuter, still in the underground five minutes before his
 | **Evidence and impact** | strong · Medium |
 | **Feature** | [F-08_ticket-works-moment-needed.md](../02_Features/F-08_ticket-works-moment-needed.md) |
 | **Questions (HMW)** | [HMW-11](../../03_Ideation/01_How_Might_We/HMW-11_let-verona-milan-commuter-still.md) |
-| **Specifications** | [SPEC-11](../../04_Specifications/SPEC-11_tickets-that-work-when-needed.md) |
+| **Specifications** | none: the specifications were deleted on 2026-11-16 |
 
 ## Source
 
@@ -29,5 +29,4 @@ As the Verona–Milan commuter, still in the underground five minutes before his
 ## Connections
 
 - [F-08_ticket-works-moment-needed.md](../02_Features/F-08_ticket-works-moment-needed.md): the feature this story carries.
-- [SPEC-11_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-11_tickets-that-work-when-needed.md): the specifications that serve this story.
 - [HMW-11_let-verona-milan-commuter-still.md](../../03_Ideation/01_How_Might_We/HMW-11_let-verona-milan-commuter-still.md): the How-Might-We questions written from this story.

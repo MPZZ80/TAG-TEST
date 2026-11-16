@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-16 17:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-22_asking-connection-wait.md, SPEC-08_the-connection-ahead.md, HMW-25_help-german-rail-regular-late.md]
+related: [F-22_asking-connection-wait.md, HMW-25_help-german-rail-regular-late.md]
 ---
 
 # Story F-22
@@ -20,7 +20,7 @@ As a German rail regular (desk persona), on a late train before the last connect
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-22_asking-connection-wait.md](../02_Features/F-22_asking-connection-wait.md) |
 | **Questions (HMW)** | [HMW-25](../../03_Ideation/01_How_Might_We/HMW-25_help-german-rail-regular-late.md) |
-| **Specifications** | [SPEC-08](../../04_Specifications/SPEC-08_the-connection-ahead.md) |
+| **Specifications** | none: the specifications were deleted on 2026-11-16 |
 
 ## Source
 
@@ -29,5 +29,4 @@ As a German rail regular (desk persona), on a late train before the last connect
 ## Connections
 
 - [F-22_asking-connection-wait.md](../02_Features/F-22_asking-connection-wait.md): the feature this story carries.
-- [SPEC-08_the-connection-ahead.md](../../04_Specifications/SPEC-08_the-connection-ahead.md): the specifications that serve this story.
 - [HMW-25_help-german-rail-regular-late.md](../../03_Ideation/01_How_Might_We/HMW-25_help-german-rail-regular-late.md): the How-Might-We questions written from this story.

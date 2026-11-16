@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-16 17:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-01_real-state-vehicle-source.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md]
+related: [F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md]
 ---
 
 # Story F-01
@@ -20,7 +20,7 @@ As the Como commuter, standing on the platform watching the delay on the board g
 | **Evidence and impact** | strong · High |
 | **Feature** | [F-01_real-state-vehicle-source.md](../02_Features/F-01_real-state-vehicle-source.md) |
 | **Questions (HMW)** | [HMW-01](../../03_Ideation/01_How_Might_We/HMW-01_help-como-commuter-standing-platform.md), [HMW-02](../../03_Ideation/01_How_Might_We/HMW-02_spare-como-commuter-platform-during.md) |
-| **Specifications** | [SPEC-02](../../04_Specifications/SPEC-02_real-state-of-the-run.md), [SPEC-03](../../04_Specifications/SPEC-03_travellers-report.md) |
+| **Specifications** | none: the specifications were deleted on 2026-11-16 |
 
 ## Source
 
@@ -29,5 +29,4 @@ As the Como commuter, standing on the platform watching the delay on the board g
 ## Connections
 
 - [F-01_real-state-vehicle-source.md](../02_Features/F-01_real-state-vehicle-source.md): the feature this story carries.
-- [SPEC-02_real-state-of-the-run.md](../../04_Specifications/SPEC-02_real-state-of-the-run.md), [SPEC-03_travellers-report.md](../../04_Specifications/SPEC-03_travellers-report.md): the specifications that serve this story.
 - [HMW-01_help-como-commuter-standing-platform.md](../../03_Ideation/01_How_Might_We/HMW-01_help-como-commuter-standing-platform.md), [HMW-02_spare-como-commuter-platform-during.md](../../03_Ideation/01_How_Might_We/HMW-02_spare-como-commuter-platform-during.md): the How-Might-We questions written from this story.

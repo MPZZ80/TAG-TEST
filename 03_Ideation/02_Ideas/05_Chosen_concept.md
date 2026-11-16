@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:40
+date: 2026-11-16 17:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [04_Ideas_prioritization.md, 03_Families_index.md, 02_AI_Ideas_index.md, 01_Human_Ideas_index.md, 00_How_might_we_index.md, 00_User_Stories_index.md, 00_Features_index.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-03_travellers-report.md, SPEC-04_alerts-on-the-usual-trip.md, SPEC-05_usual-trip-at-a-glance.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md, SPEC-08_the-connection-ahead.md, SPEC-09_every-way-side-by-side.md, SPEC-10_times-that-can-be-kept.md, SPEC-11_tickets-that-work-when-needed.md, SPEC-12_the-fare-that-fits-the-days.md, SPEC-13_compensation-from-the-trip.md, SPEC-14_the-station-ahead.md, SPEC-15_stop-approaching.md, SPEC-16_the-route-stays-with-the-driver.md, SPEC-17_sessions-still-running.md]
+related: [04_Ideas_prioritization.md, 03_Families_index.md, 02_AI_Ideas_index.md, 01_Human_Ideas_index.md, 00_How_might_we_index.md, 00_User_Stories_index.md, 00_Features_index.md]
 ---
 
 # Chosen Concept: The Whole Commute, Told As It Is
@@ -133,4 +133,3 @@ Every one of the 27 questions of [00_How_might_we_index.md](../01_How_Might_We/0
 - [00_How_might_we_index.md](../01_How_Might_We/00_How_might_we_index.md): the 27 questions, each with its feature and persona.
 - [00_User_Stories_index.md](../../02_Analysis/03_User_Stories/00_User_Stories_index.md): the stories behind the questions, and the personas.
 - [00_Features_index.md](../../02_Analysis/02_Features/00_Features_index.md): the features named in the tables.
-- [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md), [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md), [SPEC-02_real-state-of-the-run.md](../../04_Specifications/SPEC-02_real-state-of-the-run.md), [SPEC-03_travellers-report.md](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-04_alerts-on-the-usual-trip.md](../../04_Specifications/SPEC-04_alerts-on-the-usual-trip.md), [SPEC-05_usual-trip-at-a-glance.md](../../04_Specifications/SPEC-05_usual-trip-at-a-glance.md), [SPEC-06_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07_those-waiting-are-told.md](../../04_Specifications/SPEC-07_those-waiting-are-told.md), [SPEC-08_the-connection-ahead.md](../../04_Specifications/SPEC-08_the-connection-ahead.md), [SPEC-09_every-way-side-by-side.md](../../04_Specifications/SPEC-09_every-way-side-by-side.md), [SPEC-10_times-that-can-be-kept.md](../../04_Specifications/SPEC-10_times-that-can-be-kept.md), [SPEC-11_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-11_tickets-that-work-when-needed.md), [SPEC-12_the-fare-that-fits-the-days.md](../../04_Specifications/SPEC-12_the-fare-that-fits-the-days.md), [SPEC-13_compensation-from-the-trip.md](../../04_Specifications/SPEC-13_compensation-from-the-trip.md), [SPEC-14_the-station-ahead.md](../../04_Specifications/SPEC-14_the-station-ahead.md), [SPEC-15_stop-approaching.md](../../04_Specifications/SPEC-15_stop-approaching.md), [SPEC-16_the-route-stays-with-the-driver.md](../../04_Specifications/SPEC-16_the-route-stays-with-the-driver.md), [SPEC-17_sessions-still-running.md](../../04_Specifications/SPEC-17_sessions-still-running.md): the specifications written from this concept.

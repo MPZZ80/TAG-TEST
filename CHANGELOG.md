@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-16 17:35
+
+- **Files:** deleted: the whole `05_Prototype/` folder (instructions, screens, scripts, datasets, stylesheet, READMEs) and `04_Specifications/SPEC-00_overview.md` to `SPEC-17_sessions-still-running.md` (18 files). Changed: the 24 story files `02_Analysis/03_User_Stories/US-F-*.md`, `00_User_Stories_index.md` and the folder `README.md`; `02_Analysis/02_Features/00_Features_index.md`; `03_Ideation/01_How_Might_We/00_How_might_we_index.md`, `03_Ideation/02_Ideas/01_Human_Ideas_index.md`, `03_Families_index.md`, `04_Ideas_prioritization.md`, `05_Chosen_concept.md`, `03_Ideation/README.md`; `04_Specifications/README.md`; `Index.md`; `AGENTS.md`.
+- **Change:** Only `04_Specifications/Spec_instructions.md` remains in the specifications folder. The specification files were taken out of every `related` field and "Connections" section. The "Specifications" row of each story now reads "none: the specifications were deleted on 2026-11-16". The SPEC lines were removed from `Index.md`, and the changed files moved last in their groups. `AGENTS.md`: the `05_Prototype/` row removed, the `04_Specifications/` row rewritten, and log entry 39 (prototype rules) marked withdrawn.
+- **Why:** Marco: "cancella il prototipo e le specifiche lascia solo Spec Instructions che poi modificheremo insieme" (delete the prototype and the specifications, leave only Spec Instructions, which we will revise together).
+- **Do not:** reintroduce the deleted specifications or the prototype. New specifications come only after the instructions have been revised with Marco.
+
 ## 2026-11-16 17:26
 
 - **Files:** `04_Specifications/SPEC-00_overview.md`, `Index.md`

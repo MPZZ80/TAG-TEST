@@ -34,8 +34,7 @@ Repository layout:
 | `03_Ideation/02_Ideas/` | Marco's and the AI's concepts and their families, one file each, with their indexes, the marks and the chosen concept |
 | `03_Ideation/00_Ideation_Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
-| `04_Specifications/` | The specifications written from the user stories and the chosen concept, one file per behaviour, with the instructions for writing them |
-| `05_Prototype/` | The frontend-only prototype (HTML, CSS, JavaScript, mock data), in `html/`, `css/`, `js/`, `data/`, `assets/`, with its rules in `instructions/Prototype_Instructions.md` |
+| `04_Specifications/` | The instructions for writing specifications from the user stories, to be revised with Marco; the specifications go here, one file per behaviour, once written |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
 
@@ -133,7 +132,7 @@ This section is the running list of the standing instructions Marco gives during
 | 36 | 2026-11-01 | Name the files of `03_Ideation/` with a progressive number at the start, in the order of the process: `00_How_might_we_index.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
 | 37 | 2026-11-02 | Number the folders of `01_Research/` in the order they were created (`01_Questions/` to `05_Survey/`; Analysis, numbered `06_` at first, was then moved to the root as `02_Analysis/`), and number the files inside that have no progressive number yet, in the order they were created. Files that already carry a number or an ID keep it (source IDs such as `GR-001`, the course prompts `prompt-01-…`). The interview files stay without numbers. The plan and the instructions for running it go in `01_Research/02_Plan/`. | To put order in the research folder |
 | 38 | 2026-11-02 | Keep the whole network of the files working: when a file or folder is created, moved, renamed or deleted, update every link, `related` entry, "Connections" sentence, `Index.md` line and README row that names it, then check that all links and `related` entries still resolve. Details under "Network" above. | Not stated; asked after the research folders were renumbered and moved |
-| 39 | 2026-11-09 | Build the prototype frontend only (no backend, API or server-side code), in plain HTML, CSS and JavaScript without external tools or libraries unless necessary, in `05_Prototype/` with folders for HTML, CSS, JS, assets, instructions and data; every content comes from commented mock datasets in `data/`, replaceable by real client data; a placeholder stylesheet until Marco provides his. Details in `05_Prototype/instructions/Prototype_Instructions.md`. | To represent the interface, flows and interactions, not to build a working app |
+| 39 | 2026-11-09 | Withdrawn on 2026-11-16: the prototype and its instructions were deleted. Build the prototype frontend only (no backend, API or server-side code), in plain HTML, CSS and JavaScript without external tools or libraries unless necessary, in `05_Prototype/` with folders for HTML, CSS, JS, assets, instructions and data; every content comes from commented mock datasets in `data/`, replaceable by real client data; a placeholder stylesheet until Marco provides his. Details in `05_Prototype/instructions/Prototype_Instructions.md`. | To represent the interface, flows and interactions, not to build a working app |
 
 ### Language
 

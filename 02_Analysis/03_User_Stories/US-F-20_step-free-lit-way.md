@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-16 17:35
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-20_step-free-lit-way.md, SPEC-03_travellers-report.md, SPEC-14_the-station-ahead.md, HMW-23_spare-wheelchair-user-before-getting.md]
+related: [F-20_step-free-lit-way.md, HMW-23_spare-wheelchair-user-before-getting.md]
 ---
 
 # Story F-20
@@ -20,7 +20,7 @@ As a wheelchair user (desk persona), before getting off the train at a German st
 | **Evidence and impact** | strong · Low |
 | **Feature** | [F-20_step-free-lit-way.md](../02_Features/F-20_step-free-lit-way.md) |
 | **Questions (HMW)** | [HMW-23](../../03_Ideation/01_How_Might_We/HMW-23_spare-wheelchair-user-before-getting.md) |
-| **Specifications** | [SPEC-03](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-14](../../04_Specifications/SPEC-14_the-station-ahead.md) |
+| **Specifications** | none: the specifications were deleted on 2026-11-16 |
 
 ## Source
 
@@ -29,5 +29,4 @@ As a wheelchair user (desk persona), before getting off the train at a German st
 ## Connections
 
 - [F-20_step-free-lit-way.md](../02_Features/F-20_step-free-lit-way.md): the feature this story carries.
-- [SPEC-03_travellers-report.md](../../04_Specifications/SPEC-03_travellers-report.md), [SPEC-14_the-station-ahead.md](../../04_Specifications/SPEC-14_the-station-ahead.md): the specifications that serve this story.
 - [HMW-23_spare-wheelchair-user-before-getting.md](../../03_Ideation/01_How_Might_We/HMW-23_spare-wheelchair-user-before-getting.md): the How-Might-We questions written from this story.
