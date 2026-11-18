@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, disruption]
-related: [F-01_real-state-vehicle-source.md, F-03_early-warning-usual-trip.md]
+related: [F-01_real-state-vehicle-source.md, F-03_early-warning-usual-trip.md, OQ-02_age-limit-of-a-fact.md, OQ-11_whether-every-break-is-sent.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md]
 ---
 
 # TP-089: Delay or cancellation information that comes too late, or is wrong
@@ -38,3 +38,4 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 
 - [F-01_real-state-vehicle-source.md](../02_Features/F-01_real-state-vehicle-source.md): the feature that answers this touchpoint.
 - [F-03_early-warning-usual-trip.md](../02_Features/F-03_early-warning-usual-trip.md): the feature that answers this touchpoint.
+- [OQ-02_age-limit-of-a-fact.md](../../04_Specifications/01_Open_Questions/OQ-02_age-limit-of-a-fact.md), [OQ-11_whether-every-break-is-sent.md](../../04_Specifications/01_Open_Questions/OQ-11_whether-every-break-is-sent.md), [OQ-13_when-a-vehicle-not-seen-is-not-coming.md](../../04_Specifications/01_Open_Questions/OQ-13_when-a-vehicle-not-seen-is-not-coming.md): an open question of the specifications whose chain to the research passes through this file.

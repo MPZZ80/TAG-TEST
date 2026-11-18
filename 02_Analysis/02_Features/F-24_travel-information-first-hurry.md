@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-055_checking-app-hurry-being.md, US-F-24_travel-information-first-hurry.md]
+related: [TP-055_checking-app-hurry-being.md, US-F-24_travel-information-first-hurry.md, OQ-09_first-view-with-no-usual-trip.md, SPEC-04_todays-trip-at-a-glance.md]
 ---
 
 # F-24: Travel information first, in a hurry
@@ -30,3 +30,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-055_checking-app-hurry-being.md](../01_Touchpoints/TP-055_checking-app-hurry-being.md): the touchpoints this feature answers.
 - [US-F-24_travel-information-first-hurry.md](../03_User_Stories/US-F-24_travel-information-first-hurry.md): the user story written from this feature.
+- [OQ-09_first-view-with-no-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-04_todays-trip-at-a-glance.md](../../04_Specifications/SPEC-04_todays-trip-at-a-glance.md): a specification built on this feature.

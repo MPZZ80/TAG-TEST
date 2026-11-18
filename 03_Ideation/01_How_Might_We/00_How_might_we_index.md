@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 17:35
+date: 2026-11-18 19:41
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [00_User_Stories_index.md, 02_AI_Ideas_index.md, 03_Families_index.md, 05_Chosen_concept.md]
+related: [00_User_Stories_index.md, 02_AI_Ideas_index.md, 03_Families_index.md, 05_Chosen_concept.md, SPEC-00_overview.md]
 ---
 
 # How Might We: Questions from the User Stories
@@ -108,3 +108,4 @@ Marco's grouping of the clusters. The names are proposals. [CL-06](CL-06_tickets
 - [02_AI_Ideas_index.md](../02_Ideas/02_AI_Ideas_index.md) holds the concepts proposed for these questions.
 - [03_Families_index.md](../02_Ideas/03_Families_index.md) says which of these questions Marco's concepts answer.
 - [05_Chosen_concept.md](../02_Ideas/05_Chosen_concept.md): the chosen concept, which lists for each family the questions it answers.
+- [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md): a specification that cites this file.

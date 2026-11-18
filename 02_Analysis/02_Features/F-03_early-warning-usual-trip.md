@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-031_checking-train-only-days.md, TP-032_receiving-alert-usual-train.md, TP-033_alerts-set-usual-train.md, TP-034_turning-off-ignoring-operator.md, TP-035_using-alerts-usual-trip.md, TP-037_opening-operator-s-app.md, TP-039_news-line-fault-relative.md, TP-040_learning-strike-works-days.md, TP-087_finding-about-cancellation-station.md, TP-089_delay-cancellation-information-comes.md, US-F-03_early-warning-usual-trip.md]
+related: [TP-031_checking-train-only-days.md, TP-032_receiving-alert-usual-train.md, TP-033_alerts-set-usual-train.md, TP-034_turning-off-ignoring-operator.md, TP-035_using-alerts-usual-trip.md, TP-037_opening-operator-s-app.md, TP-039_news-line-fault-relative.md, TP-040_learning-strike-works-days.md, TP-087_finding-about-cancellation-station.md, TP-089_delay-cancellation-information-comes.md, US-F-03_early-warning-usual-trip.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-05_more-than-one-usual-trip.md, OQ-07_saying-that-nothing-changed.md, OQ-08_how-early-works-and-strikes-are-told.md, OQ-11_whether-every-break-is-sent.md, SPEC-01_foundation.md, SPEC-03_alerts-on-the-usual-trip.md]
 ---
 
 # F-03: Early warning on the usual trip
@@ -33,3 +33,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-031_checking-train-only-days.md](../01_Touchpoints/TP-031_checking-train-only-days.md), [TP-032_receiving-alert-usual-train.md](../01_Touchpoints/TP-032_receiving-alert-usual-train.md), [TP-033_alerts-set-usual-train.md](../01_Touchpoints/TP-033_alerts-set-usual-train.md), [TP-034_turning-off-ignoring-operator.md](../01_Touchpoints/TP-034_turning-off-ignoring-operator.md), [TP-035_using-alerts-usual-trip.md](../01_Touchpoints/TP-035_using-alerts-usual-trip.md), [TP-037_opening-operator-s-app.md](../01_Touchpoints/TP-037_opening-operator-s-app.md), [TP-039_news-line-fault-relative.md](../01_Touchpoints/TP-039_news-line-fault-relative.md), [TP-040_learning-strike-works-days.md](../01_Touchpoints/TP-040_learning-strike-works-days.md), [TP-087_finding-about-cancellation-station.md](../01_Touchpoints/TP-087_finding-about-cancellation-station.md), [TP-089_delay-cancellation-information-comes.md](../01_Touchpoints/TP-089_delay-cancellation-information-comes.md): the touchpoints this feature answers.
 - [US-F-03_early-warning-usual-trip.md](../03_User_Stories/US-F-03_early-warning-usual-trip.md): the user story written from this feature.
+- [OQ-03_reaching-the-commuter-without-looking.md](../../04_Specifications/01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md), [OQ-05_more-than-one-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [OQ-07_saying-that-nothing-changed.md](../../04_Specifications/01_Open_Questions/OQ-07_saying-that-nothing-changed.md), [OQ-08_how-early-works-and-strikes-are-told.md](../../04_Specifications/01_Open_Questions/OQ-08_how-early-works-and-strikes-are-told.md), [OQ-11_whether-every-break-is-sent.md](../../04_Specifications/01_Open_Questions/OQ-11_whether-every-break-is-sent.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md), [SPEC-03_alerts-on-the-usual-trip.md](../../04_Specifications/SPEC-03_alerts-on-the-usual-trip.md): a specification built on this feature.

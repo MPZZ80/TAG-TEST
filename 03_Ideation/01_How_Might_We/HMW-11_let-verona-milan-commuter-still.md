@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:41
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-08_ticket-works-moment-needed.md, CL-06_tickets-passes-charges.md, C11-01_move-signal.md, C11-02_next-one-if-i.md, C11-03_any-train-day.md, C11-04_ticket-follows-him.md, C11-05_someone-moves.md, C11-06_open-time-carnet.md, C11-07_credit-missed-train.md, C11-08_right-change-until-departure.md, C11-09_staff-accept.md, C11-10_signal-underground.md, C11-11_last-moment-warned.md, C11-12_pass.md]
+related: [US-F-08_ticket-works-moment-needed.md, CL-06_tickets-passes-charges.md, C11-01_move-signal.md, C11-02_next-one-if-i.md, C11-03_any-train-day.md, C11-04_ticket-follows-him.md, C11-05_someone-moves.md, C11-06_open-time-carnet.md, C11-07_credit-missed-train.md, C11-08_right-change-until-departure.md, C11-09_staff-accept.md, C11-10_signal-underground.md, C11-11_last-moment-warned.md, C11-12_pass.md, SPEC-10_tickets-that-work-when-needed.md]
 ---
 
 # HMW-11
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-08_ticket-works-moment-needed.md](../../02_Analysis/03_User_Stories/US-F-08_ticket-works-moment-needed.md): the user story this question was written from.
 - [CL-06_tickets-passes-charges.md](CL-06_tickets-passes-charges.md): the cluster this question belongs to.
 - [C11-01_move-signal.md](../02_Ideas/C11-01_move-signal.md), [C11-02_next-one-if-i.md](../02_Ideas/C11-02_next-one-if-i.md), [C11-03_any-train-day.md](../02_Ideas/C11-03_any-train-day.md), [C11-04_ticket-follows-him.md](../02_Ideas/C11-04_ticket-follows-him.md), [C11-05_someone-moves.md](../02_Ideas/C11-05_someone-moves.md), [C11-06_open-time-carnet.md](../02_Ideas/C11-06_open-time-carnet.md), [C11-07_credit-missed-train.md](../02_Ideas/C11-07_credit-missed-train.md), [C11-08_right-change-until-departure.md](../02_Ideas/C11-08_right-change-until-departure.md), [C11-09_staff-accept.md](../02_Ideas/C11-09_staff-accept.md), [C11-10_signal-underground.md](../02_Ideas/C11-10_signal-underground.md), [C11-11_last-moment-warned.md](../02_Ideas/C11-11_last-moment-warned.md), [C11-12_pass.md](../02_Ideas/C11-12_pass.md): the AI concepts that answer this question.
+- [SPEC-10_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-10_tickets-that-work-when-needed.md): a specification that traces to this question.

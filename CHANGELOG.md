@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 19:41
+
+- **Files:** created in `04_Specifications/`: `SPEC-00_overview.md`, `SPEC-01_foundation.md`, `SPEC-02_real-state-of-the-run.md` to `SPEC-16_sessions-still-running.md`, and `01_Open_Questions/` (`README.md`, `00_Open_questions_index.md`, `OQ-01` to `OQ-33`). Changed: `04_Specifications/README.md`, the 24 story files in `02_Analysis/03_User_Stories/`, the feature, question, touchpoint, source and interview files the specifications and open questions cite (back-links in `related` and "Connections"), `05_Prototype/instructions/Prototype_Instructions.md`, `Index.md`, `AGENTS.md`.
+- **Change:** Specifications written with the revised `Spec_instructions.md`, starting from the round of 2026-11-16 recovered from Git and adapted: every specification gains an "Architecture" section (web components, datasets in `data/` with their fields, simulated events), and the prompt line names the architecture. The foundation gains "Architecture" (shared components and datasets, simulated events, how a choice passes from page to page), "Start page" and "Initial set-up"; the set-up, which was SPEC-02, is now the initial set-up of the foundation, so the behaviours are SPEC-02 to SPEC-16. The overview gains "Components and datasets". The open questions are the 33 of that round, renumbered to the new specifications; OQ-09 is now raised by the start page too. Stories now name their specifications; the files the specifications and open questions cite list them back. The prototype instructions use the new numbers.
+- **Why:** Marco asked to run `04_Specifications/Spec_instructions.md`.
+
 ## 2026-11-18 19:28
 
 - **Files:** deleted `04_Specifications/01_Open_Questions/` (index, README, `OQ-01` to `OQ-33`), `05_Prototype/html/` (17 screens), `05_Prototype/js/` (18 scripts), `05_Prototype/css/style.css`; changed `05_Prototype/instructions/Prototype_Instructions.md`, the `README.md` of `05_Prototype/` and of its `html/`, `js/`, `css/`, `assets/`, `data/` folders, `04_Specifications/README.md`, `Index.md`, `AGENTS.md`

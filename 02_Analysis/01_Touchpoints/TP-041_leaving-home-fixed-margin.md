@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-13_times-commuter-can-plan.md]
+related: [F-13_times-commuter-can-plan.md, OQ-22_how-long-records-are-kept-to-time-a-leg.md]
 ---
 
 # TP-041: Leaving home with a fixed margin
@@ -31,3 +31,4 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-13_times-commuter-can-plan.md](../02_Features/F-13_times-commuter-can-plan.md): the feature that answers this touchpoint.
+- [OQ-22_how-long-records-are-kept-to-time-a-leg.md](../../04_Specifications/01_Open_Questions/OQ-22_how-long-records-are-kept-to-time-a-leg.md): an open question of the specifications whose chain to the research passes through this file.

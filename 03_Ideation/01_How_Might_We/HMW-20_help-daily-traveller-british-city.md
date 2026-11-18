@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:41
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-17a_staffed-station-lit-walk.md, CL-07_state-station.md, C20-01_staffed-hour.md, C20-02_dark-lit-walk.md, C20-03_night-accounts.md, C20-04_someone-call.md, C20-05_safe-waiting-place.md, C20-06_light-staff-hours.md, C20-07_walk-someone.md, C20-08_wait-together.md, C20-09_someone-knows-where-you.md, C20-10_quieter-busier-station.md, C20-11_known-before-setting.md, C20-12_earlier-train.md]
+related: [US-F-17a_staffed-station-lit-walk.md, CL-07_state-station.md, C20-01_staffed-hour.md, C20-02_dark-lit-walk.md, C20-03_night-accounts.md, C20-04_someone-call.md, C20-05_safe-waiting-place.md, C20-06_light-staff-hours.md, C20-07_walk-someone.md, C20-08_wait-together.md, C20-09_someone-knows-where-you.md, C20-10_quieter-busier-station.md, C20-11_known-before-setting.md, C20-12_earlier-train.md, SPEC-13_the-station-ahead.md]
 ---
 
 # HMW-20
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-17a_staffed-station-lit-walk.md](../../02_Analysis/03_User_Stories/US-F-17a_staffed-station-lit-walk.md): the user story this question was written from.
 - [CL-07_state-station.md](CL-07_state-station.md): the cluster this question belongs to.
 - [C20-01_staffed-hour.md](../02_Ideas/C20-01_staffed-hour.md), [C20-02_dark-lit-walk.md](../02_Ideas/C20-02_dark-lit-walk.md), [C20-03_night-accounts.md](../02_Ideas/C20-03_night-accounts.md), [C20-04_someone-call.md](../02_Ideas/C20-04_someone-call.md), [C20-05_safe-waiting-place.md](../02_Ideas/C20-05_safe-waiting-place.md), [C20-06_light-staff-hours.md](../02_Ideas/C20-06_light-staff-hours.md), [C20-07_walk-someone.md](../02_Ideas/C20-07_walk-someone.md), [C20-08_wait-together.md](../02_Ideas/C20-08_wait-together.md), [C20-09_someone-knows-where-you.md](../02_Ideas/C20-09_someone-knows-where-you.md), [C20-10_quieter-busier-station.md](../02_Ideas/C20-10_quieter-busier-station.md), [C20-11_known-before-setting.md](../02_Ideas/C20-11_known-before-setting.md), [C20-12_earlier-train.md](../02_Ideas/C20-12_earlier-train.md): the AI concepts that answer this question.
+- [SPEC-13_the-station-ahead.md](../../04_Specifications/SPEC-13_the-station-ahead.md): a specification that traces to this question.

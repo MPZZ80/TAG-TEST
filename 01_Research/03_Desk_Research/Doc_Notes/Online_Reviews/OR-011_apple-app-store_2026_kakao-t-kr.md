@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, information]
-related: [01_plan.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, PR-011_kakao-mobility_2026_kakao-t.md, 00_Touchpoints_index.md]
+related: [01_plan.md, GR-049_molit-korea_2023_k-maas-pilot-announcement.md, PR-011_kakao-mobility_2026_kakao-t.md, 00_Touchpoints_index.md, OQ-32_how-a-session-is-known-and-ended.md]
 ---
 
 # 카카오 T - 택시, 세차, 주차, 바이크, 항공, 퀵: App Store reviews, South Korea (sample)
@@ -66,3 +66,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Shares a source landscape with [GR-049_molit-korea_2023_k-maas-pilot-announcement.md](../Global_Reports/GR-049_molit-korea_2023_k-maas-pilot-announcement.md) and [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md): mobility platforms in South Korea.
 - [PR-011_kakao-mobility_2026_kakao-t.md](../Products/PR-011_kakao-mobility_2026_kakao-t.md) describes the product these reviews are about.
 - The moments of the journey drawn from this note are listed in [00_Touchpoints_index.md](../../../../02_Analysis/01_Touchpoints/00_Touchpoints_index.md).
+- [OQ-32_how-a-session-is-known-and-ended.md](../../../../04_Specifications/01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md): an open question of the specifications whose chain to the research passes through this file.

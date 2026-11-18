@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:41
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-10_car-against-train-office.md, CL-05_choosing-travel.md, C13-01_side-side-door-door.md, C13-02_evening-times-apply.md, C13-03_home-answer.md, C13-04_latest-office-exit.md, C13-05_trial-week.md, C13-06_mixed-day.md, C13-07_those-moved-back.md, C13-08_colleagues-way-back.md, C13-09_evening-departure-added.md, C13-10_true-cost-both.md, C13-11_earlier-end-train-days.md, C13-12_return-time-holds.md]
+related: [US-F-10_car-against-train-office.md, CL-05_choosing-travel.md, C13-01_side-side-door-door.md, C13-02_evening-times-apply.md, C13-03_home-answer.md, C13-04_latest-office-exit.md, C13-05_trial-week.md, C13-06_mixed-day.md, C13-07_those-moved-back.md, C13-08_colleagues-way-back.md, C13-09_evening-departure-added.md, C13-10_true-cost-both.md, C13-11_earlier-end-train-days.md, C13-12_return-time-holds.md, SPEC-08_every-way-door-to-door.md]
 ---
 
 # HMW-13
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-10_car-against-train-office.md](../../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md): the user story this question was written from.
 - [CL-05_choosing-travel.md](CL-05_choosing-travel.md): the cluster this question belongs to.
 - [C13-01_side-side-door-door.md](../02_Ideas/C13-01_side-side-door-door.md), [C13-02_evening-times-apply.md](../02_Ideas/C13-02_evening-times-apply.md), [C13-03_home-answer.md](../02_Ideas/C13-03_home-answer.md), [C13-04_latest-office-exit.md](../02_Ideas/C13-04_latest-office-exit.md), [C13-05_trial-week.md](../02_Ideas/C13-05_trial-week.md), [C13-06_mixed-day.md](../02_Ideas/C13-06_mixed-day.md), [C13-07_those-moved-back.md](../02_Ideas/C13-07_those-moved-back.md), [C13-08_colleagues-way-back.md](../02_Ideas/C13-08_colleagues-way-back.md), [C13-09_evening-departure-added.md](../02_Ideas/C13-09_evening-departure-added.md), [C13-10_true-cost-both.md](../02_Ideas/C13-10_true-cost-both.md), [C13-11_earlier-end-train-days.md](../02_Ideas/C13-11_earlier-end-train-days.md), [C13-12_return-time-holds.md](../02_Ideas/C13-12_return-time-holds.md): the AI concepts that answer this question.
+- [SPEC-08_every-way-door-to-door.md](../../04_Specifications/SPEC-08_every-way-door-to-door.md): a specification that traces to this question.

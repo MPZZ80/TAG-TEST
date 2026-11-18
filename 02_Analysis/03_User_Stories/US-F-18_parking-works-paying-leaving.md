@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-18_parking-works-paying-leaving.md, HMW-21_keep-italian-driver-leaving-car.md]
+related: [F-18_parking-works-paying-leaving.md, HMW-21_keep-italian-driver-leaving-car.md, SPEC-16_sessions-still-running.md, OQ-32_how-a-session-is-known-and-ended.md, OQ-33_the-reminder-interval.md]
 ---
 
 # Story F-18
@@ -20,7 +20,7 @@ As an Italian driver (desk persona), leaving the car for the day on street parki
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-18_parking-works-paying-leaving.md](../02_Features/F-18_parking-works-paying-leaving.md) |
 | **Questions (HMW)** | [HMW-21](../../03_Ideation/01_How_Might_We/HMW-21_keep-italian-driver-leaving-car.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-16](../../04_Specifications/SPEC-16_sessions-still-running.md) |
 
 ## Source
 
@@ -30,3 +30,5 @@ As an Italian driver (desk persona), leaving the car for the day on street parki
 
 - [F-18_parking-works-paying-leaving.md](../02_Features/F-18_parking-works-paying-leaving.md): the feature this story carries.
 - [HMW-21_keep-italian-driver-leaving-car.md](../../03_Ideation/01_How_Might_We/HMW-21_keep-italian-driver-leaving-car.md): the How-Might-We questions written from this story.
+- [SPEC-16_sessions-still-running.md](../../04_Specifications/SPEC-16_sessions-still-running.md): the specifications that serve this story.
+- [OQ-32_how-a-session-is-known-and-ended.md](../../04_Specifications/01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md), [OQ-33_the-reminder-interval.md](../../04_Specifications/01_Open_Questions/OQ-33_the-reminder-interval.md): an open question of the specifications whose chain to the research passes through this file.

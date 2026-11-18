@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, planning]
-related: [F-12_ticket-fits-days-travelled.md]
+related: [F-12_ticket-fits-days-travelled.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md]
 ---
 
 # TP-007: Choosing pass, carnet or single tickets to fit the days actually travelled
@@ -32,3 +32,4 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-12_ticket-fits-days-travelled.md](../02_Features/F-12_ticket-fits-days-travelled.md): the feature that answers this touchpoint.
+- [OQ-25_period-over-which-days-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-25_period-over-which-days-are-counted.md), [OQ-26_telling-first-that-the-fare-no-longer-fits.md](../../04_Specifications/01_Open_Questions/OQ-26_telling-first-that-the-fare-no-longer-fits.md): an open question of the specifications whose chain to the research passes through this file.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-17a_staffed-station-lit-walk.md, HMW-20_help-daily-traveller-british-city.md]
+related: [F-17a_staffed-station-lit-walk.md, HMW-20_help-daily-traveller-british-city.md, SPEC-13_the-station-ahead.md]
 ---
 
 # Story F-17a
@@ -20,7 +20,7 @@ Split from F-17. As a daily traveller in a British city (desk persona), waiting 
 | **Evidence and impact** | strong · Low |
 | **Feature** | [F-17a_staffed-station-lit-walk.md](../02_Features/F-17a_staffed-station-lit-walk.md) |
 | **Questions (HMW)** | [HMW-20](../../03_Ideation/01_How_Might_We/HMW-20_help-daily-traveller-british-city.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-13](../../04_Specifications/SPEC-13_the-station-ahead.md) |
 
 ## Source
 
@@ -30,3 +30,4 @@ Split from F-17. As a daily traveller in a British city (desk persona), waiting 
 
 - [F-17a_staffed-station-lit-walk.md](../02_Features/F-17a_staffed-station-lit-walk.md): the feature this story carries.
 - [HMW-20_help-daily-traveller-british-city.md](../../03_Ideation/01_How_Might_We/HMW-20_help-daily-traveller-british-city.md): the How-Might-We questions written from this story.
+- [SPEC-13_the-station-ahead.md](../../04_Specifications/SPEC-13_the-station-ahead.md): the specifications that serve this story.

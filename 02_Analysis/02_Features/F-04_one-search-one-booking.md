@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-005_booking-train-days-ahead.md, TP-013_choosing-each-day-means.md, TP-016_knowing-public-transport-option.md, TP-019_choosing-slower-route-because.md, TP-020_booking-online-without-comparing.md, TP-021_deciding-combine-means-operators.md, TP-022_searching-each-leg-different.md, TP-065_topping-up-card-middle.md, US-F-04_one-search-one-booking.md]
+related: [TP-005_booking-train-days-ahead.md, TP-013_choosing-each-day-means.md, TP-016_knowing-public-transport-option.md, TP-019_choosing-slower-route-because.md, TP-020_booking-online-without-comparing.md, TP-021_deciding-combine-means-operators.md, TP-022_searching-each-leg-different.md, TP-065_topping-up-card-middle.md, US-F-04_one-search-one-booking.md, OQ-23_booking-and-paying-across-sellers.md, SPEC-08_every-way-door-to-door.md, SPEC-10_tickets-that-work-when-needed.md]
 ---
 
 # F-04: One search and one booking for the whole trip
@@ -33,3 +33,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-005_booking-train-days-ahead.md](../01_Touchpoints/TP-005_booking-train-days-ahead.md), [TP-013_choosing-each-day-means.md](../01_Touchpoints/TP-013_choosing-each-day-means.md), [TP-016_knowing-public-transport-option.md](../01_Touchpoints/TP-016_knowing-public-transport-option.md), [TP-019_choosing-slower-route-because.md](../01_Touchpoints/TP-019_choosing-slower-route-because.md), [TP-020_booking-online-without-comparing.md](../01_Touchpoints/TP-020_booking-online-without-comparing.md), [TP-021_deciding-combine-means-operators.md](../01_Touchpoints/TP-021_deciding-combine-means-operators.md), [TP-022_searching-each-leg-different.md](../01_Touchpoints/TP-022_searching-each-leg-different.md), [TP-065_topping-up-card-middle.md](../01_Touchpoints/TP-065_topping-up-card-middle.md): the touchpoints this feature answers.
 - [US-F-04_one-search-one-booking.md](../03_User_Stories/US-F-04_one-search-one-booking.md): the user story written from this feature.
+- [OQ-23_booking-and-paying-across-sellers.md](../../04_Specifications/01_Open_Questions/OQ-23_booking-and-paying-across-sellers.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-08_every-way-door-to-door.md](../../04_Specifications/SPEC-08_every-way-door-to-door.md), [SPEC-10_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-10_tickets-that-work-when-needed.md): a specification built on this feature.

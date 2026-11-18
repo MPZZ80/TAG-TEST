@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-004_fixing-departure-time-days.md, TP-048_being-driven-station-relative.md, TP-075_following-train-app-board.md, TP-106_telling-people-waiting-colleagues.md, TP-107_asking-relative-come-fetch.md, US-F-09_arrival-shared-whoever-waits.md]
+related: [TP-004_fixing-departure-time-days.md, TP-048_being-driven-station-relative.md, TP-075_following-train-app-board.md, TP-106_telling-people-waiting-colleagues.md, TP-107_asking-relative-come-fetch.md, US-F-09_arrival-shared-whoever-waits.md, OQ-05_more-than-one-usual-trip.md, OQ-10_another-run-taken-without-saying.md, OQ-15_when-the-contact-is-told-again.md, OQ-16_telling-the-contact-when-to-set-off.md, OQ-19_a-lift-as-a-way.md, SPEC-06_those-waiting-are-told.md]
 ---
 
 # F-09: The arrival shared with whoever waits or drives
@@ -31,3 +31,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-004_fixing-departure-time-days.md](../01_Touchpoints/TP-004_fixing-departure-time-days.md), [TP-048_being-driven-station-relative.md](../01_Touchpoints/TP-048_being-driven-station-relative.md), [TP-075_following-train-app-board.md](../01_Touchpoints/TP-075_following-train-app-board.md), [TP-106_telling-people-waiting-colleagues.md](../01_Touchpoints/TP-106_telling-people-waiting-colleagues.md), [TP-107_asking-relative-come-fetch.md](../01_Touchpoints/TP-107_asking-relative-come-fetch.md): the touchpoints this feature answers.
 - [US-F-09_arrival-shared-whoever-waits.md](../03_User_Stories/US-F-09_arrival-shared-whoever-waits.md): the user story written from this feature.
+- [OQ-05_more-than-one-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [OQ-10_another-run-taken-without-saying.md](../../04_Specifications/01_Open_Questions/OQ-10_another-run-taken-without-saying.md), [OQ-15_when-the-contact-is-told-again.md](../../04_Specifications/01_Open_Questions/OQ-15_when-the-contact-is-told-again.md), [OQ-16_telling-the-contact-when-to-set-off.md](../../04_Specifications/01_Open_Questions/OQ-16_telling-the-contact-when-to-set-off.md), [OQ-19_a-lift-as-a-way.md](../../04_Specifications/01_Open_Questions/OQ-19_a-lift-as-a-way.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-06_those-waiting-are-told.md](../../04_Specifications/SPEC-06_those-waiting-are-told.md): a specification built on this feature.

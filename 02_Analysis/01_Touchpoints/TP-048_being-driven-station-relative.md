@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-09_arrival-shared-whoever-waits.md]
+related: [F-09_arrival-shared-whoever-waits.md, OQ-16_telling-the-contact-when-to-set-off.md, OQ-19_a-lift-as-a-way.md]
 ---
 
 # TP-048: Being driven to the station by a relative
@@ -30,3 +30,4 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-09_arrival-shared-whoever-waits.md](../02_Features/F-09_arrival-shared-whoever-waits.md): the feature that answers this touchpoint.
+- [OQ-16_telling-the-contact-when-to-set-off.md](../../04_Specifications/01_Open_Questions/OQ-16_telling-the-contact-when-to-set-off.md), [OQ-19_a-lift-as-a-way.md](../../04_Specifications/01_Open_Questions/OQ-19_a-lift-as-a-way.md): an open question of the specifications whose chain to the research passes through this file.

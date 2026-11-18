@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-104_claiming-compensation-after-delay.md, TP-105_complaining-after-poor-experience.md, US-F-16_compensation-claim-started-delayed.md]
+related: [TP-104_claiming-compensation-after-delay.md, TP-105_complaining-after-poor-experience.md, US-F-16_compensation-claim-started-delayed.md, OQ-27_claims-on-tickets-from-a-seller.md, SPEC-12_compensation-from-the-trip.md]
 ---
 
 # F-16: The compensation claim started from the delayed trip
@@ -31,3 +31,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-104_claiming-compensation-after-delay.md](../01_Touchpoints/TP-104_claiming-compensation-after-delay.md), [TP-105_complaining-after-poor-experience.md](../01_Touchpoints/TP-105_complaining-after-poor-experience.md): the touchpoints this feature answers.
 - [US-F-16_compensation-claim-started-delayed.md](../03_User_Stories/US-F-16_compensation-claim-started-delayed.md): the user story written from this feature.
+- [OQ-27_claims-on-tickets-from-a-seller.md](../../04_Specifications/01_Open_Questions/OQ-27_claims-on-tickets-from-a-seller.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-12_compensation-from-the-trip.md](../../04_Specifications/SPEC-12_compensation-from-the-trip.md): a specification built on this feature.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-02_ways-still-open-trip.md, HMW-03_help-teenager-waiting-late-evening.md, HMW-04_help-teenager-stop-late-evening.md]
+related: [F-02_ways-still-open-trip.md, HMW-03_help-teenager-waiting-late-evening.md, HMW-04_help-teenager-stop-late-evening.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, OQ-11_whether-every-break-is-sent.md, OQ-12_cost-of-each-way-out.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, OQ-14_minors-using-the-product-alone.md]
 ---
 
 # Story F-02
@@ -20,7 +20,7 @@ As a teenager (desk persona), waiting late in the evening at a stop for a connec
 | **Evidence and impact** | strong · High |
 | **Feature** | [F-02_ways-still-open-trip.md](../02_Features/F-02_ways-still-open-trip.md) |
 | **Questions (HMW)** | [HMW-03](../../03_Ideation/01_How_Might_We/HMW-03_help-teenager-waiting-late-evening.md), [HMW-04](../../03_Ideation/01_How_Might_We/HMW-04_help-teenager-stop-late-evening.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-05](../../04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](../../04_Specifications/SPEC-06_those-waiting-are-told.md) |
 
 ## Source
 
@@ -30,3 +30,5 @@ As a teenager (desk persona), waiting late in the evening at a stop for a connec
 
 - [F-02_ways-still-open-trip.md](../02_Features/F-02_ways-still-open-trip.md): the feature this story carries.
 - [HMW-03_help-teenager-waiting-late-evening.md](../../03_Ideation/01_How_Might_We/HMW-03_help-teenager-waiting-late-evening.md), [HMW-04_help-teenager-stop-late-evening.md](../../03_Ideation/01_How_Might_We/HMW-04_help-teenager-stop-late-evening.md): the How-Might-We questions written from this story.
+- [SPEC-05_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06_those-waiting-are-told.md](../../04_Specifications/SPEC-06_those-waiting-are-told.md): the specifications that serve this story.
+- [OQ-11_whether-every-break-is-sent.md](../../04_Specifications/01_Open_Questions/OQ-11_whether-every-break-is-sent.md), [OQ-12_cost-of-each-way-out.md](../../04_Specifications/01_Open_Questions/OQ-12_cost-of-each-way-out.md), [OQ-13_when-a-vehicle-not-seen-is-not-coming.md](../../04_Specifications/01_Open_Questions/OQ-13_when-a-vehicle-not-seen-is-not-coming.md), [OQ-14_minors-using-the-product-alone.md](../../04_Specifications/01_Open_Questions/OQ-14_minors-using-the-product-alone.md): an open question of the specifications whose chain to the research passes through this file.

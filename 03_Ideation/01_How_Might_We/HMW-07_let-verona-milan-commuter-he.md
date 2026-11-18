@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:41
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-04_one-search-one-booking.md, CL-05_choosing-travel.md, C07-01_all-ways-one-page.md, C07-02_runs-each-leg.md, C07-03_real-door-time.md, C07-04_only-those-fit.md, C07-05_only-differs.md, C07-06_one-price.md, C07-07_whole-trip-protection.md, C07-08_duty-sell-through.md, C07-09_doors-known.md, C07-10_person-assembles.md, C07-11_regulars-accounts.md, C07-12_lifts-count-way.md, S06_alternatives-estimated-delays.md]
+related: [US-F-04_one-search-one-booking.md, CL-05_choosing-travel.md, C07-01_all-ways-one-page.md, C07-02_runs-each-leg.md, C07-03_real-door-time.md, C07-04_only-those-fit.md, C07-05_only-differs.md, C07-06_one-price.md, C07-07_whole-trip-protection.md, C07-08_duty-sell-through.md, C07-09_doors-known.md, C07-10_person-assembles.md, C07-11_regulars-accounts.md, C07-12_lifts-count-way.md, S06_alternatives-estimated-delays.md, SPEC-08_every-way-door-to-door.md, SPEC-10_tickets-that-work-when-needed.md]
 ---
 
 # HMW-07
@@ -31,3 +31,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [CL-05_choosing-travel.md](CL-05_choosing-travel.md): the cluster this question belongs to.
 - [C07-01_all-ways-one-page.md](../02_Ideas/C07-01_all-ways-one-page.md), [C07-02_runs-each-leg.md](../02_Ideas/C07-02_runs-each-leg.md), [C07-03_real-door-time.md](../02_Ideas/C07-03_real-door-time.md), [C07-04_only-those-fit.md](../02_Ideas/C07-04_only-those-fit.md), [C07-05_only-differs.md](../02_Ideas/C07-05_only-differs.md), [C07-06_one-price.md](../02_Ideas/C07-06_one-price.md), [C07-07_whole-trip-protection.md](../02_Ideas/C07-07_whole-trip-protection.md), [C07-08_duty-sell-through.md](../02_Ideas/C07-08_duty-sell-through.md), [C07-09_doors-known.md](../02_Ideas/C07-09_doors-known.md), [C07-10_person-assembles.md](../02_Ideas/C07-10_person-assembles.md), [C07-11_regulars-accounts.md](../02_Ideas/C07-11_regulars-accounts.md), [C07-12_lifts-count-way.md](../02_Ideas/C07-12_lifts-count-way.md): the AI concepts that answer this question.
 - [S06_alternatives-estimated-delays.md](../02_Ideas/S06_alternatives-estimated-delays.md): Marco's concepts assigned to this question.
+- [SPEC-08_every-way-door-to-door.md](../../04_Specifications/SPEC-08_every-way-door-to-door.md), [SPEC-10_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-10_tickets-that-work-when-needed.md): a specification that traces to this question.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-063_getting-through-station-without.md, US-F-20_step-free-lit-way.md]
+related: [TP-063_getting-through-station-without.md, US-F-20_step-free-lit-way.md, OQ-28_source-of-the-state-of-facilities.md, SPEC-13_the-station-ahead.md]
 ---
 
 # F-20: A step-free, lit way through the station
@@ -31,3 +31,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-063_getting-through-station-without.md](../01_Touchpoints/TP-063_getting-through-station-without.md): the touchpoints this feature answers.
 - [US-F-20_step-free-lit-way.md](../03_User_Stories/US-F-20_step-free-lit-way.md): the user story written from this feature.
+- [OQ-28_source-of-the-state-of-facilities.md](../../04_Specifications/01_Open_Questions/OQ-28_source-of-the-state-of-facilities.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-13_the-station-ahead.md](../../04_Specifications/SPEC-13_the-station-ahead.md): a specification built on this feature.

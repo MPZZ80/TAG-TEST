@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-20_step-free-lit-way.md]
+related: [F-20_step-free-lit-way.md, OQ-28_source-of-the-state-of-facilities.md]
 ---
 
 # TP-063: Getting through a station without working lifts or light
@@ -31,3 +31,4 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-20_step-free-lit-way.md](../02_Features/F-20_step-free-lit-way.md): the feature that answers this touchpoint.
+- [OQ-28_source-of-the-state-of-facilities.md](../../04_Specifications/01_Open_Questions/OQ-28_source-of-the-state-of-facilities.md): an open question of the specifications whose chain to the research passes through this file.

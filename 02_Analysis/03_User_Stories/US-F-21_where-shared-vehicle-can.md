@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-21_where-shared-vehicle-can.md, HMW-24_keep-charge-running-shared-bike.md]
+related: [F-21_where-shared-vehicle-can.md, HMW-24_keep-charge-running-shared-bike.md, SPEC-16_sessions-still-running.md, OQ-32_how-a-session-is-known-and-ended.md]
 ---
 
 # Story F-21
@@ -20,7 +20,7 @@ As a shared-bike rider in South Korea (desk persona), going home from work, at t
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-21_where-shared-vehicle-can.md](../02_Features/F-21_where-shared-vehicle-can.md) |
 | **Questions (HMW)** | [HMW-24](../../03_Ideation/01_How_Might_We/HMW-24_keep-charge-running-shared-bike.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-16](../../04_Specifications/SPEC-16_sessions-still-running.md) |
 
 ## Source
 
@@ -30,3 +30,5 @@ As a shared-bike rider in South Korea (desk persona), going home from work, at t
 
 - [F-21_where-shared-vehicle-can.md](../02_Features/F-21_where-shared-vehicle-can.md): the feature this story carries.
 - [HMW-24_keep-charge-running-shared-bike.md](../../03_Ideation/01_How_Might_We/HMW-24_keep-charge-running-shared-bike.md): the How-Might-We questions written from this story.
+- [SPEC-16_sessions-still-running.md](../../04_Specifications/SPEC-16_sessions-still-running.md): the specifications that serve this story.
+- [OQ-32_how-a-session-is-known-and-ended.md](../../04_Specifications/01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md): an open question of the specifications whose chain to the research passes through this file.

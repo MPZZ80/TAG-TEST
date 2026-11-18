@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:41
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-19_how-crowded-next-services.md, CL-04_trip-breaks.md, C22-01_expected-fullness.md, C22-02_measured-estimated.md, C22-03_word-packed-train.md, C22-04_regulars-knowledge.md, C22-05_wait-go-word.md, C22-06_seat-time-preference.md, C22-07_extra-carriages.md, C22-08_crowd-spread.md, C22-09_staff-platform.md, C22-10_pay-seat.md, C22-11_home-office-day.md, C22-12_someone-line-warns.md]
+related: [US-F-19_how-crowded-next-services.md, CL-04_trip-breaks.md, C22-01_expected-fullness.md, C22-02_measured-estimated.md, C22-03_word-packed-train.md, C22-04_regulars-knowledge.md, C22-05_wait-go-word.md, C22-06_seat-time-preference.md, C22-07_extra-carriages.md, C22-08_crowd-spread.md, C22-09_staff-platform.md, C22-10_pay-seat.md, C22-11_home-office-day.md, C22-12_someone-line-warns.md, SPEC-05_ways-out-when-the-trip-breaks.md]
 ---
 
 # HMW-22
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-19_how-crowded-next-services.md](../../02_Analysis/03_User_Stories/US-F-19_how-crowded-next-services.md): the user story this question was written from.
 - [CL-04_trip-breaks.md](CL-04_trip-breaks.md): the cluster this question belongs to.
 - [C22-01_expected-fullness.md](../02_Ideas/C22-01_expected-fullness.md), [C22-02_measured-estimated.md](../02_Ideas/C22-02_measured-estimated.md), [C22-03_word-packed-train.md](../02_Ideas/C22-03_word-packed-train.md), [C22-04_regulars-knowledge.md](../02_Ideas/C22-04_regulars-knowledge.md), [C22-05_wait-go-word.md](../02_Ideas/C22-05_wait-go-word.md), [C22-06_seat-time-preference.md](../02_Ideas/C22-06_seat-time-preference.md), [C22-07_extra-carriages.md](../02_Ideas/C22-07_extra-carriages.md), [C22-08_crowd-spread.md](../02_Ideas/C22-08_crowd-spread.md), [C22-09_staff-platform.md](../02_Ideas/C22-09_staff-platform.md), [C22-10_pay-seat.md](../02_Ideas/C22-10_pay-seat.md), [C22-11_home-office-day.md](../02_Ideas/C22-11_home-office-day.md), [C22-12_someone-line-warns.md](../02_Ideas/C22-12_someone-line-warns.md): the AI concepts that answer this question.
+- [SPEC-05_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md): a specification that traces to this question.

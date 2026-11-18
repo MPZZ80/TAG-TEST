@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-051_walking-station-stop.md, TP-054_finding-where-coach-bus.md, TP-056_following-walking-time-app.md, TP-059_handover-car-bicycle-train.md, TP-064_handover-train-underground-bus.md, TP-081_long-leg-arrival-station.md, TP-082_urban-leg-after-train.md, US-F-05_legs-both-ends-real.md]
+related: [TP-051_walking-station-stop.md, TP-054_finding-where-coach-bus.md, TP-056_following-walking-time-app.md, TP-059_handover-car-bicycle-train.md, TP-064_handover-train-underground-bus.md, TP-081_long-leg-arrival-station.md, TP-082_urban-leg-after-train.md, US-F-05_legs-both-ends-real.md, OQ-21_source-of-walking-times.md, OQ-22_how-long-records-are-kept-to-time-a-leg.md, SPEC-09_times-that-can-be-kept.md]
 ---
 
 # F-05: The legs at both ends at their real length
@@ -33,3 +33,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-051_walking-station-stop.md](../01_Touchpoints/TP-051_walking-station-stop.md), [TP-054_finding-where-coach-bus.md](../01_Touchpoints/TP-054_finding-where-coach-bus.md), [TP-056_following-walking-time-app.md](../01_Touchpoints/TP-056_following-walking-time-app.md), [TP-059_handover-car-bicycle-train.md](../01_Touchpoints/TP-059_handover-car-bicycle-train.md), [TP-064_handover-train-underground-bus.md](../01_Touchpoints/TP-064_handover-train-underground-bus.md), [TP-081_long-leg-arrival-station.md](../01_Touchpoints/TP-081_long-leg-arrival-station.md), [TP-082_urban-leg-after-train.md](../01_Touchpoints/TP-082_urban-leg-after-train.md): the touchpoints this feature answers.
 - [US-F-05_legs-both-ends-real.md](../03_User_Stories/US-F-05_legs-both-ends-real.md): the user story written from this feature.
+- [OQ-21_source-of-walking-times.md](../../04_Specifications/01_Open_Questions/OQ-21_source-of-walking-times.md), [OQ-22_how-long-records-are-kept-to-time-a-leg.md](../../04_Specifications/01_Open_Questions/OQ-22_how-long-records-are-kept-to-time-a-leg.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-09_times-that-can-be-kept.md](../../04_Specifications/SPEC-09_times-that-can-be-kept.md): a specification built on this feature.

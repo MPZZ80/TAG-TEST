@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:41
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-10_car-against-train-office.md, HMW-13_help-como-commuter-looking-timetables.md]
+related: [F-10_car-against-train-office.md, HMW-13_help-como-commuter-looking-timetables.md, SPEC-08_every-way-door-to-door.md, OQ-19_a-lift-as-a-way.md, OQ-20_which-car-costs-are-counted.md]
 ---
 
 # Story F-10
@@ -20,7 +20,7 @@ As the Como commuter, looking at the timetables to see whether he can go back fr
 | **Evidence and impact** | strong · Medium |
 | **Feature** | [F-10_car-against-train-office.md](../02_Features/F-10_car-against-train-office.md) |
 | **Questions (HMW)** | [HMW-13](../../03_Ideation/01_How_Might_We/HMW-13_help-como-commuter-looking-timetables.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-08](../../04_Specifications/SPEC-08_every-way-door-to-door.md) |
 
 ## Source
 
@@ -30,3 +30,5 @@ As the Como commuter, looking at the timetables to see whether he can go back fr
 
 - [F-10_car-against-train-office.md](../02_Features/F-10_car-against-train-office.md): the feature this story carries.
 - [HMW-13_help-como-commuter-looking-timetables.md](../../03_Ideation/01_How_Might_We/HMW-13_help-como-commuter-looking-timetables.md): the How-Might-We questions written from this story.
+- [SPEC-08_every-way-door-to-door.md](../../04_Specifications/SPEC-08_every-way-door-to-door.md): the specifications that serve this story.
+- [OQ-19_a-lift-as-a-way.md](../../04_Specifications/01_Open_Questions/OQ-19_a-lift-as-a-way.md), [OQ-20_which-car-costs-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-20_which-car-costs-are-counted.md): an open question of the specifications whose chain to the research passes through this file.
