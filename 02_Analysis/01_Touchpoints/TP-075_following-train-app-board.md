@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-01_real-state-vehicle-source.md, F-09_arrival-shared-whoever-waits.md, OQ-05_more-than-one-usual-trip.md, OQ-10_another-run-taken-without-saying.md]
+related: [F-01_real-state-vehicle-source.md, F-09_arrival-shared-whoever-waits.md]
 ---
 
 # TP-075: Following the train on the app on board, to tell the people waiting
@@ -32,4 +32,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 
 - [F-01_real-state-vehicle-source.md](../02_Features/F-01_real-state-vehicle-source.md): the feature that answers this touchpoint.
 - [F-09_arrival-shared-whoever-waits.md](../02_Features/F-09_arrival-shared-whoever-waits.md): the feature that answers this touchpoint.
-- [OQ-05_more-than-one-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [OQ-10_another-run-taken-without-saying.md](../../04_Specifications/01_Open_Questions/OQ-10_another-run-taken-without-saying.md): an open question of the specifications whose chain to the research passes through this file.

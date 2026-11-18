@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-20_step-free-lit-way.md, HMW-23_spare-wheelchair-user-before-getting.md, SPEC-13_the-station-ahead.md, OQ-28_source-of-the-state-of-facilities.md]
+related: [F-20_step-free-lit-way.md, HMW-23_spare-wheelchair-user-before-getting.md]
 ---
 
 # Story F-20
@@ -20,7 +20,7 @@ As a wheelchair user (desk persona), before getting off the train at a German st
 | **Evidence and impact** | strong · Low |
 | **Feature** | [F-20_step-free-lit-way.md](../02_Features/F-20_step-free-lit-way.md) |
 | **Questions (HMW)** | [HMW-23](../../03_Ideation/01_How_Might_We/HMW-23_spare-wheelchair-user-before-getting.md) |
-| **Specifications** | [SPEC-13](../../04_Specifications/SPEC-13_the-station-ahead.md) |
+| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
 
 ## Source
 
@@ -30,5 +30,3 @@ As a wheelchair user (desk persona), before getting off the train at a German st
 
 - [F-20_step-free-lit-way.md](../02_Features/F-20_step-free-lit-way.md): the feature this story carries.
 - [HMW-23_spare-wheelchair-user-before-getting.md](../../03_Ideation/01_How_Might_We/HMW-23_spare-wheelchair-user-before-getting.md): the How-Might-We questions written from this story.
-- [SPEC-13_the-station-ahead.md](../../04_Specifications/SPEC-13_the-station-ahead.md): the specifications that serve this story.
-- [OQ-28_source-of-the-state-of-facilities.md](../../04_Specifications/01_Open_Questions/OQ-28_source-of-the-state-of-facilities.md): an open question of the specifications whose chain to the research passes through this file.

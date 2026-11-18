@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-18_parking-works-paying-leaving.md, CL-06_tickets-passes-charges.md, C21-01_still-running-reminder.md, C21-02_told-once-away.md, C21-03_ends-itself.md, C21-04_end-set-start.md, C21-05_usual-stay-known.md, C21-06_daily-cap.md, C21-07_forgotten-session-refund.md, C21-08_charge-outside-paid-hours.md, C21-09_family-sees.md, C21-10_running-total.md, C21-11_monthly-flat-rate.md, C21-12_pay-way.md, SPEC-16_sessions-still-running.md]
+related: [US-F-18_parking-works-paying-leaving.md, CL-06_tickets-passes-charges.md, C21-01_still-running-reminder.md, C21-02_told-once-away.md, C21-03_ends-itself.md, C21-04_end-set-start.md, C21-05_usual-stay-known.md, C21-06_daily-cap.md, C21-07_forgotten-session-refund.md, C21-08_charge-outside-paid-hours.md, C21-09_family-sees.md, C21-10_running-total.md, C21-11_monthly-flat-rate.md, C21-12_pay-way.md]
 ---
 
 # HMW-21
@@ -30,4 +30,3 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-18_parking-works-paying-leaving.md](../../02_Analysis/03_User_Stories/US-F-18_parking-works-paying-leaving.md): the user story this question was written from.
 - [CL-06_tickets-passes-charges.md](CL-06_tickets-passes-charges.md): the cluster this question belongs to.
 - [C21-01_still-running-reminder.md](../02_Ideas/C21-01_still-running-reminder.md), [C21-02_told-once-away.md](../02_Ideas/C21-02_told-once-away.md), [C21-03_ends-itself.md](../02_Ideas/C21-03_ends-itself.md), [C21-04_end-set-start.md](../02_Ideas/C21-04_end-set-start.md), [C21-05_usual-stay-known.md](../02_Ideas/C21-05_usual-stay-known.md), [C21-06_daily-cap.md](../02_Ideas/C21-06_daily-cap.md), [C21-07_forgotten-session-refund.md](../02_Ideas/C21-07_forgotten-session-refund.md), [C21-08_charge-outside-paid-hours.md](../02_Ideas/C21-08_charge-outside-paid-hours.md), [C21-09_family-sees.md](../02_Ideas/C21-09_family-sees.md), [C21-10_running-total.md](../02_Ideas/C21-10_running-total.md), [C21-11_monthly-flat-rate.md](../02_Ideas/C21-11_monthly-flat-rate.md), [C21-12_pay-way.md](../02_Ideas/C21-12_pay-way.md): the AI concepts that answer this question.
-- [SPEC-16_sessions-still-running.md](../../04_Specifications/SPEC-16_sessions-still-running.md): a specification that traces to this question.

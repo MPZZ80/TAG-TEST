@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-15_parking-bike-space-station.md, OQ-20_which-car-costs-are-counted.md, OQ-31_whether-a-drivers-route-fits.md]
+related: [F-15_parking-bike-space-station.md]
 ---
 
 # TP-049: Driving to the station and parking near it
@@ -32,4 +32,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-15_parking-bike-space-station.md](../02_Features/F-15_parking-bike-space-station.md): the feature that answers this touchpoint.
-- [OQ-20_which-car-costs-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-20_which-car-costs-are-counted.md), [OQ-31_whether-a-drivers-route-fits.md](../../04_Specifications/01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md): an open question of the specifications whose chain to the research passes through this file.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-18_parking-works-paying-leaving.md, OQ-32_how-a-session-is-known-and-ended.md, OQ-33_the-reminder-interval.md]
+related: [F-18_parking-works-paying-leaving.md]
 ---
 
 # TP-085: Paying for parking in an app at the destination, and forgetting the running session
@@ -28,4 +28,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-18_parking-works-paying-leaving.md](../02_Features/F-18_parking-works-paying-leaving.md): the feature that answers this touchpoint.
-- [OQ-32_how-a-session-is-known-and-ended.md](../../04_Specifications/01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md), [OQ-33_the-reminder-interval.md](../../04_Specifications/01_Open_Questions/OQ-33_the-reminder-interval.md): an open question of the specifications whose chain to the research passes through this file.

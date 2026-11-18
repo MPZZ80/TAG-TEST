@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-028_deciding-return-train-day.md, TP-029_checking-live-departures-before.md, TP-038_checking-another-app-site.md, TP-043_acting-delay-warning-turns.md, TP-067_deciding-spot-whether-wait.md, TP-070_waiting-platform-front-departure.md, TP-075_following-train-app-board.md, TP-088_watching-delay-grow-board.md, TP-089_delay-cancellation-information-comes.md, TP-090_choosing-source-believe-they.md, TP-091_asking-staff-help-point.md, TP-092_stuck-stopped-cancelled-train.md, TP-096_waiting-next-service.md, US-F-01_real-state-vehicle-source.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, SPEC-02_real-state-of-the-run.md]
+related: [TP-028_deciding-return-train-day.md, TP-029_checking-live-departures-before.md, TP-038_checking-another-app-site.md, TP-043_acting-delay-warning-turns.md, TP-067_deciding-spot-whether-wait.md, TP-070_waiting-platform-front-departure.md, TP-075_following-train-app-board.md, TP-088_watching-delay-grow-board.md, TP-089_delay-cancellation-information-comes.md, TP-090_choosing-source-believe-they.md, TP-091_asking-staff-help-point.md, TP-092_stuck-stopped-cancelled-train.md, TP-096_waiting-next-service.md, US-F-01_real-state-vehicle-source.md]
 ---
 
 # F-01: The real state of the vehicle, with its source and its reason
@@ -34,5 +34,3 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-028_deciding-return-train-day.md](../01_Touchpoints/TP-028_deciding-return-train-day.md), [TP-029_checking-live-departures-before.md](../01_Touchpoints/TP-029_checking-live-departures-before.md), [TP-038_checking-another-app-site.md](../01_Touchpoints/TP-038_checking-another-app-site.md), [TP-043_acting-delay-warning-turns.md](../01_Touchpoints/TP-043_acting-delay-warning-turns.md), [TP-067_deciding-spot-whether-wait.md](../01_Touchpoints/TP-067_deciding-spot-whether-wait.md), [TP-070_waiting-platform-front-departure.md](../01_Touchpoints/TP-070_waiting-platform-front-departure.md), [TP-075_following-train-app-board.md](../01_Touchpoints/TP-075_following-train-app-board.md), [TP-088_watching-delay-grow-board.md](../01_Touchpoints/TP-088_watching-delay-grow-board.md), [TP-089_delay-cancellation-information-comes.md](../01_Touchpoints/TP-089_delay-cancellation-information-comes.md), [TP-090_choosing-source-believe-they.md](../01_Touchpoints/TP-090_choosing-source-believe-they.md), [TP-091_asking-staff-help-point.md](../01_Touchpoints/TP-091_asking-staff-help-point.md), [TP-092_stuck-stopped-cancelled-train.md](../01_Touchpoints/TP-092_stuck-stopped-cancelled-train.md), [TP-096_waiting-next-service.md](../01_Touchpoints/TP-096_waiting-next-service.md): the touchpoints this feature answers.
 - [US-F-01_real-state-vehicle-source.md](../03_User_Stories/US-F-01_real-state-vehicle-source.md): the user story written from this feature.
-- [OQ-01_sources-of-the-real-position.md](../../04_Specifications/01_Open_Questions/OQ-01_sources-of-the-real-position.md), [OQ-02_age-limit-of-a-fact.md](../../04_Specifications/01_Open_Questions/OQ-02_age-limit-of-a-fact.md), [OQ-05_more-than-one-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [OQ-09_first-view-with-no-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md), [OQ-13_when-a-vehicle-not-seen-is-not-coming.md](../../04_Specifications/01_Open_Questions/OQ-13_when-a-vehicle-not-seen-is-not-coming.md): an open question of the specifications whose chain to the research passes through this file.
-- [SPEC-02_real-state-of-the-run.md](../../04_Specifications/SPEC-02_real-state-of-the-run.md): a specification built on this feature.

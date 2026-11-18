@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md, SPEC-02_real-state-of-the-run.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md]
+related: [F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md]
 ---
 
 # Story F-01
@@ -20,7 +20,7 @@ As the Como commuter, standing on the platform watching the delay on the board g
 | **Evidence and impact** | strong · High |
 | **Feature** | [F-01_real-state-vehicle-source.md](../02_Features/F-01_real-state-vehicle-source.md) |
 | **Questions (HMW)** | [HMW-01](../../03_Ideation/01_How_Might_We/HMW-01_help-como-commuter-standing-platform.md), [HMW-02](../../03_Ideation/01_How_Might_We/HMW-02_spare-como-commuter-platform-during.md) |
-| **Specifications** | [SPEC-02](../../04_Specifications/SPEC-02_real-state-of-the-run.md) |
+| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
 
 ## Source
 
@@ -30,5 +30,3 @@ As the Como commuter, standing on the platform watching the delay on the board g
 
 - [F-01_real-state-vehicle-source.md](../02_Features/F-01_real-state-vehicle-source.md): the feature this story carries.
 - [HMW-01_help-como-commuter-standing-platform.md](../../03_Ideation/01_How_Might_We/HMW-01_help-como-commuter-standing-platform.md), [HMW-02_spare-como-commuter-platform-during.md](../../03_Ideation/01_How_Might_We/HMW-02_spare-como-commuter-platform-during.md): the How-Might-We questions written from this story.
-- [SPEC-02_real-state-of-the-run.md](../../04_Specifications/SPEC-02_real-state-of-the-run.md): the specifications that serve this story.
-- [OQ-01_sources-of-the-real-position.md](../../04_Specifications/01_Open_Questions/OQ-01_sources-of-the-real-position.md), [OQ-02_age-limit-of-a-fact.md](../../04_Specifications/01_Open_Questions/OQ-02_age-limit-of-a-fact.md): an open question of the specifications whose chain to the research passes through this file.

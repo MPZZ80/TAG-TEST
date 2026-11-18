@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-01_real-state-vehicle-source.md, CL-01_exact-place-delay.md, C02-01_cancellation-likelihood.md, C02-02_nothing-read-yet.md, C02-03_cancellation-declared-decided.md, C02-04_decision-deadline.md, C02-05_limit-growing-delays.md, C02-06_someone-ask.md, C02-07_crew-s-word.md, C02-08_reason-behind-numbers.md, C02-09_happened-last-time.md, C02-10_platform-pool.md, C02-11_own-limit.md, C02-12_wait-elsewhere.md, SPEC-02_real-state-of-the-run.md]
+related: [US-F-01_real-state-vehicle-source.md, CL-01_exact-place-delay.md, C02-01_cancellation-likelihood.md, C02-02_nothing-read-yet.md, C02-03_cancellation-declared-decided.md, C02-04_decision-deadline.md, C02-05_limit-growing-delays.md, C02-06_someone-ask.md, C02-07_crew-s-word.md, C02-08_reason-behind-numbers.md, C02-09_happened-last-time.md, C02-10_platform-pool.md, C02-11_own-limit.md, C02-12_wait-elsewhere.md]
 ---
 
 # HMW-02
@@ -30,4 +30,3 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-01_real-state-vehicle-source.md](../../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md): the user story this question was written from.
 - [CL-01_exact-place-delay.md](CL-01_exact-place-delay.md): the cluster this question belongs to.
 - [C02-01_cancellation-likelihood.md](../02_Ideas/C02-01_cancellation-likelihood.md), [C02-02_nothing-read-yet.md](../02_Ideas/C02-02_nothing-read-yet.md), [C02-03_cancellation-declared-decided.md](../02_Ideas/C02-03_cancellation-declared-decided.md), [C02-04_decision-deadline.md](../02_Ideas/C02-04_decision-deadline.md), [C02-05_limit-growing-delays.md](../02_Ideas/C02-05_limit-growing-delays.md), [C02-06_someone-ask.md](../02_Ideas/C02-06_someone-ask.md), [C02-07_crew-s-word.md](../02_Ideas/C02-07_crew-s-word.md), [C02-08_reason-behind-numbers.md](../02_Ideas/C02-08_reason-behind-numbers.md), [C02-09_happened-last-time.md](../02_Ideas/C02-09_happened-last-time.md), [C02-10_platform-pool.md](../02_Ideas/C02-10_platform-pool.md), [C02-11_own-limit.md](../02_Ideas/C02-11_own-limit.md), [C02-12_wait-elsewhere.md](../02_Ideas/C02-12_wait-elsewhere.md): the AI concepts that answer this question.
-- [SPEC-02_real-state-of-the-run.md](../../04_Specifications/SPEC-02_real-state-of-the-run.md): a specification that traces to this question.

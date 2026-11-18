@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-009_keeping-car-after-pass.md, TP-010_weighing-car-against-train.md, TP-011_looking-timetables-decide-whether.md, TP-044_taking-car-keys-late.md, US-F-10_car-against-train-office.md, OQ-12_cost-of-each-way-out.md, OQ-20_which-car-costs-are-counted.md, OQ-31_whether-a-drivers-route-fits.md, SPEC-08_every-way-door-to-door.md]
+related: [TP-009_keeping-car-after-pass.md, TP-010_weighing-car-against-train.md, TP-011_looking-timetables-decide-whether.md, TP-044_taking-car-keys-late.md, US-F-10_car-against-train-office.md]
 ---
 
 # F-10: Car against train for the office day
@@ -31,5 +31,3 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-009_keeping-car-after-pass.md](../01_Touchpoints/TP-009_keeping-car-after-pass.md), [TP-010_weighing-car-against-train.md](../01_Touchpoints/TP-010_weighing-car-against-train.md), [TP-011_looking-timetables-decide-whether.md](../01_Touchpoints/TP-011_looking-timetables-decide-whether.md), [TP-044_taking-car-keys-late.md](../01_Touchpoints/TP-044_taking-car-keys-late.md): the touchpoints this feature answers.
 - [US-F-10_car-against-train-office.md](../03_User_Stories/US-F-10_car-against-train-office.md): the user story written from this feature.
-- [OQ-12_cost-of-each-way-out.md](../../04_Specifications/01_Open_Questions/OQ-12_cost-of-each-way-out.md), [OQ-20_which-car-costs-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-20_which-car-costs-are-counted.md), [OQ-31_whether-a-drivers-route-fits.md](../../04_Specifications/01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md): an open question of the specifications whose chain to the research passes through this file.
-- [SPEC-08_every-way-door-to-door.md](../../04_Specifications/SPEC-08_every-way-door-to-door.md): a specification built on this feature.

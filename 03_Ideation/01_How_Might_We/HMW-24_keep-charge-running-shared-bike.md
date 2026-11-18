@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-21_where-shared-vehicle-can.md, CL-06_tickets-passes-charges.md, C24-01_zones-shown.md, C24-02_checked-before-setting-off.md, C24-03_more-return-zones.md, C24-04_return-near-enough.md, C24-05_charge-stops-trying.md, C24-06_refund-position-error.md, C24-07_human-confirmation.md, C24-08_another-rider-confirms.md, C24-09_nearest-works.md, C24-10_cap-disputed-charges.md, C24-11_another-way-home.md, C24-12_told-while-riding.md, SPEC-16_sessions-still-running.md]
+related: [US-F-21_where-shared-vehicle-can.md, CL-06_tickets-passes-charges.md, C24-01_zones-shown.md, C24-02_checked-before-setting-off.md, C24-03_more-return-zones.md, C24-04_return-near-enough.md, C24-05_charge-stops-trying.md, C24-06_refund-position-error.md, C24-07_human-confirmation.md, C24-08_another-rider-confirms.md, C24-09_nearest-works.md, C24-10_cap-disputed-charges.md, C24-11_another-way-home.md, C24-12_told-while-riding.md]
 ---
 
 # HMW-24
@@ -30,4 +30,3 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-21_where-shared-vehicle-can.md](../../02_Analysis/03_User_Stories/US-F-21_where-shared-vehicle-can.md): the user story this question was written from.
 - [CL-06_tickets-passes-charges.md](CL-06_tickets-passes-charges.md): the cluster this question belongs to.
 - [C24-01_zones-shown.md](../02_Ideas/C24-01_zones-shown.md), [C24-02_checked-before-setting-off.md](../02_Ideas/C24-02_checked-before-setting-off.md), [C24-03_more-return-zones.md](../02_Ideas/C24-03_more-return-zones.md), [C24-04_return-near-enough.md](../02_Ideas/C24-04_return-near-enough.md), [C24-05_charge-stops-trying.md](../02_Ideas/C24-05_charge-stops-trying.md), [C24-06_refund-position-error.md](../02_Ideas/C24-06_refund-position-error.md), [C24-07_human-confirmation.md](../02_Ideas/C24-07_human-confirmation.md), [C24-08_another-rider-confirms.md](../02_Ideas/C24-08_another-rider-confirms.md), [C24-09_nearest-works.md](../02_Ideas/C24-09_nearest-works.md), [C24-10_cap-disputed-charges.md](../02_Ideas/C24-10_cap-disputed-charges.md), [C24-11_another-way-home.md](../02_Ideas/C24-11_another-way-home.md), [C24-12_told-while-riding.md](../02_Ideas/C24-12_told-while-riding.md): the AI concepts that answer this question.
-- [SPEC-16_sessions-still-running.md](../../04_Specifications/SPEC-16_sessions-still-running.md): a specification that traces to this question.

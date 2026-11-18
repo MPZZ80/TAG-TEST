@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-07_trips-planned-commuter-s.md, CL-03_whether-change-holds.md, C10-01_own-rule-remembered.md, C10-02_rule-station.md, C10-03_tightness-stated.md, C10-04_track-record.md, C10-05_regulars-rate.md, C10-06_rules-shared.md, C10-07_paper-connection-label.md, C10-08_one-margin.md, C10-09_honest-minimum-times.md, C10-10_wider-gaps-timetable.md, C10-11_rights-short-connections.md, C10-12_missed-connection-cover.md, SPEC-01_foundation.md, SPEC-09_times-that-can-be-kept.md]
+related: [US-F-07_trips-planned-commuter-s.md, CL-03_whether-change-holds.md, C10-01_own-rule-remembered.md, C10-02_rule-station.md, C10-03_tightness-stated.md, C10-04_track-record.md, C10-05_regulars-rate.md, C10-06_rules-shared.md, C10-07_paper-connection-label.md, C10-08_one-margin.md, C10-09_honest-minimum-times.md, C10-10_wider-gaps-timetable.md, C10-11_rights-short-connections.md, C10-12_missed-connection-cover.md]
 ---
 
 # HMW-10
@@ -30,4 +30,3 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-07_trips-planned-commuter-s.md](../../02_Analysis/03_User_Stories/US-F-07_trips-planned-commuter-s.md): the user story this question was written from.
 - [CL-03_whether-change-holds.md](CL-03_whether-change-holds.md): the cluster this question belongs to.
 - [C10-01_own-rule-remembered.md](../02_Ideas/C10-01_own-rule-remembered.md), [C10-02_rule-station.md](../02_Ideas/C10-02_rule-station.md), [C10-03_tightness-stated.md](../02_Ideas/C10-03_tightness-stated.md), [C10-04_track-record.md](../02_Ideas/C10-04_track-record.md), [C10-05_regulars-rate.md](../02_Ideas/C10-05_regulars-rate.md), [C10-06_rules-shared.md](../02_Ideas/C10-06_rules-shared.md), [C10-07_paper-connection-label.md](../02_Ideas/C10-07_paper-connection-label.md), [C10-08_one-margin.md](../02_Ideas/C10-08_one-margin.md), [C10-09_honest-minimum-times.md](../02_Ideas/C10-09_honest-minimum-times.md), [C10-10_wider-gaps-timetable.md](../02_Ideas/C10-10_wider-gaps-timetable.md), [C10-11_rights-short-connections.md](../02_Ideas/C10-11_rights-short-connections.md), [C10-12_missed-connection-cover.md](../02_Ideas/C10-12_missed-connection-cover.md): the AI concepts that answer this question.
-- [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md), [SPEC-09_times-that-can-be-kept.md](../../04_Specifications/SPEC-09_times-that-can-be-kept.md): a specification that traces to this question.

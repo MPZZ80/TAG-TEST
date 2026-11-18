@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 19:44
+
+- **Files:** every file of the previous entry: `04_Specifications/SPEC-00` to `SPEC-16` and `01_Open_Questions/` deleted again; `04_Specifications/README.md`, the story, feature, question, touchpoint, source and interview files, `05_Prototype/instructions/Prototype_Instructions.md`, `Index.md`, `AGENTS.md` back to how they were before it.
+- **Change:** The specifications written at 2026-11-18 19:41 undone with a revert commit; the repository is as it was before them. This log keeps the entry of the undone change.
+- **Why:** Marco: "undo".
+
 ## 2026-11-18 19:41
 
 - **Files:** created in `04_Specifications/`: `SPEC-00_overview.md`, `SPEC-01_foundation.md`, `SPEC-02_real-state-of-the-run.md` to `SPEC-16_sessions-still-running.md`, and `01_Open_Questions/` (`README.md`, `00_Open_questions_index.md`, `OQ-01` to `OQ-33`). Changed: `04_Specifications/README.md`, the 24 story files in `02_Analysis/03_User_Stories/`, the feature, question, touchpoint, source and interview files the specifications and open questions cite (back-links in `related` and "Connections"), `05_Prototype/instructions/Prototype_Instructions.md`, `Index.md`, `AGENTS.md`.

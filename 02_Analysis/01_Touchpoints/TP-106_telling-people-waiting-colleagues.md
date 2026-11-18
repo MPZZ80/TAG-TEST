@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, disruption]
-related: [F-06_whether-connection-still-holds.md, F-09_arrival-shared-whoever-waits.md, OQ-15_when-the-contact-is-told-again.md]
+related: [F-06_whether-connection-still-holds.md, F-09_arrival-shared-whoever-waits.md]
 ---
 
 # TP-106: Telling the people waiting, colleagues or the employer about the delay
@@ -31,4 +31,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 
 - [F-06_whether-connection-still-holds.md](../02_Features/F-06_whether-connection-still-holds.md): the feature that answers this touchpoint.
 - [F-09_arrival-shared-whoever-waits.md](../02_Features/F-09_arrival-shared-whoever-waits.md): the feature that answers this touchpoint.
-- [OQ-15_when-the-contact-is-told-again.md](../../04_Specifications/01_Open_Questions/OQ-15_when-the-contact-is-told-again.md): an open question of the specifications whose chain to the research passes through this file.

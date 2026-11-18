@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-02 23:52
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [research, internal, output]
-related: [01_plan.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, 01_survey_de.md, 01_survey_en.md, 01_survey_es.md, 01_survey_fr.md, 01_survey_it.md, 01_survey_nl.md, 07_survey_results.md, 00_Open_questions_index.md, OQ-01_sources-of-the-real-position.md, OQ-05_more-than-one-usual-trip.md, OQ-12_cost-of-each-way-out.md, OQ-14_minors-using-the-product-alone.md, OQ-18_asking-a-connection-to-wait.md, OQ-20_which-car-costs-are-counted.md, OQ-25_period-over-which-days-are-counted.md, OQ-27_claims-on-tickets-from-a-seller.md, OQ-31_whether-a-drivers-route-fits.md]
+related: [01_plan.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md, Valentina_Di_Floriano_notes.md, AR-006_frost-sullivan_2024_maas-global-collapse.md, GR-047_mlit_2025_chiiki-koutsuu-digital-gijutsu-report.md, 01_survey_de.md, 01_survey_en.md, 01_survey_es.md, 01_survey_fr.md, 01_survey_it.md, 01_survey_nl.md, 07_survey_results.md]
 ---
 
 # Open Issues
@@ -86,5 +86,3 @@ Links to the notes named above. The same files are listed by name in the `relate
 - [01_survey_de.md](../05_Survey/01_survey_de.md), [01_survey_es.md](../05_Survey/01_survey_es.md), [01_survey_fr.md](../05_Survey/01_survey_fr.md), [01_survey_it.md](../05_Survey/01_survey_it.md), [01_survey_nl.md](../05_Survey/01_survey_nl.md): the survey texts whose questions answer these issues.
 - [01_survey_en.md](../05_Survey/01_survey_en.md): the survey text whose blocks of questions answer these issues.
 - [07_survey_results.md](../05_Survey/07_survey_results.md): reads each survey result against these issues.
-- [00_Open_questions_index.md](../../04_Specifications/01_Open_Questions/00_Open_questions_index.md): the open questions of the specifications, kept apart from these research issues.
-- [OQ-01_sources-of-the-real-position.md](../../04_Specifications/01_Open_Questions/OQ-01_sources-of-the-real-position.md), [OQ-05_more-than-one-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [OQ-12_cost-of-each-way-out.md](../../04_Specifications/01_Open_Questions/OQ-12_cost-of-each-way-out.md), [OQ-14_minors-using-the-product-alone.md](../../04_Specifications/01_Open_Questions/OQ-14_minors-using-the-product-alone.md), [OQ-18_asking-a-connection-to-wait.md](../../04_Specifications/01_Open_Questions/OQ-18_asking-a-connection-to-wait.md), [OQ-20_which-car-costs-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-20_which-car-costs-are-counted.md), [OQ-25_period-over-which-days-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-25_period-over-which-days-are-counted.md), [OQ-27_claims-on-tickets-from-a-seller.md](../../04_Specifications/01_Open_Questions/OQ-27_claims-on-tickets-from-a-seller.md), [OQ-31_whether-a-drivers-route-fits.md](../../04_Specifications/01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md): an open question of the specifications whose chain to the research passes through this file.

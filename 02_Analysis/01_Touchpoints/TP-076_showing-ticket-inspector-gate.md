@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-08_ticket-works-moment-needed.md, OQ-24_moving-a-ticket-with-no-signal.md]
+related: [F-08_ticket-works-moment-needed.md]
 ---
 
 # TP-076: Showing the ticket to the inspector or at the gate with no signal, a slow QR code or a flat battery
@@ -32,4 +32,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-08_ticket-works-moment-needed.md](../02_Features/F-08_ticket-works-moment-needed.md): the feature that answers this touchpoint.
-- [OQ-24_moving-a-ticket-with-no-signal.md](../../04_Specifications/01_Open_Questions/OQ-24_moving-a-ticket-with-no-signal.md): an open question of the specifications whose chain to the research passes through this file.

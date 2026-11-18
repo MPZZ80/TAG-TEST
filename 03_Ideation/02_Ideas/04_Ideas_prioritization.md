@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-16 17:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption]
-related: [03_Families_index.md, 05_Chosen_concept.md, SPEC-00_overview.md]
+related: [03_Families_index.md, 05_Chosen_concept.md]
 ---
 
 # Ideas Prioritization: Proposed Marks
@@ -486,4 +486,3 @@ The same 27 families, ordered by the sum of their three marks, then by their low
 
 - [03_Families_index.md](03_Families_index.md) holds the families of these concepts and the questions of Marco's concepts.
 - [05_Chosen_concept.md](05_Chosen_concept.md): the chosen concept, which quotes these family marks.
-- [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md): a specification that cites this file.

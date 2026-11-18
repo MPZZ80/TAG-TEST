@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-21_where-shared-vehicle-can.md, OQ-32_how-a-session-is-known-and-ended.md]
+related: [F-21_where-shared-vehicle-can.md]
 ---
 
 # TP-086: Returning a shared bike or scooter at the end of the trip
@@ -28,4 +28,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-21_where-shared-vehicle-can.md](../02_Features/F-21_where-shared-vehicle-can.md): the feature that answers this touchpoint.
-- [OQ-32_how-a-session-is-known-and-ended.md](../../04_Specifications/01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md): an open question of the specifications whose chain to the research passes through this file.

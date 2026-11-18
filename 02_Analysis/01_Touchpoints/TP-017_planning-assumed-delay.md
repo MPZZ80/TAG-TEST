@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, planning]
-related: [F-13_times-commuter-can-plan.md, OQ-06_length-of-the-record-of-past-runs.md]
+related: [F-13_times-commuter-can-plan.md]
 ---
 
 # TP-017: Planning with an assumed delay
@@ -30,4 +30,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-13_times-commuter-can-plan.md](../02_Features/F-13_times-commuter-can-plan.md): the feature that answers this touchpoint.
-- [OQ-06_length-of-the-record-of-past-runs.md](../../04_Specifications/01_Open_Questions/OQ-06_length-of-the-record-of-past-runs.md): an open question of the specifications whose chain to the research passes through this file.

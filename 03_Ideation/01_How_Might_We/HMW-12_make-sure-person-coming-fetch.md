@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-09_arrival-shared-whoever-waits.md, CL-01_exact-place-delay.md, C12-01_live-arrival-driver.md, C12-02_word-home-without-him.md, C12-03_confirmation-he.md, C12-04_told-car.md, C12-05_word-passed-one-gesture.md, C12-06_set-off.md, C12-07_confirmed-estimated.md, C12-08_allowed-arrival.md, C12-09_pick-up-waiting-point.md, C12-10_fetching-rota.md, C12-11_need-fetched.md, C12-12_agreed-plan.md, S04_trip-update-sent-relatives.md, SPEC-06_those-waiting-are-told.md]
+related: [US-F-09_arrival-shared-whoever-waits.md, CL-01_exact-place-delay.md, C12-01_live-arrival-driver.md, C12-02_word-home-without-him.md, C12-03_confirmation-he.md, C12-04_told-car.md, C12-05_word-passed-one-gesture.md, C12-06_set-off.md, C12-07_confirmed-estimated.md, C12-08_allowed-arrival.md, C12-09_pick-up-waiting-point.md, C12-10_fetching-rota.md, C12-11_need-fetched.md, C12-12_agreed-plan.md, S04_trip-update-sent-relatives.md]
 ---
 
 # HMW-12
@@ -31,4 +31,3 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [CL-01_exact-place-delay.md](CL-01_exact-place-delay.md): the cluster this question belongs to.
 - [C12-01_live-arrival-driver.md](../02_Ideas/C12-01_live-arrival-driver.md), [C12-02_word-home-without-him.md](../02_Ideas/C12-02_word-home-without-him.md), [C12-03_confirmation-he.md](../02_Ideas/C12-03_confirmation-he.md), [C12-04_told-car.md](../02_Ideas/C12-04_told-car.md), [C12-05_word-passed-one-gesture.md](../02_Ideas/C12-05_word-passed-one-gesture.md), [C12-06_set-off.md](../02_Ideas/C12-06_set-off.md), [C12-07_confirmed-estimated.md](../02_Ideas/C12-07_confirmed-estimated.md), [C12-08_allowed-arrival.md](../02_Ideas/C12-08_allowed-arrival.md), [C12-09_pick-up-waiting-point.md](../02_Ideas/C12-09_pick-up-waiting-point.md), [C12-10_fetching-rota.md](../02_Ideas/C12-10_fetching-rota.md), [C12-11_need-fetched.md](../02_Ideas/C12-11_need-fetched.md), [C12-12_agreed-plan.md](../02_Ideas/C12-12_agreed-plan.md): the AI concepts that answer this question.
 - [S04_trip-update-sent-relatives.md](../02_Ideas/S04_trip-update-sent-relatives.md): Marco's concepts assigned to this question.
-- [SPEC-06_those-waiting-are-told.md](../../04_Specifications/SPEC-06_those-waiting-are-told.md): a specification that traces to this question.

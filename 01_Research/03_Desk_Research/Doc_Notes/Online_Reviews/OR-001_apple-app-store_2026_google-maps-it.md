@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, information]
-related: [01_plan.md, PR-001_google_2026_google-maps.md, 00_Touchpoints_index.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-20_which-car-costs-are-counted.md, OQ-31_whether-a-drivers-route-fits.md]
+related: [01_plan.md, PR-001_google_2026_google-maps.md, 00_Touchpoints_index.md]
 ---
 
 # Google Maps: App Store reviews, Italy (sample)
@@ -63,4 +63,3 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Collected for activity A4 of the research plan, [01_plan.md](../../../02_Plan/01_plan.md).
 - [PR-001_google_2026_google-maps.md](../Products/PR-001_google_2026_google-maps.md) describes the product these reviews are about.
 - The moments of the journey drawn from this note are listed in [00_Touchpoints_index.md](../../../../02_Analysis/01_Touchpoints/00_Touchpoints_index.md).
-- [OQ-03_reaching-the-commuter-without-looking.md](../../../../04_Specifications/01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md), [OQ-04_suggesting-the-usual-trip.md](../../../../04_Specifications/01_Open_Questions/OQ-04_suggesting-the-usual-trip.md), [OQ-05_more-than-one-usual-trip.md](../../../../04_Specifications/01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [OQ-20_which-car-costs-are-counted.md](../../../../04_Specifications/01_Open_Questions/OQ-20_which-car-costs-are-counted.md), [OQ-31_whether-a-drivers-route-fits.md](../../../../04_Specifications/01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md): an open question of the specifications whose chain to the research passes through this file.

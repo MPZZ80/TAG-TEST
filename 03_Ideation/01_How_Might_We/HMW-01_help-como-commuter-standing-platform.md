@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-01_real-state-vehicle-source.md, CL-01_exact-place-delay.md, C01-01_source-label.md, C01-02_disagreement-flag.md, C01-03_first-hand-position.md, C01-04_word-board.md, C01-05_position-phones-board.md, C01-06_platform-voice.md, C01-07_honest-range.md, C01-08_next-news-promised.md, C01-09_board-matches-best-source.md, C01-10_single-expected-time.md, C01-11_told-without-watching.md, C01-12_duty-publish-once.md, S02_delay-device-position.md, S03_users-report-delay.md, SPEC-02_real-state-of-the-run.md]
+related: [US-F-01_real-state-vehicle-source.md, CL-01_exact-place-delay.md, C01-01_source-label.md, C01-02_disagreement-flag.md, C01-03_first-hand-position.md, C01-04_word-board.md, C01-05_position-phones-board.md, C01-06_platform-voice.md, C01-07_honest-range.md, C01-08_next-news-promised.md, C01-09_board-matches-best-source.md, C01-10_single-expected-time.md, C01-11_told-without-watching.md, C01-12_duty-publish-once.md, S02_delay-device-position.md, S03_users-report-delay.md]
 ---
 
 # HMW-01
@@ -31,4 +31,3 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [CL-01_exact-place-delay.md](CL-01_exact-place-delay.md): the cluster this question belongs to.
 - [C01-01_source-label.md](../02_Ideas/C01-01_source-label.md), [C01-02_disagreement-flag.md](../02_Ideas/C01-02_disagreement-flag.md), [C01-03_first-hand-position.md](../02_Ideas/C01-03_first-hand-position.md), [C01-04_word-board.md](../02_Ideas/C01-04_word-board.md), [C01-05_position-phones-board.md](../02_Ideas/C01-05_position-phones-board.md), [C01-06_platform-voice.md](../02_Ideas/C01-06_platform-voice.md), [C01-07_honest-range.md](../02_Ideas/C01-07_honest-range.md), [C01-08_next-news-promised.md](../02_Ideas/C01-08_next-news-promised.md), [C01-09_board-matches-best-source.md](../02_Ideas/C01-09_board-matches-best-source.md), [C01-10_single-expected-time.md](../02_Ideas/C01-10_single-expected-time.md), [C01-11_told-without-watching.md](../02_Ideas/C01-11_told-without-watching.md), [C01-12_duty-publish-once.md](../02_Ideas/C01-12_duty-publish-once.md): the AI concepts that answer this question.
 - [S02_delay-device-position.md](../02_Ideas/S02_delay-device-position.md), [S03_users-report-delay.md](../02_Ideas/S03_users-report-delay.md): Marco's concepts assigned to this question.
-- [SPEC-02_real-state-of-the-run.md](../../04_Specifications/SPEC-02_real-state-of-the-run.md): a specification that traces to this question.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-04_one-search-one-booking.md, CL-05_choosing-travel.md, C06-01_nearest-arrival.md, C06-02_sell-warning.md, C06-03_standing-hold.md, C06-04_extra-seats-evening-trains.md, C06-05_waiting-list.md, C06-06_booking-handover.md, C06-07_lift-verona.md, C06-08_any-train-pass.md, C06-09_quota-regulars.md, C06-10_every-seller-together.md, C06-11_someone-finds.md, C06-12_travel-same-morning.md, SPEC-08_every-way-door-to-door.md, SPEC-10_tickets-that-work-when-needed.md]
+related: [US-F-04_one-search-one-booking.md, CL-05_choosing-travel.md, C06-01_nearest-arrival.md, C06-02_sell-warning.md, C06-03_standing-hold.md, C06-04_extra-seats-evening-trains.md, C06-05_waiting-list.md, C06-06_booking-handover.md, C06-07_lift-verona.md, C06-08_any-train-pass.md, C06-09_quota-regulars.md, C06-10_every-seller-together.md, C06-11_someone-finds.md, C06-12_travel-same-morning.md]
 ---
 
 # HMW-06
@@ -30,4 +30,3 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-04_one-search-one-booking.md](../../02_Analysis/03_User_Stories/US-F-04_one-search-one-booking.md): the user story this question was written from.
 - [CL-05_choosing-travel.md](CL-05_choosing-travel.md): the cluster this question belongs to.
 - [C06-01_nearest-arrival.md](../02_Ideas/C06-01_nearest-arrival.md), [C06-02_sell-warning.md](../02_Ideas/C06-02_sell-warning.md), [C06-03_standing-hold.md](../02_Ideas/C06-03_standing-hold.md), [C06-04_extra-seats-evening-trains.md](../02_Ideas/C06-04_extra-seats-evening-trains.md), [C06-05_waiting-list.md](../02_Ideas/C06-05_waiting-list.md), [C06-06_booking-handover.md](../02_Ideas/C06-06_booking-handover.md), [C06-07_lift-verona.md](../02_Ideas/C06-07_lift-verona.md), [C06-08_any-train-pass.md](../02_Ideas/C06-08_any-train-pass.md), [C06-09_quota-regulars.md](../02_Ideas/C06-09_quota-regulars.md), [C06-10_every-seller-together.md](../02_Ideas/C06-10_every-seller-together.md), [C06-11_someone-finds.md](../02_Ideas/C06-11_someone-finds.md), [C06-12_travel-same-morning.md](../02_Ideas/C06-12_travel-same-morning.md): the AI concepts that answer this question.
-- [SPEC-08_every-way-door-to-door.md](../../04_Specifications/SPEC-08_every-way-door-to-door.md), [SPEC-10_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-10_tickets-that-work-when-needed.md): a specification that traces to this question.

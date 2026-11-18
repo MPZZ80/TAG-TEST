@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-11_usual-trip-glance.md, OQ-17_how-early-before-a-change.md, OQ-21_source-of-walking-times.md]
+related: [F-11_usual-trip-glance.md]
 ---
 
 # TP-062: Finding the next platform at the change
@@ -32,4 +32,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-11_usual-trip-glance.md](../02_Features/F-11_usual-trip-glance.md): the feature that answers this touchpoint.
-- [OQ-17_how-early-before-a-change.md](../../04_Specifications/01_Open_Questions/OQ-17_how-early-before-a-change.md), [OQ-21_source-of-walking-times.md](../../04_Specifications/01_Open_Questions/OQ-21_source-of-walking-times.md): an open question of the specifications whose chain to the research passes through this file.

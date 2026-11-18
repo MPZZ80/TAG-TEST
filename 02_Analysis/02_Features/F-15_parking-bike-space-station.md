@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-049_driving-station-parking-near.md, TP-050_cycling-station-leaving-bike.md, US-F-15_parking-bike-space-station.md, OQ-20_which-car-costs-are-counted.md, OQ-31_whether-a-drivers-route-fits.md, SPEC-13_the-station-ahead.md]
+related: [TP-049_driving-station-parking-near.md, TP-050_cycling-station-leaving-bike.md, US-F-15_parking-bike-space-station.md]
 ---
 
 # F-15: Parking and bike space at the station
@@ -30,5 +30,3 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-049_driving-station-parking-near.md](../01_Touchpoints/TP-049_driving-station-parking-near.md), [TP-050_cycling-station-leaving-bike.md](../01_Touchpoints/TP-050_cycling-station-leaving-bike.md): the touchpoints this feature answers.
 - [US-F-15_parking-bike-space-station.md](../03_User_Stories/US-F-15_parking-bike-space-station.md): the user story written from this feature.
-- [OQ-20_which-car-costs-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-20_which-car-costs-are-counted.md), [OQ-31_whether-a-drivers-route-fits.md](../../04_Specifications/01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md): an open question of the specifications whose chain to the research passes through this file.
-- [SPEC-13_the-station-ahead.md](../../04_Specifications/SPEC-13_the-station-ahead.md): a specification built on this feature.

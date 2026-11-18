@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-058_leaving-monthly-car-park.md, TP-085_paying-parking-app-destination.md, US-F-18_parking-works-paying-leaving.md, OQ-32_how-a-session-is-known-and-ended.md, OQ-33_the-reminder-interval.md, SPEC-16_sessions-still-running.md]
+related: [TP-058_leaving-monthly-car-park.md, TP-085_paying-parking-app-destination.md, US-F-18_parking-works-paying-leaving.md]
 ---
 
 # F-18: Parking that works when paying and leaving
@@ -30,5 +30,3 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-058_leaving-monthly-car-park.md](../01_Touchpoints/TP-058_leaving-monthly-car-park.md), [TP-085_paying-parking-app-destination.md](../01_Touchpoints/TP-085_paying-parking-app-destination.md): the touchpoints this feature answers.
 - [US-F-18_parking-works-paying-leaving.md](../03_User_Stories/US-F-18_parking-works-paying-leaving.md): the user story written from this feature.
-- [OQ-32_how-a-session-is-known-and-ended.md](../../04_Specifications/01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md), [OQ-33_the-reminder-interval.md](../../04_Specifications/01_Open_Questions/OQ-33_the-reminder-interval.md): an open question of the specifications whose chain to the research passes through this file.
-- [SPEC-16_sessions-still-running.md](../../04_Specifications/SPEC-16_sessions-still-running.md): a specification built on this feature.

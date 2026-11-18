@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, planning]
-related: [F-09_arrival-shared-whoever-waits.md, OQ-16_telling-the-contact-when-to-set-off.md]
+related: [F-09_arrival-shared-whoever-waits.md]
 ---
 
 # TP-004: Fixing the departure time days ahead because a relative gives the lift to the station
@@ -29,4 +29,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-09_arrival-shared-whoever-waits.md](../02_Features/F-09_arrival-shared-whoever-waits.md): the feature that answers this touchpoint.
-- [OQ-16_telling-the-contact-when-to-set-off.md](../../04_Specifications/01_Open_Questions/OQ-16_telling-the-contact-when-to-set-off.md): an open question of the specifications whose chain to the research passes through this file.

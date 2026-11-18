@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-22_asking-connection-wait.md, OQ-18_asking-a-connection-to-wait.md]
+related: [F-22_asking-connection-wait.md]
 ---
 
 # TP-069: Asking the conductor to phone ahead so the connection waits
@@ -28,4 +28,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-22_asking-connection-wait.md](../02_Features/F-22_asking-connection-wait.md): the feature that answers this touchpoint.
-- [OQ-18_asking-a-connection-to-wait.md](../../04_Specifications/01_Open_Questions/OQ-18_asking-a-connection-to-wait.md): an open question of the specifications whose chain to the research passes through this file.

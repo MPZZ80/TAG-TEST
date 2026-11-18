@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-018_choosing-earlier-service-needed.md, TP-023_planner-proposes-change-too.md, TP-024_applying-personal-minimum-time.md, TP-025_keeping-one-leg-under.md, TP-073_using-time-board-work.md, US-F-07_trips-planned-commuter-s.md, OQ-10_another-run-taken-without-saying.md, SPEC-01_foundation.md, SPEC-09_times-that-can-be-kept.md]
+related: [TP-018_choosing-earlier-service-needed.md, TP-023_planner-proposes-change-too.md, TP-024_applying-personal-minimum-time.md, TP-025_keeping-one-leg-under.md, TP-073_using-time-board-work.md, US-F-07_trips-planned-commuter-s.md]
 ---
 
 # F-07: Trips planned to the commuter's own rules
@@ -32,5 +32,3 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-018_choosing-earlier-service-needed.md](../01_Touchpoints/TP-018_choosing-earlier-service-needed.md), [TP-023_planner-proposes-change-too.md](../01_Touchpoints/TP-023_planner-proposes-change-too.md), [TP-024_applying-personal-minimum-time.md](../01_Touchpoints/TP-024_applying-personal-minimum-time.md), [TP-025_keeping-one-leg-under.md](../01_Touchpoints/TP-025_keeping-one-leg-under.md), [TP-073_using-time-board-work.md](../01_Touchpoints/TP-073_using-time-board-work.md): the touchpoints this feature answers.
 - [US-F-07_trips-planned-commuter-s.md](../03_User_Stories/US-F-07_trips-planned-commuter-s.md): the user story written from this feature.
-- [OQ-10_another-run-taken-without-saying.md](../../04_Specifications/01_Open_Questions/OQ-10_another-run-taken-without-saying.md): an open question of the specifications whose chain to the research passes through this file.
-- [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md), [SPEC-09_times-that-can-be-kept.md](../../04_Specifications/SPEC-09_times-that-can-be-kept.md): a specification built on this feature.

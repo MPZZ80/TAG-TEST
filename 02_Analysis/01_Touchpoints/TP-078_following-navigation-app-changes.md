@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-14a_asking-before-rerouting-tolls.md, F-14b_state-usual-drive-known.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-20_which-car-costs-are-counted.md, OQ-31_whether-a-drivers-route-fits.md]
+related: [F-14a_asking-before-rerouting-tolls.md, F-14b_state-usual-drive-known.md]
 ---
 
 # TP-078: Following the navigation app, which changes route by itself or ignores known works and tolls
@@ -29,4 +29,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 
 - [F-14a_asking-before-rerouting-tolls.md](../02_Features/F-14a_asking-before-rerouting-tolls.md): the feature that answers this touchpoint.
 - [F-14b_state-usual-drive-known.md](../02_Features/F-14b_state-usual-drive-known.md): the feature that answers this touchpoint.
-- [OQ-03_reaching-the-commuter-without-looking.md](../../04_Specifications/01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md), [OQ-20_which-car-costs-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-20_which-car-costs-are-counted.md), [OQ-31_whether-a-drivers-route-fits.md](../../04_Specifications/01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md): an open question of the specifications whose chain to the research passes through this file.

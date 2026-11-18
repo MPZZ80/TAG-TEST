@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, disruption]
-related: [F-01_real-state-vehicle-source.md, OQ-01_sources-of-the-real-position.md]
+related: [F-01_real-state-vehicle-source.md]
 ---
 
 # TP-090: Choosing which source to believe when they disagree
@@ -32,4 +32,3 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-01_real-state-vehicle-source.md](../02_Features/F-01_real-state-vehicle-source.md): the feature that answers this touchpoint.
-- [OQ-01_sources-of-the-real-position.md](../../04_Specifications/01_Open_Questions/OQ-01_sources-of-the-real-position.md): an open question of the specifications whose chain to the research passes through this file.

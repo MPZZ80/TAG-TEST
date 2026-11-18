@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:35
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-16_compensation-claim-started-delayed.md, CL-06_tickets-passes-charges.md, C19-01_seller-claims.md, C19-02_paid-claim.md, C19-03_claim-agent.md, C19-04_proof-ready.md, C19-05_owed.md, C19-06_seller-s-duty.md, C19-07_one-claim-point.md, C19-08_credit-once.md, C19-09_cover-bought-ticket.md, C19-10_logged-board.md, C19-11_claim-path-known-purchase.md, C19-12_claim-together.md, SPEC-12_compensation-from-the-trip.md]
+related: [US-F-16_compensation-claim-started-delayed.md, CL-06_tickets-passes-charges.md, C19-01_seller-claims.md, C19-02_paid-claim.md, C19-03_claim-agent.md, C19-04_proof-ready.md, C19-05_owed.md, C19-06_seller-s-duty.md, C19-07_one-claim-point.md, C19-08_credit-once.md, C19-09_cover-bought-ticket.md, C19-10_logged-board.md, C19-11_claim-path-known-purchase.md, C19-12_claim-together.md]
 ---
 
 # HMW-19
@@ -30,4 +30,3 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-16_compensation-claim-started-delayed.md](../../02_Analysis/03_User_Stories/US-F-16_compensation-claim-started-delayed.md): the user story this question was written from.
 - [CL-06_tickets-passes-charges.md](CL-06_tickets-passes-charges.md): the cluster this question belongs to.
 - [C19-01_seller-claims.md](../02_Ideas/C19-01_seller-claims.md), [C19-02_paid-claim.md](../02_Ideas/C19-02_paid-claim.md), [C19-03_claim-agent.md](../02_Ideas/C19-03_claim-agent.md), [C19-04_proof-ready.md](../02_Ideas/C19-04_proof-ready.md), [C19-05_owed.md](../02_Ideas/C19-05_owed.md), [C19-06_seller-s-duty.md](../02_Ideas/C19-06_seller-s-duty.md), [C19-07_one-claim-point.md](../02_Ideas/C19-07_one-claim-point.md), [C19-08_credit-once.md](../02_Ideas/C19-08_credit-once.md), [C19-09_cover-bought-ticket.md](../02_Ideas/C19-09_cover-bought-ticket.md), [C19-10_logged-board.md](../02_Ideas/C19-10_logged-board.md), [C19-11_claim-path-known-purchase.md](../02_Ideas/C19-11_claim-path-known-purchase.md), [C19-12_claim-together.md](../02_Ideas/C19-12_claim-together.md): the AI concepts that answer this question.
-- [SPEC-12_compensation-from-the-trip.md](../../04_Specifications/SPEC-12_compensation-from-the-trip.md): a specification that traces to this question.

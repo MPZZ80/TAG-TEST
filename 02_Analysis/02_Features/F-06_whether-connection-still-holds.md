@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-053_taking-local-bus-station.md, TP-057_giving-up-public-transport.md, TP-060_changing-train-intermediate-station.md, TP-061_checking-phone-before-arriving.md, TP-068_connection-cannot-kept-missed.md, TP-106_telling-people-waiting-colleagues.md, US-F-06_whether-connection-still-holds.md, OQ-17_how-early-before-a-change.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md]
+related: [TP-053_taking-local-bus-station.md, TP-057_giving-up-public-transport.md, TP-060_changing-train-intermediate-station.md, TP-061_checking-phone-before-arriving.md, TP-068_connection-cannot-kept-missed.md, TP-106_telling-people-waiting-colleagues.md, US-F-06_whether-connection-still-holds.md]
 ---
 
 # F-06: Whether the connection still holds
@@ -32,5 +32,3 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-053_taking-local-bus-station.md](../01_Touchpoints/TP-053_taking-local-bus-station.md), [TP-057_giving-up-public-transport.md](../01_Touchpoints/TP-057_giving-up-public-transport.md), [TP-060_changing-train-intermediate-station.md](../01_Touchpoints/TP-060_changing-train-intermediate-station.md), [TP-061_checking-phone-before-arriving.md](../01_Touchpoints/TP-061_checking-phone-before-arriving.md), [TP-068_connection-cannot-kept-missed.md](../01_Touchpoints/TP-068_connection-cannot-kept-missed.md), [TP-106_telling-people-waiting-colleagues.md](../01_Touchpoints/TP-106_telling-people-waiting-colleagues.md): the touchpoints this feature answers.
 - [US-F-06_whether-connection-still-holds.md](../03_User_Stories/US-F-06_whether-connection-still-holds.md): the user story written from this feature.
-- [OQ-17_how-early-before-a-change.md](../../04_Specifications/01_Open_Questions/OQ-17_how-early-before-a-change.md): an open question of the specifications whose chain to the research passes through this file.
-- [SPEC-06_those-waiting-are-told.md](../../04_Specifications/SPEC-06_those-waiting-are-told.md), [SPEC-07_the-connection-ahead.md](../../04_Specifications/SPEC-07_the-connection-ahead.md): a specification built on this feature.

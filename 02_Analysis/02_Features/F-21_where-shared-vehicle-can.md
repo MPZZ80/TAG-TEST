@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-03 00:09
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-086_returning-shared-bike-scooter.md, US-F-21_where-shared-vehicle-can.md, OQ-32_how-a-session-is-known-and-ended.md, SPEC-16_sessions-still-running.md]
+related: [TP-086_returning-shared-bike-scooter.md, US-F-21_where-shared-vehicle-can.md]
 ---
 
 # F-21: Where the shared vehicle can be returned
@@ -29,5 +29,3 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-086_returning-shared-bike-scooter.md](../01_Touchpoints/TP-086_returning-shared-bike-scooter.md): the touchpoints this feature answers.
 - [US-F-21_where-shared-vehicle-can.md](../03_User_Stories/US-F-21_where-shared-vehicle-can.md): the user story written from this feature.
-- [OQ-32_how-a-session-is-known-and-ended.md](../../04_Specifications/01_Open_Questions/OQ-32_how-a-session-is-known-and-ended.md): an open question of the specifications whose chain to the research passes through this file.
-- [SPEC-16_sessions-still-running.md](../../04_Specifications/SPEC-16_sessions-still-running.md): a specification built on this feature.

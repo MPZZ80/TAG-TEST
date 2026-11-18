@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:41
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-14a_asking-before-rerouting-tolls.md, HMW-17_keep-route-decision-italian-driver.md, SPEC-15_the-route-stays-with-the-driver.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-31_whether-a-drivers-route-fits.md]
+related: [F-14a_asking-before-rerouting-tolls.md, HMW-17_keep-route-decision-italian-driver.md]
 ---
 
 # Story F-14a
@@ -20,7 +20,7 @@ Split from F-14. As an Italian driver (desk persona), following a map app, when 
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-14a_asking-before-rerouting-tolls.md](../02_Features/F-14a_asking-before-rerouting-tolls.md) |
 | **Questions (HMW)** | [HMW-17](../../03_Ideation/01_How_Might_We/HMW-17_keep-route-decision-italian-driver.md) |
-| **Specifications** | [SPEC-15](../../04_Specifications/SPEC-15_the-route-stays-with-the-driver.md) |
+| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
 
 ## Source
 
@@ -30,5 +30,3 @@ Split from F-14. As an Italian driver (desk persona), following a map app, when 
 
 - [F-14a_asking-before-rerouting-tolls.md](../02_Features/F-14a_asking-before-rerouting-tolls.md): the feature this story carries.
 - [HMW-17_keep-route-decision-italian-driver.md](../../03_Ideation/01_How_Might_We/HMW-17_keep-route-decision-italian-driver.md): the How-Might-We questions written from this story.
-- [SPEC-15_the-route-stays-with-the-driver.md](../../04_Specifications/SPEC-15_the-route-stays-with-the-driver.md): the specifications that serve this story.
-- [OQ-03_reaching-the-commuter-without-looking.md](../../04_Specifications/01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md), [OQ-31_whether-a-drivers-route-fits.md](../../04_Specifications/01_Open_Questions/OQ-31_whether-a-drivers-route-fits.md): an open question of the specifications whose chain to the research passes through this file.
