@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 19:51
+
+- **Files:** `04_Specifications/Spec_instructions.md`, `AGENTS.md`
+- **Change:** New subsection "Information architecture" in section 3: the foundation defines the pages of the product, or uses the project's own, with what each is for, where it is reached from and the navigation; every function of a specification is placed on a page; pages are named by purpose, not layout. Step 1 adds the information architecture to the foundation; step 5 checks that every specification names its pages; "Logic, not screens" points to it. Templates: a "Pages" line in the specification's Architecture, an "Information architecture" section in the foundation, a "Pages" table in the overview. `AGENTS.md`: log entry 46.
+- **Why:** Marco asked that the specifications take into account an information architecture, stating on which pages they place the functions they describe; reason not stated.
+
 ## 2026-11-18 19:44
 
 - **Files:** every file of the previous entry: `04_Specifications/SPEC-00` to `SPEC-16` and `01_Open_Questions/` deleted again; `04_Specifications/README.md`, the story, feature, question, touchpoint, source and interview files, `05_Prototype/instructions/Prototype_Instructions.md`, `Index.md`, `AGENTS.md` back to how they were before it.

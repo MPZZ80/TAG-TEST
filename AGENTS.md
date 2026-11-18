@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-18 19:28
+date: 2026-11-18 19:51
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -140,6 +140,7 @@ This section is the running list of the standing instructions Marco gives during
 | 43 | 2026-11-16 | Keep the open questions of the specifications in a separate folder, `04_Specifications/01_Open_Questions/`, one file per question, each tracing the chain that links it to the research; keep the questions the research does not support, and flag them. Details in section 5 of `04_Specifications/Spec_instructions.md`. | To check the open questions later |
 | 44 | 2026-11-16 | For the first draft of the prototype: build a screen for every specification; take the set-up data from the mock datasets so that every screen is consistent (what is typed is not kept); use provisional values where a specification leaves a question open, marked with its OQ; one persona, a scenario selector, simulated messages, one mock clock, an index of the screens. Details in section 9 of `05_Prototype/instructions/Prototype_Instructions.md`. | Not stated; Marco's answers to the blocking questions before the first draft |
 | 45 | 2026-11-18 | Specifications take the architecture into account: a frontend-only prototype to test UX, UI and flows (no backend, no API), an interface made of web components, all data from mock datasets in the `data/` folder. The foundation designs the start page and the initial set-up of the profile and the usual trips. Replaces the technology-agnostic rule. Details in sections 3, 4 and 6 of `04_Specifications/Spec_instructions.md`. | Not stated |
+| 46 | 2026-11-18 | Specifications take into account an information architecture: the foundation defines the pages (or uses the project's own), and every specification says on which pages the functions it describes are placed. Details in section 3 and the templates of `04_Specifications/Spec_instructions.md`. | Not stated |
 
 ### Language
 

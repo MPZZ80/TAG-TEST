@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:22
+date: 2026-11-18 19:51
 method: generated
 status: draft
 grade: n/a
@@ -46,7 +46,7 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
 
 ## 2. Steps
 
-1. **Write the foundation first**, `SPEC-01_foundation.md`, with the template in section 6. It holds what two or more specifications need: the user, the things the product deals with, their states, the sources of information and how far each is trusted, the channels, the vocabulary, the rules that hold everywhere (no data, late data, contradicting sources, what the user consents to share), the shared parts of the architecture (section 3), and the design of the start page and of the initial set-up of the profile and the usual trips (or whatever the user saves to use again, in another domain). What only one specification needs stays in that one. Every element names the stories that need it. The other specifications refer to the foundation by section and do not repeat it; they still describe their own behaviour in full.
+1. **Write the foundation first**, `SPEC-01_foundation.md`, with the template in section 6. It holds what two or more specifications need: the user, the things the product deals with, their states, the sources of information and how far each is trusted, the channels, the vocabulary, the rules that hold everywhere (no data, late data, contradicting sources, what the user consents to share), the shared parts of the architecture (section 3), the information architecture (the pages and how they are reached, section 3), and the design of the start page and of the initial set-up of the profile and the usual trips (or whatever the user saves to use again, in another domain). What only one specification needs stays in that one. Every element names the stories that need it. The other specifications refer to the foundation by section and do not repeat it; they still describe their own behaviour in full.
 2. **Write the specifications.** Group the stories by the behaviour that meets their need: one specification per behaviour, numbered from `SPEC-02`. A specification may serve several stories, and a story may feed more than one specification; say why the stories of a specification belong together. If a story needs two behaviours that could ship apart, split it into two specifications and say so. If a story does not fit the purpose written in the foundation, do not specify it: list it under "Not specified" with the reason. When in doubt, ask instead of leaving it out.
 3. **Review the foundation and the dependencies** once every specification is written. In the foundation, remove what only one specification uses and add what several repeat. Then check that every element listed under "Depends on" is provided by a specification; if none provides it, add it to the specification that needs it or write a new one.
 4. **Write the overview**, `SPEC-00_overview.md`: the list of the specifications, the traceability table, the dependencies, and every story with the specifications that serve it, or the reason it has none.
@@ -55,6 +55,7 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
    - Every element under "Depends on" is provided by a named specification.
    - Every component and dataset a specification uses is defined in it or in the foundation, and the overview lists them.
    - The foundation designs the start page and the initial set-up, and every specification that needs something from the set-up names it.
+   - Every specification names the pages of the information architecture where its functions appear, every page it names is in the foundation, every function is placed on a page, and the overview lists the pages with the specifications on each.
    - Every reference link opens an existing file.
    - Every [not traced] or [technology choice open] item is listed under "Open questions" and has its own file in `01_Open_Questions/` (section 5).
 
@@ -68,13 +69,22 @@ The specifications take into account the architecture the product is built on, a
 - **What would come from outside is simulated from the data.** A source the product cannot reach without a backend (an operator's live data, other users, a message on a channel outside the product) is a dataset in `data/`, and an event it would send (a delay, an answer, an incoming message) is triggered by a visible control or a timer, with its content taken from the data.
 - **How the files are laid out** (folders, file names, how a screen loads its datasets) is in the build instructions of the project, for example `05_Prototype/instructions/Prototype_Instructions.md`. The specifications name components and datasets, not files.
 
+### Information architecture
+
+The specifications take into account the information architecture of the product: the pages, how they are grouped and how the user moves between them. Each specification says on which pages the functions it describes are placed.
+
+- **Defined once, in the foundation.** If the project already has an information architecture, use it and link it. If not, the foundation proposes one from the stories: the list of pages, what each page is for, the page each one is reached from, and the navigation that holds them together. The start page and the pages of the initial set-up are part of it. A proposed architecture is marked as a proposal for the person who asked to decide.
+- **Every function on a page.** Each specification lists the pages where its functions appear and what it adds to each: a whole page of its own, a part of another page, or a message that leads to a page. A function with no page is not specified; a page no specification fills is removed or listed under "Open questions".
+- **One page, several specifications.** When two or more specifications place functions on the same page, each says what it adds and in which order of importance; the foundation keeps the list of what each page holds.
+- **Pages, not layout.** A page is named with what it is for and what it holds, not with its visual design. Where on the page each part sits is out of scope, except what must come first, as the stories ask.
+
 ## 4. Rules
 
 - **Each file stands alone.** A designer, a developer or another agent must be able to build the behaviour from that file and the foundation, without opening anything else. References are there to trace a behaviour back, not to explain it.
 - **Within the architecture, and nothing else.** Name the elements of the architecture of section 3 (web components, datasets in `data/`, simulated events) and no other platform, operating system, framework, vendor, database, API or device brand. Describe what the product knows, decides and shows, and on which kind of channel ("a message on the channel the user chose", not the name of an app or a protocol). If a behaviour needs a technology the architecture does not have, write the need it serves and mark it [technology choice open].
 - **Stories first.** The behaviour of a specification is what its stories ask for: the persona, the moment and the "so that" come from the stories, not from the wording of a concept. Concepts are references only: cite in Traceability every concept that matches a story, but take the behaviour from the stories alone. When concepts suggest different ways to meet a story, do not choose between them: describe what the story asks and put the choice in "Open questions".
 - **Keep every reference.** Every specification names, by its exact ID and with a relative link to the file that holds it, every story it serves, and every feature, touchpoint, problem question, concept and family it rests on, when the inputs have them. A specification with no concept or family behind it writes "none" for them.
-- **Logic, not screens.** Describe what starts it, what it needs to know, the rules it follows step by step, the states it can be in, and what the user sees or receives at each step. Layout and visual design are out of scope; the start page and the initial set-up are designed in the foundation as flows: what comes first, the steps, what each step shows and asks. If a specification needs another element to work (information, a setting, an object, a choice of the user), that element must be specified too: how it is included, entered, configured or obtained, in the same specification or in another one, which it names. Nothing a behaviour relies on is assumed to exist already. When no story asks for that element, trace it to the specification that needs it.
+- **Logic, not screens.** Describe what starts it, what it needs to know, the rules it follows step by step, the states it can be in, and what the user sees or receives at each step. Layout and visual design are out of scope, but every function is placed on a page of the information architecture (section 3); the start page and the initial set-up are designed in the foundation as flows: what comes first, the steps, what each step shows and asks. If a specification needs another element to work (information, a setting, an object, a choice of the user), that element must be specified too: how it is included, entered, configured or obtained, in the same specification or in another one, which it names. Nothing a behaviour relies on is assumed to exist already. When no story asks for that element, trace it to the specification that needs it.
 - **Stories that conflict.** When two stories ask for opposite behaviours, no story wins on its own: specify what they share and put the conflict in "Open questions" for the person who asked to decide.
 - **No invention.** Every rule and behaviour traces to a story, a feature, a problem question or the evidence behind them. A behaviour you need and cannot trace is marked [not traced] and listed under "Open questions"; it is not written as settled.
 - **Failure is a normal case.** For every specification, say what happens when the data is late, missing, wrong or contradicted by another source, when the process breaks halfway, when the user does not respond, and when an element it depends on has not been set up yet.
@@ -142,6 +152,7 @@ What it does, for whom, in which moment. A stranger could read it and repeat it 
 - **Provides:** <the elements it sets up that other specifications use, and which ones, or none>
 
 ## Architecture
+- **Pages:** <each page of the information architecture where this behaviour appears, and what it adds to it: a page of its own, a part of another page, or a message that leads to a page>
 - **Components:** <each web component it shows: what it shows, the data it reads, the events it reacts to; or the foundation component it reuses>
 - **Datasets:** <each dataset in `data/` it reads, with the fields it needs and whether the foundation defines it>
 - **Simulated events:** <each event that would come from outside (a delay, an answer, a message), what triggers it in the prototype and where its content comes from; or none>
@@ -198,6 +209,9 @@ The terms every specification uses, with one meaning each.
 ## Architecture
 How the product is built for testing UX, UI and flows: frontend only, no backend and no API; the web components two or more specifications share, with what each shows, reads and reacts to; the datasets in `data/` two or more specifications read, with their fields and mock content; how an event from outside is simulated; how what the user chooses on one page reaches the next without a backend.
 
+## Information architecture
+The pages of the product, as the project defines them or as proposed here from the stories: for each page, what it is for, the page it is reached from, and the specifications whose functions it holds, in order of importance; the navigation that holds the pages together. Mark it as a proposal when the project has none.
+
 ## Start page
 What the product opens on, designed as a flow:
 - at the first opening, when nothing is set up: what the user sees and how they reach the initial set-up;
@@ -249,6 +263,12 @@ One row per web component and per dataset in `data/`.
 
 | Component or dataset | Defined in | Used by |
 | --- | --- | --- |
+
+## Pages
+One row per page of the information architecture.
+
+| Page | What it is for | Reached from | Specifications |
+| --- | --- | --- | --- |
 
 ## User stories and specifications
 One row per user story.
