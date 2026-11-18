@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-19 00:02
+
+- **Files:** `AGENTS.md`, `01_Research/02_Plan/02_desk_research_instructions.md`
+- **Change:** New instruction 49: after every change, commit but do not push; Marco pushes at the end of the session. Instructions 34 and 47 marked as replaced by 49; the desk research instructions point to 49.
+- **Why:** Marco: "Dopo ogni cambiamento fai un commit ma non fare push. I push li faccio io a fine sessione quando spengo il computer o vado a letto."
+
 ## 2026-11-18 23:55
 
 - **Files:** created `05_Prototype/data/leg_events.js`, `05_Prototype/components/leg-problem.js`, `04_Specifications/01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md`; changed `05_Prototype/js/run.js`, `05_Prototype/components/today-trip.js`, `05_Prototype/html/run.html`, `today.html`, `05_Prototype/data/ui_text.js`, `connections.js`, `notifications.js`, `05_Prototype/css/style.css`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`, the index and README of `01_Open_Questions/`; back-links in the files OQ-35 cites (F-05, F-14b, TP-045, TP-079, TP-108, survey results, GR-035, OR-001); `Index.md`

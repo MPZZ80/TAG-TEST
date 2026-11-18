@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-18 20:46
+date: 2026-11-19 00:02
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -128,7 +128,7 @@ This section is the running list of the standing instructions Marco gives during
 | 31 | 2026-10-16 | Keep the notes on the sources in `01_Research/03_Desk_Research/Doc_Notes/`, next to the documents they are written from (`docs/`, `docs_md/`), with a name that says they are synthesis notes and not the original sources. | The folder held synthesis notes, and its old name `Sources` suggested the original sources |
 | 32 | 2026-10-19 | Use the origin tag `survey` for files whose content comes from the answers to a questionnaire. Details in section 8 of `00_Intro/Metadata/metadata_schema.md`. | The survey results did not come from an interview, and no origin tag fitted them |
 | 33 | 2026-10-19 | Updated by 34 (commit without being asked). Whenever Marco asks for a commit, push it to GitHub right after. | Not stated |
-| 34 | 2026-10-22 | Suspended by 47 for the current phase. After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
+| 34 | 2026-10-22 | Replaced by 49. After every update to the repository, commit and push to GitHub automatically, without waiting to be asked. One commit per completed request, with a message in English that describes the change. | Not stated |
 | 35 | 2026-10-26 | Update the `README.md` of the folder every time a file in it is added or substantially modified, whatever kind of file it is. Details under "Folder guides" above. | `04_research.html` had been added to `02_Analysis/` without a row in its README |
 | 36 | 2026-11-01 | Name the files of `03_Ideation/` with a progressive number at the start, in the order of the process: `00_How_might_we_index.md`, then `02_…`. The archive in `_old/` keeps its names. | Not stated |
 | 37 | 2026-11-02 | Number the folders of `01_Research/` in the order they were created (`01_Questions/` to `05_Survey/`; Analysis, numbered `06_` at first, was then moved to the root as `02_Analysis/`), and number the files inside that have no progressive number yet, in the order they were created. Files that already carry a number or an ID keep it (source IDs such as `GR-001`, the course prompts `prompt-01-…`). The interview files stay without numbers. The plan and the instructions for running it go in `01_Research/02_Plan/`. | To put order in the research folder |
@@ -141,8 +141,9 @@ This section is the running list of the standing instructions Marco gives during
 | 44 | 2026-11-16 | For the first draft of the prototype: build a screen for every specification; take the set-up data from the mock datasets so that every screen is consistent (what is typed is not kept); use provisional values where a specification leaves a question open, marked with its OQ; one persona, a scenario selector, simulated messages, one mock clock, an index of the screens. Details in section 9 of `05_Prototype/instructions/Prototype_Instructions.md`. | Not stated; Marco's answers to the blocking questions before the first draft |
 | 45 | 2026-11-18 | Specifications take the architecture into account: a frontend-only prototype to test UX, UI and flows (no backend, no API), an interface made of web components, all data from mock datasets in the `data/` folder. The foundation designs the start page and the initial set-up of the profile and the usual trips. Replaces the technology-agnostic rule. Details in sections 3, 4 and 6 of `04_Specifications/Spec_instructions.md`. | Not stated |
 | 46 | 2026-11-18 | Specifications take into account an information architecture: the foundation defines the pages (or uses the project's own), and every specification says on which pages the functions it describes are placed. Details in section 3 and the templates of `04_Specifications/Spec_instructions.md`. | Not stated |
-| 47 | 2026-11-18 | In this phase, do not commit or push automatically: leave the changes in the working tree, and commit and push only when Marco asks. Suspends 34 until Marco says otherwise. | Not stated |
+| 47 | 2026-11-18 | Replaced by 49. In this phase, do not commit or push automatically: leave the changes in the working tree, and commit and push only when Marco asks. Suspends 34 until Marco says otherwise. | Not stated |
 | 48 | 2026-11-18 | Keep the web components of the prototype in a folder of their own, `05_Prototype/components/`, one file per component, named after its tag. Details in section 3 of `05_Prototype/instructions/Prototype_Instructions.md`. | Not stated |
+| 49 | 2026-11-19 | After every change, commit, with a message in English that describes it, but do not push: Marco pushes himself at the end of the session. Replaces 34 and 47. | Marco pushes when he shuts down the computer or goes to bed |
 
 ### Language
 

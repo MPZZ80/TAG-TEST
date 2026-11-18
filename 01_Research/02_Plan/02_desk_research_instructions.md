@@ -1,6 +1,6 @@
 ---
 source: Claude (Opus 5.5), from Marco's instructions and 01_plan.md
-date: 2026-11-18 20:15
+date: 2026-11-19 00:02
 method: AI-drafted working rules, revised on Marco's instructions
 confidence: medium
 tags: [research, internal, rules]
@@ -232,7 +232,7 @@ Apart from the candidate lists, where you always stop for Marco, do not stop to 
 - Save outputs in `01_Research/`, the folder above this one, with the file names given in the plan.
 - Do not change `../../00_Intro/Brief/brief.md` or `../01_Questions/02_initial_questions.md` unless Marco asks. The "Scope" section of the brief was added on his instruction; the rest is his own text.
 - If an output file from an earlier session needs revising, edit it in place and record the change in `../../CHANGELOG.md` as described in section 2 of `../../AGENTS.md`.
-- Commit and push to GitHub only when Marco asks, in the current phase (instruction 47 in `../../AGENTS.md`, which suspends 34).
+- Commit after every change, and do not push: Marco pushes at the end of the session (instruction 49 in `../../AGENTS.md`).
 
 ## 11. Source files and documents
 
