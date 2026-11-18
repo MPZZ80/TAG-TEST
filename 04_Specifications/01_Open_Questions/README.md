@@ -9,7 +9,7 @@ The questions the specifications leave open, one file each, with the chain that 
 | `OQ-02_age-limit-of-a-fact.md` | The age after which a fact is outdated (SPEC-01, SPEC-02; research: ⚠ not supported) |
 | `OQ-03_reaching-the-commuter-without-looking.md` | Reaching the commuter without looking: driving (SPEC-01, SPEC-03, SPEC-14, SPEC-15; research: ⚠ not supported) |
 | `OQ-04_suggesting-the-usual-trip.md` | Suggesting the usual trip from repeated trips (SPEC-01; research: ⚠ not supported) |
-| `OQ-05_more-than-one-usual-trip.md` | More than one usual trip (SPEC-01, SPEC-04, SPEC-06; research: supported) |
+| `OQ-05_more-than-one-usual-trip.md` | More than one usual trip (SPEC-01, SPEC-04, SPEC-06; research: supported; decided: a free list of trips, SPEC-17) |
 | `OQ-06_length-of-the-record-of-past-runs.md` | How long the record of past runs must be (SPEC-02; research: ⚠ not supported) |
 | `OQ-07_saying-that-nothing-changed.md` | Saying that nothing changed (SPEC-03; research: partly) |
 | `OQ-08_how-early-works-and-strikes-are-told.md` | How early works and strikes are told, and how often repeated (SPEC-03; research: partly) |
@@ -38,6 +38,8 @@ The questions the specifications leave open, one file each, with the chain that 
 | `OQ-31_whether-a-drivers-route-fits.md` | Whether a driver's route fits the product (SPEC-15; research: partly) |
 | `OQ-32_how-a-session-is-known-and-ended.md` | How a running session is known and ended (SPEC-16; research: ⚠ not supported) |
 | `OQ-33_the-reminder-interval.md` | The reminder interval for a running session (SPEC-16; research: ⚠ not supported) |
+| `OQ-34_days-of-travel-with-a-list-of-trips.md` | Days of travel with a list of trips (SPEC-17; research: ⚠ not supported) |
+| `OQ-35_problems-on-car-and-walking-legs.md` | Problems on car and walking legs, and the source of the data (SPEC-02; research: partly) |
 
 - 33 questions, all `open`. Research support: 2 supported, 9 partly, 22 not supported (marked ⚠).
 - Read the index first, then open only the question you need. Each file holds the question, why it is open, the chain to the research and what the research says.

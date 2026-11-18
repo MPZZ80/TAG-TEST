@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, synthesis]
-related: [SPEC-00_overview.md, 04_open_issues.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-06_length-of-the-record-of-past-runs.md, OQ-07_saying-that-nothing-changed.md, OQ-08_how-early-works-and-strikes-are-told.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md, OQ-11_whether-every-break-is-sent.md, OQ-12_cost-of-each-way-out.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, OQ-14_minors-using-the-product-alone.md, OQ-15_when-the-contact-is-told-again.md, OQ-16_telling-the-contact-when-to-set-off.md, OQ-17_how-early-before-a-change.md, OQ-18_asking-a-connection-to-wait.md, OQ-19_a-lift-as-a-way.md, OQ-20_which-car-costs-are-counted.md, OQ-21_source-of-walking-times.md, OQ-22_how-long-records-are-kept-to-time-a-leg.md, OQ-23_booking-and-paying-across-sellers.md, OQ-24_moving-a-ticket-with-no-signal.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md, OQ-27_claims-on-tickets-from-a-seller.md, OQ-28_source-of-the-state-of-facilities.md, OQ-29_how-far-before-the-stop.md, OQ-30_reaching-a-commuter-who-is-asleep.md, OQ-31_whether-a-drivers-route-fits.md, OQ-32_how-a-session-is-known-and-ended.md, OQ-33_the-reminder-interval.md]
+related: [SPEC-00_overview.md, 04_open_issues.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-06_length-of-the-record-of-past-runs.md, OQ-07_saying-that-nothing-changed.md, OQ-08_how-early-works-and-strikes-are-told.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md, OQ-11_whether-every-break-is-sent.md, OQ-12_cost-of-each-way-out.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, OQ-14_minors-using-the-product-alone.md, OQ-15_when-the-contact-is-told-again.md, OQ-16_telling-the-contact-when-to-set-off.md, OQ-17_how-early-before-a-change.md, OQ-18_asking-a-connection-to-wait.md, OQ-19_a-lift-as-a-way.md, OQ-20_which-car-costs-are-counted.md, OQ-21_source-of-walking-times.md, OQ-22_how-long-records-are-kept-to-time-a-leg.md, OQ-23_booking-and-paying-across-sellers.md, OQ-24_moving-a-ticket-with-no-signal.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md, OQ-27_claims-on-tickets-from-a-seller.md, OQ-28_source-of-the-state-of-facilities.md, OQ-29_how-far-before-the-stop.md, OQ-30_reaching-a-commuter-who-is-asleep.md, OQ-31_whether-a-drivers-route-fits.md, OQ-32_how-a-session-is-known-and-ended.md, OQ-33_the-reminder-interval.md, OQ-34_days-of-travel-with-a-list-of-trips.md, OQ-35_problems-on-car-and-walking-legs.md]
 ---
 
 # Open Questions of the Specifications
@@ -29,7 +29,7 @@ The questions the specifications leave open, one file each, so that they can be 
 | [OQ-02](OQ-02_age-limit-of-a-fact.md) | After how long without news is a fact (a time, a state, a position) marked outdated, and a run marked `no news`? | SPEC-01, SPEC-02 | [not traced] | ⚠ not supported | open |
 | [OQ-03](OQ-03_reaching-the-commuter-without-looking.md) | How does a message reach a commuter who cannot look at a screen, for example while driving to the station or on a rerouted drive? | SPEC-01, SPEC-03, SPEC-14, SPEC-15 | [technology choice open] | ⚠ not supported | open |
 | [OQ-04](OQ-04_suggesting-the-usual-trip.md) | May the product suggest a usual trip from trips the commuter repeats, for them to confirm, or does the commuter always enter it? | SPEC-01 | [not traced] | ⚠ not supported | open |
-| [OQ-05](OQ-05_more-than-one-usual-trip.md) | Does the commuter keep more than one usual trip, for example the morning trip and the evening return, or two trains used most? | SPEC-01, SPEC-04, SPEC-06 | [not traced] | supported | open |
+| [OQ-05](OQ-05_more-than-one-usual-trip.md) | Does the commuter keep more than one usual trip, for example the morning trip and the evening return, or two trains used most? | SPEC-01, SPEC-04, SPEC-06 | [not traced] | supported | decided 2026-11-18: a free list of trips (SPEC-17) |
 | [OQ-06](OQ-06_length-of-the-record-of-past-runs.md) | Over how many past runs, or how long a period, is the record kept to tell how late a run usually is? | SPEC-02 | [not traced] | ⚠ not supported | open |
 | [OQ-07](OQ-07_saying-that-nothing-changed.md) | Is "nothing changed" or "no news" ever sent as a message, for example once at the first moment of the day, or only shown inside the product? | SPEC-03 | [not traced] | partly | open |
 | [OQ-08](OQ-08_how-early-works-and-strikes-are-told.md) | How many days before a travel day are planned works and strikes told, and how often is the message repeated? | SPEC-03 | [not traced] | partly | open |
@@ -58,6 +58,8 @@ The questions the specifications leave open, one file each, so that they can be 
 | [OQ-31](OQ-31_whether-a-drivers-route-fits.md) | Does a product mostly about public transport also look after a commuter's drive, as story F-14a asks? | SPEC-15 | [not traced] | partly | open |
 | [OQ-32](OQ-32_how-a-session-is-known-and-ended.md) | How does the product know that a paid session (parking, a shared vehicle) is running, and can it end the session by itself? | SPEC-16 | [technology choice open] | ⚠ not supported | open |
 | [OQ-33](OQ-33_the-reminder-interval.md) | After how long is the commuter reminded of a session still running, and how often? | SPEC-16 | [not traced] | ⚠ not supported | open |
+| [OQ-34](OQ-34_days-of-travel-with-a-list-of-trips.md) | Trips have no days of their own: which days do the alerts and the fare count as days of travel? | SPEC-17 | [not traced] | ⚠ not supported | open |
+| [OQ-35](OQ-35_problems-on-car-and-walking-legs.md) | Do commuters want to be told of traffic, accidents and works on their car and walking legs, and which services would tell the product? | SPEC-02 | [not traced] [technology choice open] | partly | open |
 
 ## Connections
 
@@ -96,3 +98,5 @@ The questions the specifications leave open, one file each, so that they can be 
 - [OQ-31_whether-a-drivers-route-fits.md](OQ-31_whether-a-drivers-route-fits.md): one open question.
 - [OQ-32_how-a-session-is-known-and-ended.md](OQ-32_how-a-session-is-known-and-ended.md): one open question.
 - [OQ-33_the-reminder-interval.md](OQ-33_the-reminder-interval.md): one open question.
+- [OQ-34_days-of-travel-with-a-list-of-trips.md](OQ-34_days-of-travel-with-a-list-of-trips.md): one open question.
+- [OQ-35_problems-on-car-and-walking-legs.md](OQ-35_problems-on-car-and-walking-legs.md): one open question.

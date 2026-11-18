@@ -3,10 +3,11 @@
  * What it holds: the runs of the commuter's trips, planned, and their real state in each scenario,
  *   as facts with their source, time and status (SPEC-01, SPEC-03).
  * Used by: today.html, run.html, connection.html, alerts.html, timing.html, stop.html
- * Fields: id{service, operator, from, to, dep, arr, platform_dep, usual_platform, platform_arr, usual_delay, alternatives[], next[],
+ * Fields: id{service, operator, from, to, dep, arr, platform_dep, usual_platform, platform_arr, usual_delay, next[],
+ *   alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note}],
  *   by_scenario{key: {state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[{label, value, source, time, status}]}}}
  * Source: mock
- * Updated: 2026-11-16
+ * Updated: 2026-11-18
  */
 window.DATA = window.DATA || {};
 DATA.runs = {
@@ -16,7 +17,19 @@ DATA.runs = {
     platform_dep: "4", usual_platform: "4", platform_arr: "21",
     // record of past runs; how many runs it covers is OQ-06 (provisional: the last 20 runs)
     usual_delay: { minutes: 6, runs: 20 },
-    alternatives: ["08:15, high-speed 9715", "09:15, high-speed 9723", "07:58, regional 2610"], // other runs the commuter can take today
+    // other ways to make this leg, shown on the Run page when the run is late or cancelled (SPEC-02).
+    // Realistic mock: times and durations from public timetables (Frecciarossa ~1h13, Italo ~1h12,
+    // Trenord RE6 ~1h50 via Brescia, FlixBus Verona Viale Palladio to Milano Lampugnano ~2h10); not real departures.
+    alternatives: [
+      { id: "A1", mode: "train", service: "High-speed 9715", operator: "National rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
+        dep: "08:15", arr: "09:28", door_arrival: "09:48", ticket_valid: true, cost: "€ 0, your ticket can be moved", source: "Schedule" },
+      { id: "A2", mode: "train", service: "Italo high-speed 8925", operator: "Private rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
+        dep: "08:08", arr: "09:20", door_arrival: "09:40", ticket_valid: false, cost: "€ 24.90", source: "Schedule" },
+      { id: "A3", mode: "train", service: "Regional RE6 2610", operator: "Regional rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
+        dep: "07:58", arr: "09:48", door_arrival: "10:08", ticket_valid: false, cost: "€ 13.25", source: "Schedule", note: "Stops at Brescia; no seat booking" },
+      { id: "A4", mode: "coach", service: "FlixBus coach", operator: "Coach operator", from: "Verona, Viale Palladio", to: "Milano Lampugnano",
+        dep: "08:20", arr: "10:30", door_arrival: "10:55", ticket_valid: false, cost: "€ 9.99", source: "Schedule", note: "5 minutes' walk from the station; underground M1 from Lampugnano" }
+    ],
     by_scenario: {
       none:    { state: "planned", delay: 0, exp_dep: "07:45", exp_arr: "08:58", platform: "4", position: "Not yet departed",
                  facts: [{ label: "Departure", value: "07:45", source: "Schedule", time: "—", status: "planned" }] },
@@ -38,20 +51,52 @@ DATA.runs = {
                    { label: "Reason",    value: "Fault on the train", source: "Operator, live", time: "07:31", status: "confirmed" }] }
     }
   },
-  "M3-0910": {
-    service: "Underground M3", operator: "City transport",
-    from: "Milano Centrale", to: "Repubblica", dep: "09:10", arr: "09:12",
-    platform_dep: "M3 southbound", usual_platform: "M3 southbound", platform_arr: "—",
+  "M2-0912": {
+    service: "Underground M2", operator: "City transport",
+    from: "Milano Centrale FS", to: "Loreto", dep: "09:12", arr: "09:15",
+    platform_dep: "M2 towards Cologno / Gessate", usual_platform: "M2 towards Cologno / Gessate", platform_arr: "—",
     usual_delay: { minutes: 0, runs: 20 },
-    next: [{ dep: "09:22", arr: "09:24" }, { dep: "09:28", arr: "09:30" }], // the next runs, every 6 minutes
     by_scenario: {
-      none:      { state: "planned", delay: 0, exp_dep: "09:10", exp_arr: "09:12", platform: "M3 southbound", facts: [] },
-      on_time:   { state: "on time", delay: 0, exp_dep: "09:10", exp_arr: "09:12", platform: "M3 southbound",
-                   facts: [{ label: "Service", value: "Regular, every 6 minutes", source: "Operator, live", time: "07:15", status: "confirmed" }] },
-      late:      { state: "on time", delay: 0, exp_dep: "09:10", exp_arr: "09:12", platform: "M3 southbound",
-                   facts: [{ label: "Service", value: "Regular, every 6 minutes", source: "Operator, live", time: "07:35", status: "confirmed" }] },
-      cancelled: { state: "on time", delay: 0, exp_dep: "09:10", exp_arr: "09:12", platform: "M3 southbound",
-                   facts: [{ label: "Service", value: "Regular, every 6 minutes", source: "Operator, live", time: "07:35", status: "confirmed" }] }
+      none:      { state: "planned", delay: 0, exp_dep: "09:12", exp_arr: "09:15", platform: "M2 towards Cologno / Gessate", facts: [] },
+      on_time:   { state: "on time", delay: 0, exp_dep: "09:12", exp_arr: "09:15", platform: "M2 towards Cologno / Gessate",
+                   facts: [{ label: "Service", value: "Regular, every 4 minutes", source: "Operator, live", time: "07:15", status: "confirmed" }] },
+      // the 9707 reaches Milano Centrale at 09:16, after the 09:12 has left: the commuter takes the 09:28 (connections.js, late)
+      late:      { state: "on time", delay: 0, exp_dep: "09:28", exp_arr: "09:31", platform: "M2 towards Cologno / Gessate",
+                   reason: "The 09:12 leaves before the late train arrives",
+                   facts: [{ label: "Service", value: "Regular, every 4 minutes", source: "Operator, live", time: "07:35", status: "confirmed" },
+                           { label: "Run you can reach", value: "09:28", source: "Schedule", time: "07:38", status: "estimated" }] },
+      cancelled: { state: "on time", delay: 0, exp_dep: "09:12", exp_arr: "09:15", platform: "M2 towards Cologno / Gessate",
+                   facts: [{ label: "Service", value: "Regular, every 4 minutes", source: "Operator, live", time: "07:35", status: "confirmed" }] }
+    }
+  },
+  "M3-1722": {
+    service: "Underground M3", operator: "City transport",
+    from: "Repubblica", to: "Milano Centrale", dep: "17:22", arr: "17:24",
+    platform_dep: "M3 northbound", usual_platform: "M3 northbound", platform_arr: "—",
+    usual_delay: { minutes: 0, runs: 20 },
+    by_scenario: {
+      none:      { state: "planned", delay: 0, exp_dep: "17:22", exp_arr: "17:24", platform: "M3 northbound", facts: [] },
+      on_time:   { state: "planned", delay: 0, exp_dep: "17:22", exp_arr: "17:24", platform: "M3 northbound",
+                   facts: [{ label: "Service", value: "Regular, every 6 minutes", source: "Schedule", time: "—", status: "planned" }] },
+      late:      { state: "planned", delay: 0, exp_dep: "17:22", exp_arr: "17:24", platform: "M3 northbound",
+                   facts: [{ label: "Service", value: "Regular, every 6 minutes", source: "Schedule", time: "—", status: "planned" }] },
+      cancelled: { state: "planned", delay: 0, exp_dep: "17:22", exp_arr: "17:24", platform: "M3 northbound",
+                   facts: [{ label: "Service", value: "Regular, every 6 minutes", source: "Schedule", time: "—", status: "planned" }] }
+    }
+  },
+  RE2614: {
+    service: "Regional RE6 2614", operator: "Regional rail operator",
+    from: "Verona Porta Nuova", to: "Brescia", dep: "08:28", arr: "09:12",
+    platform_dep: "1", usual_platform: "1", platform_arr: "3",
+    usual_delay: { minutes: 4, runs: 12 },
+    by_scenario: {
+      none:      { state: "planned", delay: 0, exp_dep: "08:28", exp_arr: "09:12", platform: "1", facts: [] },
+      on_time:   { state: "planned", delay: 0, exp_dep: "08:28", exp_arr: "09:12", platform: "1",
+                   facts: [{ label: "Departure", value: "08:28", source: "Schedule", time: "—", status: "planned" }] },
+      late:      { state: "planned", delay: 0, exp_dep: "08:28", exp_arr: "09:12", platform: "1",
+                   facts: [{ label: "Departure", value: "08:28", source: "Schedule", time: "—", status: "planned" }] },
+      cancelled: { state: "planned", delay: 0, exp_dep: "08:28", exp_arr: "09:12", platform: "1",
+                   facts: [{ label: "Departure", value: "08:28", source: "Schedule", time: "—", status: "planned" }] }
     }
   },
   HS9722: {

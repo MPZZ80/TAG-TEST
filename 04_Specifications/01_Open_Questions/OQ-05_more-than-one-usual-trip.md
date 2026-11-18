@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:19
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, planning, tools, usual-trip]
-related: [00_Open_questions_index.md, SPEC-01_foundation.md, US-F-09_arrival-shared-whoever-waits.md, F-09_arrival-shared-whoever-waits.md, TP-075_following-train-app-board.md, Marco_Palermo_notes.md, F-01_real-state-vehicle-source.md, TP-028_deciding-return-train-day.md, US-F-11_usual-trip-glance.md, F-11_usual-trip-glance.md, TP-027_opening-saved-usual-trip.md, OR-001_apple-app-store_2026_google-maps-it.md, F-03_early-warning-usual-trip.md, TP-035_using-alerts-usual-trip.md, OR-005_apple-app-store_2026_trainline-gb.md, TP-032_receiving-alert-usual-train.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, 04_open_issues.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-06_those-waiting-are-told.md]
+related: [00_Open_questions_index.md, SPEC-17_trips.md, SPEC-01_foundation.md, US-F-09_arrival-shared-whoever-waits.md, F-09_arrival-shared-whoever-waits.md, TP-075_following-train-app-board.md, Marco_Palermo_notes.md, F-01_real-state-vehicle-source.md, TP-028_deciding-return-train-day.md, US-F-11_usual-trip-glance.md, F-11_usual-trip-glance.md, TP-027_opening-saved-usual-trip.md, OR-001_apple-app-store_2026_google-maps-it.md, F-03_early-warning-usual-trip.md, TP-035_using-alerts-usual-trip.md, OR-005_apple-app-store_2026_trainline-gb.md, TP-032_receiving-alert-usual-train.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, 04_open_issues.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-06_those-waiting-are-told.md, OQ-34_days-of-travel-with-a-list-of-trips.md]
 ---
 
 # OQ-05: More than one usual trip
@@ -17,11 +17,11 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | --- | --- |
 | **Question** | Does the commuter keep more than one usual trip, for example the morning trip and the evening return, or two trains used most? |
 | **Raised in** | [SPEC-01](../SPEC-01_foundation.md), [SPEC-04](../SPEC-04_todays-trip-at-a-glance.md), [SPEC-06](../SPEC-06_those-waiting-are-told.md) |
-| **Marker** | [not traced] |
+| **Marker** | [not traced], removed when decided |
 | **Research support** | Supported: the research points to an answer |
-| **State** | open |
-| **Decision** | none yet |
-| **Decided on** | none yet |
+| **State** | decided |
+| **Decision** | Yes, as a free list: the commuter keeps any number of trips door to door, with no days of their own, and chooses each time the one to follow; they are kept on a new page, Trips ([SPEC-17](../SPEC-17_trips.md)) |
+| **Decided on** | 2026-11-18, by Marco |
 
 ## Why it is open
 
@@ -78,3 +78,5 @@ The research points to more than one: the outward and return trips (an interview
 - [TP-032_receiving-alert-usual-train.md](../../02_Analysis/01_Touchpoints/TP-032_receiving-alert-usual-train.md): the moment of the journey the evidence is about.
 - [OF-003_hacker-news_2023_hn-citymapper-joins-via.md](../../01_Research/03_Desk_Research/Doc_Notes/Online_Forums/OF-003_hacker-news_2023_hn-citymapper-joins-via.md): a source quoted in the chain.
 - [04_open_issues.md](../../01_Research/02_Plan/04_open_issues.md): lists the related open questions of the research.
+- [SPEC-17_trips.md](../SPEC-17_trips.md): the specification written from the decision.
+- [OQ-34_days-of-travel-with-a-list-of-trips.md](OQ-34_days-of-travel-with-a-list-of-trips.md): an open question of the specifications whose chain to the research passes through this file.

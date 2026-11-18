@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, tools, usual-trip]
-related: [US-F-11_usual-trip-glance.md, US-F-24_travel-information-first-hurry.md, F-11_usual-trip-glance.md, F-24_travel-information-first-hurry.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-27_keep-few-seconds-deciding-whether.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-08_every-way-door-to-door.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-11_the-fare-that-fits-the-days.md, SPEC-12_compensation-from-the-trip.md, SPEC-13_the-station-ahead.md, SPEC-14_stop-approaching.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md]
+related: [SPEC-17_trips.md, US-F-11_usual-trip-glance.md, US-F-24_travel-information-first-hurry.md, F-11_usual-trip-glance.md, F-24_travel-information-first-hurry.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-27_keep-few-seconds-deciding-whether.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-08_every-way-door-to-door.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-11_the-fare-that-fits-the-days.md, SPEC-12_compensation-from-the-trip.md, SPEC-13_the-station-ahead.md, SPEC-14_stop-approaching.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md]
 ---
 
 # SPEC-04: Today's Trip at a Glance
@@ -63,16 +63,18 @@ Opens the product on the trip the commuter is about to make today: its run, stat
 
 - **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Today (start page)** (PG-01): the trip of the day, first.
 - **Components:**
-  - `<today-trip>`: the trip of the day: each leg with its run, state, platforms and the change, the arrival at the door, with nothing in front of it; it is the first content of the start page once the set-up is done; reads `profile.usual_trip`, `profile.days`, `runs`, `connections`, `clock`, `scenarios`; reacts to the scenario changing and to a leg being opened (leads to SPEC-02 or SPEC-07).
+  - `<today-trip>`: the trip of the day: each leg with its run, state, platforms and the change, the arrival at the door, with nothing in front of it; it is the first content of the start page once the set-up is done; reads `profile.trips` (the trip followed today), `profile.days`, `runs`, `connections`, `clock`, `scenarios`; reacts to the scenario changing and to a leg being opened (leads to SPEC-02 or SPEC-07).
   - `<run-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
   - `<fact-line>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
   - `<missing-setup>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
+  - `<leg-problem>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, under a car or walking leg of the trip of the day (traffic, an accident, works), as SPEC-02 rule 14 describes.
 - **Datasets:**
-  - `profile` (defined in the foundation): `usual_trip{name, from, to, legs[{mode, from, to, run, minutes, stage}]}`, `days`, `doors`.
+  - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}]` (the trip followed today), `days`, `doors`.
   - `runs` (defined in the foundation): state, expected times and platforms of each run of the trip.
   - `connections` (defined in the foundation): `station`, `by_scenario.<key>.state`, `margin`, `door_arrival`.
   - `clock` (defined in the foundation): `date`, `weekday`.
   - `scenarios` (defined in the foundation): `list.<key>.setup`, `now`, `trip_state`.
+  - `leg_events` (defined in the foundation): what changes a car or walking leg of the trip.
 - **Simulated events:**
   - The trip changing during the morning: the scenario selector (`on_time`, `late`, `cancelled`); with `none`, nothing is set up and `<missing-setup>` leads to the initial set-up.
 
@@ -125,3 +127,4 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [OQ-05_more-than-one-usual-trip.md](01_Open_Questions/OQ-05_more-than-one-usual-trip.md): an open question this specification raises.
 - [OQ-09_first-view-with-no-usual-trip.md](01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md): an open question this specification raises.
 - [OQ-10_another-run-taken-without-saying.md](01_Open_Questions/OQ-10_another-run-taken-without-saying.md): an open question this specification raises.
+- [SPEC-17_trips.md](SPEC-17_trips.md): provides the trip followed today, which is the trip of the day.

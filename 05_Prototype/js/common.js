@@ -57,6 +57,20 @@
     return r ? Object.assign({ id: id, run: r }, r.by_scenario[scenarioKey]) : null;
   }
 
+  // The facts of a run grouped by label, keeping only the labels on which two sources give different values.
+  function disagreeing(facts) {
+    const byLabel = {};
+    facts.forEach(function (f) { (byLabel[f.label] = byLabel[f.label] || []).push(f); });
+    return Object.keys(byLabel).map(function (k) { return byLabel[k]; }).filter(function (g) {
+      return g.length > 1 && new Set(g.map(function (f) { return f.value; })).size > 1;
+    });
+  }
+
+  // The commuter's trips (SPEC-17) and the one followed today.
+  function trip(id) { return DATA.profile.trips.find(function (t) { return t.id === id; }); }
+  function followedTrip() { return DATA.profile.trips.find(function (t) { return t.monitored; }) || DATA.profile.trips[0]; }
+
   window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: DATA.scenarios.list[scenarioKey],
-    fill: fill, el: el, link: link, runState: runState, stateClass: stateClass, shell: shell };
+    fill: fill, el: el, link: link, runState: runState, stateClass: stateClass, shell: shell,
+    disagreeing: disagreeing, trip: trip, followedTrip: followedTrip };
 })();

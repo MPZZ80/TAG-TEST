@@ -23,7 +23,8 @@ The specifications built from the user stories, one file per behaviour, each usa
 | `SPEC-14_stop-approaching.md` | The Stop Approaching |
 | `SPEC-15_the-route-stays-with-the-driver.md` | The Route Stays With the Driver |
 | `SPEC-16_sessions-still-running.md` | Sessions Still Running |
+| `SPEC-17_trips.md` | Trips |
 | `01_Open_Questions/` | One file per open question, with its chain to the research and whether the research supports an answer; see its `README.md` |
 
-- Read the overview, then the foundation (`SPEC-01`): its Architecture, Information architecture (15 pages, proposed), Start page and Initial set-up hold what the other specifications share.
+- Read the overview, then the foundation (`SPEC-01`): its Architecture, Information architecture (16 pages, proposed), Start page and Initial set-up hold what the other specifications share.
 - 24 stories, all with the same weight; the chosen concept is not followed.

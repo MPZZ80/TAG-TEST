@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 20:04
+date: 2026-11-18 23:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, disruption, usual-trip, late-info]
-related: [SPEC-02_real-state-of-the-run.md, SPEC-03_alerts-on-the-usual-trip.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-08_every-way-door-to-door.md, SPEC-09_times-that-can-be-kept.md, SPEC-10_tickets-that-work-when-needed.md, SPEC-11_the-fare-that-fits-the-days.md, SPEC-12_compensation-from-the-trip.md, SPEC-13_the-station-ahead.md, SPEC-14_stop-approaching.md, SPEC-15_the-route-stays-with-the-driver.md, SPEC-16_sessions-still-running.md, SPEC-00_overview.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md, US-F-07_trips-planned-commuter-s.md, US-F-11_usual-trip-glance.md, US-F-03_early-warning-usual-trip.md, F-07_trips-planned-commuter-s.md, F-11_usual-trip-glance.md, F-03_early-warning-usual-trip.md, HMW-10_help-german-rail-regular-planner.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-05_let-single-line-commuter-during.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md]
+related: [SPEC-02_real-state-of-the-run.md, SPEC-03_alerts-on-the-usual-trip.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-08_every-way-door-to-door.md, SPEC-09_times-that-can-be-kept.md, SPEC-10_tickets-that-work-when-needed.md, SPEC-11_the-fare-that-fits-the-days.md, SPEC-12_compensation-from-the-trip.md, SPEC-13_the-station-ahead.md, SPEC-14_stop-approaching.md, SPEC-15_the-route-stays-with-the-driver.md, SPEC-16_sessions-still-running.md, SPEC-17_trips.md, SPEC-00_overview.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md, US-F-07_trips-planned-commuter-s.md, US-F-11_usual-trip-glance.md, US-F-03_early-warning-usual-trip.md, F-07_trips-planned-commuter-s.md, F-11_usual-trip-glance.md, F-03_early-warning-usual-trip.md, HMW-10_help-german-rail-regular-planner.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-05_let-single-line-commuter-during.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md]
 ---
 
 # SPEC-01: Foundation
@@ -40,7 +40,7 @@ The product helps a person who commutes, often between cities and on more than o
 | Thing | What it is | Parts | Where it comes from |
 | --- | --- | --- | --- |
 | **Door** | A place a trip starts or ends: home, office, another place | Name, position | Entered by the commuter (Initial set-up) |
-| **Usual trip** | A trip the commuter makes regularly | Doors at both ends, legs, the runs usually taken, days of travel | Entered by the commuter (Initial set-up) |
+| **Usual trip** | A trip of the commuter's list, made regularly; the one followed today is the trip of the day | Name, doors at both ends, legs, the runs usually taken | Entered by the commuter: the first in the initial set-up, the others in Trips ([SPEC-17](SPEC-17_trips.md)) |
 | **Trip** | One journey on one day, door to door | Legs, connections, tickets used, contacts informed | The day of a usual trip, or a way the commuter chose (SPEC-04, SPEC-08) |
 | **Leg** | One part of a trip on one means | Stage, means (train, bus, underground, car, bicycle, shared vehicle, walk, lift), start and end place | From the plan |
 | **Run** | One departure of one service on one day | Planned times and stops, platform, operator | From the schedule |
@@ -69,7 +69,7 @@ The product helps a person who commutes, often between cities and on more than o
 | **Schedule** | Planned runs, times, platforms; works and strikes once announced | What was promised, not what happens |
 | **Operator, live** | Position, delay, reason, cancellation, platform, state of lifts and facilities | Confirmed when stated as final |
 | **Other travellers** | What they see on the spot | Reported: shown as such, with how many and how recent |
-| **Third parties** | Parking places and prices, fares, tolls, return zones, traffic | As stated by them |
+| **Third parties** | Parking places and prices, fares, tolls, return zones, traffic and accidents on the roads, the city's notices of road works | As stated by them; a traffic report is `reported` |
 | **The commuter** | Their doors, trips, rules, needs, contacts, tickets | Taken as given |
 | **Record of past runs** | How late a run usually is | Estimated (SPEC-02 keeps it) |
 
@@ -108,7 +108,8 @@ The product helps a person who commutes, often between cities and on more than o
 | commuter | The person making the trip |
 | contact | A person the commuter chose to keep informed about a trip |
 | door | A place a trip starts or ends |
-| usual trip | A trip the commuter makes regularly, entered once |
+| usual trip | A trip of the commuter's list of trips (SPEC-17); the one followed today is the trip of the day |
+| followed trip | The trip of the list the commuter chose to follow today |
 | trip | One journey on one day, door to door |
 | leg | One part of a trip on one means; its stage is first mile, main leg, transfer or last mile |
 | run | One departure of one service on one day |
@@ -129,8 +130,11 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | Component | What it shows | Data it reads | Events it reacts to | Used by |
 | --- | --- | --- | --- | --- |
 | `<fact-line>` | One fact: its value, its source, its time and its status (confirmed, estimated, reported, outdated) | a fact `{label, value, source, time, status}` from `runs` or `stations` | none | SPEC-02, SPEC-04, SPEC-12, SPEC-13 |
-| `<run-card>` | One run: service, expected departure and arrival, platform, state, delay, position, reason, each with its `<fact-line>`; "no news since" when nothing is known | `runs.<id>` and its `by_scenario.<scenario>` | the scenario changing; opening the run | SPEC-02, SPEC-04, SPEC-07 |
-| `<usual-delay>` | How late a run usually is, and over how many past runs | `runs.<id>.usual_delay` | none | SPEC-02, SPEC-09 |
+| `<run-card>` | One run: its state first (with an information button when two sources disagree), then, unless it is cancelled, planned and expected times, platform and position; "Why" only for a problem; the facts and `<usual-delay>` under "Details", closed; "no news since" when nothing is known | `runs.<id>` and its `by_scenario.<scenario>` | the scenario changing; "Details"; the information button, which sends a "sources" event | SPEC-02, SPEC-04, SPEC-07 |
+| `<usual-delay>` | How late a run usually is, and over how many past runs | `runs.<id>.usual_delay` | none | SPEC-02 (inside `<run-card>`), SPEC-09 |
+| `<trip-card>` | One trip door to door: its name, the doors at both ends and its legs, leading to its runs | one trip of `profile.trips`, `profile.doors` | opening the trip | SPEC-02, SPEC-17 |
+| `<leg-problem>` | What changes a leg the commuter makes on their own: traffic or an accident on a car leg, works or a closed street on a walking leg, with the extra minutes, the way round and its source, age and status; nothing when the leg is clear | `leg_events.<trip>-<leg>.by_scenario.<scenario>` | none | SPEC-02, SPEC-04 |
+| `<first-trip-cta>` | The invitation to set up the first trip, in place of a behaviour that needs one | `ui_text.run.no_trip_*` | "Set up your first trip", which leads to Trips (or to the set-up, from Trips) | SPEC-01 (Start page), SPEC-02, SPEC-17 |
 | `<way-card>` | One way of completing a trip: legs, departure, arrival at the door, cost or price, and, where known, ticket validity and how full it is expected to be | one way of `ways.search.ways[]` or `ways.ways_out.ways[]` | choosing the way | SPEC-05, SPEC-08 |
 | `<confirm-choice>` | A proposed change and its yes and no; nothing changes until yes; no answer leaves everything as it was | the proposal passed by the specification | yes, no, the moment passing | SPEC-05, SPEC-10, SPEC-15 |
 | `<missing-setup>` | What is missing for a behaviour, and a link to the step of the initial set-up where it is entered | `profile`, `scenarios.list.<key>.setup`, `ui_text.common.missing` | "Set it up" | every specification |
@@ -143,11 +147,12 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 
 | Dataset | What it holds | Fields | Used by |
 | --- | --- | --- | --- |
-| `profile` | What the commuter set up (Initial set-up, below) | `persona`, `doors[{id, name, place}]`, `usual_trip{name, from, to, legs[{mode, from, to, run, minutes, stage}]}`, `days[]`, `own_rules{min_change, per_station[{station, minutes}], margin, max_changes, own_leg}`, `needs{step_free}`, `channels[]`, `position` | every specification |
-| `runs` | The runs of the commuter's trips, planned, and their real state in each scenario, as facts | `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay{minutes, runs}`, `alternatives[]`, `by_scenario.<key>{state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[]}` | SPEC-02 to SPEC-07, SPEC-09, SPEC-14 |
+| `profile` | What the commuter set up (Initial set-up, below) | `persona`, `doors[{id, name, place}]`, `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}]`, `days[]`, `own_rules{min_change, per_station[{station, minutes}], margin, max_changes, own_leg}`, `needs{step_free}`, `channels[]`, `position` | every specification |
+| `runs` | The runs of the commuter's trips, planned, their real state in each scenario as facts, and the other ways to make each leg | `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay{minutes, runs}`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note}]`, `by_scenario.<key>{state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[]}` | SPEC-02 to SPEC-07, SPEC-09, SPEC-14 |
 | `connections` | The change on the usual trip and its state in each scenario | `station`, `from_run`, `to_run`, `walk_minutes`, `board_where`, `by_scenario.<key>{state, margin, next_dep, door_arrival, warn_at, request_answer}`, `request_answer_text` | SPEC-04, SPEC-07, SPEC-09 |
 | `ways` | The ways from door to door for a search, and the ways out when the trip breaks | `search{from, to, day, leave_after, ways[]}`, `ways_out{from, last_way, ways[]}` | SPEC-05, SPEC-08, SPEC-10 |
 | `tickets` | The tickets the commuter holds, bought in the product or entered | `[{id, title, covers, seller, entered, state, code, moves[{to, cost}]}]` | SPEC-10, SPEC-12 |
+| `leg_events` | What changes a car or walking leg in each scenario: traffic, accidents, works, closed streets | `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status}]` | SPEC-02, SPEC-04 |
 | `notifications` | The messages that reach the commuter or a contact when the product is closed | `<screen>.<scenario or any>[{channel, text}]` | the specifications that use `<message-preview>` |
 | `scenarios` | The scenarios and the mock clock of each | `default`, `list.<key>{label, setup, now, trip_state, connection_state}` | every specification |
 | `clock` | The mock day | `date`, `weekday` | every specification |
@@ -159,16 +164,16 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 
 ## Information architecture
 
-**A proposal:** the project has no information architecture of its own, so the pages below are proposed from the stories, for Marco to decide. The start page and the initial set-up are pages of it. Stories: all 24. Used by: every specification.
+**A proposal:** the project has no information architecture of its own, so the pages below are proposed from the stories, for Marco to decide. PG-16 Trips was added on 2026-11-18 at Marco's request. The start page and the initial set-up are pages of it. Stories: all 24. Used by: every specification.
 
-- **Navigation:** always reachable, in this order: Today, Ways, Tickets, Alerts, Set-up. Every other page is reached from a page or from a message.
+- **Navigation:** always reachable, in this order: Today, Trips, Ways, Tickets, Alerts, Set-up. Every other page is reached from a page or from a message.
 - **Messages outside the product** lead to the page of the behaviour that sent them (for example a cancellation leads to Ways out).
 - **The pages,** each with what it is for, where it is reached from, and the specifications whose functions it holds, in order of importance:
 
 | Page | Name | What it is for | Reached from | What it holds, in order |
 | --- | --- | --- | --- | --- |
 | PG-01 | **Today (start page)** | What the product opens on: the trip of the day, with nothing in front of it; at the first opening, the way into the set-up or a one-off search | Opening the product; the navigation | [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) the trip of the day, first; [SPEC-02](SPEC-02_real-state-of-the-run.md) the state of each run, as a line of the trip; [SPEC-07](SPEC-07_the-connection-ahead.md) the change, as a line of the trip; [SPEC-13](SPEC-13_the-station-ahead.md) a facility that fails on the trip, as a line; [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) a line leading to the ways out when the trip breaks; [SPEC-06](SPEC-06_those-waiting-are-told.md) a "Tell someone" link leading to the contacts; [SPEC-14](SPEC-14_stop-approaching.md) a line leading to the stop page while the trip is under way; [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) a line leading to the drive page on a car leg; [SPEC-16](SPEC-16_sessions-still-running.md) a line for a session still running |
-| PG-02 | **Run** | Where a run really is, when it will leave and arrive, why, and who says so | A run on Today or on a way; a message about a run | [SPEC-02](SPEC-02_real-state-of-the-run.md) the whole page |
+| PG-02 | **Run** | The runs of one trip door to door, each with its real state, the alternatives for a leg that fails, and the other trips | A run on Today, a trip on Trips, a way; a message about a run (the starting point of the prototype) | [SPEC-02](SPEC-02_real-state-of-the-run.md) the runs of the trip as cards, first; the alternatives under a run late or cancelled; the other trips; [SPEC-17](SPEC-17_trips.md) the other trips leading to their runs |
 | PG-03 | **Connection** | Whether the change ahead still holds, and the next one that does; asking that the connection be told | The change on Today; a message about the connection | [SPEC-07](SPEC-07_the-connection-ahead.md) the whole page |
 | PG-04 | **Ways out** | The ways that still reach the door when the trip breaks | The broken trip on Today; a message that the trip is broken | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) the whole page; [SPEC-06](SPEC-06_those-waiting-are-told.md) the message ready to send to a contact |
 | PG-05 | **Ways** | Every way door to door for a day and time, side by side | The navigation; "Find a way now" on Today at the first opening | [SPEC-08](SPEC-08_every-way-door-to-door.md) the whole page; [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) the car way leads to the drive page |
@@ -182,6 +187,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | PG-13 | **Alerts** | What the commuter is told about the usual trip and when; the alerts sent; works and strikes announced | The navigation; an alert message | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) the whole page |
 | PG-14 | **Contacts** | The people kept informed about a trip, what each shares, and the messages they receive | Today ("Tell someone"); Set-up; Ways out | [SPEC-06](SPEC-06_those-waiting-are-told.md) the whole page |
 | PG-15 | **Set-up** | The initial set-up, step by step, and later where each element is changed or deleted: doors, usual trip, days, own rules, needs, channels, position | Today at the first opening; the navigation; every "Set it up" link | [SPEC-01](SPEC-01_foundation.md) the whole page (Initial set-up); [SPEC-08](SPEC-08_every-way-door-to-door.md) a way saved as usual arrives here |
+| PG-16 | **Trips** | The commuter's trips door to door, as a free list, and the one followed today | The navigation; the invitation to set up the first trip | [SPEC-17](SPEC-17_trips.md) the whole page |
 
 - **Pages, not layout:** the order above is the order of importance; where each part sits on the page is left to the design, except that on Today the trip of the day comes first, with nothing in front of it (F-11, F-24).
 
@@ -189,7 +195,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 
 What the product opens on, designed as a flow: page **Today** (PG-01) of the information architecture. Stories: F-11 ("open on my usual trip … without searching"), F-24 ("shown at once, with nothing in front of it"), F-03. Used by: SPEC-04, and every specification it leads to.
 
-- **At the first opening, nothing set up** (scenario `none`): one line saying what the product does, and two ways on: "Set up my usual trip", which opens the initial set-up at its first step, and "Find a way now", which opens a one-off search ([SPEC-08](SPEC-08_every-way-door-to-door.md)) without any set-up. Nothing else is asked first.
+- **At the first opening, nothing set up** (scenario `none`): one line saying what the product does, and two ways on: "Set up your first trip" (`<first-trip-cta>`), which opens the initial set-up at its first step, and "Find a way now", which opens a one-off search ([SPEC-08](SPEC-08_every-way-door-to-door.md)) without any set-up. Nothing else is asked first.
 - **Once the set-up is done:** the trip of the day comes first, with nothing in front of it: on a travel day, the usual trip with its state, platforms and change ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); on a day that is not a travel day, the next travel day and its trip. No advertising, no message in front of it; a message that arrived while the product was closed is a line above the trip, not a screen in front of it.
 - **From the start page:** each run of the trip opens its real state ([SPEC-02](SPEC-02_real-state-of-the-run.md)); the change opens the connection ahead ([SPEC-07](SPEC-07_the-connection-ahead.md)); a broken trip opens the ways out ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)); a short navigation leads to the ways door to door ([SPEC-08](SPEC-08_every-way-door-to-door.md)), the tickets ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)), the alerts ([SPEC-03](SPEC-03_alerts-on-the-usual-trip.md)), the contacts ([SPEC-06](SPEC-06_those-waiting-are-told.md)) and the set-up.
 - **When something it needs is missing, late or wrong:** a missing element shows `<missing-setup>` in place of the part it affects, and the rest of the page still works; a late fact shows its age and "no news since"; a fact contradicted by another shows both, with their sources (Rules that hold everywhere).
@@ -225,7 +231,7 @@ Concepts and families are references only: the flow comes from the stories.
 
 - **The steps, in order,** each on its own page of the flow, each with what it shows and asks:
   1. **Doors:** at least home and one destination, each with a name and a place.
-  2. **Usual trip:** between two doors, the legs and the runs usually taken, chosen from the schedule; or one of the ways found by [SPEC-08](SPEC-08_every-way-door-to-door.md), saved as usual.
+  2. **First trip:** between two doors, the legs and the runs usually taken, chosen from the schedule; or one of the ways found by [SPEC-08](SPEC-08_every-way-door-to-door.md), saved as a trip. More trips are added later from Trips ([SPEC-17](SPEC-17_trips.md)), as a free list with no days of their own; the commuter chooses the one to follow today.
   3. **Days of travel** of the usual trip; they can differ week by week (F-12: office days that fell to one a week).
   4. **Own rules:** minimum change time (one default, and optionally one per station), margin, maximum number of changes, and an own leg the commuter always makes (for example a lift or a bicycle).
   5. **Needs on the way** that change how a trip can be made, such as step-free access (F-20).
@@ -247,9 +253,9 @@ Concepts and families are references only: the flow comes from the stories.
 - **How it ends:** "Done" leads to the start page, which opens on the trip of the day. Leaving halfway keeps what was entered; the rest stays missing.
 - **Changed or deleted later:** every element, at any time, from the set-up reached through the navigation of the start page, or from the `<missing-setup>` link of the behaviour that needs it. A change applies from the next trip it touches; a deleted usual trip is no longer used by any behaviour.
 - **When things go wrong:** a run of the usual trip no longer in the schedule: the commuter is told and asked to choose another; the usual trip is kept until then, marked.
-- **Data:** what is set up is held in `profile`. The prototype starts from the mock profile of the Verona–Milan commuter: home in Verona, office in Milan, the usual trip by lift, high-speed train 9707, underground M3 and a walk, on Tuesdays and Wednesdays, a minimum change time of 8 minutes (10 at Milano Centrale), a margin of 10 minutes, at most 2 changes, notifications on the phone, position off. With scenario `none`, the set-up is empty.
+- **Data:** what is set up is held in `profile`. The prototype starts from the mock profile of the Verona–Milan commuter: home in Verona, an apartment in Milan, an office in Milan, a client in Brescia (the places of the doors are entered in the set-up); three trips (Home to Milan apartment, followed today: car to Verona Porta Nuova, high-speed train 9707 to Milano Centrale, underground M2 from Milano Centrale FS to Loreto, on foot to the apartment; Office to home; Home to the client in Brescia), on Tuesdays and Wednesdays, a minimum change time of 8 minutes (10 at Milano Centrale), a margin of 10 minutes, at most 2 changes, notifications on the phone, position off. With scenario `none`, the set-up is empty.
 - **Provides:** doors, usual trip, days of travel, own rules, needs, channels and consent to use position, to the specifications named in the table above.
-- **Open:** whether the product may suggest a usual trip from trips the commuter repeats ([OQ-04](01_Open_Questions/OQ-04_suggesting-the-usual-trip.md)); whether the commuter keeps more than one usual trip ([OQ-05](01_Open_Questions/OQ-05_more-than-one-usual-trip.md)).
+- **Open:** whether the product may suggest a usual trip from trips the commuter repeats ([OQ-04](01_Open_Questions/OQ-04_suggesting-the-usual-trip.md)). Decided: the commuter keeps more than one trip, as a free list in Trips ([OQ-05](01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [SPEC-17](SPEC-17_trips.md)).
 
 ## Acceptance criteria
 
@@ -277,7 +283,6 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - **[OQ-02](01_Open_Questions/OQ-02_age-limit-of-a-fact.md)** After how long without news is a fact (a time, a state, a position) marked outdated, and a run marked `no news`? [not traced] Research: ⚠ not supported.
 - **[OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)** How does a message reach a commuter who cannot look at a screen, for example while driving to the station or on a rerouted drive? [technology choice open] Research: ⚠ not supported.
 - **[OQ-04](01_Open_Questions/OQ-04_suggesting-the-usual-trip.md)** May the product suggest a usual trip from trips the commuter repeats, for them to confirm, or does the commuter always enter it? [not traced] Research: ⚠ not supported.
-- **[OQ-05](01_Open_Questions/OQ-05_more-than-one-usual-trip.md)** Does the commuter keep more than one usual trip, for example the morning trip and the evening return, or two trains used most? [not traced] Research: supported.
 - **[OQ-09](01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md)** What does the start page show when the commuter opens the product at a stop or station from which no usual trip starts? [not traced] Research: ⚠ not supported.
 
 ## Connections
@@ -298,6 +303,7 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [SPEC-14_stop-approaching.md](SPEC-14_stop-approaching.md): stands on this foundation.
 - [SPEC-15_the-route-stays-with-the-driver.md](SPEC-15_the-route-stays-with-the-driver.md): stands on this foundation.
 - [SPEC-16_sessions-still-running.md](SPEC-16_sessions-still-running.md): stands on this foundation.
+- [SPEC-17_trips.md](SPEC-17_trips.md): stands on this foundation.
 - [OQ-01_sources-of-the-real-position.md](01_Open_Questions/OQ-01_sources-of-the-real-position.md): an open question this specification raises.
 - [OQ-02_age-limit-of-a-fact.md](01_Open_Questions/OQ-02_age-limit-of-a-fact.md): an open question this specification raises.
 - [OQ-03_reaching-the-commuter-without-looking.md](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md): an open question this specification raises.

@@ -12,8 +12,8 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 | `drive.js` | a drive to Milan on a car day (SPEC-16): the route the driver chose, a faster route found on the way,  and the toll the route needs. |
 | `fares.js` | the fares for the usual trip and the days actually travelled over a period (SPEC-12). |
 | `notifications.js` | the messages that reach the commuter, or a contact, when the product is closed,  simulated at the top of a screen by a visible control (instructions, section 9). |
-| `profile.js` | the commuter's set-up (SPEC-02): doors, usual trip, days of travel, own rules,  needs on the way, channels, consent to use position. Every screen reads it, so all screens agree. |
-| `runs.js` | the runs of the commuter's trips, planned, and their real state in each scenario,  as facts with their source, time and status (SPEC-01, SPEC-03). |
+| `profile.js` | the commuter's set-up (SPEC-01) and trips (SPEC-17): doors, a free list of trips with the one followed today, days of travel, own rules, needs on the way, channels, consent to use position. Every screen reads it, so all screens agree. |
+| `runs.js` | the runs of the commuter's trips, planned, their real state in each scenario as facts with their source, time and status, and the other ways to make each leg, from public timetables (SPEC-01, SPEC-02). |
 | `scenarios.js` | the scenarios the selector switches between, and the mock clock of each. |
 | `screens.js` | the screens built so far, with their page and specification, for the index and for the links between screens. |
 | `sessions.js` | a parking session at the station and a shared bike ride at the Milan end (SPEC-17),  with the return zones near the destination. |

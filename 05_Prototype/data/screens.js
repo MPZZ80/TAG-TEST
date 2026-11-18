@@ -8,6 +8,8 @@
  */
 window.DATA = window.DATA || {};
 DATA.screens = [
-  { file: "index.html", title: "All screens",                page: "—",     specs: "—",       stage: "For review" },
-  { file: "run.html",   title: "The real state of the run",  page: "PG-02", specs: "SPEC-02", stage: "Before departure, main leg, transfer, disruption" }
+  { file: "index.html", title: "Start: a notification",     page: "—",     specs: "SPEC-02", stage: "The prototype starts here" },
+  { file: "today.html", title: "Today",                     page: "PG-01", specs: "SPEC-04", stage: "Before departure" },
+  { file: "run.html",   title: "State of the run",          page: "PG-02", specs: "SPEC-02", stage: "Before departure, main leg, transfer, disruption" },
+  { file: "trips.html", title: "Trips",                     page: "PG-16", specs: "SPEC-17", stage: "Planning" }
 ];

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 23:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-14b_state-usual-drive-known.md]
+related: [F-14b_state-usual-drive-known.md, OQ-35_problems-on-car-and-walking-legs.md]
 ---
 
 # TP-045: Checking a traffic app before driving
@@ -28,3 +28,4 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-14b_state-usual-drive-known.md](../02_Features/F-14b_state-usual-drive-known.md): the feature that answers this touchpoint.
+- [OQ-35_problems-on-car-and-walking-legs.md](../../04_Specifications/01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md): an open question of the specifications whose chain to the research passes through this file.

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:19
 method: synthesis
 status: draft
 grade: n/a
@@ -67,7 +67,7 @@ Tells the commuter, before they get to a station on their trip, the state of wha
   - `<message-preview>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
 - **Datasets:**
   - `stations` (defined here): `stations[{id, name, hour, parking[], bikes[], staff[], light[], lifts[]}]`, each fact `{label, value, source, time, status}`.
-  - `profile` (defined in the foundation): `needs.step_free`, `usual_trip`.
+  - `profile` (defined in the foundation): `needs.step_free`, `trips` (the trip followed today).
 - **Simulated events:**
   - A facility failing before the commuter gets there (a lift out, the car park full): a control shows the changed fact and a message in `<message-preview>`.
 

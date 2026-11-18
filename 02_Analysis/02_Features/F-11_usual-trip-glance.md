@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:19
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-012_deciding-means-before-opening.md, TP-027_opening-saved-usual-trip.md, TP-062_finding-next-platform-change.md, US-F-11_usual-trip-glance.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-17_how-early-before-a-change.md, OQ-21_source-of-walking-times.md, SPEC-01_foundation.md, SPEC-04_todays-trip-at-a-glance.md]
+related: [TP-012_deciding-means-before-opening.md, TP-027_opening-saved-usual-trip.md, TP-062_finding-next-platform-change.md, US-F-11_usual-trip-glance.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-17_how-early-before-a-change.md, OQ-21_source-of-walking-times.md, SPEC-01_foundation.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-17_trips.md]
 ---
 
 # F-11: The usual trip at a glance
@@ -33,3 +33,4 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 - [US-F-11_usual-trip-glance.md](../03_User_Stories/US-F-11_usual-trip-glance.md): the user story written from this feature.
 - [OQ-04_suggesting-the-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-04_suggesting-the-usual-trip.md), [OQ-05_more-than-one-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [OQ-17_how-early-before-a-change.md](../../04_Specifications/01_Open_Questions/OQ-17_how-early-before-a-change.md), [OQ-21_source-of-walking-times.md](../../04_Specifications/01_Open_Questions/OQ-21_source-of-walking-times.md): an open question of the specifications whose chain to the research passes through this file.
 - [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md), [SPEC-04_todays-trip-at-a-glance.md](../../04_Specifications/SPEC-04_todays-trip-at-a-glance.md): a specification built on this feature.
+- [SPEC-17_trips.md](../../04_Specifications/SPEC-17_trips.md): a specification built on this feature.

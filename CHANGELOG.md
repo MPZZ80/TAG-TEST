@@ -4,6 +4,54 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 23:55
+
+- **Files:** created `05_Prototype/data/leg_events.js`, `05_Prototype/components/leg-problem.js`, `04_Specifications/01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md`; changed `05_Prototype/js/run.js`, `05_Prototype/components/today-trip.js`, `05_Prototype/html/run.html`, `today.html`, `05_Prototype/data/ui_text.js`, `connections.js`, `notifications.js`, `05_Prototype/css/style.css`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`, the index and README of `01_Open_Questions/`; back-links in the files OQ-35 cites (F-05, F-14b, TP-045, TP-079, TP-108, survey results, GR-035, OR-001); `Index.md`
+- **Change:** New use case on car and walking legs: what changes them (traffic or an accident on a car leg, works or a closed street on a walking leg) is shown with the extra minutes, the way round and its source, age and status, never applied (SPEC-02 rule 14, two acceptance criteria; SPEC-04 shows the same on Today). Foundation: component `<leg-problem>`, dataset `leg_events`, traffic and road works among the third-party sources. Mock data: an accident on the ring road in scenario `late` (+10 min, traffic service, reported) and Via Padova closed for works on the walk from Loreto (+3 min, city notice, confirmed); the arrival at the Milan apartment now includes the way round (09:23 on time, 09:39 late). OQ-35 opened: whether commuters want this ([not traced]: F-14b was sent back) and which services would provide the data ([technology choice open]: a traffic service such as Google Maps Platform, TomTom or HERE, the city's open data on road works).
+- **Why:** Marco asked that problems on car legs (traffic, accidents) and on walking legs (a street closed for works) be signalled too, as use cases, and asked whether a traffic service could be used.
+
+## 2026-11-18 23:47
+
+- **Files:** `05_Prototype/data/profile.js`, `runs.js`, `connections.js`, `notifications.js`, `ui_text.js`; `05_Prototype/js/run.js`, `05_Prototype/components/today-trip.js`; `05_Prototype/instructions/Prototype_Instructions.md`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-01_foundation.md`
+- **Change:** Trip 1 is now Home to Milan apartment, with Marco's legs: 1 car Home → Verona Porta Nuova, 2 train Verona Porta Nuova → Milano Centrale (high-speed 9707), 3 underground M2 Milano Centrale FS → Loreto (new mock run, every 4 minutes; 09:12 on time, 09:28 when the train is late), 4 on foot Loreto → Milan apartment. New door "Milan apartment"; the places of Home and the apartment stay mock until the set-up. The connection, the arrival at the door (09:20 on time, 09:36 late) and the messages follow the new legs. The Run page shows all four legs, each titled with its means of transport ("Leg 1 of 4 · first mile · Car", "Leg 4 of 4 · last mile · On foot"); a leg made on one's own shows its means and time. Today names the destination door. SPEC-02 rule 1 and an acceptance criterion, SPEC-01 mock profile and the prototype instructions updated. Not changed: the datasets of screens not built yet (timing, ways, stations, sessions, contacts) still name the office, the M3 and Repubblica.
+- **Why:** Marco asked to add legs 1 and 4 marked with their usual means (car, on foot), and gave the legs of Trip 1, from Home to Milan apartment, with the addresses to be set in the set-up.
+
+## 2026-11-18 23:28
+
+- **Files:** `05_Prototype/js/run.js`, `05_Prototype/components/run-card.js`, `05_Prototype/components/leg-alternatives.js`, `05_Prototype/data/ui_text.js`, `05_Prototype/css/style.css`, `04_Specifications/SPEC-02_real-state-of-the-run.md`
+- **Change:** On the Run page each leg with a run is a section of its own, titled "Leg 2 of 4 · main leg" with its two ends and marked by a line on its side; the run card and, when it is late or cancelled, its alternatives sit inside that section, and the next leg starts a new section. Headings shifted one level down inside the sections. SPEC-02 rules 1 and 11 and two acceptance criteria say the same.
+- **Why:** Marco: the underground looked like one of the alternatives of the train; the train is one leg, with its alternatives, and the underground another.
+
+## 2026-11-18 23:25
+
+- **Files:** `05_Prototype/data/runs.js`
+- **Change:** In scenario `late` the underground leg of Home to office follows the late train: the 9707 reaches Milano Centrale at 09:16, after the 09:10 has left, so the M3 is expected at 09:28 → 09:30, with a fact "Run you can reach: 09:28" (schedule, estimated); Today and Run now agree with the lost connection and the arrival at the office at 09:36.
+- **Why:** Marco asked to align the mock data after the agent pointed out that the M3 still showed 09:10 while the connection was lost.
+
+## 2026-11-18 23:23
+
+- **Files:** created `05_Prototype/html/today.html`, `05_Prototype/js/today.js`, `05_Prototype/components/today-trip.js`; changed `05_Prototype/data/screens.js`, `05_Prototype/css/style.css`, the `README.md` of `05_Prototype/html/`, `js/`, `components/`
+- **Change:** Page Today (PG-01, SPEC-04) built: the trip followed today, leg by leg, with the state and platforms of each run (a platform other than the usual one marked, "May still change"), the change at Milano Centrale with its state, and the arrival at the door; a broken trip says the arrival is unknown and leads to the ways out; with nothing set up, the invitation to set up the first trip and to search a way. Since the page exists, "Today" in the navigation is now a link from every screen, Trips included. Not built: confirming or changing the run taken today (SPEC-04, rule 4).
+- **Why:** Marco asked to make "Today" clickable from Trips, and chose to build the Today page for it.
+
+## 2026-11-18 23:19
+
+- **Files:** prototype: `05_Prototype/js/run.js`, `trips.js` (new), `index.js`, `common.js`; `05_Prototype/components/run-card.js`, `source-gap.js`, `first-trip-cta.js` (new), `trip-card.js` (new), `leg-alternatives.js` (new); `05_Prototype/html/run.html`, `trips.html` (new), `index.html`; `05_Prototype/css/style.css`; `05_Prototype/data/profile.js`, `runs.js`, `ui_text.js`, `screens.js`; `05_Prototype/instructions/Prototype_Instructions.md`; the READMEs of `05_Prototype/data/`, `html/`, `js/`, `components/`. Specifications: `SPEC-00_overview.md`, `SPEC-01_foundation.md`, `SPEC-02_real-state-of-the-run.md`, `SPEC-17_trips.md` (new), `SPEC-03`, `SPEC-04`, `SPEC-13` (the trip list in their datasets), `01_Open_Questions/OQ-05_more-than-one-usual-trip.md` (decided), `OQ-34_days-of-travel-with-a-list-of-trips.md` (new), the index and README of `01_Open_Questions/`, `04_Specifications/README.md`. Back-links in the story, feature and question files of F-02, F-11, HMW-03, HMW-14, F-03, F-12. `Index.md`.
+- **Change:** Run page reworked: with nothing set up, only an invitation to set up the first trip; title "State of the run" with no intro; "Why" only for a late or cancelled run; facts and usual delay inside the card under "Details"; the sources that disagree in a dialog opened from an information button next to the state; a cancelled run shows only its state and why; the runs of the same trip as cards one under the other; the other trips in a section of their own; under a late or cancelled run, alternatives for the leg (next Frecciarossa, Italo, regional RE6, FlixBus coach), mock but taken from public timetables. The prototype starts from a notification of the app (`index.html`) that lands on the Run page. New page Trips (PG-16, SPEC-17): a free list of trips door to door, with no days of their own, and the one followed today. SPEC-02 rewritten to match (rules, pages, components, datasets, failures, acceptance criteria; story F-02 served in part); SPEC-01: components, datasets, navigation, pages PG-02 and PG-16, first trip in the set-up, vocabulary; OQ-05 decided; OQ-34 opened (which days count as days of travel with a list of trips).
+- **Why:** Marco's review of the Run page in each scenario, and his decisions on several trips: "Lista libera" and "Nuova pagina 'Trips'".
+
+## 2026-11-18 21:28
+
+- **Files:** `04_Specifications/SPEC-02_real-state-of-the-run.md`
+- **Change:** SPEC-02 also sends a message on the commuter's channel when the delay of a run of their trip changes, not only when it is cancelled: with the new expected time, platform and source (F-01), one message per change, within the kinds of event and moments set in SPEC-03. "The user receives", the dataset and simulated event lines, "Out of scope" (what stays in SPEC-03) and two acceptance criteria updated. The prototype already shows this message in scenario `late`.
+- **Why:** Marco, on the delay message shown in scenario Late, which SPEC-02 did not ask for: "Tieni anche il ritardo" (keep the delay too).
+
+## 2026-11-18 21:05
+
+- **Files:** `05_Prototype/css/style.css`
+- **Change:** The web components are displayed as blocks, so that the frame of `<run-card>` wraps the whole card instead of showing as an empty box above it. New components are added to the same rule.
+- **Why:** Marco asked what the empty box between "Missing" and "High-speed 9707" was, and agreed to the fix ("si").
+
 ## 2026-11-18 20:46
 
 - **Files:** created `05_Prototype/components/` with `README.md`, `scenario-switch.js`, `fact-line.js`, `run-card.js`, `usual-delay.js`, `message-preview.js`, `missing-setup.js`, `source-gap.js`; changed `05_Prototype/js/common.js`, `05_Prototype/js/run.js`, `05_Prototype/html/run.html`, `05_Prototype/html/index.html`, `05_Prototype/instructions/Prototype_Instructions.md`, the `README.md` of `05_Prototype/` and `js/`, `AGENTS.md`

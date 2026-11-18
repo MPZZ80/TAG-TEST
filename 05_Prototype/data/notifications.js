@@ -5,7 +5,7 @@
  * Used by: today.html, alerts.html, ways_out.html, contacts.html, connection.html, stop.html, drive.html, sessions.html
  * Fields: screen{scenario or "any": [{channel, text}]}
  * Source: mock
- * Updated: 2026-11-16
+ * Updated: 2026-11-18
  */
 window.DATA = window.DATA || {};
 DATA.notifications = {
@@ -20,13 +20,13 @@ DATA.notifications = {
   },
   ways_out: {
     // whether every break is sent is OQ-11: provisional, a cancellation is sent
-    cancelled: [{ channel: "Notification on the phone", text: "Your trip is broken: 9707 cancelled. 3 ways still reach the office." }]
+    cancelled: [{ channel: "Notification on the phone", text: "Your trip is broken: 9707 cancelled. 3 ways still reach the Milan apartment." }]
   },
   contacts: {
     any: [{ channel: "Text message to Father", text: "New arrival at Verona Porta Nuova: 19:00 (+12), confirmed by the operator. Sent for the Verona–Milan commuter." }]
   },
   connection: {
-    late: [{ channel: "Notification on the phone", text: "Connection at Milano Centrale lost: next M3 at 09:28, at the office at 09:36." }],
+    late: [{ channel: "Notification on the phone", text: "Connection at Milano Centrale lost: next M2 at 09:28, at the Milan apartment at 09:39." }],
     any:  [{ channel: "Notification on the phone", text: "Connection at Milano Centrale holds: 2 minutes to spare." }]
   },
   stop: {

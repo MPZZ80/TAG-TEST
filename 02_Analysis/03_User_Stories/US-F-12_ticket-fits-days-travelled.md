@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:19
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-12_ticket-fits-days-travelled.md, HMW-15_keep-como-commuter-whose-office.md, SPEC-11_the-fare-that-fits-the-days.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md]
+related: [F-12_ticket-fits-days-travelled.md, HMW-15_keep-como-commuter-whose-office.md, SPEC-11_the-fare-that-fits-the-days.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md, OQ-34_days-of-travel-with-a-list-of-trips.md]
 ---
 
 # Story F-12
@@ -32,3 +32,4 @@ As the Como commuter, when his office days fell to about one a week and the pass
 - [HMW-15_keep-como-commuter-whose-office.md](../../03_Ideation/01_How_Might_We/HMW-15_keep-como-commuter-whose-office.md): the How-Might-We questions written from this story.
 - [SPEC-11_the-fare-that-fits-the-days.md](../../04_Specifications/SPEC-11_the-fare-that-fits-the-days.md): the specifications that serve this story.
 - [OQ-25_period-over-which-days-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-25_period-over-which-days-are-counted.md), [OQ-26_telling-first-that-the-fare-no-longer-fits.md](../../04_Specifications/01_Open_Questions/OQ-26_telling-first-that-the-fare-no-longer-fits.md): an open question of the specifications whose chain to the research passes through this file.
+- [OQ-34_days-of-travel-with-a-list-of-trips.md](../../04_Specifications/01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md): an open question of the specifications whose chain to the research passes through this file.

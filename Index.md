@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:55
 method: generated
 status: draft
 grade: n/a
@@ -817,6 +817,7 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - SPEC-14_stop-approaching.md — [design, internal, output, information, first-last-mile · draft · n/a · n/a]
 - SPEC-15_the-route-stays-with-the-driver.md — [design, internal, output, tools, planning · draft · n/a · n/a]
 - SPEC-16_sessions-still-running.md — [design, internal, output, tools, first-last-mile · draft · n/a · n/a]
+- SPEC-17_trips.md — [design, internal, output, planning, tools, usual-trip · draft · n/a · n/a]
 
 ## 04_Specifications/01_Open_Questions
 
@@ -854,3 +855,5 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - OQ-31_whether-a-drivers-route-fits.md — [design, desk, questions, mode-choice, who, habit · draft · n/a · n/a]
 - OQ-32_how-a-session-is-known-and-ended.md — [design, desk, questions, tools, first-last-mile · draft · n/a · n/a]
 - OQ-33_the-reminder-interval.md — [design, desk, questions, tools, first-last-mile · draft · n/a · n/a]
+- OQ-34_days-of-travel-with-a-list-of-trips.md — [design, desk, questions, planning, usual-trip · draft · n/a · n/a]
+- OQ-35_problems-on-car-and-walking-legs.md — [design, desk, questions, disruption, first-last-mile · draft · n/a · n/a]

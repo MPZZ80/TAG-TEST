@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:19
 method: synthesis
 status: draft
 grade: n/a
@@ -69,7 +69,7 @@ Tells the commuter, on their days of travel and only when something changes, of 
   - `<missing-setup>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
 - **Datasets:**
   - `alerts` (defined here): `kinds[{id, label, on}]`, `moments[{id, label, from, to, heard}]`, `sent.<scenario>[{time, text, source}]`, `announced[{date, text, source, told}]`.
-  - `profile` (defined in the foundation): `usual_trip`, `days`, `channels`.
+  - `profile` (defined in the foundation): `trips` (the trip followed today), `days`, `channels`.
   - `runs` (defined in the foundation): the runs of the usual trip and their state.
   - `notifications` (defined in the foundation): `alerts.<scenario>[]`.
 - **Simulated events:**

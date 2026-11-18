@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 23:19
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-026_keeping-ranked-fallback-none.md, TP-084_last-service-night-gone.md, TP-093_reacting-before-entering-station.md, TP-094_going-back-home-take.md, TP-095_giving-up-trip-staying.md, TP-097_rerouting-another-line-service.md, TP-098_taking-replacement-bus.md, TP-099_looking-app-s-alternatives.md, TP-100_paying-taxi-second-ticket.md, TP-101_calling-taxi-hurry-does.md, TP-102_ticket-valid-next-service.md, TP-107_asking-relative-come-fetch.md, US-F-02_ways-still-open-trip.md, OQ-11_whether-every-break-is-sent.md, OQ-12_cost-of-each-way-out.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, OQ-14_minors-using-the-product-alone.md, OQ-19_a-lift-as-a-way.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md]
+related: [TP-026_keeping-ranked-fallback-none.md, TP-084_last-service-night-gone.md, TP-093_reacting-before-entering-station.md, TP-094_going-back-home-take.md, TP-095_giving-up-trip-staying.md, TP-097_rerouting-another-line-service.md, TP-098_taking-replacement-bus.md, TP-099_looking-app-s-alternatives.md, TP-100_paying-taxi-second-ticket.md, TP-101_calling-taxi-hurry-does.md, TP-102_ticket-valid-next-service.md, TP-107_asking-relative-come-fetch.md, US-F-02_ways-still-open-trip.md, OQ-11_whether-every-break-is-sent.md, OQ-12_cost-of-each-way-out.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, OQ-14_minors-using-the-product-alone.md, OQ-19_a-lift-as-a-way.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-02_real-state-of-the-run.md]
 ---
 
 # F-02: The ways still open when the trip breaks
@@ -36,3 +36,4 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 - [US-F-02_ways-still-open-trip.md](../03_User_Stories/US-F-02_ways-still-open-trip.md): the user story written from this feature.
 - [OQ-11_whether-every-break-is-sent.md](../../04_Specifications/01_Open_Questions/OQ-11_whether-every-break-is-sent.md), [OQ-12_cost-of-each-way-out.md](../../04_Specifications/01_Open_Questions/OQ-12_cost-of-each-way-out.md), [OQ-13_when-a-vehicle-not-seen-is-not-coming.md](../../04_Specifications/01_Open_Questions/OQ-13_when-a-vehicle-not-seen-is-not-coming.md), [OQ-14_minors-using-the-product-alone.md](../../04_Specifications/01_Open_Questions/OQ-14_minors-using-the-product-alone.md), [OQ-19_a-lift-as-a-way.md](../../04_Specifications/01_Open_Questions/OQ-19_a-lift-as-a-way.md): an open question of the specifications whose chain to the research passes through this file.
 - [SPEC-05_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06_those-waiting-are-told.md](../../04_Specifications/SPEC-06_those-waiting-are-told.md): a specification built on this feature.
+- [SPEC-02_real-state-of-the-run.md](../../04_Specifications/SPEC-02_real-state-of-the-run.md): a specification built on this feature.
