@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-002_deciding-days-go-office.md, TP-003_working-home-some-days.md, TP-007_choosing-pass-carnet-single.md, US-F-12_ticket-fits-days-travelled.md]
+related: [TP-002_deciding-days-go-office.md, TP-003_working-home-some-days.md, TP-007_choosing-pass-carnet-single.md, US-F-12_ticket-fits-days-travelled.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md, SPEC-11_the-fare-that-fits-the-days.md]
 ---
 
 # F-12: A ticket that fits the days travelled
@@ -32,3 +32,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-002_deciding-days-go-office.md](../01_Touchpoints/TP-002_deciding-days-go-office.md), [TP-003_working-home-some-days.md](../01_Touchpoints/TP-003_working-home-some-days.md), [TP-007_choosing-pass-carnet-single.md](../01_Touchpoints/TP-007_choosing-pass-carnet-single.md): the touchpoints this feature answers.
 - [US-F-12_ticket-fits-days-travelled.md](../03_User_Stories/US-F-12_ticket-fits-days-travelled.md): the user story written from this feature.
+- [OQ-25_period-over-which-days-are-counted.md](../../04_Specifications/01_Open_Questions/OQ-25_period-over-which-days-are-counted.md), [OQ-26_telling-first-that-the-fare-no-longer-fits.md](../../04_Specifications/01_Open_Questions/OQ-26_telling-first-that-the-fare-no-longer-fits.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-11_the-fare-that-fits-the-days.md](../../04_Specifications/SPEC-11_the-fare-that-fits-the-days.md): a specification built on this feature.

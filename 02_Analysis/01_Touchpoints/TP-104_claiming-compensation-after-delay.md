@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, disruption]
-related: [F-16_compensation-claim-started-delayed.md]
+related: [F-16_compensation-claim-started-delayed.md, OQ-27_claims-on-tickets-from-a-seller.md]
 ---
 
 # TP-104: Claiming compensation after the delay
@@ -35,3 +35,4 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-16_compensation-claim-started-delayed.md](../02_Features/F-16_compensation-claim-started-delayed.md): the feature that answers this touchpoint.
+- [OQ-27_claims-on-tickets-from-a-seller.md](../../04_Specifications/01_Open_Questions/OQ-27_claims-on-tickets-from-a-seller.md): an open question of the specifications whose chain to the research passes through this file.

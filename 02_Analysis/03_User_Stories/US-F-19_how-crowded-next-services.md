@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-19_how-crowded-next-services.md, HMW-22_help-outskirts-hybrid-worker-station.md]
+related: [F-19_how-crowded-next-services.md, HMW-22_help-outskirts-hybrid-worker-station.md, SPEC-05_ways-out-when-the-trip-breaks.md]
 ---
 
 # Story F-19
@@ -20,7 +20,7 @@ As the outskirts hybrid worker, at her station when her train is cancelled and t
 | **Evidence and impact** | strong · Low |
 | **Feature** | [F-19_how-crowded-next-services.md](../02_Features/F-19_how-crowded-next-services.md) |
 | **Questions (HMW)** | [HMW-22](../../03_Ideation/01_How_Might_We/HMW-22_help-outskirts-hybrid-worker-station.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-05](../../04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md) |
 
 ## Source
 
@@ -30,3 +30,4 @@ As the outskirts hybrid worker, at her station when her train is cancelled and t
 
 - [F-19_how-crowded-next-services.md](../02_Features/F-19_how-crowded-next-services.md): the feature this story carries.
 - [HMW-22_help-outskirts-hybrid-worker-station.md](../../03_Ideation/01_How_Might_We/HMW-22_help-outskirts-hybrid-worker-station.md): the How-Might-We questions written from this story.
+- [SPEC-05_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md): the specifications that serve this story.

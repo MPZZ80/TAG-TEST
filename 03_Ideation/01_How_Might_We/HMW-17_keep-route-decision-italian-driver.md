@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:55
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-14a_asking-before-rerouting-tolls.md, CL-09_driver-s-route.md, C17-01_ask-first.md, C17-02_stay-route.md, C17-03_why-changed.md, C17-04_tolls-stated.md, C17-05_preferred-roads.md, C17-06_foreign-trip-check.md, C17-07_sticker-one-step.md, C17-08_cover-fines.md, C17-09_consent-required.md, C17-10_drivers-warn-drivers.md, C17-11_signs-before-border.md, C17-12_passenger-decides.md]
+related: [US-F-14a_asking-before-rerouting-tolls.md, CL-09_driver-s-route.md, C17-01_ask-first.md, C17-02_stay-route.md, C17-03_why-changed.md, C17-04_tolls-stated.md, C17-05_preferred-roads.md, C17-06_foreign-trip-check.md, C17-07_sticker-one-step.md, C17-08_cover-fines.md, C17-09_consent-required.md, C17-10_drivers-warn-drivers.md, C17-11_signs-before-border.md, C17-12_passenger-decides.md, SPEC-15_the-route-stays-with-the-driver.md]
 ---
 
 # HMW-17
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-14a_asking-before-rerouting-tolls.md](../../02_Analysis/03_User_Stories/US-F-14a_asking-before-rerouting-tolls.md): the user story this question was written from.
 - [CL-09_driver-s-route.md](CL-09_driver-s-route.md): the cluster this question belongs to.
 - [C17-01_ask-first.md](../02_Ideas/C17-01_ask-first.md), [C17-02_stay-route.md](../02_Ideas/C17-02_stay-route.md), [C17-03_why-changed.md](../02_Ideas/C17-03_why-changed.md), [C17-04_tolls-stated.md](../02_Ideas/C17-04_tolls-stated.md), [C17-05_preferred-roads.md](../02_Ideas/C17-05_preferred-roads.md), [C17-06_foreign-trip-check.md](../02_Ideas/C17-06_foreign-trip-check.md), [C17-07_sticker-one-step.md](../02_Ideas/C17-07_sticker-one-step.md), [C17-08_cover-fines.md](../02_Ideas/C17-08_cover-fines.md), [C17-09_consent-required.md](../02_Ideas/C17-09_consent-required.md), [C17-10_drivers-warn-drivers.md](../02_Ideas/C17-10_drivers-warn-drivers.md), [C17-11_signs-before-border.md](../02_Ideas/C17-11_signs-before-border.md), [C17-12_passenger-decides.md](../02_Ideas/C17-12_passenger-decides.md): the AI concepts that answer this question.
+- [SPEC-15_the-route-stays-with-the-driver.md](../../04_Specifications/SPEC-15_the-route-stays-with-the-driver.md): a specification that traces to this question.

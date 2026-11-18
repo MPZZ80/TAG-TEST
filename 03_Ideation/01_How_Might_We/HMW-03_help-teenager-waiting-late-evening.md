@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:55
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-02_ways-still-open-trip.md, CL-04_trip-breaks.md, C03-01_call-home-point.md, C03-02_last-way-home.md, C03-03_confirmed-running.md, C03-04_valid.md, C03-05_others-stop.md, C03-06_night-helpline.md, C03-07_stop-speaks.md, C03-08_parent-told.md, C03-09_guaranteed-last-ride.md, C03-10_lift-same-stop.md, C03-11_family-plan.md, C03-12_duty-declare.md]
+related: [US-F-02_ways-still-open-trip.md, CL-04_trip-breaks.md, C03-01_call-home-point.md, C03-02_last-way-home.md, C03-03_confirmed-running.md, C03-04_valid.md, C03-05_others-stop.md, C03-06_night-helpline.md, C03-07_stop-speaks.md, C03-08_parent-told.md, C03-09_guaranteed-last-ride.md, C03-10_lift-same-stop.md, C03-11_family-plan.md, C03-12_duty-declare.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md]
 ---
 
 # HMW-03
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-02_ways-still-open-trip.md](../../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md): the user story this question was written from.
 - [CL-04_trip-breaks.md](CL-04_trip-breaks.md): the cluster this question belongs to.
 - [C03-01_call-home-point.md](../02_Ideas/C03-01_call-home-point.md), [C03-02_last-way-home.md](../02_Ideas/C03-02_last-way-home.md), [C03-03_confirmed-running.md](../02_Ideas/C03-03_confirmed-running.md), [C03-04_valid.md](../02_Ideas/C03-04_valid.md), [C03-05_others-stop.md](../02_Ideas/C03-05_others-stop.md), [C03-06_night-helpline.md](../02_Ideas/C03-06_night-helpline.md), [C03-07_stop-speaks.md](../02_Ideas/C03-07_stop-speaks.md), [C03-08_parent-told.md](../02_Ideas/C03-08_parent-told.md), [C03-09_guaranteed-last-ride.md](../02_Ideas/C03-09_guaranteed-last-ride.md), [C03-10_lift-same-stop.md](../02_Ideas/C03-10_lift-same-stop.md), [C03-11_family-plan.md](../02_Ideas/C03-11_family-plan.md), [C03-12_duty-declare.md](../02_Ideas/C03-12_duty-declare.md): the AI concepts that answer this question.
+- [SPEC-05_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06_those-waiting-are-told.md](../../04_Specifications/SPEC-06_those-waiting-are-told.md): a specification that traces to this question.

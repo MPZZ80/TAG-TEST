@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:55
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-24_travel-information-first-hurry.md, CL-08_attention-moment.md, C27-01_nothing-front.md, C27-02_advertising-elsewhere.md, C27-03_paid-ads.md, C27-04_hurry-recognised.md, C27-05_stop-shows.md, C27-06_before-he-opens-anything.md, C27-07_usual-bus-known.md, C27-08_time-reach.md, C27-09_driver-asked-wait.md, C27-10_others-stop.md, C27-11_ads-travel-information.md, C27-12_more-frequent-buses.md]
+related: [US-F-24_travel-information-first-hurry.md, CL-08_attention-moment.md, C27-01_nothing-front.md, C27-02_advertising-elsewhere.md, C27-03_paid-ads.md, C27-04_hurry-recognised.md, C27-05_stop-shows.md, C27-06_before-he-opens-anything.md, C27-07_usual-bus-known.md, C27-08_time-reach.md, C27-09_driver-asked-wait.md, C27-10_others-stop.md, C27-11_ads-travel-information.md, C27-12_more-frequent-buses.md, SPEC-04_todays-trip-at-a-glance.md]
 ---
 
 # HMW-27
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-24_travel-information-first-hurry.md](../../02_Analysis/03_User_Stories/US-F-24_travel-information-first-hurry.md): the user story this question was written from.
 - [CL-08_attention-moment.md](CL-08_attention-moment.md): the cluster this question belongs to.
 - [C27-01_nothing-front.md](../02_Ideas/C27-01_nothing-front.md), [C27-02_advertising-elsewhere.md](../02_Ideas/C27-02_advertising-elsewhere.md), [C27-03_paid-ads.md](../02_Ideas/C27-03_paid-ads.md), [C27-04_hurry-recognised.md](../02_Ideas/C27-04_hurry-recognised.md), [C27-05_stop-shows.md](../02_Ideas/C27-05_stop-shows.md), [C27-06_before-he-opens-anything.md](../02_Ideas/C27-06_before-he-opens-anything.md), [C27-07_usual-bus-known.md](../02_Ideas/C27-07_usual-bus-known.md), [C27-08_time-reach.md](../02_Ideas/C27-08_time-reach.md), [C27-09_driver-asked-wait.md](../02_Ideas/C27-09_driver-asked-wait.md), [C27-10_others-stop.md](../02_Ideas/C27-10_others-stop.md), [C27-11_ads-travel-information.md](../02_Ideas/C27-11_ads-travel-information.md), [C27-12_more-frequent-buses.md](../02_Ideas/C27-12_more-frequent-buses.md): the AI concepts that answer this question.
+- [SPEC-04_todays-trip-at-a-glance.md](../../04_Specifications/SPEC-04_todays-trip-at-a-glance.md): a specification that traces to this question.

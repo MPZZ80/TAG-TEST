@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 19:55
+
+- **Files:** created again in `04_Specifications/`: `SPEC-00_overview.md`, `SPEC-01_foundation.md`, `SPEC-02_real-state-of-the-run.md` to `SPEC-16_sessions-still-running.md`, and `01_Open_Questions/` (`README.md`, index, `OQ-01` to `OQ-33`). Changed again: `04_Specifications/README.md`, the 24 story files, the feature, question, touchpoint, source and interview files the specifications and open questions cite, `05_Prototype/instructions/Prototype_Instructions.md`, `Index.md`, `AGENTS.md` (layout row).
+- **Change:** The specifications undone earlier today are restored from Git and completed with the new rule on the information architecture: the foundation proposes 15 pages (PG-01 Today, the start page, to PG-15 Set-up), with the navigation (Today, Ways, Tickets, Alerts, Set-up), where each page is reached from and what it holds in order; every specification gains a "Pages" line in its Architecture section; the overview gains a "Pages" table. The pages are a proposal: the project had no information architecture.
+- **Why:** Marco asked to run `04_Specifications/Spec_instructions.md`, after adding the information architecture to it.
+
 ## 2026-11-18 19:51
 
 - **Files:** `04_Specifications/Spec_instructions.md`, `AGENTS.md`

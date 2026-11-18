@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis, planning, disruption, tools, late-info, no-alternative, tight-connection, first-last-mile, hybrid-work, unreliable-service, usual-trip, ticket-carryover, refunds, crowding, workarounds]
-related: [00_Features_index.md, 00_How_might_we_index.md, 05_Chosen_concept.md]
+related: [00_Features_index.md, 00_How_might_we_index.md, 05_Chosen_concept.md, SPEC-00_overview.md]
 ---
 
 # User Stories from the Features
@@ -95,3 +95,4 @@ These have no story. The notes show the moment, but no outcome the person seeks 
 - [00_Features_index.md](../02_Features/00_Features_index.md) holds the features these stories carry, with the touchpoints and the evidence behind each.
 - [00_How_might_we_index.md](../../03_Ideation/01_How_Might_We/00_How_might_we_index.md) holds the questions written from these stories.
 - [05_Chosen_concept.md](../../03_Ideation/02_Ideas/05_Chosen_concept.md): the chosen concept, built on the questions written from these stories.
+- [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md): a specification that cites this file.

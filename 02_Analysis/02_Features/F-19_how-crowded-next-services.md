@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-072_boarding-crowded-train-letting.md, US-F-19_how-crowded-next-services.md]
+related: [TP-072_boarding-crowded-train-letting.md, US-F-19_how-crowded-next-services.md, SPEC-05_ways-out-when-the-trip-breaks.md]
 ---
 
 # F-19: How crowded the next services are
@@ -31,3 +31,4 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-072_boarding-crowded-train-letting.md](../01_Touchpoints/TP-072_boarding-crowded-train-letting.md): the touchpoints this feature answers.
 - [US-F-19_how-crowded-next-services.md](../03_User_Stories/US-F-19_how-crowded-next-services.md): the user story written from this feature.
+- [SPEC-05_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md): a specification built on this feature.

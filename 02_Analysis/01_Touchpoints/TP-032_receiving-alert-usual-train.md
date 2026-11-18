@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-03_early-warning-usual-trip.md]
+related: [F-03_early-warning-usual-trip.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-05_more-than-one-usual-trip.md, OQ-07_saying-that-nothing-changed.md]
 ---
 
 # TP-032: Receiving an alert on the usual train, timed for leaving
@@ -33,3 +33,4 @@ One row of [00_Touchpoints_index.md](00_Touchpoints_index.md), where the types, 
 ## Connections
 
 - [F-03_early-warning-usual-trip.md](../02_Features/F-03_early-warning-usual-trip.md): the feature that answers this touchpoint.
+- [OQ-03_reaching-the-commuter-without-looking.md](../../04_Specifications/01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md), [OQ-05_more-than-one-usual-trip.md](../../04_Specifications/01_Open_Questions/OQ-05_more-than-one-usual-trip.md), [OQ-07_saying-that-nothing-changed.md](../../04_Specifications/01_Open_Questions/OQ-07_saying-that-nothing-changed.md): an open question of the specifications whose chain to the research passes through this file.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-080_walking-last-station-office.md, TP-083_protecting-oneself-way-between.md, US-F-17a_staffed-station-lit-walk.md]
+related: [TP-080_walking-last-station-office.md, TP-083_protecting-oneself-way-between.md, US-F-17a_staffed-station-lit-walk.md, SPEC-13_the-station-ahead.md]
 ---
 
 # F-17a: A staffed station and a lit walk at that hour (split from F-17)
@@ -31,3 +31,4 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-080_walking-last-station-office.md](../01_Touchpoints/TP-080_walking-last-station-office.md), [TP-083_protecting-oneself-way-between.md](../01_Touchpoints/TP-083_protecting-oneself-way-between.md): the touchpoints this feature answers.
 - [US-F-17a_staffed-station-lit-walk.md](../03_User_Stories/US-F-17a_staffed-station-lit-walk.md): the user story written from this feature.
+- [SPEC-13_the-station-ahead.md](../../04_Specifications/SPEC-13_the-station-ahead.md): a specification built on this feature.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-23_stop-approaching.md, HMW-26_let-young-commuter-madrid-bus.md]
+related: [F-23_stop-approaching.md, HMW-26_let-young-commuter-madrid-bus.md, SPEC-14_stop-approaching.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-29_how-far-before-the-stop.md, OQ-30_reaching-a-commuter-who-is-asleep.md]
 ---
 
 # Story F-23
@@ -20,7 +20,7 @@ As a young commuter in Madrid (desk persona), on a bus, two stops before her own
 | **Evidence and impact** | weak · Low |
 | **Feature** | [F-23_stop-approaching.md](../02_Features/F-23_stop-approaching.md) |
 | **Questions (HMW)** | [HMW-26](../../03_Ideation/01_How_Might_We/HMW-26_let-young-commuter-madrid-bus.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-14](../../04_Specifications/SPEC-14_stop-approaching.md) |
 
 ## Source
 
@@ -30,3 +30,5 @@ As a young commuter in Madrid (desk persona), on a bus, two stops before her own
 
 - [F-23_stop-approaching.md](../02_Features/F-23_stop-approaching.md): the feature this story carries.
 - [HMW-26_let-young-commuter-madrid-bus.md](../../03_Ideation/01_How_Might_We/HMW-26_let-young-commuter-madrid-bus.md): the How-Might-We questions written from this story.
+- [SPEC-14_stop-approaching.md](../../04_Specifications/SPEC-14_stop-approaching.md): the specifications that serve this story.
+- [OQ-03_reaching-the-commuter-without-looking.md](../../04_Specifications/01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md), [OQ-29_how-far-before-the-stop.md](../../04_Specifications/01_Open_Questions/OQ-29_how-far-before-the-stop.md), [OQ-30_reaching-a-commuter-who-is-asleep.md](../../04_Specifications/01_Open_Questions/OQ-30_reaching-a-commuter-who-is-asleep.md): an open question of the specifications whose chain to the research passes through this file.

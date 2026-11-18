@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:55
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-05_legs-both-ends-real.md, CL-03_whether-change-holds.md, C08-01_walk-under-real-crowds.md, C08-02_walk-range.md, C08-03_others-real-times.md, C08-04_was-measured.md, C08-05_can-you-make.md, C08-06_next-train-instead.md, C08-07_minutes-station-signs.md, C08-08_staff-concourse.md, C08-09_platform-known-earlier.md, C08-10_own-pace.md, C08-11_change-known-beforehand.md, C08-12_cover-walk-was-wrong.md]
+related: [US-F-05_legs-both-ends-real.md, CL-03_whether-change-holds.md, C08-01_walk-under-real-crowds.md, C08-02_walk-range.md, C08-03_others-real-times.md, C08-04_was-measured.md, C08-05_can-you-make.md, C08-06_next-train-instead.md, C08-07_minutes-station-signs.md, C08-08_staff-concourse.md, C08-09_platform-known-earlier.md, C08-10_own-pace.md, C08-11_change-known-beforehand.md, C08-12_cover-walk-was-wrong.md, SPEC-09_times-that-can-be-kept.md]
 ---
 
 # HMW-08
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-05_legs-both-ends-real.md](../../02_Analysis/03_User_Stories/US-F-05_legs-both-ends-real.md): the user story this question was written from.
 - [CL-03_whether-change-holds.md](CL-03_whether-change-holds.md): the cluster this question belongs to.
 - [C08-01_walk-under-real-crowds.md](../02_Ideas/C08-01_walk-under-real-crowds.md), [C08-02_walk-range.md](../02_Ideas/C08-02_walk-range.md), [C08-03_others-real-times.md](../02_Ideas/C08-03_others-real-times.md), [C08-04_was-measured.md](../02_Ideas/C08-04_was-measured.md), [C08-05_can-you-make.md](../02_Ideas/C08-05_can-you-make.md), [C08-06_next-train-instead.md](../02_Ideas/C08-06_next-train-instead.md), [C08-07_minutes-station-signs.md](../02_Ideas/C08-07_minutes-station-signs.md), [C08-08_staff-concourse.md](../02_Ideas/C08-08_staff-concourse.md), [C08-09_platform-known-earlier.md](../02_Ideas/C08-09_platform-known-earlier.md), [C08-10_own-pace.md](../02_Ideas/C08-10_own-pace.md), [C08-11_change-known-beforehand.md](../02_Ideas/C08-11_change-known-beforehand.md), [C08-12_cover-walk-was-wrong.md](../02_Ideas/C08-12_cover-walk-was-wrong.md): the AI concepts that answer this question.
+- [SPEC-09_times-that-can-be-kept.md](../../04_Specifications/SPEC-09_times-that-can-be-kept.md): a specification that traces to this question.

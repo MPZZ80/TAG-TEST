@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-08_ticket-works-moment-needed.md, HMW-11_let-verona-milan-commuter-still.md]
+related: [F-08_ticket-works-moment-needed.md, HMW-11_let-verona-milan-commuter-still.md, SPEC-10_tickets-that-work-when-needed.md, OQ-24_moving-a-ticket-with-no-signal.md]
 ---
 
 # Story F-08
@@ -20,7 +20,7 @@ As the Verona–Milan commuter, still in the underground five minutes before his
 | **Evidence and impact** | strong · Medium |
 | **Feature** | [F-08_ticket-works-moment-needed.md](../02_Features/F-08_ticket-works-moment-needed.md) |
 | **Questions (HMW)** | [HMW-11](../../03_Ideation/01_How_Might_We/HMW-11_let-verona-milan-commuter-still.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-10](../../04_Specifications/SPEC-10_tickets-that-work-when-needed.md) |
 
 ## Source
 
@@ -30,3 +30,5 @@ As the Verona–Milan commuter, still in the underground five minutes before his
 
 - [F-08_ticket-works-moment-needed.md](../02_Features/F-08_ticket-works-moment-needed.md): the feature this story carries.
 - [HMW-11_let-verona-milan-commuter-still.md](../../03_Ideation/01_How_Might_We/HMW-11_let-verona-milan-commuter-still.md): the How-Might-We questions written from this story.
+- [SPEC-10_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-10_tickets-that-work-when-needed.md): the specifications that serve this story.
+- [OQ-24_moving-a-ticket-with-no-signal.md](../../04_Specifications/01_Open_Questions/OQ-24_moving-a-ticket-with-no-signal.md): an open question of the specifications whose chain to the research passes through this file.

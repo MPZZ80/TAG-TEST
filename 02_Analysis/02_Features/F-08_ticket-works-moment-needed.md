@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:09
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [TP-008_buying-pass-ticket-payment.md, TP-071_buying-ticket-station-just.md, TP-076_showing-ticket-inspector-gate.md, TP-077_forgetting-check-fixed-route.md, TP-103_moving-ticket-another-train.md, US-F-08_ticket-works-moment-needed.md]
+related: [TP-008_buying-pass-ticket-payment.md, TP-071_buying-ticket-station-just.md, TP-076_showing-ticket-inspector-gate.md, TP-077_forgetting-check-fixed-route.md, TP-103_moving-ticket-another-train.md, US-F-08_ticket-works-moment-needed.md, OQ-10_another-run-taken-without-saying.md, OQ-24_moving-a-ticket-with-no-signal.md, SPEC-10_tickets-that-work-when-needed.md]
 ---
 
 # F-08: A ticket that works at the moment it is needed
@@ -31,3 +31,5 @@ One row of [00_Features_index.md](00_Features_index.md), where the impact, the s
 
 - [TP-008_buying-pass-ticket-payment.md](../01_Touchpoints/TP-008_buying-pass-ticket-payment.md), [TP-071_buying-ticket-station-just.md](../01_Touchpoints/TP-071_buying-ticket-station-just.md), [TP-076_showing-ticket-inspector-gate.md](../01_Touchpoints/TP-076_showing-ticket-inspector-gate.md), [TP-077_forgetting-check-fixed-route.md](../01_Touchpoints/TP-077_forgetting-check-fixed-route.md), [TP-103_moving-ticket-another-train.md](../01_Touchpoints/TP-103_moving-ticket-another-train.md): the touchpoints this feature answers.
 - [US-F-08_ticket-works-moment-needed.md](../03_User_Stories/US-F-08_ticket-works-moment-needed.md): the user story written from this feature.
+- [OQ-10_another-run-taken-without-saying.md](../../04_Specifications/01_Open_Questions/OQ-10_another-run-taken-without-saying.md), [OQ-24_moving-a-ticket-with-no-signal.md](../../04_Specifications/01_Open_Questions/OQ-24_moving-a-ticket-with-no-signal.md): an open question of the specifications whose chain to the research passes through this file.
+- [SPEC-10_tickets-that-work-when-needed.md](../../04_Specifications/SPEC-10_tickets-that-work-when-needed.md): a specification built on this feature.

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 19:25
+date: 2026-11-18 19:55
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-06_whether-connection-still-holds.md, HMW-09_help-como-commuter-8-23.md]
+related: [F-06_whether-connection-still-holds.md, HMW-09_help-como-commuter-8-23.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, OQ-17_how-early-before-a-change.md]
 ---
 
 # Story F-06
@@ -20,7 +20,7 @@ As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 m
 | **Evidence and impact** | strong · Medium |
 | **Feature** | [F-06_whether-connection-still-holds.md](../02_Features/F-06_whether-connection-still-holds.md) |
 | **Questions (HMW)** | [HMW-09](../../03_Ideation/01_How_Might_We/HMW-09_help-como-commuter-8-23.md) |
-| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
+| **Specifications** | [SPEC-06](../../04_Specifications/SPEC-06_those-waiting-are-told.md), [SPEC-07](../../04_Specifications/SPEC-07_the-connection-ahead.md) |
 
 ## Source
 
@@ -30,3 +30,5 @@ As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 m
 
 - [F-06_whether-connection-still-holds.md](../02_Features/F-06_whether-connection-still-holds.md): the feature this story carries.
 - [HMW-09_help-como-commuter-8-23.md](../../03_Ideation/01_How_Might_We/HMW-09_help-como-commuter-8-23.md): the How-Might-We questions written from this story.
+- [SPEC-06_those-waiting-are-told.md](../../04_Specifications/SPEC-06_those-waiting-are-told.md), [SPEC-07_the-connection-ahead.md](../../04_Specifications/SPEC-07_the-connection-ahead.md): the specifications that serve this story.
+- [OQ-17_how-early-before-a-change.md](../../04_Specifications/01_Open_Questions/OQ-17_how-early-before-a-change.md): an open question of the specifications whose chain to the research passes through this file.

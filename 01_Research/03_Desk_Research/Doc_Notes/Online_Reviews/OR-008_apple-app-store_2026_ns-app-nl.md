@@ -1,12 +1,12 @@
 ---
 source: external
-date: 2026-11-03 00:09
+date: 2026-11-18 19:55
 method: review
 status: draft
 grade: C
 confidence: n/a
 tags: [research, desk, source, tools, information, usual-trip]
-related: [01_plan.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, GR-040_trb_2003_tcrp-92-traveler-information.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, PR-008_ns_2026_ns-app.md, PR-009_trenitalia_2026_trenitalia-app.md, Matteo_Rizzetto_notes.md, 00_Touchpoints_index.md]
+related: [01_plan.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-014_apple-app-store_2026_sbb-mobile-ch.md, GR-040_trb_2003_tcrp-92-traveler-information.md, AP-003_lyons_2019_importance-user-perspective-evolution.md, PR-008_ns_2026_ns-app.md, PR-009_trenitalia_2026_trenitalia-app.md, Matteo_Rizzetto_notes.md, 00_Touchpoints_index.md, OQ-01_sources-of-the-real-position.md, OQ-08_how-early-works-and-strikes-are-told.md, OQ-10_another-run-taken-without-saying.md]
 ---
 
 # NS: App Store reviews, Netherlands (sample)
@@ -67,3 +67,4 @@ Links to the notes that share evidence with this one. The same files are listed 
 - Shares the pain point `usual-trip` with [OR-005_apple-app-store_2026_trainline-gb.md](OR-005_apple-app-store_2026_trainline-gb.md), [OR-009_apple-app-store_2026_trenitalia-app-it.md](OR-009_apple-app-store_2026_trenitalia-app-it.md), [OR-013_apple-app-store_2026_sncf-connect-fr.md](OR-013_apple-app-store_2026_sncf-connect-fr.md), [OR-014_apple-app-store_2026_sbb-mobile-ch.md](OR-014_apple-app-store_2026_sbb-mobile-ch.md), [GR-040_trb_2003_tcrp-92-traveler-information.md](../Global_Reports/GR-040_trb_2003_tcrp-92-traveler-information.md), [AP-003_lyons_2019_importance-user-perspective-evolution.md](../Academic_Papers/AP-003_lyons_2019_importance-user-perspective-evolution.md), [PR-008_ns_2026_ns-app.md](../Products/PR-008_ns_2026_ns-app.md), [PR-009_trenitalia_2026_trenitalia-app.md](../Products/PR-009_trenitalia_2026_trenitalia-app.md) and [Matteo_Rizzetto_notes.md](../../../04_Interviews/Matteo_Rizzetto_notes.md): regular travellers who want their usual trip at a glance: saved trips, standing alerts.
 - [PR-008_ns_2026_ns-app.md](../Products/PR-008_ns_2026_ns-app.md) describes the product these reviews are about.
 - The moments of the journey drawn from this note are listed in [00_Touchpoints_index.md](../../../../02_Analysis/01_Touchpoints/00_Touchpoints_index.md).
+- [OQ-01_sources-of-the-real-position.md](../../../../04_Specifications/01_Open_Questions/OQ-01_sources-of-the-real-position.md), [OQ-08_how-early-works-and-strikes-are-told.md](../../../../04_Specifications/01_Open_Questions/OQ-08_how-early-works-and-strikes-are-told.md), [OQ-10_another-run-taken-without-saying.md](../../../../04_Specifications/01_Open_Questions/OQ-10_another-run-taken-without-saying.md): an open question of the specifications whose chain to the research passes through this file.

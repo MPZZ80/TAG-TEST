@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:55
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-11_usual-trip-glance.md, CL-02_usual-trip.md, C14-01_platform-door.md, C14-02_wrist.md, C14-03_hall-display.md, C14-04_usual-trip-remembered.md, C14-05_only-one-fact.md, C14-06_only-different.md, C14-07_fixed-platform.md, C14-08_readable-station.md, C14-09_greeter-entrance.md, C14-10_commuter-circle.md, C14-11_confirmed-those-there.md, C14-12_final.md]
+related: [US-F-11_usual-trip-glance.md, CL-02_usual-trip.md, C14-01_platform-door.md, C14-02_wrist.md, C14-03_hall-display.md, C14-04_usual-trip-remembered.md, C14-05_only-one-fact.md, C14-06_only-different.md, C14-07_fixed-platform.md, C14-08_readable-station.md, C14-09_greeter-entrance.md, C14-10_commuter-circle.md, C14-11_confirmed-those-there.md, C14-12_final.md, SPEC-01_foundation.md, SPEC-04_todays-trip-at-a-glance.md]
 ---
 
 # HMW-14
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-11_usual-trip-glance.md](../../02_Analysis/03_User_Stories/US-F-11_usual-trip-glance.md): the user story this question was written from.
 - [CL-02_usual-trip.md](CL-02_usual-trip.md): the cluster this question belongs to.
 - [C14-01_platform-door.md](../02_Ideas/C14-01_platform-door.md), [C14-02_wrist.md](../02_Ideas/C14-02_wrist.md), [C14-03_hall-display.md](../02_Ideas/C14-03_hall-display.md), [C14-04_usual-trip-remembered.md](../02_Ideas/C14-04_usual-trip-remembered.md), [C14-05_only-one-fact.md](../02_Ideas/C14-05_only-one-fact.md), [C14-06_only-different.md](../02_Ideas/C14-06_only-different.md), [C14-07_fixed-platform.md](../02_Ideas/C14-07_fixed-platform.md), [C14-08_readable-station.md](../02_Ideas/C14-08_readable-station.md), [C14-09_greeter-entrance.md](../02_Ideas/C14-09_greeter-entrance.md), [C14-10_commuter-circle.md](../02_Ideas/C14-10_commuter-circle.md), [C14-11_confirmed-those-there.md](../02_Ideas/C14-11_confirmed-those-there.md), [C14-12_final.md](../02_Ideas/C14-12_final.md): the AI concepts that answer this question.
+- [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md), [SPEC-04_todays-trip-at-a-glance.md](../../04_Specifications/SPEC-04_todays-trip-at-a-glance.md): a specification that traces to this question.

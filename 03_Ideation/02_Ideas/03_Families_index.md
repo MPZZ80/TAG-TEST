@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 17:35
+date: 2026-11-18 19:55
 method: coding
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, synthesis, information, disruption]
-related: [02_AI_Ideas_index.md, 00_How_might_we_index.md, 04_Ideas_prioritization.md, 05_Chosen_concept.md]
+related: [02_AI_Ideas_index.md, 00_How_might_we_index.md, 04_Ideas_prioritization.md, 05_Chosen_concept.md, SPEC-00_overview.md]
 ---
 
 # Human and AI Ideas: Families of Concepts
@@ -111,3 +111,4 @@ Marco wrote [S01](S01_delays-sent-chosen-channel.md) to [S03](S03_users-report-d
 - [00_How_might_we_index.md](../01_How_Might_We/00_How_might_we_index.md) holds the questions assigned to Marco's concepts.
 - [04_Ideas_prioritization.md](04_Ideas_prioritization.md) holds the proposed marks of these concepts and families.
 - [05_Chosen_concept.md](05_Chosen_concept.md): the chosen concept: all 27 families, 18 main and 9 in the background.
+- [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md): a specification that cites this file.

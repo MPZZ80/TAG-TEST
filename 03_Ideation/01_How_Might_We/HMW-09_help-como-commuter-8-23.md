@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-03 00:35
+date: 2026-11-18 19:55
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output]
-related: [US-F-06_whether-connection-still-holds.md, CL-03_whether-change-holds.md, C09-01_holds.md, C09-02_own-threshold.md, C09-03_whose-word-connection.md, C09-04_warned-him.md, C09-05_message-ready-send.md, C09-06_connection-held.md, C09-07_cross-border-duty.md, C09-08_conductor-knows.md, C09-09_those-already-change.md, C09-10_earlier-train-matters.md, C09-11_margin-agreed-work.md, C09-12_new-arrival-stated.md]
+related: [US-F-06_whether-connection-still-holds.md, CL-03_whether-change-holds.md, C09-01_holds.md, C09-02_own-threshold.md, C09-03_whose-word-connection.md, C09-04_warned-him.md, C09-05_message-ready-send.md, C09-06_connection-held.md, C09-07_cross-border-duty.md, C09-08_conductor-knows.md, C09-09_those-already-change.md, C09-10_earlier-train-matters.md, C09-11_margin-agreed-work.md, C09-12_new-arrival-stated.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md]
 ---
 
 # HMW-09
@@ -30,3 +30,4 @@ One row of [00_How_might_we_index.md](00_How_might_we_index.md), where the width
 - [US-F-06_whether-connection-still-holds.md](../../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md): the user story this question was written from.
 - [CL-03_whether-change-holds.md](CL-03_whether-change-holds.md): the cluster this question belongs to.
 - [C09-01_holds.md](../02_Ideas/C09-01_holds.md), [C09-02_own-threshold.md](../02_Ideas/C09-02_own-threshold.md), [C09-03_whose-word-connection.md](../02_Ideas/C09-03_whose-word-connection.md), [C09-04_warned-him.md](../02_Ideas/C09-04_warned-him.md), [C09-05_message-ready-send.md](../02_Ideas/C09-05_message-ready-send.md), [C09-06_connection-held.md](../02_Ideas/C09-06_connection-held.md), [C09-07_cross-border-duty.md](../02_Ideas/C09-07_cross-border-duty.md), [C09-08_conductor-knows.md](../02_Ideas/C09-08_conductor-knows.md), [C09-09_those-already-change.md](../02_Ideas/C09-09_those-already-change.md), [C09-10_earlier-train-matters.md](../02_Ideas/C09-10_earlier-train-matters.md), [C09-11_margin-agreed-work.md](../02_Ideas/C09-11_margin-agreed-work.md), [C09-12_new-arrival-stated.md](../02_Ideas/C09-12_new-arrival-stated.md): the AI concepts that answer this question.
+- [SPEC-06_those-waiting-are-told.md](../../04_Specifications/SPEC-06_those-waiting-are-told.md), [SPEC-07_the-connection-ahead.md](../../04_Specifications/SPEC-07_the-connection-ahead.md): a specification that traces to this question.

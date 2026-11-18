@@ -1,6 +1,6 @@
 ---
 source: Marco
-date: 2026-11-18 19:28
+date: 2026-11-18 19:55
 method: generated
 status: draft
 grade: n/a
@@ -17,7 +17,7 @@ How an agent builds the prototype of the product in `05_Prototype/`. Read this f
 
 - A **frontend-only** prototype. It shows the interface, the flows between screens and the interactions on each screen.
 - It is **not a working application**. It does not need to compute real journeys, store anything or talk to any service.
-- What to show comes from the specifications in `../../04_Specifications/`, starting from their overview, `SPEC-00_overview.md`. The specifications and the first draft built from them were deleted on 2026-11-18, to be rewritten; the mock datasets in `data/` are kept and still name the old specifications and open questions in their comments. The choices for the first draft are in section 9.
+- What to show comes from the specifications in `../../04_Specifications/`, starting from their overview, `SPEC-00_overview.md`. The specifications were rewritten on 2026-11-18 with the architecture of this prototype; the first draft built from the earlier ones was deleted. The mock datasets in `data/` are kept; their comments still use the earlier numbers (the set-up was SPEC-02, and SPEC-03 to SPEC-17 are now SPEC-02 to SPEC-16). The choices for the first draft are in section 9.
 
 ### Not allowed
 
@@ -110,8 +110,8 @@ DATA.trips = [
 
 Marco's choices of 2026-11-16, before the first draft was built. The draft was deleted on 2026-11-18; the choices stay until Marco changes them.
 
-- **Screens:** every specification from SPEC-02 to SPEC-17 has at least one screen. The rules of SPEC-01 (source, age and status of every fact; "no news since"; what is missing and where to set it up) show on every screen.
-- **Set-up data:** what the set-up screen (SPEC-02) shows comes from the mock dataset of the commuter's set-up, `data/profile.js`, and every other screen reads the same dataset, so that all screens tell one consistent story. What is typed into the prototype is not kept: to change the set-up, change the dataset.
+- **Screens:** every specification from SPEC-02 to SPEC-16 has at least one screen, and the start page and the initial set-up of SPEC-01 have theirs. The rules of SPEC-01 (source, age and status of every fact; "no news since"; what is missing and where to set it up) show on every screen.
+- **Set-up data:** what the initial set-up (SPEC-01) shows comes from the mock dataset of the commuter's set-up, `data/profile.js`, and every other screen reads the same dataset, so that all screens tell one consistent story. What is typed into the prototype is not kept: to change the set-up, change the dataset.
 - **Open questions:** where a specification leaves a value open (see `../../04_Specifications/01_Open_Questions/`), the dataset uses a provisional value and a comment names the question, for example `// provisional, OQ-02`.
 - **Scenarios:** a visible selector switches between the scenarios of `data/scenarios.js`: nothing set up, on time, late, cancelled. The scenario passes from screen to screen in the URL query (`?scenario=late`).
 - **Persona:** one commuter, the Verona–Milan commuter. The situations of the other stories (parking, a shared bike, a drive, step-free access) are shown on his trips.
