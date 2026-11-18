@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, information, tools, late-info, unreliable-service]
-related: [00_Open_questions_index.md, SPEC-03_real-state-of-the-run.md, US-F-01_real-state-vehicle-source.md, F-01_real-state-vehicle-source.md, TP-090_choosing-source-believe-they.md, Matteo_Rizzetto_notes.md, 07_survey_results.md, OR-008_apple-app-store_2026_ns-app-nl.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, 04_open_issues.md, SPEC-01_foundation.md]
+related: [00_Open_questions_index.md, US-F-01_real-state-vehicle-source.md, F-01_real-state-vehicle-source.md, TP-090_choosing-source-believe-they.md, Matteo_Rizzetto_notes.md, 07_survey_results.md, OR-008_apple-app-store_2026_ns-app-nl.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, 04_open_issues.md]
 ---
 
 # OQ-01: Which sources tell the real position, and which leads
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Which sources tell the real position and the expected time of a vehicle (the operator, the position of travellers on board, what travellers report), and which one leads when they disagree? |
-| **Raised in** | [SPEC-01](../SPEC-01_foundation.md), [SPEC-03](../SPEC-03_real-state-of-the-run.md) |
+| **Raised in** | SPEC-01, SPEC-03 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Partly supported: the research shows the situation and some signs, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-03](../SPEC-03_real-state-of-the-run.md) | The Real State of the Run |
+| Specification | SPEC-03 | The Real State of the Run |
 | User story | [F-01](../../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md) | As the Como commuter, standing on the platform watching the delay on the board grow from 5 to 10 to 15 minutes while a third-party app shows another time, I want to see where the train really is, when it will really leave and arrive, why it is late and which source says so, so that he knows as early as an unofficial app would tell him. |
 | Feature | [F-01](../../02_Analysis/02_Features/F-01_real-state-vehicle-source.md) | The real state of the vehicle, with its source and its reason |
 | Touchpoint | [TP-090](../../02_Analysis/01_Touchpoints/TP-090_choosing-source-believe-they.md) | Choosing which source to believe when they disagree |
@@ -50,8 +50,6 @@ The research shows that sources disagree and that commuters pick one: one partic
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-01_foundation.md](../SPEC-01_foundation.md): raises this question.
-- [SPEC-03_real-state-of-the-run.md](../SPEC-03_real-state-of-the-run.md): raises this question.
 - [US-F-01_real-state-vehicle-source.md](../../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md): a story behind the question.
 - [F-01_real-state-vehicle-source.md](../../02_Analysis/02_Features/F-01_real-state-vehicle-source.md): the feature behind that story.
 - [TP-090_choosing-source-believe-they.md](../../02_Analysis/01_Touchpoints/TP-090_choosing-source-believe-they.md): the moment of the journey the evidence is about.

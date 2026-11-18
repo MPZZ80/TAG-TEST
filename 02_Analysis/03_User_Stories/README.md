@@ -1,6 +1,6 @@
 # User Stories
 
-One file per user story, listed in the index [`00_User_Stories_index.md`](00_User_Stories_index.md), which also keeps the personas, the features sent back and the splits. Each file holds the story, its source line, its feature and the specifications that serve it.
+One file per user story, listed in the index [`00_User_Stories_index.md`](00_User_Stories_index.md), which also keeps the personas, the features sent back and the splits. Each file holds the story, its source line, its feature and the specifications that serve it (none for now: the specifications were deleted on 2026-11-18, to be rewritten).
 
 | File | Story |
 | --- | --- |

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, disruption, mode-choice, no-alternative, refunds]
-related: [00_Open_questions_index.md, SPEC-06_ways-out-when-the-trip-breaks.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, TP-100_paying-taxi-second-ticket.md, OR-006_apple-app-store_2026_flixbus-it.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Marco_Palermo_notes.md, TP-099_looking-app-s-alternatives.md, OR-015_apple-app-store_2026_9292-nl.md, F-10_car-against-train-office.md, TP-010_weighing-car-against-train.md, AP-016_mcilroy_2024_reservation-i-have-that.md, 04_open_issues.md]
+related: [00_Open_questions_index.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, TP-100_paying-taxi-second-ticket.md, OR-006_apple-app-store_2026_flixbus-it.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, Marco_Palermo_notes.md, TP-099_looking-app-s-alternatives.md, OR-015_apple-app-store_2026_9292-nl.md, F-10_car-against-train-office.md, TP-010_weighing-car-against-train.md, AP-016_mcilroy_2024_reservation-i-have-that.md, 04_open_issues.md]
 ---
 
 # OQ-12: Showing the cost of each way out
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Is the cost of each way out shown before the commuter chooses it? |
-| **Raised in** | [SPEC-06](../SPEC-06_ways-out-when-the-trip-breaks.md) |
+| **Raised in** | SPEC-06 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Partly supported: the research shows the situation and some signs, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-06](../SPEC-06_ways-out-when-the-trip-breaks.md) | Ways Out When the Trip Breaks |
+| Specification | SPEC-06 | Ways Out When the Trip Breaks |
 | User story | [F-02](../../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. |
 | Feature | [F-02](../../02_Analysis/02_Features/F-02_ways-still-open-trip.md) | The ways still open when the trip breaks |
 | Touchpoint | [TP-100](../../02_Analysis/01_Touchpoints/TP-100_paying-taxi-second-ticket.md) | Paying for a taxi or a second ticket to arrive |
@@ -54,7 +54,6 @@ The research shows that ways out can cost a lot (taxis of 63 to 600 euros, new t
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-06_ways-out-when-the-trip-breaks.md](../SPEC-06_ways-out-when-the-trip-breaks.md): raises this question.
 - [US-F-02_ways-still-open-trip.md](../../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md): a story behind the question.
 - [F-02_ways-still-open-trip.md](../../02_Analysis/02_Features/F-02_ways-still-open-trip.md): the feature behind that story.
 - [TP-100_paying-taxi-second-ticket.md](../../02_Analysis/01_Touchpoints/TP-100_paying-taxi-second-ticket.md): the moment of the journey the evidence is about.

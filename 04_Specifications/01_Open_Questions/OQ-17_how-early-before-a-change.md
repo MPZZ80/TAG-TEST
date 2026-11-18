@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, information, disruption, tight-connection]
-related: [00_Open_questions_index.md, SPEC-08_the-connection-ahead.md, US-F-06_whether-connection-still-holds.md, F-06_whether-connection-still-holds.md, TP-061_checking-phone-before-arriving.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, F-11_usual-trip-glance.md, TP-062_finding-next-platform-change.md]
+related: [00_Open_questions_index.md, US-F-06_whether-connection-still-holds.md, F-06_whether-connection-still-holds.md, TP-061_checking-phone-before-arriving.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, F-11_usual-trip-glance.md, TP-062_finding-next-platform-change.md]
 ---
 
 # OQ-17: How early before a change the commuter is told
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | How long before the change does the commuter learn whether the connection still holds? |
-| **Raised in** | [SPEC-08](../SPEC-08_the-connection-ahead.md) |
+| **Raised in** | SPEC-08 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-08](../SPEC-08_the-connection-ahead.md) | The Connection Ahead |
+| Specification | SPEC-08 | The Connection Ahead |
 | User story | [F-06](../../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md) | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. |
 | Feature | [F-06](../../02_Analysis/02_Features/F-06_whether-connection-still-holds.md) | Whether the connection still holds |
 | Touchpoint | [TP-061](../../02_Analysis/01_Touchpoints/TP-061_checking-phone-before-arriving.md) | Checking on the phone, before arriving, whether the connection still holds |
@@ -50,7 +50,6 @@ The research shows travellers checking the connection before arriving, and that 
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-08_the-connection-ahead.md](../SPEC-08_the-connection-ahead.md): raises this question.
 - [US-F-06_whether-connection-still-holds.md](../../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md): a story behind the question.
 - [F-06_whether-connection-still-holds.md](../../02_Analysis/02_Features/F-06_whether-connection-still-holds.md): the feature behind that story.
 - [TP-061_checking-phone-before-arriving.md](../../02_Analysis/01_Touchpoints/TP-061_checking-phone-before-arriving.md): the moment of the journey the evidence is about.

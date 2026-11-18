@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, disruption, why-now, tight-connection]
-related: [00_Open_questions_index.md, SPEC-08_the-connection-ahead.md, US-F-22_asking-connection-wait.md, F-22_asking-connection-wait.md, TP-069_asking-conductor-phone-ahead.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, 04_open_issues.md]
+related: [00_Open_questions_index.md, US-F-22_asking-connection-wait.md, F-22_asking-connection-wait.md, TP-069_asking-conductor-phone-ahead.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, 04_open_issues.md]
 ---
 
 # OQ-18: Asking a connection to wait before operators can answer
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Is the request to hold a connection built before any operator can receive or answer it? |
-| **Raised in** | [SPEC-08](../SPEC-08_the-connection-ahead.md) |
+| **Raised in** | SPEC-08 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-08](../SPEC-08_the-connection-ahead.md) | The Connection Ahead |
+| Specification | SPEC-08 | The Connection Ahead |
 | User story | [F-22](../../02_Analysis/03_User_Stories/US-F-22_asking-connection-wait.md) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. |
 | Feature | [F-22](../../02_Analysis/02_Features/F-22_asking-connection-wait.md) | Asking the connection to wait |
 | Touchpoint | [TP-069](../../02_Analysis/01_Touchpoints/TP-069_asking-conductor-phone-ahead.md) | Asking the conductor to phone ahead so the connection waits |
@@ -47,7 +47,6 @@ The need comes from one forum thread, a weak source (W-07), where staff on board
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-08_the-connection-ahead.md](../SPEC-08_the-connection-ahead.md): raises this question.
 - [US-F-22_asking-connection-wait.md](../../02_Analysis/03_User_Stories/US-F-22_asking-connection-wait.md): a story behind the question.
 - [F-22_asking-connection-wait.md](../../02_Analysis/02_Features/F-22_asking-connection-wait.md): the feature behind that story.
 - [TP-069_asking-conductor-phone-ahead.md](../../02_Analysis/01_Touchpoints/TP-069_asking-conductor-phone-ahead.md): the moment of the journey the evidence is about.

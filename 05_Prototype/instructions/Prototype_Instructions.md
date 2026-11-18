@@ -1,12 +1,12 @@
 ---
 source: Marco
-date: 2026-11-16 23:20
+date: 2026-11-18 19:25
 method: generated
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, rules]
-related: [SPEC-00_overview.md, SPEC-01_foundation.md, 00_Open_questions_index.md]
+related: [Spec_instructions.md, 00_Open_questions_index.md]
 ---
 
 # Instructions for the Prototype
@@ -17,7 +17,7 @@ How an agent builds the prototype of the product in `05_Prototype/`. Read this f
 
 - A **frontend-only** prototype. It shows the interface, the flows between screens and the interactions on each screen.
 - It is **not a working application**. It does not need to compute real journeys, store anything or talk to any service.
-- What to show comes from the specifications in `../../04_Specifications/` (start from `SPEC-00_overview.md`). The choices for the first draft are in section 9.
+- What to show comes from the specifications in `../../04_Specifications/`, starting from their overview, `SPEC-00_overview.md`. The specifications the first draft was built from were deleted on 2026-11-18, to be rewritten; the screens still name them by number. The choices for the first draft are in section 9.
 
 ### Not allowed
 
@@ -123,6 +123,5 @@ Marco's choices of 2026-11-16, before the first draft was built.
 
 ## Connections
 
-- [SPEC-00_overview.md](../../04_Specifications/SPEC-00_overview.md): the list of the specifications that the screens of the prototype show.
-- [SPEC-01_foundation.md](../../04_Specifications/SPEC-01_foundation.md): the rules every screen follows.
+- [Spec_instructions.md](../../04_Specifications/Spec_instructions.md): the instructions the specifications are written with, including the architecture this prototype follows.
 - [00_Open_questions_index.md](../../04_Specifications/01_Open_Questions/00_Open_questions_index.md): the open questions whose provisional values the datasets use.

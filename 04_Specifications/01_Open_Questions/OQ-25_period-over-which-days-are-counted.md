@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, planning, who, hybrid-work]
-related: [00_Open_questions_index.md, SPEC-12_the-fare-that-fits-the-days.md, US-F-12_ticket-fits-days-travelled.md, F-12_ticket-fits-days-travelled.md, TP-007_choosing-pass-carnet-single.md, Matteo_Rizzetto_notes.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md, 04_open_issues.md]
+related: [00_Open_questions_index.md, US-F-12_ticket-fits-days-travelled.md, F-12_ticket-fits-days-travelled.md, TP-007_choosing-pass-carnet-single.md, Matteo_Rizzetto_notes.md, GR-037_imove-australia_2021_sydney-maas-trial-final-report.md, AP-019_stromberg_2018_inviting-travelers-smorgasbord-sustainable.md, 04_open_issues.md]
 ---
 
 # OQ-25: The period over which days of travel are counted
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Over which period are the days actually travelled counted to compare fares: a week, a month, longer? |
-| **Raised in** | [SPEC-12](../SPEC-12_the-fare-that-fits-the-days.md) |
+| **Raised in** | SPEC-12 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Partly supported: the research shows the situation and some signs, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-12](../SPEC-12_the-fare-that-fits-the-days.md) | The Fare That Fits the Days |
+| Specification | SPEC-12 | The Fare That Fits the Days |
 | User story | [F-12](../../02_Analysis/03_User_Stories/US-F-12_ticket-fits-days-travelled.md) | As the Como commuter, when his office days fell to about one a week and the pass still cost 70 euro a month, I want to know which pass, carnet or single tickets cost least for the days I actually travel, so that he does not pay for a pass meant for daily travel. |
 | Feature | [F-12](../../02_Analysis/02_Features/F-12_ticket-fits-days-travelled.md) | A ticket that fits the days travelled |
 | Touchpoint | [TP-007](../../02_Analysis/01_Touchpoints/TP-007_choosing-pass-carnet-single.md) | Choosing pass, carnet or single tickets to fit the days actually travelled |
@@ -49,7 +49,6 @@ The research talks about passes by the month and days by the week, and shows tha
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-12_the-fare-that-fits-the-days.md](../SPEC-12_the-fare-that-fits-the-days.md): raises this question.
 - [US-F-12_ticket-fits-days-travelled.md](../../02_Analysis/03_User_Stories/US-F-12_ticket-fits-days-travelled.md): a story behind the question.
 - [F-12_ticket-fits-days-travelled.md](../../02_Analysis/02_Features/F-12_ticket-fits-days-travelled.md): the feature behind that story.
 - [TP-007_choosing-pass-carnet-single.md](../../02_Analysis/01_Touchpoints/TP-007_choosing-pass-carnet-single.md): the moment of the journey the evidence is about.

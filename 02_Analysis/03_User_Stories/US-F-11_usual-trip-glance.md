@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-11_usual-trip-glance.md, HMW-14_let-dutch-rail-commuter-way.md, SPEC-02_the-commuters-set-up.md, SPEC-05_todays-trip-at-a-glance.md]
+related: [F-11_usual-trip-glance.md, HMW-14_let-dutch-rail-commuter-way.md]
 ---
 
 # Story F-11
@@ -20,7 +20,7 @@ As a Dutch rail commuter (desk persona), on the way out of the door in the morni
 | **Evidence and impact** | strong · Low |
 | **Feature** | [F-11_usual-trip-glance.md](../02_Features/F-11_usual-trip-glance.md) |
 | **Questions (HMW)** | [HMW-14](../../03_Ideation/01_How_Might_We/HMW-14_let-dutch-rail-commuter-way.md) |
-| **Specifications** | [SPEC-02](../../04_Specifications/SPEC-02_the-commuters-set-up.md), [SPEC-05](../../04_Specifications/SPEC-05_todays-trip-at-a-glance.md) |
+| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
 
 ## Source
 
@@ -30,4 +30,3 @@ As a Dutch rail commuter (desk persona), on the way out of the door in the morni
 
 - [F-11_usual-trip-glance.md](../02_Features/F-11_usual-trip-glance.md): the feature this story carries.
 - [HMW-14_let-dutch-rail-commuter-way.md](../../03_Ideation/01_How_Might_We/HMW-14_let-dutch-rail-commuter-way.md): the How-Might-We questions written from this story.
-- [SPEC-02_the-commuters-set-up.md](../../04_Specifications/SPEC-02_the-commuters-set-up.md), [SPEC-05_todays-trip-at-a-glance.md](../../04_Specifications/SPEC-05_todays-trip-at-a-glance.md): the specifications that serve this story.

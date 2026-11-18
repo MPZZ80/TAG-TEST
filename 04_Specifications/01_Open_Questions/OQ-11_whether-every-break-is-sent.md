@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, information, disruption, late-info, no-alternative]
-related: [00_Open_questions_index.md, SPEC-06_ways-out-when-the-trip-breaks.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, TP-099_looking-app-s-alternatives.md, OR-005_apple-app-store_2026_trainline-gb.md, F-03_early-warning-usual-trip.md, TP-089_delay-cancellation-information-comes.md, Matteo_Rizzetto_notes.md, TP-034_turning-off-ignoring-operator.md, OR-009_apple-app-store_2026_trenitalia-app-it.md]
+related: [00_Open_questions_index.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, TP-099_looking-app-s-alternatives.md, OR-005_apple-app-store_2026_trainline-gb.md, F-03_early-warning-usual-trip.md, TP-089_delay-cancellation-information-comes.md, Matteo_Rizzetto_notes.md, TP-034_turning-off-ignoring-operator.md, OR-009_apple-app-store_2026_trenitalia-app-it.md]
 ---
 
 # OQ-11: Whether every break of the trip is sent as a message
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | When the trip of the day breaks, is a message always sent on the commuter's channel, or only for some breaks? |
-| **Raised in** | [SPEC-06](../SPEC-06_ways-out-when-the-trip-breaks.md) |
+| **Raised in** | SPEC-06 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Partly supported: the research shows the situation and some signs, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-06](../SPEC-06_ways-out-when-the-trip-breaks.md) | Ways Out When the Trip Breaks |
+| Specification | SPEC-06 | Ways Out When the Trip Breaks |
 | User story | [F-02](../../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. |
 | Feature | [F-02](../../02_Analysis/02_Features/F-02_ways-still-open-trip.md) | The ways still open when the trip breaks |
 | Touchpoint | [TP-099](../../02_Analysis/01_Touchpoints/TP-099_looking-app-s-alternatives.md) | Looking at the app's alternatives during a disruption |
@@ -51,7 +51,6 @@ The research shows that late or missing warnings of a cancellation hurt, and tha
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-06_ways-out-when-the-trip-breaks.md](../SPEC-06_ways-out-when-the-trip-breaks.md): raises this question.
 - [US-F-02_ways-still-open-trip.md](../../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md): a story behind the question.
 - [F-02_ways-still-open-trip.md](../../02_Analysis/02_Features/F-02_ways-still-open-trip.md): the feature behind that story.
 - [TP-099_looking-app-s-alternatives.md](../../02_Analysis/01_Touchpoints/TP-099_looking-app-s-alternatives.md): the moment of the journey the evidence is about.

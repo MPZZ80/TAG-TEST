@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, disruption, tools, refunds]
-related: [00_Open_questions_index.md, SPEC-13_compensation-from-the-trip.md, US-F-16_compensation-claim-started-delayed.md, F-16_compensation-claim-started-delayed.md, TP-104_claiming-compensation-after-delay.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, 04_open_issues.md]
+related: [00_Open_questions_index.md, US-F-16_compensation-claim-started-delayed.md, F-16_compensation-claim-started-delayed.md, TP-104_claiming-compensation-after-delay.md, OR-005_apple-app-store_2026_trainline-gb.md, OR-009_apple-app-store_2026_trenitalia-app-it.md, 04_open_issues.md]
 ---
 
 # OQ-27: Handing a claim to the operator for a ticket from a seller
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | How does a compensation claim reach the operator when the ticket was bought from a ticket seller? |
-| **Raised in** | [SPEC-13](../SPEC-13_compensation-from-the-trip.md) |
+| **Raised in** | SPEC-13 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [technology choice open] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-13](../SPEC-13_compensation-from-the-trip.md) | Compensation From the Trip |
+| Specification | SPEC-13 | Compensation From the Trip |
 | User story | [F-16](../../02_Analysis/03_User_Stories/US-F-16_compensation-claim-started-delayed.md) | As a British traveller (desk persona), after a delay on a ticket bought through a ticket seller, I want to start the compensation claim from the delayed trip itself, wherever the ticket was bought, so that the compensation does not depend on going to the train company. |
 | Feature | [F-16](../../02_Analysis/02_Features/F-16_compensation-claim-started-delayed.md) | The compensation claim started from the delayed trip |
 | Touchpoint | [TP-104](../../02_Analysis/01_Touchpoints/TP-104_claiming-compensation-after-delay.md) | Claiming compensation after the delay |
@@ -48,7 +48,6 @@ The research shows the need from reviews: with a seller's ticket the traveller h
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-13_compensation-from-the-trip.md](../SPEC-13_compensation-from-the-trip.md): raises this question.
 - [US-F-16_compensation-claim-started-delayed.md](../../02_Analysis/03_User_Stories/US-F-16_compensation-claim-started-delayed.md): a story behind the question.
 - [F-16_compensation-claim-started-delayed.md](../../02_Analysis/02_Features/F-16_compensation-claim-started-delayed.md): the feature behind that story.
 - [TP-104_claiming-compensation-after-delay.md](../../02_Analysis/01_Touchpoints/TP-104_claiming-compensation-after-delay.md): the moment of the journey the evidence is about.

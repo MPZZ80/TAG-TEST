@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 19:25
+
+- **Files:** deleted `04_Specifications/SPEC-00_overview.md` to `SPEC-17_sessions-still-running.md`; changed `02_Analysis/03_User_Stories/US-F-*.md` (24), `02_Analysis/03_User_Stories/00_User_Stories_index.md`, `02_Analysis/03_User_Stories/README.md`, `04_Specifications/01_Open_Questions/` (index, README, `OQ-01` to `OQ-33`), `04_Specifications/README.md`, `05_Prototype/instructions/Prototype_Instructions.md`, `Index.md`, `AGENTS.md`
+- **Change:** The 18 specification files deleted; `Spec_instructions.md` kept. Every link, `related` entry and "Connections" line that named them removed: the stories' "Specifications" row now says none, to be rewritten; the open questions are kept and name the deleted specifications by number as plain text; the prototype instructions point to `Spec_instructions.md`. Index lines, READMEs and the AGENTS layout rows updated.
+- **Why:** Marco: "Cancella le SPEC esistenti che poi rimandiamo il file Spec_instructions.md da non cancellare": the specifications will be rewritten with the revised instructions.
+
 ## 2026-11-18 19:22
 
 - **Files:** `04_Specifications/Spec_instructions.md`, `04_Specifications/README.md`, `AGENTS.md`

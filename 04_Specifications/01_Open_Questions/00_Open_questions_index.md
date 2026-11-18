@@ -1,19 +1,21 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, synthesis]
-related: [SPEC-00_overview.md, 04_open_issues.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-06_length-of-the-record-of-past-runs.md, OQ-07_saying-that-nothing-changed.md, OQ-08_how-early-works-and-strikes-are-told.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md, OQ-11_whether-every-break-is-sent.md, OQ-12_cost-of-each-way-out.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, OQ-14_minors-using-the-product-alone.md, OQ-15_when-the-contact-is-told-again.md, OQ-16_telling-the-contact-when-to-set-off.md, OQ-17_how-early-before-a-change.md, OQ-18_asking-a-connection-to-wait.md, OQ-19_a-lift-as-a-way.md, OQ-20_which-car-costs-are-counted.md, OQ-21_source-of-walking-times.md, OQ-22_how-long-records-are-kept-to-time-a-leg.md, OQ-23_booking-and-paying-across-sellers.md, OQ-24_moving-a-ticket-with-no-signal.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md, OQ-27_claims-on-tickets-from-a-seller.md, OQ-28_source-of-the-state-of-facilities.md, OQ-29_how-far-before-the-stop.md, OQ-30_reaching-a-commuter-who-is-asleep.md, OQ-31_whether-a-drivers-route-fits.md, OQ-32_how-a-session-is-known-and-ended.md, OQ-33_the-reminder-interval.md]
+related: [04_open_issues.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-06_length-of-the-record-of-past-runs.md, OQ-07_saying-that-nothing-changed.md, OQ-08_how-early-works-and-strikes-are-told.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md, OQ-11_whether-every-break-is-sent.md, OQ-12_cost-of-each-way-out.md, OQ-13_when-a-vehicle-not-seen-is-not-coming.md, OQ-14_minors-using-the-product-alone.md, OQ-15_when-the-contact-is-told-again.md, OQ-16_telling-the-contact-when-to-set-off.md, OQ-17_how-early-before-a-change.md, OQ-18_asking-a-connection-to-wait.md, OQ-19_a-lift-as-a-way.md, OQ-20_which-car-costs-are-counted.md, OQ-21_source-of-walking-times.md, OQ-22_how-long-records-are-kept-to-time-a-leg.md, OQ-23_booking-and-paying-across-sellers.md, OQ-24_moving-a-ticket-with-no-signal.md, OQ-25_period-over-which-days-are-counted.md, OQ-26_telling-first-that-the-fare-no-longer-fits.md, OQ-27_claims-on-tickets-from-a-seller.md, OQ-28_source-of-the-state-of-facilities.md, OQ-29_how-far-before-the-stop.md, OQ-30_reaching-a-commuter-who-is-asleep.md, OQ-31_whether-a-drivers-route-fits.md, OQ-32_how-a-session-is-known-and-ended.md, OQ-33_the-reminder-interval.md]
 ---
 
 # Open Questions of the Specifications
 
-The questions the specifications leave open, one file each, so that they can be checked and decided later. Each file traces the question back to the research: specification, user story, feature, touchpoint, and the interview, survey or source quoted there.
+The questions the specifications left open, one file each, so that they can be checked and decided later. Each file traces the question back to the research: specification, user story, feature, touchpoint, and the interview, survey or source quoted there.
 
 33 questions. Research support: 2 supported, 9 partly, 22 not supported. A question the research does not support is kept and marked ⚠.
+
+The specifications that raised these questions were deleted on 2026-11-18, to be rewritten with the revised instructions. The questions are kept: the "Raised in" column names the deleted specifications by number, and the new specifications will link the questions again.
 
 ## How to read it
 
@@ -61,7 +63,6 @@ The questions the specifications leave open, one file each, so that they can be 
 
 ## Connections
 
-- [SPEC-00_overview.md](../SPEC-00_overview.md): the overview of the specifications, which points to this list.
 - [04_open_issues.md](../../01_Research/02_Plan/04_open_issues.md): the open questions of the research, several of which these questions point to.
 - [OQ-01_sources-of-the-real-position.md](OQ-01_sources-of-the-real-position.md): one open question.
 - [OQ-02_age-limit-of-a-fact.md](OQ-02_age-limit-of-a-fact.md): one open question.

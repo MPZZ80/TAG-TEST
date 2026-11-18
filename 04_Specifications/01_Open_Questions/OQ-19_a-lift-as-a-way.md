@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, interview, questions, mode-choice, who, first-last-mile]
-related: [00_Open_questions_index.md, SPEC-09_every-way-door-to-door.md, US-F-10_car-against-train-office.md, F-09_arrival-shared-whoever-waits.md, TP-048_being-driven-station-relative.md, Marco_Palermo_notes.md, AP-010_azimi_2020_mode-choice-behavior-access.md, 07_survey_results.md, F-02_ways-still-open-trip.md, TP-107_asking-relative-come-fetch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, SPEC-06_ways-out-when-the-trip-breaks.md]
+related: [00_Open_questions_index.md, US-F-10_car-against-train-office.md, F-09_arrival-shared-whoever-waits.md, TP-048_being-driven-station-relative.md, Marco_Palermo_notes.md, AP-010_azimi_2020_mode-choice-behavior-access.md, 07_survey_results.md, F-02_ways-still-open-trip.md, TP-107_asking-relative-come-fetch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md]
 ---
 
 # OQ-19: A lift from a contact as a way
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Does a lift from a relative or friend count as one of the ways from door to door? |
-| **Raised in** | [SPEC-09](../SPEC-09_every-way-door-to-door.md), [SPEC-06](../SPEC-06_ways-out-when-the-trip-breaks.md) |
+| **Raised in** | SPEC-09, SPEC-06 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Supported: the research points to an answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-09](../SPEC-09_every-way-door-to-door.md) | Every Way Door to Door |
+| Specification | SPEC-09 | Every Way Door to Door |
 | User story | [F-10](../../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md) | As the Como commuter, looking at the timetables to see whether he can go back from the car to the train, I want the train and the car compared door to door for a given day and departure, on time, cost and arrival home, so that he can see whether the train still brings him back to Como when the working day ends. |
 | Feature | [F-09](../../02_Analysis/02_Features/F-09_arrival-shared-whoever-waits.md) | The arrival shared with whoever waits or drives |
 | Touchpoint | [TP-048](../../02_Analysis/01_Touchpoints/TP-048_being-driven-station-relative.md) | Being driven to the station by a relative |
@@ -51,8 +51,6 @@ The research points to yes: a lift to the station is part of a participant's dai
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-06_ways-out-when-the-trip-breaks.md](../SPEC-06_ways-out-when-the-trip-breaks.md): raises this question.
-- [SPEC-09_every-way-door-to-door.md](../SPEC-09_every-way-door-to-door.md): raises this question.
 - [US-F-10_car-against-train-office.md](../../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md): a story behind the question.
 - [F-09_arrival-shared-whoever-waits.md](../../02_Analysis/02_Features/F-09_arrival-shared-whoever-waits.md): the feature behind that story.
 - [TP-048_being-driven-station-relative.md](../../02_Analysis/01_Touchpoints/TP-048_being-driven-station-relative.md): the moment of the journey the evidence is about.

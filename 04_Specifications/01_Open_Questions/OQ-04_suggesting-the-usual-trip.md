@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, planning, tools, usual-trip]
-related: [00_Open_questions_index.md, SPEC-02_the-commuters-set-up.md, US-F-11_usual-trip-glance.md, F-11_usual-trip-glance.md, TP-027_opening-saved-usual-trip.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-001_apple-app-store_2026_google-maps-it.md]
+related: [00_Open_questions_index.md, US-F-11_usual-trip-glance.md, F-11_usual-trip-glance.md, TP-027_opening-saved-usual-trip.md, OR-013_apple-app-store_2026_sncf-connect-fr.md, OR-001_apple-app-store_2026_google-maps-it.md]
 ---
 
 # OQ-04: Suggesting the usual trip from repeated trips
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | May the product suggest a usual trip from trips the commuter repeats, for them to confirm, or does the commuter always enter it? |
-| **Raised in** | [SPEC-02](../SPEC-02_the-commuters-set-up.md) |
+| **Raised in** | SPEC-02 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-02](../SPEC-02_the-commuters-set-up.md) | The Commuter's Set-Up |
+| Specification | SPEC-02 | The Commuter's Set-Up |
 | User story | [F-11](../../02_Analysis/03_User_Stories/US-F-11_usual-trip-glance.md) | As a Dutch rail commuter (desk persona), on the way out of the door in the morning, I want the app to open on my usual trip with its state and its platforms, the change included, without searching, so that I know which platform to go to with no extra step. |
 | Feature | [F-11](../../02_Analysis/02_Features/F-11_usual-trip-glance.md) | The usual trip at a glance |
 | Touchpoint | [TP-027](../../02_Analysis/01_Touchpoints/TP-027_opening-saved-usual-trip.md) | Opening the saved usual trip to see it and its platform at a glance |
@@ -47,7 +47,6 @@ The research shows that commuters want to save their usual trip themselves. Noth
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-02_the-commuters-set-up.md](../SPEC-02_the-commuters-set-up.md): raises this question.
 - [US-F-11_usual-trip-glance.md](../../02_Analysis/03_User_Stories/US-F-11_usual-trip-glance.md): a story behind the question.
 - [F-11_usual-trip-glance.md](../../02_Analysis/02_Features/F-11_usual-trip-glance.md): the feature behind that story.
 - [TP-027_opening-saved-usual-trip.md](../../02_Analysis/01_Touchpoints/TP-027_opening-saved-usual-trip.md): the moment of the journey the evidence is about.

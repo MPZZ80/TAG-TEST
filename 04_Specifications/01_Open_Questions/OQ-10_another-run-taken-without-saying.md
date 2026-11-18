@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, interview, questions, information, tools, usual-trip, workarounds]
-related: [00_Open_questions_index.md, SPEC-05_todays-trip-at-a-glance.md, US-F-11_usual-trip-glance.md, F-07_trips-planned-commuter-s.md, TP-018_choosing-earlier-service-needed.md, Matteo_Rizzetto_notes.md, F-08_ticket-works-moment-needed.md, TP-103_moving-ticket-another-train.md, Marco_Palermo_notes.md, F-09_arrival-shared-whoever-waits.md, TP-075_following-train-app-board.md, OR-008_apple-app-store_2026_ns-app-nl.md]
+related: [00_Open_questions_index.md, US-F-11_usual-trip-glance.md, F-07_trips-planned-commuter-s.md, TP-018_choosing-earlier-service-needed.md, Matteo_Rizzetto_notes.md, F-08_ticket-works-moment-needed.md, TP-103_moving-ticket-another-train.md, Marco_Palermo_notes.md, F-09_arrival-shared-whoever-waits.md, TP-075_following-train-app-board.md, OR-008_apple-app-store_2026_ns-app-nl.md]
 ---
 
 # OQ-10: Another run taken without saying so
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | When the commuter takes another run than the planned one without saying so, may the product infer it and follow that run? |
-| **Raised in** | [SPEC-05](../SPEC-05_todays-trip-at-a-glance.md) |
+| **Raised in** | SPEC-05 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Partly supported: the research shows the situation and some signs, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-05](../SPEC-05_todays-trip-at-a-glance.md) | Today's Trip at a Glance |
+| Specification | SPEC-05 | Today's Trip at a Glance |
 | User story | [F-11](../../02_Analysis/03_User_Stories/US-F-11_usual-trip-glance.md) | As a Dutch rail commuter (desk persona), on the way out of the door in the morning, I want the app to open on my usual trip with its state and its platforms, the change included, without searching, so that I know which platform to go to with no extra step. |
 | Feature | [F-07](../../02_Analysis/02_Features/F-07_trips-planned-commuter-s.md) | Trips planned to the commuter's own rules |
 | Touchpoint | [TP-018](../../02_Analysis/01_Touchpoints/TP-018_choosing-earlier-service-needed.md) | Choosing an earlier service than needed as a margin |
@@ -52,7 +52,6 @@ The research shows that commuters often switch to an earlier or later run. One r
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-05_todays-trip-at-a-glance.md](../SPEC-05_todays-trip-at-a-glance.md): raises this question.
 - [US-F-11_usual-trip-glance.md](../../02_Analysis/03_User_Stories/US-F-11_usual-trip-glance.md): a story behind the question.
 - [F-07_trips-planned-commuter-s.md](../../02_Analysis/02_Features/F-07_trips-planned-commuter-s.md): the feature behind that story.
 - [TP-018_choosing-earlier-service-needed.md](../../02_Analysis/01_Touchpoints/TP-018_choosing-earlier-service-needed.md): the moment of the journey the evidence is about.

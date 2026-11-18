@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, information, tools]
-related: [00_Open_questions_index.md, SPEC-05_todays-trip-at-a-glance.md, US-F-24_travel-information-first-hurry.md, F-24_travel-information-first-hurry.md, TP-055_checking-app-hurry-being.md, OR-002_apple-app-store_2026_moovit-it.md, F-01_real-state-vehicle-source.md, TP-029_checking-live-departures-before.md]
+related: [00_Open_questions_index.md, US-F-24_travel-information-first-hurry.md, F-24_travel-information-first-hurry.md, TP-055_checking-app-hurry-being.md, OR-002_apple-app-store_2026_moovit-it.md, F-01_real-state-vehicle-source.md, TP-029_checking-live-departures-before.md]
 ---
 
 # OQ-09: The first view at a stop with no usual trip
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | What does the first view show when the commuter opens the product at a stop or station from which no usual trip starts? |
-| **Raised in** | [SPEC-05](../SPEC-05_todays-trip-at-a-glance.md) |
+| **Raised in** | SPEC-05 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-05](../SPEC-05_todays-trip-at-a-glance.md) | Today's Trip at a Glance |
+| Specification | SPEC-05 | Today's Trip at a Glance |
 | User story | [F-24](../../02_Analysis/03_User_Stories/US-F-24_travel-information-first-hurry.md) | As an Italian bus user (desk persona), in a hurry to catch a bus, opening the app at the stop, I want the travel information shown at once, with nothing in front of it, so that a few seconds do not decide whether I catch the bus. |
 | Feature | [F-24](../../02_Analysis/02_Features/F-24_travel-information-first-hurry.md) | Travel information first, in a hurry |
 | Touchpoint | [TP-055](../../02_Analysis/01_Touchpoints/TP-055_checking-app-hurry-being.md) | Checking the app in a hurry and being held by advertising |
@@ -49,7 +49,6 @@ The research shows that a commuter in a hurry wants the information first, and t
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-05_todays-trip-at-a-glance.md](../SPEC-05_todays-trip-at-a-glance.md): raises this question.
 - [US-F-24_travel-information-first-hurry.md](../../02_Analysis/03_User_Stories/US-F-24_travel-information-first-hurry.md): a story behind the question.
 - [F-24_travel-information-first-hurry.md](../../02_Analysis/02_Features/F-24_travel-information-first-hurry.md): the feature behind that story.
 - [TP-055_checking-app-hurry-being.md](../../02_Analysis/01_Touchpoints/TP-055_checking-app-hurry-being.md): the moment of the journey the evidence is about.

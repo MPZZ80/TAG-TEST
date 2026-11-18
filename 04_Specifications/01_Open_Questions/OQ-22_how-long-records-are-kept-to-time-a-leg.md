@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, interview, questions, planning, workarounds]
-related: [00_Open_questions_index.md, SPEC-10_times-that-can-be-kept.md, US-F-13_times-commuter-can-plan.md, F-13_times-commuter-can-plan.md, TP-041_leaving-home-fixed-margin.md, Marco_Palermo_notes.md, F-05_legs-both-ends-real.md, TP-064_handover-train-underground-bus.md, Matteo_Rizzetto_notes.md]
+related: [00_Open_questions_index.md, US-F-13_times-commuter-can-plan.md, F-13_times-commuter-can-plan.md, TP-041_leaving-home-fixed-margin.md, Marco_Palermo_notes.md, F-05_legs-both-ends-real.md, TP-064_handover-train-underground-bus.md, Matteo_Rizzetto_notes.md]
 ---
 
 # OQ-22: How long records are kept to time a leg
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | How long are reports and records kept to time a leg (a walk, a change, a drive)? |
-| **Raised in** | [SPEC-10](../SPEC-10_times-that-can-be-kept.md) |
+| **Raised in** | SPEC-10 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-10](../SPEC-10_times-that-can-be-kept.md) | Times That Can Be Kept |
+| Specification | SPEC-10 | Times That Can Be Kept |
 | User story | [F-13](../../02_Analysis/03_User_Stories/US-F-13_times-commuter-can-plan.md) | As the Verona–Milan commuter, planning the trip while taking it for granted that his train will be 5 to 15 minutes late, I want to see the trip time and arrival I can expect from works and from how late that train usually is, so that the time he is promised is the time that is kept. |
 | Feature | [F-13](../../02_Analysis/02_Features/F-13_times-commuter-can-plan.md) | Times the commuter can plan on |
 | Touchpoint | [TP-041](../../02_Analysis/01_Touchpoints/TP-041_leaving-home-fixed-margin.md) | Leaving home with a fixed margin |
@@ -49,7 +49,6 @@ The research shows that commuters time their legs from their own experience. It 
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-10_times-that-can-be-kept.md](../SPEC-10_times-that-can-be-kept.md): raises this question.
 - [US-F-13_times-commuter-can-plan.md](../../02_Analysis/03_User_Stories/US-F-13_times-commuter-can-plan.md): a story behind the question.
 - [F-13_times-commuter-can-plan.md](../../02_Analysis/02_Features/F-13_times-commuter-can-plan.md): the feature behind that story.
 - [TP-041_leaving-home-fixed-margin.md](../../02_Analysis/01_Touchpoints/TP-041_leaving-home-fixed-margin.md): the moment of the journey the evidence is about.

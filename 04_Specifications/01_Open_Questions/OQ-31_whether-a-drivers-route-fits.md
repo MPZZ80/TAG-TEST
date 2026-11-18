@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, mode-choice, who, habit]
-related: [00_Open_questions_index.md, SPEC-16_the-route-stays-with-the-driver.md, US-F-14a_asking-before-rerouting-tolls.md, F-14a_asking-before-rerouting-tolls.md, TP-078_following-navigation-app-changes.md, OR-001_apple-app-store_2026_google-maps-it.md, F-15_parking-bike-space-station.md, TP-049_driving-station-parking-near.md, 07_survey_results.md, F-10_car-against-train-office.md, TP-009_keeping-car-after-pass.md, Matteo_Rizzetto_notes.md, 04_open_issues.md]
+related: [00_Open_questions_index.md, US-F-14a_asking-before-rerouting-tolls.md, F-14a_asking-before-rerouting-tolls.md, TP-078_following-navigation-app-changes.md, OR-001_apple-app-store_2026_google-maps-it.md, F-15_parking-bike-space-station.md, TP-049_driving-station-parking-near.md, 07_survey_results.md, F-10_car-against-train-office.md, TP-009_keeping-car-after-pass.md, Matteo_Rizzetto_notes.md, 04_open_issues.md]
 ---
 
 # OQ-31: Whether a driver's route fits the product
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Does a product mostly about public transport also look after a commuter's drive, as story F-14a asks? |
-| **Raised in** | [SPEC-16](../SPEC-16_the-route-stays-with-the-driver.md) |
+| **Raised in** | SPEC-16 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Partly supported: the research shows the situation and some signs, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-16](../SPEC-16_the-route-stays-with-the-driver.md) | The Route Stays With the Driver |
+| Specification | SPEC-16 | The Route Stays With the Driver |
 | User story | [F-14a](../../02_Analysis/03_User_Stories/US-F-14a_asking-before-rerouting-tolls.md) | As an Italian driver (desk persona), following a map app, when there is a queue and the app changes the route by itself, or sends him onto a foreign motorway, I want to be asked before the route is changed and warned of the tolls or stickers the route needs, so that he decides the route and is not fined. |
 | Feature | [F-14a](../../02_Analysis/02_Features/F-14a_asking-before-rerouting-tolls.md) | Asking before rerouting, with tolls warned (split from F-14) |
 | Touchpoint | [TP-078](../../02_Analysis/01_Touchpoints/TP-078_following-navigation-app-changes.md) | Following the navigation app, which changes route by itself or ignores known works and tolls |
@@ -53,7 +53,6 @@ The research shows that the car is part of many commutes: a participant who driv
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-16_the-route-stays-with-the-driver.md](../SPEC-16_the-route-stays-with-the-driver.md): raises this question.
 - [US-F-14a_asking-before-rerouting-tolls.md](../../02_Analysis/03_User_Stories/US-F-14a_asking-before-rerouting-tolls.md): a story behind the question.
 - [F-14a_asking-before-rerouting-tolls.md](../../02_Analysis/02_Features/F-14a_asking-before-rerouting-tolls.md): the feature behind that story.
 - [TP-078_following-navigation-app-changes.md](../../02_Analysis/01_Touchpoints/TP-078_following-navigation-app-changes.md): the moment of the journey the evidence is about.

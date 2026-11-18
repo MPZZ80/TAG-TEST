@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, information, late-info]
-related: [00_Open_questions_index.md, SPEC-01_foundation.md, US-F-01_real-state-vehicle-source.md, F-01_real-state-vehicle-source.md, TP-089_delay-cancellation-information-comes.md, OR-004_apple-app-store_2026_transit-us.md, OR-002_apple-app-store_2026_moovit-it.md, OR-006_apple-app-store_2026_flixbus-it.md, SPEC-03_real-state-of-the-run.md]
+related: [00_Open_questions_index.md, US-F-01_real-state-vehicle-source.md, F-01_real-state-vehicle-source.md, TP-089_delay-cancellation-information-comes.md, OR-004_apple-app-store_2026_transit-us.md, OR-002_apple-app-store_2026_moovit-it.md, OR-006_apple-app-store_2026_flixbus-it.md]
 ---
 
 # OQ-02: The age after which a fact is outdated
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | After how long without news is a fact (a time, a state, a position) marked outdated, and a run marked `no news`? |
-| **Raised in** | [SPEC-01](../SPEC-01_foundation.md), [SPEC-03](../SPEC-03_real-state-of-the-run.md) |
+| **Raised in** | SPEC-01, SPEC-03 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-01](../SPEC-01_foundation.md) | Foundation |
+| Specification | SPEC-01 | Foundation |
 | User story | [F-01](../../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md) | As the Como commuter, standing on the platform watching the delay on the board grow from 5 to 10 to 15 minutes while a third-party app shows another time, I want to see where the train really is, when it will really leave and arrive, why it is late and which source says so, so that he knows as early as an unofficial app would tell him. |
 | Feature | [F-01](../../02_Analysis/02_Features/F-01_real-state-vehicle-source.md) | The real state of the vehicle, with its source and its reason |
 | Touchpoint | [TP-089](../../02_Analysis/01_Touchpoints/TP-089_delay-cancellation-information-comes.md) | Delay or cancellation information that comes too late, or is wrong |
@@ -48,8 +48,6 @@ The research shows information that stays the same while the real state changes,
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-03_real-state-of-the-run.md](../SPEC-03_real-state-of-the-run.md): raises this question.
-- [SPEC-01_foundation.md](../SPEC-01_foundation.md): raises this question.
 - [US-F-01_real-state-vehicle-source.md](../../02_Analysis/03_User_Stories/US-F-01_real-state-vehicle-source.md): a story behind the question.
 - [F-01_real-state-vehicle-source.md](../../02_Analysis/02_Features/F-01_real-state-vehicle-source.md): the feature behind that story.
 - [TP-089_delay-cancellation-information-comes.md](../../02_Analysis/01_Touchpoints/TP-089_delay-cancellation-information-comes.md): the moment of the journey the evidence is about.

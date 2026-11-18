@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 18:41
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: low
 tags: [research, desk, synthesis]
-related: [F-02_ways-still-open-trip.md, HMW-03_help-teenager-waiting-late-evening.md, HMW-04_help-teenager-stop-late-evening.md, SPEC-06_ways-out-when-the-trip-breaks.md, SPEC-07_those-waiting-are-told.md]
+related: [F-02_ways-still-open-trip.md, HMW-03_help-teenager-waiting-late-evening.md, HMW-04_help-teenager-stop-late-evening.md]
 ---
 
 # Story F-02
@@ -20,7 +20,7 @@ As a teenager (desk persona), waiting late in the evening at a stop for a connec
 | **Evidence and impact** | strong · High |
 | **Feature** | [F-02_ways-still-open-trip.md](../02_Features/F-02_ways-still-open-trip.md) |
 | **Questions (HMW)** | [HMW-03](../../03_Ideation/01_How_Might_We/HMW-03_help-teenager-waiting-late-evening.md), [HMW-04](../../03_Ideation/01_How_Might_We/HMW-04_help-teenager-stop-late-evening.md) |
-| **Specifications** | [SPEC-06](../../04_Specifications/SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07](../../04_Specifications/SPEC-07_those-waiting-are-told.md) |
+| **Specifications** | None: the specifications were deleted on 2026-11-18, to be rewritten with the revised instructions |
 
 ## Source
 
@@ -30,4 +30,3 @@ As a teenager (desk persona), waiting late in the evening at a stop for a connec
 
 - [F-02_ways-still-open-trip.md](../02_Features/F-02_ways-still-open-trip.md): the feature this story carries.
 - [HMW-03_help-teenager-waiting-late-evening.md](../../03_Ideation/01_How_Might_We/HMW-03_help-teenager-waiting-late-evening.md), [HMW-04_help-teenager-stop-late-evening.md](../../03_Ideation/01_How_Might_We/HMW-04_help-teenager-stop-late-evening.md): the How-Might-We questions written from this story.
-- [SPEC-06_ways-out-when-the-trip-breaks.md](../../04_Specifications/SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07_those-waiting-are-told.md](../../04_Specifications/SPEC-07_those-waiting-are-told.md): the specifications that serve this story.

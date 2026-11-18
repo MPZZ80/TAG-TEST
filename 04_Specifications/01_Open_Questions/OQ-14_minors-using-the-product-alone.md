@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, who, disruption, no-alternative]
-related: [00_Open_questions_index.md, SPEC-06_ways-out-when-the-trip-breaks.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, TP-107_asking-relative-come-fetch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, 04_open_issues.md, SPEC-07_those-waiting-are-told.md]
+related: [00_Open_questions_index.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, TP-107_asking-relative-come-fetch.md, OF-002_eisenbahnforum_2016_eisenbahnforum-reiseerlebnisse-bahn.md, 04_open_issues.md]
 ---
 
 # OQ-14: Minors using the product alone
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Do minors use the product alone, and if so what changes (consent, contacts, what is shared with a parent)? |
-| **Raised in** | [SPEC-06](../SPEC-06_ways-out-when-the-trip-breaks.md), [SPEC-07](../SPEC-07_those-waiting-are-told.md) |
+| **Raised in** | SPEC-06, SPEC-07 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-06](../SPEC-06_ways-out-when-the-trip-breaks.md) | Ways Out When the Trip Breaks |
+| Specification | SPEC-06 | Ways Out When the Trip Breaks |
 | User story | [F-02](../../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md) | As a teenager (desk persona), waiting late in the evening at a stop for a connecting bus that does not come, I want to see the ways that still run and can be reached from where I am, valid on my ticket or not, with arrival time and cost, so that I know from what point it makes sense to call home and be fetched. |
 | Feature | [F-02](../../02_Analysis/02_Features/F-02_ways-still-open-trip.md) | The ways still open when the trip breaks |
 | Touchpoint | [TP-107](../../02_Analysis/01_Touchpoints/TP-107_asking-relative-come-fetch.md) | Asking a relative to come and fetch them |
@@ -47,8 +47,6 @@ The teenager comes from one forum thread, a weak source (W-07). The research doe
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-07_those-waiting-are-told.md](../SPEC-07_those-waiting-are-told.md): raises this question.
-- [SPEC-06_ways-out-when-the-trip-breaks.md](../SPEC-06_ways-out-when-the-trip-breaks.md): raises this question.
 - [US-F-02_ways-still-open-trip.md](../../02_Analysis/03_User_Stories/US-F-02_ways-still-open-trip.md): a story behind the question.
 - [F-02_ways-still-open-trip.md](../../02_Analysis/02_Features/F-02_ways-still-open-trip.md): the feature behind that story.
 - [TP-107_asking-relative-come-fetch.md](../../02_Analysis/01_Touchpoints/TP-107_asking-relative-come-fetch.md): the moment of the journey the evidence is about.

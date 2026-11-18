@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, interview, questions, information, unreliable-service]
-related: [00_Open_questions_index.md, SPEC-03_real-state-of-the-run.md, US-F-13_times-commuter-can-plan.md, F-13_times-commuter-can-plan.md, TP-017_planning-assumed-delay.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
+related: [00_Open_questions_index.md, US-F-13_times-commuter-can-plan.md, F-13_times-commuter-can-plan.md, TP-017_planning-assumed-delay.md, Matteo_Rizzetto_notes.md, Marco_Palermo_notes.md]
 ---
 
 # OQ-06: How long the record of past runs must be
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Over how many past runs, or how long a period, is the record kept to tell how late a run usually is? |
-| **Raised in** | [SPEC-03](../SPEC-03_real-state-of-the-run.md) |
+| **Raised in** | SPEC-03 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-03](../SPEC-03_real-state-of-the-run.md) | The Real State of the Run |
+| Specification | SPEC-03 | The Real State of the Run |
 | User story | [F-13](../../02_Analysis/03_User_Stories/US-F-13_times-commuter-can-plan.md) | As the Verona–Milan commuter, planning the trip while taking it for granted that his train will be 5 to 15 minutes late, I want to see the trip time and arrival I can expect from works and from how late that train usually is, so that the time he is promised is the time that is kept. |
 | Feature | [F-13](../../02_Analysis/02_Features/F-13_times-commuter-can-plan.md) | Times the commuter can plan on |
 | Touchpoint | [TP-017](../../02_Analysis/01_Touchpoints/TP-017_planning-assumed-delay.md) | Planning with an assumed delay |
@@ -47,7 +47,6 @@ The research shows that commuters know from experience how late their run usuall
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-03_real-state-of-the-run.md](../SPEC-03_real-state-of-the-run.md): raises this question.
 - [US-F-13_times-commuter-can-plan.md](../../02_Analysis/03_User_Stories/US-F-13_times-commuter-can-plan.md): a story behind the question.
 - [F-13_times-commuter-can-plan.md](../../02_Analysis/02_Features/F-13_times-commuter-can-plan.md): the feature behind that story.
 - [TP-017_planning-assumed-delay.md](../../02_Analysis/01_Touchpoints/TP-017_planning-assumed-delay.md): the moment of the journey the evidence is about.

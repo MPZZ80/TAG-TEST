@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, tools, ticket-carryover]
-related: [00_Open_questions_index.md, SPEC-11_tickets-that-work-when-needed.md, US-F-08_ticket-works-moment-needed.md, F-08_ticket-works-moment-needed.md, TP-103_moving-ticket-another-train.md, Marco_Palermo_notes.md, TP-076_showing-ticket-inspector-gate.md, OR-009_apple-app-store_2026_trenitalia-app-it.md]
+related: [00_Open_questions_index.md, US-F-08_ticket-works-moment-needed.md, F-08_ticket-works-moment-needed.md, TP-103_moving-ticket-another-train.md, Marco_Palermo_notes.md, TP-076_showing-ticket-inspector-gate.md, OR-009_apple-app-store_2026_trenitalia-app-it.md]
 ---
 
 # OQ-24: Moving a ticket with no signal
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Can a ticket be shown and moved to another run when there is no signal? |
-| **Raised in** | [SPEC-11](../SPEC-11_tickets-that-work-when-needed.md) |
+| **Raised in** | SPEC-11 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [technology choice open] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-11](../SPEC-11_tickets-that-work-when-needed.md) | Tickets That Work When Needed |
+| Specification | SPEC-11 | Tickets That Work When Needed |
 | User story | [F-08](../../02_Analysis/03_User_Stories/US-F-08_ticket-works-moment-needed.md) | As the Verona–Milan commuter, still in the underground five minutes before his train leaves, I want to buy, move and show a valid ticket in one step, up to departure and with no signal, so that he can take another train, or travel another day, without losing the ticket. |
 | Feature | [F-08](../../02_Analysis/02_Features/F-08_ticket-works-moment-needed.md) | A ticket that works at the moment it is needed |
 | Touchpoint | [TP-103](../../02_Analysis/01_Touchpoints/TP-103_moving-ticket-another-train.md) | Moving the ticket to another train in the app |
@@ -48,7 +48,6 @@ The research shows a ticket needed where there is no signal, and a participant m
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-11_tickets-that-work-when-needed.md](../SPEC-11_tickets-that-work-when-needed.md): raises this question.
 - [US-F-08_ticket-works-moment-needed.md](../../02_Analysis/03_User_Stories/US-F-08_ticket-works-moment-needed.md): a story behind the question.
 - [F-08_ticket-works-moment-needed.md](../../02_Analysis/02_Features/F-08_ticket-works-moment-needed.md): the feature behind that story.
 - [TP-103_moving-ticket-another-train.md](../../02_Analysis/01_Touchpoints/TP-103_moving-ticket-another-train.md): the moment of the journey the evidence is about.

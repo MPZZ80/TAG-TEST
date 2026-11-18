@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, planning, information, late-info]
-related: [00_Open_questions_index.md, SPEC-04_alerts-on-the-usual-trip.md, US-F-03_early-warning-usual-trip.md, F-03_early-warning-usual-trip.md, TP-040_learning-strike-works-days.md, Marco_Palermo_notes.md, OR-008_apple-app-store_2026_ns-app-nl.md, OR-010_apple-app-store_2026_italo-it.md]
+related: [00_Open_questions_index.md, US-F-03_early-warning-usual-trip.md, F-03_early-warning-usual-trip.md, TP-040_learning-strike-works-days.md, Marco_Palermo_notes.md, OR-008_apple-app-store_2026_ns-app-nl.md, OR-010_apple-app-store_2026_italo-it.md]
 ---
 
 # OQ-08: How early works and strikes are told, and how often repeated
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | How many days before a travel day are planned works and strikes told, and how often is the message repeated? |
-| **Raised in** | [SPEC-04](../SPEC-04_alerts-on-the-usual-trip.md) |
+| **Raised in** | SPEC-04 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Partly supported: the research shows the situation and some signs, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-04](../SPEC-04_alerts-on-the-usual-trip.md) | Alerts on the Usual Trip |
+| Specification | SPEC-04 | Alerts on the Usual Trip |
 | User story | [F-03](../../02_Analysis/03_User_Stories/US-F-03_early-warning-usual-trip.md) | As the single-line commuter, during the seven minutes he drives to the station on one of his three office days, I want to be told, only when something changes, of a delay, cancellation, strike or works on my usual train, in time to change the decision to leave, so that he can wait in the warm car if the train is late. |
 | Feature | [F-03](../../02_Analysis/02_Features/F-03_early-warning-usual-trip.md) | Early warning on the usual trip |
 | Touchpoint | [TP-040](../../02_Analysis/01_Touchpoints/TP-040_learning-strike-works-days.md) | Learning of a strike or works days ahead, then not going or going earlier |
@@ -48,7 +48,6 @@ The research shows that commuters decide on the day before or earlier (not going
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-04_alerts-on-the-usual-trip.md](../SPEC-04_alerts-on-the-usual-trip.md): raises this question.
 - [US-F-03_early-warning-usual-trip.md](../../02_Analysis/03_User_Stories/US-F-03_early-warning-usual-trip.md): a story behind the question.
 - [F-03_early-warning-usual-trip.md](../../02_Analysis/02_Features/F-03_early-warning-usual-trip.md): the feature behind that story.
 - [TP-040_learning-strike-works-days.md](../../02_Analysis/01_Touchpoints/TP-040_learning-strike-works-days.md): the moment of the journey the evidence is about.

@@ -1,6 +1,6 @@
 # Open Questions
 
-The questions the specifications leave open, one file each, with the chain that links each one to the research. Written on 2026-11-16 at Marco's request, to check them later.
+The questions the specifications leave open, one file each, with the chain that links each one to the research. Written on 2026-11-16 at Marco's request, to check them later. The specifications they name were deleted on 2026-11-18, to be rewritten; the questions are kept.
 
 | File | What it is |
 | --- | --- |

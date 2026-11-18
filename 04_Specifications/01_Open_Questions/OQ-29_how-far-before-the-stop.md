@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, information]
-related: [00_Open_questions_index.md, SPEC-15_stop-approaching.md, US-F-23_stop-approaching.md, F-23_stop-approaching.md, TP-074_staying-alert-so-miss.md, AP-021_jimenez_2018_user-perception-transfers-multimodal.md]
+related: [00_Open_questions_index.md, US-F-23_stop-approaching.md, F-23_stop-approaching.md, TP-074_staying-alert-so-miss.md, AP-021_jimenez_2018_user-perception-transfers-multimodal.md]
 ---
 
 # OQ-29: How far before the stop, and how many repeats
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | How far before the stop is the commuter told, and how often is it repeated if they do not respond? |
-| **Raised in** | [SPEC-15](../SPEC-15_stop-approaching.md) |
+| **Raised in** | SPEC-15 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-15](../SPEC-15_stop-approaching.md) | The Stop Approaching |
+| Specification | SPEC-15 | The Stop Approaching |
 | User story | [F-23](../../02_Analysis/03_User_Stories/US-F-23_stop-approaching.md) | As a young commuter in Madrid (desk persona), on a bus, two stops before her own, I want to be told when my stop is approaching, so that she can sit without thinking about the stop and not miss it if she falls asleep. |
 | Feature | [F-23](../../02_Analysis/02_Features/F-23_stop-approaching.md) | The stop approaching |
 | Touchpoint | [TP-074](../../02_Analysis/01_Touchpoints/TP-074_staying-alert-so-miss.md) | Staying alert so as not to miss the stop |
@@ -46,7 +46,6 @@ One paper gives the moment (two stops before) in a single quote. Nothing in the 
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-15_stop-approaching.md](../SPEC-15_stop-approaching.md): raises this question.
 - [US-F-23_stop-approaching.md](../../02_Analysis/03_User_Stories/US-F-23_stop-approaching.md): a story behind the question.
 - [F-23_stop-approaching.md](../../02_Analysis/02_Features/F-23_stop-approaching.md): the feature behind that story.
 - [TP-074_staying-alert-so-miss.md](../../02_Analysis/01_Touchpoints/TP-074_staying-alert-so-miss.md): the moment of the journey the evidence is about.

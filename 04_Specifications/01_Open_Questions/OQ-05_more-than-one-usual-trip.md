@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, planning, tools, usual-trip]
-related: [00_Open_questions_index.md, SPEC-02_the-commuters-set-up.md, US-F-09_arrival-shared-whoever-waits.md, F-09_arrival-shared-whoever-waits.md, TP-075_following-train-app-board.md, Marco_Palermo_notes.md, F-01_real-state-vehicle-source.md, TP-028_deciding-return-train-day.md, US-F-11_usual-trip-glance.md, F-11_usual-trip-glance.md, TP-027_opening-saved-usual-trip.md, OR-001_apple-app-store_2026_google-maps-it.md, F-03_early-warning-usual-trip.md, TP-035_using-alerts-usual-trip.md, OR-005_apple-app-store_2026_trainline-gb.md, TP-032_receiving-alert-usual-train.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, 04_open_issues.md, SPEC-05_todays-trip-at-a-glance.md, SPEC-07_those-waiting-are-told.md]
+related: [00_Open_questions_index.md, US-F-09_arrival-shared-whoever-waits.md, F-09_arrival-shared-whoever-waits.md, TP-075_following-train-app-board.md, Marco_Palermo_notes.md, F-01_real-state-vehicle-source.md, TP-028_deciding-return-train-day.md, US-F-11_usual-trip-glance.md, F-11_usual-trip-glance.md, TP-027_opening-saved-usual-trip.md, OR-001_apple-app-store_2026_google-maps-it.md, F-03_early-warning-usual-trip.md, TP-035_using-alerts-usual-trip.md, OR-005_apple-app-store_2026_trainline-gb.md, TP-032_receiving-alert-usual-train.md, OF-003_hacker-news_2023_hn-citymapper-joins-via.md, 04_open_issues.md]
 ---
 
 # OQ-05: More than one usual trip
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Does the commuter keep more than one usual trip, for example the morning trip and the evening return, or two trains used most? |
-| **Raised in** | [SPEC-02](../SPEC-02_the-commuters-set-up.md), [SPEC-05](../SPEC-05_todays-trip-at-a-glance.md), [SPEC-07](../SPEC-07_those-waiting-are-told.md) |
+| **Raised in** | SPEC-02, SPEC-05, SPEC-07 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Supported: the research points to an answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-02](../SPEC-02_the-commuters-set-up.md) | The Commuter's Set-Up |
+| Specification | SPEC-02 | The Commuter's Set-Up |
 | User story | [F-09](../../02_Analysis/03_User_Stories/US-F-09_arrival-shared-whoever-waits.md) | As the Verona–Milan commuter, on the train back to Verona with his father coming to fetch him at the station, I want to share the train time and the live arrival, with a confirmation of any delay, with the person driving or waiting, so that the person who comes to the station knows when he arrives. |
 | Feature | [F-09](../../02_Analysis/02_Features/F-09_arrival-shared-whoever-waits.md) | The arrival shared with whoever waits or drives |
 | Touchpoint | [TP-075](../../02_Analysis/01_Touchpoints/TP-075_following-train-app-board.md) | Following the train on the app on board, to tell the people waiting |
@@ -59,9 +59,6 @@ The research points to more than one: the outward and return trips (an interview
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-07_those-waiting-are-told.md](../SPEC-07_those-waiting-are-told.md): raises this question.
-- [SPEC-05_todays-trip-at-a-glance.md](../SPEC-05_todays-trip-at-a-glance.md): raises this question.
-- [SPEC-02_the-commuters-set-up.md](../SPEC-02_the-commuters-set-up.md): raises this question.
 - [US-F-09_arrival-shared-whoever-waits.md](../../02_Analysis/03_User_Stories/US-F-09_arrival-shared-whoever-waits.md): a story behind the question.
 - [F-09_arrival-shared-whoever-waits.md](../../02_Analysis/02_Features/F-09_arrival-shared-whoever-waits.md): the feature behind that story.
 - [TP-075_following-train-app-board.md](../../02_Analysis/01_Touchpoints/TP-075_following-train-app-board.md): the moment of the journey the evidence is about.

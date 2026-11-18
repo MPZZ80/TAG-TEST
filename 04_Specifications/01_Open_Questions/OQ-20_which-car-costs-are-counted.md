@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:25
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, desk, questions, mode-choice, first-last-mile]
-related: [00_Open_questions_index.md, SPEC-09_every-way-door-to-door.md, US-F-10_car-against-train-office.md, F-10_car-against-train-office.md, TP-010_weighing-car-against-train.md, AP-016_mcilroy_2024_reservation-i-have-that.md, F-15_parking-bike-space-station.md, TP-049_driving-station-parking-near.md, AP-015_mcilroy_2023_this-where-public-transport.md, F-14a_asking-before-rerouting-tolls.md, TP-078_following-navigation-app-changes.md, OR-001_apple-app-store_2026_google-maps-it.md, 04_open_issues.md]
+related: [00_Open_questions_index.md, US-F-10_car-against-train-office.md, F-10_car-against-train-office.md, TP-010_weighing-car-against-train.md, AP-016_mcilroy_2024_reservation-i-have-that.md, F-15_parking-bike-space-station.md, TP-049_driving-station-parking-near.md, AP-015_mcilroy_2023_this-where-public-transport.md, F-14a_asking-before-rerouting-tolls.md, TP-078_following-navigation-app-changes.md, OR-001_apple-app-store_2026_google-maps-it.md, 04_open_issues.md]
 ---
 
 # OQ-20: Which car costs are counted
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Which costs of the car are counted when it is compared with the train: fuel, tolls, parking? |
-| **Raised in** | [SPEC-09](../SPEC-09_every-way-door-to-door.md) |
+| **Raised in** | SPEC-09 (deleted on 2026-11-18, to be rewritten) |
 | **Marker** | [not traced] |
 | **Research support** | Partly supported: the research shows the situation and some signs, not the answer |
 | **State** | open |
@@ -33,7 +33,7 @@ From the specification back to the evidence: each story under the specification 
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-09](../SPEC-09_every-way-door-to-door.md) | Every Way Door to Door |
+| Specification | SPEC-09 | Every Way Door to Door |
 | User story | [F-10](../../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md) | As the Como commuter, looking at the timetables to see whether he can go back from the car to the train, I want the train and the car compared door to door for a given day and departure, on time, cost and arrival home, so that he can see whether the train still brings him back to Como when the working day ends. |
 | Feature | [F-10](../../02_Analysis/02_Features/F-10_car-against-train-office.md) | Car against train for the office day |
 | Touchpoint | [TP-010](../../02_Analysis/01_Touchpoints/TP-010_weighing-car-against-train.md) | Weighing car against train on time, cost and the evening after work |
@@ -53,7 +53,6 @@ The research names parking and tolls. Fuel appears in no note. The interviews di
 ## Connections
 
 - [00_Open_questions_index.md](00_Open_questions_index.md): the list of all the open questions.
-- [SPEC-09_every-way-door-to-door.md](../SPEC-09_every-way-door-to-door.md): raises this question.
 - [US-F-10_car-against-train-office.md](../../02_Analysis/03_User_Stories/US-F-10_car-against-train-office.md): a story behind the question.
 - [F-10_car-against-train-office.md](../../02_Analysis/02_Features/F-10_car-against-train-office.md): the feature behind that story.
 - [TP-010_weighing-car-against-train.md](../../02_Analysis/01_Touchpoints/TP-010_weighing-car-against-train.md): the moment of the journey the evidence is about.
