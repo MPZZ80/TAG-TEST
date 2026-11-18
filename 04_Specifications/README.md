@@ -1,10 +1,10 @@
 # Specifications
 
-The specifications built from the 24 user stories, one file per behaviour, technology-agnostic, each usable as a prompt. Written on 2026-11-16 with `Spec_instructions.md`; the chosen concept is not followed for now, so every story has the same weight.
+The specifications built from the 24 user stories, one file per behaviour, each usable as a prompt. Written on 2026-11-16 with `Spec_instructions.md` as it was then, technology-agnostic: they predate the architecture section, the start page and the initial set-up added to the instructions on 2026-11-18; the chosen concept is not followed for now, so every story has the same weight.
 
 | File | What it is |
 | --- | --- |
-| `Spec_instructions.md` | Instructions, independent of this project, for writing specifications from user stories: inputs, steps, rules, file names and templates |
+| `Spec_instructions.md` | Instructions for writing specifications from user stories: inputs, steps, the architecture they take into account (frontend-only prototype, web components, mock data in `data/`), rules, file names and templates |
 | `SPEC-00_overview.md` | Overview: map of the references, list of the specifications, dependencies between them, every story with its specifications, splits, and the open questions linked to their files |
 | `SPEC-01_foundation.md` | Foundation: purpose, principles, the user, the things the product deals with, their states, sources, channels, rules that hold everywhere, vocabulary |
 | `SPEC-02_the-commuters-set-up.md` | The Commuter's Set-Up: stories F-03, F-07, F-11 |

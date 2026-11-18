@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 19:22
+
+- **Files:** `04_Specifications/Spec_instructions.md`, `04_Specifications/README.md`, `AGENTS.md`
+- **Change:** New section 3 "Architecture" in the spec instructions: frontend-only prototype to test UX, UI and flows, no backend and no API, interface made of web components, all data from mock datasets in `data/`, outside events simulated from the data. The "Technology-agnostic" rule becomes "Within the architecture, and nothing else"; "Logic, not screens" and the acceptance criteria adapted. The foundation now designs the start page and the initial set-up of the profile and usual trips; templates gain an "Architecture" section (specification and foundation), "Start page" and "Initial set-up" (foundation) and a "Components and datasets" table (overview); two checks added; later sections renumbered. AGENTS log entry 45; pointer of entry 43 updated to the new section number.
+- **Why:** Marco asked to add to `Spec_instructions.md` web components for the UI, the `data/` folder and mock data for all data, frontend only with no backend and no API to test UX, UI and flows; that specifications take the architecture into account; and that the foundation include the design of the start page and of the initial configuration of the profile and the usual trips. Reason not stated.
+- **Do not:** the specifications are no longer technology-agnostic; do not reintroduce the rule that forbids naming web components, datasets or the architecture.
+
 ## 2026-11-16 23:34
 
 - **Files:** `05_Prototype/instructions/Prototype_Instructions.md`, `05_Prototype/instructions/README.md`, `05_Prototype/README.md`, `AGENTS.md`; created: `05_Prototype/html/` (17 screens), `05_Prototype/js/` (18 scripts), `05_Prototype/data/` (18 datasets), `05_Prototype/css/style.css`, and a `README.md` in `html/`, `js/`, `data/`, `css/`, `assets/`

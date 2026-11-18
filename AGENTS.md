@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-16 23:34
+date: 2026-11-18 19:22
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -138,8 +138,9 @@ This section is the running list of the standing instructions Marco gives during
 | 40 | 2026-11-16 | Do not follow the chosen concept (`03_Ideation/02_Ideas/05_Chosen_concept.md`) for now: do not use it as an input for specifications or other work, and give every user story the same priority. Written into `04_Specifications/Spec_instructions.md`, section 1. | Marco does not want to follow the chosen concept right now |
 | 41 | 2026-11-16 | When a specification needs another element to work (information, a setting, an object, a choice of the user), that element must be specified too, in the same or another specification: how it is included, entered, configured or obtained. Written into the rule "Logic, not screens" of `04_Specifications/Spec_instructions.md`. | Not stated; Marco's example: to monitor a route, the user must be able to set which route to monitor |
 | 42 | 2026-11-16 | Specifications declare what they depend on and provide, and the dependencies are checked; a behaviour also covers the state before its elements are set up; conflicting stories go to Open questions; a story is judged against the purpose in the foundation; concepts are references only; existing specifications are edited in place with stable numbers; a final completeness check closes the work. Accessibility and data retention are left for later. Details in `04_Specifications/Spec_instructions.md`. | Marco accepted the agent's review; accessibility and data retention are details for the future, since this is a prototype |
-| 43 | 2026-11-16 | Keep the open questions of the specifications in a separate folder, `04_Specifications/01_Open_Questions/`, one file per question, each tracing the chain that links it to the research; keep the questions the research does not support, and flag them. Details in section 4 of `04_Specifications/Spec_instructions.md`. | To check the open questions later |
+| 43 | 2026-11-16 | Keep the open questions of the specifications in a separate folder, `04_Specifications/01_Open_Questions/`, one file per question, each tracing the chain that links it to the research; keep the questions the research does not support, and flag them. Details in section 5 of `04_Specifications/Spec_instructions.md`. | To check the open questions later |
 | 44 | 2026-11-16 | For the first draft of the prototype: build a screen for every specification; take the set-up data from the mock datasets so that every screen is consistent (what is typed is not kept); use provisional values where a specification leaves a question open, marked with its OQ; one persona, a scenario selector, simulated messages, one mock clock, an index of the screens. Details in section 9 of `05_Prototype/instructions/Prototype_Instructions.md`. | Not stated; Marco's answers to the blocking questions before the first draft |
+| 45 | 2026-11-18 | Specifications take the architecture into account: a frontend-only prototype to test UX, UI and flows (no backend, no API), an interface made of web components, all data from mock datasets in the `data/` folder. The foundation designs the start page and the initial set-up of the profile and the usual trips. Replaces the technology-agnostic rule. Details in sections 3, 4 and 6 of `04_Specifications/Spec_instructions.md`. | Not stated |
 
 ### Language
 

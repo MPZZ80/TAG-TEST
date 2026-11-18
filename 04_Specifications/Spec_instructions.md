@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-16 23:04
+date: 2026-11-18 19:22
 method: generated
 status: draft
 grade: n/a
@@ -10,7 +10,7 @@ tags: [design, internal, rules]
 
 # Instructions for Writing Specifications
 
-How an agent turns a set of user stories into technology-agnostic specifications, one file per behaviour, each usable on its own as a prompt for building that behaviour. They do not depend on any project or domain (mobility, energy, online grocery shopping or any other): when someone says "use `Spec_instructions.md` to create the specifications", follow this file from start to end.
+How an agent turns a set of user stories into specifications, one file per behaviour, each usable on its own as a prompt for building that behaviour within the architecture of section 3. The steps and rules do not depend on any domain (mobility, energy, online grocery shopping or any other): when someone says "use `Spec_instructions.md` to create the specifications", follow this file from start to end.
 
 ## 1. Before you start
 
@@ -46,33 +46,45 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
 
 ## 2. Steps
 
-1. **Write the foundation first**, `SPEC-01_foundation.md`, with the template in section 5. It holds what two or more specifications need: the user, the things the product deals with, their states, the sources of information and how far each is trusted, the channels, the vocabulary, and the rules that hold everywhere (no data, late data, contradicting sources, what the user consents to share). What only one specification needs stays in that one. Every element names the stories that need it. The other specifications refer to the foundation by section and do not repeat it; they still describe their own behaviour in full.
+1. **Write the foundation first**, `SPEC-01_foundation.md`, with the template in section 6. It holds what two or more specifications need: the user, the things the product deals with, their states, the sources of information and how far each is trusted, the channels, the vocabulary, the rules that hold everywhere (no data, late data, contradicting sources, what the user consents to share), the shared parts of the architecture (section 3), and the design of the start page and of the initial set-up of the profile and the usual trips (or whatever the user saves to use again, in another domain). What only one specification needs stays in that one. Every element names the stories that need it. The other specifications refer to the foundation by section and do not repeat it; they still describe their own behaviour in full.
 2. **Write the specifications.** Group the stories by the behaviour that meets their need: one specification per behaviour, numbered from `SPEC-02`. A specification may serve several stories, and a story may feed more than one specification; say why the stories of a specification belong together. If a story needs two behaviours that could ship apart, split it into two specifications and say so. If a story does not fit the purpose written in the foundation, do not specify it: list it under "Not specified" with the reason. When in doubt, ask instead of leaving it out.
 3. **Review the foundation and the dependencies** once every specification is written. In the foundation, remove what only one specification uses and add what several repeat. Then check that every element listed under "Depends on" is provided by a specification; if none provides it, add it to the specification that needs it or write a new one.
 4. **Write the overview**, `SPEC-00_overview.md`: the list of the specifications, the traceability table, the dependencies, and every story with the specifications that serve it, or the reason it has none.
 5. **Check before finishing.**
    - Every story has at least one specification, or a reason under "Not specified".
    - Every element under "Depends on" is provided by a named specification.
+   - Every component and dataset a specification uses is defined in it or in the foundation, and the overview lists them.
+   - The foundation designs the start page and the initial set-up, and every specification that needs something from the set-up names it.
    - Every reference link opens an existing file.
-   - Every [not traced] or [technology choice open] item is listed under "Open questions" and has its own file in `01_Open_Questions/` (section 4).
+   - Every [not traced] or [technology choice open] item is listed under "Open questions" and has its own file in `01_Open_Questions/` (section 5).
 
-## 3. Rules
+## 3. Architecture
+
+The specifications take into account the architecture the product is built on, and describe each behaviour within it. The architecture is the same for every specification; a project that builds on a different one replaces this section before the specifications are written.
+
+- **A frontend-only prototype, to test UX, UI and flows.** No backend, no API calls, no server-side code. The product does not compute, store or fetch anything for real: it shows the interface, the flows and the interactions so that they can be tested.
+- **The interface is made of web components.** Every part of the interface that a behaviour shows is a web component, named in the specification with what it shows, the data it reads and the events it reacts to. A component used by two or more specifications is defined in the foundation; one used by a single specification is defined there.
+- **All data come from the `data/` folder, as mock data.** Every piece of information a behaviour uses (the user's profile and settings, schedules, real states, prices, messages, the interface texts) comes from a dataset in `data/`, filled with mock data: invented but plausible, consistent with the stories and the evidence. Real data provided by a client go into the same datasets with the same fields. A specification names the datasets it reads and the fields it needs.
+- **What would come from outside is simulated from the data.** A source the product cannot reach without a backend (an operator's live data, other users, a message on a channel outside the product) is a dataset in `data/`, and an event it would send (a delay, an answer, an incoming message) is triggered by a visible control or a timer, with its content taken from the data.
+- **How the files are laid out** (folders, file names, how a screen loads its datasets) is in the build instructions of the project, for example `05_Prototype/instructions/Prototype_Instructions.md`. The specifications name components and datasets, not files.
+
+## 4. Rules
 
 - **Each file stands alone.** A designer, a developer or another agent must be able to build the behaviour from that file and the foundation, without opening anything else. References are there to trace a behaviour back, not to explain it.
-- **Technology-agnostic.** Name no platform, operating system, language, framework, vendor, database, API, data format or device brand. Describe what the system knows, decides and shows, and on which kind of channel ("a message on the channel the user chose", not the name of an app or a protocol). If a behaviour cannot be described without a technology, write the need it serves and mark it [technology choice open].
+- **Within the architecture, and nothing else.** Name the elements of the architecture of section 3 (web components, datasets in `data/`, simulated events) and no other platform, operating system, framework, vendor, database, API or device brand. Describe what the product knows, decides and shows, and on which kind of channel ("a message on the channel the user chose", not the name of an app or a protocol). If a behaviour needs a technology the architecture does not have, write the need it serves and mark it [technology choice open].
 - **Stories first.** The behaviour of a specification is what its stories ask for: the persona, the moment and the "so that" come from the stories, not from the wording of a concept. Concepts are references only: cite in Traceability every concept that matches a story, but take the behaviour from the stories alone. When concepts suggest different ways to meet a story, do not choose between them: describe what the story asks and put the choice in "Open questions".
 - **Keep every reference.** Every specification names, by its exact ID and with a relative link to the file that holds it, every story it serves, and every feature, touchpoint, problem question, concept and family it rests on, when the inputs have them. A specification with no concept or family behind it writes "none" for them.
-- **Logic, not screens.** Describe what starts it, what it needs to know, the rules it follows step by step, the states it can be in, and what the user sees or receives at each step. Layout and visual design are out of scope. If a specification needs another element to work (information, a setting, an object, a choice of the user), that element must be specified too: how it is included, entered, configured or obtained, in the same specification or in another one, which it names. Nothing a behaviour relies on is assumed to exist already. When no story asks for that element, trace it to the specification that needs it.
+- **Logic, not screens.** Describe what starts it, what it needs to know, the rules it follows step by step, the states it can be in, and what the user sees or receives at each step. Layout and visual design are out of scope; the start page and the initial set-up are designed in the foundation as flows: what comes first, the steps, what each step shows and asks. If a specification needs another element to work (information, a setting, an object, a choice of the user), that element must be specified too: how it is included, entered, configured or obtained, in the same specification or in another one, which it names. Nothing a behaviour relies on is assumed to exist already. When no story asks for that element, trace it to the specification that needs it.
 - **Stories that conflict.** When two stories ask for opposite behaviours, no story wins on its own: specify what they share and put the conflict in "Open questions" for the person who asked to decide.
 - **No invention.** Every rule and behaviour traces to a story, a feature, a problem question or the evidence behind them. A behaviour you need and cannot trace is marked [not traced] and listed under "Open questions"; it is not written as settled.
 - **Failure is a normal case.** For every specification, say what happens when the data is late, missing, wrong or contradicted by another source, when the process breaks halfway, when the user does not respond, and when an element it depends on has not been set up yet.
 - **Say what part of the experience it covers.** Name the stages of the user's journey the specification acts on, using the stages the inputs define, or "whole journey".
-- **Testable acceptance criteria.** Given / When / Then, one behaviour each, with no technology in them.
+- **Testable acceptance criteria.** Given / When / Then, one behaviour each, written as what the user sees and does, so that they can be tested on the prototype with the mock data.
 - **Personas by their names** as the stories give them. No real names of interviewees or customers.
 - **Quotes** stay in their original language, with a translation into the language of the specifications.
 - **Status.** Every file is a draft until the person who asked for it reviews it.
 
-## 4. Files and names
+## 5. Files and names
 
 - **Folder:** every file below goes in `04_Specifications/`, next to this file.
 - **Overview:** `SPEC-00_overview.md`.
@@ -87,14 +99,14 @@ When an input has no IDs, give it short ones in the map, say so, and do not chan
   The "Open questions" sections of the specifications and of the overview link to these files. When a question is decided, its file records the decision, and the specifications that raise it are edited to remove the marker; the file stays and its number is never reused.
 - **After writing:** update whatever the project keeps current when files are added, such as a folder guide, an index or a change log.
 
-## 5. Templates
+## 6. Templates
 
 ### A specification
 
 ```markdown
 # SPEC-<NN>: <Name>
 
-Use this file as a prompt: it describes one behaviour to build, independent of any technology.
+Use this file as a prompt: it describes one behaviour to build within the architecture of the foundation: a frontend-only prototype made of web components, with all data from mock datasets in `data/`.
 
 ## User stories served
 
@@ -129,6 +141,11 @@ What it does, for whom, in which moment. A stranger could read it and repeat it 
 - **Depends on:** <each element it needs to work (information, a setting, an object, a choice of the user) and the specification that provides it: this one or SPEC-…>
 - **Provides:** <the elements it sets up that other specifications use, and which ones, or none>
 
+## Architecture
+- **Components:** <each web component it shows: what it shows, the data it reads, the events it reacts to; or the foundation component it reuses>
+- **Datasets:** <each dataset in `data/` it reads, with the fields it needs and whether the foundation defines it>
+- **Simulated events:** <each event that would come from outside (a delay, an answer, a message), what triggers it in the prototype and where its content comes from; or none>
+
 ## When things go wrong
 Data late, missing, wrong or contradicted; the process breaks; the user does not respond; nothing set up yet (an element it depends on does not exist: what the user sees and where they set it up).
 
@@ -149,7 +166,7 @@ Every section ends with the stories that need it (story · persona) and the spec
 ```markdown
 # SPEC-01: Foundation
 
-Use this file as a prompt: it lays the ground that every other specification stands on, independent of any technology. Build it first.
+Use this file as a prompt: it lays the ground that every other specification stands on, within the architecture below. Build it first.
 
 ## Purpose
 What the product is for, for whom and in which moments, in one paragraph drawn from the stories.
@@ -177,6 +194,25 @@ No data, late data, wrong data; the user does not respond; consent to share, and
 
 ## Vocabulary
 The terms every specification uses, with one meaning each.
+
+## Architecture
+How the product is built for testing UX, UI and flows: frontend only, no backend and no API; the web components two or more specifications share, with what each shows, reads and reacts to; the datasets in `data/` two or more specifications read, with their fields and mock content; how an event from outside is simulated; how what the user chooses on one page reaches the next without a backend.
+
+## Start page
+What the product opens on, designed as a flow:
+- at the first opening, when nothing is set up: what the user sees and how they reach the initial set-up;
+- once the set-up is done: what comes first, with nothing in front of it, and what follows;
+- from the start page, how each behaviour is reached, by specification;
+- what the start page shows when something it needs is missing, late or wrong.
+
+## Initial set-up
+How the user sets up their profile and their usual trips (or whatever they save to use again), designed as a flow:
+- the steps, in order, and what each step asks and shows;
+- what can be skipped, and what each skipped element affects, by specification;
+- the defaults, and which ones the user must turn on themselves (for example consent to use their position);
+- how the set-up ends and leads to the start page;
+- where each element is changed or deleted later;
+- the datasets in `data/` that hold what is set up, with the mock profile and usual trips the prototype starts from.
 
 ## Acceptance criteria
 - **Given** <situation> **when** <event> **then** <observable result>
@@ -206,6 +242,12 @@ Elements marked [not traced] or [technology choice open], each linked to its fil
 One row per element that a specification needs and another provides.
 
 | Element | Provided by | Used by |
+| --- | --- | --- |
+
+## Components and datasets
+One row per web component and per dataset in `data/`.
+
+| Component or dataset | Defined in | Used by |
 | --- | --- | --- |
 
 ## User stories and specifications
