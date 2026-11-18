@@ -4,10 +4,11 @@
  *   as facts with their source, time and status (SPEC-01, SPEC-03).
  * Used by: today.html, run.html, connection.html, alerts.html, timing.html, stop.html
  * Fields: id{service, operator, from, to, dep, arr, platform_dep, usual_platform, platform_arr, usual_delay, next[],
- *   alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note}],
+ *   alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note,
+ *     legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}],
  *   by_scenario{key: {state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[{label, value, source, time, status}]}}}
  * Source: mock
- * Updated: 2026-11-18
+ * Updated: 2026-11-19
  */
 window.DATA = window.DATA || {};
 DATA.runs = {
@@ -20,15 +21,73 @@ DATA.runs = {
     // other ways to make this leg, shown on the Run page when the run is late or cancelled (SPEC-02).
     // Realistic mock: times and durations from public timetables (Frecciarossa ~1h13, Italo ~1h12,
     // Trenord RE6 ~1h50 via Brescia, FlixBus Verona Viale Palladio to Milano Lampugnano ~2h10); not real departures.
+    // the legs from this one to the door if the commuter chooses it (legs_after), and the points of its route for the map.
+    // Coordinates are approximate; the map is a sketch drawn from them, not a real map (OQ-36).
     alternatives: [
       { id: "A1", mode: "train", service: "High-speed 9715", operator: "National rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
-        dep: "08:15", arr: "09:28", door_arrival: "09:48", ticket_valid: true, cost: "€ 0, your ticket can be moved", source: "Schedule" },
+        dep: "08:15", arr: "09:28", door_arrival: "09:51", ticket_valid: true, cost: "€ 0, your ticket can be moved", source: "Schedule",
+        legs_after: [
+          { mode: "train",       service: "High-speed 9715", from: "Verona Porta Nuova", to: "Milano Centrale", dep: "08:15", arr: "09:28", stage: "main leg" },
+          { mode: "underground", service: "Underground M2",  from: "Milano Centrale FS", to: "Loreto",          dep: "09:40", arr: "09:43", stage: "transfer" },
+          { mode: "walk",        from: "Loreto", to: "Milan apartment", minutes: 8, stage: "last mile" }
+        ],
+        route: [
+          { name: "Verona Porta Nuova", lat: 45.4290, lon: 10.9825, mode: "train" },
+          { name: "Desenzano", lat: 45.4706, lon: 10.5395, mode: "train" },
+          { name: "Brescia", lat: 45.5329, lon: 10.2129, mode: "train" },
+          { name: "Milano Centrale", lat: 45.4862, lon: 9.2040, mode: "underground" },
+          { name: "Loreto", lat: 45.4858, lon: 9.2160, mode: "walk" },
+          { name: "Milan apartment", lat: 45.4889, lon: 9.2205 }
+        ] },
       { id: "A2", mode: "train", service: "Italo high-speed 8925", operator: "Private rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
-        dep: "08:08", arr: "09:20", door_arrival: "09:40", ticket_valid: false, cost: "€ 24.90", source: "Schedule" },
+        dep: "08:08", arr: "09:20", door_arrival: "09:43", ticket_valid: false, cost: "€ 24.90", source: "Schedule",
+        legs_after: [
+          { mode: "train",       service: "Italo high-speed 8925", from: "Verona Porta Nuova", to: "Milano Centrale", dep: "08:08", arr: "09:20", stage: "main leg" },
+          { mode: "underground", service: "Underground M2",        from: "Milano Centrale FS", to: "Loreto",          dep: "09:32", arr: "09:35", stage: "transfer" },
+          { mode: "walk",        from: "Loreto", to: "Milan apartment", minutes: 8, stage: "last mile" }
+        ],
+        route: [
+          { name: "Verona Porta Nuova", lat: 45.4290, lon: 10.9825, mode: "train" },
+          { name: "Brescia", lat: 45.5329, lon: 10.2129, mode: "train" },
+          { name: "Milano Centrale", lat: 45.4862, lon: 9.2040, mode: "underground" },
+          { name: "Loreto", lat: 45.4858, lon: 9.2160, mode: "walk" },
+          { name: "Milan apartment", lat: 45.4889, lon: 9.2205 }
+        ] },
       { id: "A3", mode: "train", service: "Regional RE6 2610", operator: "Regional rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
-        dep: "07:58", arr: "09:48", door_arrival: "10:08", ticket_valid: false, cost: "€ 13.25", source: "Schedule", note: "Stops at Brescia; no seat booking" },
+        dep: "07:58", arr: "09:48", door_arrival: "10:11", ticket_valid: false, cost: "€ 13.25", source: "Schedule", note: "Stops at Brescia; no seat booking",
+        legs_after: [
+          { mode: "train",       service: "Regional RE6 2610", from: "Verona Porta Nuova", to: "Milano Centrale", dep: "07:58", arr: "09:48", stage: "main leg" },
+          { mode: "underground", service: "Underground M2",    from: "Milano Centrale FS", to: "Loreto",          dep: "10:00", arr: "10:03", stage: "transfer" },
+          { mode: "walk",        from: "Loreto", to: "Milan apartment", minutes: 8, stage: "last mile" }
+        ],
+        route: [
+          { name: "Verona Porta Nuova", lat: 45.4290, lon: 10.9825, mode: "train" },
+          { name: "Peschiera", lat: 45.4386, lon: 10.6918, mode: "train" },
+          { name: "Desenzano", lat: 45.4706, lon: 10.5395, mode: "train" },
+          { name: "Brescia", lat: 45.5329, lon: 10.2129, mode: "train" },
+          { name: "Treviglio", lat: 45.5160, lon: 9.5900, mode: "train" },
+          { name: "Milano Centrale", lat: 45.4862, lon: 9.2040, mode: "underground" },
+          { name: "Loreto", lat: 45.4858, lon: 9.2160, mode: "walk" },
+          { name: "Milan apartment", lat: 45.4889, lon: 9.2205 }
+        ] },
       { id: "A4", mode: "coach", service: "FlixBus coach", operator: "Coach operator", from: "Verona, Viale Palladio", to: "Milano Lampugnano",
-        dep: "08:20", arr: "10:30", door_arrival: "10:55", ticket_valid: false, cost: "€ 9.99", source: "Schedule", note: "5 minutes' walk from the station; underground M1 from Lampugnano" }
+        dep: "08:20", arr: "10:30", door_arrival: "11:09", ticket_valid: false, cost: "€ 9.99", source: "Schedule",
+        note: "5 minutes' walk from the station; underground M1 from Lampugnano straight to Loreto",
+        legs_after: [
+          { mode: "walk",        from: "Verona Porta Nuova", to: "Verona, Viale Palladio", minutes: 5, stage: "first mile" },
+          { mode: "coach",       service: "FlixBus coach",  from: "Verona, Viale Palladio", to: "Milano Lampugnano", dep: "08:20", arr: "10:30", stage: "main leg" },
+          { mode: "underground", service: "Underground M1", from: "Lampugnano", to: "Loreto", dep: "10:36", arr: "11:01", stage: "transfer" },
+          { mode: "walk",        from: "Loreto", to: "Milan apartment", minutes: 8, stage: "last mile" }
+        ],
+        route: [
+          { name: "Verona Porta Nuova", lat: 45.4290, lon: 10.9825, mode: "walk" },
+          { name: "Viale Palladio", lat: 45.4310, lon: 10.9870, mode: "coach" },
+          { name: "Brescia (motorway)", lat: 45.5250, lon: 10.1700, mode: "coach" },
+          { name: "Bergamo (motorway)", lat: 45.6600, lon: 9.6700, mode: "coach" },
+          { name: "Milano Lampugnano", lat: 45.4893, lon: 9.1265, mode: "underground" },
+          { name: "Loreto", lat: 45.4858, lon: 9.2160, mode: "walk" },
+          { name: "Milan apartment", lat: 45.4889, lon: 9.2205 }
+        ] }
     ],
     by_scenario: {
       none:    { state: "planned", delay: 0, exp_dep: "07:45", exp_arr: "08:58", platform: "4", position: "Not yet departed",

@@ -7,6 +7,7 @@ One HTML file per screen; `index.html` is the entry point. Each file loads the s
 | `index.html` | The starting point: a notification from the app; opening it lands on the Run page. Below, all screens for review | — | SPEC-02 (the message) |
 | `today.html` | The start page: the trip followed today, leg by leg, with state, platforms, change and arrival at the door; with nothing set up, the invitation to set up the first trip | PG-01 Today | SPEC-04, SPEC-01 (start page) |
 | `run.html` | The runs of one trip with their real state, the alternatives for a leg that fails, the other trips; `?trip=` or `?run=` chooses the trip, `?scenario=` the scenario | PG-02 Run | SPEC-02 |
+| `alternative.html` | One alternative for a leg that is late or cancelled: details, a sketch of its route, the trip with it, and "Choose this way"; `?run=`, `?alt=`, `?trip=` | PG-17 Alternative | SPEC-02 |
 | `trips.html` | The commuter's trips and the one followed today | PG-16 Trips | SPEC-17 |
 
 - Screens are built one specification at a time, from `../../04_Specifications/`. Links to screens not built yet show as plain text.

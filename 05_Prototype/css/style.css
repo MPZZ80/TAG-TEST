@@ -23,13 +23,17 @@
   --colour-warn: #a35200;
   --colour-bad: #b3261e;
   --colour-message: #fff6d6;
+  --colour-train: #1a5fb4;
+  --colour-coach: #26a269;
+  --colour-underground: #c01c28;
+  --colour-walk: #77767b;
 }
 
 * { box-sizing: border-box; }
 
 /* Custom elements are inline by default; the components hold blocks, so they are blocks too. Add each new component here. */
 scenario-switch, fact-line, run-card, usual-delay, message-preview, missing-setup, source-gap,
-first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem { display: block; }
+first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem, route-map, confirm-choice { display: block; }
 
 body {
   margin: 0;
@@ -137,3 +141,18 @@ summary { cursor: pointer; color: var(--colour-accent); }
 h4 { font-size: var(--size-text); margin: 0 0 var(--space-1); }
 .alt { margin-left: var(--space-3); }
 .card > h4:first-child { margin-top: 0; }
+
+/* The sketch of a route: one colour per means of transport. */
+route-map svg { width: 100%; height: auto; background: var(--colour-surface); border: 1px solid var(--colour-line); border-radius: var(--radius); }
+.seg { stroke-width: 3; stroke-linecap: round; }
+.seg-train { stroke: var(--colour-train); }
+.seg-coach { stroke: var(--colour-coach); }
+.seg-underground { stroke: var(--colour-underground); }
+.seg-walk { stroke: var(--colour-walk); stroke-dasharray: 4 3; }
+.stop { fill: var(--colour-surface); stroke: var(--colour-text); stroke-width: 1.5; }
+.stop-label { font-size: 9px; fill: var(--colour-text); }
+.key { padding-left: var(--space-3); border-left: 12px solid var(--colour-walk); margin-right: var(--space-2); }
+.key-train { border-left-color: var(--colour-train); }
+.key-coach { border-left-color: var(--colour-coach); }
+.key-underground { border-left-color: var(--colour-underground); }
+.legs .chosen { font-weight: 600; }

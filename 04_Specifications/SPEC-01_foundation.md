@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 23:55
+date: 2026-11-19 00:13
 method: synthesis
 status: draft
 grade: n/a
@@ -136,7 +136,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | `<leg-problem>` | What changes a leg the commuter makes on their own: traffic or an accident on a car leg, works or a closed street on a walking leg, with the extra minutes, the way round and its source, age and status; nothing when the leg is clear | `leg_events.<trip>-<leg>.by_scenario.<scenario>` | none | SPEC-02, SPEC-04 |
 | `<first-trip-cta>` | The invitation to set up the first trip, in place of a behaviour that needs one | `ui_text.run.no_trip_*` | "Set up your first trip", which leads to Trips (or to the set-up, from Trips) | SPEC-01 (Start page), SPEC-02, SPEC-17 |
 | `<way-card>` | One way of completing a trip: legs, departure, arrival at the door, cost or price, and, where known, ticket validity and how full it is expected to be | one way of `ways.search.ways[]` or `ways.ways_out.ways[]` | choosing the way | SPEC-05, SPEC-08 |
-| `<confirm-choice>` | A proposed change and its yes and no; nothing changes until yes; no answer leaves everything as it was | the proposal passed by the specification | yes, no, the moment passing | SPEC-05, SPEC-10, SPEC-15 |
+| `<confirm-choice>` | A proposed change and its yes and no; nothing changes until yes; no answer leaves everything as it was | the proposal passed by the specification | yes, no, the moment passing | SPEC-02, SPEC-05, SPEC-10, SPEC-15 |
 | `<missing-setup>` | What is missing for a behaviour, and a link to the step of the initial set-up where it is entered | `profile`, `scenarios.list.<key>.setup`, `ui_text.common.missing` | "Set it up" | every specification |
 | `<message-preview>` | A message that would reach the commuter, or a contact, outside the product: its channel and its text, at the top of the page | `notifications.<screen>.<scenario or any>[]` | the "Simulate a message" control; dismiss | SPEC-02, SPEC-03, SPEC-05, SPEC-06, SPEC-07, SPEC-11, SPEC-13 to SPEC-16 |
 | `<scenario-switch>` | The scenario the prototype shows: nothing set up, on time, late, cancelled; for testing, not part of the product | `scenarios` | choosing a scenario | every specification |
@@ -148,7 +148,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | Dataset | What it holds | Fields | Used by |
 | --- | --- | --- | --- |
 | `profile` | What the commuter set up (Initial set-up, below) | `persona`, `doors[{id, name, place}]`, `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}]`, `days[]`, `own_rules{min_change, per_station[{station, minutes}], margin, max_changes, own_leg}`, `needs{step_free}`, `channels[]`, `position` | every specification |
-| `runs` | The runs of the commuter's trips, planned, their real state in each scenario as facts, and the other ways to make each leg | `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay{minutes, runs}`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note}]`, `by_scenario.<key>{state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[]}` | SPEC-02 to SPEC-07, SPEC-09, SPEC-14 |
+| `runs` | The runs of the commuter's trips, planned, their real state in each scenario as facts, and the other ways to make each leg | `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay{minutes, runs}`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, legs_after[], route[]}]`, `by_scenario.<key>{state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[]}` | SPEC-02 to SPEC-07, SPEC-09, SPEC-14 |
 | `connections` | The change on the usual trip and its state in each scenario | `station`, `from_run`, `to_run`, `walk_minutes`, `board_where`, `by_scenario.<key>{state, margin, next_dep, door_arrival, warn_at, request_answer}`, `request_answer_text` | SPEC-04, SPEC-07, SPEC-09 |
 | `ways` | The ways from door to door for a search, and the ways out when the trip breaks | `search{from, to, day, leave_after, ways[]}`, `ways_out{from, last_way, ways[]}` | SPEC-05, SPEC-08, SPEC-10 |
 | `tickets` | The tickets the commuter holds, bought in the product or entered | `[{id, title, covers, seller, entered, state, code, moves[{to, cost}]}]` | SPEC-10, SPEC-12 |
@@ -159,7 +159,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | `ui_text` | Every interface text: titles, labels, buttons, messages, state names | `common`, `nav[]`, `weekdays[]`, `channel_options[]`, `modes`, `states`, one object per page | every specification |
 
 - **Events from outside are simulated.** What the product cannot reach without a backend (an operator's live data, other travellers' reports, an answer from another service, a message on a channel outside the product) is a dataset. An event it would send (a delay, a cancellation, an answer, an incoming message) is triggered by `<scenario-switch>`, by the "Simulate a message" control, or by a timer on the mock clock, and its content comes from the data.
-- **From one page to the next.** What the commuter chooses on one page reaches the next in the address of the page (for example the scenario, the run or the way chosen: `?scenario=late&run=HS9707`). Nothing else is passed and nothing is stored.
+- **From one page to the next.** What the commuter chooses on one page reaches the next in the address of the page (for example the scenario, the run, the way or the alternative chosen: `?scenario=late&run=HS9707`, `?choice=HS9707:A4`). Nothing else is passed and nothing is stored.
 - **How the files are laid out** is in [Prototype_Instructions.md](../05_Prototype/instructions/Prototype_Instructions.md); the specifications name components and datasets, not files.
 
 ## Information architecture
@@ -188,6 +188,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | PG-14 | **Contacts** | The people kept informed about a trip, what each shares, and the messages they receive | Today ("Tell someone"); Set-up; Ways out | [SPEC-06](SPEC-06_those-waiting-are-told.md) the whole page |
 | PG-15 | **Set-up** | The initial set-up, step by step, and later where each element is changed or deleted: doors, usual trip, days, own rules, needs, channels, position | Today at the first opening; the navigation; every "Set it up" link | [SPEC-01](SPEC-01_foundation.md) the whole page (Initial set-up); [SPEC-08](SPEC-08_every-way-door-to-door.md) a way saved as usual arrives here |
 | PG-16 | **Trips** | The commuter's trips door to door, as a free list, and the one followed today | The navigation; the invitation to set up the first trip | [SPEC-17](SPEC-17_trips.md) the whole page |
+| PG-17 | **Alternative** | One way to replace a leg that is late or cancelled: its details, a sketch of its route, the trip as it would become, and the choice to take it | An alternative on Run | [SPEC-02](SPEC-02_real-state-of-the-run.md) the whole page |
 
 - **Pages, not layout:** the order above is the order of importance; where each part sits on the page is left to the design, except that on Today the trip of the day comes first, with nothing in front of it (F-11, F-24).
 

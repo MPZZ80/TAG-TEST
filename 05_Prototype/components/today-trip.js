@@ -11,21 +11,29 @@
   // <today-trip trip="ID">: each leg in order with its run, state and platforms, the change, and the arrival at the door.
   class TodayTrip extends HTMLElement {
     connectedCallback() {
-      const trip = P.trip(this.getAttribute("trip")) || P.followedTrip();
-      const conn = DATA.connections.by_scenario[P.scenarioKey];
-      const broken = P.scenario.trip_state === "broken";
+      const planned = P.trip(this.getAttribute("trip")) || P.followedTrip();
+      const trip = P.effectiveTrip(planned); // with an alternative chosen, its legs replace the planned ones (SPEC-02)
+      const conn = trip.chosen ? null : DATA.connections.by_scenario[P.scenarioKey];
+      const broken = !trip.chosen && P.scenario.trip_state === "broken";
       this.className = "card";
       this.appendChild(P.el("h2", "", trip.name));
-      this.appendChild(P.el("p", P.stateClass(broken ? "cancelled" : "on time"), T.states.trip[P.scenario.trip_state] || P.scenario.trip_state));
+      this.appendChild(P.el("p", P.stateClass(broken ? "cancelled" : "on time"), trip.chosen
+        ? P.fill(T.run.chosen_notice, { service: trip.chosen.alt.service, instead: DATA.runs[trip.chosen.run].service, door: P.doorName(trip.to), time: trip.chosen.alt.door_arrival })
+        : T.states.trip[P.scenario.trip_state] || P.scenario.trip_state));
 
       const list = P.el("ol", "legs");
       trip.legs.forEach(function (l) {
         const li = P.el("li");
         const mode = T.modes[l.mode] || l.mode;
+        if (l.chosen && l.dep) {
+          li.appendChild(P.el("p", "", l.service + " · " + P.fill(TD.run_times, l)));
+          list.appendChild(li);
+          return;
+        }
         if (!l.run || !DATA.runs[l.run]) {
           li.appendChild(P.el("p", "muted", mode + ": " + l.from + " → " + l.to + (l.minutes ? " · " + l.minutes + " min" : "")));
           const problem = document.createElement("leg-problem");
-          problem.setAttribute("leg", trip.id + "-" + (trip.legs.indexOf(l) + 1));
+          if (!l.chosen) problem.setAttribute("leg", planned.id + "-" + (planned.legs.indexOf(l) + 1));
           li.appendChild(problem);
           list.appendChild(li);
           return;
@@ -57,8 +65,10 @@
       });
       this.appendChild(list);
 
-      const doorName = (DATA.profile.doors.find(function (d) { return d.id === trip.to; }) || { name: trip.to }).name;
-      if (broken || !conn || !conn.door_arrival || conn.door_arrival === "—") {
+      const doorName = P.doorName(trip.to);
+      if (trip.chosen) {
+        this.appendChild(P.el("p", "", P.fill(TD.door, { door: doorName, time: trip.chosen.alt.door_arrival })));
+      } else if (broken || !conn || !conn.door_arrival || conn.door_arrival === "—") {
         this.appendChild(P.el("p", "notice", P.fill(TD.door_unknown, { door: doorName })));
         const out = P.el("p");
         out.appendChild(P.link("ways_out.html", TD.ways_out));

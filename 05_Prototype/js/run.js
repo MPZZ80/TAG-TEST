@@ -24,23 +24,43 @@
     || P.followedTrip();
   main.appendChild(P.el("p", "muted", trip.name));
 
+  // With an alternative chosen, the legs from the replaced one to the door are the alternative's.
+  const today = P.effectiveTrip(trip);
+  if (today.chosen) {
+    const box = P.el("div", "card notice");
+    box.appendChild(P.el("p", "", P.fill(R.chosen_notice, { service: today.chosen.alt.service, instead: DATA.runs[today.chosen.run].service,
+      door: P.doorName(trip.to), time: today.chosen.alt.door_arrival })));
+    const undo = P.el("p");
+    undo.appendChild(P.link("run.html", R.undo, { trip: trip.id, nochoice: "1" }));
+    box.appendChild(undo);
+    main.appendChild(box);
+  }
+
   // Every leg in a section of its own, in the order of the trip, with its means of transport. A leg with a run
   // holds the run and, if it is late or cancelled, the alternatives for that same leg; a leg the commuter makes
   // on their own (car, on foot) holds its means and time. The next leg is a separate section.
-  trip.legs.forEach(function (l, n) {
+  today.legs.forEach(function (l, n) {
     const mode = P.T.modes[l.mode] || l.mode;
     const section = P.el("section", "leg");
     if (l.run) section.id = l.run;
-    section.appendChild(P.el("h2", "", P.fill(R.leg_title, { n: n + 1, total: trip.legs.length, stage: l.stage, mode: mode })));
+    section.appendChild(P.el("h2", "", P.fill(R.leg_title, { n: n + 1, total: today.legs.length, stage: l.stage, mode: mode })));
     section.appendChild(P.el("p", "meta", P.fill(R.leg_route, l)));
     main.appendChild(section); // in the page first, so that the components draw themselves
+    if (l.chosen && l.dep) {
+      const c = P.el("div", "card");
+      c.appendChild(P.el("h3", "", l.service));
+      c.appendChild(P.el("p", "meta", R.chosen_label));
+      c.appendChild(P.el("p", "", P.fill(R.times, l)));
+      section.appendChild(c);
+      return;
+    }
     if (!l.run || !DATA.runs[l.run]) {
       const own = P.el("div", "card");
       own.appendChild(P.el("p", "", P.fill(R.own_leg, { mode: mode, from: l.from, to: l.to, minutes: l.minutes })));
       own.appendChild(P.el("p", "meta", R.own_leg_note));
       section.appendChild(own);
       const problem = document.createElement("leg-problem"); // traffic, an accident, works or a closed street
-      problem.setAttribute("leg", trip.id + "-" + (n + 1));
+      if (!l.chosen) problem.setAttribute("leg", trip.id + "-" + (trip.legs.indexOf(l) + 1));
       own.appendChild(problem);
       return;
     }
@@ -51,6 +71,7 @@
     if (s.state === "late" || s.state === "cancelled") {
       const alt = document.createElement("leg-alternatives");
       alt.setAttribute("run", l.run);
+      alt.setAttribute("trip", trip.id);
       section.appendChild(alt);
     }
   });

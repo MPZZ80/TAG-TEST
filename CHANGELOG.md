@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-19 00:13
+
+- **Files:** created `05_Prototype/html/alternative.html`, `05_Prototype/js/alternative.js`, `05_Prototype/components/route-map.js`, `05_Prototype/components/confirm-choice.js`, `04_Specifications/01_Open_Questions/OQ-36_the-map-of-a-route.md`; changed `05_Prototype/js/common.js`, `run.js`, `05_Prototype/components/leg-alternatives.js`, `today-trip.js`, `05_Prototype/html/run.html`, `05_Prototype/data/runs.js`, `ui_text.js`, `screens.js`, `05_Prototype/css/style.css`, the READMEs of `05_Prototype/html/`, `js/`, `components/`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`, the index and README of `01_Open_Questions/`; `Index.md`
+- **Change:** Each alternative for a late or cancelled leg opens a page of its own (PG-17 Alternative): details, a sketch of its route drawn from approximate points (one colour per means, labels that never overlap), the trip as it would become, and the arrival at the door compared with the current one. "Choose this way" asks yes or no (`<confirm-choice>`); after yes, Run and Today follow the alternative, with a line saying what was chosen and a way back to the planned trip; the choice passes in the address (`?choice=HS9707:A4`). Mock data: for each of the four alternatives, the legs to the door (`legs_after`) and the points of the route; with the FlixBus, on foot to Viale Palladio, the coach to Milano Lampugnano, the underground M1 from Lampugnano to Loreto (not the M2: Lampugnano is on the M1), on foot to the apartment, at 11:09 instead of 09:39. SPEC-02 rules 15 and 16, pages, components, datasets, simulated events and three acceptance criteria; SPEC-04 rule 5; SPEC-01 page PG-17 and the choice in the address; OQ-36 opened on the map service ([technology choice open]).
+- **Why:** Marco asked to open the details of an alternative, with a map of the route, and to choose it in place of the late or cancelled run, so that the whole trip updates (with the FlixBus to Lampugnano, the underground from Lampugnano instead of Centrale, still to Loreto), to see the difference.
+
 ## 2026-11-19 00:02
 
 - **Files:** `AGENTS.md`, `01_Research/02_Plan/02_desk_research_instructions.md`

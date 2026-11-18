@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 23:55
+date: 2026-11-19 00:13
 method: generated
 status: draft
 grade: n/a
@@ -857,3 +857,4 @@ One line per Markdown file of the `01_Research/`, `02_Analysis/`, `03_Ideation/`
 - OQ-33_the-reminder-interval.md — [design, desk, questions, tools, first-last-mile · draft · n/a · n/a]
 - OQ-34_days-of-travel-with-a-list-of-trips.md — [design, desk, questions, planning, usual-trip · draft · n/a · n/a]
 - OQ-35_problems-on-car-and-walking-legs.md — [design, desk, questions, disruption, first-last-mile · draft · n/a · n/a]
+- OQ-36_the-map-of-a-route.md — [design, internal, questions, disruption, mode-choice · draft · n/a · n/a]

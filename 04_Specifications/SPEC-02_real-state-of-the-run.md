@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-18 23:55
+date: 2026-11-19 00:13
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, unreliable-service]
-related: [OQ-35_problems-on-car-and-walking-legs.md, US-F-01_real-state-vehicle-source.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, HMW-03_help-teenager-waiting-late-evening.md, SPEC-17_trips.md, F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-03_alerts-on-the-usual-trip.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-09_times-that-can-be-kept.md, SPEC-12_compensation-from-the-trip.md, SPEC-14_stop-approaching.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-06_length-of-the-record-of-past-runs.md]
+related: [OQ-36_the-map-of-a-route.md, OQ-35_problems-on-car-and-walking-legs.md, US-F-01_real-state-vehicle-source.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, HMW-03_help-teenager-waiting-late-evening.md, SPEC-17_trips.md, F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-03_alerts-on-the-usual-trip.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-09_times-that-can-be-kept.md, SPEC-12_compensation-from-the-trip.md, SPEC-14_stop-approaching.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-06_length-of-the-record-of-past-runs.md]
 ---
 
 # SPEC-02: The Real State of the Run
@@ -62,6 +62,8 @@ Tells the commuter, for the runs of a trip door to door, where each really is, w
   12. Show the commuter's other trips door to door in a section of their own, each leading to its runs on this page.
   13. With no trip set up, show only the invitation to set up the first trip, and nothing about runs.
   14. On a leg the commuter makes on their own, show what changes it: traffic or an accident on a car leg, works or a closed street on a walking leg; each with the extra minutes, the way round when there is one, and its source, age and status, as for a run. The way round is shown, never applied: the decision stays with the commuter (foundation, Principle 4; a drive under way is [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md)). A clear leg shows nothing more. Whether commuters want this for car and walking legs is [not traced], and where the data come from is [technology choice open] ([OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md)).
+  15. Each alternative leads to a page of its own with its details, a sketch of its route on a map, the trip door to door as it would become with it (the legs before the replaced one stay; the legs from it to the door come from the alternative: for a coach to Milano Lampugnano, the underground from Lampugnano and not from Centrale), and the arrival at the door compared with the current one, or with the planned one when the run is cancelled.
+  16. "Choose this way" asks first; after the commuter's yes the trip of today follows the alternative on every page (Run, Today), with a line saying what was chosen instead of what and the new arrival at the door, and a way back to the planned trip. Nothing changes without yes (foundation, Principle 4). Booking or buying the alternative is not part of the choice ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
 - **States:** The run states of the foundation: planned, on time, late (minutes), departed, arrived, cancelled, no news.
 - **The user receives:** Inside the product: the runs of the trip with their state, the facts under "Details", the sources in a dialog when they disagree, the alternatives for a leg that fails, the other trips. A message on the commuter's channel when a run of their trip is cancelled, or when its delay changes, with the new expected time, the platform and the source, so that they know as early as an unofficial app would tell them (F-01). One message per change: nothing is sent again while nothing changes (foundation, Channels). The kinds of event and the moments of a travel day the commuter set in [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) apply to these messages too.
 - **Depends on:** The list of trips and the trip followed today ([SPEC-17](SPEC-17_trips.md)); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); The other ways to make a leg (this specification, from the schedule)
@@ -69,7 +71,7 @@ Tells the commuter, for the runs of a trip door to door, where each really is, w
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Run** (PG-02): the whole page; **Today (start page)** (PG-01): the state of each run, as a line of the trip.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Run** (PG-02): the whole page; **Alternative** (PG-17): the whole page, for one alternative; **Today (start page)** (PG-01): the state of each run, as a line of the trip, and the trip as changed by a chosen alternative.
 - **Components:**
   - `<run-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, with the state first, the information button when sources disagree, "Why" only for a problem, and the facts and `<usual-delay>` under "Details".
   - `<fact-line>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, inside "Details" and in the dialog.
@@ -78,15 +80,18 @@ Tells the commuter, for the runs of a trip door to door, where each really is, w
   - `<leg-alternatives>`: the other ways to make one leg, as cards: service, operator, source, departure and arrival, arrival at the door, ticket validity and cost, a note; reads `runs.<id>.alternatives`; no events (choosing and booking a way are [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) and [SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
   - `<trip-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips.
   - `<first-trip-cta>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, in place of the runs when nothing is set up.
+  - `<route-map>`: a sketch of the route of an alternative on a map, one colour per means of transport, with the names of the stops that do not overlap and a legend; reads `runs.<id>.alternatives[].route`; no events. A real map is [technology choice open] ([OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md)).
+  - `<confirm-choice>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, before an alternative is chosen.
   - `<leg-problem>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, in the section of a car or walking leg.
 - **Datasets:**
-  - `runs` (defined in the foundation): `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note}]`, `by_scenario.<key>.state`, `delay`, `exp_dep`, `exp_arr`, `platform`, `platform_may_change`, `position`, `reason`, `facts[]`.
+  - `runs` (defined in the foundation): `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}]`, `by_scenario.<key>.state`, `delay`, `exp_dep`, `exp_arr`, `platform`, `platform_may_change`, `position`, `reason`, `facts[]`.
   - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[]}]`, `doors`.
   - `leg_events` (defined in the foundation): `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status}]`: what changes a car or walking leg.
   - `notifications` (defined in the foundation): `today.<scenario>[]`: the message sent when the delay of a run of the trip changes (`late`) or the run is cancelled (`cancelled`).
 - **Simulated events:**
   - The message on the commuter's channel is the starting point of the prototype: a notification from the app with the text of `notifications.today`; opening it lands on this page in its scenario (`late` or `cancelled`).
   - A new fact about the run (a delay, a cancellation, a reason): the scenario selector moves to `late` or `cancelled`, and the runs show the facts of that scenario.
+  - Choosing an alternative: the choice passes from page to page in the address (`?choice=HS9707:A4`), so that Run and Today show the trip as changed; going back to the planned trip removes it. Nothing is stored.
   - Traffic, an accident or works on a car or walking leg: in the data of the scenario (`leg_events`); in the product they would come from a traffic service and from the city's notices of road works ([OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md)).
 
 ## When things go wrong
@@ -99,7 +104,7 @@ Tells the commuter, for the runs of a trip door to door, where each really is, w
 
 ## Out of scope
 
-Choosing or booking an alternative, and the ways out door to door: [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md). Connections: [SPEC-07](SPEC-07_the-connection-ahead.md). Adding, renaming, deleting and choosing the trips: [SPEC-17](SPEC-17_trips.md). Which kinds of event the commuter is told about, at which moments of a travel day, and the works and strikes announced for coming days: alerts ([SPEC-03](SPEC-03_alerts-on-the-usual-trip.md)).
+Booking or buying an alternative: [SPEC-10](SPEC-10_tickets-that-work-when-needed.md). The ways out door to door, from wherever the commuter is: [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md). Connections: [SPEC-07](SPEC-07_the-connection-ahead.md). Adding, renaming, deleting and choosing the trips: [SPEC-17](SPEC-17_trips.md). Which kinds of event the commuter is told about, at which moments of a travel day, and the works and strikes announced for coming days: alerts ([SPEC-03](SPEC-03_alerts-on-the-usual-trip.md)).
 
 ## Acceptance criteria
 
@@ -115,6 +120,9 @@ Choosing or booking an alternative, and the ways out door to door: [SPEC-05](SPE
 - **Given** a message already sent for a delay of 18 minutes **when** nothing changes **then** no other message is sent.
 - **Given** the commuter has three trips **when** they open one **then** the other two are listed under "Your other trips", each leading to its runs.
 - **Given** no fact for longer than the age limit **when** the commuter looks **then** they see "no news since <time>".
+- **Given** the high-speed train 18 minutes late **when** the commuter opens the FlixBus alternative **then** they see its details, a sketch of its route, the trip with it (on foot to Viale Palladio, the coach to Milano Lampugnano, the M1 from Lampugnano to Loreto, on foot to the apartment) and "At Milan apartment around 11:09, instead of 09:39".
+- **Given** the page of an alternative **when** the commuter taps "Choose this way" and answers no **then** nothing changes.
+- **Given** the commuter chose the FlixBus **when** they open Run or Today **then** the trip shows the coach and the M1 in place of the train and the M2, with "You chose FlixBus coach instead of High-speed 9707" and the new arrival, and they can go back to the planned trip.
 - **Given** an accident on the ring road reported by a traffic service **when** the commuter opens the trip **then** the car leg shows "Accident: +10 min", the way round and its source and age, and the route is not changed.
 - **Given** Via Padova closed for works **when** the commuter opens the trip **then** the walking leg shows "Works: +3 min" and the way round along Viale Monza, with the city's notice as source.
 
@@ -124,6 +132,7 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 
 - **[OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md)** Which sources tell the real position and the expected time of a vehicle (the operator, the position of travellers on board, what travellers report), and which one leads when they disagree? [not traced] Research: partly.
 - **[OQ-02](01_Open_Questions/OQ-02_age-limit-of-a-fact.md)** After how long without news is a fact (a time, a state, a position) marked outdated, and a run marked `no news`? [not traced] Research: ⚠ not supported.
+- **[OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md)** Which map shows the route of an alternative in the product, and from which service? [technology choice open] Research: ⚠ not supported.
 - **[OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md)** Do commuters want to be told of traffic, accidents and works on their car and walking legs, and which services would tell the product? [not traced] [technology choice open] Research: partly.
 - **[OQ-06](01_Open_Questions/OQ-06_length-of-the-record-of-past-runs.md)** Over how many past runs, or how long a period, is the record kept to tell how late a run usually is? [not traced] Research: ⚠ not supported.
 
@@ -151,3 +160,4 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [HMW-03_help-teenager-waiting-late-evening.md](../03_Ideation/01_How_Might_We/HMW-03_help-teenager-waiting-late-evening.md): the problem question written from story F-02.
 - [SPEC-17_trips.md](SPEC-17_trips.md): provides the list of trips and the trip followed today.
 - [OQ-35_problems-on-car-and-walking-legs.md](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md): an open question this specification raises.
+- [OQ-36_the-map-of-a-route.md](01_Open_Questions/OQ-36_the-map-of-a-route.md): an open question this specification raises.

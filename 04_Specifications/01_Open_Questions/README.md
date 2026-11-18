@@ -40,6 +40,7 @@ The questions the specifications leave open, one file each, with the chain that 
 | `OQ-33_the-reminder-interval.md` | The reminder interval for a running session (SPEC-16; research: ⚠ not supported) |
 | `OQ-34_days-of-travel-with-a-list-of-trips.md` | Days of travel with a list of trips (SPEC-17; research: ⚠ not supported) |
 | `OQ-35_problems-on-car-and-walking-legs.md` | Problems on car and walking legs, and the source of the data (SPEC-02; research: partly) |
+| `OQ-36_the-map-of-a-route.md` | The map of the route of an alternative (SPEC-02; research: ⚠ not supported) |
 
 - 33 questions, all `open`. Research support: 2 supported, 9 partly, 22 not supported (marked ⚠).
 - Read the index first, then open only the question you need. Each file holds the question, why it is open, the chain to the research and what the research says.

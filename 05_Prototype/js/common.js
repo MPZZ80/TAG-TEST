@@ -26,6 +26,8 @@
     if (built.indexOf(file) === -1) return el("span", "not-built", label);
     const q = new URLSearchParams(extra || {});
     q.set("scenario", scenarioKey);
+    if (params.get("choice") && !q.has("choice") && !(extra && extra.nochoice)) q.set("choice", params.get("choice"));
+    q.delete("nochoice");
     const a = el("a", "", label);
     a.href = file + "?" + q.toString();
     return a;
@@ -70,7 +72,27 @@
   function trip(id) { return DATA.profile.trips.find(function (t) { return t.id === id; }); }
   function followedTrip() { return DATA.profile.trips.find(function (t) { return t.monitored; }) || DATA.profile.trips[0]; }
 
+  // An alternative the commuter chose for a leg (SPEC-02): ?choice=RUN:ALT, kept from page to page.
+  function choice() {
+    const c = (params.get("choice") || "").split(":");
+    const r = DATA.runs[c[0]];
+    const alt = r && r.alternatives ? r.alternatives.find(function (a) { return a.id === c[1]; }) : null;
+    return alt ? { run: c[0], alt: alt } : null;
+  }
+
+  // The trip as it is today: with a chosen alternative, the legs from the replaced one to the door come from it.
+  function effectiveTrip(t, ch) {
+    ch = ch === undefined ? choice() : ch;
+    const i = ch ? t.legs.findIndex(function (l) { return l.run === ch.run; }) : -1;
+    if (i < 0) return Object.assign({}, t, { chosen: null });
+    const after = ch.alt.legs_after.map(function (l) { return Object.assign({ chosen: true }, l); });
+    return Object.assign({}, t, { legs: t.legs.slice(0, i).concat(after), chosen: ch });
+  }
+
+  function doorName(id) { const d = DATA.profile.doors.find(function (x) { return x.id === id; }); return d ? d.name : id; }
+
   window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: DATA.scenarios.list[scenarioKey],
     fill: fill, el: el, link: link, runState: runState, stateClass: stateClass, shell: shell,
-    disagreeing: disagreeing, trip: trip, followedTrip: followedTrip };
+    disagreeing: disagreeing, trip: trip, followedTrip: followedTrip,
+    choice: choice, effectiveTrip: effectiveTrip, doorName: doorName };
 })();

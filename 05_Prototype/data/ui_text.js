@@ -5,7 +5,7 @@
  * Used by: every screen
  * Fields: common, nav[{file, label}], weekdays[], channel_options[], modes, states, one object per screen
  * Source: mock
- * Updated: 2026-11-18
+ * Updated: 2026-11-19
  */
 window.DATA = window.DATA || {};
 DATA.ui_text = {
@@ -33,7 +33,7 @@ DATA.ui_text = {
   ],
   weekdays: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
   channel_options: ["Notification on the phone", "Text message", "Spoken, while driving"],
-  modes: { lift: "Lift", train: "Train", underground: "Underground", walk: "On foot", car: "Car", bus: "Bus", bicycle: "Bicycle" },
+  modes: { lift: "Lift", train: "Train", underground: "Underground", walk: "On foot", car: "Car", bus: "Bus", coach: "Coach", bicycle: "Bicycle" },
   states: {
     trip: { planned: "Planned", today: "Today", "under way": "Under way", completed: "Completed", broken: "Broken", abandoned: "Abandoned" },
     run: { planned: "Planned", "on time": "On time", late: "Late, {delay} min", departed: "Departed", arrived: "Arrived", cancelled: "Cancelled", "no news": "No news" },
@@ -142,6 +142,10 @@ DATA.ui_text = {
     leg_problem: "{kind}: +{minutes} min",
     leg_kinds: { traffic: "Traffic", accident: "Accident", works: "Works", closed: "Street closed" },
     detour: "Way round",
+    alt_details: "Details and map",
+    chosen_notice: "You chose {service} instead of {instead}. At {door} around {time}.",
+    chosen_label: "Your choice, from the schedule",
+    undo: "Go back to the planned trip",
     leg_route: "{from} → {to}",
     alternatives: "Alternatives for this leg",
     alt_times: "{from} {dep} → {to} {arr}",
@@ -153,6 +157,20 @@ DATA.ui_text = {
     no_trip_title: "No trip set up yet",
     no_trip_text: "Set up your first trip, and its runs will show here with their real state.",
     no_trip_cta: "Set up your first trip"
+  },
+  alternative: {
+    title: "Alternative",
+    map: "The route",
+    map_note: "A sketch of the route from approximate points, not a real map.",
+    rest: "Your trip with this way",
+    door_compare: "At {door} around {time}, instead of {current}.",
+    door_compare_planned: "At {door} around {time}; the trip as planned would arrive at {planned}.",
+    choose: "Choose this way",
+    confirm_title: "Take {service} instead of {instead}?",
+    confirm_text: "Your trip of today changes from this leg to the door. Nothing changes until you say yes.",
+    back: "Back to the state of the run",
+    leg_times: "{from} {dep} → {to} {arr}",
+    leg_walk: "{mode}: {from} → {to}, about {minutes} min"
   },
   trips: {
     title: "Trips",

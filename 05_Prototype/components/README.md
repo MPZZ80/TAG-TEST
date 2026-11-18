@@ -13,6 +13,8 @@ The web components of the prototype, one file per component, named after its tag
 | `source-gap.js` | `<source-gap>`: two sources that disagree, and the gap, shown in a dialog | SPEC-02 | SPEC-02 |
 | `today-trip.js` | `<today-trip>`: the trip followed today, leg by leg, with the change and the arrival at the door | SPEC-04 | SPEC-04 |
 | `leg-alternatives.js` | `<leg-alternatives>`: the other ways to make a leg that is late or cancelled | SPEC-02 | SPEC-02 |
+| `route-map.js` | `<route-map>`: a sketch of the route of an alternative, from approximate points | SPEC-02 | SPEC-02 |
+| `confirm-choice.js` | `<confirm-choice>`: asks yes or no before anything changes | SPEC-01 | SPEC-02, later SPEC-05, SPEC-10, SPEC-15 |
 | `trip-card.js` | `<trip-card>`: one trip door to door, leading to its runs | SPEC-01 | SPEC-02, SPEC-17 |
 | `first-trip-cta.js` | `<first-trip-cta>`: the invitation to set up the first trip | SPEC-01 | SPEC-01, SPEC-02, SPEC-17 |
 

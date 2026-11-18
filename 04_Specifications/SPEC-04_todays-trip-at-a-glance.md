@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 23:55
+date: 2026-11-19 00:13
 method: synthesis
 status: draft
 grade: n/a
@@ -52,7 +52,7 @@ Opens the product on the trip the commuter is about to make today: its run, stat
   2. Mark a platform that differs from the usual one, and a platform that may still change.
   3. Show nothing in front of the trip information: no announcement, offer or request comes before it.
   4. Let the commuter confirm or change the run they take today; this becomes the trip of the day.
-  5. A way chosen in SPEC-08 for today becomes the trip of the day.
+  5. A way chosen in SPEC-08 for today becomes the trip of the day; so does an alternative chosen for a leg in [SPEC-02](SPEC-02_real-state-of-the-run.md): its legs replace the planned ones from that leg to the door, and the arrival at the door is the alternative's.
   6. Move the trip of the day through its states (today, under way, completed) as its runs move.
 - **States:** Trip states of the foundation: planned, today, under way, completed, broken, abandoned.
 - **The user receives:** Inside the product, on opening: the trip of the day and its state.

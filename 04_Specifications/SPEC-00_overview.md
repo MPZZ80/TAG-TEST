@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 23:55
+date: 2026-11-19 00:13
 method: synthesis
 status: draft
 grade: n/a
@@ -11,7 +11,7 @@ related: [Spec_instructions.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the
 
 # Specifications: Overview
 
-24 user stories, all with the same weight: the chosen concept is not followed for now. They are covered by 17 specifications: the foundation, which also designs the architecture, the information architecture (16 pages, proposed), the start page and the initial set-up, and 16 behaviours. No story is left out. Written with [Spec_instructions.md](Spec_instructions.md), for a frontend-only prototype made of web components, with all data from mock datasets in `data/`.
+24 user stories, all with the same weight: the chosen concept is not followed for now. They are covered by 17 specifications: the foundation, which also designs the architecture, the information architecture (17 pages, proposed), the start page and the initial set-up, and 16 behaviours. No story is left out. Written with [Spec_instructions.md](Spec_instructions.md), for a frontend-only prototype made of web components, with all data from mock datasets in `data/`.
 
 Read [SPEC-01_foundation.md](SPEC-01_foundation.md) first: its Architecture names the shared components and datasets, its Start page and Initial set-up are where the commuter begins and enters what every other behaviour relies on. Then open only the specification you need.
 
@@ -87,7 +87,7 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<run-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | `<usual-delay>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
 | `<way-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-08](SPEC-08_every-way-door-to-door.md) |
-| `<confirm-choice>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) |
+| `<confirm-choice>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) |
 | `<missing-setup>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-09](SPEC-09_times-that-can-be-kept.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-12](SPEC-12_compensation-from-the-trip.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
 | `<message-preview>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
 | `<scenario-switch>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-09](SPEC-09_times-that-can-be-kept.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-12](SPEC-12_compensation-from-the-trip.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
@@ -95,6 +95,7 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<setup-flow>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md) |
 | `<source-gap>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | `<leg-alternatives>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
+| `<route-map>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | `<trip-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-17](SPEC-17_trips.md) |
 | `<first-trip-cta>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-17](SPEC-17_trips.md) |
 | `<leg-problem>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) |
@@ -168,6 +169,7 @@ One row per page of the information architecture proposed in [SPEC-01](SPEC-01_f
 | PG-14 **Contacts** | The people kept informed about a trip, what each shares, and the messages they receive | Today ("Tell someone"); Set-up; Ways out | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
 | PG-15 **Set-up** | The initial set-up, step by step, and later where each element is changed or deleted: doors, usual trip, days, own rules, needs, channels, position | Today at the first opening; the navigation; every "Set it up" link | [SPEC-01](SPEC-01_foundation.md), [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | PG-16 **Trips** | The commuter's trips door to door, as a free list, and the one followed today | The navigation; the invitation to set up the first trip | [SPEC-17](SPEC-17_trips.md) |
+| PG-17 **Alternative** | One way to replace a leg that is late or cancelled: details, a sketch of its route, the trip as it would become, the choice to take it | An alternative on Run | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 
 ## User stories and specifications
 
@@ -259,6 +261,7 @@ All the open questions of the specifications, 33 in all, one file each in [01_Op
 | [OQ-33](01_Open_Questions/OQ-33_the-reminder-interval.md) | The reminder interval for a running session | SPEC-16 | [not traced] | ⚠ not supported |
 | [OQ-34](01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md) | Days of travel with a list of trips | SPEC-17 | [not traced] | ⚠ not supported |
 | [OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md) | Problems on car and walking legs: whether commuters want them, and the source of the data | SPEC-02 | [not traced] [technology choice open] | partly |
+| [OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md) | The map of a route | SPEC-02 | [technology choice open] | ⚠ not supported |
 
 ## Connections
 
@@ -287,5 +290,6 @@ All the open questions of the specifications, 33 in all, one file each in [01_Op
 - [04_Ideas_prioritization.md](../03_Ideation/02_Ideas/04_Ideas_prioritization.md): the family marks quoted.
 - [00_Open_questions_index.md](01_Open_Questions/00_Open_questions_index.md): the open questions of the specifications, one file each, traced to the research.
 - [SPEC-17_trips.md](SPEC-17_trips.md): a specification this overview maps.
-- [OQ-34_days-of-travel-with-a-list-of-trips.md, OQ-35_problems-on-car-and-walking-legs.md](01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md): an open question of the specifications.
+- [OQ-34_days-of-travel-with-a-list-of-trips.md, OQ-35_problems-on-car-and-walking-legs.md, OQ-36_the-map-of-a-route.md](01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md): an open question of the specifications.
 - [OQ-35_problems-on-car-and-walking-legs.md](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md): an open question of the specifications.
+- [OQ-36_the-map-of-a-route.md](01_Open_Questions/OQ-36_the-map-of-a-route.md): an open question of the specifications.
