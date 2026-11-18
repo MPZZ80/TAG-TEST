@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 19:28
+
+- **Files:** deleted `04_Specifications/01_Open_Questions/` (index, README, `OQ-01` to `OQ-33`), `05_Prototype/html/` (17 screens), `05_Prototype/js/` (18 scripts), `05_Prototype/css/style.css`; changed `05_Prototype/instructions/Prototype_Instructions.md`, the `README.md` of `05_Prototype/` and of its `html/`, `js/`, `css/`, `assets/`, `data/` folders, `04_Specifications/README.md`, `Index.md`, `AGENTS.md`
+- **Change:** The open questions and the prototype draft deleted. Kept: the prototype folders with their READMEs, the mock datasets in `data/`, `Prototype_Instructions.md` and `Spec_instructions.md`. Links and `related` entries to the open questions removed; READMEs, Index and AGENTS layout rows updated. The rule on open questions stays in `Spec_instructions.md` for the next round.
+- **Why:** Marco: "Delete also Open questions and the prototype, just leave the scaffolding folders and data and Prototype_Instructions.md".
+
 ## 2026-11-18 19:25
 
 - **Files:** deleted `04_Specifications/SPEC-00_overview.md` to `SPEC-17_sessions-still-running.md`; changed `02_Analysis/03_User_Stories/US-F-*.md` (24), `02_Analysis/03_User_Stories/00_User_Stories_index.md`, `02_Analysis/03_User_Stories/README.md`, `04_Specifications/01_Open_Questions/` (index, README, `OQ-01` to `OQ-33`), `04_Specifications/README.md`, `05_Prototype/instructions/Prototype_Instructions.md`, `Index.md`, `AGENTS.md`

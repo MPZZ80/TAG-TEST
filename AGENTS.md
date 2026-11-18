@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-18 19:22
+date: 2026-11-18 19:28
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -35,8 +35,7 @@ Repository layout:
 | `03_Ideation/00_Ideation_Prompts/` | The course prompts for the ideation steps: How-Might-We, ideation, clustering, prioritisation, concept |
 | `03_Ideation/_old/` | The first round of ideation, archived when the process was restarted |
 | `04_Specifications/` | The instructions for writing the specifications from the user stories, and the specifications themselves, one file per behaviour (deleted on 2026-11-18, to be rewritten) |
-| `04_Specifications/01_Open_Questions/` | The open questions of the specifications, one file each, with the chain that links it to the research and its state; kept after the specifications were deleted |
-| `05_Prototype/` | The frontend-only prototype (HTML, CSS, JavaScript, mock data) and its instructions in `instructions/Prototype_Instructions.md`; first draft built on 2026-11-16 |
+| `05_Prototype/` | The frontend-only prototype: its instructions in `instructions/Prototype_Instructions.md`, the mock datasets in `data/`, and the empty folders for screens, scripts, style and assets (the first draft was deleted on 2026-11-18) |
 
 Put a new document in the folder it belongs to, not in the root. Create a new folder only when a document fits none of these.
 

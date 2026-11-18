@@ -5,11 +5,10 @@ The frontend-only prototype of the product: interface, flows and interactions, i
 | Folder | What it is |
 | --- | --- |
 | `instructions/` | The rules for building the prototype. Read `Prototype_Instructions.md` first |
-| `html/` | One file per screen; `index.html` lists them all |
-| `js/` | One script per screen, plus `common.js` |
-| `data/` | The mock datasets every screen reads, and the interface texts |
-| `css/` | `style.css`, the placeholder style |
+| `data/` | The mock datasets and the interface texts, kept from the first draft |
+| `html/` | One file per screen; empty for now |
+| `js/` | One script per screen, plus `common.js`; empty for now |
+| `css/` | `style.css`, the placeholder style; empty for now |
 | `assets/` | Images, icons and fonts; empty for now |
 
-- First draft, built on 2026-11-16: 16 screens, one for each specification from SPEC-02 to SPEC-17, plus the index.
-- Open `html/index.html` in a browser. The scenario selector at the top of every screen switches between nothing set up, on time, late and cancelled.
+- The first draft was deleted on 2026-11-18, to be rebuilt once the specifications are rewritten. The datasets in `data/` are kept; their comments still name the screens, specifications and open questions of the deleted draft.

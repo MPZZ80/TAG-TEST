@@ -25,5 +25,5 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 | `ways.js` | the ways from door to door for a search (SPEC-09) and the ways out when the trip breaks (SPEC-06). |
 
 - All data are mock, for one commuter, the Verona–Milan commuter, so that every screen tells the same story.
-- Values a specification leaves open are provisional: a comment names the open question (`OQ-…`).
+- Values a specification leaves open are provisional: a comment names the open question (`OQ-…`). The screens, specifications and open questions named in the comments were deleted on 2026-11-18.
 - Real client data go into the same file with the same fields; the mock version is kept beside it as `<name>.mock.js`.
