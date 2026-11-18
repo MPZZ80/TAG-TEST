@@ -4,6 +4,18 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 20:46
+
+- **Files:** created `05_Prototype/components/` with `README.md`, `scenario-switch.js`, `fact-line.js`, `run-card.js`, `usual-delay.js`, `message-preview.js`, `missing-setup.js`, `source-gap.js`; changed `05_Prototype/js/common.js`, `05_Prototype/js/run.js`, `05_Prototype/html/run.html`, `05_Prototype/html/index.html`, `05_Prototype/instructions/Prototype_Instructions.md`, the `README.md` of `05_Prototype/` and `js/`, `AGENTS.md`
+- **Change:** The web components moved out of `common.js` and `run.js` into `components/`, one file per component named after its tag, each with a header comment (definition, users, data, events). `common.js` keeps the app bar and the helpers (`Proto`) the components use; the screens load the components after `common.js`. Prototype instructions: folder structure, load order and a rule for web components. `AGENTS.md`: log entry 48, layout row of `05_Prototype/`. Checked in headless Chrome: the screens render in every scenario with no console error.
+- **Why:** Marco asked to create a components folder with the web components.
+
+## 2026-11-18 20:15
+
+- **Files:** `AGENTS.md`, `01_Research/02_Plan/02_desk_research_instructions.md`
+- **Change:** New instruction 47: in this phase no automatic commit or push; changes stay in the working tree until Marco asks. Instruction 34 marked as suspended by 47; the desk research instructions point to 47.
+- **Why:** Marco: "Non fare più commit e push automatici in questa fase" (no more automatic commits and pushes in this phase); reason not stated.
+
 ## 2026-11-18 20:04
 
 - **Files:** created: `05_Prototype/css/style.css`, `05_Prototype/js/common.js`, `05_Prototype/js/run.js`, `05_Prototype/js/index.js`, `05_Prototype/html/run.html`, `05_Prototype/html/index.html`; changed: `05_Prototype/data/screens.js`, `05_Prototype/data/ui_text.js`, the `README.md` of `05_Prototype/` and of its `html/`, `js/`, `css/`, `data/` folders, `04_Specifications/SPEC-01_foundation.md`

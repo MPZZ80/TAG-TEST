@@ -7,7 +7,8 @@ The frontend-only prototype of the product: interface, flows and interactions, i
 | `instructions/` | The rules for building the prototype. Read `Prototype_Instructions.md` first |
 | `data/` | The mock datasets and the interface texts, kept from the first draft |
 | `html/` | One file per screen: `index.html` and `run.html` (SPEC-02) so far |
-| `js/` | One script per screen, plus `common.js` with the shared components |
+| `js/` | One script per screen, plus `common.js` with the app bar and the shared helpers |
+| `components/` | The web components, one file per component |
 | `css/` | `style.css`, the placeholder style |
 | `assets/` | Images, icons and fonts; empty for now |
 

@@ -1,6 +1,6 @@
 ---
 source: Marco
-date: 2026-11-18 19:55
+date: 2026-11-18 20:46
 method: generated
 status: draft
 grade: n/a
@@ -38,6 +38,7 @@ How an agent builds the prototype of the product in `05_Prototype/`. Read this f
 ├── html/           one HTML file per screen; index.html is the entry point
 ├── css/            style.css, the only stylesheet (placeholder for now, see section 4)
 ├── js/             one script per screen, plus common.js for what several screens share
+├── components/     the web components, one file per component, named after its tag
 ├── data/           the datasets, one file per dataset (see section 5)
 ├── assets/         images, icons and fonts
 └── instructions/   this file and any other instructions for the prototype
@@ -45,8 +46,9 @@ How an agent builds the prototype of the product in `05_Prototype/`. Read this f
 
 - Every folder has a `README.md` that lists its files; keep it current, as `AGENTS.md` requires.
 - Name files in lowercase with underscores: `trip_detail.html`, `trip_detail.js`. A screen and its script share the name.
-- Paths are relative: from an HTML file, `../css/style.css`, `../js/…`, `../data/…`, `../assets/…`.
-- Each HTML file loads, in this order: `../css/style.css`, the data files it needs, `../js/common.js`, its own script.
+- Paths are relative: from an HTML file, `../css/style.css`, `../js/…`, `../components/…`, `../data/…`, `../assets/…`.
+- Each HTML file loads, in this order: `../css/style.css`, the data files it needs, `../js/common.js`, the components it uses from `../components/`, its own script.
+- **Web components** (the interface is made of them, as the specifications require): one file per component in `components/`, named after its tag (`run-card.js` defines `<run-card>`), starting with a comment that names the component, the specification that defines it, the specifications that use it, the data it reads and the events it reacts to. A component reads its data from `DATA` and uses the helpers of `common.js`; it does not depend on a screen's script.
 
 ## 4. Style
 

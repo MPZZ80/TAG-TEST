@@ -1,8 +1,7 @@
 /*
  * Script: common, loaded by every screen after the data files.
  * Shows: the shared parts of SPEC-01 (Architecture): the app bar with navigation and <scenario-switch>,
- *   and the web components two or more specifications share: <fact-line>, <run-card>, <usual-delay>,
- *   <message-preview>, <missing-setup>.
+ *   and the helpers the web components in ../components/ use (Proto). Loaded before the components.
  */
 (function () {
   const T = DATA.ui_text;
@@ -52,123 +51,12 @@
     document.body.insertBefore(bar, document.body.firstChild);
   }
 
-  // <scenario-switch>: for testing, not part of the product (SPEC-01, Architecture).
-  class ScenarioSwitch extends HTMLElement {
-    connectedCallback() {
-      const label = el("label", "meta", T.common.scenario + " ");
-      const select = el("select");
-      Object.keys(DATA.scenarios.list).forEach(function (k) {
-        const o = el("option", "", DATA.scenarios.list[k].label);
-        o.value = k;
-        if (k === scenarioKey) o.selected = true;
-        select.appendChild(o);
-      });
-      select.addEventListener("change", function () {
-        const q = new URLSearchParams(location.search);
-        q.set("scenario", select.value);
-        location.search = q.toString();
-      });
-      label.appendChild(select);
-      this.appendChild(label);
-    }
-  }
-
-  // <fact-line>: one fact with its source, time and status. Set .fact before adding it to the page.
-  class FactLine extends HTMLElement {
-    connectedCallback() {
-      const f = this.fact;
-      if (!f) return;
-      this.className = "fact fact-" + f.status;
-      const p = el("p");
-      p.appendChild(el("strong", "", f.label + ": "));
-      p.appendChild(el("span", "fact-value", f.value));
-      this.appendChild(p);
-      this.appendChild(el("p", "meta", fill(T.common.fact_meta, f)));
-    }
-  }
-
   // The state of a run in the current scenario.
   function runState(id) {
     const r = DATA.runs[id];
     return r ? Object.assign({ id: id, run: r }, r.by_scenario[scenarioKey]) : null;
   }
 
-  // <run-card run="ID">: one run, planned and expected, with every fact and "no news since" when nothing is known.
-  class RunCard extends HTMLElement {
-    connectedCallback() {
-      const s = runState(this.getAttribute("run"));
-      if (!s) return;
-      const r = s.run, R = T.run;
-      this.className = "card";
-      this.appendChild(el("h2", "", r.service));
-      this.appendChild(el("p", "meta", fill(R.operator, r)));
-      this.appendChild(el("p", stateClass(s.facts.length ? s.state : "no news"),
-        s.facts.length ? fill(T.states.run[s.state], s) : T.states.run["no news"]));
-      this.appendChild(el("p", "", R.planned + ": " + fill(R.times, r)));
-      const expected = s.state === "cancelled" ? R.not_running
-        : fill(R.times, { from: r.from, dep: s.exp_dep, to: r.to, arr: s.exp_arr });
-      if (s.facts.length) this.appendChild(el("p", "", R.expected + ": " + expected));
-      this.appendChild(el("p", "", fill(T.today.platform, s) + (s.platform_may_change ? " · " + T.today.platform_may_change : "")));
-      if (s.facts.length) {
-        this.appendChild(el("p", "", R.position + ": " + (s.position || R.unknown)));
-        this.appendChild(el("p", "", R.reason + ": " + (s.reason || R.no_reason)));
-      } else {
-        this.appendChild(el("p", "notice", fill(R.no_news, { time: DATA.scenarios.list[scenarioKey].now })));
-      }
-    }
-  }
-
-  // <usual-delay run="ID">: how late a run usually is.
-  class UsualDelay extends HTMLElement {
-    connectedCallback() {
-      const r = DATA.runs[this.getAttribute("run")];
-      if (r && r.usual_delay) this.appendChild(el("p", "meta", fill(T.run.usual_delay, r.usual_delay)));
-    }
-  }
-
-  // <message-preview screen="key">: a message outside the product, shown when the "Simulate a message" control is used.
-  class MessagePreview extends HTMLElement {
-    connectedCallback() {
-      const set = DATA.notifications[this.getAttribute("screen")] || {};
-      const messages = set[scenarioKey] || set.any || [];
-      if (!messages.length) return;
-      const self = this;
-      const button = el("button", "", T.common.simulate);
-      button.type = "button";
-      button.addEventListener("click", function () {
-        messages.forEach(function (m) {
-          const box = el("div", "message");
-          box.setAttribute("role", "status");
-          box.appendChild(el("p", "meta", m.channel));
-          box.appendChild(el("p", "", m.text));
-          const close = el("button", "", T.common.dismiss);
-          close.type = "button";
-          close.addEventListener("click", function () { box.remove(); });
-          box.appendChild(close);
-          self.appendChild(box);
-        });
-      });
-      this.appendChild(button);
-    }
-  }
-
-  // <missing-setup what="usual_trip">: what is missing, and where it is set up (SPEC-01, Initial set-up).
-  class MissingSetup extends HTMLElement {
-    connectedCallback() {
-      const what = T.setup[this.getAttribute("what")] || this.getAttribute("what");
-      const p = el("p", "notice", fill(T.common.missing, { what: what.toLowerCase() }) + " ");
-      p.appendChild(link("setup.html", T.common.set_it_up));
-      this.appendChild(p);
-    }
-  }
-
-  customElements.define("scenario-switch", ScenarioSwitch);
-  customElements.define("fact-line", FactLine);
-  customElements.define("run-card", RunCard);
-  customElements.define("usual-delay", UsualDelay);
-  customElements.define("message-preview", MessagePreview);
-  customElements.define("missing-setup", MissingSetup);
-
   window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: DATA.scenarios.list[scenarioKey],
-    fill: fill, el: el, link: link, runState: runState, shell: shell };
+    fill: fill, el: el, link: link, runState: runState, stateClass: stateClass, shell: shell };
 })();
