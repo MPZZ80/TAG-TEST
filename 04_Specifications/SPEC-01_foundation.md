@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-18 20:04
 method: synthesis
 status: draft
 grade: n/a
@@ -122,7 +122,7 @@ The product helps a person who commutes, often between cities and on more than o
 
 How the product is built for testing UX, UI and flows. Stories: all 24. Used by: every specification.
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): .
+- **Pages:** the pages of the information architecture (below); each specification names those it uses.
 - **Frontend only.** No backend, no API, no server-side code. The product does not compute, store or fetch anything for real: it shows the interface, the flows and the interactions so that they can be tested. What the commuter types is shown on the page, not kept; to change what the prototype starts from, change the datasets.
 - **Web components.** Every part of the interface is a web component. The components two or more specifications share:
 

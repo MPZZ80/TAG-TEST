@@ -5,7 +5,7 @@
  * Used by: every screen
  * Fields: common, nav[{file, label}], weekdays[], channel_options[], modes, states, one object per screen
  * Source: mock
- * Updated: 2026-11-16
+ * Updated: 2026-11-18
  */
 window.DATA = window.DATA || {};
 DATA.ui_text = {
@@ -46,9 +46,9 @@ DATA.ui_text = {
   },
   index: {
     title: "All screens",
-    intro: "The first draft of the prototype: one screen for each specification, from SPEC-02 to SPEC-17.",
+    intro: "The screens built so far, one for each specification, from the specifications of 2026-11-18.",
     screens: "Screens",
-    screen_meta: "{specs} · {stage}",
+    screen_meta: "{page} · {specs} · {stage}",
     about: "About this draft",
     about_text: "Every screen follows one commuter, {persona}, and reads the same mock data, so all screens tell one story.",
     scenario_text: "Use the scenario selector at the top of any screen to see the trip with nothing set up, on time, late or cancelled."
@@ -132,6 +132,7 @@ DATA.ui_text = {
     facts: "What each source says",
     no_news: "No news since {time}. The planned time is not the real one.",
     disagree: "Sources disagree on {label}: {values}.",
+    gap: "Gap between them: {minutes} minutes.",
     usual_delay: "This run is usually {minutes} minutes late (last {runs} runs).",
     other_runs: "Other runs of your trips"
   },

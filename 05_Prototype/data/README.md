@@ -15,7 +15,7 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 | `profile.js` | the commuter's set-up (SPEC-02): doors, usual trip, days of travel, own rules,  needs on the way, channels, consent to use position. Every screen reads it, so all screens agree. |
 | `runs.js` | the runs of the commuter's trips, planned, and their real state in each scenario,  as facts with their source, time and status (SPEC-01, SPEC-03). |
 | `scenarios.js` | the scenarios the selector switches between, and the mock clock of each. |
-| `screens.js` | the list of the screens of the prototype, with the specification each shows, for the index. |
+| `screens.js` | the screens built so far, with their page and specification, for the index and for the links between screens. |
 | `sessions.js` | a parking session at the station and a shared bike ride at the Milan end (SPEC-17),  with the return zones near the destination. |
 | `stations.js` | the state of the stations on the trip at the hour of travel (SPEC-14): parking and bike places,  staff, light on the walk, lifts; each as a fact with its source and age. |
 | `stop.js` | the run the commuter is on and the stop to get off (SPEC-15), and how the warning is repeated. |

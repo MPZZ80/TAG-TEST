@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-18 20:04
+
+- **Files:** created: `05_Prototype/css/style.css`, `05_Prototype/js/common.js`, `05_Prototype/js/run.js`, `05_Prototype/js/index.js`, `05_Prototype/html/run.html`, `05_Prototype/html/index.html`; changed: `05_Prototype/data/screens.js`, `05_Prototype/data/ui_text.js`, the `README.md` of `05_Prototype/` and of its `html/`, `js/`, `css/`, `data/` folders, `04_Specifications/SPEC-01_foundation.md`
+- **Change:** SPEC-02 built in the prototype following SPEC-01: page PG-02 Run, with the app bar (mock clock, navigation, scenario selector) and the shared components `<scenario-switch>`, `<fact-line>`, `<run-card>`, `<usual-delay>`, `<message-preview>`, `<missing-setup>` in `common.js`, and `<source-gap>` in `run.js`; an index of the screens built so far. `screens.js` now lists only the screens built (links to the others show as plain text); `ui_text.js` gains the text of the gap between two sources. In SPEC-01, the empty "Pages" line of the Architecture section, left by the earlier change, now points to the information architecture.
+- **Why:** Marco asked to run SPEC-02 following SPEC-01.
+
 ## 2026-11-18 19:55
 
 - **Files:** created again in `04_Specifications/`: `SPEC-00_overview.md`, `SPEC-01_foundation.md`, `SPEC-02_real-state-of-the-run.md` to `SPEC-16_sessions-still-running.md`, and `01_Open_Questions/` (`README.md`, index, `OQ-01` to `OQ-33`). Changed again: `04_Specifications/README.md`, the 24 story files, the feature, question, touchpoint, source and interview files the specifications and open questions cite, `05_Prototype/instructions/Prototype_Instructions.md`, `Index.md`, `AGENTS.md` (layout row).
