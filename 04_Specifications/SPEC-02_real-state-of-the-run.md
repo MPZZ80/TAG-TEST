@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 18:19
+date: 2026-11-21 18:24
 method: synthesis
 status: draft
 grade: n/a
@@ -53,14 +53,14 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
   3. For a run that is not cancelled, show the planned and expected departure and arrival, the platform, and where the run is now.
   4. Show "Why" only when the run is late or cancelled and a source gives the reason; a run with no problem has no "Why".
   5. For a cancelled run, show only that it is cancelled, with its source, and why; not the planned and expected times, the platform or the position.
-  6. Show a map of the leg at the top: its route in the colour of its means, its stops, the vehicle where it is now, moving as its position changes, and, on a leg made on one's own, where it is blocked and the way round. When the run is late or cancelled, the alternatives are drawn on the same map in grey. Where the live position comes from is open ([OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md)); which map is [technology choice open] ([OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md)).
+  6. Under the card of the leg, show a map of the leg: its route in the colour of its means, its stops, the vehicle where it is now, moving as its position changes, and, on a leg made on one's own, where it is blocked and the way round. When the run is late or cancelled, the alternatives are drawn on the same map in grey. Where the live position comes from is open ([OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md)); which map is [technology choice open] ([OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md)).
   7. Show the stops of the run, each with its planned time and its expected time; the expected times move with the expected departure; a cancelled run, or one with no news, has no expected times.
   8. Keep the facts behind the card (every figure with its source, age and status) and how late the run usually is under "Details", closed until the commuter opens it.
   9. When two sources give different figures for the same thing, show an information button next to the state; it opens a dialog with each figure, its source and age, and the gap between them.
   10. Show the run as cancelled only when a source says so; a growing delay alone never shows it as cancelled.
   11. When no source has said anything for longer than the age limit, show "no news since <time>".
   12. Keep each run's facts over time, so that how late a run usually is can be told (record of past runs).
-  13. Under the card of a run that is late or cancelled, show the other ways to make the same leg, in grey, as on the map; tapping one selects it, draws its route in colour on the map and shows "Choose" (rule 18): the next runs of the same service, other operators on the same line, other means such as a coach; each with its departure and arrival, arrival at the door, whether the commuter's ticket is valid on it, its cost, and its source.
+  13. Under the map of a run that is late or cancelled, show the other ways to make the same leg as small slots in a row that scrolls, at most 8, each with only its kind (for example "Regional"), its arrival time and the time it takes; their routes are grey on the map. Tapping a slot selects it, draws its route in colour on the map and opens its details under the row: the service, operator and source, departure and arrival with the time it takes, where it arrives (saying so when it is not where the leg was planned to arrive, for example Milano Lampugnano instead of Milano Centrale), arrival at the door, ticket validity and cost, a note, "Choose" (rule 18) and a link to its page. Each alternative also has a page of its own:
   14. The commuter's other trips are listed on Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), not here.
   15. With no trip set up, show only the invitation to set up the first trip, and nothing about runs.
   16. On a leg the commuter makes on their own, show what changes it: traffic or an accident on a car leg, works or a closed street on a walking leg; each with the extra minutes, the way round when there is one, and its source, age and status, as for a run. The way round is shown, never applied: the decision stays with the commuter (foundation, Principle 4; a drive under way is [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md)). A clear leg shows nothing more. Whether commuters want this for car and walking legs is [not traced], and where the data come from is [technology choice open] ([OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md)).
@@ -82,7 +82,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
   - `<leg-map>`: the map of the leg: its route, its stops with labels that never overlap, the vehicle at its live position, the alternatives in grey (one in colour when selected), the place where a car or walking leg is blocked and the way round; reads `runs.<id>.approach`, `.stops`, `.alternatives[].route`, `by_scenario.<key>.pos`, or the `route` of a leg and its `leg_events`; reacts to an alternative being selected.
   - The grey background of both maps (`MapBase`, a helper, not a component): towns with a street grid on city maps, lakes and rivers, the motorway, main roads and streets with their names, the railway; a placeholder for a real map; reads `map_features`.
   - `<run-stops>`: the stops of the run in a table, with the planned and the expected time of each; reads `runs.<id>.stops` and the expected departure of the scenario; no events.
-  - `<leg-alternatives>`: the other ways to make one leg, as cards: service, operator, source, departure and arrival, arrival at the door, ticket validity and cost, a note; reads `runs.<id>.alternatives`; no events (choosing and booking a way are [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) and [SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
+  - `<leg-alternatives>`: small slots in a row that scrolls (kind, arrival, time it takes; at most 8), and the details of the slot tapped with "Choose"; reads `runs.<id>.alternatives` (with `short`, the kind shown on the slot); sends "alt-select" and "alt-choose". Before: the other ways to make one leg, as cards: service, operator, source, departure and arrival, arrival at the door, ticket validity and cost, a note; reads `runs.<id>.alternatives`; no events (choosing and booking a way are [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) and [SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
   - `<trip-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips.
   - `<first-trip-cta>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, in place of the runs when nothing is set up.
   - `<route-map>`: a sketch of the route of an alternative on a map, one colour per means of transport, with the names of the stops that do not overlap and a legend; reads `runs.<id>.alternatives[].route`; no events. A real map is [technology choice open] ([OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md)).
@@ -112,7 +112,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
 
 ## Out of scope
 
-Booking or buying an alternative: [SPEC-10](SPEC-10_tickets-that-work-when-needed.md). The ways out door to door, from wherever the commuter is: [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md). Connections: [SPEC-07](SPEC-07_the-connection-ahead.md). Adding, renaming, deleting and choosing the trips: [SPEC-17](SPEC-17_trips.md). Which kinds of event the commuter is told about, at which moments of a travel day, and the works and strikes announced for coming days: alerts ([SPEC-03](SPEC-03_alerts-on-the-usual-trip.md)).
+Booking or buying an alternative: [SPEC-10](SPEC-10_tickets-that-work-when-needed.md). The layout on a phone is to be designed: one idea is a map that stays fixed while the alternatives sit on a sheet that scrolls over it, as in map apps (Marco, 2026-11-21). The ways out door to door, from wherever the commuter is: [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md). Connections: [SPEC-07](SPEC-07_the-connection-ahead.md). Adding, renaming, deleting and choosing the trips: [SPEC-17](SPEC-17_trips.md). Which kinds of event the commuter is told about, at which moments of a travel day, and the works and strikes announced for coming days: alerts ([SPEC-03](SPEC-03_alerts-on-the-usual-trip.md)).
 
 ## Acceptance criteria
 
@@ -129,7 +129,8 @@ Booking or buying an alternative: [SPEC-10](SPEC-10_tickets-that-work-when-neede
 - **Given** no fact for longer than the age limit **when** the commuter looks **then** they see "no news since <time>".
 - **Given** the high-speed train 18 minutes late **when** the commuter opens the FlixBus alternative **then** they see its details, a sketch of its route, the trip with it (on foot to Viale Palladio, the coach to Milano Lampugnano, the M1 from Lampugnano to Loreto, on foot to the apartment) and "At Milan apartment around 11:09, instead of 09:39".
 - **Given** the high-speed train late **when** the commuter opens its leg **then** the map shows its route, the train moving towards Verona Porta Nuova, and the four alternatives in grey.
-- **Given** the alternatives in grey **when** the commuter taps the FlixBus card **then** its route turns to colour on the map, the card is highlighted and shows "Choose"; tapping "Choose" and answering yes updates the trip of today.
+- **Given** the high-speed train late **when** the commuter looks under the map **then** four small slots show "High-speed 09:28 · 1 h 13 min", "Italo 09:20 · 1 h 12 min", "Regional 09:48 · 1 h 50 min", "FlixBus 10:30 · 2 h 10 min".
+- **Given** the four slots **when** the commuter taps FlixBus **then** its route turns to colour on the map and its details open, saying it arrives at Milano Lampugnano instead of Milano Centrale; tapping "Choose" and answering yes updates the trip of today.
 - **Given** the leg on foot with Via Padova closed **when** the commuter opens it **then** the map shows the closed point and the way round.
 - **Given** the page of an alternative **when** the commuter taps "Choose this way" and answers no **then** nothing changes.
 - **Given** the commuter chose the FlixBus **when** they open Run or Today **then** the trip shows the coach and the M1 in place of the train and the M2, with "You chose FlixBus coach instead of High-speed 9707" and the new arrival, and they can go back to the planned trip.

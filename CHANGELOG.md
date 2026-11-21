@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 18:24
+
+- **Files:** `05_Prototype/components/leg-alternatives.js`, `05_Prototype/js/run.js`, `05_Prototype/data/runs.js`, `ui_text.js`, `05_Prototype/css/style.css`, `04_Specifications/SPEC-02_real-state-of-the-run.md`
+- **Change:** On the leg detail: title and subtitle, the state, then the card of the leg and under it the map (order swapped). The alternatives became small slots under the map, in a row that scrolls, at most 8, each with only its kind, arrival time and the time it takes (new field `short` in the alternatives); tapping one draws its route in colour on the map and opens its details under the row, with where it arrives (saying when it is not where the leg was planned to arrive), arrival at the door, ticket and cost, "Choose" and the link to its page. SPEC-02 rules 6 and 13, the component, two acceptance criteria, and a note that the phone layout (fixed map, alternatives on a sheet that scrolls) is to be designed.
+- **Why:** Marco asked for the card before the map, and for much smaller alternatives under the map, which switch the route shown on the map when tapped, expand to show a few facts and are confirmed with "Choose"; a wireframe, with the phone layout to be designed later.
+
 ## 2026-11-21 18:19
 
 - **Files:** `05_Prototype/data/scenarios.js`, `profile.js`, `ui_text.js`, `05_Prototype/js/common.js`, `run.js`, `05_Prototype/components/today-trip.js`, `leg-map.js`, `05_Prototype/css/style.css`; `04_Specifications/SPEC-01_foundation.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-02_real-state-of-the-run.md`, `SPEC-00_overview.md`, `01_Open_Questions/OQ-37_legs-moving-on-without-position.md` (new), the index and README of `01_Open_Questions/`; `Index.md`

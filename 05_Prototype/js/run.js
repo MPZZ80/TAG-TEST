@@ -43,7 +43,7 @@
   const section = P.el("section");
   main.appendChild(section); // in the page first, so that the components draw themselves
 
-  // The map of the leg: its route, the vehicle where it is now, and the alternatives in grey.
+  // The map of the leg (drawn under the card): its route, the vehicle where it is now, the alternatives in grey.
   const map = document.createElement("leg-map");
   if (l.run && DATA.runs[l.run] && !l.chosen) map.setAttribute("run", l.run);
   else if (l.chosen && P.effectiveTrip(trip).chosen) map.leg = { mode: l.mode, route: P.effectiveTrip(trip).chosen.alt.route };
@@ -53,7 +53,6 @@
     map.events = set ? set.by_scenario[P.scenarioKey] || [] : [];
   }
   if (legState === "active") map.passenger = P.scenario.passenger; // where the commuter is, with consent
-  section.appendChild(map);
 
   if (l.chosen && l.dep) {
     const c = P.el("div", "card");
@@ -61,6 +60,7 @@
     c.appendChild(P.el("p", "meta", R.chosen_label));
     c.appendChild(P.el("p", "", P.fill(R.times, l)));
     section.appendChild(c);
+    section.appendChild(map);
   } else if (!l.run || !DATA.runs[l.run]) {
     const own = P.el("div", "card");
     own.appendChild(P.el("p", "", P.fill(R.own_leg, { mode: mode, from: l.from, to: l.to, minutes: l.minutes })));
@@ -69,6 +69,7 @@
     const problem = document.createElement("leg-problem"); // traffic, an accident, works or a closed street
     if (!l.chosen) problem.setAttribute("leg", trip.id + "-" + (trip.legs.indexOf(l) + 1));
     own.appendChild(problem);
+    section.appendChild(map);
   } else {
     const card = document.createElement("run-card");
     card.setAttribute("run", l.run);
@@ -76,6 +77,7 @@
     const stops = document.createElement("run-stops");
     stops.setAttribute("run", l.run);
     card.insertBefore(stops, card.querySelector("details")); // the stops before the details
+    section.appendChild(map);
     const s = P.runState(l.run);
     if (s.state === "late" || s.state === "cancelled") {
       const alt = document.createElement("leg-alternatives");
