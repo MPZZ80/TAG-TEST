@@ -3,15 +3,15 @@
  * What it holds: the messages that reach the commuter, or a contact, when the product is closed,
  *   simulated at the top of a screen by a visible control (instructions, section 9).
  * Used by: today.html, alerts.html, ways_out.html, contacts.html, connection.html, stop.html, drive.html, sessions.html
- * Fields: screen{scenario or "any": [{channel, text}]}
+ * Fields: screen{scenario or "any": [{channel, text, page}]}; page: where opening the message leads (SPEC-01, Information architecture)
  * Source: mock
- * Updated: 2026-11-18
+ * Updated: 2026-11-21
  */
 window.DATA = window.DATA || {};
 DATA.notifications = {
   today: {
-    late:      [{ channel: "Notification on the phone", text: "9707 is 18 min late: expected 08:03, platform 5 (operator, confirmed 07:38)." }],
-    cancelled: [{ channel: "Notification on the phone", text: "9707 is cancelled today (operator, 07:31). Open to see the ways out." }]
+    late:      [{ channel: "Notification on the phone", text: "9707 is 18 min late: expected 08:03, platform 5 (operator, confirmed 07:38).", page: "run.html" }],
+    cancelled: [{ channel: "Notification on the phone", text: "9707 is cancelled today (operator, 07:31). Open to see the ways out.", page: "ways_out.html" }]
   },
   alerts: {
     late:      [{ channel: "Spoken, on the way to the station", text: "Your 7:45 is 18 minutes late. It now leaves at 8:03 from platform 5." }],

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-21 19:17
 method: synthesis
 status: draft
 grade: n/a
@@ -53,6 +53,10 @@ When the trip of the day breaks (a run cancelled, a connection lost, a vehicle t
   3. Show the time after which no way reaches the destination door that day.
   4. Let the commuter set whether a seat or an earlier arrival comes first; order the ways accordingly.
   5. When the commuter chooses a way and confirms, the trip of the day continues on it; nothing is booked or changed before they confirm.
+  6. The ways out are the alternatives of the run that broke, the same the Run page shows for that leg ([SPEC-02](SPEC-02_real-state-of-the-run.md) rules 13 and 20), each with the legs that follow it to the door: other trains, a coach, and the car between cities as one leg to the door (for the Verona–Milan commuter, the car left at the station car park in the morning). Choosing one here or on Run changes the trip of the day in the same way ([SPEC-02](SPEC-02_real-state-of-the-run.md) rule 18, [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) rule 5); a way already chosen is shown with the way back to the planned trip.
+  7. Whether the ticket held is valid on a way is one of three: valid, another ticket needed, or no ticket needed (the car).
+  8. When the commuter is past the leg that broke, the page says the trip goes on and lists no ways.
+  9. The page is reached from the broken trip on Today, from the line of the message that the trip broke, and from the Run page of a cancelled run.
 - **States:** Trip: broken → under way (a way chosen) or abandoned.
 - **The user receives:** Inside the product: the ways side by side. A message on the commuter's channel when the trip breaks [not traced: whether every break is sent].
 - **Depends on:** Trip of the day ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); Ways between two places ([SPEC-08](SPEC-08_every-way-door-to-door.md)); Tickets held ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)); Consent to use position ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Own rules ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Needs on the way ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); State of a connection ([SPEC-07](SPEC-07_the-connection-ahead.md))
@@ -60,19 +64,20 @@ When the trip of the day breaks (a run cancelled, a connection lost, a vehicle t
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Ways out** (PG-04): the whole page; **Today (start page)** (PG-01): a line leading to the ways out when the trip breaks.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Ways out** (PG-04): the whole page; **Today (start page)** (PG-01): a line leading to the ways out when the trip breaks; **Run** (PG-02): a link to the ways out when its run is cancelled.
 - **Components:**
-  - `<ways-out>`: where the commuter is, the ways that still reach the door, and the last time any way does; reads `ways.ways_out.from`, `last_way`, `ways[]`; reacts to a way being chosen.
-  - `<way-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, with arrival at the door, cost, whether the ticket held is valid, and how full it is expected to be with its source.
+  - `<ways-out>`: where the commuter is, the preference, the ways that still reach the door, and the last time any way does; reads `ways.ways_out.run`, `last_way`, the alternatives of that run in `runs`, the trip followed today, `profile.position`, and where the configurator puts the commuter (`config.at`); reacts to the preference (reorders the ways on the page, not kept) and passes on a way being chosen.
+  - `<way-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); first built here, with departure, arrival at the door, cost, whether the ticket held is valid, how full it is expected to be with its source, "Choose this way" and a link to the page of the alternative ([SPEC-02](SPEC-02_real-state-of-the-run.md) rule 17).
   - `<confirm-choice>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused: nothing changes in the trip without the commuter's yes.
   - `<message-preview>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
 - **Datasets:**
-  - `ways` (defined in the foundation): `ways_out{from, last_way, ways[{id, label, dep, arr_door, cost, ticket_valid, fullness, fullness_source}]}`.
-  - `runs` (defined in the foundation): the run that broke and its reason.
+  - `ways` (defined in the foundation): `ways_out{run, last_way}`: the run whose alternatives are the ways out, and the time after which no way reaches the door.
+  - `runs` (defined in the foundation): the run that broke, its reason, and its `alternatives[{…, door_arrival, ticket_valid (null: no ticket needed), cost, fullness, fullness_level (1 seats likely, 2 busy, 3 full; missing: unknown), fullness_source, legs_after[]}]`.
   - `profile` (defined in the foundation): `doors`, `usual_trip`, `channels`.
   - `notifications` (defined in the foundation): `ways_out.<scenario>[]`.
 - **Simulated events:**
-  - The trip breaking: the scenario selector moves to `cancelled`; the "Simulate a message" control shows the message of `notifications.ways_out`.
+  - The trip breaking: the scenario of the configurator moves to `cancelled`; the "Simulate a message" control shows the message of `notifications.ways_out`.
+  - Where the commuter is: the configurator (before the trip, a leg, after the trip); the ways leave from the start of the leg that broke.
 
 ## When things go wrong
 
@@ -92,6 +97,8 @@ Telling the person who waits (SPEC-06); buying a ticket for the chosen way (SPEC
 - **Given** a way on which the ticket held is not valid **when** it is shown **then** it says so, with its cost.
 - **Given** the last way home leaves at 23:05 **when** it is 22:55 **then** the commuter sees that after 23:05 no way reaches home.
 - **Given** the commuter chooses a way **when** they confirm **then** the trip continues on it; nothing was booked before.
+- **Given** the 9707 cancelled at Verona Porta Nuova **when** the commuter opens the ways out **then** they see the same alternatives as on Run, and the car from the station car park among them, with no ticket needed.
+- **Given** the commuter on leg 3, past the train that broke **when** they open the ways out **then** the page says the trip goes on.
 
 ## Open questions
 

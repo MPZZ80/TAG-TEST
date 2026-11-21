@@ -1,11 +1,13 @@
 /*
  * Dataset: ways
- * What it holds: the ways from door to door for a search (SPEC-09) and the ways out when the trip breaks (SPEC-06).
+ * What it holds: the ways from door to door for a search (SPEC-08) and, for the ways out when the trip breaks (SPEC-05),
+ *   the run they replace and the last time any way reaches the door; the ways out themselves are the alternatives of
+ *   that run in runs.js, the same the Run page shows, so that both pages agree.
  * Used by: ways.html, ways_out.html
  * Fields: search{from, to, day, leave_after, ways[{id, label, legs[], dep, arr_door, minutes, price, operators, back_home}]},
- *   ways_out{from, last_way, ways[{id, label, dep, arr_door, cost, ticket_valid, fullness, fullness_source}]}
+ *   ways_out{run, last_way}
  * Source: mock
- * Updated: 2026-11-16
+ * Updated: 2026-11-21
  */
 window.DATA = window.DATA || {};
 DATA.ways = {
@@ -28,15 +30,7 @@ DATA.ways = {
     ]
   },
   ways_out: {
-    from: "Verona Porta Nuova",
-    last_way: "21:35", // after this no way reaches the office today
-    ways: [
-      { id: "O1", label: "Next high-speed train, 08:15", dep: "08:15", arr_door: "09:48", cost: "€ 0, your ticket can be moved",
-        ticket_valid: true, fullness: "Expected full, standing likely", fullness_source: "Operator, estimate" },
-      { id: "O2", label: "Regional train, 07:58", dep: "07:58", arr_door: "10:12", cost: "€ 13.25", // showing the cost is OQ-12
-        ticket_valid: false, fullness: "Seats likely", fullness_source: "Other travellers, 4 reports" },
-      { id: "O3", label: "Back home for the car", dep: "07:55", arr_door: "10:05", cost: "€ 35.40 + fuel unknown",
-        ticket_valid: false, fullness: "—", fullness_source: "—" }
-    ]
+    run: "HS9707",     // the run whose alternatives are the ways out
+    last_way: "21:35"  // after this no way reaches the Milan apartment today
   }
 };

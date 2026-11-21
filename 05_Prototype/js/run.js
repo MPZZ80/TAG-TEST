@@ -84,6 +84,11 @@
       alt.setAttribute("run", l.run);
       alt.setAttribute("trip", trip.id);
       section.appendChild(alt);
+      if (s.state === "cancelled" && l.run === DATA.ways.ways_out.run) { // the whole way to the door: Ways out (SPEC-05)
+        const out = P.el("p");
+        out.appendChild(P.link("ways_out.html", P.T.ways_out.run_link));
+        section.appendChild(out);
+      }
     }
   }
 

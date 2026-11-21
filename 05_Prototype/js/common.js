@@ -13,6 +13,9 @@
   if (!travelDay) Object.assign(DATA.clock, DATA.clock.off_day);
   // On a day with no travel the next trip has no live facts yet: its runs show as planned, from the on-time data.
   const dataKey = travelDay ? scenarioKey : "on_time";
+  // The scenario, with the hour of the mock clock where the configurator puts the commuter.
+  const base = DATA.scenarios.list[scenarioKey];
+  const scenario = Object.assign({}, base, { now: (travelDay && base.times && base.times[at]) || base.now });
   const built = DATA.screens.map(function (s) { return s.file; });
 
   // Fill {name} placeholders of an interface text.
@@ -50,7 +53,7 @@
   // The configurator, in a bar of its own at the top, then the app bar: product, mock clock, navigation
   // (SPEC-01, Information architecture).
   function shell() {
-    const s = DATA.scenarios.list[scenarioKey];
+    const s = scenario;
     const bar = el("header", "app-bar");
     const left = el("div");
     left.appendChild(link("index.html", T.common.product));
@@ -116,8 +119,8 @@
   function tripState() {
     if (!travelDay) return "planned";
     if (at === "after") return "completed";
-    if (DATA.scenarios.list[scenarioKey].trip_state === "broken") return "broken";
-    return at === "before" ? DATA.scenarios.list[scenarioKey].trip_state : "under way";
+    if (scenario.trip_state === "broken") return "broken";
+    return at === "before" ? scenario.trip_state : "under way";
   }
 
   // Where the commuter is on the leg in progress: its start (the position is used with consent, SPEC-01).
@@ -136,11 +139,18 @@
     return null;
   }
 
+  // Whether the ticket held is valid on a way: valid, another ticket needed, or no ticket needed (ticket_valid null).
+  function ticketLine(a) {
+    const R = T.run;
+    if (a.ticket_valid === null) return { cls: "muted", text: R.alt_no_ticket + " · " + a.cost };
+    return { cls: a.ticket_valid ? "state-on-time" : "muted", text: (a.ticket_valid ? R.alt_ticket_valid : R.alt_ticket_not_valid) + " · " + a.cost };
+  }
+
   function doorName(id) { const d = DATA.profile.doors.find(function (x) { return x.id === id; }); return d ? d.name : id; }
 
-  window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: DATA.scenarios.list[scenarioKey],
+  window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: scenario,
     dataKey: dataKey, at: at, travelDay: travelDay, tripState: tripState, passenger: passenger, nextTravelDay: nextTravelDay,
-    fill: fill, el: el, link: link, href: href, runState: runState, stateClass: stateClass, shell: shell,
+    fill: fill, el: el, link: link, href: href, ticketLine: ticketLine, runState: runState, stateClass: stateClass, shell: shell,
     disagreeing: disagreeing, trip: trip, followedTrip: followedTrip,
     choice: choice, effectiveTrip: effectiveTrip, doorName: doorName, legStates: legStates };
 })();

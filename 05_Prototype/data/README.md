@@ -15,7 +15,7 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 | `map_features.js` | the grey background of the map sketches: lakes, rivers, towns, motorway, railway and some streets, approximate shapes of real places (SPEC-02). |
 | `notifications.js` | the messages that reach the commuter, or a contact, when the product is closed,  simulated at the top of a screen by a visible control (instructions, section 9). |
 | `profile.js` | the commuter's set-up (SPEC-01) and trips (SPEC-17): doors, a free list of trips with the one followed today, days of travel, own rules, needs on the way, channels, consent to use position. Every screen reads it, so all screens agree. |
-| `runs.js` | the runs of the commuter's trips, planned, their real state in each scenario as facts with their source, time and status, and the other ways to make each leg, from public timetables (SPEC-01, SPEC-02). |
+| `runs.js` | the runs of the commuter's trips, planned, their real state in each scenario as facts with their source, time and status, and the other ways to make each leg, from public timetables, with how full each is expected to be; they are also the ways out (SPEC-01, SPEC-02, SPEC-05). |
 | `scenarios.js` | the scenarios the configurator switches between, and the mock clock of each. |
 | `screens.js` | the screens built so far, with their page and specification, for the index and for the links between screens. |
 | `sessions.js` | a parking session at the station and a shared bike ride at the Milan end (SPEC-17),  with the return zones near the destination. |
@@ -24,7 +24,7 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 | `tickets.js` | the tickets the commuter holds (SPEC-11), bought in the product or entered after buying elsewhere,  and the runs a ticket can be moved to, with what moving costs. |
 | `timing.js` | the real length of each leg and way through a station of the usual trip (SPEC-10),  next to the planned one, and the works announced on the route. |
 | `ui_text.js` | every interface text of the prototype: titles, labels, buttons, messages, state names.  {name} is filled by the scripts. Another language is another version of this file. |
-| `ways.js` | the ways from door to door for a search (SPEC-09) and the ways out when the trip breaks (SPEC-06). |
+| `ways.js` | the ways from door to door for a search (SPEC-08) and, for the ways out (SPEC-05), the run they replace and the last way; the ways out themselves are the alternatives of that run in `runs.js`. |
 
 - All data are mock, for one commuter, the Verona–Milan commuter, so that every screen tells the same story.
 - Values a specification leaves open are provisional: a comment names the open question (`OQ-…`). The screens, specifications and open questions named in the comments were deleted on 2026-11-18.

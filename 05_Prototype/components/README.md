@@ -22,6 +22,8 @@ The web components of the prototype, one file per component, named after its tag
 | `alert-settings.js` | `<alert-settings>`: the kinds of event and the moments of a travel day, each with a switch | SPEC-03 | SPEC-03 |
 | `alert-log.js` | `<alert-log>`: the alerts sent today, with time, text and source; nothing outside the days of travel | SPEC-03 | SPEC-03 |
 | `announced-list.js` | `<announced-list>`: works and strikes announced for coming travel days, and when the commuter is told | SPEC-03 | SPEC-03 |
+| `way-card.js` | `<way-card>`: one way to the door: departure, arrival at the door, cost, ticket validity, how full, "Choose this way" | SPEC-01 | SPEC-05, later SPEC-08 |
+| `ways-out.js` | `<ways-out>`: where the commuter is, the preference (earlier or a seat), the ways out in that order, the last way | SPEC-05 | SPEC-05 |
 | `first-trip-cta.js` | `<first-trip-cta>`: the invitation to set up the first trip | SPEC-01 | SPEC-01, SPEC-02, SPEC-17 |
 
 - Only the components of the screens built so far are here; the others are described in the specifications (`../../04_Specifications/`, section "Architecture") and are added when their screen is built.

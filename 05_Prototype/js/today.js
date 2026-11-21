@@ -21,7 +21,9 @@
 
   // A message that arrived while the product was closed: a line above the trip, not a screen in front of it (SPEC-01).
   (DATA.notifications.today[P.dataKey] || []).forEach(function (m) {
-    main.appendChild(P.el("p", "notice", P.fill(TD.arrived, m)));
+    const line = P.el("p", "notice");
+    line.appendChild(m.page ? P.link(m.page, P.fill(TD.arrived, m)) : document.createTextNode(P.fill(TD.arrived, m)));
+    main.appendChild(line);
   });
 
   // Not a travel day: the trip shown is the next travel day's, headed by when it is (SPEC-04, When things go wrong).

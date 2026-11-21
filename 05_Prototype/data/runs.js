@@ -2,11 +2,12 @@
  * Dataset: runs
  * What it holds: the runs of the commuter's trips, planned, and their real state in each scenario,
  *   as facts with their source, time and status (SPEC-01, SPEC-03).
- * Used by: today.html, run.html, connection.html, alerts.html, timing.html, stop.html
+ * Used by: today.html, run.html, alternative.html, ways_out.html (the alternatives are the ways out, SPEC-05), connection.html, timing.html, stop.html
  * Fields: id{service, operator, from, to, dep, arr, platform_dep, usual_platform, platform_arr, usual_delay, next[],
  *   approach[{name, lat, lon}], stops[{name, time, lat, lon}], by_scenario.<key>.pos{lat, lon},
- *   alternatives[{short, id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note,
+ *   alternatives[{short, id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, fullness, fullness_level, fullness_source,
  *     legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}],
+ *     fullness_level: 1 seats likely, 2 busy, 3 full; missing = unknown (never shown as empty, SPEC-05)
  *   by_scenario{key: {state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[{label, value, source, time, status}]}}}
  * Source: mock
  * Updated: 2026-11-21
@@ -31,6 +32,7 @@ DATA.runs = {
     alternatives: [
       { short: "High-speed", id: "A1", mode: "train", service: "High-speed 9715", operator: "National rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
         dep: "08:15", arr: "09:28", door_arrival: "09:51", ticket_valid: true, cost: "€ 0, your ticket can be moved", source: "Schedule",
+        fullness: "Expected full: standing likely, the passengers of the 9707 move to it", fullness_level: 3, fullness_source: "Operator, estimate",
         legs_after: [
           { mode: "train",       service: "High-speed 9715", from: "Verona Porta Nuova", to: "Milano Centrale", dep: "08:15", arr: "09:28", stage: "main leg" },
           { mode: "underground", service: "Underground M2",  from: "Milano Centrale FS", to: "Loreto",          dep: "09:40", arr: "09:43", stage: "transfer" },
@@ -46,6 +48,7 @@ DATA.runs = {
         ] },
       { short: "Italo", id: "A2", mode: "train", service: "Italo high-speed 8925", operator: "Private rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
         dep: "08:08", arr: "09:20", door_arrival: "09:43", ticket_valid: false, cost: "€ 24.90", source: "Schedule",
+        fullness: "Seats likely", fullness_level: 1, fullness_source: "Operator, estimate",
         legs_after: [
           { mode: "train",       service: "Italo high-speed 8925", from: "Verona Porta Nuova", to: "Milano Centrale", dep: "08:08", arr: "09:20", stage: "main leg" },
           { mode: "underground", service: "Underground M2",        from: "Milano Centrale FS", to: "Loreto",          dep: "09:32", arr: "09:35", stage: "transfer" },
@@ -60,6 +63,7 @@ DATA.runs = {
         ] },
       { short: "Regional", id: "A3", mode: "train", service: "Regional RE6 2610", operator: "Regional rail operator", from: "Verona Porta Nuova", to: "Milano Centrale",
         dep: "07:58", arr: "09:48", door_arrival: "10:11", ticket_valid: false, cost: "€ 13.25", source: "Schedule", note: "Stops at Brescia; no seat booking",
+        fullness: "Busy: seats in the last carriages", fullness_level: 2, fullness_source: "Other travellers, 4 reports",
         legs_after: [
           { mode: "train",       service: "Regional RE6 2610", from: "Verona Porta Nuova", to: "Milano Centrale", dep: "07:58", arr: "09:48", stage: "main leg" },
           { mode: "underground", service: "Underground M2",    from: "Milano Centrale FS", to: "Loreto",          dep: "10:00", arr: "10:03", stage: "transfer" },
@@ -77,6 +81,7 @@ DATA.runs = {
         ] },
       { short: "FlixBus", id: "A4", mode: "coach", service: "FlixBus coach", operator: "Coach operator", from: "Verona, Viale Palladio", to: "Milano Lampugnano",
         dep: "08:20", arr: "10:30", door_arrival: "11:09", ticket_valid: false, cost: "€ 9.99", source: "Schedule",
+        fullness: "Seats likely: 14 still on sale", fullness_level: 1, fullness_source: "Coach operator, seats on sale",
         note: "5 minutes' walk from the station; underground M1 from Lampugnano straight to Loreto",
         legs_after: [
           { mode: "walk",        from: "Verona Porta Nuova", to: "Verona, Viale Palladio", minutes: 5, stage: "first mile" },
@@ -91,6 +96,24 @@ DATA.runs = {
           { name: "Bergamo (motorway)", lat: 45.6600, lon: 9.6700, mode: "coach" },
           { name: "Milano Lampugnano", lat: 45.4893, lon: 9.1265, mode: "underground" },
           { name: "Loreto", lat: 45.4858, lon: 9.2160, mode: "walk" },
+          { name: "Milan apartment", lat: 45.4889, lon: 9.2205 }
+        ] },
+      // the car between cities is one leg to the door (SPEC-02 rule 20): the commuter drove to the station (leg 1),
+      // so the car is at the station car park. Mock times: about 2 h 05 with traffic around Milan; which car costs
+      // count is OQ-20 (provisional: the toll, approximate; fuel unknown). ticket_valid null: no ticket needed.
+      { short: "Car", id: "A5", mode: "car", service: "Car from the station car park", operator: "Motorway operator (toll)", from: "Verona Porta Nuova", to: "Milan apartment",
+        dep: "07:50", arr: "09:55", door_arrival: "09:55", ticket_valid: null, cost: "€ 13 toll, approximate, + fuel unknown", source: "Traffic service, estimate",
+        note: "Your car is where you left it this morning; queues expected on the Milan east ring road",
+        fullness: "Your own car: a seat is sure", fullness_level: 1, fullness_source: "—",
+        legs_after: [
+          { mode: "car", from: "Verona Porta Nuova", to: "Milan apartment", minutes: 125, stage: "main leg" }
+        ],
+        route: [
+          { name: "Verona Porta Nuova", lat: 45.4290, lon: 10.9825, mode: "car" },
+          { name: "Verona Sud", lat: 45.4000, lon: 10.9600, mode: "car" },
+          { name: "Brescia (A4)", lat: 45.5250, lon: 10.1700, mode: "car" },
+          { name: "Bergamo (A4)", lat: 45.6600, lon: 9.6700, mode: "car" },
+          { name: "Milano Est", lat: 45.5100, lon: 9.2600, mode: "car" },
           { name: "Milan apartment", lat: 45.4889, lon: 9.2205 }
         ] }
     ],

@@ -18,7 +18,8 @@
   const card = P.el("div", "card");
   card.appendChild(P.el("p", "meta", alt.operator + " · " + alt.source));
   card.appendChild(P.el("p", "", P.fill(R.alt_times, alt)));
-  card.appendChild(P.el("p", alt.ticket_valid ? "state-on-time" : "muted", (alt.ticket_valid ? R.alt_ticket_valid : R.alt_ticket_not_valid) + " · " + alt.cost));
+  const ticket = P.ticketLine(alt);
+  card.appendChild(P.el("p", ticket.cls, ticket.text));
   if (alt.note) card.appendChild(P.el("p", "meta", alt.note));
   main.appendChild(card);
 

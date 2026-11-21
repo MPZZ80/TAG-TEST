@@ -56,7 +56,8 @@
           ? P.fill(R.alt_arrives_instead, { to: a.to, planned: r.to, arr: a.arr })
           : P.fill(R.alt_arrives, { to: a.to, arr: a.arr })));
         panel.appendChild(P.el("p", "", P.fill(R.alt_door, { time: a.door_arrival })));
-        panel.appendChild(P.el("p", a.ticket_valid ? "state-on-time" : "muted", (a.ticket_valid ? R.alt_ticket_valid : R.alt_ticket_not_valid) + " · " + a.cost));
+        const ticket = P.ticketLine(a);
+        panel.appendChild(P.el("p", ticket.cls, ticket.text));
         if (a.note) panel.appendChild(P.el("p", "meta", a.note));
         const actions = P.el("p");
         const choose = P.el("button", "button", R.choose);
