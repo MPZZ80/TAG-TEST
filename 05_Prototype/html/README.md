@@ -10,6 +10,7 @@ One HTML file per screen; `index.html` is the entry point. Each file loads the s
 | `alternative.html` | One alternative for a leg that is late or cancelled: details, a sketch of its route, the trip with it, and "Choose this way"; `?run=`, `?alt=`, `?trip=` | PG-17 Alternative | SPEC-02 |
 | `lockscreen.html` | A fake lock screen of a phone with the messages of the scenario, each opening its page; reached from the configurator; not a page of the product | — | SPEC-01 (messages outside the product) |
 | `trips.html` | The commuter's trips and the one followed today | PG-16 Trips | SPEC-17 |
+| `contacts.html` | Those waiting are told: the message ready to send when the trip breaks, the contacts with the trip each shares and whether they accepted, adding one, and what was sent today as they see it | PG-14 Contacts | SPEC-06 |
 | `alerts.html` | Alerts on the usual trip: the settings (kinds of event, moments of a travel day), the alerts sent today, works and strikes announced, and a simulated alert; with nothing set up, what is missing | PG-13 Alerts | SPEC-03 |
 
 - Screens are built one specification at a time, from `../../04_Specifications/`. Links to screens not built yet show as plain text.

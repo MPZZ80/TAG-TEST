@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:34
+date: 2026-11-21 19:38
 method: synthesis
 status: draft
 grade: n/a
@@ -62,26 +62,27 @@ Lets the commuter share a trip with a person who waits for them, so that person 
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Contacts** (PG-14): the whole page; **Today (start page)** (PG-01): a "Tell someone" link leading to the contacts; **Ways out** (PG-04): the message ready to send to a contact.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Contacts** (PG-14): the whole page, the message ready to send first when the trip breaks; **Today (start page)** (PG-01): a "Tell who waits for you" link under the trip, leading to the contacts; **Run** (PG-02) of the leg that broke, where the ways out are ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)): the message ready to send, under the alternatives.
 - **Components:**
-  - `<contact-list>`: the people the commuter keeps informed, what each one shares, whether they accepted and on which channel; reads `contacts.contacts[]`; reacts to adding, inviting or removing a contact (shown, not kept).
-  - `<contact-messages>`: the messages a contact receives, each with its status and source, as the contact sees them; reads `contacts.messages.<scenario>[]`; reacts to the scenario changing.
-  - `<prepared-message>`: a message ready for the commuter to send in one step when the trip breaks; reads `contacts.prepared.<scenario>`; reacts to "Send".
-  - `<message-preview>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the message the contact receives.
+  - `<contact-list>`: the people the commuter keeps informed, the trip each one shares, whether they accepted (a contact not accepted says that nothing reaches them) and on which channel, and the form to add one; reads `contacts.contacts[]`, `profile.trips`; reacts to adding, inviting or removing a contact (shown, not kept).
+  - `<contact-messages>`: the messages the contacts received today, each with its time, source and status, as the contact sees them; nothing before the trip starts, and "sharing has stopped" after it; reads `contacts.messages.<scenario>[]` and where the configurator puts the commuter; reacts to the scenario and the place changing.
+  - `<prepared-message>`: a message ready for the commuter to send in one step when the trip breaks, saying the way chosen once there is one (otherwise a link to choose it on the leg that broke); reads `contacts.prepared.<scenario>`, the way chosen (`?choice=`); reacts to "Send" (says it was sent; nothing is sent in the prototype).
+  - The message a contact receives is not on the commuter's lock screen (`<message-preview>`): it is shown on the Contacts page, as the contact sees it; the contact has no screen of their own.
 - **Datasets:**
-  - `contacts` (defined here): `contacts[{id, name, shares, state, channel}]`, `messages.<scenario>[{to, text, status, source}]`, `prepared.<scenario>`.
-  - `runs` (defined in the foundation): expected arrival of the run the contact waits for.
-  - `notifications` (defined in the foundation): `contacts.any[]`.
+  - `contacts` (defined here): `contacts[{id, name, trip, shares, state, channel}]` (`trip`: the trip of `profile.trips` shared), `messages.<scenario>[{to, after, time, text, status, source}]` (`after`: sent once the commuter is on that leg), `prepared.<scenario>{to, text, with_choice}`.
+  - `runs` (defined in the foundation): expected arrival of the run the contact waits for, and the alternatives a way chosen comes from.
+  - `config` (defined in the foundation): `at`, where the commuter is, which decides what has been sent.
 - **Simulated events:**
-  - A contact accepting: a control moves the contact from `invited` to `accepted`.
-  - The message the contact receives when the arrival moves: the lock screen shows `notifications.contacts`; the contact has no screen of their own.
+  - A contact accepting: shown by the state in the data (`invited`, `accepted`); no control on the page, since Marco asked on 2026-11-21 for no simulating controls on the pages of the product.
+  - The messages the contact receives as the trip goes on: the configurator moves the commuter along the legs, and the messages sent by then are shown on the Contacts page.
 
 ## When things go wrong
 
 - **The contact has not accepted:** nothing reaches them and the commuter is told.
 - **No data about the run:** the contact is told there is no news, not the planned time.
 - **The commuter does not send the prepared message:** nothing is sent.
-- **No trip of the day:** sharing cannot start; the commuter is led to SPEC-04.
+- **No trip of the day:** sharing cannot start; the commuter is invited to set up the first trip.
+- **A day with no travel:** nothing is shared that day, and the page says so.
 
 ## Out of scope
 
@@ -92,6 +93,8 @@ Whether the connection holds (SPEC-07); the ways out (SPEC-05).
 - **Given** the father is a contact for the return trip **when** the train leaves **then** he receives the train and its expected arrival, with its source.
 - **Given** the expected arrival moves **when** the trip is under way **then** the contact receives the new arrival, marked confirmed or estimated.
 - **Given** the connection is lost **when** the commuter opens the product **then** a message with the new arrival is ready to send in one step.
+- **Given** the 9707 cancelled and the 9715 chosen instead **when** the commuter opens the contacts or the leg that broke **then** the message ready to send says the 9715 and the arrival at the Milan apartment around 09:51.
+- **Given** the commuter still at home **when** they open the contacts **then** nothing has been sent yet.
 - **Given** a contact who has not accepted **when** the commuter shares a trip **then** nothing reaches the contact and the commuter is told.
 - **Given** the trip is completed **when** the contact looks **then** they no longer see it.
 

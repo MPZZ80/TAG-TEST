@@ -1,8 +1,8 @@
 /*
  * Dataset: notifications
- * What it holds: the messages that reach the commuter, or a contact, when the product is closed,
+ * What it holds: the messages that reach the commuter when the product is closed (what a contact receives is in contacts.js),
  *   shown on a fake lock screen of a phone (lockscreen.html), reached from the configurator (instructions, section 9).
- * Used by: lockscreen.html, today.html, contacts.html, connection.html, stop.html, drive.html, sessions.html
+ * Used by: lockscreen.html, today.html, connection.html, stop.html, drive.html, sessions.html
  * Fields: screen{scenario or "any": [{channel, text, page, run}]}; page (and run): where opening the message leads, by default
  *   the page of its screen (SPEC-01, Information architecture). Shown on the lock screen (lockscreen.html) and, for today, on the leg it is about.
  * Source: mock
@@ -22,9 +22,6 @@ DATA.notifications = {
   ways_out: {
     // whether every break is sent is OQ-11: provisional, a cancellation is sent
     cancelled: [{ channel: "Notification on the phone", text: "Your trip is broken: 9707 cancelled. 5 ways still reach the Milan apartment.", page: "run.html", run: "HS9707" }]
-  },
-  contacts: {
-    any: [{ channel: "Text message to Father", text: "New arrival at Verona Porta Nuova: 19:00 (+12), confirmed by the operator. Sent for the Verona–Milan commuter." }]
   },
   connection: {
     late: [{ channel: "Notification on the phone", text: "Connection at Milano Centrale lost: next M2 at 09:28, at the Milan apartment at 09:39." }],

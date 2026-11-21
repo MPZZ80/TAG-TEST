@@ -22,6 +22,9 @@ The web components of the prototype, one file per component, named after its tag
 | `alert-settings.js` | `<alert-settings>`: the kinds of event and the moments of a travel day, each with a switch | SPEC-03 | SPEC-03 |
 | `alert-log.js` | `<alert-log>`: the alerts sent today, with time, text and source; nothing outside the days of travel | SPEC-03 | SPEC-03 |
 | `announced-list.js` | `<announced-list>`: works and strikes announced for coming travel days, and when the commuter is told | SPEC-03 | SPEC-03 |
+| `contact-list.js` | `<contact-list>`: the contacts, the trip each shares, whether they accepted, and adding one | SPEC-06 | SPEC-06 |
+| `contact-messages.js` | `<contact-messages>`: what the contacts received today, as they see it, by where the commuter is | SPEC-06 | SPEC-06 |
+| `prepared-message.js` | `<prepared-message>`: the message ready to send in one step when the trip breaks | SPEC-06 | SPEC-06, SPEC-05 (on Run) |
 | `first-trip-cta.js` | `<first-trip-cta>`: the invitation to set up the first trip | SPEC-01 | SPEC-01, SPEC-02, SPEC-17 |
 
 - Only the components of the screens built so far are here; the others are described in the specifications (`../../04_Specifications/`, section "Architecture") and are added when their screen is built.

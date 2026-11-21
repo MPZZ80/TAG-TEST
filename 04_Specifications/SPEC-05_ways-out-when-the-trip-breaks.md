@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:34
+date: 2026-11-21 19:38
 method: synthesis
 status: draft
 grade: n/a
@@ -71,6 +71,7 @@ When the trip of the day breaks (a run cancelled, a connection lost, a vehicle t
   - `<confirm-choice>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused: nothing changes in the trip without the commuter's yes.
   - `<today-trip>`: defined in [SPEC-04](SPEC-04_todays-trip-at-a-glance.md); reused: the news on the leg.
   - `<message-preview>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); the message that the trip broke is on the lock screen.
+  - `<prepared-message>`: defined in [SPEC-06](SPEC-06_those-waiting-are-told.md); under the alternatives, the message ready to send to who waits.
 - **Datasets:**
   - `ways` (defined in the foundation): `ways_out{run, last_way}`: the run whose alternatives are the ways out, and the time after which no way reaches the door.
   - `runs` (defined in the foundation): the run that broke, its reason, and its `alternatives[{…, door_arrival, ticket_valid (null: no ticket needed), cost, fullness, fullness_level (1 seats likely, 2 busy, 3 full; missing: unknown), fullness_source, legs_after[]}]`.

@@ -38,7 +38,7 @@
 /* Custom elements are inline by default; the components hold blocks, so they are blocks too. Add each new component here. */
 scenario-switch, fact-line, run-card, usual-delay, message-preview, missing-setup, source-gap,
 first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem, route-map, confirm-choice, run-stops, leg-map,
-alert-settings, alert-log, announced-list { display: block; }
+alert-settings, alert-log, announced-list, contact-list, contact-messages, prepared-message { display: block; }
 
 body {
   margin: 0;

@@ -86,6 +86,7 @@
       section.appendChild(alt);
       if (s.state === "cancelled" && l.run === DATA.ways.ways_out.run) { // the ways out end here (SPEC-05 rule 3)
         section.appendChild(P.el("p", "notice", P.fill(R.last_way, { time: DATA.ways.ways_out.last_way, door: P.doorName(trip.to) })));
+        section.appendChild(document.createElement("prepared-message")); // tell who waits, next to the ways out (SPEC-06)
       }
     }
   }

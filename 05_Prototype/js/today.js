@@ -33,6 +33,11 @@
   trip.setAttribute("trip", followed.id);
   main.appendChild(trip);
 
+  // Those who wait for the commuter (SPEC-06): a link to the contacts, under the trip.
+  const tell = P.el("p");
+  tell.appendChild(P.link("contacts.html", TD.link_contacts));
+  main.appendChild(tell);
+
   // The other trips door to door, in a section of their own (SPEC-17).
   const others = DATA.profile.trips.filter(function (t) { return t.id !== followed.id; });
   if (others.length) {
