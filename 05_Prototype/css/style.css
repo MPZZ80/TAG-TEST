@@ -160,3 +160,5 @@ route-map svg { width: 100%; height: auto; background: var(--colour-surface); bo
 .stops { width: 100%; border-collapse: collapse; margin-top: var(--space-1); }
 .stops th, .stops td { text-align: left; padding: var(--space-1) var(--space-2) var(--space-1) 0; border-bottom: 1px solid var(--colour-line); font-size: var(--size-small); }
 .leg > h3 { margin: 0 0 var(--space-1); }
+
+.back { display: inline-block; margin-top: var(--space-2); text-decoration: none; }

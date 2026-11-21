@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 17:17
+
+- **Files:** `05_Prototype/js/run.js`, `05_Prototype/css/style.css`
+- **Change:** On the Run page, "Back to Today" moved from the bottom to the top, on the left, above the title, with an arrow (← Back to Today).
+- **Why:** Marco asked to put "Back to Today" at the top, with a small arrow on the left.
+
 ## 2026-11-21 16:57
 
 - **Files:** `05_Prototype/components/today-trip.js`, `run-stops.js` (new), `trip-card.js`; `05_Prototype/js/run.js`, `today.js`, `alternative.js`; `05_Prototype/html/run.html`, `today.html`; `05_Prototype/data/runs.js`, `ui_text.js`; `05_Prototype/css/style.css`; the READMEs of `05_Prototype/html/` and `components/`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-17_trips.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`

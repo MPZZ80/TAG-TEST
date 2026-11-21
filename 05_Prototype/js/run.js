@@ -10,6 +10,10 @@
 
   P.shell();
   const main = document.querySelector("main");
+  // Back to Today, at the top on the left, with an arrow.
+  const back = P.link("today.html", "← " + R.back_today);
+  back.classList.add("back");
+  main.appendChild(back);
   main.appendChild(P.el("h1", "", R.title));
 
   // Nothing set up: no trip, so no leg to show; the page invites to set up the first trip.
@@ -83,7 +87,4 @@
     dialog.showModal();
   });
 
-  const back = P.el("p");
-  back.appendChild(P.link("today.html", R.back_today));
-  main.appendChild(back);
 })();
