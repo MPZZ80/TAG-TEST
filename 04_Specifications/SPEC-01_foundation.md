@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:17
+date: 2026-11-21 19:18
 method: synthesis
 status: draft
 grade: n/a
@@ -168,7 +168,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 
 **A proposal:** the project has no information architecture of its own, so the pages below are proposed from the stories, for Marco to decide. PG-16 Trips was added on 2026-11-18 at Marco's request. The start page and the initial set-up are pages of it. Stories: all 24. Used by: every specification.
 
-- **Navigation:** always reachable, in this order: Today, Trips, Ways, Tickets, Alerts, Set-up. Every other page is reached from a page or from a message.
+- **Navigation:** always reachable, in this order: Today, Trips, Ways, Tickets, Alerts, Set-up. On a day with no travel, Today is called Next trip (SPEC-04). Every other page is reached from a page or from a message.
 - **Messages outside the product** lead to the page of the behaviour that sent them (for example a cancellation leads to Ways out).
 - **The pages,** each with what it is for, where it is reached from, and the specifications whose functions it holds, in order of importance:
 

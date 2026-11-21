@@ -62,7 +62,7 @@
     const nav = el("nav");
     nav.setAttribute("aria-label", T.common.product);
     const ul = el("ul");
-    T.nav.forEach(function (n) { const li = el("li"); li.appendChild(link(n.file, n.label)); ul.appendChild(li); });
+    T.nav.forEach(function (n) { const li = el("li"); li.appendChild(link(n.file, (!travelDay && n.label_off) || n.label)); ul.appendChild(li); });
     nav.appendChild(ul);
     bar.appendChild(nav);
     document.body.insertBefore(bar, document.body.firstChild);

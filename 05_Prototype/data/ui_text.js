@@ -32,7 +32,7 @@ DATA.ui_text = {
     money: "€ {n}"
   },
   nav: [
-    { file: "today.html", label: "Today" },
+    { file: "today.html", label: "Today", label_off: "Next trip" }, // label_off: on a day with no travel
     { file: "trips.html", label: "Trips" },
     { file: "ways.html", label: "Ways" },
     { file: "tickets.html", label: "Tickets" },
@@ -99,6 +99,7 @@ DATA.ui_text = {
   },
   today: {
     title: "Today's trip",
+    title_off: "Next trip",
     intro: "The trip you are about to make, first, with nothing in front of it.",
     no_trip_title: "No trip for today",
     search: "Search the ways for a trip",
@@ -126,7 +127,7 @@ DATA.ui_text = {
     link_tickets: "Your tickets",
     link_contacts: "Tell who waits for you",
     arrived: "Arrived while closed: {text}",
-    next_trip: "Your next trip: {weekday} {date}, {when}.",
+    next_trip: "{weekday} {date}, {when}.",
     tomorrow: "tomorrow",
     in_days: "in {n} days"
   },
@@ -175,6 +176,7 @@ DATA.ui_text = {
     stop_expected: "Expected",
     stop_none: "—",
     back_today: "Back to Today",
+    back_today_off: "Back to Next trip",
     leg_open: "See this leg",
     chosen_notice: "You chose {service} instead of {instead}. At {door} around {time}.",
     chosen_label: "Your choice, from the schedule",

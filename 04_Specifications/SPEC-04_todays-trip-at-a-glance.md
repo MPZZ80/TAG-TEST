@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:17
+date: 2026-11-21 19:18
 method: synthesis
 status: draft
 grade: n/a
@@ -88,7 +88,7 @@ Opens the product on the trip the commuter is about to make today: its run, stat
 ## When things go wrong
 
 - **No usual trip and no trip chosen:** the product opens on a search (SPEC-08) and says the usual trip can be set in SPEC-01.
-- **Not a travel day:** the product opens on the next travel day's trip, headed "Your next trip" with its day, its date and how far it is (tomorrow, in 3 days); its runs show as planned, with no live facts, and every leg is to do.
+- **Not a travel day:** the page is called "Next trip" instead of Today, in its title, in the navigation and in the links back to it, and opens on the next travel day's trip with its day, its date and how far it is (tomorrow, in 3 days); its runs show as planned, with no live facts, and every leg is to do.
 - **No data about the run:** "no news since <time>", as in SPEC-02.
 - **The commuter takes another run without saying so:** the trip of the day stays on the planned run [not traced: whether it may be inferred].
 
@@ -105,7 +105,7 @@ The detail of the run (SPEC-02); planning other ways (SPEC-08).
 - **Given** the trip Home to Milan apartment **when** the commuter opens Today **then** four sections follow one another: "Leg 1 of 4 · first mile · Car", "Leg 2 of 4 · main leg · Train", "Leg 3 of 4 · transfer · Underground", "Leg 4 of 4 · last mile · On foot", and the other trips are listed under it.
 - **Given** an announcement to make **when** the commuter opens the product **then** it is not shown before the trip information.
 - **Given** a trip followed today with the 7:45 **when** the commuter opens the product **then** the 7:45 is the run of the trip, with no step to confirm it, and it stays so when it is late until the commuter chooses an alternative.
-- **Given** a Saturday, not a travel day, with travel days Tuesday and Wednesday **when** the commuter opens the product **then** it shows "Your next trip: Tuesday 24 Nov, in 3 days" and the trip with its planned runs.
+- **Given** a Saturday, not a travel day, with travel days Tuesday and Wednesday **when** the commuter opens the product **then** the page is called "Next trip" and shows "Tuesday 24 Nov, in 3 days" and the trip with its planned runs.
 - **Given** no usual trip **when** the commuter opens the product **then** it opens on a search and says where to set the usual trip.
 
 ## Open questions

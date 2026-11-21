@@ -9,7 +9,8 @@
 
   P.shell();
   const main = document.querySelector("main");
-  main.appendChild(P.el("h1", "", TD.title));
+  main.appendChild(P.el("h1", "", P.travelDay ? TD.title : TD.title_off));
+  if (!P.travelDay) document.title = TD.title_off; // the page is the next trip on a day with no travel (SPEC-04)
 
   if (!P.scenario.setup) {
     main.appendChild(document.createElement("first-trip-cta"));

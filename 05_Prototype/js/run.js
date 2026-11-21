@@ -11,7 +11,7 @@
   P.shell();
   const main = document.querySelector("main");
   // Back to Today, at the top on the left, with an arrow.
-  const back = P.link("today.html", "← " + R.back_today);
+  const back = P.link("today.html", "← " + (P.travelDay ? R.back_today : R.back_today_off));
   back.classList.add("back");
   main.appendChild(back);
 

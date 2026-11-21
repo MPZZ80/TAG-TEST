@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 19:18
+
+- **Files:** `05_Prototype/data/ui_text.js`, `05_Prototype/js/common.js`, `today.js`, `run.js`; `04_Specifications/SPEC-04_todays-trip-at-a-glance.md`, `SPEC-01_foundation.md`
+- **Change:** On a day with no travel the start page is called "Next trip" instead of "Today's trip" (heading and browser tab), the navigation item Today becomes Next trip, and Run's link back reads "Back to Next trip"; the line under the heading says only the day, date and how far it is. SPEC-04 (When things go wrong, a criterion) and the navigation in SPEC-01.
+- **Why:** Marco: when it is not the day of the trip, change Today's trip to Next trip; Today should change accordingly.
+
 ## 2026-11-21 19:17
 
 - **Files:** created `05_Prototype/html/ways_out.html`, `05_Prototype/js/ways_out.js`, `05_Prototype/components/way-card.js`, `ways-out.js`; changed `05_Prototype/data/scenarios.js`, `runs.js`, `ways.js`, `notifications.js`, `screens.js`, `ui_text.js`, `05_Prototype/js/common.js`, `run.js`, `today.js`, `alternative.js`, `05_Prototype/components/leg-alternatives.js`, `05_Prototype/html/run.html`, `05_Prototype/css/style.css`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md`, `SPEC-01_foundation.md`, `SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`
