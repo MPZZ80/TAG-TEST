@@ -223,7 +223,12 @@ DATA.ui_text = {
     heard: "spoken, so you can take it in without looking",
     sent: "Sent today",
     none_sent: "Nothing sent today: nothing has changed.",
-    announced: "Works and strikes on coming travel days"
+    announced: "Works and strikes on coming travel days",
+    source: "Source: {source}",
+    told: "When you are told: {told}",
+    not_travel_day: "{weekday} is not a travel day: nothing is sent.",
+    no_channel: "No channel is set: alerts stay inside the product.",
+    not_kept: "In this prototype what you change is not kept: the settings come from the mock data."
   },
   ways_out: {
     title: "Ways out when the trip breaks",

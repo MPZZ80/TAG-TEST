@@ -1,11 +1,11 @@
 /*
  * Dataset: alerts
- * What it holds: the alert settings of the usual trip (SPEC-04): kinds of event and moments of a travel day,
+ * What it holds: the alert settings of the usual trip (SPEC-03): kinds of event and moments of a travel day,
  *   the alerts sent in each scenario, and the works and strikes announced for coming travel days.
  * Used by: alerts.html
- * Fields: kinds[{id, label, on}], moments[{id, label, from, to, heard}], sent{key: [{time, text, source}]}, announced[{date, text, source, told}]
+ * Fields: kinds[{id, label, on}], moments[{id, label, from, to, heard}], sent{scenario: [{time, text, source}]}, announced[{date, text, source, told}]
  * Source: mock
- * Updated: 2026-11-16
+ * Updated: 2026-11-21
  */
 window.DATA = window.DATA || {};
 DATA.alerts = {

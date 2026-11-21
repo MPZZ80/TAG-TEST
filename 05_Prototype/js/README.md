@@ -10,3 +10,4 @@ One script per screen, with the same name as its HTML file, plus `common.js` for
 | `run.js` | Fills the Run page (SPEC-02) and opens the dialog of the sources |
 | `alternative.js` | Fills the page of an alternative and passes the choice to Run and Today (`?choice=`) |
 | `trips.js` | Fills the Trips page (SPEC-17) |
+| `alerts.js` | Fills the Alerts page (SPEC-03) |

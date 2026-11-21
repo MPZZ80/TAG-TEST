@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 18:47
+
+- **Files:** created `05_Prototype/html/alerts.html`, `05_Prototype/js/alerts.js`, `05_Prototype/components/alert-settings.js`, `alert-log.js`, `announced-list.js`; changed `05_Prototype/data/alerts.js`, `screens.js`, `ui_text.js`, `05_Prototype/css/style.css`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `AGENTS.md`
+- **Change:** SPEC-03 built on page PG-13, Alerts, following SPEC-01: for the trip followed today and its days, the kinds of event and moments of a travel day as switches (shown, not kept), the alerts sent today in each scenario with time, text and source ("nothing has changed" when none; nothing outside the days of travel), the works and strikes announced and when they are told, the simulated alert from `notifications.alerts`; with nothing set up, the missing usual trip and days; with no channel, a notice. `alerts.js` header now names SPEC-03. AGENTS.md log entry 50.
+- **Why:** Marco: carry out SPEC-03 following the foundation; from now on every SPEC he asks to carry out follows the foundation, and a conflict with the changes he asked for by hand is asked first (reason not stated).
+
 ## 2026-11-21 18:24
 
 - **Files:** `05_Prototype/components/leg-alternatives.js`, `05_Prototype/js/run.js`, `05_Prototype/data/runs.js`, `ui_text.js`, `05_Prototype/css/style.css`, `04_Specifications/SPEC-02_real-state-of-the-run.md`

@@ -9,5 +9,6 @@ One HTML file per screen; `index.html` is the entry point. Each file loads the s
 | `run.html` | One leg: the real state of its run with its stops and, when it fails, its alternatives; or its means and time; `?trip=` and `?leg=` (or `?run=`) choose the leg | PG-02 Run | SPEC-02 |
 | `alternative.html` | One alternative for a leg that is late or cancelled: details, a sketch of its route, the trip with it, and "Choose this way"; `?run=`, `?alt=`, `?trip=` | PG-17 Alternative | SPEC-02 |
 | `trips.html` | The commuter's trips and the one followed today | PG-16 Trips | SPEC-17 |
+| `alerts.html` | Alerts on the usual trip: the settings (kinds of event, moments of a travel day), the alerts sent today, works and strikes announced, and a simulated alert; with nothing set up, what is missing | PG-13 Alerts | SPEC-03 |
 
 - Screens are built one specification at a time, from `../../04_Specifications/`. Links to screens not built yet show as plain text.

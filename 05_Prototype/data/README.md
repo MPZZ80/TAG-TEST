@@ -4,7 +4,7 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 
 | File | What it holds |
 | --- | --- |
-| `alerts.js` | the alert settings of the usual trip (SPEC-04): kinds of event and moments of a travel day,  the alerts sent in each scenario, and the works and strikes announced for coming travel days. |
+| `alerts.js` | the alert settings of the usual trip (SPEC-03): kinds of event and moments of a travel day,  the alerts sent in each scenario, and the works and strikes announced for coming travel days. |
 | `claims.js` | the commuter's past trips with their real delay, and the compensation rules of the operator (SPEC-13). |
 | `clock.js` | the mock day shown on every screen; the hour comes from the scenario (scenarios.js). |
 | `connections.js` | the change on the usual trip and its state in each scenario (SPEC-08, SPEC-10):  the way between the two runs, the margin against the commuter's own rule, the next connection that holds,  and the answer to a request to wait. |
