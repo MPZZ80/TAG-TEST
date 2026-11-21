@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-19 00:13
+date: 2026-11-21 16:57
 method: synthesis
 status: draft
 grade: n/a
@@ -53,7 +53,9 @@ Opens the product on the trip the commuter is about to make today: its run, stat
   3. Show nothing in front of the trip information: no announcement, offer or request comes before it.
   4. Let the commuter confirm or change the run they take today; this becomes the trip of the day.
   5. A way chosen in SPEC-08 for today becomes the trip of the day; so does an alternative chosen for a leg in [SPEC-02](SPEC-02_real-state-of-the-run.md): its legs replace the planned ones from that leg to the door, and the arrival at the door is the alternative's.
-  6. Move the trip of the day through its states (today, under way, completed) as its runs move.
+  6. Show the trip divided into legs, each in a section of its own titled with its number, its stage and its usual means of transport (for example "Leg 1 of 4 · first mile · Car"), with its two ends and, in short, its run and state, or its means and time, and what changes it (SPEC-02). The name of a leg opens its detail on the Run page ([SPEC-02](SPEC-02_real-state-of-the-run.md)).
+  7. Under the trip, list the commuter's other trips ([SPEC-17](SPEC-17_trips.md)).
+  8. Move the trip of the day through its states (today, under way, completed) as its runs move.
 - **States:** Trip states of the foundation: planned, today, under way, completed, broken, abandoned.
 - **The user receives:** Inside the product, on opening: the trip of the day and its state.
 - **Depends on:** Usual trip ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Days of travel ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Doors ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); A way chosen for today ([SPEC-08](SPEC-08_every-way-door-to-door.md))
@@ -63,11 +65,12 @@ Opens the product on the trip the commuter is about to make today: its run, stat
 
 - **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Today (start page)** (PG-01): the trip of the day, first.
 - **Components:**
-  - `<today-trip>`: the trip of the day: each leg with its run, state, platforms and the change, the arrival at the door, with nothing in front of it; it is the first content of the start page once the set-up is done; reads `profile.trips` (the trip followed today), `profile.days`, `runs`, `connections`, `clock`, `scenarios`; reacts to the scenario changing and to a leg being opened (leads to SPEC-02 or SPEC-07).
+  - `<today-trip>`: the trip of the day divided into legs, each a section with its number, stage and means of transport, its run, state and platforms or its time, the change, and the arrival at the door, with nothing in front of it; the name of each leg leads to the Run page on that leg; it is the first content of the start page once the set-up is done; reads `profile.trips` (the trip followed today), `profile.days`, `runs`, `connections`, `clock`, `scenarios`; reacts to the scenario changing and to a leg being opened (leads to SPEC-02 or SPEC-07).
   - `<run-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
   - `<fact-line>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
   - `<missing-setup>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
-  - `<leg-problem>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, under a car or walking leg of the trip of the day (traffic, an accident, works), as SPEC-02 rule 14 describes.
+  - `<trip-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips under the trip of the day.
+  - `<leg-problem>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, under a car or walking leg of the trip of the day (traffic, an accident, works), as SPEC-02 rule 15 describes.
 - **Datasets:**
   - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}]` (the trip followed today), `days`, `doors`.
   - `runs` (defined in the foundation): state, expected times and platforms of each run of the trip.
@@ -93,6 +96,7 @@ The detail of the run (SPEC-02); planning other ways (SPEC-08).
 
 - **Given** a usual trip at 7:42 on travel days **when** the commuter opens the product at 7:20 on a travel day **then** the first view is that run, its state, its platform and the change platform.
 - **Given** the platform differs from the usual one **when** the view is shown **then** it is marked as changed.
+- **Given** the trip Home to Milan apartment **when** the commuter opens Today **then** four sections follow one another: "Leg 1 of 4 · first mile · Car", "Leg 2 of 4 · main leg · Train", "Leg 3 of 4 · transfer · Underground", "Leg 4 of 4 · last mile · On foot", and the other trips are listed under it.
 - **Given** an announcement to make **when** the commuter opens the product **then** it is not shown before the trip information.
 - **Given** the commuter confirms they take the 8:12 instead **when** they open the product again **then** the trip of the day is the 8:12.
 - **Given** no usual trip **when** the commuter opens the product **then** it opens on a search and says where to set the usual trip.

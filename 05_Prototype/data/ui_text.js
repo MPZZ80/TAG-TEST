@@ -5,7 +5,7 @@
  * Used by: every screen
  * Fields: common, nav[{file, label}], weekdays[], channel_options[], modes, states, one object per screen
  * Source: mock
- * Updated: 2026-11-19
+ * Updated: 2026-11-21
  */
 window.DATA = window.DATA || {};
 DATA.ui_text = {
@@ -143,6 +143,12 @@ DATA.ui_text = {
     leg_kinds: { traffic: "Traffic", accident: "Accident", works: "Works", closed: "Street closed" },
     detour: "Way round",
     alt_details: "Details and map",
+    stops: "Stops",
+    stop_planned: "Planned",
+    stop_expected: "Expected",
+    stop_none: "—",
+    back_today: "Back to Today",
+    leg_open: "See this leg",
     chosen_notice: "You chose {service} instead of {instead}. At {door} around {time}.",
     chosen_label: "Your choice, from the schedule",
     undo: "Go back to the planned trip",

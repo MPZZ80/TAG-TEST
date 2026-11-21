@@ -55,11 +55,11 @@
   choose.type = "button";
   choose.addEventListener("click", function () {
     confirm.ask(P.fill(A.confirm_title, { service: alt.service, instead: run.service }), A.confirm_text, function () {
-      location.href = "run.html?" + new URLSearchParams({ trip: trip.id, scenario: P.scenarioKey, choice: runId + ":" + alt.id }).toString();
+      location.href = "today.html?" + new URLSearchParams({ scenario: P.scenarioKey, choice: runId + ":" + alt.id }).toString();
     });
   });
   main.appendChild(choose);
   const back = P.el("p");
-  back.appendChild(P.link("run.html", A.back, { trip: trip.id }));
+  back.appendChild(P.link("run.html", A.back, { trip: trip.id, run: runId }));
   main.appendChild(back);
 })();

@@ -4,11 +4,12 @@
  *   as facts with their source, time and status (SPEC-01, SPEC-03).
  * Used by: today.html, run.html, connection.html, alerts.html, timing.html, stop.html
  * Fields: id{service, operator, from, to, dep, arr, platform_dep, usual_platform, platform_arr, usual_delay, next[],
+ *   stops[{name, time}],
  *   alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note,
  *     legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}],
  *   by_scenario{key: {state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[{label, value, source, time, status}]}}}
  * Source: mock
- * Updated: 2026-11-19
+ * Updated: 2026-11-21
  */
 window.DATA = window.DATA || {};
 DATA.runs = {
@@ -17,6 +18,8 @@ DATA.runs = {
     from: "Verona Porta Nuova", to: "Milano Centrale", dep: "07:45", arr: "08:58",
     platform_dep: "4", usual_platform: "4", platform_arr: "21",
     // record of past runs; how many runs it covers is OQ-06 (provisional: the last 20 runs)
+    // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
+    stops: [{ name: "Verona Porta Nuova", time: "07:45" }, { name: "Brescia", time: "08:20" }, { name: "Milano Centrale", time: "08:58" }],
     usual_delay: { minutes: 6, runs: 20 },
     // other ways to make this leg, shown on the Run page when the run is late or cancelled (SPEC-02).
     // Realistic mock: times and durations from public timetables (Frecciarossa ~1h13, Italo ~1h12,
@@ -114,6 +117,8 @@ DATA.runs = {
     service: "Underground M2", operator: "City transport",
     from: "Milano Centrale FS", to: "Loreto", dep: "09:12", arr: "09:15",
     platform_dep: "M2 towards Cologno / Gessate", usual_platform: "M2 towards Cologno / Gessate", platform_arr: "—",
+    // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
+    stops: [{ name: "Milano Centrale FS", time: "09:12" }, { name: "Caiazzo", time: "09:13" }, { name: "Loreto", time: "09:15" }],
     usual_delay: { minutes: 0, runs: 20 },
     by_scenario: {
       none:      { state: "planned", delay: 0, exp_dep: "09:12", exp_arr: "09:15", platform: "M2 towards Cologno / Gessate", facts: [] },
@@ -132,6 +137,8 @@ DATA.runs = {
     service: "Underground M3", operator: "City transport",
     from: "Repubblica", to: "Milano Centrale", dep: "17:22", arr: "17:24",
     platform_dep: "M3 northbound", usual_platform: "M3 northbound", platform_arr: "—",
+    // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
+    stops: [{ name: "Repubblica", time: "17:22" }, { name: "Milano Centrale", time: "17:24" }],
     usual_delay: { minutes: 0, runs: 20 },
     by_scenario: {
       none:      { state: "planned", delay: 0, exp_dep: "17:22", exp_arr: "17:24", platform: "M3 northbound", facts: [] },
@@ -147,6 +154,8 @@ DATA.runs = {
     service: "Regional RE6 2614", operator: "Regional rail operator",
     from: "Verona Porta Nuova", to: "Brescia", dep: "08:28", arr: "09:12",
     platform_dep: "1", usual_platform: "1", platform_arr: "3",
+    // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
+    stops: [{ name: "Verona Porta Nuova", time: "08:28" }, { name: "Peschiera del Garda", time: "08:40" }, { name: "Desenzano del Garda", time: "08:48" }, { name: "Brescia", time: "09:12" }],
     usual_delay: { minutes: 4, runs: 12 },
     by_scenario: {
       none:      { state: "planned", delay: 0, exp_dep: "08:28", exp_arr: "09:12", platform: "1", facts: [] },
@@ -162,6 +171,8 @@ DATA.runs = {
     service: "High-speed 9722", operator: "National rail operator",
     from: "Milano Centrale", to: "Verona Porta Nuova", dep: "17:35", arr: "18:48",
     platform_dep: "14", usual_platform: "14", platform_arr: "3",
+    // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
+    stops: [{ name: "Milano Centrale", time: "17:35" }, { name: "Brescia", time: "18:12" }, { name: "Verona Porta Nuova", time: "18:48" }],
     usual_delay: { minutes: 9, runs: 20 },
     by_scenario: {
       none:      { state: "planned", delay: 0, exp_dep: "17:35", exp_arr: "18:48", platform: "14", facts: [] },

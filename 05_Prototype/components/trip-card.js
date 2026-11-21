@@ -17,7 +17,7 @@
       if (!t) return;
       this.className = "card";
       const title = P.el("h3");
-      title.appendChild(P.link("run.html", t.name, { trip: t.id }));
+      title.appendChild(P.link("run.html", t.name, { trip: t.id, nochoice: "1" }));
       this.appendChild(title);
       const legs = t.legs.map(function (l) { return T.modes[l.mode] || l.mode; }).join(", ");
       this.appendChild(P.el("p", "meta", P.fill(T.run.trip_legs, { from: door(t.from), to: door(t.to), legs: legs })));

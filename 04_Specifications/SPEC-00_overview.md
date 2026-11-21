@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-19 00:13
+date: 2026-11-21 16:57
 method: synthesis
 status: draft
 grade: n/a
@@ -95,8 +95,9 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<setup-flow>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md) |
 | `<source-gap>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | `<leg-alternatives>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
+| `<run-stops>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | `<route-map>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
-| `<trip-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-17](SPEC-17_trips.md) |
+| `<trip-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-17](SPEC-17_trips.md) |
 | `<first-trip-cta>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-17](SPEC-17_trips.md) |
 | `<leg-problem>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) |
 | `<alert-settings>` | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) |
@@ -154,7 +155,7 @@ One row per page of the information architecture proposed in [SPEC-01](SPEC-01_f
 | Page | What it is for | Reached from | Specifications |
 | --- | --- | --- | --- |
 | PG-01 **Today (start page)** | What the product opens on: the trip of the day, with nothing in front of it; at the first opening, the way into the set-up or a one-off search | Opening the product; the navigation | [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
-| PG-02 **Run** | The runs of one trip door to door, each with its real state, the alternatives for a leg that fails, and the other trips | A run on Today, a trip on Trips, a way; a message about a run (the starting point of the prototype) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-17](SPEC-17_trips.md) |
+| PG-02 **Run** | One leg of a trip: the real state of its run with its stops, or its means and time; the alternatives when it fails | The name of a leg on Today, a trip on Trips, a way; a message about a run (the starting point of the prototype) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | PG-03 **Connection** | Whether the change ahead still holds, and the next one that does; asking that the connection be told | The change on Today; a message about the connection | [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | PG-04 **Ways out** | The ways that still reach the door when the trip breaks | The broken trip on Today; a message that the trip is broken | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md) |
 | PG-05 **Ways** | Every way door to door for a day and time, side by side | The navigation; "Find a way now" on Today at the first opening | [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) |

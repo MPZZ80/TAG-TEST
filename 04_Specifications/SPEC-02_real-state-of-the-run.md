@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-19 00:13
+date: 2026-11-21 16:57
 method: synthesis
 status: draft
 grade: n/a
@@ -41,29 +41,30 @@ Concepts and families are references only: the behaviour below comes from the st
 
 ## Description
 
-Tells the commuter, for the runs of a trip door to door, where each really is, when it will really leave and arrive, why it is late, and which source says so, as early as any source knows it. The runs of the trip are shown one under the other in the order of the legs; a run that is late or cancelled is followed by the other ways to make the same leg. The commuter's other trips are in a section of their own. With no trip set up, the page only invites the commuter to set up the first one.
+Tells the commuter, for one leg of a trip door to door, the real state of its run: where it really is, when it will really leave and arrive at each stop, why it is late, and which source says so, as early as any source knows it; and, when the run is late or cancelled, the other ways to make the same leg. A leg the commuter makes on their own shows its means, its time and what changes it. The whole trip, leg by leg, is on Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), from where each leg is opened. With no trip set up, the page only invites the commuter to set up the first one.
 
 ## Operating logic
 
 - **Starts when:** The commuter opens a run or a trip: from a message about a run of their trip (the prototype starts here), from Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), from Trips ([SPEC-17](SPEC-17_trips.md)), or from another trip on this page; or a fact about a run of the commuter's trip arrives.
 - **Needs to know:** The trip to show, from the commuter's list of trips ([SPEC-17](SPEC-17_trips.md)): the one asked for, the one of the run asked for, or the one followed today. Facts about its runs from the sources of the foundation: schedule, operator live, other travellers. The other ways to make each leg, from the schedule of operators and coach companies.
 - **Rules:**
-  1. Show every leg of the trip as a section of its own, in the order of the legs, titled with its number, the total, its stage and its usual means of transport (for example "Leg 2 of 4 · main leg · Train") and its two ends. A leg with a run holds the run as a card; a leg the commuter makes on their own (car, on foot) holds its means and its time, and says there is no run to follow. A section holds only its own leg: the next leg is the next section.
+  1. Show one leg: the one opened from Today, or the leg of the run asked for, or the first leg with a run. Title it with its number, the total, its stage and its usual means of transport (for example "Leg 2 of 4 · main leg · Train") and its two ends. A leg with a run holds the run as a card; a leg the commuter makes on their own (car, on foot) holds its means and its time, and says there is no run to follow. The other legs are not shown here: the whole trip is on Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), and the page leads back to it.
   2. On each card, show the state of the run (on time, late with the minutes, cancelled, no news) first.
   3. For a run that is not cancelled, show the planned and expected departure and arrival, the platform, and where the run is now.
   4. Show "Why" only when the run is late or cancelled and a source gives the reason; a run with no problem has no "Why".
   5. For a cancelled run, show only that it is cancelled, with its source, and why; not the planned and expected times, the platform or the position.
-  6. Keep the facts behind the card (every figure with its source, age and status) and how late the run usually is under "Details", closed until the commuter opens it.
-  7. When two sources give different figures for the same thing, show an information button next to the state; it opens a dialog with each figure, its source and age, and the gap between them.
-  8. Show the run as cancelled only when a source says so; a growing delay alone never shows it as cancelled.
-  9. When no source has said anything for longer than the age limit, show "no news since <time>".
-  10. Keep each run's facts over time, so that how late a run usually is can be told (record of past runs).
-  11. Inside the section of a run that is late or cancelled, under its card, show the other ways to make the same leg, so that they read as part of that leg and not of the next one: the next runs of the same service, other operators on the same line, other means such as a coach; each with its departure and arrival, arrival at the door, whether the commuter's ticket is valid on it, its cost, and its source.
-  12. Show the commuter's other trips door to door in a section of their own, each leading to its runs on this page.
-  13. With no trip set up, show only the invitation to set up the first trip, and nothing about runs.
-  14. On a leg the commuter makes on their own, show what changes it: traffic or an accident on a car leg, works or a closed street on a walking leg; each with the extra minutes, the way round when there is one, and its source, age and status, as for a run. The way round is shown, never applied: the decision stays with the commuter (foundation, Principle 4; a drive under way is [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md)). A clear leg shows nothing more. Whether commuters want this for car and walking legs is [not traced], and where the data come from is [technology choice open] ([OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md)).
-  15. Each alternative leads to a page of its own with its details, a sketch of its route on a map, the trip door to door as it would become with it (the legs before the replaced one stay; the legs from it to the door come from the alternative: for a coach to Milano Lampugnano, the underground from Lampugnano and not from Centrale), and the arrival at the door compared with the current one, or with the planned one when the run is cancelled.
-  16. "Choose this way" asks first; after the commuter's yes the trip of today follows the alternative on every page (Run, Today), with a line saying what was chosen instead of what and the new arrival at the door, and a way back to the planned trip. Nothing changes without yes (foundation, Principle 4). Booking or buying the alternative is not part of the choice ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
+  6. Show the stops of the run, each with its planned time and its expected time; the expected times move with the expected departure; a cancelled run, or one with no news, has no expected times.
+  7. Keep the facts behind the card (every figure with its source, age and status) and how late the run usually is under "Details", closed until the commuter opens it.
+  8. When two sources give different figures for the same thing, show an information button next to the state; it opens a dialog with each figure, its source and age, and the gap between them.
+  9. Show the run as cancelled only when a source says so; a growing delay alone never shows it as cancelled.
+  10. When no source has said anything for longer than the age limit, show "no news since <time>".
+  11. Keep each run's facts over time, so that how late a run usually is can be told (record of past runs).
+  12. Inside the section of a run that is late or cancelled, under its card, show the other ways to make the same leg, so that they read as part of that leg and not of the next one: the next runs of the same service, other operators on the same line, other means such as a coach; each with its departure and arrival, arrival at the door, whether the commuter's ticket is valid on it, its cost, and its source.
+  13. The commuter's other trips are listed on Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), not here.
+  14. With no trip set up, show only the invitation to set up the first trip, and nothing about runs.
+  15. On a leg the commuter makes on their own, show what changes it: traffic or an accident on a car leg, works or a closed street on a walking leg; each with the extra minutes, the way round when there is one, and its source, age and status, as for a run. The way round is shown, never applied: the decision stays with the commuter (foundation, Principle 4; a drive under way is [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md)). A clear leg shows nothing more. Whether commuters want this for car and walking legs is [not traced], and where the data come from is [technology choice open] ([OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md)).
+  16. Each alternative leads to a page of its own with its details, a sketch of its route on a map, the trip door to door as it would become with it (the legs before the replaced one stay; the legs from it to the door come from the alternative: for a coach to Milano Lampugnano, the underground from Lampugnano and not from Centrale), and the arrival at the door compared with the current one, or with the planned one when the run is cancelled.
+  17. "Choose this way" asks first; after the commuter's yes the trip of today follows the alternative on every page (Run, Today), with a line saying what was chosen instead of what and the new arrival at the door, and a way back to the planned trip. Nothing changes without yes (foundation, Principle 4). Booking or buying the alternative is not part of the choice ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
 - **States:** The run states of the foundation: planned, on time, late (minutes), departed, arrived, cancelled, no news.
 - **The user receives:** Inside the product: the runs of the trip with their state, the facts under "Details", the sources in a dialog when they disagree, the alternatives for a leg that fails, the other trips. A message on the commuter's channel when a run of their trip is cancelled, or when its delay changes, with the new expected time, the platform and the source, so that they know as early as an unofficial app would tell them (F-01). One message per change: nothing is sent again while nothing changes (foundation, Channels). The kinds of event and the moments of a travel day the commuter set in [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) apply to these messages too.
 - **Depends on:** The list of trips and the trip followed today ([SPEC-17](SPEC-17_trips.md)); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); The other ways to make a leg (this specification, from the schedule)
@@ -71,12 +72,13 @@ Tells the commuter, for the runs of a trip door to door, where each really is, w
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Run** (PG-02): the whole page; **Alternative** (PG-17): the whole page, for one alternative; **Today (start page)** (PG-01): the state of each run, as a line of the trip, and the trip as changed by a chosen alternative.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Run** (PG-02): the whole page, for one leg; **Alternative** (PG-17): the whole page, for one alternative; **Today (start page)** (PG-01): the state of each run, in the section of its leg, whose name opens this page.
 - **Components:**
   - `<run-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, with the state first, the information button when sources disagree, "Why" only for a problem, and the facts and `<usual-delay>` under "Details".
   - `<fact-line>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, inside "Details" and in the dialog.
   - `<usual-delay>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, inside "Details".
   - `<source-gap>`: the figures two sources give for the same thing, each with its `<fact-line>`, and the gap between them in minutes, shown in a dialog opened from the information button of `<run-card>`; reads `runs.<id>.by_scenario.<key>.facts`; reacts to the dialog being opened and closed.
+  - `<run-stops>`: the stops of the run in a table, with the planned and the expected time of each; reads `runs.<id>.stops` and the expected departure of the scenario; no events.
   - `<leg-alternatives>`: the other ways to make one leg, as cards: service, operator, source, departure and arrival, arrival at the door, ticket validity and cost, a note; reads `runs.<id>.alternatives`; no events (choosing and booking a way are [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) and [SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
   - `<trip-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips.
   - `<first-trip-cta>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, in place of the runs when nothing is set up.
@@ -84,7 +86,7 @@ Tells the commuter, for the runs of a trip door to door, where each really is, w
   - `<confirm-choice>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, before an alternative is chosen.
   - `<leg-problem>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, in the section of a car or walking leg.
 - **Datasets:**
-  - `runs` (defined in the foundation): `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}]`, `by_scenario.<key>.state`, `delay`, `exp_dep`, `exp_arr`, `platform`, `platform_may_change`, `position`, `reason`, `facts[]`.
+  - `runs` (defined in the foundation): `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay`, `stops[{name, time}]`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}]`, `by_scenario.<key>.state`, `delay`, `exp_dep`, `exp_arr`, `platform`, `platform_may_change`, `position`, `reason`, `facts[]`.
   - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[]}]`, `doors`.
   - `leg_events` (defined in the foundation): `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status}]`: what changes a car or walking leg.
   - `notifications` (defined in the foundation): `today.<scenario>[]`: the message sent when the delay of a run of the trip changes (`late`) or the run is cancelled (`cancelled`).
@@ -109,8 +111,8 @@ Booking or buying an alternative: [SPEC-10](SPEC-10_tickets-that-work-when-neede
 ## Acceptance criteria
 
 - **Given** no trip set up **when** the commuter opens the Run page **then** they see only the invitation to set up their first trip, and no run.
-- **Given** the trip Home to Milan apartment **when** the commuter opens it **then** four sections follow one another: "Leg 1 of 4 · first mile · Car" (Home → Verona Porta Nuova, about 15 min), "Leg 2 of 4 · main leg · Train" with the high-speed train, "Leg 3 of 4 · transfer · Underground" with the M2 from Milano Centrale FS to Loreto, "Leg 4 of 4 · last mile · On foot" (Loreto → Milan apartment, about 5 min).
-- **Given** the high-speed train 18 minutes late **when** the commuter looks at its alternatives **then** they are inside the section of leg 2, before the section of leg 3 begins.
+- **Given** Today in scenario Late **when** the commuter taps "Leg 2 of 4 · main leg · Train" **then** the Run page shows only that leg: the high-speed train, its stops (Verona Porta Nuova 07:45 → 08:03, Brescia 08:20 → 08:38, Milano Centrale 08:58 → 09:16) and its alternatives; not the other legs.
+- **Given** the leg on foot **when** the commuter opens it **then** they see "On foot: Loreto → Milan apartment, about 5 min", that there is no run to follow, and the works on the way.
 - **Given** a run on time **when** the commuter looks at it **then** there is no "Why", and the facts and the usual delay are under "Details", closed.
 - **Given** a run the operator shows 18 minutes late and other travellers 22 **when** the commuter taps the information button next to "Late, 18 min" **then** a dialog shows both figures, each with its source and age, and the gap of 4 minutes.
 - **Given** a run whose delay grows from 5 to 25 minutes **when** no source states a cancellation **then** the run is not shown as cancelled.
@@ -118,7 +120,6 @@ Booking or buying an alternative: [SPEC-10](SPEC-10_tickets-that-work-when-neede
 - **Given** a run 18 minutes late **when** the commuter opens it **then** the alternatives for that leg are shown under it, each with arrival at the door, ticket validity and cost.
 - **Given** a run of the commuter's trip on time **when** the operator confirms it 18 minutes late **then** a message on the commuter's channel gives the new expected time, the platform and the source, and opening it leads to this page.
 - **Given** a message already sent for a delay of 18 minutes **when** nothing changes **then** no other message is sent.
-- **Given** the commuter has three trips **when** they open one **then** the other two are listed under "Your other trips", each leading to its runs.
 - **Given** no fact for longer than the age limit **when** the commuter looks **then** they see "no news since <time>".
 - **Given** the high-speed train 18 minutes late **when** the commuter opens the FlixBus alternative **then** they see its details, a sketch of its route, the trip with it (on foot to Viale Palladio, the coach to Milano Lampugnano, the M1 from Lampugnano to Loreto, on foot to the apartment) and "At Milan apartment around 11:09, instead of 09:39".
 - **Given** the page of an alternative **when** the commuter taps "Choose this way" and answers no **then** nothing changes.

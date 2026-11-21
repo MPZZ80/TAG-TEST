@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 16:57
+
+- **Files:** `05_Prototype/components/today-trip.js`, `run-stops.js` (new), `trip-card.js`; `05_Prototype/js/run.js`, `today.js`, `alternative.js`; `05_Prototype/html/run.html`, `today.html`; `05_Prototype/data/runs.js`, `ui_text.js`; `05_Prototype/css/style.css`; the READMEs of `05_Prototype/html/` and `components/`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-17_trips.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`
+- **Change:** Today shows the trip of the day divided into legs, each a section titled "Leg n of 4 · stage · means" with its two ends, its run and state or its means and time, and the problems on it; the name of each leg opens Run on that leg alone. Run now shows one leg: its run card with the stops (planned and expected time of each; new component `<run-stops>`, new field `stops` in the runs), and the alternatives when it is late or cancelled; or the means and time of a leg made on one's own, or the times of a leg chosen from an alternative; with a link back to Today. The other trips moved from Run to Today. After choosing an alternative the commuter lands on Today. SPEC-02 (description, rules renumbered 1–17, pages, components, datasets, acceptance criteria), SPEC-04 (rules 6–7, components, a criterion), SPEC-17, SPEC-01 and SPEC-00 (pages PG-01 and PG-02) updated.
+- **Why:** Marco: restore the division into legs on Today; tapping the name of a leg should show only that leg, with its details, such as the planned and actual times of its stops, and the alternatives when it is late or cancelled.
+
 ## 2026-11-19 00:13
 
 - **Files:** created `05_Prototype/html/alternative.html`, `05_Prototype/js/alternative.js`, `05_Prototype/components/route-map.js`, `05_Prototype/components/confirm-choice.js`, `04_Specifications/01_Open_Questions/OQ-36_the-map-of-a-route.md`; changed `05_Prototype/js/common.js`, `run.js`, `05_Prototype/components/leg-alternatives.js`, `today-trip.js`, `05_Prototype/html/run.html`, `05_Prototype/data/runs.js`, `ui_text.js`, `screens.js`, `05_Prototype/css/style.css`, the READMEs of `05_Prototype/html/`, `js/`, `components/`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`, the index and README of `01_Open_Questions/`; `Index.md`

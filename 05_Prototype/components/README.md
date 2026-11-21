@@ -11,8 +11,9 @@ The web components of the prototype, one file per component, named after its tag
 | `message-preview.js` | `<message-preview>`: a message outside the product, simulated | SPEC-01 | SPEC-02, SPEC-03, SPEC-05, SPEC-06, SPEC-07, SPEC-11, SPEC-13 to SPEC-16 |
 | `missing-setup.js` | `<missing-setup>`: what is missing and where it is set up | SPEC-01 | every specification |
 | `source-gap.js` | `<source-gap>`: two sources that disagree, and the gap, shown in a dialog | SPEC-02 | SPEC-02 |
-| `today-trip.js` | `<today-trip>`: the trip followed today, leg by leg, with the change and the arrival at the door | SPEC-04 | SPEC-04 |
+| `today-trip.js` | `<today-trip>`: the trip followed today divided into legs, each a section leading to its detail on Run, with the change and the arrival at the door | SPEC-04 | SPEC-04 |
 | `leg-alternatives.js` | `<leg-alternatives>`: the other ways to make a leg that is late or cancelled | SPEC-02 | SPEC-02 |
+| `run-stops.js` | `<run-stops>`: the stops of a run, with planned and expected times | SPEC-02 | SPEC-02 |
 | `route-map.js` | `<route-map>`: a sketch of the route of an alternative, from approximate points | SPEC-02 | SPEC-02 |
 | `confirm-choice.js` | `<confirm-choice>`: asks yes or no before anything changes | SPEC-01 | SPEC-02, later SPEC-05, SPEC-10, SPEC-15 |
 | `trip-card.js` | `<trip-card>`: one trip door to door, leading to its runs | SPEC-01 | SPEC-02, SPEC-17 |
