@@ -11,7 +11,7 @@ The web components of the prototype, one file per component, named after its tag
 | `message-preview.js` | `<message-preview>`: a message outside the product, simulated | SPEC-01 | SPEC-02, SPEC-03, SPEC-05, SPEC-06, SPEC-07, SPEC-11, SPEC-13 to SPEC-16 |
 | `missing-setup.js` | `<missing-setup>`: what is missing and where it is set up | SPEC-01 | every specification |
 | `source-gap.js` | `<source-gap>`: two sources that disagree, and the gap, shown in a dialog | SPEC-02 | SPEC-02 |
-| `today-trip.js` | `<today-trip>`: the trip followed today divided into legs, each a section leading to its detail on Run, with the change and the arrival at the door | SPEC-04 | SPEC-04 |
+| `today-trip.js` | `<today-trip>`: the trip followed today divided into legs, each a section leading to its detail on Run, with the change, the arrival at the door, and the choice of the run taken today | SPEC-04 | SPEC-04 |
 | `leg-alternatives.js` | `<leg-alternatives>`: the other ways to make a leg that is late or cancelled, in grey; tapping one selects it and shows "Choose" | SPEC-02 | SPEC-02 |
 | `leg-map.js` | `<leg-map>`: the map of a leg: route, stops, the vehicle at its simulated live position, the alternatives in grey (one in colour when tapped), blocked points and ways round | SPEC-02 | SPEC-02 |
 | `map-base.js` | `MapBase`, a helper (not a component): the grey background of the maps, from `data/map_features.js` | SPEC-02 | `<leg-map>`, `<route-map>` |

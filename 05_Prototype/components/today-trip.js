@@ -4,11 +4,39 @@
  * Used by: SPEC-04, first on the Today page
  * Reads: the trip followed today (`DATA.profile.trips`) as changed by a chosen alternative, `DATA.runs`,
  *   `DATA.connections`, `DATA.leg_events`, `DATA.scenarios`
- * Reacts to: the name of a leg, which opens the Run page on that leg (SPEC-02); the change (SPEC-07).
+ * Reacts to: the name of a leg, which opens the Run page on that leg (SPEC-02); the change (SPEC-07);
+ *   confirming the run taken today, or taking another, which becomes the trip of the day (SPEC-04 rule 4).
  *   Each leg shows its state: to do, in progress or completed, from the commuter's position (SPEC-01, States)
  */
 (function () {
   const P = Proto, T = P.T, TD = T.today, R = T.run;
+
+  // Confirm the run taken today, or take another of the same leg (SPEC-04 rule 4): another run becomes the trip of
+  // the day through the same choice as an alternative on Run (?choice=RUN:ALT).
+  function runChoice(id, s, mode) {
+    const others = (s.run.alternatives || []).filter(function (a) { return a.mode === mode; });
+    if (!others.length) return document.createTextNode(""); // no other run of this leg to choose
+    const box = P.el("details");
+    box.appendChild(P.el("summary", "", TD.confirm_title));
+    const note = P.el("p", "meta");
+    note.setAttribute("role", "status");
+    const ok = P.el("button", "", TD.confirm);
+    ok.type = "button";
+    ok.addEventListener("click", function () {
+      note.textContent = P.fill(TD.confirmed, { run: s.run.service }) + " " + TD.not_kept;
+    });
+    box.appendChild(ok);
+    const list = P.el("ul", "list");
+    others.forEach(function (a) {
+      const li = P.el("li");
+      li.appendChild(document.createTextNode(a.service + " · " + P.fill(TD.run_times, a) + " "));
+      li.appendChild(P.link("today.html", TD.take_other, { choice: id + ":" + a.id }));
+      list.appendChild(li);
+    });
+    box.appendChild(list);
+    box.appendChild(note);
+    return box;
+  }
 
   // <today-trip trip="ID">: the trip of the day divided into legs, each in a section of its own with its means of
   // transport, its run or its time, the change, and the arrival at the door.
@@ -76,6 +104,7 @@
           })));
           section.appendChild(c);
         }
+        if (states[n] === "todo" && !trip.chosen) section.appendChild(runChoice(l.run, s, l.mode));
       });
 
       const doorName = P.doorName(trip.to);

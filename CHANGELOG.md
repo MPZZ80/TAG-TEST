@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 18:51
+
+- **Files:** `05_Prototype/components/today-trip.js`, `05_Prototype/js/today.js`, `05_Prototype/data/ui_text.js`, the READMEs of `05_Prototype/html/` and `components/`
+- **Change:** SPEC-04 completed on Today, following SPEC-01, without changing what was built by hand: a leg still to do with other runs of the same means gets "The run you take today", to confirm it or take another, which becomes the trip of the day through the same `?choice=` as an alternative on Run (rule 4); a message that arrived while the product was closed is a line above the trip (SPEC-01, Start page); on a day that is not a travel day, a line says the trip shown is the next travel day's.
+- **Why:** Marco: carry out SPEC-04 (following the foundation, AGENTS.md log 50).
+
 ## 2026-11-21 18:47
 
 - **Files:** created `05_Prototype/html/alerts.html`, `05_Prototype/js/alerts.js`, `05_Prototype/components/alert-settings.js`, `alert-log.js`, `announced-list.js`; changed `05_Prototype/data/alerts.js`, `screens.js`, `ui_text.js`, `05_Prototype/css/style.css`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `AGENTS.md`

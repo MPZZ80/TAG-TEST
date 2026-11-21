@@ -116,7 +116,10 @@ DATA.ui_text = {
     link_timing: "How long each leg really takes",
     link_station: "The station ahead",
     link_tickets: "Your tickets",
-    link_contacts: "Tell who waits for you"
+    link_contacts: "Tell who waits for you",
+    arrived: "Arrived while closed: {text}",
+    not_travel_day: "{weekday} is not a travel day: this is the trip for {next}.",
+    not_kept: "In this prototype your confirmation is not kept."
   },
   run: {
     title: "State of the run",
