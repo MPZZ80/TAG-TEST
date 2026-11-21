@@ -195,3 +195,14 @@ polyline { fill: none; }
 .bm-rail { fill: none; stroke: #a9a8a4; stroke-width: 1.2; stroke-dasharray: 5 2; }
 .bm-label { font-size: 9px; fill: #8e8d89; font-style: italic; letter-spacing: 0.04em; }
 .bm-street-label { font-size: 7px; fill: #9a9995; }
+
+/* The state of a leg: to do, in progress, completed. */
+.badge { display: inline-block; font-size: var(--size-small); font-weight: 600; padding: 0 var(--space-2); border-radius: 999px; vertical-align: middle; }
+.badge-todo { background: #e4e3e0; color: var(--colour-muted); }
+.badge-active { background: var(--colour-accent); color: var(--colour-surface); }
+.badge-done { background: #d6eadb; color: var(--colour-ok); }
+.leg-done { opacity: 0.6; border-left-color: var(--colour-ok); }
+.leg-todo { border-left-color: var(--colour-line); }
+.leg-active { border-left-width: 6px; }
+.you { fill: #ffffff; stroke: var(--colour-accent); stroke-width: 3; }
+.you-label { font-size: 8px; font-weight: 700; fill: var(--colour-accent); }

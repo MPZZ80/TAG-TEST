@@ -143,6 +143,8 @@ DATA.ui_text = {
     leg_kinds: { traffic: "Traffic", accident: "Accident", works: "Works", closed: "Street closed" },
     detour: "Way round",
     alt_details: "Details and map",
+    leg_states: { todo: "To do", active: "In progress", done: "Completed" },
+    you: "You",
     stops: "Stops",
     map: "On the map",
     map_live: "Live position, updated {time}",

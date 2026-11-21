@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-21 17:53
+date: 2026-11-21 18:19
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, information, disruption, usual-trip, late-info]
-related: [SPEC-02_real-state-of-the-run.md, SPEC-03_alerts-on-the-usual-trip.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-08_every-way-door-to-door.md, SPEC-09_times-that-can-be-kept.md, SPEC-10_tickets-that-work-when-needed.md, SPEC-11_the-fare-that-fits-the-days.md, SPEC-12_compensation-from-the-trip.md, SPEC-13_the-station-ahead.md, SPEC-14_stop-approaching.md, SPEC-15_the-route-stays-with-the-driver.md, SPEC-16_sessions-still-running.md, SPEC-17_trips.md, SPEC-00_overview.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md, US-F-07_trips-planned-commuter-s.md, US-F-11_usual-trip-glance.md, US-F-03_early-warning-usual-trip.md, F-07_trips-planned-commuter-s.md, F-11_usual-trip-glance.md, F-03_early-warning-usual-trip.md, HMW-10_help-german-rail-regular-planner.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-05_let-single-line-commuter-during.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md]
+related: [OQ-37_legs-moving-on-without-position.md, SPEC-02_real-state-of-the-run.md, SPEC-03_alerts-on-the-usual-trip.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-08_every-way-door-to-door.md, SPEC-09_times-that-can-be-kept.md, SPEC-10_tickets-that-work-when-needed.md, SPEC-11_the-fare-that-fits-the-days.md, SPEC-12_compensation-from-the-trip.md, SPEC-13_the-station-ahead.md, SPEC-14_stop-approaching.md, SPEC-15_the-route-stays-with-the-driver.md, SPEC-16_sessions-still-running.md, SPEC-17_trips.md, SPEC-00_overview.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-03_reaching-the-commuter-without-looking.md, US-F-07_trips-planned-commuter-s.md, US-F-11_usual-trip-glance.md, US-F-03_early-warning-usual-trip.md, F-07_trips-planned-commuter-s.md, F-11_usual-trip-glance.md, F-03_early-warning-usual-trip.md, HMW-10_help-german-rail-regular-planner.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-05_let-single-line-commuter-during.md, OQ-04_suggesting-the-usual-trip.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md]
 ---
 
 # SPEC-01: Foundation
@@ -56,6 +56,7 @@ The product helps a person who commutes, often between cities and on more than o
 ## States
 
 - **Run:** `planned` → `on time` or `late (minutes)` → `departed` → `arrived`; from any state before arrival → `cancelled`; `no news` when no source has said anything for longer than the age limit [not traced: the limit]. A run becomes `cancelled` only on a fact that says so; a growing delay alone never makes it `cancelled` (F-01).
+- **Leg:** `to do` → `in progress` → `completed`. When the commuter's position reaches the start of a leg, that leg is `in progress` and the legs before it are `completed`; when it reaches the end of the leg, the leg is `completed` and the next one becomes `in progress`. Before the trip begins every leg is `to do`. The position is used only with the commuter's consent; without it, how the legs move on is [not traced] ([OQ-37](01_Open_Questions/OQ-37_legs-moving-on-without-position.md)). Asked by Marco on 2026-11-21.
 - **Connection:** `holds` → `at risk` → `lost`, moved by the expected arrival of the incoming run against the commuter's minimum change time (F-06, F-07).
 - **Trip:** `planned` → `today` → `under way` → `completed`; from `today` or `under way` → `broken` (a run cancelled, a connection lost, a vehicle that does not come) → back to `under way` on another way, or `abandoned` (F-02, F-06).
 - **Fact:** `confirmed`, `estimated` or `reported`; `outdated` past the age limit.
@@ -154,7 +155,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | `tickets` | The tickets the commuter holds, bought in the product or entered | `[{id, title, covers, seller, entered, state, code, moves[{to, cost}]}]` | SPEC-10, SPEC-12 |
 | `leg_events` | What changes a car or walking leg in each scenario: traffic, accidents, works, closed streets | `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status, at, detour_route}]` | SPEC-02, SPEC-04 |
 | `notifications` | The messages that reach the commuter or a contact when the product is closed | `<screen>.<scenario or any>[{channel, text}]` | the specifications that use `<message-preview>` |
-| `scenarios` | The scenarios and the mock clock of each | `default`, `list.<key>{label, setup, now, trip_state, connection_state}` | every specification |
+| `scenarios` | The scenarios, the mock clock of each, and where the commuter is | `default`, `list.<key>{label, setup, now, trip_state, connection_state, passenger{at, lat, lon, started}}` | every specification |
 | `clock` | The mock day | `date`, `weekday` | every specification |
 | `ui_text` | Every interface text: titles, labels, buttons, messages, state names | `common`, `nav[]`, `weekdays[]`, `channel_options[]`, `modes`, `states`, one object per page | every specification |
 
@@ -283,6 +284,7 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - **[OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md)** Which sources tell the real position and the expected time of a vehicle (the operator, the position of travellers on board, what travellers report), and which one leads when they disagree? [not traced] Research: partly.
 - **[OQ-02](01_Open_Questions/OQ-02_age-limit-of-a-fact.md)** After how long without news is a fact (a time, a state, a position) marked outdated, and a run marked `no news`? [not traced] Research: ⚠ not supported.
 - **[OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)** How does a message reach a commuter who cannot look at a screen, for example while driving to the station or on a rerouted drive? [technology choice open] Research: ⚠ not supported.
+- **[OQ-37](01_Open_Questions/OQ-37_legs-moving-on-without-position.md)** Without consent to use the commuter's position, how does a leg move from to do to in progress to completed: by the times of the plan, by the commuter marking it, or not at all? [not traced] Research: ⚠ not supported.
 - **[OQ-04](01_Open_Questions/OQ-04_suggesting-the-usual-trip.md)** May the product suggest a usual trip from trips the commuter repeats, for them to confirm, or does the commuter always enter it? [not traced] Research: ⚠ not supported.
 - **[OQ-09](01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md)** What does the start page show when the commuter opens the product at a stop or station from which no usual trip starts? [not traced] Research: ⚠ not supported.
 
@@ -320,3 +322,4 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [OQ-04_suggesting-the-usual-trip.md](01_Open_Questions/OQ-04_suggesting-the-usual-trip.md): an open question the initial set-up raises.
 - [OQ-05_more-than-one-usual-trip.md](01_Open_Questions/OQ-05_more-than-one-usual-trip.md): an open question the initial set-up raises.
 - [OQ-09_first-view-with-no-usual-trip.md](01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md): an open question the start page raises.
+- [OQ-37_legs-moving-on-without-position.md](01_Open_Questions/OQ-37_legs-moving-on-without-position.md): an open question about the states of the legs.

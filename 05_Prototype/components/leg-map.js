@@ -5,7 +5,8 @@
  * Reads: for a run, `DATA.runs[run].approach`, `.stops`, `.alternatives[].route` and the position of the scenario
  *   (`by_scenario.<key>.pos`); for a leg made on one's own, the route set on `.leg` and the events set on `.events`
  *   (with `at` and `detour_route`)
- * Reacts to: .highlight(altId), which draws one alternative in colour; a timer moves the vehicle (simulated live position)
+ * Reacts to: .highlight(altId), which draws one alternative in colour; a timer moves the vehicle (simulated live position);
+ *   .passenger, set when the leg is in progress, draws the commuter where they are
  */
 (function () {
   const P = Proto, R = P.T.run, NS = "http://www.w3.org/2000/svg";
@@ -31,7 +32,8 @@
       const pos = s && s.pos && s.state !== "cancelled" ? s.pos : null;
 
       // The frame holds everything drawn: the leg, the way before it, the alternatives, the events, the vehicle.
-      const all = main.concat(approach, pos ? [pos] : []);
+      const you = this.passenger && this.passenger.lat ? this.passenger : null;
+      const all = main.concat(approach, pos ? [pos] : [], you ? [you] : []);
       alts.forEach(function (a) { all.push.apply(all, a.route || []); });
       events.forEach(function (e) { all.push(e.at); all.push.apply(all, e.detour_route || []); });
       const W = 320, pad = 26;
@@ -87,6 +89,14 @@
         t.textContent = p.name;
         box.appendChild(t);
       });
+
+      // The commuter, where their position puts them, when this leg is in progress.
+      if (you) {
+        box.appendChild(svg("circle", { cx: x(you), cy: y(you), r: 7, class: "you" }));
+        const t = svg("text", { x: x(you), y: y(you) + 3, class: "you-label", "text-anchor": "middle" });
+        t.textContent = R.you.charAt(0);
+        box.appendChild(t);
+      }
 
       // The vehicle, moving along the route from where the data put it (simulated live position).
       const status = P.el("p", "meta");

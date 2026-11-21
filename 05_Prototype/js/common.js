@@ -89,10 +89,20 @@
     return Object.assign({}, t, { legs: t.legs.slice(0, i).concat(after), chosen: ch });
   }
 
+  // The state of each leg of a trip (SPEC-01, States): the leg that starts where the commuter is is in progress,
+  // the legs before it completed, the legs after it to do; before the trip begins, all to do.
+  function legStates(legs) {
+    const p = DATA.scenarios.list[scenarioKey].passenger;
+    if (!p || !p.started) return legs.map(function () { return "todo"; });
+    let i = legs.findIndex(function (l) { return l.from === p.at; });
+    if (i < 0) i = legs.findIndex(function (l) { return l.to === p.at; }) + 1;
+    return legs.map(function (l, n) { return n < i ? "done" : n === i ? "active" : "todo"; });
+  }
+
   function doorName(id) { const d = DATA.profile.doors.find(function (x) { return x.id === id; }); return d ? d.name : id; }
 
   window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: DATA.scenarios.list[scenarioKey],
     fill: fill, el: el, link: link, runState: runState, stateClass: stateClass, shell: shell,
     disagreeing: disagreeing, trip: trip, followedTrip: followedTrip,
-    choice: choice, effectiveTrip: effectiveTrip, doorName: doorName };
+    choice: choice, effectiveTrip: effectiveTrip, doorName: doorName, legStates: legStates };
 })();

@@ -4,7 +4,8 @@
  * Used by: SPEC-04, first on the Today page
  * Reads: the trip followed today (`DATA.profile.trips`) as changed by a chosen alternative, `DATA.runs`,
  *   `DATA.connections`, `DATA.leg_events`, `DATA.scenarios`
- * Reacts to: the name of a leg, which opens the Run page on that leg (SPEC-02); the change (SPEC-07)
+ * Reacts to: the name of a leg, which opens the Run page on that leg (SPEC-02); the change (SPEC-07).
+ *   Each leg shows its state: to do, in progress or completed, from the commuter's position (SPEC-01, States)
  */
 (function () {
   const P = Proto, T = P.T, TD = T.today, R = T.run;
@@ -30,11 +31,14 @@
       }
       this.appendChild(state);
 
+      const states = P.legStates(trip.legs); // to do, in progress, completed, from the commuter's position
       trip.legs.forEach(function (l, n) {
         const mode = T.modes[l.mode] || l.mode;
-        const section = P.el("section", "leg");
+        const section = P.el("section", "leg leg-" + states[n]);
         const title = P.el("h3");
         title.appendChild(P.link("run.html", P.fill(R.leg_title, { n: n + 1, total: trip.legs.length, stage: l.stage, mode: mode }), { trip: planned.id, leg: n + 1 }));
+        title.appendChild(document.createTextNode(" "));
+        title.appendChild(P.el("span", "badge badge-" + states[n], R.leg_states[states[n]]));
         section.appendChild(title);
         section.appendChild(P.el("p", "meta", P.fill(R.leg_route, l)));
         self.appendChild(section);
@@ -45,8 +49,8 @@
         }
         if (!l.run || !DATA.runs[l.run]) {
           section.appendChild(P.el("p", "", mode + (l.minutes ? " · about " + l.minutes + " min" : "")));
-          const problem = document.createElement("leg-problem");
-          if (!l.chosen) problem.setAttribute("leg", planned.id + "-" + (planned.legs.indexOf(l) + 1));
+          const problem = document.createElement("leg-problem"); // not on a completed leg: it no longer matters
+          if (!l.chosen && states[n] !== "done") problem.setAttribute("leg", planned.id + "-" + (planned.legs.indexOf(l) + 1));
           section.appendChild(problem);
           return;
         }

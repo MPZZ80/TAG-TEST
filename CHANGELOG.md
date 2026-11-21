@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 18:19
+
+- **Files:** `05_Prototype/data/scenarios.js`, `profile.js`, `ui_text.js`, `05_Prototype/js/common.js`, `run.js`, `05_Prototype/components/today-trip.js`, `leg-map.js`, `05_Prototype/css/style.css`; `04_Specifications/SPEC-01_foundation.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-02_real-state-of-the-run.md`, `SPEC-00_overview.md`, `01_Open_Questions/OQ-37_legs-moving-on-without-position.md` (new), the index and README of `01_Open_Questions/`; `Index.md`
+- **Change:** Legs have three states, to do, in progress, completed: the leg that starts where the commuter's position is is in progress, the legs before it completed, the legs after it to do; before the trip begins, all to do (SPEC-01, States). Today shows the state of each leg next to its name, the leg in progress standing out and the completed ones quieter, without their problems; Run shows the state under the title and, for the leg in progress, the commuter on the map. Mock: where the commuter is in each scenario (at home at 07:20, at Verona Porta Nuova at 07:40), and consent to use the position given in the mock profile. OQ-37 opened: how legs move on without that consent ([not traced]). SPEC-04 rules 7–9 and two criteria, SPEC-02 rule 1 and datasets, SPEC-00 updated.
+- **Why:** Marco: when the passenger's position reaches the intermediate destinations, one leg completes and the next becomes active; states to do, in progress, completed.
+
 ## 2026-11-21 18:11
 
 - **Files:** created `05_Prototype/data/map_features.js`, `05_Prototype/components/map-base.js`; changed `05_Prototype/components/leg-map.js`, `route-map.js`, `05_Prototype/html/run.html`, `alternative.html`, `05_Prototype/css/style.css`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `01_Open_Questions/OQ-36_the-map-of-a-route.md`

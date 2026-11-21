@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 17:53
+date: 2026-11-21 18:19
 method: synthesis
 status: draft
 grade: n/a
@@ -264,6 +264,7 @@ All the open questions of the specifications, 33 in all, one file each in [01_Op
 | [OQ-34](01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md) | Days of travel with a list of trips | SPEC-17 | [not traced] | ⚠ not supported |
 | [OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md) | Problems on car and walking legs: whether commuters want them, and the source of the data | SPEC-02 | [not traced] [technology choice open] | partly |
 | [OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md) | The map of a leg and of a route, with the live position | SPEC-02 | [technology choice open] | ⚠ not supported |
+| [OQ-37](01_Open_Questions/OQ-37_legs-moving-on-without-position.md) | Legs moving on without the position | SPEC-01 | [not traced] | ⚠ not supported |
 
 ## Connections
 
@@ -292,6 +293,7 @@ All the open questions of the specifications, 33 in all, one file each in [01_Op
 - [04_Ideas_prioritization.md](../03_Ideation/02_Ideas/04_Ideas_prioritization.md): the family marks quoted.
 - [00_Open_questions_index.md](01_Open_Questions/00_Open_questions_index.md): the open questions of the specifications, one file each, traced to the research.
 - [SPEC-17_trips.md](SPEC-17_trips.md): a specification this overview maps.
-- [OQ-34_days-of-travel-with-a-list-of-trips.md, OQ-35_problems-on-car-and-walking-legs.md, OQ-36_the-map-of-a-route.md](01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md): an open question of the specifications.
+- [OQ-34_days-of-travel-with-a-list-of-trips.md, OQ-35_problems-on-car-and-walking-legs.md, OQ-36_the-map-of-a-route.md, OQ-37_legs-moving-on-without-position.md](01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md): an open question of the specifications.
 - [OQ-35_problems-on-car-and-walking-legs.md](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md): an open question of the specifications.
 - [OQ-36_the-map-of-a-route.md](01_Open_Questions/OQ-36_the-map-of-a-route.md): an open question of the specifications.
+- [OQ-37_legs-moving-on-without-position.md](01_Open_Questions/OQ-37_legs-moving-on-without-position.md): an open question of the specifications.

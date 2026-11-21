@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-21 17:53
+date: 2026-11-21 18:19
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, tools, usual-trip]
-related: [SPEC-17_trips.md, US-F-11_usual-trip-glance.md, US-F-24_travel-information-first-hurry.md, F-11_usual-trip-glance.md, F-24_travel-information-first-hurry.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-27_keep-few-seconds-deciding-whether.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-08_every-way-door-to-door.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-11_the-fare-that-fits-the-days.md, SPEC-12_compensation-from-the-trip.md, SPEC-13_the-station-ahead.md, SPEC-14_stop-approaching.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md]
+related: [OQ-37_legs-moving-on-without-position.md, SPEC-17_trips.md, US-F-11_usual-trip-glance.md, US-F-24_travel-information-first-hurry.md, F-11_usual-trip-glance.md, F-24_travel-information-first-hurry.md, HMW-14_let-dutch-rail-commuter-way.md, HMW-27_keep-few-seconds-deciding-whether.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-08_every-way-door-to-door.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-11_the-fare-that-fits-the-days.md, SPEC-12_compensation-from-the-trip.md, SPEC-13_the-station-ahead.md, SPEC-14_stop-approaching.md, OQ-05_more-than-one-usual-trip.md, OQ-09_first-view-with-no-usual-trip.md, OQ-10_another-run-taken-without-saying.md]
 ---
 
 # SPEC-04: Today's Trip at a Glance
@@ -54,8 +54,9 @@ Opens the product on the trip the commuter is about to make today: its run, stat
   4. Let the commuter confirm or change the run they take today; this becomes the trip of the day.
   5. A way chosen in SPEC-08 for today becomes the trip of the day; so does an alternative chosen for a leg in [SPEC-02](SPEC-02_real-state-of-the-run.md): its legs replace the planned ones from that leg to the door, and the arrival at the door is the alternative's.
   6. Show the trip divided into legs, each in a section of its own titled with its number, its stage and its usual means of transport (for example "Leg 1 of 4 · first mile · Car"), with its two ends and, in short, its run and state, or its means and time, and what changes it (SPEC-02). The name of a leg opens its detail on the Run page ([SPEC-02](SPEC-02_real-state-of-the-run.md)).
-  7. Under the trip, list the commuter's other trips ([SPEC-17](SPEC-17_trips.md)).
-  8. Move the trip of the day through its states (today, under way, completed) as its runs move.
+  7. Show the state of each leg next to its name: to do, in progress, completed (foundation, States). The leg in progress stands out; a completed leg is quieter and no longer shows what changes it.
+  8. Under the trip, list the commuter's other trips ([SPEC-17](SPEC-17_trips.md)).
+  9. Move the trip of the day through its states (today, under way, completed) as its runs move.
 - **States:** Trip states of the foundation: planned, today, under way, completed, broken, abandoned.
 - **The user receives:** Inside the product, on opening: the trip of the day and its state.
 - **Depends on:** Usual trip ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Days of travel ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Doors ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); A way chosen for today ([SPEC-08](SPEC-08_every-way-door-to-door.md))
@@ -96,6 +97,8 @@ The detail of the run (SPEC-02); planning other ways (SPEC-08).
 
 - **Given** a usual trip at 7:42 on travel days **when** the commuter opens the product at 7:20 on a travel day **then** the first view is that run, its state, its platform and the change platform.
 - **Given** the platform differs from the usual one **when** the view is shown **then** it is marked as changed.
+- **Given** the commuter at Verona Porta Nuova, having driven there **when** they open Today **then** leg 1 is completed, leg 2 (the train) is in progress, legs 3 and 4 are to do.
+- **Given** the train arrives at Milano Centrale **when** the commuter's position reaches it **then** leg 2 is completed and leg 3 (the underground) is in progress.
 - **Given** the trip Home to Milan apartment **when** the commuter opens Today **then** four sections follow one another: "Leg 1 of 4 · first mile · Car", "Leg 2 of 4 · main leg · Train", "Leg 3 of 4 · transfer · Underground", "Leg 4 of 4 · last mile · On foot", and the other trips are listed under it.
 - **Given** an announcement to make **when** the commuter opens the product **then** it is not shown before the trip information.
 - **Given** the commuter confirms they take the 8:12 instead **when** they open the product again **then** the trip of the day is the 8:12.
@@ -132,3 +135,4 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [OQ-09_first-view-with-no-usual-trip.md](01_Open_Questions/OQ-09_first-view-with-no-usual-trip.md): an open question this specification raises.
 - [OQ-10_another-run-taken-without-saying.md](01_Open_Questions/OQ-10_another-run-taken-without-saying.md): an open question this specification raises.
 - [SPEC-17_trips.md](SPEC-17_trips.md): provides the trip followed today, which is the trip of the day.
+- [OQ-37_legs-moving-on-without-position.md](01_Open_Questions/OQ-37_legs-moving-on-without-position.md): an open question about the states of the legs.

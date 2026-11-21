@@ -38,6 +38,8 @@
   // The page is the leg: its title and its two ends head the page; no side line, which marks legs only on Today.
   main.appendChild(P.el("h1", "", P.fill(R.leg_title, { n: n + 1, total: today.legs.length, stage: l.stage, mode: mode })));
   main.appendChild(P.el("p", "muted", P.fill(R.leg_route, l)));
+  const legState = P.legStates(today.legs)[n];
+  main.appendChild(P.el("p", "", "")).appendChild(P.el("span", "badge badge-" + legState, R.leg_states[legState]));
   const section = P.el("section");
   main.appendChild(section); // in the page first, so that the components draw themselves
 
@@ -50,6 +52,7 @@
     const set = DATA.leg_events[trip.id + "-" + (trip.legs.indexOf(l) + 1)];
     map.events = set ? set.by_scenario[P.scenarioKey] || [] : [];
   }
+  if (legState === "active") map.passenger = P.scenario.passenger; // where the commuter is, with consent
   section.appendChild(map);
 
   if (l.chosen && l.dep) {

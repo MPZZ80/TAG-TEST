@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-21 18:11
+date: 2026-11-21 18:19
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, information, disruption, late-info, unreliable-service]
-related: [OQ-36_the-map-of-a-route.md, OQ-35_problems-on-car-and-walking-legs.md, US-F-01_real-state-vehicle-source.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, HMW-03_help-teenager-waiting-late-evening.md, SPEC-17_trips.md, F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-03_alerts-on-the-usual-trip.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-09_times-that-can-be-kept.md, SPEC-12_compensation-from-the-trip.md, SPEC-14_stop-approaching.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-06_length-of-the-record-of-past-runs.md]
+related: [OQ-37_legs-moving-on-without-position.md, OQ-36_the-map-of-a-route.md, OQ-35_problems-on-car-and-walking-legs.md, US-F-01_real-state-vehicle-source.md, US-F-02_ways-still-open-trip.md, F-02_ways-still-open-trip.md, HMW-03_help-teenager-waiting-late-evening.md, SPEC-17_trips.md, F-01_real-state-vehicle-source.md, HMW-01_help-como-commuter-standing-platform.md, HMW-02_spare-como-commuter-platform-during.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-03_alerts-on-the-usual-trip.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-06_those-waiting-are-told.md, SPEC-07_the-connection-ahead.md, SPEC-09_times-that-can-be-kept.md, SPEC-12_compensation-from-the-trip.md, SPEC-14_stop-approaching.md, OQ-01_sources-of-the-real-position.md, OQ-02_age-limit-of-a-fact.md, OQ-06_length-of-the-record-of-past-runs.md]
 ---
 
 # SPEC-02: The Real State of the Run
@@ -48,7 +48,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
 - **Starts when:** The commuter opens a run or a trip: from a message about a run of their trip (the prototype starts here), from Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), from Trips ([SPEC-17](SPEC-17_trips.md)), or from another trip on this page; or a fact about a run of the commuter's trip arrives.
 - **Needs to know:** The trip to show, from the commuter's list of trips ([SPEC-17](SPEC-17_trips.md)): the one asked for, the one of the run asked for, or the one followed today. Facts about its runs from the sources of the foundation: schedule, operator live, other travellers. The other ways to make each leg, from the schedule of operators and coach companies.
 - **Rules:**
-  1. Show one leg: the one opened from Today, or the leg of the run asked for, or the first leg with a run. The page is headed by the leg itself: its number, the total, its stage and its usual means of transport (for example "Leg 2 of 4 · main leg · Train"), and under it its two ends; not by the name of the trip. A link back to Today sits at the top, on the left. A leg with a run holds the run as a card; a leg the commuter makes on their own (car, on foot) holds its means and its time, and says there is no run to follow. The other legs are not shown here: the whole trip is on Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), and the page leads back to it.
+  1. Show one leg: the one opened from Today, or the leg of the run asked for, or the first leg with a run. The page is headed by the leg itself: its number, the total, its stage and its usual means of transport (for example "Leg 2 of 4 · main leg · Train"), and under it its two ends; not by the name of the trip. A link back to Today sits at the top, on the left; the state of the leg (to do, in progress, completed; foundation, States) is under the title, and when the leg is in progress the map shows where the commuter is. A leg with a run holds the run as a card; a leg the commuter makes on their own (car, on foot) holds its means and its time, and says there is no run to follow. The other legs are not shown here: the whole trip is on Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), and the page leads back to it.
   2. On each card, show the state of the run (on time, late with the minutes, cancelled, no news) first.
   3. For a run that is not cancelled, show the planned and expected departure and arrival, the platform, and where the run is now.
   4. Show "Why" only when the run is late or cancelled and a source gives the reason; a run with no problem has no "Why".
@@ -90,7 +90,8 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
   - `<leg-problem>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, in the section of a car or walking leg.
 - **Datasets:**
   - `runs` (defined in the foundation): `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay`, `approach[{name, lat, lon}]`, `stops[{name, time, lat, lon}]`, `by_scenario.<key>.pos{lat, lon}`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}]`, `by_scenario.<key>.state`, `delay`, `exp_dep`, `exp_arr`, `platform`, `platform_may_change`, `position`, `reason`, `facts[]`.
-  - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[{…, route[{name, lat, lon}]}]}]`, `doors`.
+  - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[{…, route[{name, lat, lon}]}]}]`, `doors`, `position` (consent).
+  - `scenarios` (defined in the foundation): `passenger{at, lat, lon, started}`, where the commuter is, which sets the state of each leg.
   - `map_features` (defined here): `water[{name, kind, points}]`, `towns[{name, lat, lon, r, label}]`, `roads[{name, kind, points}]`, `rail[{name, points}]`: approximate shapes of real places between Milan and Verona, for the background of the maps.
   - `leg_events` (defined in the foundation): `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status, at{lat, lon}, detour_route[{lat, lon}]}]`: what changes a car or walking leg.
   - `notifications` (defined in the foundation): `today.<scenario>[]`: the message sent when the delay of a run of the trip changes (`late`) or the run is cancelled (`cancelled`).
@@ -170,3 +171,4 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [SPEC-17_trips.md](SPEC-17_trips.md): provides the list of trips and the trip followed today.
 - [OQ-35_problems-on-car-and-walking-legs.md](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md): an open question this specification raises.
 - [OQ-36_the-map-of-a-route.md](01_Open_Questions/OQ-36_the-map-of-a-route.md): an open question this specification raises.
+- [OQ-37_legs-moving-on-without-position.md](01_Open_Questions/OQ-37_legs-moving-on-without-position.md): an open question about the states of the legs.
