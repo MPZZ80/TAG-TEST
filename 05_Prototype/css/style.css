@@ -27,6 +27,9 @@
   --colour-coach: #26a269;
   --colour-underground: #c01c28;
   --colour-walk: #77767b;
+  --colour-phone: #1f2a37;
+  --colour-phone-text: #ffffff;
+  --colour-phone-card: rgba(255, 255, 255, 0.88);
   --colour-config: #e8e6df;
 }
 
@@ -35,7 +38,7 @@
 /* Custom elements are inline by default; the components hold blocks, so they are blocks too. Add each new component here. */
 scenario-switch, fact-line, run-card, usual-delay, message-preview, missing-setup, source-gap,
 first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem, route-map, confirm-choice, run-stops, leg-map,
-alert-settings, alert-log, announced-list, way-card, ways-out { display: block; }
+alert-settings, alert-log, announced-list { display: block; }
 
 body {
   margin: 0;
@@ -219,3 +222,12 @@ polyline { fill: none; }
 
 /* The configurator: a bar of its own above the app bar, for testing; on a phone its choices wrap (to be designed). */
 .config-bar { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); background: var(--colour-config); padding: var(--space-2) var(--space-3); }
+
+/* The lock screen: a fake phone with the notifications of the scenario (not a page of the product). */
+.phone { max-width: 22rem; min-height: 38rem; margin: var(--space-3) auto; padding: var(--space-4) var(--space-3); border-radius: 2.5rem; background: var(--colour-phone); color: var(--colour-phone-text); }
+.phone-time { font-size: 3.5rem; font-weight: 300; text-align: center; margin: var(--space-3) 0 0; }
+.phone-date { text-align: center; margin: 0 0 var(--space-4); }
+.phone .notification { background: var(--colour-phone-card); color: var(--colour-text); }
+.phone-open, .lock-none { text-align: center; }
+.phone-open a { color: var(--colour-phone-text); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

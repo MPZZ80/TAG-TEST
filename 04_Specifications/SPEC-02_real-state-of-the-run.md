@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:17
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -68,7 +68,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
   18. "Choose this way", on the page of an alternative or on its card on this page once it is selected, asks first; after the commuter's yes the trip of today follows the alternative on every page (Run, Today), with a line saying what was chosen instead of what and the new arrival at the door, and a way back to the planned trip. Nothing changes without yes (foundation, Principle 4). Booking or buying the alternative is not part of the choice ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
   19. On a strike day, mark among the alternatives the runs that are guaranteed; when no run of the means of the leg is guaranteed, offer only the other means (coach, car). Asked by Marco on 2026-11-21; the message that announces the strike is [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) rule 7.
   20. Offer the alternatives that fit the kind of leg, in its own dimension, as a journey planner such as Google Maps does, but with every means: in a city (from home to the station, or from the station or the underground stop to the door): car, bicycle, bus, tram, underground, a shared scooter or bicycle (for example Lime), taxi, on foot, a lift; between cities: trains of every operator, coach, a shared car ride (for example BlaBlaCar), one's own car. The car between cities is one leg from door to door, which replaces the whole trip ([SPEC-08](SPEC-08_every-way-door-to-door.md)). Asked by Marco on 2026-11-21; [to be completed: the matrix of the alternatives by kind of leg, which Marco will make].
-  21. The alternatives of a run are also the ways out when the trip breaks ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)); when the run is cancelled, a link under them leads to the ways out to the door.
+  21. The alternatives of a run are also the ways out when the trip breaks ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)); when the run is cancelled, this page is the ways out: under the alternatives it says the time after which no way reaches the door, and each alternative's details show how full it is expected to be.
 - **States:** The run states of the foundation: planned, on time, late (minutes), departed, arrived, cancelled, no news.
 - **The user receives:** Inside the product: the runs of the trip with their state, the facts under "Details", the sources in a dialog when they disagree, the alternatives for a leg that fails, the other trips. A message on the commuter's channel when a run of their trip is cancelled, or when its delay changes, with the new expected time, the platform and the source, so that they know as early as an unofficial app would tell them (F-01). One message per change: nothing is sent again while nothing changes (foundation, Channels). The kinds of event and the moments of a travel day the commuter set in [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) apply to these messages too.
 - **Depends on:** The list of trips and the trip followed today ([SPEC-17](SPEC-17_trips.md)); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); The other ways to make a leg (this specification, from the schedule)
@@ -111,7 +111,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
 - **A source is late:** its figure shows its age, and is marked outdated past the limit.
 - **A later fact contradicts an earlier one:** the earlier one is replaced and the commuter is told what changed.
 - **Nothing set up yet:** with no trip, the page shows only the invitation to set up the first trip, which leads to Trips ([SPEC-17](SPEC-17_trips.md)); no run is shown.
-- **No alternative known for a leg:** the section of alternatives is left out; the ways out door to door stay in [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md).
+- **No alternative known for a leg:** the section of alternatives is left out; and with it the ways out ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)), which are this same section.
 
 ## Out of scope
 

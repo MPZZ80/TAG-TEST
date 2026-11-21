@@ -60,6 +60,12 @@
         head.appendChild(document.createTextNode(r.service + " · "));
         head.appendChild(P.el("span", P.stateClass(known ? s.state : "no news"), known ? P.fill(T.states.run[s.state], s) : T.states.run["no news"]));
         section.appendChild(head);
+        // The news about this run, on its own leg and not above the trip; it leads to the leg and its alternatives.
+        (DATA.notifications.today[P.dataKey] || []).filter(function (m) { return m.run === l.run; }).forEach(function (m) {
+          const news = P.el("p", "notice");
+          news.appendChild(P.link("run.html", m.text, { trip: planned.id, leg: n + 1 }));
+          section.appendChild(news);
+        });
         if (s.state !== "cancelled") {
           section.appendChild(P.el("p", "", P.fill(TD.run_times, { from: r.from, dep: s.exp_dep, to: r.to, arr: s.exp_arr })));
           let platform = P.fill(TD.platform, s);
@@ -86,7 +92,8 @@
       } else if (broken || !conn || !conn.door_arrival || conn.door_arrival === "—") {
         end.appendChild(P.el("p", "notice", P.fill(TD.door_unknown, { door: doorName })));
         const out = P.el("p");
-        out.appendChild(P.link("ways_out.html", TD.ways_out));
+        const b = planned.legs.findIndex(function (l) { return l.run && P.runState(l.run).state === "cancelled"; });
+        out.appendChild(P.link("run.html", TD.ways_out, { trip: planned.id, leg: b + 1 })); // the ways out are on the leg that broke (SPEC-05)
         end.appendChild(out);
       } else {
         end.appendChild(P.el("p", "", P.fill(TD.door, { door: doorName, time: conn.door_arrival })));

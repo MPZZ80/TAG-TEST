@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 19:35
+
+- **Files:** created `05_Prototype/html/lockscreen.html`, `05_Prototype/js/lockscreen.js`; deleted `05_Prototype/html/ways_out.html`, `05_Prototype/js/ways_out.js`, `05_Prototype/components/ways-out.js`, `way-card.js`; changed `05_Prototype/components/message-preview.js`, `scenario-switch.js`, `leg-alternatives.js`, `today-trip.js`, `05_Prototype/js/common.js`, `alerts.js`, `run.js`, `today.js`, `05_Prototype/html/alerts.html`, `05_Prototype/data/notifications.js`, `screens.js`, `ui_text.js`, `05_Prototype/css/style.css`, `05_Prototype/instructions/Prototype_Instructions.md`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`; `04_Specifications/SPEC-05_ways-out-when-the-trip-breaks.md`, `SPEC-01_foundation.md`, `SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, and the "Simulate a message" line of `SPEC-03`, `SPEC-06`, `SPEC-07`, `SPEC-11`, `SPEC-14`, `SPEC-15`, `SPEC-16`
+- **Change:** "Simulate a message" removed from the pages: the messages are notifications on a fake phone lock screen (`lockscreen.html`), reached from a link in the configurator, each opening its page (`<message-preview>` now draws them). The Ways out page removed: the ways out are the alternatives on the Run page of the leg that broke, with its map, now showing how full each is expected to be and, when the run is cancelled, the last way; the choice "What comes first" (a seat or arriving earlier) removed (SPEC-05 rule 4 removed, rules 6, 8, 9 rewritten). On Today the line "Arrived while closed" above the trip removed: the news sits on the leg that is late or cancelled and leads to that leg on Run; the line at the end of a broken trip leads there too. PG-04 in SPEC-01 is no longer a page of its own.
+- **Why:** Marco: no simulated message on the pages, but a lock screen among the visitable pages, reached from the configuration; in Italy a booked train, a coach or BlaBlaCar guarantees a seat and regionals cannot be booked, so "getting a seat" makes no sense; the ways out page should be the same as the detail of the leg at risk; the message belongs on the leg at risk or cancelled, not above the whole trip ("I did not understand why 'arrived while closed'").
+- **Do not:** reintroduce "Simulate a message" on the pages, a separate Ways out page, the seat or earlier-arrival choice, or a message line above the trip on Today.
+
 ## 2026-11-21 19:18
 
 - **Files:** `05_Prototype/data/ui_text.js`, `05_Prototype/js/common.js`, `today.js`, `run.js`; `04_Specifications/SPEC-04_todays-trip-at-a-glance.md`, `SPEC-01_foundation.md`

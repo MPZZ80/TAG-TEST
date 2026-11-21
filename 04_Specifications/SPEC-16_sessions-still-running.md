@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -68,7 +68,7 @@ Lets the commuter pay, end and leave a parking session without delay and reminds
   - `sessions` (defined here): `parking{place, started, rate, left_place_at, remind_after}`, `ride{vehicle, started, rate, destination, zones[{name, distance, free}], position_ok}`.
   - `notifications` (defined in the foundation): `sessions.any[]`.
 - **Simulated events:**
-  - The commuter leaving the car park with the session running: a timer set to `remind_after`, or the "Simulate a message" control, shows the reminder of `notifications.sessions`.
+  - The commuter leaving the car park with the session running: a timer set to `remind_after`, or the lock screen, shows the reminder of `notifications.sessions`.
 
 ## When things go wrong
 

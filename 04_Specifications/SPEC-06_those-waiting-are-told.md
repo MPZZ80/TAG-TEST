@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -74,7 +74,7 @@ Lets the commuter share a trip with a person who waits for them, so that person 
   - `notifications` (defined in the foundation): `contacts.any[]`.
 - **Simulated events:**
   - A contact accepting: a control moves the contact from `invited` to `accepted`.
-  - The message the contact receives when the arrival moves: the "Simulate a message" control shows `notifications.contacts`; the contact has no screen of their own.
+  - The message the contact receives when the arrival moves: the lock screen shows `notifications.contacts`; the contact has no screen of their own.
 
 ## When things go wrong
 

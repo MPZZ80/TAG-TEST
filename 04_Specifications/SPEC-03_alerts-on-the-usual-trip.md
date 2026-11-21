@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:07
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -74,7 +74,7 @@ Tells the commuter, on their days of travel and only when something changes, of 
   - `runs` (defined in the foundation): the runs of the usual trip and their state.
   - `notifications` (defined in the foundation): `alerts.<scenario>[]`.
 - **Simulated events:**
-  - An alert on the way to the station: the "Simulate a message" control shows `<message-preview>` with `notifications.alerts.<scenario>`; a message meant to be heard shows its channel ("Spoken, on the way to the station") and its text, since how it is heard is [technology choice open] ([OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)).
+  - An alert on the way to the station: the lock screen (`<message-preview>`) shows `notifications.alerts.<scenario>`; a message meant to be heard shows its channel ("Spoken, on the way to the station") and its text, since how it is heard is [technology choice open] ([OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)).
   - A strike or works announced: shown from `alerts.announced`; the reminder the evening before is a message in `notifications.alerts.on_time`.
 
 ## When things go wrong

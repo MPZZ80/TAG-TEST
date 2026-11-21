@@ -66,8 +66,11 @@
     nav.appendChild(ul);
     bar.appendChild(nav);
     document.body.insertBefore(bar, document.body.firstChild);
-    document.body.insertBefore(document.createElement("scenario-switch"), bar);
+    configBar();
   }
+
+  // The configurator alone, at the very top: every screen has it, the lock screen without the app bar.
+  function configBar() { document.body.insertBefore(document.createElement("scenario-switch"), document.body.firstChild); }
 
   // The state of a run in the current scenario.
   function runState(id) {
@@ -150,7 +153,7 @@
 
   window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: scenario,
     dataKey: dataKey, at: at, travelDay: travelDay, tripState: tripState, passenger: passenger, nextTravelDay: nextTravelDay,
-    fill: fill, el: el, link: link, href: href, ticketLine: ticketLine, runState: runState, stateClass: stateClass, shell: shell,
+    configBar: configBar, fill: fill, el: el, link: link, href: href, ticketLine: ticketLine, runState: runState, stateClass: stateClass, shell: shell,
     disagreeing: disagreeing, trip: trip, followedTrip: followedTrip,
     choice: choice, effectiveTrip: effectiveTrip, doorName: doorName, legStates: legStates };
 })();

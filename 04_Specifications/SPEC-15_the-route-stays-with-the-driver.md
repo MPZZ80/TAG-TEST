@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -68,7 +68,7 @@ When the commuter drives, asks them before the route is changed, and warns them 
   - `drive` (defined here): `route{name, eta}`, `faster{name, reason, saves, eta, source, time, status}`, `toll{road, needs, cost}`.
   - `notifications` (defined in the foundation): `drive.any[]`.
 - **Simulated events:**
-  - A queue ahead: the "Simulate a message" control shows the spoken question of `notifications.drive` as text with its channel; how it is heard while driving is [technology choice open] ([OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)).
+  - A queue ahead: the lock screen shows the spoken question of `notifications.drive` as text with its channel; how it is heard while driving is [technology choice open] ([OQ-03](01_Open_Questions/OQ-03_reaching-the-commuter-without-looking.md)).
 
 ## When things go wrong
 

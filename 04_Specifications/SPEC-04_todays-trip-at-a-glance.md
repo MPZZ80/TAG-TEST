@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:18
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -53,7 +53,7 @@ Opens the product on the trip the commuter is about to make today: its run, stat
   3. Show nothing in front of the trip information: no announcement, offer or request comes before it.
   4. The trip of the day is the trip followed today ([SPEC-17](SPEC-17_trips.md)) with the runs it plans. The commuter chooses the trip beforehand, whether or not they already hold a ticket, and the planned run is taken as the one they take: there is no step to confirm it. When it turns out late or cancelled, it stays the run of the trip until the commuter chooses an alternative ([SPEC-02](SPEC-02_real-state-of-the-run.md)). Decided by Marco on 2026-11-21, in place of confirming or changing the run on Today.
   5. A way chosen in SPEC-08 for today becomes the trip of the day; so does an alternative chosen for a leg in [SPEC-02](SPEC-02_real-state-of-the-run.md), or a way out chosen in [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md): its legs replace the planned ones from that leg to the door, and the arrival at the door is the alternative's.
-  6. Show the trip divided into legs, each in a section of its own titled with its number, its stage and its usual means of transport (for example "Leg 1 of 4 · first mile · Car"), with its two ends and, in short, its run and state, or its means and time, and what changes it (SPEC-02). The name of a leg opens its detail on the Run page ([SPEC-02](SPEC-02_real-state-of-the-run.md)).
+  6. Show the trip divided into legs, each in a section of its own titled with its number, its stage and its usual means of transport (for example "Leg 1 of 4 · first mile · Car"), with its two ends and, in short, its run and state, or its means and time, and what changes it (SPEC-02). The news that its run is late or cancelled sits on the leg, not above the trip, and leads to the leg on Run with its alternatives ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)). The name of a leg opens its detail on the Run page ([SPEC-02](SPEC-02_real-state-of-the-run.md)).
   7. Show the state of each leg next to its name: to do, in progress, completed (foundation, States). The leg in progress stands out; a completed leg is quieter and no longer shows what changes it.
   8. Under the trip, list the commuter's other trips ([SPEC-17](SPEC-17_trips.md)).
   9. Move the trip of the day through its states (today, under way, completed) as its runs move.

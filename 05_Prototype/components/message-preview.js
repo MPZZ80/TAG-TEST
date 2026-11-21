@@ -1,37 +1,34 @@
 /*
  * Component: <message-preview>
  * Defined in: SPEC-01 (Architecture)
- * Used by: SPEC-02, SPEC-03, SPEC-05, SPEC-06, SPEC-07, SPEC-11, SPEC-13 to SPEC-16
- * Reads: `DATA.notifications[screen]` for the current scenario, or `any`
- * Reacts to: the "Simulate a message" button; dismiss
+ * Used by: the lock screen (lockscreen.html), for the messages of SPEC-02, SPEC-03, SPEC-05 and, later, the others
+ * Reads: `DATA.notifications`: for each screen whose page is built, the messages of the scenario, or `any`
+ * Reacts to: tapping a message, which opens the page it leads to (its `page` and `run`, or the page of its screen)
  */
 (function () {
-  const P = Proto, T = P.T, fill = P.fill, el = P.el, link = P.link,
-    scenarioKey = P.scenarioKey, runState = P.runState, stateClass = P.stateClass;
+  const P = Proto, L = P.T.lock;
 
-  // <message-preview screen="key">: a message outside the product, shown when the "Simulate a message" control is used.
+  // <message-preview>: the messages that reach the commuter when the product is closed, as notifications on a
+  // phone's lock screen; not on the pages of the product (Marco, 2026-11-21).
   class MessagePreview extends HTMLElement {
     connectedCallback() {
-      const set = DATA.notifications[this.getAttribute("screen")] || {};
-      const messages = set[P.dataKey] || set.any || [];
-      if (!messages.length) return;
-      const self = this;
-      const button = el("button", "", T.common.simulate);
-      button.type = "button";
-      button.addEventListener("click", function () {
-        messages.forEach(function (m) {
-          const box = el("div", "message");
-          box.setAttribute("role", "status");
-          box.appendChild(el("p", "meta", m.channel));
-          box.appendChild(el("p", "", m.text));
-          const close = el("button", "", T.common.dismiss);
-          close.type = "button";
-          close.addEventListener("click", function () { box.remove(); });
-          box.appendChild(close);
-          self.appendChild(box);
-        });
-      });
-      this.appendChild(button);
+      const built = DATA.screens.map(function (s) { return s.file; });
+      const trip = P.followedTrip();
+      let shown = 0;
+      Object.keys(DATA.notifications).forEach(function (screen) {
+        const set = DATA.notifications[screen];
+        (set[P.dataKey] || set.any || []).forEach(function (m) {
+          const page = m.page || screen + ".html";
+          if (built.indexOf(page) === -1) return; // a message whose page is not built yet is left out
+          const a = P.el("a", "notification");
+          a.href = P.href(page, m.run ? { trip: trip.id, run: m.run } : {});
+          a.appendChild(P.el("p", "meta", L.app + " · " + m.channel));
+          a.appendChild(P.el("p", "", m.text));
+          this.appendChild(a);
+          shown++;
+        }, this);
+      }, this);
+      if (!shown) this.appendChild(P.el("p", "lock-none", L.none));
     }
   }
 

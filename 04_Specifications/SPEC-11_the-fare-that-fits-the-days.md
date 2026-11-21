@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -67,7 +67,7 @@ Tells the commuter which pass, carnet or single tickets cost least for the days 
   - `profile` (defined in the foundation): `days`.
   - `notifications` (defined in the foundation): a `fare` entry, to be added: the message that the fare held no longer fits.
 - **Simulated events:**
-  - The message before the fare is renewed: the "Simulate a message" control shows the `fare` entry of `notifications`.
+  - The message before the fare is renewed: the lock screen shows the `fare` entry of `notifications`.
 
 ## When things go wrong
 

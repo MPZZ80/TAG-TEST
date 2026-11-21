@@ -58,6 +58,9 @@
         panel.appendChild(P.el("p", "", P.fill(R.alt_door, { time: a.door_arrival })));
         const ticket = P.ticketLine(a);
         panel.appendChild(P.el("p", ticket.cls, ticket.text));
+        // how full it is expected to be, with its source; unknown is said so, never shown as empty (SPEC-05)
+        panel.appendChild(P.el("p", a.fullness_level === 3 ? "state-late" : "", !a.fullness ? R.alt_fullness_unknown
+          : a.fullness_source === "—" ? a.fullness : P.fill(R.alt_fullness, { fullness: a.fullness, source: a.fullness_source })));
         if (a.note) panel.appendChild(P.el("p", "meta", a.note));
         const actions = P.el("p");
         const choose = P.el("button", "button", R.choose);

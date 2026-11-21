@@ -4,11 +4,11 @@ The web components of the prototype, one file per component, named after its tag
 
 | File | Component | Defined in | Used by |
 | --- | --- | --- | --- |
-| `scenario-switch.js` | `<scenario-switch>`: the configurator, in a bar at the top: scenario, where the commuter is (before, leg 1 to 4, after), travel day or not; for testing | SPEC-01 | every screen |
+| `scenario-switch.js` | `<scenario-switch>`: the configurator, in a bar at the top: scenario, where the commuter is (before, leg 1 to 4, after), travel day or not, and the link to the lock screen; for testing | SPEC-01 | every screen |
 | `fact-line.js` | `<fact-line>`: one fact with its source, time and status | SPEC-01 | SPEC-02, SPEC-04, SPEC-12, SPEC-13 |
 | `run-card.js` | `<run-card>`: one run, its state first with an information button when sources disagree, "Why" only for a problem, the facts under "Details" | SPEC-01 | SPEC-02, SPEC-04, SPEC-07 |
 | `usual-delay.js` | `<usual-delay>`: how late a run usually is | SPEC-01 | SPEC-02, SPEC-09 |
-| `message-preview.js` | `<message-preview>`: a message outside the product, simulated | SPEC-01 | SPEC-02, SPEC-03, SPEC-05, SPEC-06, SPEC-07, SPEC-11, SPEC-13 to SPEC-16 |
+| `message-preview.js` | `<message-preview>`: the messages outside the product, as notifications on the lock screen | SPEC-01 | the lock screen, for SPEC-02, SPEC-03, SPEC-05 and later the others |
 | `missing-setup.js` | `<missing-setup>`: what is missing and where it is set up | SPEC-01 | every specification |
 | `source-gap.js` | `<source-gap>`: two sources that disagree, and the gap, shown in a dialog | SPEC-02 | SPEC-02 |
 | `today-trip.js` | `<today-trip>`: the trip followed today divided into legs, each a section leading to its detail on Run, with the change, the arrival at the door, and the choice of the run taken today | SPEC-04 | SPEC-04 |
@@ -22,8 +22,6 @@ The web components of the prototype, one file per component, named after its tag
 | `alert-settings.js` | `<alert-settings>`: the kinds of event and the moments of a travel day, each with a switch | SPEC-03 | SPEC-03 |
 | `alert-log.js` | `<alert-log>`: the alerts sent today, with time, text and source; nothing outside the days of travel | SPEC-03 | SPEC-03 |
 | `announced-list.js` | `<announced-list>`: works and strikes announced for coming travel days, and when the commuter is told | SPEC-03 | SPEC-03 |
-| `way-card.js` | `<way-card>`: one way to the door: departure, arrival at the door, cost, ticket validity, how full, "Choose this way" | SPEC-01 | SPEC-05, later SPEC-08 |
-| `ways-out.js` | `<ways-out>`: where the commuter is, the preference (earlier or a seat), the ways out in that order, the last way | SPEC-05 | SPEC-05 |
 | `first-trip-cta.js` | `<first-trip-cta>`: the invitation to set up the first trip | SPEC-01 | SPEC-01, SPEC-02, SPEC-17 |
 
 - Only the components of the screens built so far are here; the others are described in the specifications (`../../04_Specifications/`, section "Architecture") and are added when their screen is built.

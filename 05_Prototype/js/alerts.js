@@ -1,17 +1,13 @@
 /*
  * Script: alerts (page PG-13, Alerts). Shows SPEC-03, alerts on the usual trip.
- * The message that would reach the commuter, the settings, the alerts sent today and the works and strikes announced.
- * Uses the components <message-preview>, <missing-setup>, <alert-settings>, <alert-log> and <announced-list>.
+ * The settings, the alerts sent today and the works and strikes announced; the messages themselves are on the lock screen.
+ * Uses the components <missing-setup>, <alert-settings>, <alert-log> and <announced-list>.
  */
 (function () {
   const P = Proto, A = P.T.alerts;
 
   P.shell();
   const main = document.querySelector("main");
-
-  const preview = document.createElement("message-preview");
-  preview.setAttribute("screen", "alerts");
-  main.appendChild(preview);
 
   main.appendChild(P.el("h1", "", A.title));
   main.appendChild(P.el("p", "muted", A.intro));

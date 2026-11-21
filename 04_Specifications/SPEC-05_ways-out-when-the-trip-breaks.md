@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:17
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -46,38 +46,39 @@ When the trip of the day breaks (a run cancelled, a connection lost, a vehicle t
 ## Operating logic
 
 - **Starts when:** The trip of the day becomes broken (SPEC-02, SPEC-07), or the commuter asks for ways out.
-- **Needs to know:** Where the commuter is: their position if allowed (SPEC-01), otherwise the stop or station they enter or the point of the trip they are at; the ways from there to the destination door (SPEC-08); the tickets held (SPEC-10); expected fullness of the next services (operator or other travellers); the commuter's preference between a seat and an earlier arrival (set here).
+- **Needs to know:** Where the commuter is: their position if allowed (SPEC-01), otherwise the stop or station they enter or the point of the trip they are at; the ways from there to the destination door (SPEC-08); the tickets held (SPEC-10); expected fullness of the next services (operator or other travellers).
 - **Rules:**
-  1. List the ways that still reach the destination door from where the commuter is, side by side.
+  1. List the ways that still reach the destination door from where the commuter is, on the page of the leg that broke (rule 6).
   2. Show for each: departure, arrival, cost, whether the ticket held is valid, and how full it is expected to be, with the source of each figure.
   3. Show the time after which no way reaches the destination door that day.
-  4. Let the commuter set whether a seat or an earlier arrival comes first; order the ways accordingly.
+  4. Removed on 2026-11-21 by Marco: no choice between a seat and an earlier arrival. In Italy a booked train, a coach or a shared car ride guarantees a seat, and a regional train cannot be booked, so the choice means little; how full each way is expected to be is still shown (rule 2).
   5. When the commuter chooses a way and confirms, the trip of the day continues on it; nothing is booked or changed before they confirm.
-  6. The ways out are the alternatives of the run that broke, the same the Run page shows for that leg ([SPEC-02](SPEC-02_real-state-of-the-run.md) rules 13 and 20), each with the legs that follow it to the door: other trains, a coach, and the car between cities as one leg to the door (for the Verona–Milan commuter, the car left at the station car park in the morning). Choosing one here or on Run changes the trip of the day in the same way ([SPEC-02](SPEC-02_real-state-of-the-run.md) rule 18, [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) rule 5); a way already chosen is shown with the way back to the planned trip.
+  6. The ways out have no page of their own: they are shown on the Run page of the leg that broke ([SPEC-02](SPEC-02_real-state-of-the-run.md)), with its map and its alternatives as small slots under it ([SPEC-02](SPEC-02_real-state-of-the-run.md) rules 6, 13 and 20), each with the legs that follow it to the door: other trains, a coach, and the car between cities as one leg to the door (for the Verona–Milan commuter, the car left at the station car park in the morning). Choosing one changes the trip of the day ([SPEC-02](SPEC-02_real-state-of-the-run.md) rule 18, [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) rule 5), with the way back to the planned trip. Decided by Marco on 2026-11-21.
   7. Whether the ticket held is valid on a way is one of three: valid, another ticket needed, or no ticket needed (the car).
-  8. When the commuter is past the leg that broke, the page says the trip goes on and lists no ways.
-  9. The page is reached from the broken trip on Today, from the line of the message that the trip broke, and from the Run page of a cancelled run.
+  8. Removed on 2026-11-21 with the page of its own: the Run page shows the state of the leg (to do, in progress, completed).
+  9. On Today, the news that the run is late or cancelled sits on its own leg, not above the trip, and leads to that leg on Run with its alternatives; so does the line of a broken trip at the end of Today, and the message that the trip broke ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)).
 - **States:** Trip: broken → under way (a way chosen) or abandoned.
-- **The user receives:** Inside the product: the ways side by side. A message on the commuter's channel when the trip breaks [not traced: whether every break is sent].
+- **The user receives:** Inside the product: the ways, as the alternatives of the leg that broke. A message on the commuter's channel when the trip breaks [not traced: whether every break is sent].
 - **Depends on:** Trip of the day ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); Ways between two places ([SPEC-08](SPEC-08_every-way-door-to-door.md)); Tickets held ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)); Consent to use position ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Own rules ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Needs on the way ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); State of a connection ([SPEC-07](SPEC-07_the-connection-ahead.md))
 - **Provides:** A way chosen to continue, to [SPEC-06](SPEC-06_those-waiting-are-told.md)
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Ways out** (PG-04): the whole page; **Today (start page)** (PG-01): a line leading to the ways out when the trip breaks; **Run** (PG-02): a link to the ways out when its run is cancelled.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Run** (PG-02) of the leg that broke: its alternatives, with the time after which no way reaches the door; **Today (start page)** (PG-01): the news on the leg that broke, and a line at the end of a broken trip, both leading to that leg on Run. **Ways out** (PG-04) is no longer a page of its own.
 - **Components:**
-  - `<ways-out>`: where the commuter is, the preference, the ways that still reach the door, and the last time any way does; reads `ways.ways_out.run`, `last_way`, the alternatives of that run in `runs`, the trip followed today, `profile.position`, and where the configurator puts the commuter (`config.at`); reacts to the preference (reorders the ways on the page, not kept) and passes on a way being chosen.
-  - `<way-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); first built here, with departure, arrival at the door, cost, whether the ticket held is valid, how full it is expected to be with its source, "Choose this way" and a link to the page of the alternative ([SPEC-02](SPEC-02_real-state-of-the-run.md) rule 17).
+  - `<leg-alternatives>`: defined in [SPEC-02](SPEC-02_real-state-of-the-run.md); reused: each alternative's details also show how full it is expected to be, with its source, and whether a ticket is needed.
+  - `<leg-map>`: defined in [SPEC-02](SPEC-02_real-state-of-the-run.md); reused, with the routes of the alternatives.
   - `<confirm-choice>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused: nothing changes in the trip without the commuter's yes.
-  - `<message-preview>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
+  - `<today-trip>`: defined in [SPEC-04](SPEC-04_todays-trip-at-a-glance.md); reused: the news on the leg.
+  - `<message-preview>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); the message that the trip broke is on the lock screen.
 - **Datasets:**
   - `ways` (defined in the foundation): `ways_out{run, last_way}`: the run whose alternatives are the ways out, and the time after which no way reaches the door.
   - `runs` (defined in the foundation): the run that broke, its reason, and its `alternatives[{…, door_arrival, ticket_valid (null: no ticket needed), cost, fullness, fullness_level (1 seats likely, 2 busy, 3 full; missing: unknown), fullness_source, legs_after[]}]`.
-  - `profile` (defined in the foundation): `doors`, `usual_trip`, `channels`.
-  - `notifications` (defined in the foundation): `ways_out.<scenario>[]`.
+  - `profile` (defined in the foundation): `doors`, `trips`, `channels`.
+  - `notifications` (defined in the foundation): `today.<scenario>[]` and `ways_out.<scenario>[]`, each with the run it is about.
 - **Simulated events:**
-  - The trip breaking: the scenario of the configurator moves to `cancelled`; the "Simulate a message" control shows the message of `notifications.ways_out`.
-  - Where the commuter is: the configurator (before the trip, a leg, after the trip); the ways leave from the start of the leg that broke.
+  - The trip breaking: the scenario of the configurator moves to `cancelled`; the message of `notifications.ways_out` is on the lock screen.
+  - Where the commuter is: the configurator (before the trip, a leg, after the trip).
 
 ## When things go wrong
 
@@ -93,12 +94,11 @@ Telling the person who waits (SPEC-06); buying a ticket for the chosen way (SPEC
 
 ## Acceptance criteria
 
-- **Given** a cancelled train and a packed next train **when** the commuter set seat first **then** a way with seats expected that still arrives comes first, and the packed train shows its fullness and source.
+- **Given** a cancelled train and a packed next train **when** the commuter opens its details **then** it shows how full it is expected to be, with its source.
 - **Given** a way on which the ticket held is not valid **when** it is shown **then** it says so, with its cost.
 - **Given** the last way home leaves at 23:05 **when** it is 22:55 **then** the commuter sees that after 23:05 no way reaches home.
 - **Given** the commuter chooses a way **when** they confirm **then** the trip continues on it; nothing was booked before.
-- **Given** the 9707 cancelled at Verona Porta Nuova **when** the commuter opens the ways out **then** they see the same alternatives as on Run, and the car from the station car park among them, with no ticket needed.
-- **Given** the commuter on leg 3, past the train that broke **when** they open the ways out **then** the page says the trip goes on.
+- **Given** the 9707 cancelled at Verona Porta Nuova **when** the commuter taps the news on the train leg of Today **then** the Run page of that leg shows its alternatives on the map, the car from the station car park among them, with no ticket needed.
 
 ## Open questions
 

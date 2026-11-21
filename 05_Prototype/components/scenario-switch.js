@@ -3,7 +3,8 @@
  * Defined in: SPEC-01 (Architecture)
  * Used by: every screen, in a bar of its own at the top of the page (common.js)
  * Reads: `DATA.scenarios`, `DATA.config`, the trip followed today (`DATA.profile.trips`) for its legs
- * Reacts to: choosing a scenario, where the commuter is, or the day, which reloads the page with `?scenario=`, `?at=`, `?day=`
+ * Reacts to: choosing a scenario, where the commuter is, or the day, which reloads the page with `?scenario=`, `?at=`, `?day=`;
+ *   the link to the lock screen, where the messages outside the product are
  */
 (function () {
   const P = Proto, C = P.T.common, el = P.el;
@@ -43,6 +44,7 @@
       where.querySelector("select").disabled = !P.travelDay; // on a day with no travel the commuter is not on a trip
       this.appendChild(where);
       this.appendChild(choice(C.day, "day", days, P.travelDay ? "travel" : "off"));
+      this.appendChild(P.link("lockscreen.html", C.lock));
     }
   }
 

@@ -2,7 +2,7 @@
  * Script: today (page PG-01, Today, the start page). Shows SPEC-04, the trip of the day; with nothing set up,
  * the start page of SPEC-01: the invitation to set up the first trip, or to find a way now.
  * Uses the components <today-trip>, <leg-problem>, <trip-card> and <first-trip-cta>.
- * Above the trip, only a line for a message that arrived while closed, or, on a day with no travel, "Your next trip".
+ * Above the trip, only the day of the next trip on a day with no travel; the news of a run is on its leg.
  */
 (function () {
   const P = Proto, TD = P.T.today;
@@ -19,13 +19,6 @@
     main.appendChild(find);
     return;
   }
-
-  // A message that arrived while the product was closed: a line above the trip, not a screen in front of it (SPEC-01).
-  (DATA.notifications.today[P.dataKey] || []).forEach(function (m) {
-    const line = P.el("p", "notice");
-    line.appendChild(m.page ? P.link(m.page, P.fill(TD.arrived, m)) : document.createTextNode(P.fill(TD.arrived, m)));
-    main.appendChild(line);
-  });
 
   // Not a travel day: the trip shown is the next travel day's, headed by when it is (SPEC-04, When things go wrong).
   const next = P.travelDay ? null : P.nextTravelDay();

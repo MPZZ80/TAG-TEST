@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -72,7 +72,7 @@ Tells the commuter, before they reach a change, whether the connection still hol
   - `profile` (defined in the foundation): `own_rules.min_change`, `own_rules.per_station`.
   - `notifications` (defined in the foundation): `connection.<scenario or any>[]`.
 - **Simulated events:**
-  - The warning before the change: a timer set to `warn_at` on the mock clock, or the "Simulate a message" control, shows `notifications.connection`.
+  - The warning before the change: a timer set to `warn_at` on the mock clock, or the lock screen, shows `notifications.connection`.
   - The answer of the connecting service: after "Ask", a short timer shows the answer of the scenario from `request_answer`.
 
 ## When things go wrong

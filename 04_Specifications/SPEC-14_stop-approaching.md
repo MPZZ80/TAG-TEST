@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-21 19:34
 method: synthesis
 status: draft
 grade: n/a
@@ -66,7 +66,7 @@ Tells the commuter when their stop is approaching, so they can travel without wa
   - `runs` (defined in the foundation): the run the commuter is on.
   - `notifications` (defined in the foundation): `stop.any[]`.
 - **Simulated events:**
-  - The stop approaching: a timer, or the "Simulate a message" control, shows the warning of `notifications.stop`, repeated every `repeat_every` up to `repeat_max` times; how it reaches a commuter who is asleep is [technology choice open].
+  - The stop approaching: a timer, or the lock screen, shows the warning of `notifications.stop`, repeated every `repeat_every` up to `repeat_max` times; how it reaches a commuter who is asleep is [technology choice open].
 
 ## When things go wrong
 
