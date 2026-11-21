@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 17:22
+
+- **Files:** `05_Prototype/js/run.js`, `05_Prototype/components/run-card.js`, `05_Prototype/components/leg-alternatives.js`, `04_Specifications/SPEC-02_real-state-of-the-run.md`
+- **Change:** The Run page is headed by the leg ("Leg 1 of 4 · first mile · Car", and under it "Home → Verona Porta Nuova") in place of "State of the run" and the name of the trip; the blue side line, which marks the legs on Today, is no longer drawn inside the detail. Headings shifted to keep their order (run and alternatives as second level). "State of the run" stays only as the title when nothing is set up. SPEC-02 rule 1 says the same.
+- **Why:** Marco asked to replace "State of the run / Home to Milan apartment" with the leg and its ends, and to remove the blue line inside the detail, where it makes no sense.
+
 ## 2026-11-21 17:17
 
 - **Files:** `05_Prototype/js/run.js`, `05_Prototype/css/style.css`

@@ -14,10 +14,10 @@
   const back = P.link("today.html", "← " + R.back_today);
   back.classList.add("back");
   main.appendChild(back);
-  main.appendChild(P.el("h1", "", R.title));
 
   // Nothing set up: no trip, so no leg to show; the page invites to set up the first trip.
   if (!P.scenario.setup) {
+    main.appendChild(P.el("h1", "", R.title));
     main.appendChild(document.createElement("first-trip-cta"));
     return;
   }
@@ -35,15 +35,15 @@
   if (n < 0) n = 0;
   const l = today.legs[n], mode = P.T.modes[l.mode] || l.mode;
 
-  main.appendChild(P.el("p", "muted", trip.name));
-  const section = P.el("section", "leg");
-  section.appendChild(P.el("h2", "", P.fill(R.leg_title, { n: n + 1, total: today.legs.length, stage: l.stage, mode: mode })));
-  section.appendChild(P.el("p", "meta", P.fill(R.leg_route, l)));
+  // The page is the leg: its title and its two ends head the page; no side line, which marks legs only on Today.
+  main.appendChild(P.el("h1", "", P.fill(R.leg_title, { n: n + 1, total: today.legs.length, stage: l.stage, mode: mode })));
+  main.appendChild(P.el("p", "muted", P.fill(R.leg_route, l)));
+  const section = P.el("section");
   main.appendChild(section); // in the page first, so that the components draw themselves
 
   if (l.chosen && l.dep) {
     const c = P.el("div", "card");
-    c.appendChild(P.el("h3", "", l.service));
+    c.appendChild(P.el("h2", "", l.service));
     c.appendChild(P.el("p", "meta", R.chosen_label));
     c.appendChild(P.el("p", "", P.fill(R.times, l)));
     section.appendChild(c);

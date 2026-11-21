@@ -16,7 +16,7 @@
       if (!s) return;
       const r = s.run, R = T.run, known = s.facts.length > 0, self = this;
       this.className = "card";
-      this.appendChild(el("h3", "", r.service));
+      this.appendChild(el("h2", "", r.service));
       this.appendChild(el("p", "meta", fill(R.operator, r)));
 
       const state = el("p", P.stateClass(known ? s.state : "no news"), known ? fill(T.states.run[s.state], s) : T.states.run["no news"]);

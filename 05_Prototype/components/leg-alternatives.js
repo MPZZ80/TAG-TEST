@@ -13,11 +13,11 @@
     connectedCallback() {
       const r = DATA.runs[this.getAttribute("run")], self = this;
       if (!r || !r.alternatives || !r.alternatives.length) return;
-      this.appendChild(P.el("h3", "", R.alternatives));
+      this.appendChild(P.el("h2", "", R.alternatives));
       const list = P.el("ul", "list");
       r.alternatives.forEach(function (a) {
         const li = P.el("li", "card alt");
-        li.appendChild(P.el("h4", "", a.service));
+        li.appendChild(P.el("h3", "", a.service));
         li.appendChild(P.el("p", "meta", a.operator + " · " + a.source));
         li.appendChild(P.el("p", "", P.fill(R.alt_times, a)));
         li.appendChild(P.el("p", "", P.fill(R.alt_door, { time: a.door_arrival })));

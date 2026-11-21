@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 16:57
+date: 2026-11-21 17:22
 method: synthesis
 status: draft
 grade: n/a
@@ -48,7 +48,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
 - **Starts when:** The commuter opens a run or a trip: from a message about a run of their trip (the prototype starts here), from Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), from Trips ([SPEC-17](SPEC-17_trips.md)), or from another trip on this page; or a fact about a run of the commuter's trip arrives.
 - **Needs to know:** The trip to show, from the commuter's list of trips ([SPEC-17](SPEC-17_trips.md)): the one asked for, the one of the run asked for, or the one followed today. Facts about its runs from the sources of the foundation: schedule, operator live, other travellers. The other ways to make each leg, from the schedule of operators and coach companies.
 - **Rules:**
-  1. Show one leg: the one opened from Today, or the leg of the run asked for, or the first leg with a run. Title it with its number, the total, its stage and its usual means of transport (for example "Leg 2 of 4 · main leg · Train") and its two ends. A leg with a run holds the run as a card; a leg the commuter makes on their own (car, on foot) holds its means and its time, and says there is no run to follow. The other legs are not shown here: the whole trip is on Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), and the page leads back to it.
+  1. Show one leg: the one opened from Today, or the leg of the run asked for, or the first leg with a run. The page is headed by the leg itself: its number, the total, its stage and its usual means of transport (for example "Leg 2 of 4 · main leg · Train"), and under it its two ends; not by the name of the trip. A link back to Today sits at the top, on the left. A leg with a run holds the run as a card; a leg the commuter makes on their own (car, on foot) holds its means and its time, and says there is no run to follow. The other legs are not shown here: the whole trip is on Today ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)), and the page leads back to it.
   2. On each card, show the state of the run (on time, late with the minutes, cancelled, no news) first.
   3. For a run that is not cancelled, show the planned and expected departure and arrival, the platform, and where the run is now.
   4. Show "Why" only when the run is late or cancelled and a source gives the reason; a run with no problem has no "Why".
