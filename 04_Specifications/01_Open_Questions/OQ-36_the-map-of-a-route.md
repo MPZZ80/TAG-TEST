@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 17:53
+date: 2026-11-21 18:11
 method: synthesis
 status: draft
 grade: n/a
@@ -33,6 +33,15 @@ The prototype has no backend and calls no service, so the route is drawn as a sk
 | --- | --- | --- |
 | Specification | [SPEC-02](../SPEC-02_real-state-of-the-run.md) | State of the run, rule 6: a map of each leg with the live position of the vehicle; rule 17: the page of an alternative with a map of its route |
 | Request | Marco, 2026-11-19 | A map with the route of the alternative, to see the difference with the planned trip |
+
+## What is known about the services
+
+Checked on 2026-11-21 in public pricing pages and guides; prices change, so they are to be confirmed before a choice.
+
+- **Google Maps Platform:** the map in a native Android or iOS app (Maps SDK) is free with unlimited use, as Google's own usage page says; dynamic maps in a web page or with a map ID have a free cap of 10,000 loads a month, then about $7 per 1,000. Routes, places and Street View are billed separately ([pricing overview](https://developers.google.com/maps/billing/overview/), [Maps SDK for Android usage and billing](https://developers.google.com/maps/documentation/android-sdk/usage-and-billing)).
+- **Mapbox:** free up to 25,000 monthly active users on mobile, then from $2 per 1,000; a guide gives 50,000 free web map loads a month ([Mapbox pricing](https://www.mapbox.com/pricing/), [Woosmap guide](https://www.woosmap.com/blog/mapbox-pricing)).
+- **OpenStreetMap:** the map data are free with attribution, but the public tile servers are not meant for an app's traffic; an app uses a tile provider or serves its own tiles (from the agent's knowledge, not checked in this session).
+- **The live position** of trains, buses and the underground is not given by a map service: it needs the operators' live data ([OQ-01](OQ-01_sources-of-the-real-position.md)).
 
 ## What the research says
 

@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 18:11
+
+- **Files:** created `05_Prototype/data/map_features.js`, `05_Prototype/components/map-base.js`; changed `05_Prototype/components/leg-map.js`, `route-map.js`, `05_Prototype/html/run.html`, `alternative.html`, `05_Prototype/css/style.css`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `01_Open_Questions/OQ-36_the-map-of-a-route.md`
+- **Change:** The map sketches get a grey placeholder background drawn from approximate shapes of real places: Lake Garda and Lake Iseo, the Adige, Adda and Oglio, the Martesana canal, the towns from Milan to Vicenza (with a street grid on city maps), the A4 and the Milan east ring road, the railway lines, and the streets around Loreto and Centrale in Milan and around Porta Nuova in Verona, with their names. Maps now keep the real proportions (a degree of latitude about 1.4 times a degree of longitude), are centred and have a margin, so the land around the route shows; names of the background never cover a stop or the vehicle. OQ-36 records what is known about the cost of maps (Google Maps Platform, Mapbox, OpenStreetMap), with sources.
+- **Why:** Marco asked whether maps can be used for free in the real app, and asked for grey placeholder maps that look realistic.
+
 ## 2026-11-21 17:53
 
 - **Files:** created `05_Prototype/components/leg-map.js`; changed `05_Prototype/components/leg-alternatives.js`, `05_Prototype/js/run.js`, `05_Prototype/html/run.html`, `05_Prototype/data/runs.js`, `profile.js`, `leg_events.js`, `ui_text.js`, `05_Prototype/css/style.css`, `05_Prototype/components/README.md`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`, `SPEC-04_todays-trip-at-a-glance.md`, `01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md`, `OQ-36_the-map-of-a-route.md`

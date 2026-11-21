@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 17:53
+date: 2026-11-21 18:11
 method: synthesis
 status: draft
 grade: n/a
@@ -80,6 +80,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
   - `<usual-delay>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, inside "Details".
   - `<source-gap>`: the figures two sources give for the same thing, each with its `<fact-line>`, and the gap between them in minutes, shown in a dialog opened from the information button of `<run-card>`; reads `runs.<id>.by_scenario.<key>.facts`; reacts to the dialog being opened and closed.
   - `<leg-map>`: the map of the leg: its route, its stops with labels that never overlap, the vehicle at its live position, the alternatives in grey (one in colour when selected), the place where a car or walking leg is blocked and the way round; reads `runs.<id>.approach`, `.stops`, `.alternatives[].route`, `by_scenario.<key>.pos`, or the `route` of a leg and its `leg_events`; reacts to an alternative being selected.
+  - The grey background of both maps (`MapBase`, a helper, not a component): towns with a street grid on city maps, lakes and rivers, the motorway, main roads and streets with their names, the railway; a placeholder for a real map; reads `map_features`.
   - `<run-stops>`: the stops of the run in a table, with the planned and the expected time of each; reads `runs.<id>.stops` and the expected departure of the scenario; no events.
   - `<leg-alternatives>`: the other ways to make one leg, as cards: service, operator, source, departure and arrival, arrival at the door, ticket validity and cost, a note; reads `runs.<id>.alternatives`; no events (choosing and booking a way are [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) and [SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
   - `<trip-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips.
@@ -90,6 +91,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
 - **Datasets:**
   - `runs` (defined in the foundation): `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay`, `approach[{name, lat, lon}]`, `stops[{name, time, lat, lon}]`, `by_scenario.<key>.pos{lat, lon}`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}]`, `by_scenario.<key>.state`, `delay`, `exp_dep`, `exp_arr`, `platform`, `platform_may_change`, `position`, `reason`, `facts[]`.
   - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[{…, route[{name, lat, lon}]}]}]`, `doors`.
+  - `map_features` (defined here): `water[{name, kind, points}]`, `towns[{name, lat, lon, r, label}]`, `roads[{name, kind, points}]`, `rail[{name, points}]`: approximate shapes of real places between Milan and Verona, for the background of the maps.
   - `leg_events` (defined in the foundation): `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status, at{lat, lon}, detour_route[{lat, lon}]}]`: what changes a car or walking leg.
   - `notifications` (defined in the foundation): `today.<scenario>[]`: the message sent when the delay of a run of the trip changes (`late`) or the run is cancelled (`cancelled`).
 - **Simulated events:**

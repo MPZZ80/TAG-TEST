@@ -25,11 +25,15 @@
       const lons = pts.map(function (p) { return p.lon; }), lats = pts.map(function (p) { return p.lat; });
       const minX = Math.min.apply(null, lons), maxX = Math.max.apply(null, lons);
       const minY = Math.min.apply(null, lats), maxY = Math.max.apply(null, lats);
-      const s = (W - 2 * pad) / ((maxX - minX) || 1);
-      const H = Math.max(120, Math.round((maxY - minY) * s / 1.4 + 2 * pad)); // the height follows the shape of the route
-      function x(p) { return pad + (p.lon - minX) * s; }
-      function y(p) { return H - pad - (p.lat - minY) * s / 1.4; }
+      const s = Math.min((W - 2 * pad) / ((maxX - minX) || 1), (320 - 2 * pad) / (((maxY - minY) || 0.01) * 1.4)); // latitude 1.4 times longitude
+      // shortcut: the margin and background follow the same rules as <leg-map>; merge the two if a third map appears.
+      const H = Math.max(190, Math.round((maxY - minY) * s * 1.4 + 2 * pad)); // the height follows the shape of the route
+      const cLon = (minX + maxX) / 2;
+      function x(p) { return W / 2 + (p.lon - cLon) * s; }
+      const cLat = (minY + maxY) / 2; // centred, as in <leg-map>
+      function y(p) { return H / 2 - (p.lat - cLat) * s * 1.4; }
       const box = svg("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": P.T.alternative.map, class: "route-map" });
+      if (window.MapBase) MapBase.draw(box, x, y, W, H, maxX - minX, pts); // the grey background: towns, water, roads, rail
       for (let i = 0; i < pts.length - 1; i++) {
         box.appendChild(svg("line", { x1: x(pts[i]), y1: y(pts[i]), x2: x(pts[i + 1]), y2: y(pts[i + 1]), class: "seg seg-" + pts[i].mode }));
       }

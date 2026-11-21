@@ -14,6 +14,7 @@ The web components of the prototype, one file per component, named after its tag
 | `today-trip.js` | `<today-trip>`: the trip followed today divided into legs, each a section leading to its detail on Run, with the change and the arrival at the door | SPEC-04 | SPEC-04 |
 | `leg-alternatives.js` | `<leg-alternatives>`: the other ways to make a leg that is late or cancelled, in grey; tapping one selects it and shows "Choose" | SPEC-02 | SPEC-02 |
 | `leg-map.js` | `<leg-map>`: the map of a leg: route, stops, the vehicle at its simulated live position, the alternatives in grey (one in colour when tapped), blocked points and ways round | SPEC-02 | SPEC-02 |
+| `map-base.js` | `MapBase`, a helper (not a component): the grey background of the maps, from `data/map_features.js` | SPEC-02 | `<leg-map>`, `<route-map>` |
 | `run-stops.js` | `<run-stops>`: the stops of a run, with planned and expected times | SPEC-02 | SPEC-02 |
 | `route-map.js` | `<route-map>`: a sketch of the route of an alternative, from approximate points | SPEC-02 | SPEC-02 |
 | `confirm-choice.js` | `<confirm-choice>`: asks yes or no before anything changes | SPEC-01 | SPEC-02, later SPEC-05, SPEC-10, SPEC-15 |

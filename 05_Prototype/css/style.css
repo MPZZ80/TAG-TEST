@@ -166,7 +166,7 @@ route-map svg { width: 100%; height: auto; background: var(--colour-surface); bo
 /* The map of a leg: the route in colour, the alternatives in grey until one is tapped, the vehicle live. */
 leg-map svg { width: 100%; height: auto; background: var(--colour-surface); border: 1px solid var(--colour-line); border-radius: var(--radius); }
 polyline { fill: none; }
-.alt-route { stroke: var(--colour-line); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.alt-route { stroke: #a5a4a0; opacity: 0.8; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
 .alt-route.alt-selected { stroke: var(--colour-accent); stroke-width: 4; }
 .approach { stroke: var(--colour-train); stroke-width: 2; stroke-dasharray: 2 4; opacity: 0.5; }
 .seg { stroke-linejoin: round; }
@@ -178,3 +178,20 @@ polyline { fill: none; }
 .alt .choose { display: none; }
 .alt.selected .choose { display: inline-block; }
 .detour { stroke: var(--colour-warn); stroke-width: 2.5; stroke-dasharray: 5 3; }
+
+/* The grey background of the map sketches (placeholder for a real map). */
+.bm-land { fill: #ececea; }
+.bm-town { fill: #dedcd8; }
+.bm-town-grid { opacity: 0.9; }
+.bm-grid { stroke: #f7f7f5; stroke-width: 1.2; fill: none; }
+.bm-lake { fill: #cfd3d6; stroke: #c3c8cc; stroke-width: 1; }
+.bm-river { fill: none; stroke: #cfd3d6; stroke-width: 2; }
+.bm-river.close { stroke-width: 4; }
+.bm-road-casing { fill: none; stroke: #c9c7c2; stroke-linecap: round; stroke-linejoin: round; }
+.bm-road { fill: none; stroke: #fbfbfa; stroke-linecap: round; stroke-linejoin: round; }
+.bm-road-casing.bm-motorway { stroke-width: 4.5; } .bm-road.bm-motorway { stroke-width: 2.5; stroke: #f3f1ec; }
+.bm-road-casing.bm-main { stroke-width: 7; } .bm-road.bm-main { stroke-width: 5; }
+.bm-road-casing.bm-street { stroke-width: 4.5; } .bm-road.bm-street { stroke-width: 3; }
+.bm-rail { fill: none; stroke: #a9a8a4; stroke-width: 1.2; stroke-dasharray: 5 2; }
+.bm-label { font-size: 9px; fill: #8e8d89; font-style: italic; letter-spacing: 0.04em; }
+.bm-street-label { font-size: 7px; fill: #9a9995; }

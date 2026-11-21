@@ -36,16 +36,23 @@
       events.forEach(function (e) { all.push(e.at); all.push.apply(all, e.detour_route || []); });
       const W = 320, pad = 26;
       const lons = all.map(function (p) { return p.lon; }), lats = all.map(function (p) { return p.lat; });
-      const minX = Math.min.apply(null, lons), maxX = Math.max.apply(null, lons);
-      const minY = Math.min.apply(null, lats), maxY = Math.max.apply(null, lats);
-      const k = (W - 2 * pad) / ((maxX - minX) || 0.01);
-      const H = Math.max(140, Math.min(320, Math.round((maxY - minY) * k / 1.4 + 2 * pad)));
-      const ky = Math.min(k / 1.4, (H - 2 * pad) / ((maxY - minY) || 0.01));
-      function x(p) { return pad + (p.lon - minX) * k; }
-      function y(p) { return H - pad - (p.lat - minY) * ky; }
+      // A margin around the route, so that the places around it show.
+      const mx = Math.max(0.004, (Math.max.apply(null, lons) - Math.min.apply(null, lons)) * 0.08);
+      const my = Math.max(0.003, (Math.max.apply(null, lats) - Math.min.apply(null, lats)) * 0.25);
+      const minX = Math.min.apply(null, lons) - mx, maxX = Math.max.apply(null, lons) + mx;
+      const minY = Math.min.apply(null, lats) - my, maxY = Math.max.apply(null, lats) + my;
+      // A degree of latitude is about 1.4 times a degree of longitude here (111 km against 79 km).
+      const k = Math.min((W - 2 * pad) / ((maxX - minX) || 0.01), (320 - 2 * pad) / (((maxY - minY) || 0.01) * 1.4));
+      const H = Math.max(190, Math.round((maxY - minY) * k * 1.4 + 2 * pad));
+      const ky = k * 1.4;
+      const cLat = (minY + maxY) / 2; // centred, so that a long flat route keeps the land around it in view
+      const cLon = (minX + maxX) / 2;
+      function x(p) { return W / 2 + (p.lon - cLon) * k; }
+      function y(p) { return H / 2 - (p.lat - cLat) * ky; }
       function line(pts, cls) { return svg("polyline", { points: pts.map(function (p) { return x(p) + "," + y(p); }).join(" "), class: cls }); }
 
       const box = svg("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": R.map });
+      if (window.MapBase) MapBase.draw(box, x, y, W, H, maxX - minX, main.concat(pos ? [pos] : [])); // the grey background: towns, water, roads, rail
       const self = this;
       this.altLines = {};
       alts.forEach(function (a) {
