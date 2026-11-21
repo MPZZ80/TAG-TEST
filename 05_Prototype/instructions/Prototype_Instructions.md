@@ -1,6 +1,6 @@
 ---
 source: Marco
-date: 2026-11-18 23:47
+date: 2026-11-21 19:07
 method: generated
 status: draft
 grade: n/a
@@ -115,7 +115,7 @@ Marco's choices of 2026-11-16, before the first draft was built. The draft was d
 - **Screens:** every specification from SPEC-02 to SPEC-16 has at least one screen, and the start page and the initial set-up of SPEC-01 have theirs. The rules of SPEC-01 (source, age and status of every fact; "no news since"; what is missing and where to set it up) show on every screen.
 - **Set-up data:** what the initial set-up (SPEC-01) shows comes from the mock dataset of the commuter's set-up, `data/profile.js`, and every other screen reads the same dataset, so that all screens tell one consistent story. What is typed into the prototype is not kept: to change the set-up, change the dataset.
 - **Open questions:** where a specification leaves a value open (see `../../04_Specifications/01_Open_Questions/`), the dataset uses a provisional value and a comment names the question, for example `// provisional, OQ-02`.
-- **Scenarios:** a visible selector switches between the scenarios of `data/scenarios.js`: nothing set up, on time, late, cancelled. The scenario passes from screen to screen in the URL query (`?scenario=late`).
+- **Scenarios and configurator:** a configurator in a bar of its own at the top of every screen (`<scenario-switch>`) chooses the scenario of `data/scenarios.js` (nothing set up, on time, late, cancelled), where the commuter is on the trip followed today (before the trip at home, leg 1 to 4, after the trip) and whether it is a travel day; on a day with no travel the start page shows the next trip. What a screen opens on is set by hand in `data/config.js` (a `.js` file, since a JSON file cannot be read from `file://`); the configurator's choices pass from screen to screen in the URL query (`?scenario=late&at=leg-2&day=travel`). Where it goes on a phone is to be designed. Marco's choice, 2026-11-21.
 - **Persona:** one commuter, the Verona–Milan commuter, with three trips in `data/profile.js` (Home to Milan apartment, followed today: car, high-speed train, underground M2 to Loreto, on foot; Office to home; Home to the client in Brescia). The situations of the other stories (parking, a shared bike, a drive, step-free access) are shown on his trips.
 - **Messages outside the product** (alerts, a message to a contact, the stop approaching) are simulated as a notification at the top of the page, from `data/notifications.js`, triggered by a visible control; the message of a late or cancelled run is the starting point (`index.html`).
 - **The contact** who waits has no screen of their own: the prototype shows the message they receive.

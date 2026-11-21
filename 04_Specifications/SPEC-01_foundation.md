@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 18:19
+date: 2026-11-21 19:07
 method: synthesis
 status: draft
 grade: n/a
@@ -56,7 +56,7 @@ The product helps a person who commutes, often between cities and on more than o
 ## States
 
 - **Run:** `planned` → `on time` or `late (minutes)` → `departed` → `arrived`; from any state before arrival → `cancelled`; `no news` when no source has said anything for longer than the age limit [not traced: the limit]. A run becomes `cancelled` only on a fact that says so; a growing delay alone never makes it `cancelled` (F-01).
-- **Leg:** `to do` → `in progress` → `completed`. When the commuter's position reaches the start of a leg, that leg is `in progress` and the legs before it are `completed`; when it reaches the end of the leg, the leg is `completed` and the next one becomes `in progress`. Before the trip begins every leg is `to do`. The position is used only with the commuter's consent; without it, how the legs move on is [not traced] ([OQ-37](01_Open_Questions/OQ-37_legs-moving-on-without-position.md)). Asked by Marco on 2026-11-21.
+- **Leg:** `to do` → `in progress` → `completed`. When the commuter's position reaches the start of a leg, that leg is `in progress` and the legs before it are `completed`; when it reaches the end of the leg, the leg is `completed` and the next one becomes `in progress`. Before the trip begins every leg is `to do`. The position is used only with the commuter's consent; without it, how the legs move on is [not traced] ([OQ-37](01_Open_Questions/OQ-37_legs-moving-on-without-position.md)). Asked by Marco on 2026-11-21. In the prototype, where the commuter is is set by the configurator (`<scenario-switch>`).
 - **Connection:** `holds` → `at risk` → `lost`, moved by the expected arrival of the incoming run against the commuter's minimum change time (F-06, F-07).
 - **Trip:** `planned` → `today` → `under way` → `completed`; from `today` or `under way` → `broken` (a run cancelled, a connection lost, a vehicle that does not come) → back to `under way` on another way, or `abandoned` (F-02, F-06).
 - **Fact:** `confirmed`, `estimated` or `reported`; `outdated` past the age limit.
@@ -140,7 +140,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | `<confirm-choice>` | A proposed change and its yes and no; nothing changes until yes; no answer leaves everything as it was | the proposal passed by the specification | yes, no, the moment passing | SPEC-02, SPEC-05, SPEC-10, SPEC-15 |
 | `<missing-setup>` | What is missing for a behaviour, and a link to the step of the initial set-up where it is entered | `profile`, `scenarios.list.<key>.setup`, `ui_text.common.missing` | "Set it up" | every specification |
 | `<message-preview>` | A message that would reach the commuter, or a contact, outside the product: its channel and its text, at the top of the page | `notifications.<screen>.<scenario or any>[]` | the "Simulate a message" control; dismiss | SPEC-02, SPEC-03, SPEC-05, SPEC-06, SPEC-07, SPEC-11, SPEC-13 to SPEC-16 |
-| `<scenario-switch>` | The scenario the prototype shows: nothing set up, on time, late, cancelled; for testing, not part of the product | `scenarios` | choosing a scenario | every specification |
+| `<scenario-switch>` | The configurator, in a bar of its own at the top of every page: the scenario (nothing set up, on time, late, cancelled), where the commuter is on the trip followed today (before the trip, leg 1 to 4, after the trip) and whether it is a travel day; for testing, not part of the product. On a phone, where it goes is to be designed | `scenarios`, `config`, `profile.trips` | choosing a value, which reloads the page with it in the address | every specification |
 | `<start-page>` | The start page (below) | `profile`, `scenarios`, `clock`, `ui_text` | see "Start page" | SPEC-01, SPEC-04 |
 | `<setup-flow>` | The initial set-up, step by step (below) | `profile`, `ui_text` | next, back, skip, save | SPEC-01 and every specification that leads to it |
 
@@ -155,12 +155,13 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | `tickets` | The tickets the commuter holds, bought in the product or entered | `[{id, title, covers, seller, entered, state, code, moves[{to, cost}]}]` | SPEC-10, SPEC-12 |
 | `leg_events` | What changes a car or walking leg in each scenario: traffic, accidents, works, closed streets | `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status, at, detour_route}]` | SPEC-02, SPEC-04 |
 | `notifications` | The messages that reach the commuter or a contact when the product is closed | `<screen>.<scenario or any>[{channel, text}]` | the specifications that use `<message-preview>` |
-| `scenarios` | The scenarios, the mock clock of each, and where the commuter is | `default`, `list.<key>{label, setup, now, trip_state, connection_state, passenger{at, lat, lon, started}}` | every specification |
-| `clock` | The mock day | `date`, `weekday` | every specification |
+| `scenarios` | The scenarios and the mock clock of each | `list.<key>{label, setup, now, trip_state, connection_state}` | every specification |
+| `config` | What the prototype opens on, chosen by hand; the configurator changes it for the page shown | `scenario`, `at` (`before`, `leg-1` … `leg-4`, `after`), `day` (`travel`, `off`) | every specification |
+| `clock` | The mock day, and the day shown when it is not a travel day | `date`, `weekday`, `iso`, `off_day{date, weekday, iso}` | every specification |
 | `ui_text` | Every interface text: titles, labels, buttons, messages, state names | `common`, `nav[]`, `weekdays[]`, `channel_options[]`, `modes`, `states`, one object per page | every specification |
 
 - **Events from outside are simulated.** What the product cannot reach without a backend (an operator's live data, other travellers' reports, an answer from another service, a message on a channel outside the product) is a dataset. An event it would send (a delay, a cancellation, an answer, an incoming message) is triggered by `<scenario-switch>`, by the "Simulate a message" control, or by a timer on the mock clock, and its content comes from the data.
-- **From one page to the next.** What the commuter chooses on one page reaches the next in the address of the page (for example the scenario, the run, the way or the alternative chosen: `?scenario=late&run=HS9707`, `?choice=HS9707:A4`). Nothing else is passed and nothing is stored.
+- **From one page to the next.** What the commuter chooses on one page reaches the next in the address of the page (for example the scenario, where the commuter is, the day, the run, the way or the alternative chosen: `?scenario=late&at=leg-2&day=travel&run=HS9707`, `?choice=HS9707:A4`). Nothing else is passed and nothing is stored.
 - **How the files are laid out** is in [Prototype_Instructions.md](../05_Prototype/instructions/Prototype_Instructions.md); the specifications name components and datasets, not files.
 
 ## Information architecture

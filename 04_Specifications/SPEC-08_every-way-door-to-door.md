@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-21 19:07
 method: synthesis
 status: draft
 grade: n/a
@@ -48,7 +48,7 @@ Shows every way of making a trip door to door, for a given day and time, side by
 - **Starts when:** The commuter asks for ways between two places for a day and a time to leave or to arrive; or another specification asks for ways from a point (SPEC-05).
 - **Needs to know:** The doors (SPEC-01) or places the commuter enters; schedules of the services; travel times by car (third party); prices (operators, third parties); timing of each leg and connection (SPEC-09).
 - **Rules:**
-  1. List every way that reaches the destination door, side by side, including car and public transport and their combinations.
+  1. List every way that reaches the destination door, side by side, including car and public transport and their combinations. The car between cities is a way of one leg from door to door; the means of each leg follow its kind, in a city or between cities ([SPEC-02](SPEC-02_real-state-of-the-run.md) rule 20). Added by Marco on 2026-11-21.
   2. Show for each: departure, arrival at the door, total time, price, and who runs each leg.
   3. When the wanted service is sold out, put first the way arriving closest to the wanted time.
   4. For a return, show when each way brings the commuter back to the door at the end of the working day.

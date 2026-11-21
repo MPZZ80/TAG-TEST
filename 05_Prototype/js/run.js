@@ -50,9 +50,9 @@
   else if (l.route) {
     map.leg = l;
     const set = DATA.leg_events[trip.id + "-" + (trip.legs.indexOf(l) + 1)];
-    map.events = set ? set.by_scenario[P.scenarioKey] || [] : [];
+    map.events = set ? set.by_scenario[P.dataKey] || [] : [];
   }
-  if (legState === "active") map.passenger = P.scenario.passenger; // where the commuter is, with consent
+  if (legState === "active") map.passenger = P.passenger(l); // where the commuter is, with consent
 
   if (l.chosen && l.dep) {
     const c = P.el("div", "card");
@@ -95,7 +95,7 @@
     const run = DATA.runs[e.detail.run], alt = run.alternatives.find(function (a) { return a.id === e.detail.alt; });
     map.highlight(alt.id);
     confirm.ask(P.fill(R.confirm_title, { service: alt.service, instead: run.service }), R.confirm_text, function () {
-      location.href = "today.html?" + new URLSearchParams({ scenario: P.scenarioKey, choice: e.detail.run + ":" + alt.id }).toString();
+      location.href = P.href("today.html", { choice: e.detail.run + ":" + alt.id });
     });
   });
 

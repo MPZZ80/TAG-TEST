@@ -56,6 +56,6 @@ DATA.profile = {
   needs: { step_free: false },
   channels: ["Notification on the phone"],
   // consent to use position: off by default in the set-up (SPEC-01); given in this mock, so that the legs follow the
-  // commuter's position (scenarios.js, passenger); without it, how legs move on is open (OQ-37)
+  // commuter's position (set by the configurator, config.js); without it, how legs move on is open (OQ-37)
   position: true
 };

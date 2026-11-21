@@ -13,7 +13,7 @@
   class LegProblem extends HTMLElement {
     connectedCallback() {
       const set = DATA.leg_events[this.getAttribute("leg")];
-      const events = set ? (set.by_scenario[P.scenarioKey] || []) : [];
+      const events = set ? (set.by_scenario[P.dataKey] || []) : [];
       const self = this;
       events.forEach(function (ev) {
         self.appendChild(P.el("p", "state state-late", P.fill(R.leg_problem, { kind: R.leg_kinds[ev.kind] || ev.kind, minutes: ev.extra_minutes })));

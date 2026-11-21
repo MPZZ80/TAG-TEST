@@ -14,7 +14,7 @@
     connectedCallback() {
       const s = P.runState(this.getAttribute("run"));
       if (!s) return;
-      const r = s.run, R = T.run, known = s.facts.length > 0, self = this;
+      const r = s.run, R = T.run, known = s.planned || s.facts.length > 0, self = this; // planned: a day with no travel
       this.className = "card";
       this.appendChild(el("h2", "", r.service));
       this.appendChild(el("p", "meta", fill(R.operator, r)));
@@ -34,7 +34,7 @@
       // A cancelled run shows only that it is cancelled, and why.
       if (s.state !== "cancelled") {
         this.appendChild(el("p", "", R.planned + ": " + fill(R.times, r)));
-        if (known) this.appendChild(el("p", "", R.expected + ": " + fill(R.times, { from: r.from, dep: s.exp_dep, to: r.to, arr: s.exp_arr })));
+        if (known && !s.planned) this.appendChild(el("p", "", R.expected + ": " + fill(R.times, { from: r.from, dep: s.exp_dep, to: r.to, arr: s.exp_arr })));
         this.appendChild(el("p", "", fill(T.today.platform, s) + (s.platform_may_change ? " · " + T.today.platform_may_change : "")));
         if (known && s.position) this.appendChild(el("p", "", R.position + ": " + s.position));
       }

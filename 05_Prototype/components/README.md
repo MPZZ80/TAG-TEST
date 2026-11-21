@@ -4,7 +4,7 @@ The web components of the prototype, one file per component, named after its tag
 
 | File | Component | Defined in | Used by |
 | --- | --- | --- | --- |
-| `scenario-switch.js` | `<scenario-switch>`: the scenario selector, for testing | SPEC-01 | every screen |
+| `scenario-switch.js` | `<scenario-switch>`: the configurator, in a bar at the top: scenario, where the commuter is (before, leg 1 to 4, after), travel day or not; for testing | SPEC-01 | every screen |
 | `fact-line.js` | `<fact-line>`: one fact with its source, time and status | SPEC-01 | SPEC-02, SPEC-04, SPEC-12, SPEC-13 |
 | `run-card.js` | `<run-card>`: one run, its state first with an information button when sources disagree, "Why" only for a problem, the facts under "Details" | SPEC-01 | SPEC-02, SPEC-04, SPEC-07 |
 | `usual-delay.js` | `<usual-delay>`: how late a run usually is | SPEC-01 | SPEC-02, SPEC-09 |

@@ -43,7 +43,7 @@
   main.appendChild(list);
 
   const door = P.doorName(trip.to);
-  const now = DATA.connections.by_scenario[P.scenarioKey].door_arrival;
+  const now = DATA.connections.by_scenario[P.dataKey].door_arrival;
   main.appendChild(P.el("p", "card", now && now !== "—"
     ? P.fill(A.door_compare, { door: door, time: alt.door_arrival, current: now })
     : P.fill(A.door_compare_planned, { door: door, time: alt.door_arrival, planned: DATA.connections.by_scenario.none.door_arrival })));
@@ -55,7 +55,7 @@
   choose.type = "button";
   choose.addEventListener("click", function () {
     confirm.ask(P.fill(A.confirm_title, { service: alt.service, instead: run.service }), A.confirm_text, function () {
-      location.href = "today.html?" + new URLSearchParams({ scenario: P.scenarioKey, choice: runId + ":" + alt.id }).toString();
+      location.href = P.href("today.html", { choice: runId + ":" + alt.id });
     });
   });
   main.appendChild(choose);

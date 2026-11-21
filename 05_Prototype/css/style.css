@@ -27,6 +27,7 @@
   --colour-coach: #26a269;
   --colour-underground: #c01c28;
   --colour-walk: #77767b;
+  --colour-config: #e8e6df;
 }
 
 * { box-sizing: border-box; }
@@ -214,3 +215,6 @@ polyline { fill: none; }
 .alt-slot.selected { border-color: var(--colour-accent); box-shadow: 0 0 0 2px var(--colour-accent); color: var(--colour-text); }
 .alt-slot.selected .alt-kind { color: var(--colour-accent); filter: none; }
 .alt-panel:not(.open) { display: none; }
+
+/* The configurator: a bar of its own above the app bar, for testing; on a phone its choices wrap (to be designed). */
+.config-bar { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); background: var(--colour-config); padding: var(--space-2) var(--space-3); }

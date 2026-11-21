@@ -19,6 +19,14 @@ DATA.ui_text = {
     index: "All screens",
     clock: "{weekday} {date}, {now}",
     scenario: "Scenario",
+    config: "Prototype settings",
+    at: "Where the commuter is",
+    at_before: "Before the trip, at home",
+    at_leg: "Leg {n}: {from} → {to}",
+    at_after: "After the trip",
+    day: "Day",
+    day_travel: "Travel day",
+    day_off: "Not a travel day",
     yes: "Yes",
     no: "No",
     money: "€ {n}"
@@ -118,8 +126,9 @@ DATA.ui_text = {
     link_tickets: "Your tickets",
     link_contacts: "Tell who waits for you",
     arrived: "Arrived while closed: {text}",
-    not_travel_day: "{weekday} is not a travel day: this is the trip for {next}.",
-    not_kept: "In this prototype your confirmation is not kept."
+    next_trip: "Your next trip: {weekday} {date}, {when}.",
+    tomorrow: "tomorrow",
+    in_days: "in {n} days"
   },
   run: {
     title: "State of the run",

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 23:19
+date: 2026-11-21 19:07
 method: synthesis
 status: draft
 grade: n/a
@@ -53,6 +53,7 @@ Tells the commuter, on their days of travel and only when something changes, of 
   4. Send works and strikes as soon as they are announced for a coming travel day.
   5. Send nothing outside the days of travel.
   6. Send in a form the commuter can take in while driving, when the moment chosen is a drive [technology choice open].
+  7. When a strike announced for a coming travel day touches the planned run, say whether that run is guaranteed; when it is not, say which runs are guaranteed among the alternatives of the leg ([SPEC-02](SPEC-02_real-state-of-the-run.md) rule 19), and, when there are none, the other means (coach, car). Asked by Marco on 2026-11-21.
 - **States:** An alert is `sent` or `not needed`. The settings are `set` or `missing`.
 - **The user receives:** A message on the chosen channel: what changed, the expected time and its source.
 - **Depends on:** Usual trip ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Days of travel ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md))

@@ -13,7 +13,7 @@
   class MessagePreview extends HTMLElement {
     connectedCallback() {
       const set = DATA.notifications[this.getAttribute("screen")] || {};
-      const messages = set[scenarioKey] || set.any || [];
+      const messages = set[P.dataKey] || set.any || [];
       if (!messages.length) return;
       const self = this;
       const button = el("button", "", T.common.simulate);
