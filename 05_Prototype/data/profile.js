@@ -3,11 +3,11 @@
  * What it holds: the commuter's set-up (SPEC-02): doors, trips, days of travel, own rules,
  *   needs on the way, channels, consent to use position. Every screen reads it, so all screens agree.
  * Used by: setup.html and every other screen
- * Fields: persona, doors[{id, name, place}], trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}],
+ * Fields: persona, doors[{id, name, place}], trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage, route[{name, lat, lon}]}]}],
  *   days[], own_rules{min_change, per_station[{station, minutes}], margin, max_changes, own_leg},
  *   needs{step_free}, channels[], position
  * Source: mock
- * Updated: 2026-11-18
+ * Updated: 2026-11-21
  */
 window.DATA = window.DATA || {};
 DATA.profile = {
@@ -23,10 +23,12 @@ DATA.profile = {
   trips: [
     { id: "T1", name: "Home to Milan apartment", from: "home", to: "apartment", monitored: true,
       legs: [
-        { mode: "car",         from: "Home",                to: "Verona Porta Nuova", minutes: 15, stage: "first mile" },
+        { mode: "car",         from: "Home",                to: "Verona Porta Nuova", minutes: 15, stage: "first mile",
+          route: [{ name: "Home", lat: 45.4378, lon: 10.9403 }, { name: "Ring road", lat: 45.4330, lon: 10.9600 }, { name: "Verona Porta Nuova", lat: 45.4290, lon: 10.9825 }] },
         { mode: "train",       from: "Verona Porta Nuova",  to: "Milano Centrale",    run: "HS9707",  stage: "main leg" },
         { mode: "underground", from: "Milano Centrale FS",  to: "Loreto",             run: "M2-0912", stage: "transfer" },
-        { mode: "walk",        from: "Loreto",              to: "Milan apartment",    minutes: 5,  stage: "last mile" }
+        { mode: "walk",        from: "Loreto",              to: "Milan apartment",    minutes: 5,  stage: "last mile",
+          route: [{ name: "Loreto", lat: 45.4858, lon: 9.2160 }, { name: "Via Padova", lat: 45.4874, lon: 9.2186 }, { name: "Milan apartment", lat: 45.4889, lon: 9.2205 }] }
       ] },
     { id: "T2", name: "Office to home", from: "office", to: "home", monitored: false,
       legs: [

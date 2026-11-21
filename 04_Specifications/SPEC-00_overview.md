@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 16:57
+date: 2026-11-21 17:53
 method: synthesis
 status: draft
 grade: n/a
@@ -95,6 +95,7 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<setup-flow>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md) |
 | `<source-gap>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | `<leg-alternatives>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
+| `<leg-map>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | `<run-stops>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | `<route-map>` | [SPEC-02](SPEC-02_real-state-of-the-run.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | `<trip-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-17](SPEC-17_trips.md) |
@@ -262,7 +263,7 @@ All the open questions of the specifications, 33 in all, one file each in [01_Op
 | [OQ-33](01_Open_Questions/OQ-33_the-reminder-interval.md) | The reminder interval for a running session | SPEC-16 | [not traced] | ⚠ not supported |
 | [OQ-34](01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md) | Days of travel with a list of trips | SPEC-17 | [not traced] | ⚠ not supported |
 | [OQ-35](01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md) | Problems on car and walking legs: whether commuters want them, and the source of the data | SPEC-02 | [not traced] [technology choice open] | partly |
-| [OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md) | The map of a route | SPEC-02 | [technology choice open] | ⚠ not supported |
+| [OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md) | The map of a leg and of a route, with the live position | SPEC-02 | [technology choice open] | ⚠ not supported |
 
 ## Connections
 

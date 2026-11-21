@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-21 17:53
+
+- **Files:** created `05_Prototype/components/leg-map.js`; changed `05_Prototype/components/leg-alternatives.js`, `05_Prototype/js/run.js`, `05_Prototype/html/run.html`, `05_Prototype/data/runs.js`, `profile.js`, `leg_events.js`, `ui_text.js`, `05_Prototype/css/style.css`, `05_Prototype/components/README.md`; `04_Specifications/SPEC-02_real-state-of-the-run.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`, `SPEC-04_todays-trip-at-a-glance.md`, `01_Open_Questions/OQ-35_problems-on-car-and-walking-legs.md`, `OQ-36_the-map-of-a-route.md`
+- **Change:** Every leg detail opens with a map (`<leg-map>`): the route in the colour of its means, the stops, the vehicle at its live position (simulated: it starts where the data put it and moves every 3 seconds, with the time of the update), the way the train comes from, and on car or walking legs the blocked point and the way round. When the run is late or cancelled, the alternatives are drawn in grey on the same map and their cards are grey; tapping a card highlights it and draws its route in colour, and shows "Choose", which asks and then updates the trip of today. Mock data: coordinates of stops, legs and events, live positions, the way round Via Padova. SPEC-02: new rule 6 (map), rule 18 (choose from the card), rules renumbered, component, datasets, simulated events, three acceptance criteria; rule numbers cited in SPEC-04, OQ-35 and OQ-36 updated; OQ-36 now covers the live map; SPEC-01 and SPEC-00 updated.
+- **Why:** Marco asked for maps with the route in real time on the leg details, with the alternatives in grey, highlighted when tapped, and confirmed with "Choose", so that the trip updates.
+
 ## 2026-11-21 17:22
 
 - **Files:** `05_Prototype/js/run.js`, `05_Prototype/components/run-card.js`, `05_Prototype/components/leg-alternatives.js`, `04_Specifications/SPEC-02_real-state-of-the-run.md`

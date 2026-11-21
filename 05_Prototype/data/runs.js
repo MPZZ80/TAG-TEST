@@ -4,7 +4,7 @@
  *   as facts with their source, time and status (SPEC-01, SPEC-03).
  * Used by: today.html, run.html, connection.html, alerts.html, timing.html, stop.html
  * Fields: id{service, operator, from, to, dep, arr, platform_dep, usual_platform, platform_arr, usual_delay, next[],
- *   stops[{name, time}],
+ *   approach[{name, lat, lon}], stops[{name, time, lat, lon}], by_scenario.<key>.pos{lat, lon},
  *   alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note,
  *     legs_after[{mode, service, from, to, dep, arr, minutes, stage}], route[{name, lat, lon, mode}]}],
  *   by_scenario{key: {state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[{label, value, source, time, status}]}}}
@@ -19,7 +19,9 @@ DATA.runs = {
     platform_dep: "4", usual_platform: "4", platform_arr: "21",
     // record of past runs; how many runs it covers is OQ-06 (provisional: the last 20 runs)
     // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
-    stops: [{ name: "Verona Porta Nuova", time: "07:45" }, { name: "Brescia", time: "08:20" }, { name: "Milano Centrale", time: "08:58" }],
+    // the way the train comes from before the commuter's stop, drawn faint on the map
+    approach: [{ name: "Vicenza", lat: 45.5455, lon: 11.5410 }, { name: "San Bonifacio", lat: 45.3960, lon: 11.2730 }],
+    stops: [{ name: "Verona Porta Nuova", time: "07:45", lat: 45.4290, lon: 10.9825 }, { name: "Brescia", time: "08:20", lat: 45.5329, lon: 10.2129 }, { name: "Milano Centrale", time: "08:58", lat: 45.4862, lon: 9.2040 }],
     usual_delay: { minutes: 6, runs: 20 },
     // other ways to make this leg, shown on the Run page when the run is late or cancelled (SPEC-02).
     // Realistic mock: times and durations from public timetables (Frecciarossa ~1h13, Italo ~1h12,
@@ -95,11 +97,12 @@ DATA.runs = {
     by_scenario: {
       none:    { state: "planned", delay: 0, exp_dep: "07:45", exp_arr: "08:58", platform: "4", position: "Not yet departed",
                  facts: [{ label: "Departure", value: "07:45", source: "Schedule", time: "—", status: "planned" }] },
-      on_time: { state: "on time", delay: 0, exp_dep: "07:45", exp_arr: "08:58", platform: "4", position: "Left Vicenza at 07:09",
+      // pos: where the train is now, for the map; simulated, it then moves along the route with a timer
+      on_time: { state: "on time", delay: 0, exp_dep: "07:45", exp_arr: "08:58", platform: "4", position: "Left Vicenza at 07:09", pos: { lat: 45.4100, lon: 11.2000 },
                  facts: [
                    { label: "Departure", value: "07:45", source: "Operator, live", time: "07:18", status: "confirmed" },
                    { label: "Position",  value: "Left Vicenza at 07:09", source: "Operator, live", time: "07:18", status: "confirmed" }] },
-      late:    { state: "late", delay: 18, exp_dep: "08:03", exp_arr: "09:16", platform: "5", platform_may_change: true,
+      late:    { state: "late", delay: 18, exp_dep: "08:03", exp_arr: "09:16", platform: "5", platform_may_change: true, pos: { lat: 45.5300, lon: 11.4800 },
                  position: "Stopped before Vicenza", reason: "A slower train ahead",
                  facts: [
                    { label: "Departure", value: "08:03 (+18)", source: "Operator, live", time: "07:38", status: "confirmed" },
@@ -118,7 +121,7 @@ DATA.runs = {
     from: "Milano Centrale FS", to: "Loreto", dep: "09:12", arr: "09:15",
     platform_dep: "M2 towards Cologno / Gessate", usual_platform: "M2 towards Cologno / Gessate", platform_arr: "—",
     // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
-    stops: [{ name: "Milano Centrale FS", time: "09:12" }, { name: "Caiazzo", time: "09:13" }, { name: "Loreto", time: "09:15" }],
+    stops: [{ name: "Milano Centrale FS", time: "09:12", lat: 45.4847, lon: 9.2050 }, { name: "Caiazzo", time: "09:13", lat: 45.4855, lon: 9.2105 }, { name: "Loreto", time: "09:15", lat: 45.4858, lon: 9.2160 }],
     usual_delay: { minutes: 0, runs: 20 },
     by_scenario: {
       none:      { state: "planned", delay: 0, exp_dep: "09:12", exp_arr: "09:15", platform: "M2 towards Cologno / Gessate", facts: [] },
@@ -138,7 +141,7 @@ DATA.runs = {
     from: "Repubblica", to: "Milano Centrale", dep: "17:22", arr: "17:24",
     platform_dep: "M3 northbound", usual_platform: "M3 northbound", platform_arr: "—",
     // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
-    stops: [{ name: "Repubblica", time: "17:22" }, { name: "Milano Centrale", time: "17:24" }],
+    stops: [{ name: "Repubblica", time: "17:22", lat: 45.4800, lon: 9.1975 }, { name: "Milano Centrale", time: "17:24", lat: 45.4862, lon: 9.2040 }],
     usual_delay: { minutes: 0, runs: 20 },
     by_scenario: {
       none:      { state: "planned", delay: 0, exp_dep: "17:22", exp_arr: "17:24", platform: "M3 northbound", facts: [] },
@@ -155,7 +158,7 @@ DATA.runs = {
     from: "Verona Porta Nuova", to: "Brescia", dep: "08:28", arr: "09:12",
     platform_dep: "1", usual_platform: "1", platform_arr: "3",
     // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
-    stops: [{ name: "Verona Porta Nuova", time: "08:28" }, { name: "Peschiera del Garda", time: "08:40" }, { name: "Desenzano del Garda", time: "08:48" }, { name: "Brescia", time: "09:12" }],
+    stops: [{ name: "Verona Porta Nuova", time: "08:28", lat: 45.4290, lon: 10.9825 }, { name: "Peschiera del Garda", time: "08:40", lat: 45.4386, lon: 10.6918 }, { name: "Desenzano del Garda", time: "08:48", lat: 45.4706, lon: 10.5395 }, { name: "Brescia", time: "09:12", lat: 45.5329, lon: 10.2129 }],
     usual_delay: { minutes: 4, runs: 12 },
     by_scenario: {
       none:      { state: "planned", delay: 0, exp_dep: "08:28", exp_arr: "09:12", platform: "1", facts: [] },
@@ -172,7 +175,7 @@ DATA.runs = {
     from: "Milano Centrale", to: "Verona Porta Nuova", dep: "17:35", arr: "18:48",
     platform_dep: "14", usual_platform: "14", platform_arr: "3",
     // the planned stops of the run; the expected times move with the expected departure (SPEC-02)
-    stops: [{ name: "Milano Centrale", time: "17:35" }, { name: "Brescia", time: "18:12" }, { name: "Verona Porta Nuova", time: "18:48" }],
+    stops: [{ name: "Milano Centrale", time: "17:35", lat: 45.4862, lon: 9.2040 }, { name: "Brescia", time: "18:12", lat: 45.5329, lon: 10.2129 }, { name: "Verona Porta Nuova", time: "18:48", lat: 45.4290, lon: 10.9825 }],
     usual_delay: { minutes: 9, runs: 20 },
     by_scenario: {
       none:      { state: "planned", delay: 0, exp_dep: "17:35", exp_arr: "18:48", platform: "14", facts: [] },

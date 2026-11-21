@@ -33,7 +33,7 @@
 
 /* Custom elements are inline by default; the components hold blocks, so they are blocks too. Add each new component here. */
 scenario-switch, fact-line, run-card, usual-delay, message-preview, missing-setup, source-gap,
-first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem, route-map, confirm-choice, run-stops { display: block; }
+first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem, route-map, confirm-choice, run-stops, leg-map { display: block; }
 
 body {
   margin: 0;
@@ -162,3 +162,19 @@ route-map svg { width: 100%; height: auto; background: var(--colour-surface); bo
 .leg > h3 { margin: 0 0 var(--space-1); }
 
 .back { display: inline-block; margin-top: var(--space-2); text-decoration: none; }
+
+/* The map of a leg: the route in colour, the alternatives in grey until one is tapped, the vehicle live. */
+leg-map svg { width: 100%; height: auto; background: var(--colour-surface); border: 1px solid var(--colour-line); border-radius: var(--radius); }
+polyline { fill: none; }
+.alt-route { stroke: var(--colour-line); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.alt-route.alt-selected { stroke: var(--colour-accent); stroke-width: 4; }
+.approach { stroke: var(--colour-train); stroke-width: 2; stroke-dasharray: 2 4; opacity: 0.5; }
+.seg { stroke-linejoin: round; }
+.seg-car { stroke: var(--colour-text); }
+.vehicle { fill: var(--colour-accent); stroke: var(--colour-surface); stroke-width: 2; transition: cx 2.5s linear, cy 2.5s linear; }
+.event { fill: var(--colour-warn); stroke: var(--colour-surface); stroke-width: 2; }
+.alt { cursor: pointer; opacity: 0.6; filter: grayscale(1); }
+.alt.selected { opacity: 1; filter: none; border-color: var(--colour-accent); box-shadow: 0 0 0 2px var(--colour-accent); }
+.alt .choose { display: none; }
+.alt.selected .choose { display: inline-block; }
+.detour { stroke: var(--colour-warn); stroke-width: 2.5; stroke-dasharray: 5 3; }

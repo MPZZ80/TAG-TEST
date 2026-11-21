@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-19 00:13
+date: 2026-11-21 17:53
 method: synthesis
 status: draft
 grade: n/a
@@ -15,10 +15,10 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 
 | | |
 | --- | --- |
-| **Question** | Which map shows the route of an alternative in the product, and from which service (a map and routing service, open map data such as OpenStreetMap, the operators' own maps)? |
-| **Raised in** | [SPEC-02](../SPEC-02_real-state-of-the-run.md) (rule 16, `<route-map>`) |
+| **Question** | Which map shows the route of a leg, the live position of the vehicle and the routes of the alternatives in the product, and from which service (a map and routing service, open map data such as OpenStreetMap, the operators' own maps)? The live position itself depends on [OQ-01](OQ-01_sources-of-the-real-position.md). |
+| **Raised in** | [SPEC-02](../SPEC-02_real-state-of-the-run.md) (rules 6 and 17, `<leg-map>` and `<route-map>`) |
 | **Marker** | [technology choice open] |
-| **Research support** | ⚠ Not supported by the research: no note asks for a map; the map was asked by Marco on 2026-11-19 |
+| **Research support** | ⚠ Not supported by the research: no note asks for a map; the maps (of an alternative, then of each leg with the live position) were asked by Marco on 2026-11-19 |
 | **State** | open |
 | **Decision** | none yet |
 | **Decided on** | none yet |
@@ -31,7 +31,7 @@ The prototype has no backend and calls no service, so the route is drawn as a sk
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-02](../SPEC-02_real-state-of-the-run.md) | State of the run, rule 16: the page of an alternative with a map of its route |
+| Specification | [SPEC-02](../SPEC-02_real-state-of-the-run.md) | State of the run, rule 6: a map of each leg with the live position of the vehicle; rule 17: the page of an alternative with a map of its route |
 | Request | Marco, 2026-11-19 | A map with the route of the alternative, to see the difference with the planned trip |
 
 ## What the research says

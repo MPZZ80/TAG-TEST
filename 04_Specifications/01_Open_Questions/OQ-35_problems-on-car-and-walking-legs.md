@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 23:55
+date: 2026-11-21 17:53
 method: synthesis
 status: draft
 grade: n/a
@@ -16,7 +16,7 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | | |
 | --- | --- |
 | **Question** | Do commuters want to be told of traffic and accidents on their car legs, and of works or closed streets on their walking legs? And which services would tell the product: a traffic service (for example Google Maps Platform, TomTom or HERE, which offer traffic and incident data to developers), community reports, the city's open data on road works? |
-| **Raised in** | [SPEC-02](../SPEC-02_real-state-of-the-run.md) (rule 15), and [SPEC-04](../SPEC-04_todays-trip-at-a-glance.md) which shows the same on Today |
+| **Raised in** | [SPEC-02](../SPEC-02_real-state-of-the-run.md) (rule 16), and [SPEC-04](../SPEC-04_todays-trip-at-a-glance.md) which shows the same on Today |
 | **Marker** | [not traced] (the value for the commuter); [technology choice open] (the source of the data) |
 | **Research support** | Partly: traffic on the drive is in the research, but the feature that answered it (F-14b) was sent back because no outcome the person seeks could be traced; closed streets on walking legs are not in the research |
 | **State** | open |
@@ -31,7 +31,7 @@ Marco asked on 2026-11-18 that problems on car and walking legs be shown as a us
 
 | Step | Item | What it says |
 | --- | --- | --- |
-| Specification | [SPEC-02](../SPEC-02_real-state-of-the-run.md) | State of the run, rule 15 |
+| Specification | [SPEC-02](../SPEC-02_real-state-of-the-run.md) | State of the run, rule 16 |
 | Feature | [F-14b](../../02_Analysis/02_Features/F-14b_state-usual-drive-known.md) | The state of the usual drive, with known works: sent back, value not traced |
 | Touchpoint | [TP-045](../../02_Analysis/01_Touchpoints/TP-045_checking-traffic-app-before.md) | Checking a traffic app before driving |
 | Survey | [07_survey_results](../../01_Research/05_Survey/07_survey_results.md) | "Checks a traffic app before leaving" |

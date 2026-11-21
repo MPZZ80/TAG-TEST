@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 16:57
+date: 2026-11-21 17:53
 method: synthesis
 status: draft
 grade: n/a
@@ -147,12 +147,12 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 
 | Dataset | What it holds | Fields | Used by |
 | --- | --- | --- | --- |
-| `profile` | What the commuter set up (Initial set-up, below) | `persona`, `doors[{id, name, place}]`, `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}]`, `days[]`, `own_rules{min_change, per_station[{station, minutes}], margin, max_changes, own_leg}`, `needs{step_free}`, `channels[]`, `position` | every specification |
-| `runs` | The runs of the commuter's trips, planned, their real state in each scenario as facts, and the other ways to make each leg | `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay{minutes, runs}`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, legs_after[], route[]}]`, `by_scenario.<key>{state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[]}` | SPEC-02 to SPEC-07, SPEC-09, SPEC-14 |
+| `profile` | What the commuter set up (Initial set-up, below) | `persona`, `doors[{id, name, place}]`, `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage, route[{name, lat, lon}]}]}]`, `days[]`, `own_rules{min_change, per_station[{station, minutes}], margin, max_changes, own_leg}`, `needs{step_free}`, `channels[]`, `position` | every specification |
+| `runs` | The runs of the commuter's trips, planned, their real state in each scenario as facts, and the other ways to make each leg | `service`, `operator`, `from`, `to`, `dep`, `arr`, `platform_dep`, `usual_platform`, `platform_arr`, `usual_delay{minutes, runs}`, `approach[]`, `stops[{name, time, lat, lon}]`, `alternatives[{id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, legs_after[], route[]}]`, `by_scenario.<key>{state, delay, exp_dep, exp_arr, platform, platform_may_change, position, reason, facts[]}` | SPEC-02 to SPEC-07, SPEC-09, SPEC-14 |
 | `connections` | The change on the usual trip and its state in each scenario | `station`, `from_run`, `to_run`, `walk_minutes`, `board_where`, `by_scenario.<key>{state, margin, next_dep, door_arrival, warn_at, request_answer}`, `request_answer_text` | SPEC-04, SPEC-07, SPEC-09 |
 | `ways` | The ways from door to door for a search, and the ways out when the trip breaks | `search{from, to, day, leave_after, ways[]}`, `ways_out{from, last_way, ways[]}` | SPEC-05, SPEC-08, SPEC-10 |
 | `tickets` | The tickets the commuter holds, bought in the product or entered | `[{id, title, covers, seller, entered, state, code, moves[{to, cost}]}]` | SPEC-10, SPEC-12 |
-| `leg_events` | What changes a car or walking leg in each scenario: traffic, accidents, works, closed streets | `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status}]` | SPEC-02, SPEC-04 |
+| `leg_events` | What changes a car or walking leg in each scenario: traffic, accidents, works, closed streets | `<trip>-<leg>.by_scenario.<key>[{kind, text, extra_minutes, detour, source, time, status, at, detour_route}]` | SPEC-02, SPEC-04 |
 | `notifications` | The messages that reach the commuter or a contact when the product is closed | `<screen>.<scenario or any>[{channel, text}]` | the specifications that use `<message-preview>` |
 | `scenarios` | The scenarios and the mock clock of each | `default`, `list.<key>{label, setup, now, trip_state, connection_state}` | every specification |
 | `clock` | The mock day | `date`, `weekday` | every specification |

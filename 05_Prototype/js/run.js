@@ -41,6 +41,17 @@
   const section = P.el("section");
   main.appendChild(section); // in the page first, so that the components draw themselves
 
+  // The map of the leg: its route, the vehicle where it is now, and the alternatives in grey.
+  const map = document.createElement("leg-map");
+  if (l.run && DATA.runs[l.run] && !l.chosen) map.setAttribute("run", l.run);
+  else if (l.chosen && P.effectiveTrip(trip).chosen) map.leg = { mode: l.mode, route: P.effectiveTrip(trip).chosen.alt.route };
+  else if (l.route) {
+    map.leg = l;
+    const set = DATA.leg_events[trip.id + "-" + (trip.legs.indexOf(l) + 1)];
+    map.events = set ? set.by_scenario[P.scenarioKey] || [] : [];
+  }
+  section.appendChild(map);
+
   if (l.chosen && l.dep) {
     const c = P.el("div", "card");
     c.appendChild(P.el("h2", "", l.service));
@@ -70,6 +81,18 @@
       section.appendChild(alt);
     }
   }
+
+  // An alternative tapped is drawn in colour on the map; "Choose" asks, then the trip of today follows it.
+  const confirm = document.createElement("confirm-choice");
+  main.appendChild(confirm);
+  main.addEventListener("alt-select", function (e) { map.highlight(e.detail.alt); });
+  main.addEventListener("alt-choose", function (e) {
+    const run = DATA.runs[e.detail.run], alt = run.alternatives.find(function (a) { return a.id === e.detail.alt; });
+    map.highlight(alt.id);
+    confirm.ask(P.fill(R.confirm_title, { service: alt.service, instead: run.service }), R.confirm_text, function () {
+      location.href = "today.html?" + new URLSearchParams({ scenario: P.scenarioKey, choice: e.detail.run + ":" + alt.id }).toString();
+    });
+  });
 
   // What each source says, in a dialog opened from the info button next to the state.
   const dialog = P.el("dialog", "modal");
