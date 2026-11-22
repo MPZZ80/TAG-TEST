@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-22 17:02
+
+- **Files:** created `05_Prototype/components/share-updates.js`, `05_Prototype/data/share.js`; deleted `05_Prototype/html/contacts.html`, `05_Prototype/js/contacts.js`, `05_Prototype/components/contact-list.js`, `contact-messages.js`, `prepared-message.js`, `05_Prototype/data/contacts.js`; changed `05_Prototype/data/ui_text.js`, `screens.js`, `notifications.js`, `05_Prototype/js/today.js`, `run.js`, `05_Prototype/html/today.html`, `run.html`, `05_Prototype/css/style.css`, `05_Prototype/instructions/Prototype_Instructions.md`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-06_those-waiting-are-told.md`, `SPEC-01_foundation.md`, `SPEC-05_ways-out-when-the-trip-breaks.md`, `SPEC-00_overview.md`
+- **Change:** SPEC-06 rewritten: a "Share updates" button with the share icon, under the trip on Today and on every leg of Run, opens the phone's share sheet (`navigator.share`) with the trip's title and link; where the browser has none, the prototype draws a sheet of its own (WhatsApp, Messages, Mail, Telegram, Copy link) that sends nothing. Not offered after the trip, on a day with no travel or with nothing set up. The Contacts page (PG-14), the contact list, the messages to contacts and the ready message on the leg that broke are removed; contacts and their consent are taken out of the foundation.
+- **Why:** Marco: replace "Tell who waits for you" with something like "Share updates" or a share icon that opens the system share (WhatsApp, mail and so on), so that no contacts have to be entered; on Today and in the legs. The message is written by the user and must not be prescribed, so the "Your trip is broken" box with "Send to Flatmate in Milan" is not needed.
+- **Do not:** reintroduce a list of contacts kept in the product, a message written for the commuter, or the Contacts page.
+
 ## 2026-11-21 19:38
 
 - **Files:** created `05_Prototype/html/contacts.html`, `05_Prototype/js/contacts.js`, `05_Prototype/components/contact-list.js`, `contact-messages.js`, `prepared-message.js`; changed `05_Prototype/data/contacts.js`, `notifications.js`, `screens.js`, `ui_text.js`, `05_Prototype/js/today.js`, `run.js`, `05_Prototype/html/run.html`, `05_Prototype/css/style.css`, `05_Prototype/instructions/Prototype_Instructions.md`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-06_those-waiting-are-told.md`, `SPEC-01_foundation.md`, `SPEC-05_ways-out-when-the-trip-breaks.md`

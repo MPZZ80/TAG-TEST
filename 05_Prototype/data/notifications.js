@@ -1,6 +1,6 @@
 /*
  * Dataset: notifications
- * What it holds: the messages that reach the commuter when the product is closed (what a contact receives is in contacts.js),
+ * What it holds: the messages that reach the commuter when the product is closed,
  *   shown on a fake lock screen of a phone (lockscreen.html), reached from the configurator (instructions, section 9).
  * Used by: lockscreen.html, today.html, connection.html, stop.html, drive.html, sessions.html
  * Fields: screen{scenario or "any": [{channel, text, page, run}]}; page (and run): where opening the message leads, by default

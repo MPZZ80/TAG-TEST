@@ -1,7 +1,7 @@
 /*
  * Script: today (page PG-01, Today, the start page). Shows SPEC-04, the trip of the day; with nothing set up,
  * the start page of SPEC-01: the invitation to set up the first trip, or to find a way now.
- * Uses the components <today-trip>, <leg-problem>, <trip-card> and <first-trip-cta>.
+ * Uses the components <today-trip>, <leg-problem>, <trip-card>, <share-updates> and <first-trip-cta>.
  * Above the trip, only the day of the next trip on a day with no travel; the news of a run is on its leg.
  */
 (function () {
@@ -33,10 +33,10 @@
   trip.setAttribute("trip", followed.id);
   main.appendChild(trip);
 
-  // Those who wait for the commuter (SPEC-06): a link to the contacts, under the trip.
-  const tell = P.el("p");
-  tell.appendChild(P.link("contacts.html", TD.link_contacts));
-  main.appendChild(tell);
+  // Those who wait for the commuter (SPEC-06): the trip shared from the phone's share sheet, under the trip.
+  const share = document.createElement("share-updates");
+  share.setAttribute("trip", followed.id);
+  main.appendChild(share);
 
   // The other trips door to door, in a section of their own (SPEC-17).
   const others = DATA.profile.trips.filter(function (t) { return t.id !== followed.id; });

@@ -1,6 +1,6 @@
 ---
 source: Marco
-date: 2026-11-21 19:38
+date: 2026-11-22 17:02
 method: generated
 status: draft
 grade: n/a
@@ -117,8 +117,8 @@ Marco's choices of 2026-11-16, before the first draft was built. The draft was d
 - **Open questions:** where a specification leaves a value open (see `../../04_Specifications/01_Open_Questions/`), the dataset uses a provisional value and a comment names the question, for example `// provisional, OQ-02`.
 - **Scenarios and configurator:** a configurator in a bar of its own at the top of every screen (`<scenario-switch>`) chooses the scenario of `data/scenarios.js` (nothing set up, on time, late, cancelled), where the commuter is on the trip followed today (before the trip at home, leg 1 to 4, after the trip) and whether it is a travel day; on a day with no travel the start page shows the next trip. What a screen opens on is set by hand in `data/config.js` (a `.js` file, since a JSON file cannot be read from `file://`); the configurator's choices pass from screen to screen in the URL query (`?scenario=late&at=leg-2&day=travel`). Where it goes on a phone is to be designed. Marco's choice, 2026-11-21.
 - **Persona:** one commuter, the Verona–Milan commuter, with three trips in `data/profile.js` (Home to Milan apartment, followed today: car, high-speed train, underground M2 to Loreto, on foot; Office to home; Home to the client in Brescia). The situations of the other stories (parking, a shared bike, a drive, step-free access) are shown on his trips.
-- **Messages outside the product** (alerts, a message to a contact, the stop approaching) are shown as notifications on a fake lock screen of a phone (`html/lockscreen.html`), from `data/notifications.js`, reached from the configurator; not on the pages (Marco, 2026-11-21). Each opens the page it leads to; the message of a late or cancelled run is the starting point (`index.html`).
-- **The contact** who waits has no screen of their own: the prototype shows the messages they receive on the Contacts page, as they see them, not on the commuter's lock screen.
+- **Messages outside the product** (alerts, the stop approaching) are shown as notifications on a fake lock screen of a phone (`html/lockscreen.html`), from `data/notifications.js`, reached from the configurator; not on the pages (Marco, 2026-11-21). Each opens the page it leads to; the message of a late or cancelled run is the starting point (`index.html`).
+- **Whoever waits** has no screen of their own: "Share updates" opens the phone's share sheet, or, where the browser has none, a sheet drawn by the prototype that sends nothing; the commuter writes the message (Marco, 2026-11-22).
 - **Time:** one mock clock for every screen, `DATA.clock`.
 - **`index.html`** is the starting point of the prototype: a notification from the app arrives on the phone, with the messages of `data/notifications.js`; opening it lands on the Run page in its scenario (late or cancelled). Below it, the list of the screens built so far, for review. Choice of Marco, 2026-11-18.
 - **Changes** to the files of the prototype are recorded in `CHANGELOG.md` like any other file, one entry per request.

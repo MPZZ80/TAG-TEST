@@ -9,11 +9,11 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 | `clock.js` | the mock day shown on every screen, and the day shown when it is not a travel day; the hour comes from the scenario (scenarios.js). |
 | `config.js` | what the prototype opens on, chosen by hand: the scenario, where the commuter is, whether it is a travel day; the configurator at the top of every screen changes it for the page shown. A `.js` file because a JSON file cannot be read from `file://`. |
 | `connections.js` | the change on the usual trip and its state in each scenario (SPEC-08, SPEC-10):  the way between the two runs, the margin against the commuter's own rule, the next connection that holds,  and the answer to a request to wait. |
-| `contacts.js` | the people the commuter keeps informed (SPEC-06), the trip each shares, the messages they received today, and the message ready to send when the trip breaks. |
+| `share.js` | what "Share updates" hands to the share sheet (SPEC-06): the link to the trip, its title, and the apps of the prototype's own sheet. No message: the commuter writes it. |
 | `drive.js` | a drive to Milan on a car day (SPEC-16): the route the driver chose, a faster route found on the way,  and the toll the route needs. |
 | `fares.js` | the fares for the usual trip and the days actually travelled over a period (SPEC-12). |
 | `map_features.js` | the grey background of the map sketches: lakes, rivers, towns, motorway, railway and some streets, approximate shapes of real places (SPEC-02). |
-| `notifications.js` | the messages that reach the commuter, or a contact, when the product is closed,  simulated at the top of a screen by a visible control (instructions, section 9). |
+| `notifications.js` | the messages that reach the commuter when the product is closed, shown on the lock screen (`lockscreen.html`) reached from the configurator (instructions, section 9). |
 | `profile.js` | the commuter's set-up (SPEC-01) and trips (SPEC-17): doors, a free list of trips with the one followed today, days of travel, own rules, needs on the way, channels, consent to use position. Every screen reads it, so all screens agree. |
 | `runs.js` | the runs of the commuter's trips, planned, their real state in each scenario as facts with their source, time and status, and the other ways to make each leg, from public timetables, with how full each is expected to be; they are also the ways out (SPEC-01, SPEC-02, SPEC-05). |
 | `scenarios.js` | the scenarios the configurator switches between, and the mock clock of each. |

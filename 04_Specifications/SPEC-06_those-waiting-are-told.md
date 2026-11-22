@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:38
+date: 2026-11-22 17:01
 method: synthesis
 status: draft
 grade: n/a
@@ -36,67 +36,55 @@ One row per story this specification serves, copied as written.
 | **Families** | [FAM-03](../03_Ideation/02_Ideas/FAM-03_travellers-report.md) Travellers report, [FAM-04](../03_Ideation/02_Ideas/FAM-04_source-made-visible.md) The source made visible, [FAM-05](../03_Ideation/02_Ideas/FAM-05_honest-uncertainty.md) Honest uncertainty, [FAM-06](../03_Ideation/02_Ideas/FAM-06_times-allow-reality.md) Times that allow for reality, [FAM-08](../03_Ideation/02_Ideas/FAM-08_one-answer-data.md) One answer, not data, [FAM-10](../03_Ideation/02_Ideas/FAM-10_lies-ahead-known-beforehand.md) What lies ahead, known beforehand, [FAM-11](../03_Ideation/02_Ideas/FAM-11_place-shows.md) The place shows it, [FAM-12](../03_Ideation/02_Ideas/FAM-12_person-spot.md) A person on the spot, [FAM-13](../03_Ideation/02_Ideas/FAM-13_those-depending-them-told.md) Those depending on them are told, [FAM-15](../03_Ideation/02_Ideas/FAM-15_knows-traveller.md) It knows the traveller, [FAM-16](../03_Ideation/02_Ideas/FAM-16_settled-beforehand.md) Settled beforehand, [FAM-22](../03_Ideation/02_Ideas/FAM-22_money-covers-failure.md) Money covers the failure, [FAM-23](../03_Ideation/02_Ideas/FAM-23_connection-held.md) The connection held, [FAM-24](../03_Ideation/02_Ideas/FAM-24_more-different-service.md) More or different service, [FAM-25](../03_Ideation/02_Ideas/FAM-25_rules-rights.md) Rules and rights, [FAM-26](../03_Ideation/02_Ideas/FAM-26_travellers-carry-together.md) Travellers carry it together, [FAM-27](../03_Ideation/02_Ideas/FAM-27_change-trip-habit.md) Change the trip or the habit |
 | **Stages covered** | planning, first mile, main leg, transfer, last mile, disruption |
 | **Marks** | FAM-03 2 · 2 · 3; FAM-04 2 · 1 · 3; FAM-05 2 · 1 · 3; FAM-06 2 · 1 · 3; FAM-08 3 · 1 · 3; FAM-10 3 · 1 · 3; FAM-11 2 · 1 · 3; FAM-12 2 · 1 · 3; FAM-13 3 · 1 · 3; FAM-15 2 · 3 · 2; FAM-16 2 · 3 · 2; FAM-22 1 · 1 · 1; FAM-23 3 · 1 · 3; FAM-24 2 · 1 · 1; FAM-25 2 · 1 · 1; FAM-26 1 · 2 · 3; FAM-27 1 · 1 · 0 (valuable · feasible · relevant, by family, from [04_Ideas_prioritization.md](../03_Ideation/02_Ideas/04_Ideas_prioritization.md)) |
-| **Foundation** | The user (contact); Channels (message to a contact); Rules that hold everywhere (consent of contacts, never shared) |
+| **Foundation** | The user (whoever waits); Rules that hold everywhere (never shared beyond the trip) |
 
 Concepts and families are references only: the behaviour below comes from the stories.
 
 ## Description
 
-Lets the commuter share a trip with a person who waits for them, so that person knows when the commuter really arrives, with any delay confirmed, without the commuter having to manage it.
+Lets the commuter share a trip with whoever waits for them, from the phone's own share sheet (WhatsApp, Messages, Mail and the like), so that person knows when the commuter really arrives. The commuter chooses the app and the person and writes the message; the product only gives the link to the trip as it goes. No contacts are entered in the product (Marco, 2026-11-22).
 
 ## Operating logic
 
-- **Starts when:** The commuter shares a trip with a contact, or a shared trip's expected arrival changes, or the trip breaks.
-- **Needs to know:** The contacts and what each may receive (set here); the trip of the day (SPEC-04); the real state of its runs (SPEC-02); the channels (SPEC-01).
+- **Starts when:** The commuter taps "Share updates" on Today or on a leg.
+- **Needs to know:** The trip of the day (SPEC-04); the real state of its runs (SPEC-02); the way chosen when the trip broke (SPEC-05).
 - **Rules:**
-  1. Let the commuter add contacts and say, for each, which trips they share: one trip, or the usual trip on travel days.
-  2. Ask the contact to accept messages; send nothing until they do.
-  3. Send the contact the run and its expected arrival when the trip starts.
-  4. Send the new arrival when it moves, marked confirmed or estimated, with its source.
-  5. When the trip breaks, prepare a message with the new arrival or the way chosen, for the commuter to send in one step.
-  6. Stop sharing when the trip is completed.
-- **States:** Contact: `invited` → `accepted` or `refused`. Sharing: `on` from start to completion of the trip.
-- **The user receives:** The contact: messages on the channel they accepted, saying on whose behalf they are sent. The commuter: what was sent, and to whom.
-- **Depends on:** Trip of the day ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); A way chosen to continue ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)); State of a connection ([SPEC-07](SPEC-07_the-connection-ahead.md))
+  1. "Share updates", with the share icon, opens the share sheet of the phone with the title of the trip and a link to it; nothing else.
+  2. The message is the commuter's own: the product writes none and keeps no list of people.
+  3. Whoever opens the link sees the run and the expected arrival at the door, marked confirmed or estimated, with its source; after a way is chosen, that way and its arrival.
+  4. The link shows the trip only until it is completed; "Share updates" is not offered after the trip, on a day with no travel or with no trip set up.
+- **States:** Sharing: the link shows the trip from when it is shared until the trip is completed.
+- **The user receives:** The commuter: the share sheet of the phone. Whoever waits: the message the commuter wrote, with the link.
+- **Depends on:** Trip of the day ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); A way chosen to continue ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)); State of a connection ([SPEC-07](SPEC-07_the-connection-ahead.md))
 - **Provides:** none
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Contacts** (PG-14): the whole page, the message ready to send first when the trip breaks; **Today (start page)** (PG-01): a "Tell who waits for you" link under the trip, leading to the contacts; **Run** (PG-02) of the leg that broke, where the ways out are ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)): the message ready to send, under the alternatives.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Today (start page)** (PG-01): "Share updates" under the trip; **Run** (PG-02): "Share updates" on every leg, including the leg that broke, under the ways out ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)). No page of its own: PG-14 Contacts was dropped on 2026-11-22.
 - **Components:**
-  - `<contact-list>`: the people the commuter keeps informed, the trip each one shares, whether they accepted (a contact not accepted says that nothing reaches them) and on which channel, and the form to add one; reads `contacts.contacts[]`, `profile.trips`; reacts to adding, inviting or removing a contact (shown, not kept).
-  - `<contact-messages>`: the messages the contacts received today, each with its time, source and status, as the contact sees them; nothing before the trip starts, and "sharing has stopped" after it; reads `contacts.messages.<scenario>[]` and where the configurator puts the commuter; reacts to the scenario and the place changing.
-  - `<prepared-message>`: a message ready for the commuter to send in one step when the trip breaks, saying the way chosen once there is one (otherwise a link to choose it on the leg that broke); reads `contacts.prepared.<scenario>`, the way chosen (`?choice=`); reacts to "Send" (says it was sent; nothing is sent in the prototype).
-  - The message a contact receives is not on the commuter's lock screen (`<message-preview>`): it is shown on the Contacts page, as the contact sees it; the contact has no screen of their own.
+  - `<share-updates>`: a button with the share icon that hands the title of the trip and its link to the share sheet of the phone (`navigator.share`); where the browser has none, the prototype draws a sheet of its own with the apps and "Copy link", and nothing is sent; reads `share`, the trip (attribute `trip`), `clock.iso`; reacts to a tap.
 - **Datasets:**
-  - `contacts` (defined here): `contacts[{id, name, trip, shares, state, channel}]` (`trip`: the trip of `profile.trips` shared), `messages.<scenario>[{to, after, time, text, status, source}]` (`after`: sent once the commuter is on that leg), `prepared.<scenario>{to, text, with_choice}`.
-  - `runs` (defined in the foundation): expected arrival of the run the contact waits for, and the alternatives a way chosen comes from.
-  - `config` (defined in the foundation): `at`, where the commuter is, which decides what has been sent.
-- **Simulated events:**
-  - A contact accepting: shown by the state in the data (`invited`, `accepted`); no control on the page, since Marco asked on 2026-11-21 for no simulating controls on the pages of the product.
-  - The messages the contact receives as the trip goes on: the configurator moves the commuter along the legs, and the messages sent by then are shown on the Contacts page.
+  - `share` (defined here): `url` (with `{trip}` and `{date}`), `title` (with `{from}` and `{to}`), `apps[]` (the apps of the prototype's own sheet).
+  - `config` (defined in the foundation): `at` and `day`, which decide whether "Share updates" is offered.
+- **Simulated events:** the share sheet, where the browser has none: choosing an app says that it opened, and nothing is sent. The page the link opens for whoever waits is not built: they have no screen in the prototype.
 
 ## When things go wrong
 
-- **The contact has not accepted:** nothing reaches them and the commuter is told.
-- **No data about the run:** the contact is told there is no news, not the planned time.
-- **The commuter does not send the prepared message:** nothing is sent.
-- **No trip of the day:** sharing cannot start; the commuter is invited to set up the first trip.
-- **A day with no travel:** nothing is shared that day, and the page says so.
+- **No data about the run:** whoever opens the link is told there is no news, not the planned time.
+- **The commuter shares nothing:** nothing is sent.
+- **No trip of the day:** nothing to share; the commuter is invited to set up the first trip.
+- **A day with no travel, or the trip completed:** "Share updates" is not offered.
 
 ## Out of scope
 
-Whether the connection holds (SPEC-07); the ways out (SPEC-05).
+Whether the connection holds (SPEC-07); the ways out (SPEC-05); the page whoever waits sees when they open the link.
 
 ## Acceptance criteria
 
-- **Given** the father is a contact for the return trip **when** the train leaves **then** he receives the train and its expected arrival, with its source.
-- **Given** the expected arrival moves **when** the trip is under way **then** the contact receives the new arrival, marked confirmed or estimated.
-- **Given** the connection is lost **when** the commuter opens the product **then** a message with the new arrival is ready to send in one step.
-- **Given** the 9707 cancelled and the 9715 chosen instead **when** the commuter opens the contacts or the leg that broke **then** the message ready to send says the 9715 and the arrival at the Milan apartment around 09:51.
-- **Given** the commuter still at home **when** they open the contacts **then** nothing has been sent yet.
-- **Given** a contact who has not accepted **when** the commuter shares a trip **then** nothing reaches the contact and the commuter is told.
-- **Given** the trip is completed **when** the contact looks **then** they no longer see it.
+- **Given** the trip of the day under way **when** the commuter taps "Share updates" on Today or on a leg **then** the share sheet opens with the title of the trip and its link, and no message written for them.
+- **Given** the share sheet open **when** the commuter chooses an app **then** they choose the person and write the message there.
+- **Given** the 9707 cancelled **when** the commuter opens the leg that broke **then** "Share updates" is under the ways out, and no message is prepared.
+- **Given** the trip is completed, or a day with no travel **when** the commuter opens Today **then** "Share updates" is not offered.
 
 ## Open questions
 

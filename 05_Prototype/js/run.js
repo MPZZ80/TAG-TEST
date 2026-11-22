@@ -3,7 +3,7 @@
  * of its stops, and the alternatives when it is late or cancelled; or, for a leg made on one's own or chosen from
  * an alternative, its means and times. The whole trip, leg by leg, is on Today (SPEC-04).
  * Uses the components <run-card>, <fact-line>, <usual-delay>, <source-gap>, <run-stops>, <leg-alternatives>,
- * <leg-problem>, <first-trip-cta>.
+ * <leg-problem>, <share-updates>, <first-trip-cta>.
  */
 (function () {
   const P = Proto, R = P.T.run;
@@ -86,10 +86,14 @@
       section.appendChild(alt);
       if (s.state === "cancelled" && l.run === DATA.ways.ways_out.run) { // the ways out end here (SPEC-05 rule 3)
         section.appendChild(P.el("p", "notice", P.fill(R.last_way, { time: DATA.ways.ways_out.last_way, door: P.doorName(trip.to) })));
-        section.appendChild(document.createElement("prepared-message")); // tell who waits, next to the ways out (SPEC-06)
       }
     }
   }
+
+  // Those who wait (SPEC-06): the trip shared from the phone's share sheet, on every leg.
+  const share = document.createElement("share-updates");
+  share.setAttribute("trip", trip.id);
+  main.appendChild(share);
 
   // An alternative tapped is drawn in colour on the map; "Choose" asks, then the trip of today follows it.
   const confirm = document.createElement("confirm-choice");

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 18:19
+date: 2026-11-22 17:02
 method: synthesis
 status: draft
 grade: n/a
@@ -106,9 +106,7 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<announced-list>` | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) |
 | `<today-trip>` | [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) | [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) |
 | `<ways-out>` | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) |
-| `<contact-list>` | [SPEC-06](SPEC-06_those-waiting-are-told.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
-| `<contact-messages>` | [SPEC-06](SPEC-06_those-waiting-are-told.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
-| `<prepared-message>` | [SPEC-06](SPEC-06_those-waiting-are-told.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
+| `<share-updates>` | [SPEC-06](SPEC-06_those-waiting-are-told.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) |
 | `<connection-state>` | [SPEC-07](SPEC-07_the-connection-ahead.md) | [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | `<wait-request>` | [SPEC-07](SPEC-07_the-connection-ahead.md) | [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | `<way-search>` | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-08](SPEC-08_every-way-door-to-door.md) |
@@ -140,7 +138,7 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `clock` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-09](SPEC-09_times-that-can-be-kept.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-12](SPEC-12_compensation-from-the-trip.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
 | `ui_text` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-09](SPEC-09_times-that-can-be-kept.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-12](SPEC-12_compensation-from-the-trip.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
 | `alerts` | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) |
-| `contacts` | [SPEC-06](SPEC-06_those-waiting-are-told.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
+| `share` | [SPEC-06](SPEC-06_those-waiting-are-told.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
 | `timing` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
 | `fares` | [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md) | [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md) |
 | `claims` | [SPEC-12](SPEC-12_compensation-from-the-trip.md) | [SPEC-12](SPEC-12_compensation-from-the-trip.md) |
@@ -168,7 +166,7 @@ One row per page of the information architecture proposed in [SPEC-01](SPEC-01_f
 | PG-11 **Drive** | The route the driver chose, a faster one proposed, and the tolls the route needs | Today on a car leg; the car way on Ways; the spoken question | [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) |
 | PG-12 **Sessions** | A parking session or a shared ride still running, and where a shared vehicle can be returned | Today; the reminder message | [SPEC-16](SPEC-16_sessions-still-running.md) |
 | PG-13 **Alerts** | What the commuter is told about the usual trip and when; the alerts sent; works and strikes announced | The navigation; an alert message | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md) |
-| PG-14 **Contacts** | The people kept informed about a trip, what each shares, and the messages they receive | Today ("Tell someone"); Set-up; Ways out | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
+| PG-14 **Contacts** | Not a page since 2026-11-22: "Share updates" on Today and on every leg | — | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
 | PG-15 **Set-up** | The initial set-up, step by step, and later where each element is changed or deleted: doors, usual trip, days, own rules, needs, channels, position | Today at the first opening; the navigation; every "Set it up" link | [SPEC-01](SPEC-01_foundation.md), [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | PG-16 **Trips** | The commuter's trips door to door, as a free list, and the one followed today | The navigation; the invitation to set up the first trip | [SPEC-17](SPEC-17_trips.md) |
 | PG-17 **Alternative** | One way to replace a leg that is late or cancelled: details, a sketch of its route, the trip as it would become, the choice to take it | An alternative on Run | [SPEC-02](SPEC-02_real-state-of-the-run.md) |

@@ -38,7 +38,7 @@
 /* Custom elements are inline by default; the components hold blocks, so they are blocks too. Add each new component here. */
 scenario-switch, fact-line, run-card, usual-delay, message-preview, missing-setup, source-gap,
 first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem, route-map, confirm-choice, run-stops, leg-map,
-alert-settings, alert-log, announced-list, contact-list, contact-messages, prepared-message { display: block; }
+alert-settings, alert-log, announced-list, share-updates { display: block; margin: var(--space-3) 0; }
 
 body {
   margin: 0;
@@ -121,6 +121,8 @@ summary { cursor: pointer; color: var(--colour-accent); }
   text-decoration: none;
 }
 .cta { text-align: left; }
+.share { display: inline-flex; align-items: center; gap: var(--space-1); border: 0; cursor: pointer; }
+.share-apps { display: flex; flex-wrap: wrap; gap: var(--space-1); }
 
 .notification {
   display: block;

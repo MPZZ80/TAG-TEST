@@ -14,6 +14,5 @@ DATA.screens = [
   { file: "run.html",   title: "State of the run, and the ways out", page: "PG-02", specs: "SPEC-02, SPEC-05", stage: "Before departure, main leg, transfer, disruption" },
   { file: "alternative.html", title: "Alternative for a leg", page: "PG-17", specs: "SPEC-02", stage: "Disruption" },
   { file: "trips.html", title: "Trips",                     page: "PG-16", specs: "SPEC-17", stage: "Planning" },
-  { file: "contacts.html", title: "Those waiting are told",  page: "PG-14", specs: "SPEC-06", stage: "Main leg, disruption" },
   { file: "alerts.html", title: "Alerts on the usual trip",  page: "PG-13", specs: "SPEC-03", stage: "Before departure, disruption" }
 ];
