@@ -11,5 +11,6 @@ One HTML file per screen; `index.html` is the entry point. Each file loads the s
 | `lockscreen.html` | A fake lock screen of a phone with the messages of the scenario, each opening its page; reached from the configurator; not a page of the product | — | SPEC-01 (messages outside the product) |
 | `trips.html` | The commuter's trips and the one followed today | PG-16 Trips | SPEC-17 |
 | `alerts.html` | Alerts on the usual trip: the settings (kinds of event, moments of a travel day), the alerts sent today, works and strikes announced, and a simulated alert; with nothing set up, what is missing | PG-13 Alerts | SPEC-03 |
+| `connection.html` | The connection ahead: whether the change at Milano Centrale still holds with the delay of now, what is left over against the commuter's own rule, the next connection that holds and the new arrival at the door; with the run cancelled, the way to the ways out | PG-03 Connection | SPEC-07 |
 
 - Screens are built one specification at a time, from `../../04_Specifications/`. Links to screens not built yet show as plain text.

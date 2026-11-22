@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 17:02
+date: 2026-11-22 17:31
 method: synthesis
 status: draft
 grade: n/a
@@ -108,7 +108,6 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<ways-out>` | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) |
 | `<share-updates>` | [SPEC-06](SPEC-06_those-waiting-are-told.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) |
 | `<connection-state>` | [SPEC-07](SPEC-07_the-connection-ahead.md) | [SPEC-07](SPEC-07_the-connection-ahead.md) |
-| `<wait-request>` | [SPEC-07](SPEC-07_the-connection-ahead.md) | [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | `<way-search>` | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | `<save-usual>` | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | `<leg-timing>` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
@@ -155,7 +154,7 @@ One row per page of the information architecture proposed in [SPEC-01](SPEC-01_f
 | --- | --- | --- | --- |
 | PG-01 **Today (start page)** | What the product opens on: the trip of the day, with nothing in front of it; at the first opening, the way into the set-up or a one-off search | Opening the product; the navigation | [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
 | PG-02 **Run** | One leg of a trip: the real state of its run with its stops, or its means and time; the alternatives when it fails | The name of a leg on Today, a trip on Trips, a way; a message about a run (the starting point of the prototype) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
-| PG-03 **Connection** | Whether the change ahead still holds, and the next one that does; asking that the connection be told | The change on Today; a message about the connection | [SPEC-07](SPEC-07_the-connection-ahead.md) |
+| PG-03 **Connection** | Whether the change ahead still holds, and the next one that does (asking the connection to wait set aside on 2026-11-22) | The change on Today; a message about the connection | [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | PG-04 **Ways out** | The ways that still reach the door when the trip breaks | The broken trip on Today; a message that the trip is broken | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md) |
 | PG-05 **Ways** | Every way door to door for a day and time, side by side | The navigation; "Find a way now" on Today at the first opening | [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) |
 | PG-06 **Way detail** | One way, leg by leg, at the length each really takes, with its stations and its ticket | A way on Ways; the usual trip on Today | [SPEC-09](SPEC-09_times-that-can-be-kept.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-08](SPEC-08_every-way-door-to-door.md) |
@@ -243,7 +242,7 @@ All the open questions of the specifications, 33 in all, one file each in [01_Op
 | [OQ-15](01_Open_Questions/OQ-15_when-the-contact-is-told-again.md) | When the contact is told again | SPEC-06 | [not traced] | ⚠ not supported |
 | [OQ-16](01_Open_Questions/OQ-16_telling-the-contact-when-to-set-off.md) | Telling the contact when to set off | SPEC-06 | [not traced] | ⚠ not supported |
 | [OQ-17](01_Open_Questions/OQ-17_how-early-before-a-change.md) | How early before a change the commuter is told | SPEC-07 | [not traced] | ⚠ not supported |
-| [OQ-18](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md) | Asking a connection to wait before operators can answer | SPEC-07 | [not traced] | ⚠ not supported |
+| [OQ-18](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md) | Asking a connection to wait before operators can answer: decided on 2026-11-22, set aside | SPEC-07 | decided | ⚠ not supported |
 | [OQ-19](01_Open_Questions/OQ-19_a-lift-as-a-way.md) | A lift from a contact as a way | SPEC-08, SPEC-05 | [not traced] | supported |
 | [OQ-20](01_Open_Questions/OQ-20_which-car-costs-are-counted.md) | Which car costs are counted | SPEC-08 | [not traced] | partly |
 | [OQ-21](01_Open_Questions/OQ-21_source-of-walking-times.md) | Where the real walking times come from | SPEC-09 | [technology choice open] | ⚠ not supported |

@@ -1,13 +1,13 @@
 /*
  * Dataset: connections
- * What it holds: the change on the usual trip and its state in each scenario (SPEC-08, SPEC-10):
+ * What it holds: the change on the usual trip and its state in each scenario (SPEC-07):
  *   the way between the two runs, the margin against the commuter's own rule, the next connection that holds,
- *   and the answer to a request to wait.
+ *   and when the commuter is told. Asking the connection to wait was set aside on 2026-11-22 (SPEC-07).
  * Used by: today.html, connection.html, timing.html
  * Fields: station, from_run, to_run, walk_minutes, board_where,
- *   by_scenario{key: {state, margin, next_dep, door_arrival, warn_at, request_answer}}
+ *   by_scenario{key: {state, margin, next_dep, door_arrival, warn_at}}
  * Source: mock
- * Updated: 2026-11-18
+ * Updated: 2026-11-22
  */
 window.DATA = window.DATA || {};
 DATA.connections = {
@@ -21,13 +21,7 @@ DATA.connections = {
     none:      { state: "holds",  margin: 4,  next_dep: "09:12", door_arrival: "09:20" },
     on_time:   { state: "holds",  margin: 4,  next_dep: "09:12", door_arrival: "09:23" }, // +3 min way round the works on foot (leg_events.js),
     // told 15 minutes before the change: provisional, OQ-17
-    late:      { state: "lost",   margin: -14, next_dep: "09:28", door_arrival: "09:39", warn_at: "09:01",
-                 request_answer: "will not wait" },
+    late:      { state: "lost",   margin: -14, next_dep: "09:28", door_arrival: "09:39", warn_at: "09:01" },
     cancelled: { state: "lost",   margin: null, next_dep: "—", door_arrival: "—" }
-  },
-  request_answer_text: {
-    "will wait": "The connecting service will wait.",
-    "will not wait": "The connecting service will not wait: the next underground leaves 4 minutes later.",
-    "no answer": "No answer yet."
   }
 };

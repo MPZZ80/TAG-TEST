@@ -21,6 +21,7 @@ The web components of the prototype, one file per component, named after its tag
 | `trip-card.js` | `<trip-card>`: one trip door to door, leading to its runs | SPEC-01 | SPEC-02, SPEC-17 |
 | `alert-settings.js` | `<alert-settings>`: the kinds of event and the moments of a travel day, each with a switch | SPEC-03 | SPEC-03 |
 | `alert-log.js` | `<alert-log>`: the alerts sent today, with time, text and source; nothing outside the days of travel | SPEC-03 | SPEC-03 |
+| `connection-state.js` | `<connection-state>`: the change ahead, its state, the margin against the commuter's own rule, the next connection that holds | SPEC-07 | SPEC-07 |
 | `announced-list.js` | `<announced-list>`: works and strikes announced for coming travel days, and when the commuter is told | SPEC-03 | SPEC-03 |
 | `share-updates.js` | `<share-updates>`: "Share updates" with the share icon: the trip's link handed to the phone's share sheet, or a sheet of the prototype's own that sends nothing | SPEC-06 | SPEC-06, on Today (SPEC-04) and every leg of Run (SPEC-02, SPEC-05) |
 | `first-trip-cta.js` | `<first-trip-cta>`: the invitation to set up the first trip | SPEC-01 | SPEC-01, SPEC-02, SPEC-17 |

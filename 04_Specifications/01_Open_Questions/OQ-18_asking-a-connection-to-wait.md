@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-22 17:31
 method: synthesis
 status: draft
 grade: n/a
@@ -19,9 +19,9 @@ One open question of the specifications, listed in [00_Open_questions_index.md](
 | **Raised in** | [SPEC-07](../SPEC-07_the-connection-ahead.md) |
 | **Marker** | [not traced] |
 | **Research support** | ⚠ Not supported by the research: it shows the situation at most, not the answer |
-| **State** | open |
-| **Decision** | none yet |
-| **Decided on** | none yet |
+| **State** | decided |
+| **Decision** | Set aside on 2026-11-22 (Marco): a train waiting for its passengers is not realistic; it could make sense if the product were the railway's, so it is not built for now; only the information on the next connection is kept (SPEC-07) |
+| **Decided on** | 2026-11-22 |
 
 ## Why it is open
 

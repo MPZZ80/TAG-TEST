@@ -25,7 +25,7 @@ DATA.notifications = {
   },
   connection: {
     late: [{ channel: "Notification on the phone", text: "Connection at Milano Centrale lost: next M2 at 09:28, at the Milan apartment at 09:39." }],
-    any:  [{ channel: "Notification on the phone", text: "Connection at Milano Centrale holds: 2 minutes to spare." }]
+    on_time: [{ channel: "Notification on the phone", text: "Connection at Milano Centrale holds: 4 minutes to spare." }]
   },
   stop: {
     any: [{ channel: "Vibration and sound", text: "Verona Porta Nuova in 5 minutes. Get ready to get off." }]

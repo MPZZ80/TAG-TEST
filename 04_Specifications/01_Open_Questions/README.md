@@ -22,7 +22,7 @@ The questions the specifications leave open, one file each, with the chain that 
 | `OQ-15_when-the-contact-is-told-again.md` | When the contact is told again (SPEC-06; research: ⚠ not supported) |
 | `OQ-16_telling-the-contact-when-to-set-off.md` | Telling the contact when to set off (SPEC-06; research: ⚠ not supported) |
 | `OQ-17_how-early-before-a-change.md` | How early before a change the commuter is told (SPEC-07; research: ⚠ not supported) |
-| `OQ-18_asking-a-connection-to-wait.md` | Asking a connection to wait before operators can answer (SPEC-07; research: ⚠ not supported) |
+| `OQ-18_asking-a-connection-to-wait.md` | Asking a connection to wait before operators can answer (SPEC-07; research: ⚠ not supported; decided 2026-11-22: set aside) |
 | `OQ-19_a-lift-as-a-way.md` | A lift from a contact as a way (SPEC-08, SPEC-05; research: supported) |
 | `OQ-20_which-car-costs-are-counted.md` | Which car costs are counted (SPEC-08; research: partly) |
 | `OQ-21_source-of-walking-times.md` | Where the real walking times come from (SPEC-09; research: ⚠ not supported) |

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:34
+date: 2026-11-22 17:31
 method: synthesis
 status: draft
 grade: n/a
@@ -20,7 +20,7 @@ One row per story this specification serves, copied as written.
 | Story ID or feature | Persona | Story | What this specification covers of it |
 | --- | --- | --- | --- |
 | [F-06](../02_Analysis/03_User_Stories/US-F-06_whether-connection-still-holds.md) | the Como commuter | As the Como commuter, on the 8:23 towards Lugano as the delay grows towards 12 minutes, I want to be told before reaching the change whether the connection still holds and, if not, the next one that does, so that he can warn the people he is meeting before he arrives. | Whether the connection holds and the next one that does; warning the people met is in SPEC-06 |
-| [F-22](../02_Analysis/03_User_Stories/US-F-22_asking-connection-wait.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. | All of it |
+| [F-22](../02_Analysis/03_User_Stories/US-F-22_asking-connection-wait.md) | a German rail regular (desk persona) | As a German rail regular (desk persona), on a late train before the last connection of the day, I want to ask from the train that the connecting service be told, and see the answer, so that the connection waits for him. | Whether the last connection still holds; asking it to wait is set aside (see Operating logic) |
 
 **Why these stories belong together:** Both stories are the change ahead of a late run: whether it holds, and asking it to wait.
 
@@ -41,64 +41,61 @@ Concepts and families are references only: the behaviour below comes from the st
 
 ## Description
 
-Tells the commuter, before they reach a change, whether the connection still holds with the current delay and, if not, the next one that does; and lets them ask, from the late run, that the connecting service be told, and see the answer.
+Tells the commuter, before they reach a change, whether the connection still holds with the current delay and, if not, the next one that does, with the new arrival at the door.
 
 ## Operating logic
 
-- **Starts when:** The expected arrival of the run before a change moves (SPEC-02), or the commuter asks for the connection to wait.
-- **Needs to know:** The trip of the day and its connections (SPEC-04); the real state of the incoming and connecting runs (SPEC-02); the commuter's minimum change time (SPEC-01); the answer of the connecting service (operator).
+- **Starts when:** The expected arrival of the run before a change moves (SPEC-02).
+- **Needs to know:** The trip of the day and its connections (SPEC-04); the real state of the incoming and connecting runs (SPEC-02); the commuter's minimum change time (SPEC-01).
 - **Rules:**
   1. Before the change, compare the expected arrival with the departure of the connection, the way between them and the commuter's minimum change time.
   2. Tell the commuter when the connection becomes at risk or lost, with the source of the delay.
   3. When it is lost, give the next connection that holds and the new arrival at the door.
-  4. Let the commuter ask that the connecting service be told; show the request until an answer comes.
-  5. Show the connection as held only on an answer that says so.
-- **States:** Connection: holds → at risk → lost. Request: `sent` → `will wait`, `will not wait` or `no answer`.
-- **The user receives:** A message on the chosen channel when the connection changes state; inside the product, the request and its answer.
+  4. When the run before the change is cancelled, there is no change to watch: the commuter is sent to the ways out of that leg (SPEC-05).
+  5. Once the commuter is past the change, it is shown as behind them.
+  - **Asking the connection to wait** (rules 4 and 5 of the first version, story F-22): Set aside on 2026-11-22 (Marco): a train waiting for its passengers is not realistic; it could make sense if the product were the railway's, so it is not built for now. Only the information on the next connection is kept ([OQ-18](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md)).
+- **States:** Connection: holds → at risk → lost; `planned` on a day with no travel.
+- **The user receives:** A message on the chosen channel, on the lock screen in the prototype, when the connection changes state; inside the product, the Connection page.
 - **Depends on:** Trip of the day ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); Own rules ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up)
 - **Provides:** State of a connection, to [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md)
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Connection** (PG-03): the whole page; **Today (start page)** (PG-01): the change, as a line of the trip.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Connection** (PG-03): the whole page, reached from the change on Today and from the message on the lock screen; **Today (start page)** (PG-01): the change, as a line of the trip, after the leg that reaches it.
 - **Components:**
-  - `<connection-state>`: the change ahead: the station, the two runs, the way between them, where to board, the margin against the commuter's own rule, and the next connection that holds; reads `connections`, `profile.own_rules`; reacts to the scenario changing.
-  - `<wait-request>`: asking, from the late run, that the connecting service be told, and its answer; reads `connections.by_scenario.<key>.request_answer`, `connections.request_answer_text`; reacts to "Ask".
-  - `<run-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
+  - `<connection-state>`: the change ahead: the station, its state, the incoming run with its expected arrival and source, the connecting run, the way between them, where to board, the commuter's minimum change time, what is left over, the next connection that holds with the new arrival at the door, and when the commuter is told; reads `connections`, `runs`, `profile.own_rules`, where the configurator puts the commuter; reacts to the scenario and the place changing.
   - `<message-preview>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
 - **Datasets:**
-  - `connections` (defined in the foundation): `station`, `from_run`, `to_run`, `walk_minutes`, `board_where`, `by_scenario.<key>{state, margin, next_dep, door_arrival, warn_at, request_answer}`, `request_answer_text`.
+  - `connections` (defined in the foundation): `station`, `from_run`, `to_run`, `walk_minutes`, `board_where`, `by_scenario.<key>{state, margin, next_dep, door_arrival, warn_at}`.
   - `runs` (defined in the foundation): the incoming and outgoing runs.
   - `profile` (defined in the foundation): `own_rules.min_change`, `own_rules.per_station`.
   - `notifications` (defined in the foundation): `connection.<scenario or any>[]`.
 - **Simulated events:**
-  - The warning before the change: a timer set to `warn_at` on the mock clock, or the lock screen, shows `notifications.connection`.
-  - The answer of the connecting service: after "Ask", a short timer shows the answer of the scenario from `request_answer`.
+  - The warning before the change: shown on the lock screen (`notifications.connection`); the page says it will come, or came, at `warn_at` (provisional, OQ-17), by the hour of the place the configurator puts the commuter.
 
 ## When things go wrong
 
 - **No minimum change time set:** the default of the station or schedule is used, and the commuter is told it can be set in SPEC-01.
-- **No answer from the connecting service:** the connection is not shown as held.
 - **Sources disagree on whether the connection left:** both are shown.
 - **No trip of the day:** nothing to watch; the commuter can open a run directly in SPEC-02.
 
 ## Out of scope
 
-Telling the people met (SPEC-06); the ways out if the connection is lost and no next one fits (SPEC-05).
+Telling the people met (SPEC-06); the ways out if the connection is lost and no next one fits (SPEC-05); asking the connection to wait (set aside on 2026-11-22).
 
 ## Acceptance criteria
 
 - **Given** a margin of 10 minutes and a minimum change time of 4 **when** the delay reaches 7 minutes **then** the commuter is told the connection is at risk, with the source.
 - **Given** the connection is lost **when** the commuter is told **then** they also see the next connection that holds and the new arrival.
-- **Given** the commuter asks the connection to wait **when** no answer has come **then** the request is shown as sent and the connection is not shown as held.
-- **Given** the connecting service answers it will wait **when** the commuter looks **then** the connection shows as held, with that answer.
+- **Given** the 9707 18 minutes late **when** the commuter opens the connection **then** it is lost, with 14 minutes missing against the 10 of their own rule, and the next M2 at 09:28 brings them to the Milan apartment around 09:39.
+- **Given** the 9707 cancelled **when** the commuter opens the connection **then** there is no change to watch and a link leads to the ways out of that leg.
 
 ## Open questions
 
 Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open_questions_index.md), with its chain to the research.
 
 - **[OQ-17](01_Open_Questions/OQ-17_how-early-before-a-change.md)** How long before the change does the commuter learn whether the connection still holds? [not traced] Research: ⚠ not supported.
-- **[OQ-18](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md)** Is the request to hold a connection built before any operator can receive or answer it? [not traced] Research: ⚠ not supported.
+- **[OQ-18](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md)** Is the request to hold a connection built before any operator can receive or answer it? Decided on 2026-11-22: set aside, not built for now.
 
 ## Connections
 

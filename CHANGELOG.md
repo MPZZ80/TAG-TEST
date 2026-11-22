@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-22 17:32
+
+- **Files:** created `05_Prototype/html/connection.html`, `05_Prototype/js/connection.js`, `05_Prototype/components/connection-state.js`; changed `05_Prototype/data/connections.js`, `notifications.js`, `screens.js`, `ui_text.js`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-07_the-connection-ahead.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`, `04_Specifications/01_Open_Questions/OQ-18_asking-a-connection-to-wait.md`, `00_Open_questions_index.md`, `README.md`
+- **Change:** SPEC-07 built on page PG-03, Connection, following SPEC-01: the change at Milano Centrale with its state, the incoming run with expected arrival and source, the M2, the way between them, the commuter's minimum change time, what is left over, the next connection that holds with the new arrival at the door, and when the commuter is told on the lock screen; "behind you" once past the change; with the 9707 cancelled, a link to the ways out. Asking the connection to wait (`<wait-request>`, rules 4 and 5, part of F-22) set aside and recorded in SPEC-07 and OQ-18 (decided). The lock-screen message "holds" now only in the on-time scenario, with the 4 minutes of the data.
+- **Why:** Marco: carry out SPEC-07 (following the foundation, AGENTS.md log 50). On the request to wait: "Il fatto che un treno aspetti i passeggeri non è realistico, se l'app fosse delle ferrovie potrebbe avere anche senso, ma al momento non lo includerei, segna che lo abbiamo messo in disparte, teniamo solo le info sulla prossima connessione".
+- **Do not:** add the request to wait, or an answer from the connecting service, unless Marco brings it back.
+
 ## 2026-11-22 17:06
 
 - **Files:** `05_Prototype/components/today-trip.js`, `05_Prototype/js/today.js`, `04_Specifications/SPEC-06_those-waiting-are-told.md`, `SPEC-01_foundation.md`

@@ -11,4 +11,5 @@ One script per screen, with the same name as its HTML file, plus `common.js` for
 | `alternative.js` | Fills the page of an alternative and passes the choice to Run and Today (`?choice=`) |
 | `trips.js` | Fills the Trips page (SPEC-17) |
 | `alerts.js` | Fills the Alerts page (SPEC-03) |
+| `connection.js` | Fills the Connection page (SPEC-07) |
 | `lockscreen.js` | Fills the lock screen with the messages of the scenario |

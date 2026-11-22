@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 18:19
+date: 2026-11-22 17:31
 method: synthesis
 status: draft
 grade: n/a
@@ -42,7 +42,7 @@ The questions the specifications leave open, one file each, so that they can be 
 | [OQ-15](OQ-15_when-the-contact-is-told-again.md) | By how much must the expected arrival move before the person waiting is told again? | SPEC-06 | [not traced] | ⚠ not supported | open |
 | [OQ-16](OQ-16_telling-the-contact-when-to-set-off.md) | Is the person who comes to the station also told when to leave, not only when the commuter arrives? | SPEC-06 | [not traced] | ⚠ not supported | open |
 | [OQ-17](OQ-17_how-early-before-a-change.md) | How long before the change does the commuter learn whether the connection still holds? | SPEC-07 | [not traced] | ⚠ not supported | open |
-| [OQ-18](OQ-18_asking-a-connection-to-wait.md) | Is the request to hold a connection built before any operator can receive or answer it? | SPEC-07 | [not traced] | ⚠ not supported | open |
+| [OQ-18](OQ-18_asking-a-connection-to-wait.md) | Is the request to hold a connection built before any operator can receive or answer it? | SPEC-07 | [not traced] | ⚠ not supported | decided 2026-11-22: set aside |
 | [OQ-19](OQ-19_a-lift-as-a-way.md) | Does a lift from a relative or friend count as one of the ways from door to door? | SPEC-08, SPEC-05 | [not traced] | supported | open |
 | [OQ-20](OQ-20_which-car-costs-are-counted.md) | Which costs of the car are counted when it is compared with the train: fuel, tolls, parking? | SPEC-08 | [not traced] | partly | open |
 | [OQ-21](OQ-21_source-of-walking-times.md) | Where do the real walking times come from: at both ends, and between platforms? | SPEC-09 | [technology choice open] | ⚠ not supported | open |
