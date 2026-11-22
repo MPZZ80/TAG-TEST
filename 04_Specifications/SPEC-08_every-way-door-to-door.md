@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:06
+date: 2026-11-22 18:27
 method: synthesis
 status: draft
 grade: n/a
@@ -54,7 +54,8 @@ Shows every way of making a trip door to door, for a given day and time, side by
   4. For a return, show when each way brings the commuter back to the door at the end of the working day.
   5. Mark a price that is unknown as unknown.
   6. Let the commuter choose a way for a trip: it becomes the trip of the day (SPEC-04), or it is saved to their trips ([SPEC-17](SPEC-17_trips.md)), the free list of trips that replaced the single usual trip on 2026-11-18.
-  7. Let the commuter search by a time to leave after or a time to arrive by. Leave after: the earliest departure first. Arrive by: the arrival closest to that time first, the ways that arrive in time before those that arrive late, each late one marked; a sold-out way goes last.
+  7. The two places are typed as in an address search, with suggestions as the commuter types: their favourite addresses (the doors of [SPEC-01](SPEC-01_foundation.md), Initial set-up) first, marked, then the matching addresses and stations. Before the set-up there are no favourites. Marco, 2026-11-22.
+  8. Let the commuter search by a time to leave after or a time to arrive by. Leave after: the earliest departure first. Arrive by: the arrival closest to that time first, the ways that arrive in time before those that arrive late, each late one marked; a sold-out way goes last.
 - **States:** A search has no state; a chosen way becomes a trip (`planned`).
 - **The user receives:** Inside the product: the ways side by side.
 - **Depends on:** Doors ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Own rules ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Timing of legs and connections ([SPEC-09](SPEC-09_times-that-can-be-kept.md))
@@ -62,20 +63,21 @@ Shows every way of making a trip door to door, for a given day and time, side by
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Ways** (PG-05): the whole page, reached from the navigation and from "Find a way now" on Today at the first opening; **Trips** (PG-16): a way saved arrives here ([SPEC-17](SPEC-17_trips.md)). **Way detail** (PG-06) belongs to [SPEC-09](SPEC-09_times-that-can-be-kept.md).
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Today (start page)** (PG-01), when nothing is set up: `<way-search>` under "Plan a trip"; **Ways** (PG-05): the whole page, reached from the navigation and from the search on Today when nothing is set up, which is this page's `<way-search>` (Marco, 2026-11-22); **Trips** (PG-16): a way saved arrives here ([SPEC-17](SPEC-17_trips.md)). **Way detail** (PG-06) belongs to [SPEC-09](SPEC-09_times-that-can-be-kept.md).
 - **Components:**
-  - `<way-search>`: the two doors, the day, and a time to leave after or to arrive by; reads `ways.search{from, to, day, when, time}`, `profile.doors`; reacts to "Search": leave after or arrive by and the time reorder the ways; the doors and the day are shown, not kept.
+  - `<way-search>`: two addresses typed with suggestions (the favourite addresses first, then `places`), the day, and a time to leave after or to arrive by; reads `ways.search{from, to, day, when, time}`, `profile.doors`, `places`; reacts to typing (suggestions) and to "Search": on the Ways page, leave after or arrive by and the time reorder the ways; on Today when nothing is set up (attribute `go`), it opens the Ways page with the search in the address. The places and the day are shown, not kept.
   - `<way-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, side by side: legs, departure, arrival at the door, total time, price (unknown when not known), who runs it, how full (unknown when not known), when it brings the commuter back home at the end of the working day, its source, "Sold out" when it is; "Take this way today" (asked first, with `<confirm-choice>`) and "Save to your trips". Saving replaces the `<save-usual>` of the first version.
   - `<confirm-choice>`: defined in the foundation; asks before a way becomes the trip of today.
 - **Datasets:**
   - `ways` (defined in the foundation): `search{from, to, day, when, time, back_after, ways[{id, label, legs[{mode, text}], dep, arr_door, minutes, price, operators, back_home, fullness, sold_out, source}]}`; `price` or `back_home` null is unknown. Mock ways from the Verona home to the Milan apartment, one per kind of means between the cities: high-speed trains of two operators, a regional, a coach, a shared car, the car the whole way.
-  - `profile` (defined in the foundation): `doors`.
+  - `profile` (defined in the foundation): `doors`, the favourite addresses.
+  - `places` (defined here): the addresses and stations suggested as the commuter types; mock, in place of an address service.
 - **Simulated events:**
   - None: the ways of the search are read from `ways.search`. A way taken today or saved is said so, and not kept: Today and Trips show the mock data.
 
 ## When things go wrong
 
-- **No doors set:** the commuter enters the two places.
+- **No doors set:** the commuter types the two places; no favourites are suggested.
 - **No price:** shown as unknown.
 - **No way found:** the product says so for that day and time.
 - **Car times unavailable:** the car way is shown without time, marked.

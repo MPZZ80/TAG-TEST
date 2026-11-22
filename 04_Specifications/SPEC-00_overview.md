@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:06
+date: 2026-11-22 18:27
 method: synthesis
 status: draft
 grade: n/a
@@ -155,7 +155,7 @@ One row per page of the information architecture proposed in [SPEC-01](SPEC-01_f
 | PG-02 **Run** | One leg of a trip: the real state of its run with its stops, or its means and time; the alternatives when it fails | The name of a leg on Today, a trip on Trips, a way; a message about a run (the starting point of the prototype) | [SPEC-02](SPEC-02_real-state-of-the-run.md) |
 | PG-03 **Connection** | Whether the change ahead still holds, and the next one that does (asking the connection to wait set aside on 2026-11-22) | The change on Today; a message about the connection | [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | PG-04 **Ways out** | The ways that still reach the door when the trip breaks | The broken trip on Today; a message that the trip is broken | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md) |
-| PG-05 **Ways** | Every way door to door for a day and time, side by side | The navigation; "Find a way now" on Today at the first opening | [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) |
+| PG-05 **Ways** | Every way door to door for a day and time, side by side | The navigation; the search on Today when nothing is set up | [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) |
 | PG-06 **Way detail** | One way, leg by leg, at the length each really takes, with its stations and its ticket | A way on Ways; the usual trip on Today | [SPEC-09](SPEC-09_times-that-can-be-kept.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | PG-07 **Tickets** | The tickets held: show, move, enter one bought elsewhere; which fare fits the days travelled | The navigation; a ticket on Ways out or Way detail | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-12](SPEC-12_compensation-from-the-trip.md) |
 | PG-08 **Claims** | The past trips with a delay, what may be owed, and the claim prepared from the trip | Tickets; a message after a delayed trip | [SPEC-12](SPEC-12_compensation-from-the-trip.md) |

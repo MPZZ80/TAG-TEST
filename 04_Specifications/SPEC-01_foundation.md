@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:06
+date: 2026-11-22 18:27
 method: synthesis
 status: draft
 grade: n/a
@@ -177,7 +177,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | PG-02 | **Run** | One leg of a trip: the real state of its run with its stops, or its means and time; the alternatives when it fails | The name of a leg on Today, a trip on Trips, a way; a message about a run (the starting point of the prototype) | [SPEC-02](SPEC-02_real-state-of-the-run.md) the leg, first; its stops; the alternatives when it is late or cancelled |
 | PG-03 | **Connection** | Whether the change ahead still holds, and the next one that does (asking the connection to wait set aside on 2026-11-22) | The change on Today; a message about the connection | [SPEC-07](SPEC-07_the-connection-ahead.md) the whole page |
 | PG-04 | **Ways out** | Not a page of its own since 2026-11-21 (Marco): the ways out are the alternatives on the Run page (PG-02) of the leg that broke | The broken trip on Today; a message that the trip is broken; Run, when its run is cancelled | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) the whole page; [SPEC-06](SPEC-06_those-waiting-are-told.md) the message ready to send to a contact |
-| PG-05 | **Ways** | Every way door to door for a day and time, side by side | The navigation; "Find a way now" on Today at the first opening | [SPEC-08](SPEC-08_every-way-door-to-door.md) the whole page; [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) the car way leads to the drive page |
+| PG-05 | **Ways** | Every way door to door for a day and time, side by side | The navigation; the search on Today when nothing is set up | [SPEC-08](SPEC-08_every-way-door-to-door.md) the whole page; [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) the car way leads to the drive page |
 | PG-06 | **Way detail** | One way, leg by leg, at the length each really takes, with its stations and its ticket | A way on Ways; the usual trip on Today | [SPEC-09](SPEC-09_times-that-can-be-kept.md) the legs and connections at their real length, and their tightness; [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) buying the way as one journey; [SPEC-13](SPEC-13_the-station-ahead.md) the state of its stations, as lines leading to the station page; [SPEC-08](SPEC-08_every-way-door-to-door.md) "Save as usual", leading to the set-up |
 | PG-07 | **Tickets** | The tickets held: show, move, enter one bought elsewhere; which fare fits the days travelled | The navigation; a ticket on Ways out or Way detail | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) the tickets, first; [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md) the fare that fits the days, below the tickets; [SPEC-12](SPEC-12_compensation-from-the-trip.md) a link to the claims of past trips |
 | PG-08 | **Claims** | The past trips with a delay, what may be owed, and the claim prepared from the trip | Tickets; a message after a delayed trip | [SPEC-12](SPEC-12_compensation-from-the-trip.md) the whole page |
@@ -197,7 +197,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 
 What the product opens on, designed as a flow: page **Today** (PG-01) of the information architecture. Stories: F-11 ("open on my usual trip … without searching"), F-24 ("shown at once, with nothing in front of it"), F-03. Used by: SPEC-04, and every specification it leads to.
 
-- **At the first opening, nothing set up** (scenario `none`): one line saying what the product does, and two ways on: "Set up your first trip" (`<first-trip-cta>`), which opens the initial set-up at its first step, and "Find a way now", which opens a one-off search ([SPEC-08](SPEC-08_every-way-door-to-door.md)) without any set-up. Nothing else is asked first.
+- **At the first opening, nothing set up** (scenario `none`): one line saying what the product does, and two ways on: "Set up your first trip" (`<first-trip-cta>`), which opens the initial set-up at its first step, and, above it, the search of the Ways page ([SPEC-08](SPEC-08_every-way-door-to-door.md)) under "Plan a trip": two addresses typed with suggestions, a day, leave after or arrive by; "Search" opens the Ways page with the ways found, without any set-up (Marco, 2026-11-22). Nothing else is asked first.
 - **Once the set-up is done:** the trip of the day comes first, with nothing in front of it: on a travel day, the usual trip with its state, platforms and change ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); on a day that is not a travel day, the next travel day and its trip. No advertising, no message in front of it; the news that a run is late or cancelled sits on its own leg, not above the trip, and leads to that leg (Marco, 2026-11-21); the messages themselves are on the lock screen.
 - **From the start page:** each run of the trip opens its real state ([SPEC-02](SPEC-02_real-state-of-the-run.md)); the change opens the connection ahead ([SPEC-07](SPEC-07_the-connection-ahead.md)); a broken trip opens the ways out ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)); a short navigation leads to the ways door to door ([SPEC-08](SPEC-08_every-way-door-to-door.md)), the tickets ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)), the alerts ([SPEC-03](SPEC-03_alerts-on-the-usual-trip.md)), the contacts ([SPEC-06](SPEC-06_those-waiting-are-told.md)) and the set-up.
 - **When something it needs is missing, late or wrong:** a missing element shows `<missing-setup>` in place of the part it affects, and the rest of the page still works; a late fact shows its age and "no news since"; a fact contradicted by another shows both, with their sources (Rules that hold everywhere).
@@ -232,7 +232,7 @@ References:
 Concepts and families are references only: the flow comes from the stories.
 
 - **The steps, in order,** each on its own page of the flow, each with what it shows and asks:
-  1. **Doors:** at least home and one destination, each with a name and a place.
+  1. **Doors, the favourite addresses:** at least home and one destination, each with a name and an address, typed with suggestions as in the search of the Ways page; as many as the commuter wants. They are suggested first, marked as favourites, wherever an address is typed ([SPEC-08](SPEC-08_every-way-door-to-door.md)). Marco, 2026-11-22.
   2. **First trip:** between two doors, the legs and the runs usually taken, chosen from the schedule; or one of the ways found by [SPEC-08](SPEC-08_every-way-door-to-door.md), saved as a trip. More trips are added later from Trips ([SPEC-17](SPEC-17_trips.md)), as a free list with no days of their own; the commuter chooses the one to follow today.
   3. **Days of travel** of the usual trip; they can differ week by week (F-12: office days that fell to one a week).
   4. **Own rules:** minimum change time (one default, and optionally one per station), margin, maximum number of changes, and an own leg the commuter always makes (for example a lift or a bicycle).
@@ -269,7 +269,7 @@ Concepts and families are references only: the flow comes from the stories.
 - **Given** a change the product proposes to a route, ticket or trip **when** the commuter does not answer **then** nothing changes.
 - **Given** a behaviour that needs the usual trip **when** no usual trip is entered **then** the product says so and leads to where it is set up.
 
-- **Given** the first opening, with nothing set up **when** the product opens **then** it offers to set up the usual trip or to find a way now, and asks nothing else first.
+- **Given** the first opening, with nothing set up **when** the product opens **then** it offers to plan a trip with the search of the Ways page or to set up the first trip, and asks nothing else first.
 - **Given** a commuter who finished the set-up **when** they open the product on a travel day **then** the start page shows the usual trip with its state, platforms and change, with nothing in front of it.
 - **Given** a commuter who saved home, office and a usual trip **when** they open the product **then** the usual trip is shown without searching.
 - **Given** a commuter who set a minimum change time of 8 minutes at one station **when** a trip changes at that station **then** SPEC-09 uses 8 minutes there and the default elsewhere.

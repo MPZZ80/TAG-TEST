@@ -1,7 +1,7 @@
 /*
  * Script: today (page PG-01, Today, the start page). Shows SPEC-04, the trip of the day; with nothing set up,
  * the start page of SPEC-01: the invitation to set up the first trip, or to find a way now.
- * Uses the components <today-trip> (with <share-updates> in the box of the arrival), <leg-problem>, <trip-card> and <first-trip-cta>.
+ * Uses the components <way-search> (nothing set up), <today-trip> (with <share-updates> in the box of the arrival), <leg-problem>, <trip-card> and <first-trip-cta>.
  * Above the trip, only the day of the next trip on a day with no travel; the news of a run is on its leg.
  */
 (function () {
@@ -12,11 +12,13 @@
   main.appendChild(P.el("h1", "", P.travelDay ? TD.title : TD.title_off));
   if (!P.travelDay) document.title = TD.title_off; // the page is the next trip on a day with no travel (SPEC-04)
 
+  // Nothing set up: the search of the Ways page plans a trip from here (SPEC-08), then the way into the set-up.
   if (!P.scenario.setup) {
+    main.appendChild(P.el("h2", "", P.T.ways.plan));
+    const search = document.createElement("way-search");
+    search.setAttribute("go", "");
+    main.appendChild(search);
     main.appendChild(document.createElement("first-trip-cta"));
-    const find = P.el("p");
-    find.appendChild(P.link("ways.html", TD.search));
-    main.appendChild(find);
     return;
   }
 

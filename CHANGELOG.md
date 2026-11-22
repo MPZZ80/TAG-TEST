@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-22 18:27
+
+- **Files:** created `05_Prototype/data/places.js`; changed `05_Prototype/components/way-search.js`, `05_Prototype/js/ways.js`, `today.js`, `05_Prototype/html/ways.html`, `today.html`, `05_Prototype/data/ui_text.js`, the READMEs of `05_Prototype/data/` and `components/`; `04_Specifications/SPEC-08_every-way-door-to-door.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`
+- **Change:** From and To of the search are typed with suggestions, as in an address search: the favourite addresses (the doors of the set-up, marked ★) first, then the addresses and stations of `places.js`; no favourites before the set-up. The doors of SPEC-01 become the favourite addresses, as many as the commuter wants. On Today with nothing set up, the same search under "Plan a trip" replaces "Find a way now" and opens the Ways page with the search.
+- **Why:** Marco: use the search like Google's, with address autocomplete; the user can enter favourite addresses in their settings, offered in the autocomplete list; use the same features of SPEC-08 to start planning the trip when there is no trip on Today.
+- **Do not:** go back to choosing From and To from a fixed list of doors.
+
 ## 2026-11-22 18:07
 
 - **Files:** created `05_Prototype/html/ways.html`, `05_Prototype/js/ways.js`, `05_Prototype/components/way-card.js`, `way-search.js`; changed `05_Prototype/data/ways.js`, `ui_text.js`, `screens.js`, `05_Prototype/css/style.css`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-08_every-way-door-to-door.md`, `SPEC-05_ways-out-when-the-trip-breaks.md`, `SPEC-17_trips.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`

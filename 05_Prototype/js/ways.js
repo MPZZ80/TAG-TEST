@@ -5,6 +5,9 @@
  */
 (function () {
   const P = Proto, W = P.T.ways, q = DATA.ways.search;
+  // A search started on Today arrives in the address.
+  if (W.when[P.params.get("when")]) q.when = P.params.get("when");
+  if (P.params.get("time")) q.time = P.params.get("time");
 
   P.shell();
   const main = document.querySelector("main");

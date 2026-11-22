@@ -14,6 +14,7 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 | `fares.js` | the fares for the usual trip and the days actually travelled over a period (SPEC-12). |
 | `map_features.js` | the grey background of the map sketches: lakes, rivers, towns, motorway, railway and some streets, approximate shapes of real places (SPEC-02). |
 | `notifications.js` | the messages that reach the commuter when the product is closed, shown on the lock screen (`lockscreen.html`) reached from the configurator (instructions, section 9). |
+| `places.js` | the addresses and stations the search suggests as the commuter types (SPEC-08); the favourite addresses, the doors of `profile.js`, come first. |
 | `profile.js` | the commuter's set-up (SPEC-01) and trips (SPEC-17): doors, a free list of trips with the one followed today, days of travel, own rules, needs on the way, channels, consent to use position. Every screen reads it, so all screens agree. |
 | `runs.js` | the runs of the commuter's trips, planned, their real state in each scenario as facts with their source, time and status, and the other ways to make each leg, from public timetables, with how full each is expected to be; they are also the ways out (SPEC-01, SPEC-02, SPEC-05). |
 | `scenarios.js` | the scenarios the configurator switches between, and the mock clock of each. |

@@ -9,7 +9,7 @@ The web components of the prototype, one file per component, named after its tag
 | `run-card.js` | `<run-card>`: one run, its state first with an information button when sources disagree, "Why" only for a problem, the facts under "Details" | SPEC-01 | SPEC-02, SPEC-04, SPEC-07 |
 | `usual-delay.js` | `<usual-delay>`: how late a run usually is | SPEC-01 | SPEC-02, SPEC-09 |
 | `way-card.js` | `<way-card>`: one way door to door: legs, times, price, who runs it, how full, the way back, take today or save | SPEC-01 | SPEC-08 |
-| `way-search.js` | `<way-search>`: the two doors, the day, leave after or arrive by and the time | SPEC-08 | SPEC-08 |
+| `way-search.js` | `<way-search>`: two addresses with suggestions (favourites first), the day, leave after or arrive by and the time; also on Today when nothing is set up | SPEC-08 | SPEC-08 |
 | `message-preview.js` | `<message-preview>`: the messages outside the product, as notifications on the lock screen | SPEC-01 | the lock screen, for SPEC-02, SPEC-03, SPEC-05 and later the others |
 | `missing-setup.js` | `<missing-setup>`: what is missing and where it is set up | SPEC-01 | every specification |
 | `source-gap.js` | `<source-gap>`: two sources that disagree, and the gap, shown in a dialog | SPEC-02 | SPEC-02 |
