@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-22 18:07
+
+- **Files:** created `05_Prototype/html/ways.html`, `05_Prototype/js/ways.js`, `05_Prototype/components/way-card.js`, `way-search.js`; changed `05_Prototype/data/ways.js`, `ui_text.js`, `screens.js`, `05_Prototype/css/style.css`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-08_every-way-door-to-door.md`, `SPEC-05_ways-out-when-the-trip-breaks.md`, `SPEC-17_trips.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`
+- **Change:** SPEC-08 built on page PG-05, Ways, following SPEC-01: a search with the two doors, the day, and leave after or arrive by; six mock ways from the Verona home to the Milan apartment side by side (car and the 9707, bus and a regional, Italo sold out, bus and coach, a shared car, the car the whole way), each with legs, times, price (unknown parts said so), who runs it, how full, the way back home leaving at 18:00, and its source; arrive by puts the closest arrival first and marks late ones, leave after the earliest departure; a sold-out way goes last. "Take this way today" (asked first) and "Save to your trips" say so and are not kept. Three changes to the spec agreed with Marco: leave after or arrive by in the search; a way is saved to the trips (SPEC-17), not as the usual trip in the set-up (`<save-usual>` dropped); SPEC-05 no longer takes ways from SPEC-08, since its ways out are the alternatives on Run.
+- **Why:** Marco asked where the planning of SPEC-08 starts; the agent pointed out the three gaps and Marco answered "vai": carry out SPEC-08 with them (AGENTS.md log 50).
+
 ## 2026-11-22 17:32
 
 - **Files:** created `05_Prototype/html/connection.html`, `05_Prototype/js/connection.js`, `05_Prototype/components/connection-state.js`; changed `05_Prototype/data/connections.js`, `notifications.js`, `screens.js`, `ui_text.js`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-07_the-connection-ahead.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`, `04_Specifications/01_Open_Questions/OQ-18_asking-a-connection-to-wait.md`, `00_Open_questions_index.md`, `README.md`

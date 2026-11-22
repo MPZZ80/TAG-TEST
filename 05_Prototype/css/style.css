@@ -38,7 +38,8 @@
 /* Custom elements are inline by default; the components hold blocks, so they are blocks too. Add each new component here. */
 scenario-switch, fact-line, run-card, usual-delay, message-preview, missing-setup, source-gap,
 first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem, route-map, confirm-choice, run-stops, leg-map,
-alert-settings, alert-log, announced-list, share-updates { display: block; margin: var(--space-3) 0; }
+alert-settings, alert-log, announced-list, connection-state, way-search, way-card { display: block; }
+share-updates { display: block; margin: var(--space-3) 0; }
 
 body {
   margin: 0;
@@ -164,6 +165,7 @@ route-map svg { width: 100%; height: auto; background: var(--colour-surface); bo
 .key-underground { border-left-color: var(--colour-underground); }
 .key-car { border-left-color: var(--colour-text); }
 .legs .chosen { font-weight: 600; }
+.legs .key { display: inline-block; margin-bottom: var(--space-1); }
 
 .stops { width: 100%; border-collapse: collapse; margin-top: var(--space-1); }
 .stops th, .stops td { text-align: left; padding: var(--space-1) var(--space-2) var(--space-1) 0; border-bottom: 1px solid var(--colour-line); font-size: var(--size-small); }

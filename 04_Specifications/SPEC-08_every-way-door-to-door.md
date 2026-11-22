@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-21 19:07
+date: 2026-11-22 18:06
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, mode-choice, tools, habit]
-related: [US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md, F-04_one-search-one-booking.md, F-10_car-against-train-office.md, HMW-06_help-verona-milan-commuter-booking.md, HMW-07_let-verona-milan-commuter-he.md, HMW-13_help-como-commuter-looking-timetables.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-09_times-that-can-be-kept.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-10_tickets-that-work-when-needed.md, OQ-19_a-lift-as-a-way.md, OQ-20_which-car-costs-are-counted.md]
+related: [US-F-04_one-search-one-booking.md, US-F-10_car-against-train-office.md, F-04_one-search-one-booking.md, F-10_car-against-train-office.md, HMW-06_help-verona-milan-commuter-booking.md, HMW-07_let-verona-milan-commuter-he.md, HMW-13_help-como-commuter-looking-timetables.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-09_times-that-can-be-kept.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-05_ways-out-when-the-trip-breaks.md, SPEC-10_tickets-that-work-when-needed.md, SPEC-17_trips.md, OQ-19_a-lift-as-a-way.md, OQ-20_which-car-costs-are-counted.md]
 ---
 
 # SPEC-08: Every Way Door to Door
@@ -45,7 +45,7 @@ Shows every way of making a trip door to door, for a given day and time, side by
 
 ## Operating logic
 
-- **Starts when:** The commuter asks for ways between two places for a day and a time to leave or to arrive; or another specification asks for ways from a point (SPEC-05).
+- **Starts when:** The commuter asks for ways between two places for a day and a time to leave after or to arrive by, on the Ways page.
 - **Needs to know:** The doors (SPEC-01) or places the commuter enters; schedules of the services; travel times by car (third party); prices (operators, third parties); timing of each leg and connection (SPEC-09).
 - **Rules:**
   1. List every way that reaches the destination door, side by side, including car and public transport and their combinations. The car between cities is a way of one leg from door to door; the means of each leg follow its kind, in a city or between cities ([SPEC-02](SPEC-02_real-state-of-the-run.md) rule 20). Added by Marco on 2026-11-21.
@@ -53,24 +53,25 @@ Shows every way of making a trip door to door, for a given day and time, side by
   3. When the wanted service is sold out, put first the way arriving closest to the wanted time.
   4. For a return, show when each way brings the commuter back to the door at the end of the working day.
   5. Mark a price that is unknown as unknown.
-  6. Let the commuter choose a way for a trip: it becomes the trip of the day (SPEC-04) or can be saved as the usual trip (SPEC-01).
+  6. Let the commuter choose a way for a trip: it becomes the trip of the day (SPEC-04), or it is saved to their trips ([SPEC-17](SPEC-17_trips.md)), the free list of trips that replaced the single usual trip on 2026-11-18.
+  7. Let the commuter search by a time to leave after or a time to arrive by. Leave after: the earliest departure first. Arrive by: the arrival closest to that time first, the ways that arrive in time before those that arrive late, each late one marked; a sold-out way goes last.
 - **States:** A search has no state; a chosen way becomes a trip (`planned`).
 - **The user receives:** Inside the product: the ways side by side.
 - **Depends on:** Doors ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Own rules ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Timing of legs and connections ([SPEC-09](SPEC-09_times-that-can-be-kept.md))
-- **Provides:** Ways between two places, to [SPEC-01](SPEC-01_foundation.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md); A way chosen for today, to [SPEC-04](SPEC-04_todays-trip-at-a-glance.md)
+- **Provides:** Ways between two places, to [SPEC-01](SPEC-01_foundation.md), [SPEC-17](SPEC-17_trips.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md); A way chosen for today, to [SPEC-04](SPEC-04_todays-trip-at-a-glance.md)
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Ways** (PG-05): the whole page; **Way detail** (PG-06): "Save as usual", leading to the set-up; **Set-up** (PG-15): a way saved as usual arrives here.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Ways** (PG-05): the whole page, reached from the navigation and from "Find a way now" on Today at the first opening; **Trips** (PG-16): a way saved arrives here ([SPEC-17](SPEC-17_trips.md)). **Way detail** (PG-06) belongs to [SPEC-09](SPEC-09_times-that-can-be-kept.md).
 - **Components:**
-  - `<way-search>`: the two doors, the day and the time to leave after; reads `ways.search{from, to, day, leave_after}`, `profile.doors`; reacts to changing a field (shown, not kept).
-  - `<way-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, side by side: legs, departure, arrival at the door, minutes, price, operators, and the way back home.
-  - `<save-usual>`: saving a way as the usual trip; reacts to "Save as usual" by leading to the initial set-up with the way chosen (SPEC-01).
+  - `<way-search>`: the two doors, the day, and a time to leave after or to arrive by; reads `ways.search{from, to, day, when, time}`, `profile.doors`; reacts to "Search": leave after or arrive by and the time reorder the ways; the doors and the day are shown, not kept.
+  - `<way-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, side by side: legs, departure, arrival at the door, total time, price (unknown when not known), who runs it, how full (unknown when not known), when it brings the commuter back home at the end of the working day, its source, "Sold out" when it is; "Take this way today" (asked first, with `<confirm-choice>`) and "Save to your trips". Saving replaces the `<save-usual>` of the first version.
+  - `<confirm-choice>`: defined in the foundation; asks before a way becomes the trip of today.
 - **Datasets:**
-  - `ways` (defined in the foundation): `search{from, to, day, leave_after, ways[{id, label, legs[], dep, arr_door, minutes, price, operators, back_home}]}`.
+  - `ways` (defined in the foundation): `search{from, to, day, when, time, back_after, ways[{id, label, legs[{mode, text}], dep, arr_door, minutes, price, operators, back_home, fullness, sold_out, source}]}`; `price` or `back_home` null is unknown. Mock ways from the Verona home to the Milan apartment, one per kind of means between the cities: high-speed trains of two operators, a regional, a coach, a shared car, the car the whole way.
   - `profile` (defined in the foundation): `doors`.
 - **Simulated events:**
-  - None: the ways of the search are read from `ways.search`.
+  - None: the ways of the search are read from `ways.search`. A way taken today or saved is said so, and not kept: Today and Trips show the mock data.
 
 ## When things go wrong
 
@@ -85,7 +86,8 @@ Booking the way as one journey (SPEC-10); timing legs at their real length (SPEC
 
 ## Acceptance criteria
 
-- **Given** a day and a time to arrive **when** the commuter plans **then** every way door to door is shown side by side with time, price, arrival and who runs each leg.
+- **Given** a day and a time to arrive by **when** the commuter plans **then** every way door to door is shown side by side with time, price, arrival and who runs each leg, the closest arrival first.
+- **Given** a time to leave after **when** the commuter searches **then** only the ways leaving from that time are shown, the earliest first.
 - **Given** the wanted train is sold out **when** he plans **then** the way arriving closest to his wanted time comes first.
 - **Given** an office day ending at 18:00 **when** the Como commuter compares train and car **then** each shows when he would be home.
 - **Given** a way whose price is unknown **when** it is shown **then** the price is marked unknown.
@@ -110,7 +112,8 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation it stands on.
 - [SPEC-09_times-that-can-be-kept.md](SPEC-09_times-that-can-be-kept.md): provides elements this specification depends on.
 - [SPEC-04_todays-trip-at-a-glance.md](SPEC-04_todays-trip-at-a-glance.md): depends on elements this specification provides.
-- [SPEC-05_ways-out-when-the-trip-breaks.md](SPEC-05_ways-out-when-the-trip-breaks.md): depends on elements this specification provides.
+- [SPEC-05_ways-out-when-the-trip-breaks.md](SPEC-05_ways-out-when-the-trip-breaks.md): shares the question of a lift as a way (OQ-19); since 2026-11-21 its ways out are the alternatives of the run on the Run page, not ways from this specification.
 - [SPEC-10_tickets-that-work-when-needed.md](SPEC-10_tickets-that-work-when-needed.md): depends on elements this specification provides.
+- [SPEC-17_trips.md](SPEC-17_trips.md): depends on elements this specification provides: a way saved joins the trips.
 - [OQ-19_a-lift-as-a-way.md](01_Open_Questions/OQ-19_a-lift-as-a-way.md): an open question this specification raises.
 - [OQ-20_which-car-costs-are-counted.md](01_Open_Questions/OQ-20_which-car-costs-are-counted.md): an open question this specification raises.

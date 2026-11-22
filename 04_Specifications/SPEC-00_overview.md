@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 17:31
+date: 2026-11-22 18:06
 method: synthesis
 status: draft
 grade: n/a
@@ -73,7 +73,7 @@ One row per element that a specification needs and another provides.
 | A way chosen to continue | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md) |
 | State of a connection | [SPEC-07](SPEC-07_the-connection-ahead.md) | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md) |
 | A way chosen for today | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) |
-| Ways between two places | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-17](SPEC-17_trips.md) |
+| Ways between two places | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-17](SPEC-17_trips.md) |
 | Timing of legs and connections | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | Tickets held | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-12](SPEC-12_compensation-from-the-trip.md) |
 
@@ -86,7 +86,7 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<fact-line>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-12](SPEC-12_compensation-from-the-trip.md), [SPEC-13](SPEC-13_the-station-ahead.md) |
 | `<run-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | `<usual-delay>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
-| `<way-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-08](SPEC-08_every-way-door-to-door.md) |
+| `<way-card>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | `<confirm-choice>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) |
 | `<missing-setup>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-01](SPEC-01_foundation.md), [SPEC-02](SPEC-02_real-state-of-the-run.md), [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-08](SPEC-08_every-way-door-to-door.md), [SPEC-09](SPEC-09_times-that-can-be-kept.md), [SPEC-10](SPEC-10_tickets-that-work-when-needed.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-12](SPEC-12_compensation-from-the-trip.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
 | `<message-preview>` | [SPEC-01](SPEC-01_foundation.md) | [SPEC-03](SPEC-03_alerts-on-the-usual-trip.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md), [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-07](SPEC-07_the-connection-ahead.md), [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md), [SPEC-13](SPEC-13_the-station-ahead.md), [SPEC-14](SPEC-14_stop-approaching.md), [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md), [SPEC-16](SPEC-16_sessions-still-running.md) |
@@ -109,7 +109,6 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<share-updates>` | [SPEC-06](SPEC-06_those-waiting-are-told.md) | [SPEC-06](SPEC-06_those-waiting-are-told.md), [SPEC-04](SPEC-04_todays-trip-at-a-glance.md), [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) |
 | `<connection-state>` | [SPEC-07](SPEC-07_the-connection-ahead.md) | [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | `<way-search>` | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-08](SPEC-08_every-way-door-to-door.md) |
-| `<save-usual>` | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | `<leg-timing>` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
 | `<tightness>` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
 | `<works-note>` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |

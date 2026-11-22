@@ -24,7 +24,7 @@ One dataset per file. Each adds one property to the global `DATA` object and sta
 | `tickets.js` | the tickets the commuter holds (SPEC-11), bought in the product or entered after buying elsewhere,  and the runs a ticket can be moved to, with what moving costs. |
 | `timing.js` | the real length of each leg and way through a station of the usual trip (SPEC-10),  next to the planned one, and the works announced on the route. |
 | `ui_text.js` | every interface text of the prototype: titles, labels, buttons, messages, state names.  {name} is filled by the scripts. Another language is another version of this file. |
-| `ways.js` | the ways from door to door for a search (SPEC-08) and, for the ways out (SPEC-05), the run they replace and the last way; the ways out themselves are the alternatives of that run in `runs.js`. |
+| `ways.js` | the ways from door to door for a search (SPEC-08): from the Verona home to the Milan apartment, one per kind of means between the cities, with leave after or arrive by; and, for the ways out (SPEC-05), the run they replace and the last way; the ways out themselves are the alternatives of that run in `runs.js`. |
 
 - All data are mock, for one commuter, the Verona–Milan commuter, so that every screen tells the same story.
 - Values a specification leaves open are provisional: a comment names the open question (`OQ-…`). The screens, specifications and open questions named in the comments were deleted on 2026-11-18.

@@ -10,6 +10,7 @@ One HTML file per screen; `index.html` is the entry point. Each file loads the s
 | `alternative.html` | One alternative for a leg that is late or cancelled: details, a sketch of its route, the trip with it, and "Choose this way"; `?run=`, `?alt=`, `?trip=` | PG-17 Alternative | SPEC-02 |
 | `lockscreen.html` | A fake lock screen of a phone with the messages of the scenario, each opening its page; reached from the configurator; not a page of the product | — | SPEC-01 (messages outside the product) |
 | `trips.html` | The commuter's trips and the one followed today | PG-16 Trips | SPEC-17 |
+| `ways.html` | Every way door to door: the search (two doors, day, leave after or arrive by), six ways side by side with time, price, who runs them, how full, the way back home, and taking one today or saving it to the trips (not kept) | PG-05 Ways | SPEC-08 |
 | `alerts.html` | Alerts on the usual trip: the settings (kinds of event, moments of a travel day), the alerts sent today, works and strikes announced, and a simulated alert; with nothing set up, what is missing | PG-13 Alerts | SPEC-03 |
 | `connection.html` | The connection ahead: whether the change at Milano Centrale still holds with the delay of now, what is left over against the commuter's own rule, the next connection that holds and the new arrival at the door; with the run cancelled, the way to the ways out | PG-03 Connection | SPEC-07 |
 

@@ -1,12 +1,12 @@
 ---
 source: Claude
-date: 2026-11-21 16:57
+date: 2026-11-22 18:06
 method: synthesis
 status: draft
 grade: n/a
 confidence: n/a
 tags: [design, internal, output, planning, tools, usual-trip]
-related: [US-F-11_usual-trip-glance.md, F-11_usual-trip-glance.md, HMW-14_let-dutch-rail-commuter-way.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-04_todays-trip-at-a-glance.md, OQ-05_more-than-one-usual-trip.md, OQ-34_days-of-travel-with-a-list-of-trips.md]
+related: [US-F-11_usual-trip-glance.md, F-11_usual-trip-glance.md, HMW-14_let-dutch-rail-commuter-way.md, SPEC-00_overview.md, SPEC-01_foundation.md, SPEC-02_real-state-of-the-run.md, SPEC-04_todays-trip-at-a-glance.md, SPEC-08_every-way-door-to-door.md, OQ-05_more-than-one-usual-trip.md, OQ-34_days-of-travel-with-a-list-of-trips.md]
 ---
 
 # SPEC-17: Trips
@@ -101,5 +101,6 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [SPEC-00_overview.md](SPEC-00_overview.md): the overview that lists this specification.
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation it stands on.
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md), [SPEC-04_todays-trip-at-a-glance.md](SPEC-04_todays-trip-at-a-glance.md): depend on the list of trips and the trip followed today.
+- [SPEC-08_every-way-door-to-door.md](SPEC-08_every-way-door-to-door.md): provides elements this specification depends on: a way found can be saved as a trip.
 - [OQ-05_more-than-one-usual-trip.md](01_Open_Questions/OQ-05_more-than-one-usual-trip.md): the open question this specification answers, decided by Marco.
 - [OQ-34_days-of-travel-with-a-list-of-trips.md](01_Open_Questions/OQ-34_days-of-travel-with-a-list-of-trips.md): an open question this specification raises.

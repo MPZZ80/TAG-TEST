@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 17:02
+date: 2026-11-22 18:06
 method: synthesis
 status: draft
 grade: n/a
@@ -46,7 +46,7 @@ When the trip of the day breaks (a run cancelled, a connection lost, a vehicle t
 ## Operating logic
 
 - **Starts when:** The trip of the day becomes broken (SPEC-02, SPEC-07), or the commuter asks for ways out.
-- **Needs to know:** Where the commuter is: their position if allowed (SPEC-01), otherwise the stop or station they enter or the point of the trip they are at; the ways from there to the destination door (SPEC-08); the tickets held (SPEC-10); expected fullness of the next services (operator or other travellers).
+- **Needs to know:** Where the commuter is: their position if allowed (SPEC-01), otherwise the stop or station they enter or the point of the trip they are at; the ways from there to the destination door, the alternatives of the run that broke ([SPEC-02](SPEC-02_real-state-of-the-run.md)); the tickets held (SPEC-10); expected fullness of the next services (operator or other travellers).
 - **Rules:**
   1. List the ways that still reach the destination door from where the commuter is, on the page of the leg that broke (rule 6).
   2. Show for each: departure, arrival, cost, whether the ticket held is valid, and how full it is expected to be, with the source of each figure.
@@ -59,7 +59,7 @@ When the trip of the day breaks (a run cancelled, a connection lost, a vehicle t
   9. On Today, the news that the run is late or cancelled sits on its own leg, not above the trip, and leads to that leg on Run with its alternatives; so does the line of a broken trip at the end of Today, and the message that the trip broke ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)).
 - **States:** Trip: broken → under way (a way chosen) or abandoned.
 - **The user receives:** Inside the product: the ways, as the alternatives of the leg that broke. A message on the commuter's channel when the trip breaks [not traced: whether every break is sent].
-- **Depends on:** Trip of the day ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); Ways between two places ([SPEC-08](SPEC-08_every-way-door-to-door.md)); Tickets held ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)); Consent to use position ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Own rules ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Needs on the way ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); State of a connection ([SPEC-07](SPEC-07_the-connection-ahead.md))
+- **Depends on:** Trip of the day ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md)); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); Tickets held ([SPEC-10](SPEC-10_tickets-that-work-when-needed.md)); Consent to use position ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Own rules ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Needs on the way ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Channels ([SPEC-01](SPEC-01_foundation.md), Initial set-up); State of a connection ([SPEC-07](SPEC-07_the-connection-ahead.md))
 - **Provides:** A way chosen to continue, to [SPEC-06](SPEC-06_those-waiting-are-told.md)
 
 ## Architecture
@@ -124,7 +124,7 @@ Each question has its own file in [01_Open_Questions/](01_Open_Questions/00_Open
 - [SPEC-01_foundation.md](SPEC-01_foundation.md): the foundation it stands on.
 - [SPEC-04_todays-trip-at-a-glance.md](SPEC-04_todays-trip-at-a-glance.md): provides elements this specification depends on.
 - [SPEC-02_real-state-of-the-run.md](SPEC-02_real-state-of-the-run.md): provides elements this specification depends on.
-- [SPEC-08_every-way-door-to-door.md](SPEC-08_every-way-door-to-door.md): provides elements this specification depends on.
+- [SPEC-08_every-way-door-to-door.md](SPEC-08_every-way-door-to-door.md): shares the question of a lift as a way (OQ-19); since 2026-11-21 the ways out no longer come from its search.
 - [SPEC-10_tickets-that-work-when-needed.md](SPEC-10_tickets-that-work-when-needed.md): provides elements this specification depends on.
 - [SPEC-07_the-connection-ahead.md](SPEC-07_the-connection-ahead.md): provides elements this specification depends on.
 - [SPEC-06_those-waiting-are-told.md](SPEC-06_those-waiting-are-told.md): depends on elements this specification provides.

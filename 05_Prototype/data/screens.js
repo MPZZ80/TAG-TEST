@@ -13,6 +13,7 @@ DATA.screens = [
   { file: "today.html", title: "Today",                     page: "PG-01", specs: "SPEC-04", stage: "Before departure" },
   { file: "run.html",   title: "State of the run, and the ways out", page: "PG-02", specs: "SPEC-02, SPEC-05", stage: "Before departure, main leg, transfer, disruption" },
   { file: "connection.html", title: "The connection ahead", page: "PG-03", specs: "SPEC-07", stage: "Main leg, transfer" },
+  { file: "ways.html", title: "Every way door to door", page: "PG-05", specs: "SPEC-08", stage: "Planning" },
   { file: "alternative.html", title: "Alternative for a leg", page: "PG-17", specs: "SPEC-02", stage: "Disruption" },
   { file: "trips.html", title: "Trips",                     page: "PG-16", specs: "SPEC-17", stage: "Planning" },
   { file: "alerts.html", title: "Alerts on the usual trip",  page: "PG-13", specs: "SPEC-03", stage: "Before departure, disruption" }
