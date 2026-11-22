@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-22 17:06
+
+- **Files:** `05_Prototype/components/today-trip.js`, `05_Prototype/js/today.js`, `04_Specifications/SPEC-06_those-waiting-are-told.md`, `SPEC-01_foundation.md`
+- **Change:** On Today, "Share updates" moved from under the trip into the box after leg 4 that gives the expected arrival at the door.
+- **Why:** Marco: "metti share update nel box sotto la leg 4 con la stima dell'arrivo"; reason not stated.
+
 ## 2026-11-22 17:02
 
 - **Files:** created `05_Prototype/components/share-updates.js`, `05_Prototype/data/share.js`; deleted `05_Prototype/html/contacts.html`, `05_Prototype/js/contacts.js`, `05_Prototype/components/contact-list.js`, `contact-messages.js`, `prepared-message.js`, `05_Prototype/data/contacts.js`; changed `05_Prototype/data/ui_text.js`, `screens.js`, `notifications.js`, `05_Prototype/js/today.js`, `run.js`, `05_Prototype/html/today.html`, `run.html`, `05_Prototype/css/style.css`, `05_Prototype/instructions/Prototype_Instructions.md`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-06_those-waiting-are-told.md`, `SPEC-01_foundation.md`, `SPEC-05_ways-out-when-the-trip-breaks.md`, `SPEC-00_overview.md`

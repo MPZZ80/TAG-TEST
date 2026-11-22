@@ -3,7 +3,7 @@
  * Defined in: SPEC-04 (Architecture), used only there
  * Used by: SPEC-04, first on the Today page
  * Reads: the trip followed today (`DATA.profile.trips`) as changed by a chosen alternative, `DATA.runs`,
- *   `DATA.connections`, `DATA.leg_events`, `DATA.scenarios`
+ *   `DATA.connections`, `DATA.leg_events`, `DATA.scenarios`; holds <share-updates> in the box of the arrival (SPEC-06)
  * Reacts to: the name of a leg, which opens the Run page on that leg (SPEC-02); the change (SPEC-07).
  *   Each leg shows its state: to do, in progress or completed, from where the configurator puts the commuter (SPEC-01, States)
  */
@@ -98,6 +98,9 @@
       } else {
         end.appendChild(P.el("p", "", P.fill(TD.door, { door: doorName, time: conn.door_arrival })));
       }
+      const share = document.createElement("share-updates"); // next to the arrival, for whoever waits (SPEC-06)
+      share.setAttribute("trip", planned.id);
+      end.appendChild(share);
       this.appendChild(end);
     }
   }

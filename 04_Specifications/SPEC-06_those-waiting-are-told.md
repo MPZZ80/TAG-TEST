@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 17:01
+date: 2026-11-22 17:06
 method: synthesis
 status: draft
 grade: n/a
@@ -60,7 +60,7 @@ Lets the commuter share a trip with whoever waits for them, from the phone's own
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Today (start page)** (PG-01): "Share updates" under the trip; **Run** (PG-02): "Share updates" on every leg, including the leg that broke, under the ways out ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)). No page of its own: PG-14 Contacts was dropped on 2026-11-22.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Today (start page)** (PG-01): "Share updates" in the box of the expected arrival at the door, after the last leg; **Run** (PG-02): "Share updates" on every leg, including the leg that broke, under the ways out ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)). No page of its own: PG-14 Contacts was dropped on 2026-11-22.
 - **Components:**
   - `<share-updates>`: a button with the share icon that hands the title of the trip and its link to the share sheet of the phone (`navigator.share`); where the browser has none, the prototype draws a sheet of its own with the apps and "Copy link", and nothing is sent; reads `share`, the trip (attribute `trip`), `clock.iso`; reacts to a tap.
 - **Datasets:**
