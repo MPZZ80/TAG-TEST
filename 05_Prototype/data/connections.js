@@ -3,7 +3,7 @@
  * What it holds: the change on the usual trip and its state in each scenario (SPEC-07):
  *   the way between the two runs, the margin against the commuter's own rule, the next connection that holds,
  *   and when the commuter is told. Asking the connection to wait was set aside on 2026-11-22 (SPEC-07).
- * Used by: today.html, connection.html, timing.html
+ * Used by: today.html, connection.html, way.html
  * Fields: station, from_run, to_run, walk_minutes, board_where,
  *   by_scenario{key: {state, margin, next_dep, door_arrival, warn_at}}
  * Source: mock

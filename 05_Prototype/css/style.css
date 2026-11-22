@@ -38,7 +38,9 @@
 /* Custom elements are inline by default; the components hold blocks, so they are blocks too. Add each new component here. */
 scenario-switch, fact-line, run-card, usual-delay, message-preview, missing-setup, source-gap,
 first-trip-cta, trip-card, leg-alternatives, today-trip, leg-problem, route-map, confirm-choice, run-stops, leg-map,
-alert-settings, alert-log, announced-list, connection-state, way-search, way-card { display: block; }
+alert-settings, alert-log, announced-list, connection-state, way-search, way-card,
+works-note, leg-timing, change-tightness, way-booking, ticket-card, ticket-show, ticket-move, ticket-entry { display: block; }
+.ticket-code { font-family: monospace; font-size: 1.4rem; letter-spacing: 0.08em; padding: var(--space-3); border: 2px dashed var(--colour-text); text-align: center; }
 share-updates { display: block; margin: var(--space-3) 0; }
 
 body {

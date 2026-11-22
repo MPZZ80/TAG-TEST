@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-22 18:31
 method: synthesis
 status: draft
 grade: n/a
@@ -61,15 +61,15 @@ Times every leg and connection of a planned trip at the length it really takes: 
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Way detail** (PG-06): the legs and connections at their real length, and their tightness.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Way detail** (PG-06): the legs and connections at their real length, and their tightness; reached from "Real times and booking" on a way of the Ways page, and from "How long each leg really takes" in the box of the arrival on Today, for the trip followed today.
 - **Components:**
-  - `<leg-timing>`: each leg and each way through a station at its planned and real length, with the source and a note such as where to board; reads `timing.legs[]`; no events.
-  - `<tightness>`: how tight each connection is against the commuter's own rules; reads `connections.by_scenario.<key>.margin`, `profile.own_rules`; reacts to the scenario changing.
-  - `<works-note>`: works announced on the route and the minutes they add; reads `timing.works`; no events.
+  - `<works-note>`: the arrival at the door, planned and expected at real times, and with the works announced on the route and the minutes they add; reads `timing.arrival`, `timing.works`; no events.
+  - `<leg-timing>`: each leg and each way through a station at its planned and real length (longer in colour, unknown said so), with the source and a note such as where to board; reads `timing.legs[]`; no events.
+  - `<change-tightness>` (named `<tightness>` in the first version: a web component needs a hyphen in its name): how tight the change is against the commuter's own rule, on paper and with the incoming run as late as usual; when it falls short, the planner counts on the next connection that keeps the rule; reads `connections` (station, the two runs), `runs` (times, `usual_delay`), `profile.own_rules`; no events: the plan is timed from the schedule and the record, not from today's state.
   - `<usual-delay>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
 - **Datasets:**
-  - `timing` (defined here): `legs[{label, stage, planned, real, source, note}]`, `works{text, minutes, from}`.
-  - `connections` (defined in the foundation): `walk_minutes`, `board_where`, `by_scenario.<key>.margin`.
+  - `timing` (defined here): `trip`, `way` (the trip followed today and the way of `ways` that is the same), `legs[{label, stage, planned, real, source, note}]`, `works{text, minutes, from}`, `arrival{planned, expected, works}`. Real times are recorded for this trip only; another way shows that none are recorded yet.
+  - `connections` (defined in the foundation): `station`, `from_run`, `to_run`.
   - `profile` (defined in the foundation): `own_rules{min_change, per_station, margin, max_changes, own_leg}`.
   - `runs` (defined in the foundation): `usual_delay`.
 - **Simulated events:**

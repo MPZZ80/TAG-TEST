@@ -5,7 +5,7 @@
  *   that run in runs.js, the same the Run page shows, so that both pages agree.
  * Used by: ways.html (search), run.html (ways_out)
  * Fields: search{from, to, day, when ("leave_after" or "arrive_by"), time, back_after,
- *   ways[{id, label, legs[{mode, text}], dep, arr_door, minutes, price, operators, back_home, fullness, sold_out, source}]},
+ *   ways[{id, label, legs[{mode, text}], dep, arr_door, minutes, price, operators, back_home, fullness, sold_out, source, not_bookable}]},
  *   ways_out{run, last_way}
  *   price or back_home null: unknown, and said so (SPEC-08 rule 5)
  * Source: mock. Times follow runs.js where the run is there (9707, M2); the others are realistic, from public
@@ -47,7 +47,8 @@ DATA.ways = {
       { id: "W6", label: "Car the whole way", source: "Third party, with traffic",
         legs: [{ mode: "car", text: "Car 165 km" }],
         dep: "07:00", arr_door: "09:10", minutes: 130, price: "€ 13 toll, approximate, + fuel unknown",
-        operators: "Motorway operator", back_home: "20:15 to 20:45, with evening traffic" }
+        operators: "Motorway operator", back_home: "20:15 to 20:45, with evening traffic",
+        not_bookable: "the tolls are paid on the motorway." }
     ]
   },
   ways_out: {

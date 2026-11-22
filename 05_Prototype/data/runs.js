@@ -2,7 +2,7 @@
  * Dataset: runs
  * What it holds: the runs of the commuter's trips, planned, and their real state in each scenario,
  *   as facts with their source, time and status (SPEC-01, SPEC-03).
- * Used by: today.html, run.html, alternative.html, ways_out.html (the alternatives are the ways out, SPEC-05), connection.html, timing.html, stop.html
+ * Used by: today.html, run.html, alternative.html, (the alternatives are also the ways out, SPEC-05), connection.html, way.html, stop.html
  * Fields: id{service, operator, from, to, dep, arr, platform_dep, usual_platform, platform_arr, usual_delay, next[],
  *   approach[{name, lat, lon}], stops[{name, time, lat, lon}], by_scenario.<key>.pos{lat, lon},
  *   alternatives[{short, id, mode, service, operator, from, to, dep, arr, door_arrival, ticket_valid, cost, source, note, fullness, fullness_level, fullness_source,

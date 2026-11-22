@@ -11,6 +11,8 @@ One script per screen, with the same name as its HTML file, plus `common.js` for
 | `alternative.js` | Fills the page of an alternative and passes the choice to Run and Today (`?choice=`) |
 | `trips.js` | Fills the Trips page (SPEC-17) |
 | `ways.js` | Fills the Ways page (SPEC-08) and orders the ways by leave after or arrive by |
+| `way.js` | Fills the Way detail page (SPEC-09, SPEC-10) |
+| `tickets.js` | Fills the Tickets page (SPEC-10) |
 | `alerts.js` | Fills the Alerts page (SPEC-03) |
 | `connection.js` | Fills the Connection page (SPEC-07) |
 | `lockscreen.js` | Fills the lock screen with the messages of the scenario |

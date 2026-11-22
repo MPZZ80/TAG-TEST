@@ -3,7 +3,8 @@
  * Defined in: SPEC-01 (Architecture)
  * Used by: every screen, in a bar of its own at the top of the page (common.js)
  * Reads: `DATA.scenarios`, `DATA.config`, the trip followed today (`DATA.profile.trips`) for its legs
- * Reacts to: choosing a scenario, where the commuter is, or the day, which reloads the page with `?scenario=`, `?at=`, `?day=`;
+ * Reacts to: choosing a scenario, where the commuter is, the day or the signal, which reloads the page with `?scenario=`, `?at=`,
+ *   `?day=`, `?signal=`;
  *   the link to the lock screen, where the messages outside the product are
  */
 (function () {
@@ -29,7 +30,7 @@
   }
 
   // <scenario-switch>: the configurator, for testing, not part of the product (SPEC-01, Architecture):
-  // the scenario, where the commuter is on the trip followed today, and whether today is a travel day.
+  // the scenario, where the commuter is on the trip followed today, whether today is a travel day, and the signal.
   class ScenarioSwitch extends HTMLElement {
     connectedCallback() {
       this.className = "config-bar";
@@ -44,6 +45,7 @@
       where.querySelector("select").disabled = !P.travelDay; // on a day with no travel the commuter is not on a trip
       this.appendChild(where);
       this.appendChild(choice(C.day, "day", days, P.travelDay ? "travel" : "off"));
+      this.appendChild(choice(C.signal, "signal", [{ value: "on", label: C.signal_on }, { value: "off", label: C.signal_off }], P.signal ? "on" : "off"));
       this.appendChild(P.link("lockscreen.html", C.lock));
     }
   }

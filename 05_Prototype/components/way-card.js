@@ -3,7 +3,7 @@
  * Defined in: SPEC-01 (Architecture)
  * Used by: SPEC-08 (every way door to door)
  * Reads: one way of `DATA.ways.search.ways[]`, set with .way; `DATA.ways.search` for the doors and the way back
- * Reacts to: "Take this way today" and "Save to your trips", which send a "way-today" or "way-save" event; nothing changes here
+ * Reacts to: the link to its detail (way.html); "Take this way today" and "Save to your trips", which send a "way-today" or "way-save" event; nothing changes here
  */
 (function () {
   const P = Proto, W = P.T.ways;
@@ -30,6 +30,9 @@
       const back = { door: P.doorName(q.from), after: q.back_after, time: w.back_home };
       this.appendChild(P.el("p", "meta", w.back_home ? P.fill(W.back_home, back) : P.fill(W.back_unknown, back))); // rule 4
       this.appendChild(P.el("p", "meta", P.fill(W.source, w)));
+      const detail = P.el("p");
+      detail.appendChild(P.link("way.html", P.T.timing.details, { way: w.id })); // the Way detail page (SPEC-09, SPEC-10)
+      this.appendChild(detail);
       if (w.sold_out) return; // nothing to take or save on a way that cannot be booked
       [["way-today", W.today, "button"], ["way-save", W.save, ""]].forEach(function (b) {
         const button = P.el("button", b[2], b[1]);

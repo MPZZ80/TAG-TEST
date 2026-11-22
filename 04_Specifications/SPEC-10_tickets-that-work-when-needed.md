@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-18 19:55
+date: 2026-11-22 18:31
 method: synthesis
 status: draft
 grade: n/a
@@ -60,18 +60,20 @@ Lets the commuter buy a way as one journey, hold their tickets, move a ticket to
 
 ## Architecture
 
-- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Tickets** (PG-07): the tickets, first; **Way detail** (PG-06): buying the way as one journey.
+- **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Tickets** (PG-07): the tickets, first, then adding one bought elsewhere and a link to find a way and book it; **Way detail** (PG-06): buying the way as one journey.
 - **Components:**
-  - `<ticket-card>`: a ticket held: what it covers, the seller, whether it was entered by the commuter, its state; reads `tickets[]`; reacts to opening it.
-  - `<ticket-move>`: the runs or days a ticket can be moved to and what each move costs; reads `tickets[].moves[]`; reacts to a move being chosen, then `<confirm-choice>`.
-  - `<ticket-show>`: the ticket ready to show at the gate in one step, also with no signal; reads `tickets[].code`; reacts to "Show" and to the no-signal control.
+  - `<way-booking>`: the way bought as one journey: one price, the operators of every leg, "Book for" the price, then `<confirm-choice>` (every leg booked together, or none); a way with nothing to book (the car the whole way) or with an unknown price says so; reads one way of `ways.search.ways[]`; reacts to "Book" (nothing is paid or kept).
+  - `<ticket-card>`: a ticket held: what it covers, the seller, whether it was entered by the commuter, its state; holds `<ticket-show>` and `<ticket-move>`; reads `tickets[]`.
+  - `<ticket-move>`: the runs or days a ticket can be moved to and what each move costs; a seller that does not allow moving is said so before the commuter tries; reads `tickets[].moves[]`, `tickets[].no_move`; reacts to a move being chosen, then `<confirm-choice>` with its cost.
+  - `<ticket-show>`: the ticket ready to show at the gate in one step, also with no signal; reads `tickets[].code`; reacts to "Show ticket".
   - `<ticket-entry>`: entering a ticket bought elsewhere; reacts to "Add" (what is typed is shown, not kept).
   - `<confirm-choice>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
 - **Datasets:**
-  - `tickets` (defined in the foundation): `[{id, title, covers, seller, entered, state, code, moves[{to, cost}]}]`.
-  - `ways` (defined in the foundation): the way bought as one journey.
+  - `tickets` (defined in the foundation): `[{id, title, covers, seller, entered, state, code, moves[{to, cost}], no_move}]`.
+  - `config` (defined in the foundation): `signal` (`on`, `off`).
+  - `ways` (defined in the foundation): the way bought as one journey; `not_bookable` says why a way has nothing to book.
 - **Simulated events:**
-  - No signal: a visible control switches the screen to "no signal"; the ticket still shows from the data.
+  - No signal: chosen in the configurator (Signal: On / No signal), not with a control on the page, since Marco asked on 2026-11-21 for no simulating controls on the pages; the ticket still shows, buying and moving wait and say so.
   - A move confirmed: the ticket shows its new run from the move chosen.
 
 ## When things go wrong

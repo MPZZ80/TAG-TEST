@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:27
+date: 2026-11-22 18:31
 method: synthesis
 status: draft
 grade: n/a
@@ -110,8 +110,9 @@ One row per web component and per dataset in `data/`. Those defined in the found
 | `<connection-state>` | [SPEC-07](SPEC-07_the-connection-ahead.md) | [SPEC-07](SPEC-07_the-connection-ahead.md) |
 | `<way-search>` | [SPEC-08](SPEC-08_every-way-door-to-door.md) | [SPEC-08](SPEC-08_every-way-door-to-door.md) |
 | `<leg-timing>` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
-| `<tightness>` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
+| `<change-tightness>` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
 | `<works-note>` | [SPEC-09](SPEC-09_times-that-can-be-kept.md) | [SPEC-09](SPEC-09_times-that-can-be-kept.md) |
+| `<way-booking>` | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) |
 | `<ticket-card>` | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) |
 | `<ticket-move>` | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) |
 | `<ticket-show>` | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) |

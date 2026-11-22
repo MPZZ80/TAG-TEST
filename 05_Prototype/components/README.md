@@ -10,6 +10,14 @@ The web components of the prototype, one file per component, named after its tag
 | `usual-delay.js` | `<usual-delay>`: how late a run usually is | SPEC-01 | SPEC-02, SPEC-09 |
 | `way-card.js` | `<way-card>`: one way door to door: legs, times, price, who runs it, how full, the way back, take today or save | SPEC-01 | SPEC-08 |
 | `way-search.js` | `<way-search>`: two addresses with suggestions (favourites first), the day, leave after or arrive by and the time; also on Today when nothing is set up | SPEC-08 | SPEC-08 |
+| `works-note.js` | `<works-note>`: the arrival at the door, planned, expected at real times and with the works | SPEC-09 | SPEC-09 |
+| `leg-timing.js` | `<leg-timing>`: each part of the trip, planned and real, with its source | SPEC-09 | SPEC-09 |
+| `change-tightness.js` | `<change-tightness>`: how tight the change is against the commuter's rule, on paper and with the usual delay | SPEC-09 | SPEC-09 |
+| `way-booking.js` | `<way-booking>`: a way booked as one journey, with one price | SPEC-10 | SPEC-10 |
+| `ticket-card.js` | `<ticket-card>`: a ticket held, with `<ticket-show>` and `<ticket-move>` | SPEC-10 | SPEC-10 |
+| `ticket-show.js` | `<ticket-show>`: the ticket ready to show in one step, also with no signal | SPEC-10 | SPEC-10 |
+| `ticket-move.js` | `<ticket-move>`: the runs or days a ticket can be moved to, with the cost, before yes | SPEC-10 | SPEC-10 |
+| `ticket-entry.js` | `<ticket-entry>`: adding a ticket bought elsewhere | SPEC-10 | SPEC-10 |
 | `message-preview.js` | `<message-preview>`: the messages outside the product, as notifications on the lock screen | SPEC-01 | the lock screen, for SPEC-02, SPEC-03, SPEC-05 and later the others |
 | `missing-setup.js` | `<missing-setup>`: what is missing and where it is set up | SPEC-01 | every specification |
 | `source-gap.js` | `<source-gap>`: two sources that disagree, and the gap, shown in a dialog | SPEC-02 | SPEC-02 |

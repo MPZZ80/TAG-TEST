@@ -10,6 +10,7 @@
   const scenarioKey = DATA.scenarios.list[params.get("scenario")] ? params.get("scenario") : DATA.config.scenario;
   const at = params.get("at") || DATA.config.at;
   const travelDay = (params.get("day") || DATA.config.day) !== "off";
+  const signal = (params.get("signal") || DATA.config.signal) !== "off";
   if (!travelDay) Object.assign(DATA.clock, DATA.clock.off_day);
   // On a day with no travel the next trip has no live facts yet: its runs show as planned, from the on-time data.
   const dataKey = travelDay ? scenarioKey : "on_time";
@@ -34,7 +35,7 @@
   function href(file, extra) {
     const q = new URLSearchParams(extra || {});
     q.set("scenario", scenarioKey);
-    ["at", "day"].forEach(function (k) { if (params.get(k)) q.set(k, params.get(k)); });
+    ["at", "day", "signal"].forEach(function (k) { if (params.get(k)) q.set(k, params.get(k)); });
     if (params.get("choice") && !q.has("choice") && !(extra && extra.nochoice)) q.set("choice", params.get("choice"));
     q.delete("nochoice");
     return file + "?" + q.toString();
@@ -152,7 +153,7 @@
   function doorName(id) { const d = DATA.profile.doors.find(function (x) { return x.id === id; }); return d ? d.name : id; }
 
   window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: scenario,
-    dataKey: dataKey, at: at, travelDay: travelDay, tripState: tripState, passenger: passenger, nextTravelDay: nextTravelDay,
+    dataKey: dataKey, at: at, travelDay: travelDay, signal: signal, tripState: tripState, passenger: passenger, nextTravelDay: nextTravelDay,
     configBar: configBar, fill: fill, el: el, link: link, href: href, ticketLine: ticketLine, runState: runState, stateClass: stateClass, shell: shell,
     disagreeing: disagreeing, trip: trip, followedTrip: followedTrip,
     choice: choice, effectiveTrip: effectiveTrip, doorName: doorName, legStates: legStates };
