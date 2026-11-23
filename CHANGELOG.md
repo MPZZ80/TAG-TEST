@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 20:37
+
+- **Files:** `06_Design/01_Moodboard/Selected_Style/` (9 image folders), `06_Design/01_Moodboard/Not_Selected/` (3 image folders)
+- **Change:** The moodboard folders whose note Marco filled in moved to `Selected_Style/`, the ones with an empty note to `Not_Selected/`. The commit also carries Marco's own notes and his deletion of the duplicate `(1)` and `(2)` folders.
+- **Why:** Marco: "Prendi le sottocartelle di moodboard a cui ho inserito una nota nel file md all'interno e spostale in una cartella "selected style", le altre mettile in "Not Selected"".
+
 ## 2026-11-23 20:26
 
 - **Files:** `06_Design/01_Moodboard/Traderepublic_1/`, `06_Design/01_Moodboard/Traderepublic_2/`, each with its image and an empty `.md` of the same name

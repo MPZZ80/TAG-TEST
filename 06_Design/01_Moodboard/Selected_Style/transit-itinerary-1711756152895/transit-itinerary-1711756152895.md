@@ -1,0 +1,3 @@
+Di questo mi piace la schermata a sinistra che mostra i risultati della ricerca disposti in una linea temporale in base a che ora partono e quanto durano
+
+La schermata di dettaglio centrale di una delle alternative mi piace che fa vedere la mappa, ma sotto vorrei vedere una card floating che fa vedere i dettagli macro del trip, e se scorro in alto vedo i dettagli delle varie leg di quella soluzione (schermata a destra)

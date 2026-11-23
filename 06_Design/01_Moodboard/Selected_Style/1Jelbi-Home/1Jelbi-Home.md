@@ -1,0 +1,1 @@
+Di questa schermata mi piace la searchbar floating e la possibilità di scegliere quale tipologia di mezzi posso usare
