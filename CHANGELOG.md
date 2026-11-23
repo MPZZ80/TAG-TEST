@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 20:26
+
+- **Files:** `06_Design/01_Moodboard/Traderepublic_1/`, `06_Design/01_Moodboard/Traderepublic_2/`, each with its image and an empty `.md` of the same name
+- **Change:** The two new moodboard images moved into a subfolder each, next to an empty Markdown file, as for the others.
+- **Why:** Marco: "Ti ho aggiunto due file nella cartella moodboard fai come per gli altri le sottocartelle".
+
 ## 2026-11-23 19:59
 
 - **Files:** `06_Design/01_Moodboard/<image name>/` (13 folders, one per moodboard image), each with its image and an empty `<image name>.md`
