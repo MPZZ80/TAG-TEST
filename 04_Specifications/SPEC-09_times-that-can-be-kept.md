@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-23 21:36
+date: 2026-11-23 21:42
 method: synthesis
 status: draft
 grade: n/a
@@ -54,6 +54,7 @@ Times every leg and connection of a planned trip at the length it really takes: 
   3. Respect the maximum number of changes and include the own leg.
   4. Show how tight each connection is against the commuter's own rule.
   5. Show the trip time and arrival the commuter can expect from announced works and from how late that run usually is, next to the planned ones.
+  6. Show the way on a map, with a card floating over it that gives its main details: departure, the way as a row of segments, arrival at the door, total time. Pulling the card up shows the legs one by one, the map still visible above (Marco's note on the moodboard image transit-itinerary, 2026-11-23).
 - **States:** None of its own.
 - **The user receives:** Inside the product: for each leg and connection, its real time and tightness; for the trip, the planned and the expected arrival.
 - **Depends on:** Own rules ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Needs on the way ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Record of past runs ([SPEC-02](SPEC-02_real-state-of-the-run.md))
@@ -67,7 +68,9 @@ Times every leg and connection of a planned trip at the length it really takes: 
   - `<leg-timing>`: each leg and each way through a station at its planned and real length (longer in colour, unknown said so), with the source and a note such as where to board; reads `timing.legs[]`; no events.
   - `<change-tightness>` (named `<tightness>` in the first version: a web component needs a hyphen in its name): how tight the change is against the commuter's own rule, on paper and with the incoming run as late as usual; when it falls short, the planner counts on the next connection that keeps the rule; reads `connections` (station, the two runs), `runs` (times, `usual_delay`), `profile.own_rules`; no events: the plan is timed from the schedule and the record, not from today's state.
   - `<usual-delay>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
-  - `<way-strip>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, the way at the head of the page.
+  - `<way-strip>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, inside `<way-summary>`.
+  - `<way-summary>`: the card floating over the map (rule 6): departure, `<way-strip>`, arrival at the door, total time; pulled up, the legs of `<leg-timing>`; reads one way of `ways.search.ways[]` and `timing`; reacts to being pulled up or down.
+  - `<route-map>`: defined in [SPEC-02](SPEC-02_real-state-of-the-run.md); reused, the map of the whole way behind the card.
 - **Datasets:**
   - `timing` (defined here): `trip`, `way` (the trip followed today and the way of `ways` that is the same), `legs[{label, stage, planned, real, source, note}]`, `works{text, minutes, from}`, `arrival{planned, expected, works}`. Real times are recorded for this trip only; another way shows that none are recorded yet.
   - `connections` (defined in the foundation): `station`, `from_run`, `to_run`.
@@ -92,6 +95,7 @@ Comparing ways (SPEC-08); the live state of a run (SPEC-02).
 - **Given** a run usually 10 minutes late **when** the commuter plans **then** the expected arrival is shown next to the planned one.
 - **Given** a 3-minute walk to the platform that really takes 10 **when** the trip is timed **then** the walk counts at its real length.
 - **Given** works announced on the line **when** the commuter plans **then** the longer trip time is shown.
+- **Given** a way opened from the Ways page **when** Way detail shows **then** the map comes first with a card of the main details over it, and pulling the card up shows the legs.
 
 ## Open questions
 

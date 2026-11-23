@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-23 21:36
+date: 2026-11-23 21:42
 method: synthesis
 status: draft
 grade: n/a
@@ -52,11 +52,14 @@ Opens the product on the trip the commuter is about to make today: its run, stat
   2. Mark a platform that differs from the usual one, and a platform that may still change.
   3. Show nothing in front of the trip information: no announcement, offer or request comes before it.
   4. The trip of the day is the trip followed today ([SPEC-17](SPEC-17_trips.md)) with the runs it plans. The commuter chooses the trip beforehand, whether or not they already hold a ticket, and the planned run is taken as the one they take: there is no step to confirm it. When it turns out late or cancelled, it stays the run of the trip until the commuter chooses an alternative ([SPEC-02](SPEC-02_real-state-of-the-run.md)). Decided by Marco on 2026-11-21, in place of confirming or changing the run on Today.
-  5. A way chosen in SPEC-08 for today becomes the trip of the day; so does an alternative chosen for a leg in [SPEC-02](SPEC-02_real-state-of-the-run.md), or a way out chosen in [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md): its legs replace the planned ones from that leg to the door, and the arrival at the door is the alternative's.
+  5. A way chosen in SPEC-08 for today becomes the trip of the day; so does an alternative chosen for a leg in [SPEC-02](SPEC-02_real-state-of-the-run.md), or a way out chosen in [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md): its legs replace the planned ones from that leg to the door, and the arrival at the door is the alternative's. Today then says which alternative replaced which run and the new arrival at the door, with a way back to the planned trip (Marco, 2026-11-19).
   6. Show the trip divided into legs, each in a section of its own titled with its number, its stage and its usual means of transport (for example "Leg 1 of 4 · first mile · Car"), with its two ends and, in short, its run and state, or its means and time, and what changes it (SPEC-02). The news that its run is late or cancelled sits on the leg, not above the trip, and leads to the leg on Run with its alternatives ([SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md)). The name of a leg opens its detail on the Run page ([SPEC-02](SPEC-02_real-state-of-the-run.md)).
   7. Show the state of each leg next to its name: to do, in progress, completed (foundation, States). The leg in progress stands out; a completed leg is quieter and no longer shows what changes it.
   8. Under the trip, list the commuter's other trips ([SPEC-17](SPEC-17_trips.md)).
   9. Move the trip of the day through its states (today, under way, completed) as its runs move.
+  10. After the last leg, a box gives the expected arrival at the door. It holds "Share updates" ([SPEC-06](SPEC-06_those-waiting-are-told.md); Marco, 2026-11-22) and, for a trip whose real times are recorded, "How long each leg really takes", which opens Way detail ([SPEC-09](SPEC-09_times-that-can-be-kept.md)).
+  11. Draw the legs on a vertical line, one segment per leg in the colour of its line or means, with the stops where the commuter boards, changes or gets off; walking between legs is a dotted line with its minutes (Marco's note on the moodboard image 1Jelbi-Intermodal, 2026-11-23: "la struttura delle LEG che potrebbe stare dentro a Today").
+  12. While a leg is under way, a card stays on the lock screen: the means and line of the leg, one leading fact (for example "Get off in 18 stops"), a bar of progress along the leg, the arrival time and the minutes left. Tapping it opens that leg on Run (Marco's note on the moodboard image transit-live-activity, 2026-11-23). How a card stays on the lock screen of a phone is [technology choice open].
 - **States:** Trip states of the foundation: planned, today, under way, completed, broken, abandoned.
 - **The user receives:** Inside the product, on opening: the trip of the day and its state.
 - **Depends on:** Usual trip ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Days of travel ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Doors ([SPEC-01](SPEC-01_foundation.md), Initial set-up); Real state of a run ([SPEC-02](SPEC-02_real-state-of-the-run.md)); A way chosen for today ([SPEC-08](SPEC-08_every-way-door-to-door.md))
@@ -72,6 +75,10 @@ Opens the product on the trip the commuter is about to make today: its run, stat
   - `<missing-setup>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
   - `<trip-list>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips under the trip of the day, each a `<trip-card>`.
   - `<leg-problem>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, under a car or walking leg of the trip of the day (traffic, an accident, works), as SPEC-02 rule 16 describes.
+  - `<share-updates>`: defined in [SPEC-06](SPEC-06_those-waiting-are-told.md); reused, in the box of the arrival (rule 10).
+  - `<way-search>`: defined in [SPEC-08](SPEC-08_every-way-door-to-door.md); reused under "Plan a trip" when nothing is set up.
+  - `<first-trip-cta>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, when nothing is set up.
+  - `<lock-trip-card>`: the card of the leg under way on the lock screen (rule 12): means and line, the leading fact, the bar of progress, arrival and minutes left; reads `profile.trips` (the trip followed today), `runs.<id>.stops`, `config.at`, `clock`; reacts to a tap, which opens the leg on Run.
 - **Datasets:**
   - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}]` (the trip followed today), `days`, `doors`.
   - `runs` (defined in the foundation): state, expected times and platforms of each run of the trip.
@@ -84,10 +91,11 @@ Opens the product on the trip the commuter is about to make today: its run, stat
   - The trip changing during the morning: the scenario of the configurator (`on_time`, `late`, `cancelled`); with `none`, nothing is set up and `<missing-setup>` leads to the initial set-up.
   - The commuter moving along the trip: where the configurator puts them (before the trip, on leg 1 to 4, after the trip) sets the state of each leg and of the trip.
   - A day with no travel: the day of the configurator.
+  - The leg under way on the lock screen: the lock screen shows `<lock-trip-card>` for the leg where the configurator puts the commuter.
 
 ## When things go wrong
 
-- **No usual trip and no trip chosen:** the product opens on a search (SPEC-08) and says the usual trip can be set in SPEC-01.
+- **No usual trip and no trip chosen:** the product opens on "Plan a trip", the search of SPEC-08, which opens the Ways page with the search (Marco, 2026-11-22), and on the invitation to set up the first trip (SPEC-01).
 - **Not a travel day:** the page is called "Next trip" instead of Today, in its title, in the navigation and in the links back to it, and opens on the next travel day's trip with its day, its date and how far it is (tomorrow, in 3 days); its runs show as planned, with no live facts, and every leg is to do.
 - **No data about the run:** "no news since <time>", as in SPEC-02.
 - **The commuter takes another run without saying so:** the trip of the day stays on the planned run [not traced: whether it may be inferred].
@@ -106,7 +114,10 @@ The detail of the run (SPEC-02); planning other ways (SPEC-08).
 - **Given** an announcement to make **when** the commuter opens the product **then** it is not shown before the trip information.
 - **Given** a trip followed today with the 7:45 **when** the commuter opens the product **then** the 7:45 is the run of the trip, with no step to confirm it, and it stays so when it is late until the commuter chooses an alternative.
 - **Given** a Saturday, not a travel day, with travel days Tuesday and Wednesday **when** the commuter opens the product **then** the page is called "Next trip" and shows "Tuesday 24 Nov, in 3 days" and the trip with its planned runs.
-- **Given** no usual trip **when** the commuter opens the product **then** it opens on a search and says where to set the usual trip.
+- **Given** no usual trip **when** the commuter opens the product **then** it opens on "Plan a trip" and the invitation to set up the first trip.
+- **Given** the trip of the day **when** the commuter reaches the end of Today **then** a box after leg 4 gives the expected arrival at the Milan apartment, with "Share updates" and "How long each leg really takes".
+- **Given** the FlixBus chosen in place of the cancelled 9707 **when** the commuter lands on Today **then** a line says the FlixBus replaced the 9707, with the new arrival at the door and a way back to the planned trip.
+- **Given** the commuter on the train of leg 2 **when** they look at the lock screen **then** a card shows the train, how many stops are left, the progress along the leg and the arrival; tapping it opens leg 2 on Run.
 
 ## Open questions
 

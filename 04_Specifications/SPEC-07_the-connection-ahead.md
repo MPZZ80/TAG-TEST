@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 17:31
+date: 2026-11-23 21:42
 method: synthesis
 status: draft
 grade: n/a
@@ -53,6 +53,7 @@ Tells the commuter, before they reach a change, whether the connection still hol
   3. When it is lost, give the next connection that holds and the new arrival at the door.
   4. When the run before the change is cancelled, there is no change to watch: the commuter is sent to the ways out of that leg (SPEC-05).
   5. Once the commuter is past the change, it is shown as behind them.
+  6. While the commuter rides the leg that leads to the change, count the stops left before it; shown on the Connection page and on the card of the leg on the lock screen ([SPEC-04](SPEC-04_todays-trip-at-a-glance.md) rule 12) (Marco's note on the moodboard image transit-live-activity, 2026-11-23: "quante fermate mancano al prossimo cambio").
   - **Asking the connection to wait** (rules 4 and 5 of the first version, story F-22): Set aside on 2026-11-22 (Marco): a train waiting for its passengers is not realistic; it could make sense if the product were the railway's, so it is not built for now. Only the information on the next connection is kept ([OQ-18](01_Open_Questions/OQ-18_asking-a-connection-to-wait.md)).
 - **States:** Connection: holds → at risk → lost; `planned` on a day with no travel.
 - **The user receives:** A message on the chosen channel, on the lock screen in the prototype, when the connection changes state; inside the product, the Connection page.
@@ -67,7 +68,7 @@ Tells the commuter, before they reach a change, whether the connection still hol
   - `<message-preview>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
 - **Datasets:**
   - `connections` (defined in the foundation): `station`, `from_run`, `to_run`, `walk_minutes`, `board_where`, `by_scenario.<key>{state, margin, next_dep, door_arrival, warn_at}`.
-  - `runs` (defined in the foundation): the incoming and outgoing runs.
+  - `runs` (defined in the foundation): the incoming and outgoing runs; `stops` and `by_scenario.<key>.pos` for the stops left before the change.
   - `profile` (defined in the foundation): `own_rules.min_change`, `own_rules.per_station`.
   - `notifications` (defined in the foundation): `connection.<scenario or any>[]`.
 - **Simulated events:**
@@ -89,6 +90,7 @@ Telling the people met (SPEC-06); the ways out if the connection is lost and no 
 - **Given** the connection is lost **when** the commuter is told **then** they also see the next connection that holds and the new arrival.
 - **Given** the 9707 18 minutes late **when** the commuter opens the connection **then** it is lost, with 14 minutes missing against the 10 of their own rule, and the next M2 at 09:28 brings them to the Milan apartment around 09:39.
 - **Given** the 9707 cancelled **when** the commuter opens the connection **then** there is no change to watch and a link leads to the ways out of that leg.
+- **Given** the commuter on the 9707 past Brescia **when** they open the connection or look at the lock screen **then** the stops left before Milano Centrale are counted.
 
 ## Open questions
 

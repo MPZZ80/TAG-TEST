@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-23 21:36
+date: 2026-11-23 21:42
 method: synthesis
 status: draft
 grade: n/a
@@ -53,6 +53,7 @@ Lets the commuter buy a way as one journey, hold their tickets, move a ticket to
   3. Show a valid ticket in one step, also with no signal.
   4. Let the commuter move a ticket to another run or day where its conditions allow, up to departure, and show what moving costs before they confirm.
   5. Change nothing on a ticket without the commuter's yes.
+  6. Let the commuter hold more than one way to pay (a card, a direct debit, a wallet), add one, and choose which is used first; when booking, they may pick another (Marco's note on the moodboard image 1Jelbi-Payment, 2026-11-23: "si possa scegliere più di un metodo di pagamento"). What is added is shown, not kept.
 - **States:** Ticket: `held` → `used` or `moved` or `expired`.
 - **The user receives:** Inside the product: the tickets held and what each covers.
 - **Depends on:** Ways between two places ([SPEC-08](SPEC-08_every-way-door-to-door.md))
@@ -68,10 +69,12 @@ Lets the commuter buy a way as one journey, hold their tickets, move a ticket to
   - `<ticket-move>`: the runs or days a ticket can be moved to and what each move costs; a seller that does not allow moving is said so before the commuter tries; reads `tickets[].moves[]`, `tickets[].no_move`; reacts to a move being chosen, then `<confirm-choice>` with its cost.
   - `<ticket-show>`: the ticket ready to show at the gate in one step, also with no signal; reads `tickets[].code`; reacts to "Show ticket".
   - `<ticket-entry>`: entering a ticket bought elsewhere; reacts to "Add" (what is typed is shown, not kept).
+  - `<payment-methods>`: the ways to pay held, each with its name and whether it is used first, and adding one; on Tickets, and in `<way-booking>` before "Book"; reads `payments[]`; reacts to choosing the first one, to adding one (shown, not kept) and to picking one for a booking.
   - `<confirm-choice>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
 - **Datasets:**
   - `tickets` (defined in the foundation): `[{id, title, covers, seller, entered, state, code, moves[{to, cost}], no_move}]`.
   - `config` (defined in the foundation): `signal` (`on`, `off`).
+  - `payments` (defined here): `[{id, kind, name, first}]`: the ways to pay of the mock commuter (`kind`: card, debit, wallet).
   - `ways` (defined in the foundation): the way bought as one journey; `not_bookable` says why a way has nothing to book.
 - **Simulated events:**
   - No signal: chosen in the configurator (Signal: On / No signal), not with a control on the page, since Marco asked on 2026-11-21 for no simulating controls on the pages; the ticket still shows, buying and moving wait and say so.
@@ -93,6 +96,7 @@ Which fare fits the days travelled (SPEC-11); compensation (SPEC-12).
 - **Given** no signal in the underground **when** the commuter opens the ticket **then** a valid ticket is shown.
 - **Given** five minutes to departure **when** the commuter moves the ticket to the next train **then** the cost is shown before they confirm.
 - **Given** a ticket bought elsewhere **when** the commuter enters it **then** it is among the tickets held.
+- **Given** a card and a wallet held, the card first **when** the commuter books a way **then** the card is proposed and the wallet can be picked instead.
 
 ## Open questions
 

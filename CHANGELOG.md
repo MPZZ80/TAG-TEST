@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 21:42
+
+- **Files:** `04_Specifications/SPEC-04_todays-trip-at-a-glance.md`, `SPEC-07_the-connection-ahead.md`, `SPEC-08_every-way-door-to-door.md`, `SPEC-09_times-that-can-be-kept.md`, `SPEC-10_tickets-that-work-when-needed.md`, `SPEC-00_overview.md`
+- **Change:** SPEC-03 to SPEC-10 checked against Marco's changes in the commits since the build of SPEC-02. Two kinds of gap filled. First, changes made by hand on the prototype that had not reached SPEC-04: the line after an alternative is chosen, with the way back to the planned trip (rule 5); the box of the arrival after the last leg with "Share updates" and "How long each leg really takes" (rule 10); "Plan a trip" when nothing is set up; components `<share-updates>`, `<way-search>`, `<first-trip-cta>`. Second, Marco's moodboard notes: legs of Today on a vertical line and the card of the leg under way on the lock screen (SPEC-04 rules 11 and 12, `<lock-trip-card>`); the stops left before the change (SPEC-07 rule 6); choosing the means and the ways on one time axis (SPEC-08 rules 9 and 10); the map with the floating card of the way, pulled up for the legs (SPEC-09 rule 6, `<way-summary>`, `<route-map>` reused); more than one way to pay (SPEC-10 rule 6, `<payment-methods>`, dataset `payments`). New acceptance criteria for each. SPEC-00: rows for the new components and dataset, users of `<way-search>` and `<route-map>`. SPEC-03, SPEC-05 and SPEC-06 already matched the commits.
+- **Why:** Marco: "vedi di aggiornare anche le spec dalla 03 alla 10 con le modifiche che ti ho dato, dando un'occhiata ai commit vecchi dal commit 'Prototype: build SPEC 02...' in avanti".
+
 ## 2026-11-23 21:36
 
 - **Files:** `04_Specifications/SPEC-01_foundation.md`, `SPEC-00_overview.md`, `SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-08_every-way-door-to-door.md`, `SPEC-09_times-that-can-be-kept.md`, `SPEC-10_tickets-that-work-when-needed.md`, `SPEC-17_trips.md`
