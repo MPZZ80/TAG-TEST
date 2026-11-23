@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 19:59
+
+- **Files:** `06_Design/01_Moodboard/<image name>/` (13 folders, one per moodboard image), each with its image and an empty `<image name>.md`
+- **Change:** Every image of the moodboard moved into a subfolder with its own name, next to an empty Markdown file with the same name.
+- **Why:** Marco: "Una per ogni file immagine dentro a moodboard con lo stesso nome in cui salverai l'immagine e un file md vuoto per ogni sottocartella, dopo ci scriverò delle cose entro".
+
 ## 2026-11-23 18:54
 
 - **Files:** `AGENTS.md`
