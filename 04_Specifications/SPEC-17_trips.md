@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:06
+date: 2026-11-23 21:36
 method: synthesis
 status: draft
 grade: n/a
@@ -63,7 +63,7 @@ Keeps the commuter's trips door to door as a free list: each trip has a name, th
 
 - **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Trips** (PG-16): the whole page; **Today** (PG-01): the other trips, as a section under the trip of the day.
 - **Components:**
-  - `<trip-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, with the choice "Follow today" and the buttons to rename and delete it.
+  - `<trip-list>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, each trip a `<trip-card>` with the choice "Follow today" and the buttons to rename and delete it.
   - `<first-trip-cta>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, in place of the list when nothing is set up, leading to the set-up.
 - **Datasets:**
   - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}]`, `doors`.

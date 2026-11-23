@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:34
+date: 2026-11-23 21:36
 method: synthesis
 status: draft
 grade: n/a
@@ -70,7 +70,7 @@ Opens the product on the trip the commuter is about to make today: its run, stat
   - `<run-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
   - `<fact-line>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
   - `<missing-setup>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
-  - `<trip-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips under the trip of the day.
+  - `<trip-list>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips under the trip of the day, each a `<trip-card>`.
   - `<leg-problem>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, under a car or walking leg of the trip of the day (traffic, an accident, works), as SPEC-02 rule 16 describes.
 - **Datasets:**
   - `profile` (defined in the foundation): `trips[{id, name, from, to, monitored, legs[{mode, from, to, run, minutes, stage}]}]` (the trip followed today), `days`, `doors`.

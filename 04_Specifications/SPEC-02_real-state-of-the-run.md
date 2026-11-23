@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-21 19:34
+date: 2026-11-23 21:36
 method: synthesis
 status: draft
 grade: n/a
@@ -53,7 +53,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
   3. For a run that is not cancelled, show the planned and expected departure and arrival, the platform, and where the run is now.
   4. Show "Why" only when the run is late or cancelled and a source gives the reason; a run with no problem has no "Why".
   5. For a cancelled run, show only that it is cancelled, with its source, and why; not the planned and expected times, the platform or the position.
-  6. Under the card of the leg, show a map of the leg: its route in the colour of its means, its stops, the vehicle where it is now, moving as its position changes, and, on a leg made on one's own, where it is blocked and the way round. When the run is late or cancelled, the alternatives are drawn on the same map in grey. Where the live position comes from is open ([OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md)); which map is [technology choice open] ([OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md)).
+  6. First, under the head of the page, show a map of the leg, with the card of the leg floating over it (Marco, 2026-11-23, [Style.md](../06_Design/Style.md): the map is always there): its route in the colour of its means, its stops, the vehicle where it is now, moving as its position changes, and, on a leg made on one's own, where it is blocked and the way round. When the run is late or cancelled, the alternatives are drawn on the same map in grey. Where the live position comes from is open ([OQ-01](01_Open_Questions/OQ-01_sources-of-the-real-position.md)); which map is [technology choice open] ([OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md)).
   7. Show the stops of the run, each with its planned time and its expected time; the expected times move with the expected departure; a cancelled run, or one with no news, has no expected times.
   8. Keep the facts behind the card (every figure with its source, age and status) and how late the run usually is under "Details", closed until the commuter opens it.
   9. When two sources give different figures for the same thing, show an information button next to the state; it opens a dialog with each figure, its source and age, and the gap between them.
@@ -86,6 +86,9 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
   - The grey background of both maps (`MapBase`, a helper, not a component): towns with a street grid on city maps, lakes and rivers, the motorway, main roads and streets with their names, the railway; a placeholder for a real map; reads `map_features`.
   - `<run-stops>`: the stops of the run in a table, with the planned and the expected time of each; reads `runs.<id>.stops` and the expected departure of the scenario; no events.
   - `<leg-alternatives>`: small slots in a row that scrolls (kind, arrival, time it takes; at most 8), and the details of the slot tapped with "Choose"; reads `runs.<id>.alternatives` (with `short`, the kind shown on the slot); sends "alt-select" and "alt-choose". Before: the other ways to make one leg, as cards: service, operator, source, departure and arrival, arrival at the door, ticket validity and cost, a note; reads `runs.<id>.alternatives`; no events (choosing and booking a way are [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) and [SPEC-10](SPEC-10_tickets-that-work-when-needed.md)).
+  - `<leg-card>`: a leg with no run of the schedule: a leg made on one's own, with its time and `<leg-problem>`, or the leg of a chosen alternative; reads the leg of `profile.trips` or of the alternative, and `leg_events`; no events.
+  - `<sources-dialog>`: the dialog that holds `<source-gap>`; reads the run; reacts to the "sources" event of `<run-card>` and to "Close".
+  - `<alternative-detail>`: the whole Alternative page (rule 17): the details of the alternative, `<route-map>`, the trip door to door with it, the arrival at the door, "Choose this way"; reads `runs.<id>.alternatives[]`, `profile.trips`; reacts to "Choose this way", then `<confirm-choice>`.
   - `<trip-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, for the other trips.
   - `<first-trip-cta>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, in place of the runs when nothing is set up.
   - `<route-map>`: a sketch of the route of an alternative on a map, one colour per means of transport, with the names of the stops that do not overlap and a legend; reads `runs.<id>.alternatives[].route`; no events. A real map is [technology choice open] ([OQ-36](01_Open_Questions/OQ-36_the-map-of-a-route.md)).
@@ -115,7 +118,7 @@ Tells the commuter, for one leg of a trip door to door, the real state of its ru
 
 ## Out of scope
 
-Booking or buying an alternative: [SPEC-10](SPEC-10_tickets-that-work-when-needed.md). The layout on a phone is to be designed: one idea is a map that stays fixed while the alternatives sit on a sheet that scrolls over it, as in map apps (Marco, 2026-11-21). The ways out door to door, from wherever the commuter is: [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md). Connections: [SPEC-07](SPEC-07_the-connection-ahead.md). Adding, renaming, deleting and choosing the trips: [SPEC-17](SPEC-17_trips.md). Which kinds of event the commuter is told about, at which moments of a travel day, and the works and strikes announced for coming days: alerts ([SPEC-03](SPEC-03_alerts-on-the-usual-trip.md)).
+Booking or buying an alternative: [SPEC-10](SPEC-10_tickets-that-work-when-needed.md). The layout on a phone is to be designed: one idea is a map that stays fixed while the alternatives sit on a sheet that scrolls over it, as in map apps (Marco, 2026-11-21); the map first with the card over it is settled (Marco, 2026-11-23, [Style.md](../06_Design/Style.md)). The ways out door to door, from wherever the commuter is: [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md). Connections: [SPEC-07](SPEC-07_the-connection-ahead.md). Adding, renaming, deleting and choosing the trips: [SPEC-17](SPEC-17_trips.md). Which kinds of event the commuter is told about, at which moments of a travel day, and the works and strikes announced for coming days: alerts ([SPEC-03](SPEC-03_alerts-on-the-usual-trip.md)).
 
 ## Acceptance criteria
 

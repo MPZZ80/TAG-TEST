@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 21:36
+
+- **Files:** `04_Specifications/SPEC-01_foundation.md`, `SPEC-00_overview.md`, `SPEC-02_real-state-of-the-run.md`, `SPEC-04_todays-trip-at-a-glance.md`, `SPEC-08_every-way-door-to-door.md`, `SPEC-09_times-that-can-be-kept.md`, `SPEC-10_tickets-that-work-when-needed.md`, `SPEC-17_trips.md`
+- **Change:** The specifications brought in line with the last commits on the prototype. SPEC-01, Architecture: every part of a page is a component, the head included (log 52); five shared components added to the table (`<app-bar>`, `<page-head>`, `<lock-phone>`, `<trip-list>`, `<way-strip>`); a "Style" bullet pointing to `06_Design/Style.md`, with the map first and the card over it; PG-04 no longer names the message prepared for a contact (SPEC-06 changed on 2026-11-22). SPEC-02: rule 6 puts the map first with the card floating over it; `<leg-card>`, `<sources-dialog>`, `<alternative-detail>` added. SPEC-04 and SPEC-17 use `<trip-list>`; SPEC-08 adds `<way-results>` and `<way-strip>`; SPEC-09 `<way-strip>`; SPEC-10 `<ticket-list>`. SPEC-00: ten rows added to the table of components.
+- **Why:** Marco: "Aggiorna le specifiche secondo le modifiche che ti ho dato negli ultimi commit".
+
 ## 2026-11-23 21:18
 
 - **Files:** `05_Prototype/css/style.css`, `05_Prototype/css/README.md`, `06_Design/Style.md`

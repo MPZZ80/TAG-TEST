@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:27
+date: 2026-11-23 21:36
 method: synthesis
 status: draft
 grade: n/a
@@ -67,6 +67,8 @@ Shows every way of making a trip door to door, for a given day and time, side by
 - **Components:**
   - `<way-search>`: two addresses typed with suggestions (the favourite addresses first, then `places`), the day, and a time to leave after or to arrive by; reads `ways.search{from, to, day, when, time}`, `profile.doors`, `places`; reacts to typing (suggestions) and to "Search": on the Ways page, leave after or arrive by and the time reorder the ways; on Today when nothing is set up (attribute `go`), it opens the Ways page with the search in the address. The places and the day are shown, not kept.
   - `<way-card>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, side by side: legs, departure, arrival at the door, total time, price (unknown when not known), who runs it, how full (unknown when not known), when it brings the commuter back home at the end of the working day, its source, "Sold out" when it is; "Take this way today" (asked first, with `<confirm-choice>`) and "Save to your trips". Saving replaces the `<save-usual>` of the first version.
+  - `<way-results>`: the ways found, each a `<way-card>`, ordered by leave after or arrive by, a sold-out way last; reads `ways.search`; reacts to the search and to "way-today" and "way-save" (said so, not kept).
+  - `<way-strip>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, inside each `<way-card>`.
   - `<confirm-choice>`: defined in the foundation; asks before a way becomes the trip of today.
 - **Datasets:**
   - `ways` (defined in the foundation): `search{from, to, day, when, time, back_after, ways[{id, label, legs[{mode, text}], dep, arr_door, minutes, price, operators, back_home, fullness, sold_out, source}]}`; `price` or `back_home` null is unknown. Mock ways from the Verona home to the Milan apartment, one per kind of means between the cities: high-speed trains of two operators, a regional, a coach, a shared car, the car the whole way.

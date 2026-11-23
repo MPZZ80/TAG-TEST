@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:31
+date: 2026-11-23 21:36
 method: synthesis
 status: draft
 grade: n/a
@@ -67,6 +67,7 @@ Times every leg and connection of a planned trip at the length it really takes: 
   - `<leg-timing>`: each leg and each way through a station at its planned and real length (longer in colour, unknown said so), with the source and a note such as where to board; reads `timing.legs[]`; no events.
   - `<change-tightness>` (named `<tightness>` in the first version: a web component needs a hyphen in its name): how tight the change is against the commuter's own rule, on paper and with the incoming run as late as usual; when it falls short, the planner counts on the next connection that keeps the rule; reads `connections` (station, the two runs), `runs` (times, `usual_delay`), `profile.own_rules`; no events: the plan is timed from the schedule and the record, not from today's state.
   - `<usual-delay>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused.
+  - `<way-strip>`: defined in the foundation ([SPEC-01](SPEC-01_foundation.md), Architecture); reused, the way at the head of the page.
 - **Datasets:**
   - `timing` (defined here): `trip`, `way` (the trip followed today and the way of `ways` that is the same), `legs[{label, stage, planned, real, source, note}]`, `works{text, minutes, from}`, `arrival{planned, expected, works}`. Real times are recorded for this trip only; another way shows that none are recorded yet.
   - `connections` (defined in the foundation): `station`, `from_run`, `to_run`.

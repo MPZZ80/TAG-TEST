@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:31
+date: 2026-11-23 21:36
 method: synthesis
 status: draft
 grade: n/a
@@ -63,6 +63,7 @@ Lets the commuter buy a way as one journey, hold their tickets, move a ticket to
 - **Pages** (from the information architecture of [SPEC-01](SPEC-01_foundation.md)): **Tickets** (PG-07): the tickets, first, then adding one bought elsewhere and a link to find a way and book it; **Way detail** (PG-06): buying the way as one journey.
 - **Components:**
   - `<way-booking>`: the way bought as one journey: one price, the operators of every leg, "Book for" the price, then `<confirm-choice>` (every leg booked together, or none); a way with nothing to book (the car the whole way) or with an unknown price says so; reads one way of `ways.search.ways[]`; reacts to "Book" (nothing is paid or kept).
+  - `<ticket-list>`: the whole Tickets page: the tickets held as `<ticket-card>`s, `<ticket-entry>` and the link to find a way and book it; reads `tickets[]`, `config.signal`; no events of its own.
   - `<ticket-card>`: a ticket held: what it covers, the seller, whether it was entered by the commuter, its state; holds `<ticket-show>` and `<ticket-move>`; reads `tickets[]`.
   - `<ticket-move>`: the runs or days a ticket can be moved to and what each move costs; a seller that does not allow moving is said so before the commuter tries; reads `tickets[].moves[]`, `tickets[].no_move`; reacts to a move being chosen, then `<confirm-choice>` with its cost.
   - `<ticket-show>`: the ticket ready to show at the gate in one step, also with no signal; reads `tickets[].code`; reacts to "Show ticket".

@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-22 18:31
+date: 2026-11-23 21:36
 method: synthesis
 status: draft
 grade: n/a
@@ -125,7 +125,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 
 - **Pages:** the pages of the information architecture (below); each specification names those it uses.
 - **Frontend only.** No backend, no API, no server-side code. The product does not compute, store or fetch anything for real: it shows the interface, the flows and the interactions so that they can be tested. What the commuter types is shown on the page, not kept; to change what the prototype starts from, change the datasets.
-- **Web components.** Every part of the interface is a web component. The components two or more specifications share:
+- **Web components.** Every part of the interface is a web component, the head of a page included: a page only places components, and an element that has none gets a new one (Marco, 2026-11-23). The components two or more specifications share:
 
 | Component | What it shows | Data it reads | Events it reacts to | Used by |
 | --- | --- | --- | --- | --- |
@@ -142,6 +142,11 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | `<scenario-switch>` | The configurator, in a bar of its own at the top of every page: the scenario (nothing set up, on time, late, cancelled), where the commuter is on the trip followed today (before the trip, leg 1 to 4, after the trip) whether it is a travel day, and whether the phone has a signal; for testing, not part of the product. On a phone, where it goes is to be designed | `scenarios`, `config`, `profile.trips` | choosing a value, which reloads the page with it in the address | every specification |
 | `<start-page>` | The start page (below) | `profile`, `scenarios`, `clock`, `ui_text` | see "Start page" | SPEC-01, SPEC-04 |
 | `<setup-flow>` | The initial set-up, step by step (below) | `profile`, `ui_text` | next, back, skip, save | SPEC-01 and every specification that leads to it |
+| `<app-bar>` | The product, the mock clock and the navigation (Information architecture, below), the page open marked | `ui_text.nav`, `clock`, the hour of the scenario | none: plain links | every specification |
+| `<page-head>` | The head of a page: the way back, the title, the line under it, a state badge and the notes of the whole page | what the specification passes | the way back | every specification |
+| `<lock-phone>` | The fake phone of the lock screen, holding `<message-preview>` | `clock` | none | the specifications that use `<message-preview>` |
+| `<trip-list>` | The trips as `<trip-card>`s; on Trips, also the trip followed today, rename and delete (shown, not kept) | `profile.trips`, `profile.doors` | "Follow today", rename, delete | SPEC-04, SPEC-17 |
+| `<way-strip>` | A way as one row of segments, each in the colour of its means | the legs of one way of `ways.search.ways[]` | none | SPEC-08 (inside `<way-card>`), SPEC-09 |
 
 - **Datasets in `data/`, all mock.** Invented but plausible, consistent with the stories and the evidence, for one commuter, the Verona–Milan commuter, so that every page tells the same story. Real data from a client go into the same datasets with the same fields. The datasets two or more specifications read:
 
@@ -161,6 +166,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 
 - **Events from outside are simulated.** What the product cannot reach without a backend (an operator's live data, other travellers' reports, an answer from another service, a message on a channel outside the product) is a dataset. An event it would send (a delay, a cancellation, an answer, an incoming message) is triggered by `<scenario-switch>`, by the lock screen (`<message-preview>`), or by a timer on the mock clock, and its content comes from the data.
 - **From one page to the next.** What the commuter chooses on one page reaches the next in the address of the page (for example the scenario, where the commuter is, the day, the run, the way or the alternative chosen: `?scenario=late&at=leg-2&day=travel&run=HS9707`, `?choice=HS9707:A4`). Nothing else is passed and nothing is stored.
+- **Style.** How every page and component looks is [Style.md](../06_Design/Style.md) (Marco, 2026-11-23); the specifications say what a page holds and in which order, not how it looks. On a page that shows a trip, a way or a leg, the map comes first and the card floats over it (Style.md, principle 3).
 - **How the files are laid out** is in [Prototype_Instructions.md](../05_Prototype/instructions/Prototype_Instructions.md); the specifications name components and datasets, not files.
 
 ## Information architecture
@@ -176,7 +182,7 @@ How the product is built for testing UX, UI and flows. Stories: all 24. Used by:
 | PG-01 | **Today (start page)** | What the product opens on: the trip of the day, with nothing in front of it; at the first opening, the way into the set-up or a one-off search | Opening the product; the navigation | [SPEC-04](SPEC-04_todays-trip-at-a-glance.md) the trip of the day, first, divided into legs, each leading to its detail on Run; [SPEC-17](SPEC-17_trips.md) the other trips, under it; [SPEC-02](SPEC-02_real-state-of-the-run.md) the state of each run, as a line of the trip; [SPEC-07](SPEC-07_the-connection-ahead.md) the change, as a line of the trip; [SPEC-13](SPEC-13_the-station-ahead.md) a facility that fails on the trip, as a line; [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) a line leading to the ways out when the trip breaks; [SPEC-06](SPEC-06_those-waiting-are-told.md) "Share updates" in the box of the expected arrival at the door, which opens the share sheet of the phone; [SPEC-14](SPEC-14_stop-approaching.md) a line leading to the stop page while the trip is under way; [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) a line leading to the drive page on a car leg; [SPEC-16](SPEC-16_sessions-still-running.md) a line for a session still running |
 | PG-02 | **Run** | One leg of a trip: the real state of its run with its stops, or its means and time; the alternatives when it fails | The name of a leg on Today, a trip on Trips, a way; a message about a run (the starting point of the prototype) | [SPEC-02](SPEC-02_real-state-of-the-run.md) the leg, first; its stops; the alternatives when it is late or cancelled |
 | PG-03 | **Connection** | Whether the change ahead still holds, and the next one that does (asking the connection to wait set aside on 2026-11-22) | The change on Today; a message about the connection | [SPEC-07](SPEC-07_the-connection-ahead.md) the whole page |
-| PG-04 | **Ways out** | Not a page of its own since 2026-11-21 (Marco): the ways out are the alternatives on the Run page (PG-02) of the leg that broke | The broken trip on Today; a message that the trip is broken; Run, when its run is cancelled | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) the whole page; [SPEC-06](SPEC-06_those-waiting-are-told.md) the message ready to send to a contact |
+| PG-04 | **Ways out** | Not a page of its own since 2026-11-21 (Marco): the ways out are the alternatives on the Run page (PG-02) of the leg that broke | The broken trip on Today; a message that the trip is broken; Run, when its run is cancelled | [SPEC-05](SPEC-05_ways-out-when-the-trip-breaks.md) the whole page; [SPEC-06](SPEC-06_those-waiting-are-told.md) "Share updates", under the ways out (no message prepared) |
 | PG-05 | **Ways** | Every way door to door for a day and time, side by side | The navigation; the search on Today when nothing is set up | [SPEC-08](SPEC-08_every-way-door-to-door.md) the whole page; [SPEC-15](SPEC-15_the-route-stays-with-the-driver.md) the car way leads to the drive page |
 | PG-06 | **Way detail** | One way, leg by leg, at the length each really takes, with its stations and its ticket | A way on Ways; the usual trip on Today | [SPEC-09](SPEC-09_times-that-can-be-kept.md) the legs and connections at their real length, and their tightness; [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) buying the way as one journey; [SPEC-13](SPEC-13_the-station-ahead.md) the state of its stations, as lines leading to the station page |
 | PG-07 | **Tickets** | The tickets held: show, move, enter one bought elsewhere; which fare fits the days travelled | The navigation; a ticket on Ways out or Way detail | [SPEC-10](SPEC-10_tickets-that-work-when-needed.md) the tickets, first; [SPEC-11](SPEC-11_the-fare-that-fits-the-days.md) the fare that fits the days, below the tickets; [SPEC-12](SPEC-12_compensation-from-the-trip.md) a link to the claims of past trips |
