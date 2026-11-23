@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 20:50
+
+- **Files:** `06_Design/Style_instructions.md`
+- **Change:** File created: instructions for an agent to write `06_Design/Style.md`, the base of the design library, from the images in `01_Moodboard/Selected_Style/` and Marco's note on each.
+- **Why:** Marco asked for an instructions file that creates `Style.md` from the style of the selected images, analysed as a senior UX/UI designer setting up a design library, and from the notes on each image; reason not stated.
+
 ## 2026-11-23 20:37
 
 - **Files:** `06_Design/01_Moodboard/Selected_Style/` (9 image folders), `06_Design/01_Moodboard/Not_Selected/` (3 image folders)
