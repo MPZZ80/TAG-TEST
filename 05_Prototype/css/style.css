@@ -1,47 +1,52 @@
 /*
- * Style: from 06_Design/Style.md (2026-11-23), the style drawn from Marco's moodboard; Prototype_Instructions.md, section 4.
+ * Style: from 06_Design/Style.md (2026-11-23), the look of the transit-itinerary screens Marco chose for everything;
+ * Prototype_Instructions.md, section 4.
  * Every colour, font, size and spacing is a custom property below; change values, not markup.
- * Quiet and geometric: flat cards, one typeface, black on white, one accent; colour carries the means, the line, the state.
+ * White page, white cards with a soft shadow, a green band at the top, white pill buttons, segments in the colour
+ * of each line, legs on a coloured line with hollow rings, walking on a dotted line.
  */
 :root {
-  --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font: ui-rounded, "SF Pro Rounded", "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
   --size-display: 1.75rem;
   --size-title: 1.375rem;
   --size-text: 1rem;
   --size-small: 0.875rem;
-  --size-caption: 0.75rem;
+  --size-caption: 0.8125rem;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 1rem;
   --space-4: 1.5rem;
   --space-5: 2rem;
-  --radius-small: 0.25rem;
-  --radius: 0.75rem;
+  --radius-small: 0.1875rem;
+  --radius: 1rem;
   --radius-pill: 999px;
-  --shadow-float: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-float: 0 2px 12px rgba(0, 0, 0, 0.1);
   --max-width: 40rem;
-  --colour-text: #111111;
-  --colour-muted: #6b6b70;
-  --colour-page: #f4f4f5;
+  --colour-brand: #84b817;
+  --colour-brand-field: #77a514;
+  --colour-brand-text: #ffffff;
+  --colour-text: #1c1c1e;
+  --colour-muted: #6d6d72;
+  --colour-page: #ffffff;
   --colour-surface: #ffffff;
-  --colour-field: #f1f3f7;
-  --colour-line: #e6e6e8;
-  --colour-accent: #2356f6;
-  --colour-ok: #1f7a3a;
+  --colour-field: #f4f4f6;
+  --colour-line: #ececee;
+  --colour-accent: #0b7f3f;
+  --colour-ok: #0b7f3f;
   --colour-warn: #9a5b00;
-  --colour-warn-fill: #e3b329;
-  --colour-bad: #c62a1f;
+  --colour-warn-fill: #e3b32a;
+  --colour-bad: #e41103;
   --colour-message: #fff6d6;
-  --colour-wait: #e6e6e8;
-  --colour-walk: #e6e6e8;
+  --colour-wait: #e2e2e2;
+  --colour-walk: #e2e2e2;
   --colour-train: #b0122c;
   --colour-coach: #295f84;
   --colour-underground: #1a7f3c;
   --colour-car: #3a3a3c;
   --colour-phone: #1c1c1e;
   --colour-phone-text: #ffffff;
-  --colour-phone-card: rgba(255, 255, 255, 0.92);
-  --colour-config: #ececee;
+  --colour-phone-card: rgba(255, 255, 255, 0.94);
+  --colour-config: #f0f0f2;
 }
 
 * { box-sizing: border-box; }
@@ -58,6 +63,7 @@ body {
   margin: 0;
   font-family: var(--font);
   font-size: var(--size-text);
+  font-weight: 500;
   line-height: 1.4;
   font-variant-numeric: tabular-nums; /* times and minutes line up in columns */
   color: var(--colour-text);
@@ -67,42 +73,47 @@ body {
 main, .app-bar { max-width: var(--max-width); margin: 0 auto; padding: var(--space-3); }
 p { margin: var(--space-1) 0; }
 
-/* Type: titles 700, labels 600, text 400 (Style.md, Typography). */
-h1 { font-size: var(--size-title); font-weight: 700; line-height: 1.2; margin: var(--space-3) 0 var(--space-1); }
+/* Type: one rounded sans serif, medium for text, semibold for titles and labels. */
+h1 { font-size: var(--size-title); font-weight: 600; line-height: 1.2; margin: var(--space-3) 0 var(--space-1); }
 h2 {
-  font-size: var(--size-caption); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;
+  font-size: var(--size-caption); font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em;
   color: var(--colour-muted); margin: var(--space-5) 0 var(--space-2);
 }
 h3, h4 { font-size: var(--size-text); font-weight: 600; margin: 0 0 var(--space-1); }
 /* Inside a card, in a dialog and for the trip of the day, h2 is the title of the card, not a section label. */
 .card h2, .modal h2, today-trip > h2 {
-  font-size: var(--size-title); font-weight: 700; text-transform: none; letter-spacing: 0; color: var(--colour-text);
+  font-size: 1.25rem; font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--colour-text);
   margin: 0 0 var(--space-1);
 }
 today-trip > h2 { margin-top: var(--space-4); }
 
-a { color: var(--colour-accent); text-decoration: none; }
+a { color: var(--colour-accent); text-decoration: none; font-weight: 600; }
 a:hover { text-decoration: underline; }
+/* The title of a leg or a trip is a link, but reads as a title, in black, as in the reference. */
+.leg h3 a, trip-card h3 a, .list li.card > a { color: var(--colour-text); }
 
 .muted, .meta { color: var(--colour-muted); font-size: var(--size-small); }
 
-/* App bar: the product, the clock, and the navigation as chips; the page open is the selected chip. */
+/* App bar: the green band at the top, with the product, the clock and the navigation as pills on it. */
+app-bar { background: var(--colour-brand); color: var(--colour-brand-text); }
 .app-bar { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; justify-content: space-between; }
-.app-bar > div > a { color: var(--colour-text); font-weight: 700; }
-.app-bar nav ul { display: flex; flex-wrap: wrap; gap: var(--space-1); list-style: none; margin: 0; padding: 0; }
+.app-bar > div > a { color: var(--colour-brand-text); font-weight: 600; font-size: 1.125rem; }
+.app-bar .meta { color: var(--colour-brand-text); }
+.app-bar nav ul { display: flex; flex-wrap: wrap; gap: var(--space-2); list-style: none; margin: 0; padding: 0; }
 .app-bar nav a, .app-bar .not-built {
-  display: inline-block; padding: var(--space-1) var(--space-3); border-radius: var(--radius-pill);
-  background: var(--colour-field); color: var(--colour-text); font-size: var(--size-small); font-weight: 600;
+  display: inline-block; padding: var(--space-2) var(--space-3); border-radius: var(--radius-pill);
+  background: var(--colour-brand-field); color: var(--colour-brand-text); font-weight: 500;
 }
-.app-bar nav a[aria-current="page"] { background: var(--colour-text); color: var(--colour-surface); }
-.app-bar .not-built { color: var(--colour-muted); font-weight: 400; }
+.app-bar nav a[aria-current="page"] { background: var(--colour-surface); color: var(--colour-text); box-shadow: var(--shadow-float); }
+.app-bar .not-built { opacity: 0.75; }
 
-/* Card: flat on the page, separated by tone; shadow only over the map (Style.md, Principles 3 and 5). */
+/* Card: white, rounded, with a soft shadow, as every block of the reference. */
 .card {
   background: var(--colour-surface);
   border-radius: var(--radius);
+  box-shadow: var(--shadow-float);
   padding: var(--space-3);
-  margin: var(--space-2) 0;
+  margin: var(--space-3) 0;
 }
 .card > h2:first-child, .card > h3:first-child, .card > h4:first-child { margin-top: 0; }
 
@@ -123,19 +134,20 @@ a:hover { text-decoration: underline; }
   margin: var(--space-2) 0;
 }
 
+/* Lists: rows divided by a thin line, as the ways of the reference. */
 .list { list-style: none; padding: 0; margin: 0; }
 .list li { margin: var(--space-2) 0; }
-.list li:not(.card) { padding: var(--space-2) 0; border-bottom: 1px solid var(--colour-line); }
+.list li:not(.card) { padding: var(--space-3) 0; margin: 0; border-bottom: 1px solid var(--colour-line); }
 
-/* Controls: secondary buttons and fields on the tinted field colour; one primary button, in the accent. */
+/* Controls: white pills with a shadow ("Leave now"); fields on the tinted grey ("Find more trips"); the primary in green. */
 button, select, input { font: inherit; color: var(--colour-text); }
 button {
-  min-height: 2.75rem; padding: var(--space-2) var(--space-3); border: 0; border-radius: var(--radius);
-  background: var(--colour-field); font-weight: 600; cursor: pointer;
+  min-height: 2.75rem; padding: var(--space-2) var(--space-4); border: 0; border-radius: var(--radius-pill);
+  background: var(--colour-surface); box-shadow: var(--shadow-float); font-weight: 500; cursor: pointer;
 }
 button:disabled { opacity: 0.5; cursor: default; }
 select, input:not([type="checkbox"]):not([type="radio"]) {
-  padding: var(--space-2) var(--space-3); border: 0; border-radius: var(--radius); background: var(--colour-field);
+  padding: var(--space-2) var(--space-3); border: 0; border-radius: 0.625rem; background: var(--colour-field);
 }
 label { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
 input[type="checkbox"], input[type="radio"] { accent-color: var(--colour-accent); width: 1.1rem; height: 1.1rem; }
@@ -144,20 +156,21 @@ input[type="checkbox"], input[type="radio"] { accent-color: var(--colour-accent)
 .button {
   display: inline-flex; align-items: center; justify-content: center; gap: var(--space-1);
   min-height: 2.75rem; background: var(--colour-accent); color: var(--colour-surface);
-  padding: var(--space-2) var(--space-3); border-radius: var(--radius); font-weight: 600; text-decoration: none;
+  padding: var(--space-2) var(--space-4); border-radius: var(--radius-pill); font-weight: 600; text-decoration: none;
 }
 .button:hover { text-decoration: none; }
 .cta { text-align: left; }
 .cta .button { margin-top: var(--space-2); }
-.share { background: var(--colour-field); color: var(--colour-text); }
-.share-apps { display: flex; flex-wrap: wrap; gap: var(--space-1); }
+.share { background: var(--colour-surface); color: var(--colour-text); }
+.share-apps { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 
 details { margin-top: var(--space-2); }
 summary { cursor: pointer; color: var(--colour-accent); font-weight: 600; }
 
+/* Small round buttons, white with a shadow, as the close and position buttons on the map. */
 .info {
-  min-height: 0; width: 1.5rem; height: 1.5rem; padding: 0; border-radius: var(--radius-pill);
-  background: var(--colour-field); color: var(--colour-accent); font-style: italic; vertical-align: middle;
+  min-height: 0; width: 1.75rem; height: 1.75rem; padding: 0; border-radius: var(--radius-pill);
+  color: var(--colour-accent); font-style: italic; vertical-align: middle;
 }
 
 .modal {
@@ -170,48 +183,62 @@ summary { cursor: pointer; color: var(--colour-accent); font-weight: 600; }
 .notification {
   display: block;
   color: var(--colour-text);
+  font-weight: 500;
   background: var(--colour-surface);
-  border-radius: calc(var(--radius) * 1.5);
-  padding: var(--space-2) var(--space-3);
-  margin: var(--space-2) 0;
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow-float);
+  padding: var(--space-3);
+  margin: var(--space-3) 0;
 }
 .notification:hover { text-decoration: none; }
 
-.back { display: inline-block; margin-top: var(--space-2); font-weight: 600; }
+.back { display: inline-block; margin-top: var(--space-2); }
 
-/* The legs of the trip of the day: a vertical line in the colour of each leg's means, a dot where it starts,
-   dotted for walking (Style.md, Legs of a trip; 1Jelbi-Intermodal). */
-.leg { --leg-colour: var(--colour-accent); position: relative; border-left: 4px solid var(--leg-colour); padding: 0 0 var(--space-3) var(--space-4); margin: 0 0 0 var(--space-2); }
+/* The legs of the trip of the day, as on the right screen of the reference: a ride in a white card, with a line in
+   the colour of its means and hollow rings; walking between the cards on a dotted grey line. */
+.leg { --leg-colour: var(--colour-accent); position: relative; margin: 0; padding: var(--space-3) var(--space-3) var(--space-3) 3rem; }
 .leg::before {
-  content: ""; position: absolute; left: -0.6rem; top: 0.15rem; width: 0.85rem; height: 0.85rem;
-  border-radius: 50%; background: var(--colour-surface); border: 3px solid var(--leg-colour);
+  content: ""; position: absolute; z-index: 1; left: 1.1rem; top: 1.15rem; width: 0.95rem; height: 0.95rem;
+  border-radius: 50%; background: var(--colour-surface); border: 3px solid var(--leg-colour); box-sizing: border-box;
 }
+.leg::after {
+  content: ""; position: absolute; left: calc(1.1rem + 0.475rem - 1.5px); top: 1.6rem; bottom: 0; width: 3px; background: var(--leg-colour);
+}
+.leg.mode-train, .leg.mode-coach, .leg.mode-bus, .leg.mode-underground, .leg.mode-car {
+  background: var(--colour-surface); border-radius: var(--radius); box-shadow: var(--shadow-float); margin: var(--space-2) 0;
+}
+.leg.mode-train::after, .leg.mode-coach::after, .leg.mode-bus::after, .leg.mode-underground::after, .leg.mode-car::after { bottom: 1.2rem; }
 .leg > h2, .leg > h3 { margin: 0 0 var(--space-1); }
 .leg > p.meta { margin-top: 0; }
 .leg.mode-train { --leg-colour: var(--colour-train); }
 .leg.mode-coach, .leg.mode-bus { --leg-colour: var(--colour-coach); }
 .leg.mode-underground { --leg-colour: var(--colour-underground); }
 .leg.mode-car { --leg-colour: var(--colour-car); }
-.leg.mode-walk, .leg.mode-lift, .leg.mode-bicycle { --leg-colour: var(--colour-muted); border-left-style: dotted; }
+.leg.mode-walk, .leg.mode-lift, .leg.mode-bicycle { --leg-colour: var(--colour-muted); }
+.leg.mode-walk::after, .leg.mode-lift::after, .leg.mode-bicycle::after { background: none; border-left: 3px dotted var(--leg-colour); width: 0; top: 0; }
+.leg.mode-walk::before, .leg.mode-lift::before, .leg.mode-bicycle::before { width: 0.6rem; height: 0.6rem; left: 1.27rem; top: 1.3rem; background: var(--leg-colour); border: 0; }
 .leg-done { opacity: 0.55; }
 .leg-active::before { background: var(--leg-colour); }
-today-trip > .card { margin-top: var(--space-3); }
+today-trip > .card { margin-top: var(--space-4); }
 .alt { margin-left: var(--space-3); }
 
-/* The legs of a trip as a list (the page of an alternative). */
+/* The legs of a trip as a list (the page of an alternative): the same line, rings and dots. */
 .legs { list-style: none; padding: 0; margin: var(--space-2) 0; }
-.legs li { border-left: 4px solid var(--colour-line); padding: var(--space-1) 0 var(--space-1) var(--space-3); margin: 0; }
-.legs li.mode-train { border-left-color: var(--colour-train); }
-.legs li.mode-coach, .legs li.mode-bus { border-left-color: var(--colour-coach); }
-.legs li.mode-underground { border-left-color: var(--colour-underground); }
-.legs li.mode-car { border-left-color: var(--colour-car); }
-.legs li.mode-walk { border-left-style: dotted; border-left-color: var(--colour-muted); }
+.legs li { --leg-colour: var(--colour-muted); position: relative; padding: var(--space-2) 0 var(--space-2) 2.5rem; margin: 0; }
+.legs li::before { content: ""; position: absolute; left: 0.75rem; top: 0.75rem; width: 0.9rem; height: 0.9rem; border-radius: 50%; background: var(--colour-surface); border: 3px solid var(--leg-colour); box-sizing: border-box; z-index: 1; }
+.legs li::after { content: ""; position: absolute; left: calc(0.75rem + 0.45rem - 1.5px); top: 0; bottom: 0; width: 3px; background: var(--leg-colour); }
+.legs li.mode-train { --leg-colour: var(--colour-train); }
+.legs li.mode-coach, .legs li.mode-bus { --leg-colour: var(--colour-coach); }
+.legs li.mode-underground { --leg-colour: var(--colour-underground); }
+.legs li.mode-car { --leg-colour: var(--colour-car); }
+.legs li.mode-walk::after { background: none; border-left: 3px dotted var(--leg-colour); width: 0; }
 .legs .chosen { font-weight: 600; }
 
-/* A way as a row of segments, one per leg, in the colour of its means (Style.md, Timeline of ways). */
+/* A way as a row of segments, one per leg, in the colour of its line; walking in grey (the timeline of the reference). */
 way-strip { display: flex; gap: 2px; margin: var(--space-2) 0; }
 .key {
-  display: inline-block; flex: 1 1 auto; padding: var(--space-1) var(--space-2); border-radius: var(--radius-small);
+  display: inline-flex; align-items: center; justify-content: center; flex: 1 1 auto; min-height: 2.25rem;
+  padding: var(--space-1) var(--space-2); border-radius: var(--radius-small);
   background: var(--colour-walk); color: var(--colour-text); font-size: var(--size-small); font-weight: 600;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
@@ -219,26 +246,29 @@ way-strip { display: flex; gap: 2px; margin: var(--space-2) 0; }
 .key-coach, .key-bus { background: var(--colour-coach); color: var(--colour-surface); }
 .key-underground { background: var(--colour-underground); color: var(--colour-surface); }
 .key-car { background: var(--colour-car); color: var(--colour-surface); }
-route-map .meta .key { flex: none; margin-right: var(--space-1); }
+route-map .meta .key { flex: none; min-height: 0; margin-right: var(--space-1); }
 
 /* The sketch of a route: one colour per means of transport. */
 route-map svg, leg-map svg { display: block; width: 100%; height: auto; background: var(--colour-surface); border-radius: var(--radius); }
-.seg { stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.seg { stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
 .seg-train { stroke: var(--colour-train); }
 .seg-coach, .seg-bus { stroke: var(--colour-coach); }
 .seg-underground { stroke: var(--colour-underground); }
-.seg-walk { stroke: var(--colour-muted); stroke-dasharray: 4 3; }
+.seg-walk { stroke: var(--colour-muted); stroke-dasharray: 2 4; }
 .seg-car { stroke: var(--colour-car); }
-.stop { fill: var(--colour-surface); stroke: var(--colour-text); stroke-width: 1.5; }
-.stop-label { font-size: 9px; fill: var(--colour-text); }
+.stop { fill: var(--colour-surface); stroke: var(--colour-text); stroke-width: 2; }
+.stop-label { font-size: 9px; font-weight: 600; fill: var(--colour-text); }
 
 .stops { width: 100%; border-collapse: collapse; margin-top: var(--space-1); }
 .stops th, .stops td { text-align: left; padding: var(--space-2) var(--space-2) var(--space-2) 0; border-bottom: 1px solid var(--colour-line); font-size: var(--size-small); }
-.stops th { font-size: var(--size-caption); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--colour-muted); }
+.stops th { font-size: var(--size-caption); font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; color: var(--colour-muted); }
+.stops td:not(:first-child), .stops th:not(:first-child) { text-align: right; }
 
-/* The map first, the card floating over it: the map stays visible above (Style.md, Principle 2). */
-.map-stage > leg-map { margin-top: var(--space-3); }
-.map-stage > leg-map + .card { position: relative; margin-top: calc(-1 * var(--space-5)); margin-left: var(--space-2); margin-right: var(--space-2); box-shadow: var(--shadow-float); }
+/* The map first, the card floating over it: the map stays visible above (centre screen of the reference). */
+.map-stage > leg-map { display: flex; flex-direction: column; margin: var(--space-3) calc(-1 * var(--space-3)) 0; }
+.map-stage > leg-map svg { order: 1; border-radius: 0; } /* the notes of the map above it, so that the card can cover its bottom */
+.map-stage > leg-map > p { padding: 0 var(--space-3); }
+.map-stage > leg-map + .card { position: relative; margin-top: calc(-1 * var(--space-5)); }
 
 /* The map of a leg: the route in colour, the alternatives in grey until one is tapped, the vehicle live. */
 polyline { fill: none; }
@@ -251,22 +281,22 @@ polyline { fill: none; }
 .you { fill: var(--colour-surface); stroke: var(--colour-accent); stroke-width: 3; }
 .you-label { font-size: 8px; font-weight: 700; fill: var(--colour-accent); }
 
-/* The grey background of the map sketches (placeholder for a real map; the colours of a map, not of the interface). */
-.bm-land { fill: #ececea; }
-.bm-town { fill: #dedcd8; }
+/* The background of the map sketches, in the light warm tones of the reference map (a placeholder for a real map). */
+.bm-land { fill: #f6f1e7; }
+.bm-town { fill: #f0e3cf; }
 .bm-town-grid { opacity: 0.9; }
-.bm-grid { stroke: #f7f7f5; stroke-width: 1.2; fill: none; }
-.bm-lake { fill: #cfd3d6; stroke: #c3c8cc; stroke-width: 1; }
-.bm-river { fill: none; stroke: #cfd3d6; stroke-width: 2; }
+.bm-grid { stroke: #fbf8f2; stroke-width: 1.2; fill: none; }
+.bm-lake { fill: #bfe0ef; stroke: #aed5e8; stroke-width: 1; }
+.bm-river { fill: none; stroke: #bfe0ef; stroke-width: 2; }
 .bm-river.close { stroke-width: 4; }
-.bm-road-casing { fill: none; stroke: #c9c7c2; stroke-linecap: round; stroke-linejoin: round; }
-.bm-road { fill: none; stroke: #fbfbfa; stroke-linecap: round; stroke-linejoin: round; }
-.bm-road-casing.bm-motorway { stroke-width: 4.5; } .bm-road.bm-motorway { stroke-width: 2.5; stroke: #f3f1ec; }
+.bm-road-casing { fill: none; stroke: #e6dccb; stroke-linecap: round; stroke-linejoin: round; }
+.bm-road { fill: none; stroke: #ffffff; stroke-linecap: round; stroke-linejoin: round; }
+.bm-road-casing.bm-motorway { stroke-width: 4.5; } .bm-road.bm-motorway { stroke-width: 2.5; stroke: #fdf3d8; }
 .bm-road-casing.bm-main { stroke-width: 7; } .bm-road.bm-main { stroke-width: 5; }
 .bm-road-casing.bm-street { stroke-width: 4.5; } .bm-road.bm-street { stroke-width: 3; }
-.bm-rail { fill: none; stroke: #a9a8a4; stroke-width: 1.2; stroke-dasharray: 5 2; }
-.bm-label { font-size: 9px; fill: #8e8d89; font-style: italic; letter-spacing: 0.04em; }
-.bm-street-label { font-size: 7px; fill: #9a9995; }
+.bm-rail { fill: none; stroke: #b9b2a6; stroke-width: 1.2; stroke-dasharray: 5 2; }
+.bm-label { font-size: 9px; fill: #8f877a; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+.bm-street-label { font-size: 7px; fill: #9c9488; }
 
 /* The state of a leg or a ticket, as a small pill: to do, in progress, completed. */
 .badge {
@@ -276,16 +306,15 @@ polyline { fill: none; }
 .badge-active { background: var(--colour-accent); color: var(--colour-surface); }
 .badge-done { color: var(--colour-ok); }
 
-/* The alternatives as small slots in a row that scrolls; the one tapped opens its details. */
-.alt-row { display: flex; gap: var(--space-2); overflow-x: auto; padding-bottom: var(--space-1); scroll-snap-type: x mandatory; }
+/* The alternatives as small white cards in a row that scrolls; the one tapped opens its details. */
+.alt-row { display: flex; gap: var(--space-2); overflow-x: auto; padding: var(--space-1) var(--space-1) var(--space-3); scroll-snap-type: x mandatory; }
 .alt-slot {
   flex: 0 0 auto; min-width: 7.5rem; scroll-snap-align: start; display: flex; flex-direction: column; align-items: flex-start;
-  text-align: left; background: var(--colour-surface); border-radius: var(--radius);
-  padding: var(--space-2) var(--space-3); color: var(--colour-muted); font-weight: 400;
+  text-align: left; border-radius: var(--radius); padding: var(--space-2) var(--space-3); color: var(--colour-muted);
 }
 .alt-slot .alt-kind { font-weight: 600; color: var(--colour-text); }
 .alt-slot .alt-meta { font-size: var(--size-small); }
-.alt-slot.selected { box-shadow: 0 0 0 2px var(--colour-accent); color: var(--colour-text); }
+.alt-slot.selected { box-shadow: 0 0 0 2px var(--colour-accent), var(--shadow-float); color: var(--colour-text); }
 .alt-slot.selected .alt-kind { color: var(--colour-accent); }
 .alt-panel:not(.open) { display: none; }
 
@@ -295,15 +324,15 @@ polyline { fill: none; }
 }
 
 /* The configurator: a bar of its own above the app bar, for testing; on a phone its choices wrap (to be designed). */
-.config-bar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-4); background: var(--colour-config); padding: var(--space-2) var(--space-3); }
+.config-bar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-4); background: var(--colour-config); padding: var(--space-2) var(--space-3); font-weight: 400; }
 .config-bar select { padding: var(--space-1) var(--space-2); background: var(--colour-surface); }
 
 /* The lock screen: a fake phone with the notifications of the scenario (not a page of the product). */
 .phone { max-width: 22rem; min-height: 38rem; margin: var(--space-3) auto; padding: var(--space-4) var(--space-3); border-radius: 2.5rem; background: var(--colour-phone); color: var(--colour-phone-text); }
-.phone-time { font-size: 3.5rem; font-weight: 300; text-align: center; margin: var(--space-3) 0 0; }
+.phone-time { font-size: 3.5rem; font-weight: 600; text-align: center; margin: var(--space-3) 0 0; }
 .phone-date { text-align: center; margin: 0 0 var(--space-4); }
-.phone .notification { background: var(--colour-phone-card); color: var(--colour-text); border-radius: calc(var(--radius) * 1.5); padding: var(--space-3); }
+.phone .notification { background: var(--colour-phone-card); color: var(--colour-text); }
 .phone .notification .meta { color: var(--colour-muted); }
 .phone-open, .lock-none { text-align: center; }
-.phone-open a { color: var(--colour-phone-text); font-weight: 600; }
+.phone-open a { color: var(--colour-phone-text); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

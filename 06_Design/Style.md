@@ -1,6 +1,6 @@
 ---
 source: Claude
-date: 2026-11-23 20:47
+date: 2026-11-23 21:18
 method: synthesis
 status: draft
 grade: n/a
@@ -13,20 +13,22 @@ related: [Style_instructions.md, SPEC-01_foundation.md, Prototype_Instructions.m
 
 The base of the design library of the prototype: the look, the tokens and the components, taken from the nine images Marco selected in [01_Moodboard/Selected_Style/](01_Moodboard/Selected_Style/) and from his note on each, following [Style_instructions.md](Style_instructions.md). Pages are those of the information architecture of [SPEC-01](../04_Specifications/SPEC-01_foundation.md#information-architecture).
 
+**Revised on 2026-11-23 (Marco):** after seeing the prototype, Marco asked to set the style of everything on the three screens of transit-itinerary ("usa questa schermata per impostare lo stile di tutto": "use this screen to set the style of everything"). The look below now comes from those screens; Traderepublic_1 and _2 are no longer the reference for the look, and the patterns taken from the other images stay.
+
 Colours were sampled from the screenshots and are **estimated**. A value marked **proposal** is not visible in the images and is listed under "Open questions".
 
 ## Sources
 
 | Image | Taken | Ignored | Marco's note (translation below) |
 | --- | --- | --- | --- |
-| [Traderepublic_1](01_Moodboard/Selected_Style/Traderepublic_1/) | Look: geometric, minimal cards, simple sans serif, cards set side by side in an ordered grid. Principle: the map always visible | The dark theme (see Open questions), the financial content | "Di questa mi piace lo stile a card geometriche e minimalista con un uso del font bastone super semplice. Inoltre come si affiancano le card in maniera molto ordinata, però deve sempre essere visibile la mappa, questo usalo per lo stile" |
-| [Traderepublic_2](01_Moodboard/Selected_Style/Traderepublic_2/) | Look: white, black text, one blue accent, bold titles, plain lists, small tinted controls | The content | "Questo va sempre bene per lo stile minimalista e l'utilizzo del font" |
+| [Traderepublic_1](01_Moodboard/Selected_Style/Traderepublic_1/) | Principle: the map always visible; cards set side by side in an ordered grid | The look, since the revision of 2026-11-23; the dark theme, the financial content | "Di questa mi piace lo stile a card geometriche e minimalista con un uso del font bastone super semplice. Inoltre come si affiancano le card in maniera molto ordinata, però deve sempre essere visibile la mappa, questo usalo per lo stile" |
+| [Traderepublic_2](01_Moodboard/Selected_Style/Traderepublic_2/) | Nothing since the revision of 2026-11-23 | The look (blue accent, bold black titles), the content | "Questo va sempre bene per lo stile minimalista e l'utilizzo del font" |
 | [1Jelbi-Home](01_Moodboard/Selected_Style/1Jelbi-Home/) | Pattern: the search bar floating over the map; the choice of means | Jelbi's colours and round icons, the map pins | "Di questa schermata mi piace la searchbar floating e la possibilità di scegliere quale tipologia di mezzi posso usare" |
 | [1Jelbi-Intermodal](01_Moodboard/Selected_Style/1Jelbi-Intermodal/) | Pattern: the structure of the legs, on Today | Jelbi's green, "Scan to unlock" | "Di questo mi piace la struttura delle LEG che potrebbe stare dentro a Today" |
 | [1Jelbi-PT](01_Moodboard/Selected_Style/1Jelbi-PT/) | Pattern: the search results, departures grouped by stop | Jelbi's colours | "Di questa schermata mi piacciono i risultati della ricerca" |
 | [1Jelbi-Payment](01_Moodboard/Selected_Style/1Jelbi-Payment/) | Pattern only: more than one payment method can be chosen | The whole look (green pill buttons, dark overlay) | "Di questo non mi piace lo stile, ma il fatto che si possa scegliere più di un metodo di pagamento" |
 | [transit-hero](01_Moodboard/Selected_Style/transit-hero-1711756154556/) | Centre screen. Pattern: results laid out on a timeline by departure time and duration | Left and right screens (the right one is taken from transit-itinerary) | "Di questo mi piace la schermata centrale che mostra i risultati della ricerca disposti in una linea temporale in base a che ora partono e quanto durano" |
-| [transit-itinerary](01_Moodboard/Selected_Style/transit-itinerary-1711756152895/) | Left screen: the same timeline. Centre: the map of the chosen way, with a floating card of the trip's main details. Right: pulled up, the legs of the way | Transit's green header | "Di questo mi piace la schermata a sinistra che mostra i risultati della ricerca disposti in una linea temporale in base a che ora partono e quanto durano. La schermata di dettaglio centrale di una delle alternative mi piace che fa vedere la mappa, ma sotto vorrei vedere una card floating che fa vedere i dettagli macro del trip, e se scorro in alto vedo i dettagli delle varie leg di quella soluzione (schermata a destra)" |
+| [transit-itinerary](01_Moodboard/Selected_Style/transit-itinerary-1711756152895/) | **The look of everything** (revision of 2026-11-23): the green band, white cards with a soft shadow, white pill buttons, the rounded type, the segments, the legs. Left screen: the same timeline. Centre: the map of the chosen way, with a floating card of the trip's main details. Right: pulled up, the legs of the way | — | "Di questo mi piace la schermata a sinistra che mostra i risultati della ricerca disposti in una linea temporale in base a che ora partono e quanto durano. La schermata di dettaglio centrale di una delle alternative mi piace che fa vedere la mappa, ma sotto vorrei vedere una card floating che fa vedere i dettagli macro del trip, e se scorro in alto vedo i dettagli delle varie leg di quella soluzione (schermata a destra)" |
 | [transit-live-activity](01_Moodboard/Selected_Style/transit-live-activity-1711756160776/) | Left: the progress of the trip, always visible on the lock screen. Right: the leg under way, with the stops left before the next change, opened by tapping the lock-screen card | Centre screen (Marco); the crowding question on the right screen, which the note does not mention | "Di questo mi piace come viene gestito il viaggio durante una leg: a sinistra come si vede il precorso in progress sempre visibile sulla schermata di blocco; la schermata centrale ignorala; la schermata di destra va bene per quando l'utente sta percorrendo una leg in cui vediamo quante fermate mancano al prossimo cambio, è quella che si vede quando tocco il widget della leg nella schermata di sinistra" |
 
 Translations, in the same order:
@@ -43,94 +45,71 @@ Translations, in the same order:
 
 ## Principles
 
-1. **Quiet and geometric.** Flat cards with plain corners, one typeface, black on white, one accent. Colour carries information (the means, the line, the state), not decoration. (Traderepublic_1, _2)
-2. **The map is always there.** On every page that shows a trip, a way or a leg, the map fills the screen behind the content, and the content sits on floating cards over it. The cards never cover the whole map: at least its top third stays visible. (Traderepublic_1 note; transit-itinerary, centre; 1Jelbi-Home)
-3. **Ordered cards.** Cards share one width, one gutter and one corner radius, and line up on a single column on the phone, on a grid where there is room. (Traderepublic_1)
-4. **Time is a length.** Wherever ways or legs are compared, their duration is drawn to scale on a shared time axis. (transit-hero, transit-itinerary)
-5. **Flat on the page, shadow only over the map.** What sits on the page is separated by tone; only what floats over the map has a shadow. (Traderepublic_1, _2; transit-itinerary)
-6. **One fact first.** Each card leads with one line in large type ("Go in 3 min", "Get off in 17 stops"), then the details. (transit-hero, transit-live-activity)
+1. **White and soft.** A white page; every block is a white card with large rounded corners and a soft shadow. Colour carries the line, the means and the state; one green for what is live and for the main action. (transit-itinerary)
+2. **A green band on top.** The product's band, in the brand green, holds the places and the navigation, as the header with the two stations on the left screen. (transit-itinerary, left)
+3. **The map is always there.** On every page that shows a trip, a way or a leg, the map fills the width behind the content, and a card floats over its bottom; at least its top stays visible. (Traderepublic_1 note; transit-itinerary, centre)
+4. **Time is a length.** Ways and legs are rows of segments: walking and waiting in grey with an icon, rides in the colour of their line with its badge. (transit-itinerary, left)
+5. **The legs on a line.** A ride is a card with a line in its colour and hollow rings at its stops; walking between cards is a dotted grey line with the minutes. (transit-itinerary, right)
+6. **One fact first.** Each card leads with one line ("Go at 22:43", "Go in 3 min"), then the details; times are right-aligned. (transit-itinerary)
 
 ## Colour
 
-Light theme, from Traderepublic_2; the transit images give the colours of the means and of the timeline.
+From transit-itinerary (revision of 2026-11-23).
 
 | Token | Value | Use | Source |
 | --- | --- | --- | --- |
-| `--colour-text` | `#111111` | Text, titles, icons | Traderepublic_2 |
-| `--colour-muted` | `#6b6b70` | Secondary text: subtitles, axis labels, captions | Traderepublic_2 |
-| `--colour-page` | `#f4f4f5` | Page background where there is no map | Traderepublic_2 (tinted controls) |
-| `--colour-surface` | `#ffffff` | Cards, floating cards, sheets | Traderepublic_2; transit-itinerary |
-| `--colour-field` | `#f1f3f7` | Search fields, segmented controls, secondary buttons | Traderepublic_2 (search field) |
-| `--colour-line` | `#e6e6e8` | Dividers between rows, borders of cards on the page | transit-hero (estimated from the grey segments) |
-| `--colour-accent` | `#2356f6` | The one accent: links, the primary button, the selected item, the position on a progress bar | Traderepublic_2 (avatar, "Trend quotidiano") |
-| `--colour-ok` | `#1f7a3a` | On time, "live" times, positive state | Traderepublic_1, _2 (greens of the gains), darkened for text |
+| `--colour-brand` | `#84b817` | The band at the top | transit-itinerary, left (header) |
+| `--colour-brand-field` | `#77a514` | Fields and pills on the band | transit-itinerary, left (station fields) |
+| `--colour-brand-text` | `#ffffff` | Text on the band | transit-itinerary, left |
+| `--colour-text` | `#1c1c1e` | Text, titles, icons | transit-itinerary |
+| `--colour-muted` | `#6d6d72` | Secondary text: durations, section labels, captions | transit-itinerary ("25 min", "OTHER OPTIONS") |
+| `--colour-page` | `#ffffff` | Page background | transit-itinerary |
+| `--colour-surface` | `#ffffff` | Cards, pills, round buttons | transit-itinerary |
+| `--colour-field` | `#f4f4f6` | Fields, rows like "Find more trips", pills of state | transit-itinerary ("Find more trips") |
+| `--colour-line` | `#ececee` | Dividers between rows | transit-itinerary |
+| `--colour-accent` | `#0b7f3f` | Live times, links, the primary button, the selected item | transit-itinerary ("now", "Every 4 minutes", `#17ac53`), darkened for text |
+| `--colour-ok` | `#0b7f3f` | On time | as the accent |
 | `--colour-warn` | `#9a5b00` | Late, tight connection: text | proposal |
-| `--colour-warn-fill` | `#e3b329` | Late, tight connection: fills and bars behind dark text | transit-hero (yellow bar) |
-| `--colour-bad` | `#c62a1f` | Cancelled, broken connection; the close button | transit-hero (red close mark), darkened for text |
-| `--colour-message` | `#fff6d6` | Background of a simulated message in the prototype | kept from the placeholder |
-| `--colour-wait` | `#e6e6e8` | Waiting time on the timeline, with a clock icon | transit-hero |
-| `--colour-walk` | `#e6e6e8` | Walking on the timeline: the fill of the segment, with a walking icon. The dotted walking line of the legs uses `--colour-muted` | transit-hero, 1Jelbi-Intermodal |
-| `--colour-train` | `#b0122c` | Default colour of a train leg when the data gives no line colour | proposal |
-| `--colour-coach` | `#295f84` | Default colour of a coach or bus leg | 1Jelbi-Home (blue) |
+| `--colour-warn-fill` | `#e3b32a` | Late, tight connection: fills | transit-itinerary (line 91) |
+| `--colour-bad` | `#e41103` | Cancelled, broken connection; the close mark | transit-itinerary (close mark) |
+| `--colour-message` | `#fff6d6` | A simulated message in the prototype | kept |
+| `--colour-wait`, `--colour-walk` | `#e2e2e2` | Waiting and walking segments, with their icon | transit-itinerary (grey segments) |
+| `--colour-train` | `#b0122c` | Default colour of a train leg | proposal |
+| `--colour-coach` | `#295f84` | Default colour of a coach or bus leg | 1Jelbi-Home |
 | `--colour-underground` | `#1a7f3c` | Default colour of an underground leg | proposal |
 | `--colour-car` | `#3a3a3c` | A car leg | proposal |
-| `--colour-phone` | `#1c1c1e` | Frame of the simulated phone, lock screen background | transit-live-activity |
-| `--colour-phone-text` | `#ffffff` | Text on the lock screen | transit-live-activity |
-| `--colour-phone-card` | `rgba(255, 255, 255, 0.92)` | The trip card on the lock screen | transit-live-activity, left |
-| `--colour-config` | `#ececee` | Background of the prototype's configurator (scenario, clock), outside the product | neutral of the palette |
+| `--colour-phone`, `--colour-phone-text`, `--colour-phone-card` | `#1c1c1e`, `#ffffff`, `rgba(255, 255, 255, 0.94)` | The simulated phone and its lock screen | transit-live-activity |
+| `--colour-config` | `#f0f0f2` | The prototype's configurator, outside the product | neutral |
 
-**The line comes first.** A leg takes the colour of its line from the data (for example M2 in Milan); the `--colour-<means>` tokens are only the fallback.
+**The line comes first.** A leg takes the colour of its line from the data; the `--colour-<means>` tokens are only the fallback.
 
-**Contrast** (WCAG ratio, computed on the values above):
-
-| Pair | Ratio |
-| --- | --- |
-| text on surface | 18.9 |
-| text on page | 17.2 |
-| text on line, wait, walk | 15.2 |
-| text on message | 17.4 |
-| text on config | 16.0 |
-| muted on surface | 5.3 |
-| muted on page | 4.8 |
-| muted on config | 4.5 |
-| accent on surface; surface text on accent | 5.6 |
-| ok on surface | 5.4 |
-| warn on surface | 5.4 |
-| bad on surface | 5.6 |
-| text on warn-fill | 9.7 |
-| white on train | 7.1 |
-| white on coach | 6.9 |
-| white on underground | 5.1 |
-| white on car | 11.3 |
-| phone-text on phone | 17.0 |
-
-A line colour from the data that gives white text less than 4.5 gets black text instead.
+**Contrast** (WCAG ratio): text on white 17.0; text on field 15.5; muted on white 5.1; muted on field 4.7; accent on white 5.1; accent on field 4.6; warn on white 5.4; bad on white 4.8; text on warn-fill 8.7; text on walk 13.1; white on train 7.1, coach 6.9, underground 5.1, car 11.3. **White on the brand band is 2.4, and on its fields 2.9: below 4.5**, as in the reference (Open questions).
 
 ## Typography
 
-- **Font:** one plain sans serif, as in Traderepublic_1 and _2. `--font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif`. Inter is used if installed; otherwise the system font (San Francisco on the iPhone, close to both references). Loading Inter is an open question.
-- **Numbers:** times, minutes and stop counts use tabular figures (`font-variant-numeric: tabular-nums`) so that columns of times line up.
-- **Weights:** 700 for titles and the leading fact of a card, 600 for labels, line names and buttons, 400 for text.
+- **Font:** one rounded sans serif, as Transit's. `--font: ui-rounded, "SF Pro Rounded", "Nunito", system-ui, …`: the rounded system font where the browser has it (Safari on Apple devices), otherwise Nunito if installed, otherwise the system font. Nothing is loaded from outside.
+- **Weights:** 500 for text (Transit's text is medium, not regular), 600 for titles, labels, line names and buttons.
+- **Numbers:** tabular figures, and times right-aligned in their row.
 
-| Token | Size | Weight | Line height | Use |
-| --- | --- | --- | --- | --- |
-| `--size-display` | 1.75rem | 700 | 1.15 | The leading fact of a card: "Go in 3 min", the time of the trip | 
-| `--size-title` | 1.375rem | 700 | 1.2 | Page titles, card titles |
-| `--size-text` | 1rem | 400 / 600 | 1.4 | Text, rows of lists |
-| `--size-small` | 0.875rem | 400 | 1.35 | Subtitles: platform, direction, "You'll arrive at" |
-| `--size-caption` | 0.75rem | 600, uppercase, letter-spacing 0.04em | 1.3 | Section labels ("Other options", "Every 4 minutes"), axis times |
+| Token | Size | Weight | Use |
+| --- | --- | --- | --- |
+| `--size-display` | 1.75rem | 600 | The leading fact of a card |
+| `--size-title` | 1.375rem | 600 | Page titles; card titles at 1.25rem |
+| `--size-text` | 1rem | 500 | Text, rows of lists |
+| `--size-small` | 0.875rem | 500 | Subtitles, durations, captions |
+| `--size-caption` | 0.8125rem | 500, uppercase, letter-spacing 0.04em | Section labels ("Other options"), table heads |
 
 ## Spacing and grid
 
 - Base unit 4 px. Steps: `--space-1` 0.25rem, `--space-2` 0.5rem, `--space-3` 1rem, `--space-4` 1.5rem, `--space-5` 2rem.
-- **Screen margin** `--space-3`; **gap between cards** `--space-2` on the phone, `--space-3` in a grid; **padding inside a card** `--space-3`; **gap between sections** `--space-5`. (Traderepublic_1 and _2: generous white space, ordered gutters.)
+- **Screen margin** `--space-3`; **gap between cards** `--space-2` on the phone, `--space-3` in a grid; **padding inside a card** `--space-3`; **gap between sections** `--space-5`. (transit-itinerary: cards with even gaps on a white page.)
 - **Grid:** one column up to `--max-width` (40rem); above it, cards of equal width in two or three columns with the same gutter (Traderepublic_1).
 
 ## Shape and elevation
 
-- **Radius:** `--radius` 0.75rem for cards, sheets and fields; `--radius-small` 0.25rem for line badges and the segments of the timeline; `--radius-pill` 999px for chips and the small buttons on the map. (Traderepublic_1 cards; transit-hero badges and "Leave now")
-- **Borders:** none on cards over the map; a 1px `--colour-line` border, or tone alone, on the page. Rows inside a card are divided by a 1px `--colour-line`.
-- **Elevation:** one shadow, `--shadow-float: 0 4px 16px rgba(0, 0, 0, 0.12)`, only for what floats over the map: the search bar, the trip card, the round map buttons.
+- **Radius:** `--radius` 1rem for cards, sheets and dialogs; `--radius-small` 0.1875rem for the segments of a way; `--radius-pill` for buttons, navigation and state pills; fields 0.625rem.
+- **Elevation:** `--shadow-float: 0 2px 12px rgba(0, 0, 0, 0.1)` on every card, pill button and round button, as in the reference; no borders.
+- **Lines:** rows inside a card divided by 1px `--colour-line`; legs drawn with a 3px line, hollow rings of 3px, dotted for walking.
 
 ## Icons
 
@@ -213,74 +192,78 @@ A list of the methods held (card, direct debit, wallet), each a row with its nam
 
 ### Card `<base-card>` and grid
 
-The geometric card of Principle 3: `--colour-surface`, `--radius`, `--space-3` padding, a title row (title 700 and an optional menu or link on the right), then content. On the page it is flat; over the map it takes `--shadow-float`. Several cards line up in the grid of "Spacing and grid".
+The card of Principle 1: `--colour-surface`, `--radius`, `--shadow-float`, `--space-3` padding, a title row (title 600 and an optional link on the right), then content. Several cards line up in the grid of "Spacing and grid".
 - **Pages:** every page.
-- **Source:** Traderepublic_1, _2.
+- **Source:** transit-itinerary; the ordered grid from Traderepublic_1.
 
 ### Buttons
 
-- **Primary:** `--colour-accent` fill, white text 600, `--radius`, at least 44px high. One per screen.
-- **Secondary:** `--colour-field` fill, `--colour-text`.
-- **On the map:** round, 40px, `--colour-surface`, `--shadow-float`, icon only (close in `--colour-bad`, position, swap).
-- **Chip:** `--radius-pill`, `--colour-field`; selected `--colour-text` fill and white text.
-- **Source:** Traderepublic_1 ("Aggiungi", "Trading"), Traderepublic_2 (period chips "1G 1S 1M"), transit-hero ("Leave now", close).
+- **Primary:** `--colour-accent` fill, white text 600, pill, at least 44px high.
+- **Secondary:** white pill with `--shadow-float` ("Leave now").
+- **Round:** white circle with `--shadow-float`, icon only (close in `--colour-bad`, refresh, position).
+- **Navigation:** pills on the band: `--colour-brand-field` with white text; the page open is a white pill with dark text.
+- **Source:** transit-itinerary.
 
 ## Tokens for the prototype
 
-Ready to replace the `:root` block of `05_Prototype/css/style.css`. No token was dropped; the new ones are `--size-display`, `--size-caption`, `--space-5`, `--radius-small`, `--radius-pill`, `--shadow-float`, `--colour-field`, `--colour-warn-fill`, `--colour-wait`, `--colour-car`. `--colour-walk` changes from a dark grey to a light fill, so the dashed walking line (`.seg-walk` in `style.css`) must move to `--colour-muted` when the style is applied, or it disappears on white.
+Applied in `05_Prototype/css/style.css`. The revision of 2026-11-23 added `--colour-brand`, `--colour-brand-field` and `--colour-brand-text`. The dashed walking line (`.seg-walk`) uses `--colour-muted`, since `--colour-walk` is a light fill.
 
 ```css
 :root {
-  --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font: ui-rounded, "SF Pro Rounded", "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
   --size-display: 1.75rem;
   --size-title: 1.375rem;
   --size-text: 1rem;
   --size-small: 0.875rem;
-  --size-caption: 0.75rem;
+  --size-caption: 0.8125rem;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 1rem;
   --space-4: 1.5rem;
   --space-5: 2rem;
-  --radius-small: 0.25rem;
-  --radius: 0.75rem;
+  --radius-small: 0.1875rem;
+  --radius: 1rem;
   --radius-pill: 999px;
-  --shadow-float: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-float: 0 2px 12px rgba(0, 0, 0, 0.1);
   --max-width: 40rem;
-  --colour-text: #111111;
-  --colour-muted: #6b6b70;
-  --colour-page: #f4f4f5;
+  --colour-brand: #84b817;
+  --colour-brand-field: #77a514;
+  --colour-brand-text: #ffffff;
+  --colour-text: #1c1c1e;
+  --colour-muted: #6d6d72;
+  --colour-page: #ffffff;
   --colour-surface: #ffffff;
-  --colour-field: #f1f3f7;
-  --colour-line: #e6e6e8;
-  --colour-accent: #2356f6;
-  --colour-ok: #1f7a3a;
+  --colour-field: #f4f4f6;
+  --colour-line: #ececee;
+  --colour-accent: #0b7f3f;
+  --colour-ok: #0b7f3f;
   --colour-warn: #9a5b00;
-  --colour-warn-fill: #e3b329;
-  --colour-bad: #c62a1f;
+  --colour-warn-fill: #e3b32a;
+  --colour-bad: #e41103;
   --colour-message: #fff6d6;
-  --colour-wait: #e6e6e8;
-  --colour-walk: #e6e6e8;
+  --colour-wait: #e2e2e2;
+  --colour-walk: #e2e2e2;
   --colour-train: #b0122c;
   --colour-coach: #295f84;
   --colour-underground: #1a7f3c;
   --colour-car: #3a3a3c;
   --colour-phone: #1c1c1e;
   --colour-phone-text: #ffffff;
-  --colour-phone-card: rgba(255, 255, 255, 0.92);
-  --colour-config: #ececee;
+  --colour-phone-card: rgba(255, 255, 255, 0.94);
+  --colour-config: #f0f0f2;
 }
 ```
 
 ## Open questions
 
-1. **Light or dark.** Traderepublic_1 is dark, Traderepublic_2 light; both are named for the style. The style is written light; a dark theme can be added by redefining the same tokens.
-2. **The font.** Inter is close to both references but must be installed or loaded from outside, which the prototype avoids unless necessary. Until Marco decides, the system font is what shows.
+1. **White on the green band** has a contrast of 2.4 (2.9 on its fields), below 4.5, as in Transit. Dark text on the band would give 7.2; Marco to decide.
+2. **The font.** The rounded system font shows only where the browser has it (Safari on Apple devices); elsewhere the system font. Loading Nunito from outside would make it the same everywhere.
 3. **The colours of the means** (`--colour-train`, `--colour-underground`, `--colour-car`) and `--colour-warn` are proposals: the images show the lines of Paris and Berlin, not those of the Verona–Milan trip.
-4. **The map in the prototype.** Principle 2 needs a map on many pages; a frontend-only prototype without libraries can show a static image or a drawing, not a live map.
+4. **The map in the prototype.** Principle 3 needs a map on many pages; a frontend-only prototype without libraries can show a static image or a drawing, not a live map. Today, Ways and Way detail have none yet.
 5. **Durations of motion** are proposals.
-6. **Not taken, not mentioned by the notes:** Jelbi's bottom tab bar and the crowding question of transit-live-activity. The navigation of SPEC-01 (six items) has no reference yet.
+6. **Not taken, not mentioned by the notes:** Jelbi's bottom tab bar and the crowding question of transit-live-activity.
 7. **Departures by stop** is placed on Ways and Station; Marco's note says only "the search results", so the place is a proposal.
+8. **Segments to scale and icons.** The ways in the data have no minutes per leg and the prototype has no icon set: the segments share their row by their text, and walking shows its words, not the walking icon.
 
 ## Connections
 

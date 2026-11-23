@@ -4,6 +4,13 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 21:18
+
+- **Files:** `05_Prototype/css/style.css`, `05_Prototype/css/README.md`, `06_Design/Style.md`
+- **Change:** The style of the prototype set on the three transit-itinerary screens: white page, white cards with a soft shadow and 1rem corners, a green band at the top with the navigation as pills, white pill buttons, a green primary, rounded type at weight 500, ways as tall segments in the colour of their line, the legs of Today as cards with a coloured line and hollow rings and walking on a dotted line, the map edge to edge with the card over it and its notes above, the map sketches in the warm tones of the reference. `Style.md` revised to match: sources, principles, colour and contrast, type, shape, buttons, tokens, open questions (white on the green band is 2.4).
+- **Why:** Marco: "Ho visto il prototipo, non va bene: usa questa schermata per impostare lo stile di tutto" (with the transit-itinerary image).
+- **Do not:** go back to the look of Traderepublic (grey page, flat cards, blue accent, bold black titles); it was dropped.
+
 ## 2026-11-23 21:06
 
 - **Files:** `05_Prototype/components/` (new: `app-bar.js`, `page-head.js`, `trip-list.js`, `leg-card.js`, `sources-dialog.js`, `alternative-detail.js`, `way-strip.js`, `way-results.js`, `ticket-list.js`, `screen-index.js`, `lock-phone.js`; changed: `way-card.js`, `today-trip.js`, `way-search.js`, `leg-alternatives.js`, `README.md`), `05_Prototype/js/` (every screen script, `common.js`, `README.md`), `05_Prototype/html/` (every screen loads its new components), `05_Prototype/css/style.css`, `05_Prototype/css/README.md`, `05_Prototype/README.md`, `05_Prototype/instructions/Prototype_Instructions.md`, `AGENTS.md`, `06_Design/Style.md`, `06_Design/Style_instructions.md`
