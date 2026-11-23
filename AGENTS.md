@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-19 00:02
+date: 2026-11-23 18:54
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -145,6 +145,7 @@ This section is the running list of the standing instructions Marco gives during
 | 48 | 2026-11-18 | Keep the web components of the prototype in a folder of their own, `05_Prototype/components/`, one file per component, named after its tag. Details in section 3 of `05_Prototype/instructions/Prototype_Instructions.md`. | Not stated |
 | 49 | 2026-11-19 | After every change, commit, with a message in English that describes it, but do not push: Marco pushes himself at the end of the session. Replaces 34 and 47. | Marco pushes when he shuts down the computer or goes to bed |
 | 50 | 2026-11-21 | When Marco says to carry out ("eseguire") a specification, build it in the prototype following the foundation, `04_Specifications/SPEC-01_foundation.md`. If building it conflicts with changes Marco asked for by hand on the prototype, ask him before going on. | Not stated |
+| 51 | 2026-11-23 | Messages are written by the user and never prescribed only for sharing updates (SPEC-06). Wherever else a specification or the prototype would prefill or prescribe a message for the user (for example a complaint or claim), ask Marco each time before deciding. | Not stated |
 
 ### Language
 

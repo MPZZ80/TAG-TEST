@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 18:54
+
+- **Files:** `AGENTS.md`
+- **Change:** Log entry 51 added: the rule that the user writes the message, never prescribed, holds only for sharing updates (SPEC-06); for any other prefilled or prescribed message, ask Marco each time.
+- **Why:** Marco: "per ora lasciamolo solo per lo share, ma non credo servirà, chiedimelo ogni volta che serve".
+
 ## 2026-11-22 18:32
 
 - **Files:** created `05_Prototype/html/way.html`, `tickets.html`, `05_Prototype/js/way.js`, `tickets.js`, `05_Prototype/components/works-note.js`, `leg-timing.js`, `change-tightness.js`, `way-booking.js`, `ticket-card.js`, `ticket-show.js`, `ticket-move.js`, `ticket-entry.js`; changed `05_Prototype/data/timing.js`, `tickets.js`, `ways.js`, `config.js`, `screens.js`, `ui_text.js`, `connections.js`, `runs.js`, `05_Prototype/js/common.js`, `05_Prototype/components/scenario-switch.js`, `way-card.js`, `today-trip.js`, `05_Prototype/html/today.html`, `05_Prototype/css/style.css`, `05_Prototype/instructions/Prototype_Instructions.md`, the READMEs of `05_Prototype/`, `html/`, `js/`, `components/`, `data/`; `04_Specifications/SPEC-09_times-that-can-be-kept.md`, `SPEC-10_tickets-that-work-when-needed.md`, `SPEC-01_foundation.md`, `SPEC-00_overview.md`
