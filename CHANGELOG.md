@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 21:20
+
+- **Files:** `06_Design/Style.md`
+- **Change:** File created: the style of the prototype (principles, colour with contrast ratios, typography, spacing, shape, icons, motion, eleven components placed on the pages of SPEC-01, the `:root` tokens, open questions), from the nine selected moodboard images and Marco's notes, following `06_Design/Style_instructions.md`.
+- **Why:** Marco: "Ok esegui 06_Design/Style_instructions.md".
+
 ## 2026-11-23 20:50
 
 - **Files:** `06_Design/Style_instructions.md`
