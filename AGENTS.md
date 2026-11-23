@@ -1,6 +1,6 @@
 ---
 source: Marco's instructions, written up by Claude (Opus 5.5)
-date: 2026-11-23 21:06
+date: 2026-11-23 21:46
 method: Standing instructions recorded as Marco gives them; details drafted by Claude
 confidence: medium
 tags: [internal, rules]
@@ -147,6 +147,7 @@ This section is the running list of the standing instructions Marco gives during
 | 50 | 2026-11-21 | When Marco says to carry out ("eseguire") a specification, build it in the prototype following the foundation, `04_Specifications/SPEC-01_foundation.md`. If building it conflicts with changes Marco asked for by hand on the prototype, ask him before going on. | Not stated |
 | 51 | 2026-11-23 | Messages are written by the user and never prescribed only for sharing updates (SPEC-06). Wherever else a specification or the prototype would prefill or prescribe a message for the user (for example a complaint or claim), ask Marco each time before deciding. | Not stated |
 | 52 | 2026-11-23 | Every page of the prototype is made of web components: nothing is built by hand in a page or its script; an element with no component gets a new one. The style of the prototype is `06_Design/Style.md`. Details in sections 3 and 4 of `05_Prototype/instructions/Prototype_Instructions.md`. | Not stated |
+| 53 | 2026-11-23 | Every instruction Marco gives while refining the prototype is carried into the specifications in the same change: edit the specifications it touches (rules, pages, components, datasets, acceptance criteria, SPEC-00), so that at the end the specifications match the pages and features of the prototype exactly. | So that at the end the specifications match the prototype exactly |
 
 ### Language
 

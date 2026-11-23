@@ -4,6 +4,12 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
+## 2026-11-23 21:46
+
+- **Files:** `AGENTS.md`
+- **Change:** Log entry 53 added: every instruction given while refining the prototype is carried into the specifications in the same change, so that the specifications end up matching the pages and features of the prototype exactly.
+- **Why:** Marco: "da oggi in poi fai in modo di modificare e aggiornare le spec in base alle istruzioni che ti darò rifinendo il prototipo, in modo che poi alla fine le specifiche corrispondano esattamente alle pagine e alle feature del prototipo".
+
 ## 2026-11-23 21:42
 
 - **Files:** `04_Specifications/SPEC-04_todays-trip-at-a-glance.md`, `SPEC-07_the-connection-ahead.md`, `SPEC-08_every-way-door-to-door.md`, `SPEC-09_times-that-can-be-kept.md`, `SPEC-10_tickets-that-work-when-needed.md`, `SPEC-00_overview.md`
