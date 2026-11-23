@@ -6,7 +6,7 @@
  *   the search in the address (?from=&to=&when=&time=) when it comes from Today
  * Reacts to: typing in From and To, which suggests addresses, the favourite ones first; "Search", which sends a
  *   "way-search" event with leave after or arrive by and the time, or, with the attribute `go`, opens the Ways page with
- *   the search; the places and the day are shown, not kept
+ *   the search; the places and the day are shown, not kept. Attribute `heading`: a title over the search
  */
 (function () {
   const P = Proto, W = P.T.ways;
@@ -15,6 +15,7 @@
   class WaySearch extends HTMLElement {
     connectedCallback() {
       const q = DATA.ways.search, self = this;
+      if (this.getAttribute("heading")) this.appendChild(P.el("h2", "", this.getAttribute("heading")));
       const form = P.el("form", "card");
       function field(label, input) {
         const l = P.el("label", "", label + " ");

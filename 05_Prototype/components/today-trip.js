@@ -35,7 +35,7 @@
       const states = P.legStates(trip.legs); // to do, in progress, completed, from the commuter's position
       trip.legs.forEach(function (l, n) {
         const mode = T.modes[l.mode] || l.mode;
-        const section = P.el("section", "leg leg-" + states[n]);
+        const section = P.el("section", "leg leg-" + states[n] + " mode-" + l.mode);
         const title = P.el("h3");
         title.appendChild(P.link("run.html", P.fill(R.leg_title, { n: n + 1, total: trip.legs.length, stage: l.stage, mode: mode }), { trip: planned.id, leg: n + 1 }));
         title.appendChild(document.createTextNode(" "));

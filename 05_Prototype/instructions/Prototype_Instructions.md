@@ -1,6 +1,6 @@
 ---
 source: Marco
-date: 2026-11-22 18:31
+date: 2026-11-23 21:06
 method: generated
 status: draft
 grade: n/a
@@ -48,11 +48,11 @@ How an agent builds the prototype of the product in `05_Prototype/`. Read this f
 - Name files in lowercase with underscores: `trip_detail.html`, `trip_detail.js`. A screen and its script share the name.
 - Paths are relative: from an HTML file, `../css/style.css`, `../js/…`, `../components/…`, `../data/…`, `../assets/…`.
 - Each HTML file loads, in this order: `../css/style.css`, the data files it needs, `../js/common.js`, the components it uses from `../components/`, its own script.
-- **Web components** (the interface is made of them, as the specifications require): one file per component in `components/`, named after its tag (`run-card.js` defines `<run-card>`), starting with a comment that names the component, the specification that defines it, the specifications that use it, the data it reads and the events it reacts to. A component reads its data from `DATA` and uses the helpers of `common.js`; it does not depend on a screen's script.
+- **Web components** (the interface is made of them, as the specifications require): one file per component in `components/`, named after its tag (`run-card.js` defines `<run-card>`), starting with a comment that names the component, the specification that defines it, the specifications that use it, the data it reads and the events it reacts to. A component reads its data from `DATA` and uses the helpers of `common.js`; it does not depend on a screen's script. A screen's script only places components and passes them what they need: every part of a page, its head included, is a component.
 
 ## 4. Style
 
-- Marco will provide a style file later. Until then `css/style.css` is a simple placeholder.
+- The style is `../../06_Design/Style.md`, drawn from Marco's moodboard on 2026-11-23; `css/style.css` applies it, with the tokens of that file. It replaced the placeholder.
 - Keep every colour, font, size and spacing as a CSS custom property in `:root` at the top of `style.css`, so that the real style can replace the placeholder by changing values, not markup.
 - No inline styles and no `<style>` blocks in the HTML. No style set from JavaScript except by adding or removing classes.
 

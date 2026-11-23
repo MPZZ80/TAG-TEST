@@ -4,13 +4,19 @@ History of the changes made to the files of this project and why they were reque
 
 This file only tracks file history. It is not a source for the project's analysis or content.
 
-## 2026-11-23 21:20
+## 2026-11-23 21:06
+
+- **Files:** `05_Prototype/components/` (new: `app-bar.js`, `page-head.js`, `trip-list.js`, `leg-card.js`, `sources-dialog.js`, `alternative-detail.js`, `way-strip.js`, `way-results.js`, `ticket-list.js`, `screen-index.js`, `lock-phone.js`; changed: `way-card.js`, `today-trip.js`, `way-search.js`, `leg-alternatives.js`, `README.md`), `05_Prototype/js/` (every screen script, `common.js`, `README.md`), `05_Prototype/html/` (every screen loads its new components), `05_Prototype/css/style.css`, `05_Prototype/css/README.md`, `05_Prototype/README.md`, `05_Prototype/instructions/Prototype_Instructions.md`, `AGENTS.md`, `06_Design/Style.md`, `06_Design/Style_instructions.md`
+- **Change:** Everything the screen scripts built by hand (app bar, page heads, lists of trips, ways and tickets, leg cards, the sources dialog, the alternative's page, the start page, the phone of the lock screen) moved into eleven new web components; the scripts now only place components. The text of every screen is unchanged. Then `06_Design/Style.md` applied: its tokens in `:root`, type, flat cards, chips in the app bar, buttons and fields, legs of Today on a line in the colour of each means, ways as rows of coloured segments, on Run the map first with the card floating over it. Instructions sections 3 and 4 and `AGENTS.md` log 52 record the rule. The dates of `Style.md` and `Style_instructions.md` and of their two log entries below corrected to the commit times (20:47, 20:42): they had been estimated, not taken from the clock.
+- **Why:** Marco: "Verifica che ogni pagina del prototipo utilizzi i web components, se trovi degli elementi hardcoded nelle pagine sostituiscili con un web component, se non esiste il web component crea un nuovo web component. Dopo averlo fatto, applica 06_Design/Style.md ai web component e alle pagine."
+
+## 2026-11-23 20:47
 
 - **Files:** `06_Design/Style.md`
 - **Change:** File created: the style of the prototype (principles, colour with contrast ratios, typography, spacing, shape, icons, motion, eleven components placed on the pages of SPEC-01, the `:root` tokens, open questions), from the nine selected moodboard images and Marco's notes, following `06_Design/Style_instructions.md`.
 - **Why:** Marco: "Ok esegui 06_Design/Style_instructions.md".
 
-## 2026-11-23 20:50
+## 2026-11-23 20:42
 
 - **Files:** `06_Design/Style_instructions.md`
 - **Change:** File created: instructions for an agent to write `06_Design/Style.md`, the base of the design library, from the images in `01_Moodboard/Selected_Style/` and Marco's note on each.

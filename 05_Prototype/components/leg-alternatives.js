@@ -2,7 +2,7 @@
  * Component: <leg-alternatives>
  * Defined in: SPEC-02 (Architecture), used only there
  * Used by: SPEC-02, under the map of a run that is late or cancelled
- * Reads: `DATA.runs[run].alternatives` (at most 8 shown)
+ * Reads: `DATA.runs[run].alternatives` (at most 8 shown); `DATA.ways.ways_out`, for the last way to the door when the run is cancelled (SPEC-05)
  * Reacts to: a tap on a slot, which selects the alternative (event "alt-select": the map draws it in colour) and opens
  *   its details with "Choose" (event "alt-choose"); "Details and map" opens the page of the alternative (PG-17)
  */
@@ -75,6 +75,10 @@
       }
       this.appendChild(row);
       this.appendChild(panel);
+      const s = P.runState(this.getAttribute("run")), trip = P.trip(this.getAttribute("trip")) || P.followedTrip();
+      if (s.state === "cancelled" && this.getAttribute("run") === DATA.ways.ways_out.run) { // the ways out end here (SPEC-05 rule 3)
+        this.appendChild(P.el("p", "notice", P.fill(R.last_way, { time: DATA.ways.ways_out.last_way, door: P.doorName(trip.to) })));
+      }
     }
   }
 

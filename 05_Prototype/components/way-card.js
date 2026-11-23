@@ -3,6 +3,7 @@
  * Defined in: SPEC-01 (Architecture)
  * Used by: SPEC-08 (every way door to door)
  * Reads: one way of `DATA.ways.search.ways[]`, set with .way; `DATA.ways.search` for the doors and the way back
+ *   Holds <way-strip>
  * Reacts to: the link to its detail (way.html); "Take this way today" and "Save to your trips", which send a "way-today" or "way-save" event; nothing changes here
  */
 (function () {
@@ -17,9 +18,9 @@
       const h = P.el("h3", "", w.label);
       if (w.sold_out) { h.appendChild(document.createTextNode(" ")); h.appendChild(P.el("span", "badge badge-todo", W.sold_out)); }
       this.appendChild(h);
-      const legs = P.el("p", "legs");
-      w.legs.forEach(function (l) { legs.appendChild(P.el("span", "key key-" + l.mode, l.text)); });
-      this.appendChild(legs);
+      const strip = document.createElement("way-strip");
+      strip.legs = w.legs;
+      this.appendChild(strip);
       const h_ = Math.floor(w.minutes / 60), m = w.minutes % 60;
       this.appendChild(P.el("p", "", P.fill(W.times, { dep: w.dep, arr: w.arr_door,
         minutes: h_ ? P.fill(P.T.run.alt_duration, { h: h_, m: m }) : P.fill(P.T.run.alt_duration_min, { m: m }) })));

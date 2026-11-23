@@ -1,6 +1,6 @@
 /*
  * Script: common, loaded by every screen after the data files.
- * Shows: the shared parts of SPEC-01 (Architecture): the configurator (<scenario-switch>) and the app bar with navigation,
+ * Shows: the shared parts of SPEC-01 (Architecture): the configurator (<scenario-switch>) and the app bar with navigation (<app-bar>),
  *   and the helpers the web components in ../components/ use (Proto). Loaded before the components.
  */
 (function () {
@@ -52,22 +52,17 @@
   function stateClass(state) { return "state state-" + String(state).replace(/\s+/g, "-"); }
 
   // The configurator, in a bar of its own at the top, then the app bar: product, mock clock, navigation
-  // (SPEC-01, Information architecture).
+  // (SPEC-01, Information architecture), in <app-bar>.
   function shell() {
-    const s = scenario;
-    const bar = el("header", "app-bar");
-    const left = el("div");
-    left.appendChild(link("index.html", T.common.product));
-    left.appendChild(el("p", "meta", fill(T.common.clock, { weekday: DATA.clock.weekday, date: DATA.clock.date, now: s.now })));
-    bar.appendChild(left);
-    const nav = el("nav");
-    nav.setAttribute("aria-label", T.common.product);
-    const ul = el("ul");
-    T.nav.forEach(function (n) { const li = el("li"); li.appendChild(link(n.file, (!travelDay && n.label_off) || n.label)); ul.appendChild(li); });
-    nav.appendChild(ul);
-    bar.appendChild(nav);
-    document.body.insertBefore(bar, document.body.firstChild);
+    document.body.insertBefore(document.createElement("app-bar"), document.body.firstChild);
     configBar();
+  }
+
+  // The head of a page, <page-head>: way back, title, intro, notes (see the component).
+  function head(main, h) {
+    const node = document.createElement("page-head");
+    node.head = h;
+    return main.appendChild(node);
   }
 
   // The configurator alone, at the very top: every screen has it, the lock screen without the app bar.
@@ -154,7 +149,7 @@
 
   window.Proto = { T: T, params: params, scenarioKey: scenarioKey, scenario: scenario,
     dataKey: dataKey, at: at, travelDay: travelDay, signal: signal, tripState: tripState, passenger: passenger, nextTravelDay: nextTravelDay,
-    configBar: configBar, fill: fill, el: el, link: link, href: href, ticketLine: ticketLine, runState: runState, stateClass: stateClass, shell: shell,
+    configBar: configBar, head: head, fill: fill, el: el, link: link, href: href, ticketLine: ticketLine, runState: runState, stateClass: stateClass, shell: shell,
     disagreeing: disagreeing, trip: trip, followedTrip: followedTrip,
     choice: choice, effectiveTrip: effectiveTrip, doorName: doorName, legStates: legStates };
 })();

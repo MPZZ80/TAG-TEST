@@ -1,3 +1,3 @@
 # Prototype Style
 
-`style.css`, the only stylesheet: a placeholder until Marco provides the real style. Every colour, font, size and spacing is a custom property in `:root`.
+`style.css`, the only stylesheet: the style of `../../06_Design/Style.md` (2026-11-23). Every colour, font, size and spacing is a custom property in `:root`, with the tokens of that file.

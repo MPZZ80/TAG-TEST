@@ -35,5 +35,17 @@ The web components of the prototype, one file per component, named after its tag
 | `announced-list.js` | `<announced-list>`: works and strikes announced for coming travel days, and when the commuter is told | SPEC-03 | SPEC-03 |
 | `share-updates.js` | `<share-updates>`: "Share updates" with the share icon: the trip's link handed to the phone's share sheet, or a sheet of the prototype's own that sends nothing | SPEC-06 | SPEC-06, on Today (SPEC-04) and every leg of Run (SPEC-02, SPEC-05) |
 | `first-trip-cta.js` | `<first-trip-cta>`: the invitation to set up the first trip | SPEC-01 | SPEC-01, SPEC-02, SPEC-17 |
+| `app-bar.js` | `<app-bar>`: the product, the mock clock and the navigation as chips, the page open marked | SPEC-01 | every screen of the product |
+| `page-head.js` | `<page-head>`: the way back, the title, the line under it, a state badge and the notes of the whole page | SPEC-01 | every screen of the product |
+| `trip-list.js` | `<trip-list>`: the trips as `<trip-card>`s; with `manage`, the trip followed today, rename and delete (not kept) | SPEC-17 | SPEC-04, SPEC-17 |
+| `leg-card.js` | `<leg-card>`: a leg with no run of the schedule: on one's own (with `<leg-problem>`) or from a chosen alternative | SPEC-02 | SPEC-02 |
+| `sources-dialog.js` | `<sources-dialog>`: the dialog with what each source says, opened from the info button of `<run-card>` | SPEC-02 | SPEC-02 |
+| `alternative-detail.js` | `<alternative-detail>`: an alternative's details, its route, the trip with it, the arrival at the door, "Choose this way" | SPEC-02 | SPEC-02 |
+| `way-strip.js` | `<way-strip>`: a way as one row of segments in the colours of its means | SPEC-08 | SPEC-08, SPEC-09 |
+| `way-results.js` | `<way-results>`: the ways found, ordered by leave after or arrive by, taken today or saved (not kept) | SPEC-08 | SPEC-08 |
+| `ticket-list.js` | `<ticket-list>`: the tickets held, the way to book, adding a ticket bought elsewhere | SPEC-10 | SPEC-10 |
+| `screen-index.js` | `<screen-index>`: the starting notifications and the list of the screens, for review | Prototype_Instructions.md, section 9 | `index.html` |
+| `lock-phone.js` | `<lock-phone>`: the fake phone of the lock screen, holding `<message-preview>` | SPEC-01 | the lock screen |
 
+- The screens' scripts only place components and pass them what they need; every part of a page is a component (2026-11-23).
 - Only the components of the screens built so far are here; the others are described in the specifications (`../../04_Specifications/`, section "Architecture") and are added when their screen is built.
